@@ -12,3 +12,9 @@ id = "bbyZPawgh8YB2ajC5XnRh"
 uri = "file://artifacts/znbw-website/src/assets/hero-bg-sunny.png"
 type = "image"
 title = "singapore-sunny-hero"
+
+[[generated]]
+id = "LmZ3eXT9LXsFEVstXd5le"
+uri = "file://artifacts/znbw-website/src/assets/hero-bg-clean.png"
+type = "image"
+title = "singapore-clean-minimal-hero"

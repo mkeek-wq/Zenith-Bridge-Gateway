@@ -1,5 +1,5 @@
 import { PublicLayout } from "@/components/layout/PublicLayout";
-import heroBg from "@/assets/hero-bg-sunny.png";
+import heroBg from "@/assets/hero-bg-clean.png";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
@@ -19,8 +19,8 @@ export default function Home() {
             alt="Singapore Skyline" 
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-[#0d1f3c]/55" />
-          <div className="absolute inset-0 bg-gradient-to-l from-[#0d1f3c]/30 to-transparent" />
+          <div className="absolute inset-0 bg-[#0d1f3c]/60" />
+          <div className="absolute inset-0 bg-gradient-to-l from-[#0d1f3c]/35 to-transparent" />
           <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent" />
         </div>
         
