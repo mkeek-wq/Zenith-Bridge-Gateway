@@ -6,3 +6,9 @@ id = "Cpu8FqqN_7D69hPtvVSsJ"
 uri = "file://artifacts/znbw-website/src/assets/hero-bg.png"
 type = "image"
 title = "singapore-skyline-hero"
+
+[[generated]]
+id = "bbyZPawgh8YB2ajC5XnRh"
+uri = "file://artifacts/znbw-website/src/assets/hero-bg-sunny.png"
+type = "image"
+title = "singapore-sunny-hero"
