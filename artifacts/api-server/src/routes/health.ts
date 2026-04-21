@@ -8,4 +8,14 @@ router.get("/healthz", (_req, res) => {
   res.json(data);
 });
 
+router.get("/version", (req, res) => {
+  res.json({
+    service: "zenith-api",
+    version: "1.0.0"
+  });
+});
+
+
+
+
 export default router;

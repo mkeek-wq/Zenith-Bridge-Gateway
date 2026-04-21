@@ -46,7 +46,7 @@ export default function Editorials() {
           ) : (
             <>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {data?.articles.map((article, i) => (
+                {(data?.articles ?? []).map((article, i) => (
                   <Link key={article.id} href={`/editorials/${article.id}`}>
                     <motion.div 
                       initial={{ opacity: 0, y: 20 }}

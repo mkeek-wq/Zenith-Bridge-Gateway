@@ -1,15 +1,37 @@
+import { z } from "zod";
 import { Router, type IRouter, type Request, type Response, type NextFunction } from "express";
 import { eq, desc } from "drizzle-orm";
 import { db, articlesTable, adminUsersTable } from "@workspace/db";
 import bcrypt from "bcryptjs";
-import {
-  AdminLoginBody,
-  CreateArticleBody,
-  UpdateArticleBody,
-  UpdateArticleParams,
-  DeleteArticleParams,
-} from "@workspace/api-zod";
 import { logger } from "../lib/logger";
+
+
+const AdminLoginBody = z.object({
+  username: z.string(),
+  password: z.string(),
+});
+
+const CreateArticleBody = z.object({
+  title: z.string(),
+  excerpt: z.string(),
+  content: z.string(),
+  category: z.string(),
+  author: z.string(),
+  published: z.boolean().optional(),
+  featured: z.boolean().optional(),
+  coverImage: z.string().nullable().optional(),
+});
+
+const UpdateArticleBody = CreateArticleBody.partial();
+
+const UpdateArticleParams = z.object({
+  id: z.string(),
+});
+
+const DeleteArticleParams = z.object({
+  id: z.string(),
+});
+
 
 declare module "express-session" {
   interface SessionData {
@@ -160,7 +182,7 @@ router.put("/admin/articles/:id", requireAdmin, async (req, res): Promise<void> 
   const existingArticle = await db
     .select()
     .from(articlesTable)
-    .where(eq(articlesTable.id, params.data.id));
+    .where(eq(articlesTable.id, Number(params.data.id)));
 
   if (!existingArticle[0]) {
     res.status(404).json({ error: "not_found", message: "Article not found" });
@@ -178,7 +200,7 @@ router.put("/admin/articles/:id", requireAdmin, async (req, res): Promise<void> 
   const [updated] = await db
     .update(articlesTable)
     .set(updateData)
-    .where(eq(articlesTable.id, params.data.id))
+    .where(eq(articlesTable.id, Number(params.data.id)))
     .returning();
 
   res.json(toApiArticle(updated));
@@ -193,7 +215,7 @@ router.delete("/admin/articles/:id", requireAdmin, async (req, res): Promise<voi
 
   const [deleted] = await db
     .delete(articlesTable)
-    .where(eq(articlesTable.id, params.data.id))
+    .where(eq(articlesTable.id, Number(params.data.id)))
     .returning();
 
   if (!deleted) {

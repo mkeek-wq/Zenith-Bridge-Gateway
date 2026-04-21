@@ -7,7 +7,7 @@ import contactRouter from "./contact";
 const router: IRouter = Router();
 
 router.use(healthRouter);
-router.use(articlesRouter);
+router.use("/articles", articlesRouter);
 router.use(adminRouter);
 router.use(contactRouter);
 

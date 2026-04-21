@@ -7,10 +7,19 @@
     "build": "pnpm run typecheck && pnpm -r --if-present run build",
     "typecheck:libs": "tsc --build",
     "typecheck": "pnpm run typecheck:libs && pnpm -r --filter \"./artifacts/**\" --filter \"./scripts\" --if-present run typecheck"
+"dev": "concurrently \"pnpm:dev:api\" \"pnpm:dev:web\"",
+"dev:api": "pnpm --filter @workspace/api-server dev",
+"dev:web": "pnpm --filter @workspace/znbw-website dev"
   },
   "private": true,
   "devDependencies": {
-    "typescript": "~5.9.2",
-    "prettier": "^3.8.1"
+    "concurrently": "^9.2.1",
+    "nodemon": "^3.1.14",
+    "prettier": "^3.8.1",
+    "tsx": "catalog:",
+    "typescript": "~5.9.2"
+  },
+  "dependencies": {
+    "zod": "catalog:"
   }
 }

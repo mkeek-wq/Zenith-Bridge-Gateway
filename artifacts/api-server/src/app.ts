@@ -10,6 +10,7 @@ if (!process.env.SESSION_SECRET) {
 }
 
 const app: Express = express();
+app.disable("x-powered-by");
 
 app.use(
   pinoHttp({

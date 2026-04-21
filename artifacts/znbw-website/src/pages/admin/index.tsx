@@ -80,7 +80,7 @@ export default function AdminDashboard() {
                 <TableCell colSpan={5} className="text-center py-8 text-muted-foreground">No articles found. Create one to get started.</TableCell>
               </TableRow>
             ) : (
-              articles?.map((article) => (
+              (Array.isArray(articles) ? articles : []).map((article) => (
                 <TableRow key={article.id}>
                   <TableCell className="font-medium">
                     <div className="flex items-center gap-2">

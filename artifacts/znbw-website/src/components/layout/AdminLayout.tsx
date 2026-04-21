@@ -24,7 +24,7 @@ export function AdminLayout({ children }: { children: React.ReactNode }) {
   }, [session, isLoading, setLocation]);
 
   const handleLogout = () => {
-    logout.mutate({}, {
+    logout.mutate(undefined, {
       onSuccess: () => {
         queryClient.setQueryData(getAdminMeQueryKey(), null);
         setLocation("/admin/login");
