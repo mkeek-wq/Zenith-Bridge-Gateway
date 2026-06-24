@@ -205,6 +205,59 @@ Remaining Improvements:
 
 ---
 
+---
+
+## HYG-007 — Lineage & Transparency Foundation
+
+Status:
+Substantially Complete
+
+Date:
+2026-06-24
+
+Objective:
+Establish a canonical source-to-publication lineage model and close CODEX_AUDIT_A-002 lineage governance findings.
+
+Deliverables:
+
+- LINEAGE_MODEL_v1
+
+Completion Evidence:
+
+- Canonical lineage chain documented
+- Source-to-publication traceability model documented
+- Signal layer incorporated into lineage model
+- Governance rules documented
+- Existing lineage components mapped
+- Audit remediation documented
+- Governance document committed to repository
+- Governance document pushed to GitHub
+
+Result:
+
+CODEX_AUDIT_A-002 HIGH-003 substantially remediated.
+
+Remaining Improvements:
+
+- EVIDENCE_OBJECT_STANDARD_v1
+- CONFIDENCE_SCORING_STANDARD_v1
+- SOURCE_TO_PUBLICATION_TRACEABILITY_MATRIX_v1
+- Transparency reporting layer
+- Client transparency views
+- Publication traceability dashboard
+
+Related Documents:
+
+- LINEAGE_MODEL_v1
+- ARCHITECTURE_PRINCIPLES_v1
+- ARCHITECTURE_OVERVIEW_v1
+- SYSTEM_MAP_v1
+- ASSET_INVENTORY_v1
+- INTELLIGENCE_CENTER_v1
+- SMURF_ENGINE_v1
+
+---
+
 # Next Hygiene Phase
 
 ## HYG-010 — Asset Discovery & Classification
