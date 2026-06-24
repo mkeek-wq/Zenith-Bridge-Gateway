@@ -1,8 +1,8 @@
 # HYGIENE_ROADMAP_v1
 
 Status: Active
-Version: 1.0
-Last Updated: 2026-06-23
+Version: 1.1
+Last Updated: 2026-06-24
 
 Purpose:
 Track ZNBW hygiene phases, completion status and next audit milestones.
@@ -77,15 +77,30 @@ Build
 
 ---
 
-# Next Milestone
+# Codex Audit Status
 
 ## CODEX_AUDIT_A-001
 
 Status:
-Ready After Roadmap Creation
+Completed
+
+Result:
+Initial audit could not review governance content because governance documents had not yet been pushed to GitHub.
+
+Outcome:
+Confirmed governance synchronization gap between VPS working state and GitHub repository.
+
+---
+
+## CODEX_AUDIT_A-002
+
+Status:
+Completed
 
 Scope:
 
+- System Map
+- Asset Inventory
 - Architecture
 - Operations
 - Recovery
@@ -93,16 +108,100 @@ Scope:
 - Security Surface
 - Dependencies
 - Technical Debt
+- Hygiene Roadmap
+
+Outcome:
+Governance baseline reviewed by Codex.
+
+Assessment:
+Strong Phase B / early Phase C foundation.
+
+Governance Maturity:
+2.8 / 5
+
+Highest Priority Findings:
+
+- CRIT-001: Public runtime ports 5173 and 8080 exposed
+- CRIT-002: Database-only backup and restore missing
+- CRIT-003: Client onboarding governance missing
+
+---
+
+# Immediate Remediation Status
+
+## CRIT-001 — Public Runtime Port Exposure
+
+Status:
+Partially Remediated
+
+Date:
+2026-06-24
+
+Actions Completed:
+
+- Removed public UFW rule for 5173/tcp
+- Removed public UFW rule for 8080/tcp
+- Removed IPv6 UFW rule for 5173/tcp
+- Removed IPv6 UFW rule for 8080/tcp
+- Verified UFW now exposes only OpenSSH, 80/tcp and 443/tcp
+- Verified public admin route remains reachable through Nginx
+- Verified public API domain remains reachable through Nginx
+
+Evidence Commands:
+
+sudo ufw status numbered
+
+curl -I https://zenithnovabridgewave.com/admin
+
+curl -I https://api.zenithnovabridgewave.com
+
+Remaining Improvement:
+
+- Bind zenith-api runtime to 127.0.0.1
+- Bind zenith-admin runtime to 127.0.0.1
+
+---
+
+# Next Milestone
+
+## HYG-006 — Database Backup & Recovery
+
+Status:
+Substantially Complete
 
 Objective:
-Identify weak spots in the documented system landscape before deeper intelligence-layer expansion.
+Close CODEX_AUDIT_A-002 CRIT-002 by implementing database-only backup, restore documentation and restore verification.
 
-Expected Output:
+Target Deliverables:
 
-- Audit findings
-- Risk ranking
-- Recommended remediation
-- Technical debt register updates
+- DATABASE_BACKUP_AND_RESTORE_v1
+- Scheduled pg_dump backup
+- Backup retention policy
+- Restore procedure
+- First restore verification evidence
+Completion Evidence:
+
+- PostgreSQL logical backup script created
+- Manual backup completed successfully
+- Restore test database created
+- Backup restored successfully into zenith_restore_test
+- Public tables verified
+- Row counts verified
+- Restore test database dropped after verification
+- Nightly root cron configured for 02:15 server time
+- DATABASE_BACKUP_AND_RESTORE_v1 created
+
+Result:
+CODEX_AUDIT_A-002 CRIT-002 substantially remediated.
+
+Remaining Improvements:
+
+- Automated backup success monitoring
+- Off-server backup copy
+- Periodic restore-test schedule
+- Backup encryption review
+- Backup failure alerting
+- RPO/RTO targets
 
 ---
 
