@@ -47,3 +47,55 @@ Thumbs.db
 # Replit
 .cache/
 .local/
+
+
+# ZNBW hygiene exclusions
+
+# Environment / secrets
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Local backups and temporary save files
+*.bak
+*.backup
+*.save
+*.broken.backup
+*.tsbuildinfo
+
+# Local test artifacts
+test.jpg
+test.txt
+
+# Accidental shell/operator artifacts
+0
+=
+
+# Build outputs
+dist/
+build/
+out/
+coverage/
+
+# Logs
+*.log
+logs/
+
+# Generated / compiled local outputs
+*.js.map
+
+# Local database/runtime files
+*.sqlite
+*.sqlite3
+
+# Local archive / audit outputs pending classification
+audit-packages/
+
+# Disabled local source snapshots
+*_DISABLED/
+src_backup_DISABLED/
+
+# Extended backup naming patterns
+*.bak-*
+*.backup-*
