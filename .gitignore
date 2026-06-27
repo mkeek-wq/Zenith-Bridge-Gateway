@@ -99,3 +99,4 @@ src_backup_DISABLED/
 # Extended backup naming patterns
 *.bak-*
 *.backup-*
+governance/09-benchmarks/replay-benchmark-results/*.json

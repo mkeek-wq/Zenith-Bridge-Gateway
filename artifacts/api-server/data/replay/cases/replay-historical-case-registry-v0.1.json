@@ -1,0 +1,95 @@
+{
+  "version": "replay-historical-case-registry-v0.1",
+  "created_at": "2026-06-27T00:00:00.000Z",
+  "cases": [
+    {
+      "case_id": "HIST-SG-MFG-RECOVERY-2021",
+      "title": "Singapore manufacturing recovery 2021",
+      "region": "Singapore",
+      "sector": "Manufacturing",
+      "period": "2021",
+      "mechanisms": [
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY",
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "keywords": [
+        "manufacturing",
+        "recovery",
+        "external demand",
+        "inventory cycle"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "case_id": "HIST-SG-NODX-RECOVERY-2021",
+      "title": "Singapore NODX recovery 2021",
+      "region": "Singapore",
+      "sector": "Trade",
+      "period": "2021",
+      "mechanisms": [
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "keywords": [
+        "NODX",
+        "exports",
+        "trade recovery",
+        "external demand"
+      ],
+      "confidence": 0.7
+    },
+    {
+      "case_id": "HIST-GLOBAL-COVID-LOGISTICS-2020",
+      "title": "COVID logistics shock 2020",
+      "region": "Global",
+      "sector": "Logistics",
+      "period": "2020",
+      "mechanisms": [
+        "SUPPLY_CHAIN_DISRUPTION",
+        "SHIPPING_CONGESTION"
+      ],
+      "keywords": [
+        "covid",
+        "shipping",
+        "ports",
+        "supply chain"
+      ],
+      "confidence": 0.7
+    },
+    {
+      "case_id": "HIST-CHINA-SLOWDOWN-2015",
+      "title": "China slowdown 2015",
+      "region": "China / Asia",
+      "sector": "Manufacturing",
+      "period": "2015-2016",
+      "mechanisms": [
+        "GLOBAL_DEMAND_WEAKNESS",
+        "CHINA_SLOWDOWN"
+      ],
+      "keywords": [
+        "china",
+        "slowdown",
+        "manufacturing",
+        "commodity downturn"
+      ],
+      "confidence": 0.65
+    },
+    {
+      "case_id": "HIST-GLOBAL-ENERGY-CRISIS-2022",
+      "title": "2022 energy crisis",
+      "region": "Global",
+      "sector": "Energy",
+      "period": "2022",
+      "mechanisms": [
+        "ENERGY_PRICE_SHOCK",
+        "INFLATION_PRESSURE"
+      ],
+      "keywords": [
+        "energy",
+        "oil",
+        "gas",
+        "inflation"
+      ],
+      "confidence": 0.7
+    }
+  ]
+}
