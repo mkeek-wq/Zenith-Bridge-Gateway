@@ -90,6 +90,91 @@
         "inflation"
       ],
       "confidence": 0.7
+    },
+    {
+      "case_id": "HIST-SG-SARS-2003",
+      "title": "Singapore SARS shock",
+      "region": "Singapore",
+      "sector": "Tourism",
+      "period": "2003",
+      "mechanisms": [
+        "DEMAND_SHOCK",
+        "TRAVEL_DISRUPTION"
+      ],
+      "keywords": [
+        "sars",
+        "tourism",
+        "travel",
+        "services"
+      ]
+    },
+    {
+      "case_id": "HIST-SG-TOURISM-COVID-2020",
+      "title": "Singapore tourism collapse during COVID",
+      "region": "Singapore",
+      "sector": "Tourism",
+      "period": "2020",
+      "mechanisms": [
+        "DEMAND_SHOCK",
+        "TRAVEL_DISRUPTION"
+      ],
+      "keywords": [
+        "tourism",
+        "covid",
+        "travel",
+        "visitor arrivals"
+      ]
+    },
+    {
+      "case_id": "HIST-ASIAN-FINANCIAL-CRISIS-1997",
+      "title": "Asian Financial Crisis",
+      "region": "Asia",
+      "sector": "Financial",
+      "period": "1997",
+      "mechanisms": [
+        "CREDIT_STRESS",
+        "CAPITAL_OUTFLOW"
+      ],
+      "keywords": [
+        "financial crisis",
+        "capital flows",
+        "currency",
+        "banking"
+      ]
+    },
+    {
+      "case_id": "HIST-GFC-2008",
+      "title": "Global Financial Crisis",
+      "region": "Global",
+      "sector": "Financial",
+      "period": "2008",
+      "mechanisms": [
+        "CREDIT_STRESS",
+        "DEMAND_COLLAPSE"
+      ],
+      "keywords": [
+        "financial crisis",
+        "recession",
+        "banking",
+        "credit"
+      ]
+    },
+    {
+      "case_id": "HIST-SG-ELECTRONICS-DOWNTURN-2023",
+      "title": "Singapore electronics export downturn",
+      "region": "Singapore",
+      "sector": "Electronics",
+      "period": "2023",
+      "mechanisms": [
+        "INVENTORY_CORRECTION",
+        "GLOBAL_DEMAND_WEAKNESS"
+      ],
+      "keywords": [
+        "electronics",
+        "semiconductors",
+        "exports",
+        "inventory"
+      ]
     }
   ]
 }
