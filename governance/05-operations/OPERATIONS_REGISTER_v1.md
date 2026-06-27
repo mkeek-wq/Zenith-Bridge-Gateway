@@ -321,3 +321,120 @@ Track in SECURITY_SURFACE_v1.
 * BACKUP_AND_RESTORE_v1
 * SECURITY_SURFACE_v1
 * DEPENDENCY_REGISTER_v1
+
+---
+
+# Operational Milestone – 2026-06-26
+
+## Title
+
+First Complete Orchestrated Village Execution
+
+## Summary
+
+The ZNBW Intelligence Village successfully completed its first fully governed end-to-end downstream execution.
+
+The following worker chain executed successfully:
+
+```text
+Coverage
+Graph
+Signal
+Replay
+Workbench
+```
+
+Results:
+
+```text
+Workers completed: 5
+Failures: 0
+Bottlenecks: 0
+```
+
+## New Components Introduced
+
+* Human Approval Gate
+* SysAdmin Troll Governance Layer
+* Smurf Registry
+* Dependency-aware Promoter Dispatch
+* Replay Worker
+* Workbench Worker
+* Historian
+* Village Execution History
+* Historian Summary
+
+## Architectural Decisions
+
+### Brainy Smurf
+
+Brainy was removed from the operational pipeline and repositioned as an independent research and architecture layer.
+
+Brainy:
+
+* studies village performance,
+* proposes improvements,
+* may consult external AI,
+* has no production authority.
+
+### AI Governance
+
+AI remains outside the governed ecosystem and may only be consulted through Brainy.
+
+### Village Law #1
+
+No Smurf except approved ingestion Smurfs may acquire external data.
+
+The SysAdmin Troll now enforces this rule.
+
+### Parallel Execution
+
+The Promoter now supports dependency-aware execution.
+
+Current downstream execution plan:
+
+```text
+Stage 1
+Coverage
+
+Stage 2
+Graph
+Signal
+
+Stage 3
+Replay
+
+Stage 4
+Workbench
+```
+
+## Replay Status
+
+Replay completed successfully in dry-run mode.
+
+```text
+Cases processed: 4
+Records replayed: 11
+Fleet quality score: 1.00
+Mechanism coverage: 1.00
+Average calibration score: 0.82
+Mechanisms calibrated: 3
+```
+
+Production mutation remains disabled.
+
+## Historian Status
+
+Historian successfully recorded the first complete village execution.
+
+This establishes operational memory for:
+
+* runtime analysis,
+* bottleneck detection,
+* future Brainy optimisation,
+* future scaling decisions.
+
+## Significance
+
+This milestone marks the transition from a collection of scripts to an orchestrated intelligence operating system.
+
