@@ -1,0 +1,104 @@
+{
+  "version": "replay-benchmark-cases-v0.1",
+  "cases": [
+    {
+      "benchmark_id": "BM-001",
+      "title": "COVID logistics shock",
+      "event_period": "2020-2021",
+      "region": "Global",
+      "sector": "Logistics",
+      "expected_mechanisms": [
+        "Supply Chain Disruption",
+        "Shipping Congestion"
+      ],
+      "expected_analogues": [
+        "COVID 2020",
+        "Suez Canal disruption"
+      ],
+      "minimum_confidence": 0.45,
+      "maximum_confidence": 0.95
+    },
+    {
+      "benchmark_id": "BM-002",
+      "title": "China slowdown 2015",
+      "event_period": "2015-2016",
+      "region": "China / Asia",
+      "sector": "Manufacturing",
+      "expected_mechanisms": [
+        "Global Demand Weakness",
+        "China Slowdown"
+      ],
+      "expected_analogues": [
+        "China slowdown 2015",
+        "Commodity downturn"
+      ],
+      "minimum_confidence": 0.45,
+      "maximum_confidence": 0.9
+    },
+    {
+      "benchmark_id": "BM-003",
+      "title": "2022 energy crisis",
+      "event_period": "2022",
+      "region": "Global",
+      "sector": "Energy / Inflation",
+      "expected_mechanisms": [
+        "Energy Price Shock",
+        "Inflation Pressure"
+      ],
+      "expected_analogues": [
+        "2022 energy crisis",
+        "1973 oil crisis"
+      ],
+      "minimum_confidence": 0.45,
+      "maximum_confidence": 0.95
+    },
+    {
+      "benchmark_id": "BM-004",
+      "title": "Global financial crisis",
+      "event_period": "2008-2009",
+      "region": "Global",
+      "sector": "Financial System",
+      "expected_mechanisms": [
+        "Credit Stress",
+        "Demand Collapse"
+      ],
+      "expected_analogues": [
+        "Global financial crisis 2008",
+        "Asian financial crisis"
+      ],
+      "minimum_confidence": 0.5,
+      "maximum_confidence": 0.95
+    },
+    {
+      "benchmark_id": "BM-005",
+      "title": "Semiconductor downturn",
+      "event_period": "2022-2023",
+      "region": "Asia",
+      "sector": "Semiconductors",
+      "expected_mechanisms": [
+        "Inventory Correction",
+        "Electronics Demand Weakness"
+      ],
+      "expected_analogues": [
+        "Semiconductor cycle downturn",
+        "Electronics export slowdown"
+      ],
+      "minimum_confidence": 0.45,
+      "maximum_confidence": 0.9
+    },
+    {
+      "benchmark_id": "BM-006",
+      "title": "Singapore manufacturing recovery",
+      "event_period": "2020-2021",
+      "region": "Singapore",
+      "sector": "Manufacturing",
+      "expected_mechanisms": [
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY",
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "expected_analogues": [],
+      "minimum_confidence": 0.0,
+      "maximum_confidence": 1.0
+    }
+  ]
+}
