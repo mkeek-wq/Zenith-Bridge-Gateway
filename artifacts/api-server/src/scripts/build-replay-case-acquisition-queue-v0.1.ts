@@ -28,7 +28,20 @@ const suggestionLibrary: Record<string, string[]> = {
   SANCTIONS_SHOCK: ["Russia sanctions 2022", "Iran sanctions tightening", "Trade embargo case study"],
   POLICY_TIGHTENING: ["Singapore property cooling measures", "China property deleveraging", "Fed tightening 2022"],
   LABOUR_SUPPLY_CONSTRAINT: ["Singapore reopening labour shortage", "Post-COVID labour shortage", "Construction labour shortage"],
-  COMMODITY_PRICE_SHOCK: ["Oil price collapse 2014", "Commodity supercycle 2000s", "Nickel price shock 2022"]
+  COMMODITY_PRICE_SHOCK: ["Oil price collapse 2014", "Commodity supercycle 2000s", "Nickel price shock 2022"],
+  MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY: ["Singapore manufacturing recovery 2021", "US industrial production recovery 2010", "China industrial recovery 2016"],
+  CHINA_SLOWDOWN: ["China industrial slowdown 2015", "China property slowdown 2022", "China reopening disappointment 2023"],
+  CAPITAL_OUTFLOW: ["Asian Financial Crisis 1997", "Taper Tantrum 2013", "Turkey currency crisis 2018"],
+  VALUATION_RESET: ["Dotcom crash 2000", "Global tech selloff 2022", "China internet stock reset 2021"],
+  SOVEREIGN_RISK: ["Euro debt crisis 2011", "Greece debt crisis 2010", "Argentina sovereign default 2001"],
+  SUPPLY_SHOCK: ["1973 oil shock", "2011 Japan earthquake supply shock", "COVID factory shutdowns 2020"],
+  CAPEX_CYCLE_DOWNTURN: ["Oil capex downturn 2014", "Semiconductor capex correction 2019", "Mining capex downturn 2012"],
+  INVENTORY_STRESS: ["COVID inventory stress 2021", "Semiconductor shortage 2021", "Retail inventory overhang 2022"],
+  SECTOR_SPECIFIC_DEMAND_SURGE: ["Biomedical demand surge 2020", "Semiconductor demand surge 2021", "E-commerce logistics surge 2020"],
+  HEALTHCARE_DEMAND_SHOCK: ["COVID healthcare demand shock 2020", "H1N1 healthcare demand shock 2009", "SARS healthcare shock 2003"],
+  GLOBAL_DEMAND_RECOVERY: ["Global manufacturing recovery 2010", "Post-COVID goods demand recovery 2021", "China reopening recovery 2023"],
+  INVENTORY_REBUILD: ["Semiconductor inventory rebuild 2021", "Automotive inventory rebuild 2022", "Retail restocking cycle 2021"],
+  CAPACITY_EXPANSION: ["Semiconductor capacity expansion 2021", "LNG capacity expansion cycle", "Data center capacity expansion 2023"]
 };
 
 function suggestionsFor(mechanism: string): string[] {

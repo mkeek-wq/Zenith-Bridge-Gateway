@@ -1,6 +1,6 @@
 {
   "version": "replay-case-acquisition-queue-v0.1",
-  "generated_at": "2026-06-28T09:08:41.824Z",
+  "generated_at": "2026-06-28T09:20:19.644Z",
   "source_gap_report": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/replay/replay-mechanism-gap-report-v0.1.json",
   "queue_count": 20,
   "queue": [
@@ -13,9 +13,9 @@
       "target_case_count": 5,
       "missing_case_count": 4,
       "suggested_cases": [
-        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY historical case 1",
-        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY historical case 2",
-        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY historical case 3"
+        "Singapore manufacturing recovery 2021",
+        "US industrial production recovery 2010",
+        "China industrial recovery 2016"
       ],
       "status": "candidate_for_research"
     },
@@ -28,9 +28,9 @@
       "target_case_count": 5,
       "missing_case_count": 4,
       "suggested_cases": [
-        "CHINA_SLOWDOWN historical case 1",
-        "CHINA_SLOWDOWN historical case 2",
-        "CHINA_SLOWDOWN historical case 3"
+        "China industrial slowdown 2015",
+        "China property slowdown 2022",
+        "China reopening disappointment 2023"
       ],
       "status": "candidate_for_research"
     },
@@ -43,9 +43,9 @@
       "target_case_count": 5,
       "missing_case_count": 4,
       "suggested_cases": [
-        "CAPITAL_OUTFLOW historical case 1",
-        "CAPITAL_OUTFLOW historical case 2",
-        "CAPITAL_OUTFLOW historical case 3"
+        "Asian Financial Crisis 1997",
+        "Taper Tantrum 2013",
+        "Turkey currency crisis 2018"
       ],
       "status": "candidate_for_research"
     },
@@ -58,9 +58,9 @@
       "target_case_count": 5,
       "missing_case_count": 4,
       "suggested_cases": [
-        "VALUATION_RESET historical case 1",
-        "VALUATION_RESET historical case 2",
-        "VALUATION_RESET historical case 3"
+        "Dotcom crash 2000",
+        "Global tech selloff 2022",
+        "China internet stock reset 2021"
       ],
       "status": "candidate_for_research"
     },
@@ -73,9 +73,9 @@
       "target_case_count": 5,
       "missing_case_count": 4,
       "suggested_cases": [
-        "SOVEREIGN_RISK historical case 1",
-        "SOVEREIGN_RISK historical case 2",
-        "SOVEREIGN_RISK historical case 3"
+        "Euro debt crisis 2011",
+        "Greece debt crisis 2010",
+        "Argentina sovereign default 2001"
       ],
       "status": "candidate_for_research"
     },
@@ -88,9 +88,9 @@
       "target_case_count": 5,
       "missing_case_count": 4,
       "suggested_cases": [
-        "SUPPLY_SHOCK historical case 1",
-        "SUPPLY_SHOCK historical case 2",
-        "SUPPLY_SHOCK historical case 3"
+        "1973 oil shock",
+        "2011 Japan earthquake supply shock",
+        "COVID factory shutdowns 2020"
       ],
       "status": "candidate_for_research"
     },
@@ -118,9 +118,9 @@
       "target_case_count": 5,
       "missing_case_count": 4,
       "suggested_cases": [
-        "CAPEX_CYCLE_DOWNTURN historical case 1",
-        "CAPEX_CYCLE_DOWNTURN historical case 2",
-        "CAPEX_CYCLE_DOWNTURN historical case 3"
+        "Oil capex downturn 2014",
+        "Semiconductor capex correction 2019",
+        "Mining capex downturn 2012"
       ],
       "status": "candidate_for_research"
     },
@@ -133,9 +133,9 @@
       "target_case_count": 5,
       "missing_case_count": 4,
       "suggested_cases": [
-        "INVENTORY_STRESS historical case 1",
-        "INVENTORY_STRESS historical case 2",
-        "INVENTORY_STRESS historical case 3"
+        "COVID inventory stress 2021",
+        "Semiconductor shortage 2021",
+        "Retail inventory overhang 2022"
       ],
       "status": "candidate_for_research"
     },
@@ -148,9 +148,9 @@
       "target_case_count": 5,
       "missing_case_count": 4,
       "suggested_cases": [
-        "SECTOR_SPECIFIC_DEMAND_SURGE historical case 1",
-        "SECTOR_SPECIFIC_DEMAND_SURGE historical case 2",
-        "SECTOR_SPECIFIC_DEMAND_SURGE historical case 3"
+        "Biomedical demand surge 2020",
+        "Semiconductor demand surge 2021",
+        "E-commerce logistics surge 2020"
       ],
       "status": "candidate_for_research"
     },
@@ -163,9 +163,9 @@
       "target_case_count": 5,
       "missing_case_count": 4,
       "suggested_cases": [
-        "HEALTHCARE_DEMAND_SHOCK historical case 1",
-        "HEALTHCARE_DEMAND_SHOCK historical case 2",
-        "HEALTHCARE_DEMAND_SHOCK historical case 3"
+        "COVID healthcare demand shock 2020",
+        "H1N1 healthcare demand shock 2009",
+        "SARS healthcare shock 2003"
       ],
       "status": "candidate_for_research"
     },
@@ -178,9 +178,9 @@
       "target_case_count": 5,
       "missing_case_count": 4,
       "suggested_cases": [
-        "GLOBAL_DEMAND_RECOVERY historical case 1",
-        "GLOBAL_DEMAND_RECOVERY historical case 2",
-        "GLOBAL_DEMAND_RECOVERY historical case 3"
+        "Global manufacturing recovery 2010",
+        "Post-COVID goods demand recovery 2021",
+        "China reopening recovery 2023"
       ],
       "status": "candidate_for_research"
     },
@@ -193,9 +193,9 @@
       "target_case_count": 5,
       "missing_case_count": 4,
       "suggested_cases": [
-        "INVENTORY_REBUILD historical case 1",
-        "INVENTORY_REBUILD historical case 2",
-        "INVENTORY_REBUILD historical case 3"
+        "Semiconductor inventory rebuild 2021",
+        "Automotive inventory rebuild 2022",
+        "Retail restocking cycle 2021"
       ],
       "status": "candidate_for_research"
     },
@@ -208,9 +208,9 @@
       "target_case_count": 5,
       "missing_case_count": 4,
       "suggested_cases": [
-        "CAPACITY_EXPANSION historical case 1",
-        "CAPACITY_EXPANSION historical case 2",
-        "CAPACITY_EXPANSION historical case 3"
+        "Semiconductor capacity expansion 2021",
+        "LNG capacity expansion cycle",
+        "Data center capacity expansion 2023"
       ],
       "status": "candidate_for_research"
     },
