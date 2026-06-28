@@ -39,14 +39,28 @@ const historicalCasePath = path.join(
   "data/replay/cases/replay-historical-case-registry-v0.1.json"
 );
 
+const taxonomyPath = path.join(
+  apiRoot,
+  "data/replay/taxonomy/replay-mechanism-taxonomy-v0.1.json"
+);
+
 const outputDir = path.join(apiRoot, "data/replay/similarity");
 fs.mkdirSync(outputDir, { recursive: true });
 
 const replayData = JSON.parse(fs.readFileSync(absoluteReplayPath, "utf8"));
 const historicalData = JSON.parse(fs.readFileSync(historicalCasePath, "utf8"));
+const taxonomyData = JSON.parse(fs.readFileSync(taxonomyPath, "utf8"));
 
 const replayRecords: ReplayRecord[] = replayData.replayed_records ?? [];
 const historicalCases: HistoricalCase[] = historicalData.cases ?? [];
+
+const mechanismToFamily = new Map<string, string>();
+
+for (const family of taxonomyData.families ?? []) {
+  for (const mechanism of family.mechanisms ?? []) {
+    mechanismToFamily.set(mechanism, family.family_id);
+  }
+}
 
 function normalise(value: string): string {
   return value.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
@@ -71,7 +85,46 @@ function overlapRatio(a: string[], b: string[]): number {
 }
 
 function mechanismScore(record: ReplayRecord, historicalCase: HistoricalCase): number {
-  return overlapRatio(record.inferred_mechanisms ?? [], historicalCase.mechanisms);
+  const replayMechanisms = record.inferred_mechanisms ?? [];
+  const caseMechanisms = historicalCase.mechanisms ?? [];
+
+  if (!replayMechanisms.length || !caseMechanisms.length) return 0;
+
+  let bestScore = 0;
+
+  for (const replayMechanism of replayMechanisms) {
+    for (const caseMechanism of caseMechanisms) {
+      if (replayMechanism === caseMechanism) {
+        bestScore = Math.max(bestScore, 1.0);
+        continue;
+      }
+
+      const replayFamily = mechanismToFamily.get(replayMechanism);
+      const caseFamily = mechanismToFamily.get(caseMechanism);
+
+      if (replayFamily && replayFamily === caseFamily) {
+        bestScore = Math.max(bestScore, 0.7);
+      }
+    }
+  }
+
+  return bestScore;
+}
+
+function matchedMechanisms(record: ReplayRecord, historicalCase: HistoricalCase): string[] {
+  const replayMechanisms = record.inferred_mechanisms ?? [];
+  const caseMechanisms = historicalCase.mechanisms ?? [];
+
+  return caseMechanisms.filter((caseMechanism) => {
+    if (replayMechanisms.includes(caseMechanism)) return true;
+
+    const caseFamily = mechanismToFamily.get(caseMechanism);
+
+    return replayMechanisms.some((replayMechanism) => {
+      const replayFamily = mechanismToFamily.get(replayMechanism);
+      return Boolean(caseFamily && replayFamily && caseFamily === replayFamily);
+    });
+  });
 }
 
 function keywordScore(record: ReplayRecord, historicalCase: HistoricalCase): number {
@@ -105,9 +158,8 @@ const results = replayRecords.map((record) => {
       case_id: historicalCase.case_id,
       title: historicalCase.title,
       similarity_score: similarityScore(record, historicalCase),
-      matched_mechanisms: historicalCase.mechanisms.filter((m) =>
-        (record.inferred_mechanisms ?? []).includes(m)
-      )
+      mechanism_similarity: mechanismScore(record, historicalCase),
+      matched_mechanisms: matchedMechanisms(record, historicalCase)
     }))
     .sort((a, b) => b.similarity_score - a.similarity_score)
     .slice(0, 5);
@@ -122,10 +174,11 @@ const results = replayRecords.map((record) => {
 });
 
 const output = {
-  version: "replay-similarity-results-v0.1",
+  version: "replay-similarity-results-v0.2",
   generated_at: new Date().toISOString(),
   replay_output_source: absoluteReplayPath,
   historical_case_registry: historicalCasePath,
+  mechanism_taxonomy: taxonomyPath,
   replay_record_count: replayRecords.length,
   historical_case_count: historicalCases.length,
   results
