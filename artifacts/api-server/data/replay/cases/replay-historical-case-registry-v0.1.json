@@ -226,6 +226,221 @@
         "energy",
         "prices"
       ]
+    },
+    {
+      "case_id": "HIST-OIL-SHOCK-1973",
+      "title": "1973 oil shock",
+      "region": "Global",
+      "sector": "Energy",
+      "period": "1973-1974",
+      "mechanisms": [
+        "ENERGY_PRICE_SHOCK",
+        "INFLATION_PRESSURE",
+        "SUPPLY_SHOCK"
+      ],
+      "keywords": [
+        "oil",
+        "energy",
+        "inflation",
+        "supply shock"
+      ]
+    },
+    {
+      "case_id": "HIST-OIL-PRICE-COLLAPSE-2014",
+      "title": "Oil price collapse 2014",
+      "region": "Global",
+      "sector": "Energy",
+      "period": "2014-2016",
+      "mechanisms": [
+        "COMMODITY_PRICE_SHOCK",
+        "ENERGY_PRICE_SHOCK",
+        "CAPEX_CYCLE_DOWNTURN"
+      ],
+      "keywords": [
+        "oil",
+        "commodity",
+        "capex",
+        "energy investment"
+      ]
+    },
+    {
+      "case_id": "HIST-COVID-SUPPLY-CHAIN-2021",
+      "title": "COVID supply chain disruption",
+      "region": "Global",
+      "sector": "Logistics",
+      "period": "2020-2021",
+      "mechanisms": [
+        "SUPPLY_CHAIN_DISRUPTION",
+        "SHIPPING_CONGESTION",
+        "INVENTORY_STRESS"
+      ],
+      "keywords": [
+        "supply chain",
+        "shipping",
+        "ports",
+        "inventory"
+      ]
+    },
+    {
+      "case_id": "HIST-SUEZ-CANAL-2021",
+      "title": "Suez Canal blockage",
+      "region": "Global",
+      "sector": "Logistics",
+      "period": "2021",
+      "mechanisms": [
+        "SHIPPING_CONGESTION",
+        "SUPPLY_CHAIN_DISRUPTION",
+        "LOGISTICS_DELAY"
+      ],
+      "keywords": [
+        "suez",
+        "shipping",
+        "canal",
+        "delay"
+      ]
+    },
+    {
+      "case_id": "HIST-SG-BIOMEDICAL-SURGE-2020",
+      "title": "Singapore biomedical manufacturing surge",
+      "region": "Singapore",
+      "sector": "Biomedical",
+      "period": "2020",
+      "mechanisms": [
+        "SECTOR_SPECIFIC_DEMAND_SURGE",
+        "HEALTHCARE_DEMAND_SHOCK"
+      ],
+      "keywords": [
+        "biomedical",
+        "pharmaceuticals",
+        "healthcare",
+        "manufacturing"
+      ]
+    },
+    {
+      "case_id": "HIST-SG-SEMICONDUCTOR-UPCYCLE-2021",
+      "title": "Singapore semiconductor upcycle",
+      "region": "Singapore",
+      "sector": "Semiconductors",
+      "period": "2021",
+      "mechanisms": [
+        "GLOBAL_DEMAND_RECOVERY",
+        "INVENTORY_REBUILD",
+        "CAPACITY_EXPANSION"
+      ],
+      "keywords": [
+        "semiconductors",
+        "electronics",
+        "chips",
+        "capacity"
+      ]
+    },
+    {
+      "case_id": "HIST-SG-SEMICONDUCTOR-DOWNTURN-2019",
+      "title": "Singapore semiconductor downturn 2019",
+      "region": "Singapore",
+      "sector": "Semiconductors",
+      "period": "2018-2019",
+      "mechanisms": [
+        "INVENTORY_CORRECTION",
+        "GLOBAL_DEMAND_WEAKNESS",
+        "ELECTRONICS_CYCLE_DOWNTURN"
+      ],
+      "keywords": [
+        "semiconductors",
+        "electronics",
+        "exports",
+        "inventory"
+      ]
+    },
+    {
+      "case_id": "HIST-SG-PORT-CONGESTION-COVID",
+      "title": "Singapore port congestion during COVID",
+      "region": "Singapore",
+      "sector": "Logistics",
+      "period": "2020-2021",
+      "mechanisms": [
+        "SHIPPING_CONGESTION",
+        "SUPPLY_CHAIN_DISRUPTION",
+        "LOGISTICS_DELAY"
+      ],
+      "keywords": [
+        "port",
+        "shipping",
+        "covid",
+        "logistics"
+      ]
+    },
+    {
+      "case_id": "HIST-SG-LABOUR-SHORTAGE-2021",
+      "title": "Singapore labour shortage during reopening",
+      "region": "Singapore",
+      "sector": "Labour",
+      "period": "2021-2022",
+      "mechanisms": [
+        "LABOUR_SUPPLY_CONSTRAINT",
+        "REOPENING_FRICTION",
+        "COST_PRESSURE"
+      ],
+      "keywords": [
+        "labour",
+        "manpower",
+        "reopening",
+        "wages"
+      ]
+    },
+    {
+      "case_id": "HIST-RUSSIA-SANCTIONS-2022",
+      "title": "Russia sanctions shock",
+      "region": "Global",
+      "sector": "Trade / Energy",
+      "period": "2022",
+      "mechanisms": [
+        "SANCTIONS_SHOCK",
+        "ENERGY_PRICE_SHOCK",
+        "TRADE_DISRUPTION"
+      ],
+      "keywords": [
+        "sanctions",
+        "russia",
+        "energy",
+        "trade"
+      ]
+    },
+    {
+      "case_id": "HIST-CHINA-REOPENING-2023",
+      "title": "China reopening recovery",
+      "region": "China / Asia",
+      "sector": "Macro",
+      "period": "2023",
+      "mechanisms": [
+        "REOPENING_RECOVERY",
+        "DEMAND_RECOVERY",
+        "SERVICE_SECTOR_REBOUND"
+      ],
+      "keywords": [
+        "china",
+        "reopening",
+        "recovery",
+        "services"
+      ]
+    },
+    {
+      "case_id": "HIST-SG-PROPERTY-COOLING-2018",
+      "title": "Singapore property cooling measures",
+      "region": "Singapore",
+      "sector": "Property",
+      "period": "2018",
+      "mechanisms": [
+        "POLICY_TIGHTENING",
+        "CREDIT_CONSTRAINT",
+        "DEMAND_COOLING"
+      ],
+      "keywords": [
+        "property",
+        "cooling measures",
+        "credit",
+        "housing"
+      ]
     }
   ]
 }

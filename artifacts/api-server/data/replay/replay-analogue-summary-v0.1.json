@@ -1,9 +1,9 @@
 {
   "version": "replay-analogue-summary-v0.1",
-  "generated_at": "2026-06-28T08:46:54.819Z",
-  "source_similarity_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/replay/similarity/replay-similarity-results-2026-06-28T08-43-32-342Z.json",
+  "generated_at": "2026-06-28T09:02:12.108Z",
+  "source_similarity_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/replay/similarity/replay-similarity-results-2026-06-28T09-02-10-863Z.json",
   "replay_record_count": 3,
-  "historical_case_count": 13,
+  "historical_case_count": 25,
   "taxonomy_aware": true,
   "top_analogues": [
     {
