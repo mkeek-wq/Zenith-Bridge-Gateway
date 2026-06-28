@@ -1,0 +1,49 @@
+{
+  "version": "replay-mechanism-taxonomy-v0.1",
+  "families": [
+    {
+      "family_id": "DEMAND",
+      "label": "Demand mechanisms",
+      "mechanisms": [
+        "DEMAND_SHOCK",
+        "DEMAND_COLLAPSE",
+        "GLOBAL_DEMAND_WEAKNESS",
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY",
+        "CHINA_SLOWDOWN"
+      ]
+    },
+    {
+      "family_id": "PRODUCTION_INVENTORY",
+      "label": "Production and inventory cycle",
+      "mechanisms": [
+        "INVENTORY_CORRECTION",
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY"
+      ]
+    },
+    {
+      "family_id": "SUPPLY_CHAIN",
+      "label": "Supply chain and logistics",
+      "mechanisms": [
+        "SUPPLY_CHAIN_DISRUPTION",
+        "SHIPPING_CONGESTION",
+        "TRAVEL_DISRUPTION"
+      ]
+    },
+    {
+      "family_id": "FINANCIAL_STRESS",
+      "label": "Financial and credit stress",
+      "mechanisms": [
+        "CREDIT_STRESS",
+        "CAPITAL_OUTFLOW"
+      ]
+    },
+    {
+      "family_id": "ENERGY_INFLATION",
+      "label": "Energy and inflation shock",
+      "mechanisms": [
+        "ENERGY_PRICE_SHOCK",
+        "INFLATION_PRESSURE"
+      ]
+    }
+  ]
+}
