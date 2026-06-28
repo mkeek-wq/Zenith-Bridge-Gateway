@@ -1,0 +1,308 @@
+{
+  "version": "replay-case-acquisition-queue-v0.1",
+  "generated_at": "2026-06-28T09:08:41.824Z",
+  "source_gap_report": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/replay/replay-mechanism-gap-report-v0.1.json",
+  "queue_count": 20,
+  "queue": [
+    {
+      "queue_id": "REPLAY_ACQ_001",
+      "mechanism": "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY",
+      "priority": "high",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "suggested_cases": [
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY historical case 1",
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY historical case 2",
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY historical case 3"
+      ],
+      "status": "candidate_for_research"
+    },
+    {
+      "queue_id": "REPLAY_ACQ_002",
+      "mechanism": "CHINA_SLOWDOWN",
+      "priority": "high",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "suggested_cases": [
+        "CHINA_SLOWDOWN historical case 1",
+        "CHINA_SLOWDOWN historical case 2",
+        "CHINA_SLOWDOWN historical case 3"
+      ],
+      "status": "candidate_for_research"
+    },
+    {
+      "queue_id": "REPLAY_ACQ_003",
+      "mechanism": "CAPITAL_OUTFLOW",
+      "priority": "high",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "suggested_cases": [
+        "CAPITAL_OUTFLOW historical case 1",
+        "CAPITAL_OUTFLOW historical case 2",
+        "CAPITAL_OUTFLOW historical case 3"
+      ],
+      "status": "candidate_for_research"
+    },
+    {
+      "queue_id": "REPLAY_ACQ_004",
+      "mechanism": "VALUATION_RESET",
+      "priority": "high",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "suggested_cases": [
+        "VALUATION_RESET historical case 1",
+        "VALUATION_RESET historical case 2",
+        "VALUATION_RESET historical case 3"
+      ],
+      "status": "candidate_for_research"
+    },
+    {
+      "queue_id": "REPLAY_ACQ_005",
+      "mechanism": "SOVEREIGN_RISK",
+      "priority": "high",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "suggested_cases": [
+        "SOVEREIGN_RISK historical case 1",
+        "SOVEREIGN_RISK historical case 2",
+        "SOVEREIGN_RISK historical case 3"
+      ],
+      "status": "candidate_for_research"
+    },
+    {
+      "queue_id": "REPLAY_ACQ_006",
+      "mechanism": "SUPPLY_SHOCK",
+      "priority": "high",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "suggested_cases": [
+        "SUPPLY_SHOCK historical case 1",
+        "SUPPLY_SHOCK historical case 2",
+        "SUPPLY_SHOCK historical case 3"
+      ],
+      "status": "candidate_for_research"
+    },
+    {
+      "queue_id": "REPLAY_ACQ_007",
+      "mechanism": "COMMODITY_PRICE_SHOCK",
+      "priority": "high",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "suggested_cases": [
+        "Oil price collapse 2014",
+        "Commodity supercycle 2000s",
+        "Nickel price shock 2022"
+      ],
+      "status": "candidate_for_research"
+    },
+    {
+      "queue_id": "REPLAY_ACQ_008",
+      "mechanism": "CAPEX_CYCLE_DOWNTURN",
+      "priority": "high",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "suggested_cases": [
+        "CAPEX_CYCLE_DOWNTURN historical case 1",
+        "CAPEX_CYCLE_DOWNTURN historical case 2",
+        "CAPEX_CYCLE_DOWNTURN historical case 3"
+      ],
+      "status": "candidate_for_research"
+    },
+    {
+      "queue_id": "REPLAY_ACQ_009",
+      "mechanism": "INVENTORY_STRESS",
+      "priority": "high",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "suggested_cases": [
+        "INVENTORY_STRESS historical case 1",
+        "INVENTORY_STRESS historical case 2",
+        "INVENTORY_STRESS historical case 3"
+      ],
+      "status": "candidate_for_research"
+    },
+    {
+      "queue_id": "REPLAY_ACQ_010",
+      "mechanism": "SECTOR_SPECIFIC_DEMAND_SURGE",
+      "priority": "high",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "suggested_cases": [
+        "SECTOR_SPECIFIC_DEMAND_SURGE historical case 1",
+        "SECTOR_SPECIFIC_DEMAND_SURGE historical case 2",
+        "SECTOR_SPECIFIC_DEMAND_SURGE historical case 3"
+      ],
+      "status": "candidate_for_research"
+    },
+    {
+      "queue_id": "REPLAY_ACQ_011",
+      "mechanism": "HEALTHCARE_DEMAND_SHOCK",
+      "priority": "high",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "suggested_cases": [
+        "HEALTHCARE_DEMAND_SHOCK historical case 1",
+        "HEALTHCARE_DEMAND_SHOCK historical case 2",
+        "HEALTHCARE_DEMAND_SHOCK historical case 3"
+      ],
+      "status": "candidate_for_research"
+    },
+    {
+      "queue_id": "REPLAY_ACQ_012",
+      "mechanism": "GLOBAL_DEMAND_RECOVERY",
+      "priority": "high",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "suggested_cases": [
+        "GLOBAL_DEMAND_RECOVERY historical case 1",
+        "GLOBAL_DEMAND_RECOVERY historical case 2",
+        "GLOBAL_DEMAND_RECOVERY historical case 3"
+      ],
+      "status": "candidate_for_research"
+    },
+    {
+      "queue_id": "REPLAY_ACQ_013",
+      "mechanism": "INVENTORY_REBUILD",
+      "priority": "high",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "suggested_cases": [
+        "INVENTORY_REBUILD historical case 1",
+        "INVENTORY_REBUILD historical case 2",
+        "INVENTORY_REBUILD historical case 3"
+      ],
+      "status": "candidate_for_research"
+    },
+    {
+      "queue_id": "REPLAY_ACQ_014",
+      "mechanism": "CAPACITY_EXPANSION",
+      "priority": "high",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "suggested_cases": [
+        "CAPACITY_EXPANSION historical case 1",
+        "CAPACITY_EXPANSION historical case 2",
+        "CAPACITY_EXPANSION historical case 3"
+      ],
+      "status": "candidate_for_research"
+    },
+    {
+      "queue_id": "REPLAY_ACQ_015",
+      "mechanism": "ELECTRONICS_CYCLE_DOWNTURN",
+      "priority": "high",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "suggested_cases": [
+        "ELECTRONICS_CYCLE_DOWNTURN historical case 1",
+        "ELECTRONICS_CYCLE_DOWNTURN historical case 2",
+        "ELECTRONICS_CYCLE_DOWNTURN historical case 3"
+      ],
+      "status": "candidate_for_research"
+    },
+    {
+      "queue_id": "REPLAY_ACQ_016",
+      "mechanism": "LABOUR_SUPPLY_CONSTRAINT",
+      "priority": "high",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "suggested_cases": [
+        "Singapore reopening labour shortage",
+        "Post-COVID labour shortage",
+        "Construction labour shortage"
+      ],
+      "status": "candidate_for_research"
+    },
+    {
+      "queue_id": "REPLAY_ACQ_017",
+      "mechanism": "REOPENING_FRICTION",
+      "priority": "high",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "suggested_cases": [
+        "REOPENING_FRICTION historical case 1",
+        "REOPENING_FRICTION historical case 2",
+        "REOPENING_FRICTION historical case 3"
+      ],
+      "status": "candidate_for_research"
+    },
+    {
+      "queue_id": "REPLAY_ACQ_018",
+      "mechanism": "COST_PRESSURE",
+      "priority": "high",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "suggested_cases": [
+        "COST_PRESSURE historical case 1",
+        "COST_PRESSURE historical case 2",
+        "COST_PRESSURE historical case 3"
+      ],
+      "status": "candidate_for_research"
+    },
+    {
+      "queue_id": "REPLAY_ACQ_019",
+      "mechanism": "SANCTIONS_SHOCK",
+      "priority": "high",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "suggested_cases": [
+        "Russia sanctions 2022",
+        "Iran sanctions tightening",
+        "Trade embargo case study"
+      ],
+      "status": "candidate_for_research"
+    },
+    {
+      "queue_id": "REPLAY_ACQ_020",
+      "mechanism": "TRADE_DISRUPTION",
+      "priority": "high",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "suggested_cases": [
+        "Russia sanctions 2022",
+        "US-China trade war",
+        "Brexit trade disruption"
+      ],
+      "status": "candidate_for_research"
+    }
+  ]
+}
