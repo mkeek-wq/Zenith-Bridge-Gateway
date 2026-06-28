@@ -175,6 +175,57 @@
         "exports",
         "inventory"
       ]
+    },
+    {
+      "case_id": "HIST-GLOBAL-DOTCOM-2000",
+      "title": "Dotcom crash",
+      "region": "Global",
+      "sector": "Technology",
+      "period": "2000-2002",
+      "mechanisms": [
+        "VALUATION_RESET",
+        "DEMAND_COLLAPSE"
+      ],
+      "keywords": [
+        "technology",
+        "equities",
+        "valuation",
+        "dotcom"
+      ]
+    },
+    {
+      "case_id": "HIST-EURO-DEBT-CRISIS-2011",
+      "title": "Euro debt crisis",
+      "region": "Europe",
+      "sector": "Financial",
+      "period": "2010-2012",
+      "mechanisms": [
+        "CREDIT_STRESS",
+        "SOVEREIGN_RISK"
+      ],
+      "keywords": [
+        "euro",
+        "debt",
+        "sovereign",
+        "banking"
+      ]
+    },
+    {
+      "case_id": "HIST-GLOBAL-INFLATION-2022",
+      "title": "Global inflation shock 2022",
+      "region": "Global",
+      "sector": "Macro",
+      "period": "2022",
+      "mechanisms": [
+        "INFLATION_PRESSURE",
+        "ENERGY_PRICE_SHOCK"
+      ],
+      "keywords": [
+        "inflation",
+        "rates",
+        "energy",
+        "prices"
+      ]
     }
   ]
 }
