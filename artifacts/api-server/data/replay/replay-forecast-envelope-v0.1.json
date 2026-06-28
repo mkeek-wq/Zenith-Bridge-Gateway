@@ -1,0 +1,103 @@
+{
+  "version": "replay-forecast-envelope-v0.1",
+  "generated_at": "2026-06-28T08:58:12.574Z",
+  "source_dashboard_package": "data/replay/papa-replay-dashboard-package-v0.1.json",
+  "doctrine": {
+    "forecast_envelopes_are_not_predictions": true,
+    "based_on_historical_analogue_ranges": true,
+    "requires_human_interpretation": true
+  },
+  "envelope_count": 3,
+  "envelopes": [
+    {
+      "replay_record_id": "REPLAY_REC_00001",
+      "metric_name": "MANUFACTURING_OUTPUT_CHANGE_YOY",
+      "period": "2020-Q2",
+      "top_analogue": {
+        "case_id": "HIST-SG-MFG-RECOVERY-2021",
+        "title": "Singapore manufacturing recovery 2021",
+        "similarity_score": 0.75,
+        "mechanism_similarity": 1,
+        "confidence_band": "strong"
+      },
+      "scenario_envelope": {
+        "doctrine": "historical_range_not_prediction",
+        "stress_case": {
+          "label": "Stress case",
+          "basis": "Lower-confidence historical analogue outcome range",
+          "confidence_modifier": -0.2
+        },
+        "base_case": {
+          "label": "Base case",
+          "basis": "Closest available historical analogue",
+          "confidence_modifier": 0
+        },
+        "upside_case": {
+          "label": "Upside case",
+          "basis": "Recovery or favourable historical analogue path",
+          "confidence_modifier": 0.15
+        }
+      }
+    },
+    {
+      "replay_record_id": "REPLAY_REC_00002",
+      "metric_name": "MANUFACTURING_OUTPUT_CHANGE_YOY",
+      "period": "2021-Q1",
+      "top_analogue": {
+        "case_id": "HIST-SG-MFG-RECOVERY-2021",
+        "title": "Singapore manufacturing recovery 2021",
+        "similarity_score": 0.8,
+        "mechanism_similarity": 1,
+        "confidence_band": "strong"
+      },
+      "scenario_envelope": {
+        "doctrine": "historical_range_not_prediction",
+        "stress_case": {
+          "label": "Stress case",
+          "basis": "Lower-confidence historical analogue outcome range",
+          "confidence_modifier": -0.2
+        },
+        "base_case": {
+          "label": "Base case",
+          "basis": "Closest available historical analogue",
+          "confidence_modifier": 0
+        },
+        "upside_case": {
+          "label": "Upside case",
+          "basis": "Recovery or favourable historical analogue path",
+          "confidence_modifier": 0.15
+        }
+      }
+    },
+    {
+      "replay_record_id": "REPLAY_REC_00003",
+      "metric_name": "NODX_CHANGE_YOY",
+      "period": "2021-Q1",
+      "top_analogue": {
+        "case_id": "HIST-SG-NODX-RECOVERY-2021",
+        "title": "Singapore NODX recovery 2021",
+        "similarity_score": 0.7,
+        "mechanism_similarity": 1,
+        "confidence_band": "moderate"
+      },
+      "scenario_envelope": {
+        "doctrine": "historical_range_not_prediction",
+        "stress_case": {
+          "label": "Stress case",
+          "basis": "Lower-confidence historical analogue outcome range",
+          "confidence_modifier": -0.2
+        },
+        "base_case": {
+          "label": "Base case",
+          "basis": "Closest available historical analogue",
+          "confidence_modifier": 0
+        },
+        "upside_case": {
+          "label": "Upside case",
+          "basis": "Recovery or favourable historical analogue path",
+          "confidence_modifier": 0.15
+        }
+      }
+    }
+  ]
+}

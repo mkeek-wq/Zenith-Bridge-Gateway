@@ -1,0 +1,17 @@
+{
+  "version": "replay-historian-snapshot-v0.1",
+  "generated_at": "2026-06-28T08:58:26.431Z",
+  "subsystem": "Replay",
+  "status": "early_learning",
+  "historical_case_count": 13,
+  "unique_mechanism_count": 16,
+  "confidence_score": 0.696,
+  "confidence_band": "moderate",
+  "envelope_count": 3,
+  "doctrine": {
+    "forecast_envelopes_are_not_predictions": true,
+    "based_on_historical_analogue_ranges": true,
+    "requires_human_interpretation": true
+  },
+  "next_target": "Expand historical cases to 25 and improve taxonomy-aware similarity."
+}
