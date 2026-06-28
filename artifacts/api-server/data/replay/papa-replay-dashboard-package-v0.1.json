@@ -1,0 +1,106 @@
+{
+  "version": "papa-replay-dashboard-package-v0.1",
+  "generated_at": "2026-06-28T08:55:07.102Z",
+  "replay_status": "early_learning",
+  "historical_case_count": 13,
+  "unique_mechanism_count": 16,
+  "thin_mechanism_count": 8,
+  "very_thin_mechanism_count": 8,
+  "taxonomy_aware": true,
+  "replay_record_count": 3,
+  "top_analogues": [
+    {
+      "replay_record_id": "REPLAY_REC_00001",
+      "metric_name": "MANUFACTURING_OUTPUT_CHANGE_YOY",
+      "period": "2020-Q2",
+      "top_case_id": "HIST-SG-MFG-RECOVERY-2021",
+      "top_title": "Singapore manufacturing recovery 2021",
+      "similarity_score": 0.75,
+      "mechanism_similarity": 1,
+      "matched_mechanisms": [
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY"
+      ]
+    },
+    {
+      "replay_record_id": "REPLAY_REC_00002",
+      "metric_name": "MANUFACTURING_OUTPUT_CHANGE_YOY",
+      "period": "2021-Q1",
+      "top_case_id": "HIST-SG-MFG-RECOVERY-2021",
+      "top_title": "Singapore manufacturing recovery 2021",
+      "similarity_score": 0.8,
+      "mechanism_similarity": 1,
+      "matched_mechanisms": [
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY"
+      ]
+    },
+    {
+      "replay_record_id": "REPLAY_REC_00003",
+      "metric_name": "NODX_CHANGE_YOY",
+      "period": "2021-Q1",
+      "top_case_id": "HIST-SG-NODX-RECOVERY-2021",
+      "top_title": "Singapore NODX recovery 2021",
+      "similarity_score": 0.7,
+      "mechanism_similarity": 1,
+      "matched_mechanisms": [
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ]
+    }
+  ],
+  "explanations": [
+    {
+      "replay_record_id": "REPLAY_REC_00001",
+      "source_record_id": "RPLAY_SG_MFG_2020_001",
+      "metric_name": "MANUFACTURING_OUTPUT_CHANGE_YOY",
+      "period": "2020-Q2",
+      "top_analogue": {
+        "case_id": "HIST-SG-MFG-RECOVERY-2021",
+        "title": "Singapore manufacturing recovery 2021",
+        "similarity_score": 0.75,
+        "mechanism_similarity": 1,
+        "confidence_band": "strong",
+        "explanation": [
+          "Exact mechanism match detected.",
+          "High overall similarity score.",
+          "Matched mechanisms: MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY."
+        ]
+      }
+    },
+    {
+      "replay_record_id": "REPLAY_REC_00002",
+      "source_record_id": "RPLAY_SG_MFG_2021_001",
+      "metric_name": "MANUFACTURING_OUTPUT_CHANGE_YOY",
+      "period": "2021-Q1",
+      "top_analogue": {
+        "case_id": "HIST-SG-MFG-RECOVERY-2021",
+        "title": "Singapore manufacturing recovery 2021",
+        "similarity_score": 0.8,
+        "mechanism_similarity": 1,
+        "confidence_band": "strong",
+        "explanation": [
+          "Exact mechanism match detected.",
+          "High overall similarity score.",
+          "Matched mechanisms: MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY."
+        ]
+      }
+    },
+    {
+      "replay_record_id": "REPLAY_REC_00003",
+      "source_record_id": "RPLAY_SG_NODX_2021_001",
+      "metric_name": "NODX_CHANGE_YOY",
+      "period": "2021-Q1",
+      "top_analogue": {
+        "case_id": "HIST-SG-NODX-RECOVERY-2021",
+        "title": "Singapore NODX recovery 2021",
+        "similarity_score": 0.7,
+        "mechanism_similarity": 1,
+        "confidence_band": "moderate",
+        "explanation": [
+          "Exact mechanism match detected.",
+          "Moderate overall similarity score.",
+          "Matched mechanisms: MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY."
+        ]
+      }
+    }
+  ],
+  "next_target": "Expand historical cases to 25 and improve taxonomy-aware similarity."
+}
