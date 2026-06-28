@@ -1,0 +1,46 @@
+{
+  "version": "replay-analogue-summary-v0.1",
+  "generated_at": "2026-06-28T08:46:54.819Z",
+  "source_similarity_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/replay/similarity/replay-similarity-results-2026-06-28T08-43-32-342Z.json",
+  "replay_record_count": 3,
+  "historical_case_count": 13,
+  "taxonomy_aware": true,
+  "top_analogues": [
+    {
+      "replay_record_id": "REPLAY_REC_00001",
+      "metric_name": "MANUFACTURING_OUTPUT_CHANGE_YOY",
+      "period": "2020-Q2",
+      "top_case_id": "HIST-SG-MFG-RECOVERY-2021",
+      "top_title": "Singapore manufacturing recovery 2021",
+      "similarity_score": 0.75,
+      "mechanism_similarity": 1,
+      "matched_mechanisms": [
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY"
+      ]
+    },
+    {
+      "replay_record_id": "REPLAY_REC_00002",
+      "metric_name": "MANUFACTURING_OUTPUT_CHANGE_YOY",
+      "period": "2021-Q1",
+      "top_case_id": "HIST-SG-MFG-RECOVERY-2021",
+      "top_title": "Singapore manufacturing recovery 2021",
+      "similarity_score": 0.8,
+      "mechanism_similarity": 1,
+      "matched_mechanisms": [
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY"
+      ]
+    },
+    {
+      "replay_record_id": "REPLAY_REC_00003",
+      "metric_name": "NODX_CHANGE_YOY",
+      "period": "2021-Q1",
+      "top_case_id": "HIST-SG-NODX-RECOVERY-2021",
+      "top_title": "Singapore NODX recovery 2021",
+      "similarity_score": 0.7,
+      "mechanism_similarity": 1,
+      "matched_mechanisms": [
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ]
+    }
+  ]
+}
