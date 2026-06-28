@@ -1,11 +1,11 @@
 {
   "version": "papa-replay-dashboard-package-v0.1",
-  "generated_at": "2026-06-28T09:02:14.475Z",
+  "generated_at": "2026-06-28T09:04:08.394Z",
   "replay_status": "early_learning",
-  "historical_case_count": 13,
-  "unique_mechanism_count": 16,
-  "thin_mechanism_count": 8,
-  "very_thin_mechanism_count": 8,
+  "historical_case_count": 25,
+  "unique_mechanism_count": 38,
+  "thin_mechanism_count": 11,
+  "very_thin_mechanism_count": 26,
   "taxonomy_aware": true,
   "replay_record_count": 3,
   "top_analogues": [

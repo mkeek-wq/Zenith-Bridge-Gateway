@@ -1,10 +1,10 @@
 {
   "version": "replay-quality-summary-v0.1",
-  "generated_at": "2026-06-28T08:39:18.474Z",
-  "historical_case_count": 13,
-  "unique_mechanism_count": 16,
-  "thin_mechanism_count": 8,
-  "very_thin_mechanism_count": 8,
+  "generated_at": "2026-06-28T09:04:07.038Z",
+  "historical_case_count": 25,
+  "unique_mechanism_count": 38,
+  "thin_mechanism_count": 11,
+  "very_thin_mechanism_count": 26,
   "dashboard_status": "early_learning",
   "next_target": "Expand historical cases to 25 and improve taxonomy-aware similarity."
 }

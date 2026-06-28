@@ -1,14 +1,14 @@
 {
   "version": "replay-confidence-engine-v0.1",
-  "generated_at": "2026-06-28T09:02:16.877Z",
-  "confidence_score": 0.696,
-  "confidence_band": "moderate",
+  "generated_at": "2026-06-28T09:04:09.641Z",
+  "confidence_score": 0.888,
+  "confidence_band": "strong",
   "drivers": {
     "average_analogue_score": 0.75,
-    "historical_case_count": 13,
-    "case_depth_score": 0.52,
-    "unique_mechanism_count": 16,
-    "mechanism_depth_score": 0.64,
+    "historical_case_count": 25,
+    "case_depth_score": 1,
+    "unique_mechanism_count": 38,
+    "mechanism_depth_score": 1,
     "taxonomy_aware": true,
     "taxonomy_score": 1,
     "envelope_count": 3

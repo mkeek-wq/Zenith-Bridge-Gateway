@@ -1,12 +1,12 @@
 {
   "version": "replay-historian-snapshot-v0.1",
-  "generated_at": "2026-06-28T09:02:18.011Z",
+  "generated_at": "2026-06-28T09:04:10.863Z",
   "subsystem": "Replay",
   "status": "early_learning",
-  "historical_case_count": 13,
-  "unique_mechanism_count": 16,
-  "confidence_score": 0.696,
-  "confidence_band": "moderate",
+  "historical_case_count": 25,
+  "unique_mechanism_count": 38,
+  "confidence_score": 0.888,
+  "confidence_band": "strong",
   "envelope_count": 3,
   "doctrine": {
     "forecast_envelopes_are_not_predictions": true,
