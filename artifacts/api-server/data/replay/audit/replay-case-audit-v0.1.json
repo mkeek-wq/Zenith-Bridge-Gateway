@@ -1,0 +1,436 @@
+{
+  "version": "replay-case-audit-v0.1",
+  "generated_at": "2026-06-28T14:07:08.066Z",
+  "case_count": 25,
+  "pass_count": 0,
+  "pass_with_warnings_count": 25,
+  "blocked_count": 0,
+  "average_audit_score": 0.49,
+  "audits": [
+    {
+      "case_id": "HIST-SG-MFG-RECOVERY-2021",
+      "title": "Singapore manufacturing recovery 2021",
+      "audit_status": "PASS_WITH_WARNINGS",
+      "audit_score": 0.54,
+      "blocker_count": 0,
+      "warning_count": 2,
+      "missing_depth_field_count": 12,
+      "blockers": [],
+      "warnings": [
+        "Case has no depth fields populated.",
+        "No sources attached."
+      ],
+      "approved_for_registry": false,
+      "requires_human_review": true
+    },
+    {
+      "case_id": "HIST-SG-NODX-RECOVERY-2021",
+      "title": "Singapore NODX recovery 2021",
+      "audit_status": "PASS_WITH_WARNINGS",
+      "audit_score": 0.54,
+      "blocker_count": 0,
+      "warning_count": 2,
+      "missing_depth_field_count": 12,
+      "blockers": [],
+      "warnings": [
+        "Case has no depth fields populated.",
+        "No sources attached."
+      ],
+      "approved_for_registry": false,
+      "requires_human_review": true
+    },
+    {
+      "case_id": "HIST-GLOBAL-COVID-LOGISTICS-2020",
+      "title": "COVID logistics shock 2020",
+      "audit_status": "PASS_WITH_WARNINGS",
+      "audit_score": 0.54,
+      "blocker_count": 0,
+      "warning_count": 2,
+      "missing_depth_field_count": 12,
+      "blockers": [],
+      "warnings": [
+        "Case has no depth fields populated.",
+        "No sources attached."
+      ],
+      "approved_for_registry": false,
+      "requires_human_review": true
+    },
+    {
+      "case_id": "HIST-CHINA-SLOWDOWN-2015",
+      "title": "China slowdown 2015",
+      "audit_status": "PASS_WITH_WARNINGS",
+      "audit_score": 0.54,
+      "blocker_count": 0,
+      "warning_count": 2,
+      "missing_depth_field_count": 12,
+      "blockers": [],
+      "warnings": [
+        "Case has no depth fields populated.",
+        "No sources attached."
+      ],
+      "approved_for_registry": false,
+      "requires_human_review": true
+    },
+    {
+      "case_id": "HIST-GLOBAL-ENERGY-CRISIS-2022",
+      "title": "2022 energy crisis",
+      "audit_status": "PASS_WITH_WARNINGS",
+      "audit_score": 0.54,
+      "blocker_count": 0,
+      "warning_count": 2,
+      "missing_depth_field_count": 12,
+      "blockers": [],
+      "warnings": [
+        "Case has no depth fields populated.",
+        "No sources attached."
+      ],
+      "approved_for_registry": false,
+      "requires_human_review": true
+    },
+    {
+      "case_id": "HIST-SG-SARS-2003",
+      "title": "Singapore SARS shock",
+      "audit_status": "PASS_WITH_WARNINGS",
+      "audit_score": 0.54,
+      "blocker_count": 0,
+      "warning_count": 2,
+      "missing_depth_field_count": 12,
+      "blockers": [],
+      "warnings": [
+        "Case has no depth fields populated.",
+        "No sources attached."
+      ],
+      "approved_for_registry": false,
+      "requires_human_review": true
+    },
+    {
+      "case_id": "HIST-SG-TOURISM-COVID-2020",
+      "title": "Singapore tourism collapse during COVID",
+      "audit_status": "PASS_WITH_WARNINGS",
+      "audit_score": 0.54,
+      "blocker_count": 0,
+      "warning_count": 2,
+      "missing_depth_field_count": 12,
+      "blockers": [],
+      "warnings": [
+        "Case has no depth fields populated.",
+        "No sources attached."
+      ],
+      "approved_for_registry": false,
+      "requires_human_review": true
+    },
+    {
+      "case_id": "HIST-ASIAN-FINANCIAL-CRISIS-1997",
+      "title": "Asian Financial Crisis",
+      "audit_status": "PASS_WITH_WARNINGS",
+      "audit_score": 0.54,
+      "blocker_count": 0,
+      "warning_count": 2,
+      "missing_depth_field_count": 12,
+      "blockers": [],
+      "warnings": [
+        "Case has no depth fields populated.",
+        "No sources attached."
+      ],
+      "approved_for_registry": false,
+      "requires_human_review": true
+    },
+    {
+      "case_id": "HIST-GFC-2008",
+      "title": "Global Financial Crisis",
+      "audit_status": "PASS_WITH_WARNINGS",
+      "audit_score": 0.54,
+      "blocker_count": 0,
+      "warning_count": 2,
+      "missing_depth_field_count": 12,
+      "blockers": [],
+      "warnings": [
+        "Case has no depth fields populated.",
+        "No sources attached."
+      ],
+      "approved_for_registry": false,
+      "requires_human_review": true
+    },
+    {
+      "case_id": "HIST-SG-ELECTRONICS-DOWNTURN-2023",
+      "title": "Singapore electronics export downturn",
+      "audit_status": "PASS_WITH_WARNINGS",
+      "audit_score": 0.54,
+      "blocker_count": 0,
+      "warning_count": 2,
+      "missing_depth_field_count": 12,
+      "blockers": [],
+      "warnings": [
+        "Case has no depth fields populated.",
+        "No sources attached."
+      ],
+      "approved_for_registry": false,
+      "requires_human_review": true
+    },
+    {
+      "case_id": "HIST-GLOBAL-DOTCOM-2000",
+      "title": "Dotcom crash",
+      "audit_status": "PASS_WITH_WARNINGS",
+      "audit_score": 0.49,
+      "blocker_count": 0,
+      "warning_count": 3,
+      "missing_depth_field_count": 12,
+      "blockers": [],
+      "warnings": [
+        "Mechanism not found in taxonomy: VALUATION_RESET",
+        "Case has no depth fields populated.",
+        "No sources attached."
+      ],
+      "approved_for_registry": false,
+      "requires_human_review": true
+    },
+    {
+      "case_id": "HIST-EURO-DEBT-CRISIS-2011",
+      "title": "Euro debt crisis",
+      "audit_status": "PASS_WITH_WARNINGS",
+      "audit_score": 0.49,
+      "blocker_count": 0,
+      "warning_count": 3,
+      "missing_depth_field_count": 12,
+      "blockers": [],
+      "warnings": [
+        "Mechanism not found in taxonomy: SOVEREIGN_RISK",
+        "Case has no depth fields populated.",
+        "No sources attached."
+      ],
+      "approved_for_registry": false,
+      "requires_human_review": true
+    },
+    {
+      "case_id": "HIST-GLOBAL-INFLATION-2022",
+      "title": "Global inflation shock 2022",
+      "audit_status": "PASS_WITH_WARNINGS",
+      "audit_score": 0.54,
+      "blocker_count": 0,
+      "warning_count": 2,
+      "missing_depth_field_count": 12,
+      "blockers": [],
+      "warnings": [
+        "Case has no depth fields populated.",
+        "No sources attached."
+      ],
+      "approved_for_registry": false,
+      "requires_human_review": true
+    },
+    {
+      "case_id": "HIST-OIL-SHOCK-1973",
+      "title": "1973 oil shock",
+      "audit_status": "PASS_WITH_WARNINGS",
+      "audit_score": 0.49,
+      "blocker_count": 0,
+      "warning_count": 3,
+      "missing_depth_field_count": 12,
+      "blockers": [],
+      "warnings": [
+        "Mechanism not found in taxonomy: SUPPLY_SHOCK",
+        "Case has no depth fields populated.",
+        "No sources attached."
+      ],
+      "approved_for_registry": false,
+      "requires_human_review": true
+    },
+    {
+      "case_id": "HIST-OIL-PRICE-COLLAPSE-2014",
+      "title": "Oil price collapse 2014",
+      "audit_status": "PASS_WITH_WARNINGS",
+      "audit_score": 0.44,
+      "blocker_count": 0,
+      "warning_count": 4,
+      "missing_depth_field_count": 12,
+      "blockers": [],
+      "warnings": [
+        "Mechanism not found in taxonomy: COMMODITY_PRICE_SHOCK",
+        "Mechanism not found in taxonomy: CAPEX_CYCLE_DOWNTURN",
+        "Case has no depth fields populated.",
+        "No sources attached."
+      ],
+      "approved_for_registry": false,
+      "requires_human_review": true
+    },
+    {
+      "case_id": "HIST-COVID-SUPPLY-CHAIN-2021",
+      "title": "COVID supply chain disruption",
+      "audit_status": "PASS_WITH_WARNINGS",
+      "audit_score": 0.49,
+      "blocker_count": 0,
+      "warning_count": 3,
+      "missing_depth_field_count": 12,
+      "blockers": [],
+      "warnings": [
+        "Mechanism not found in taxonomy: INVENTORY_STRESS",
+        "Case has no depth fields populated.",
+        "No sources attached."
+      ],
+      "approved_for_registry": false,
+      "requires_human_review": true
+    },
+    {
+      "case_id": "HIST-SUEZ-CANAL-2021",
+      "title": "Suez Canal blockage",
+      "audit_status": "PASS_WITH_WARNINGS",
+      "audit_score": 0.49,
+      "blocker_count": 0,
+      "warning_count": 3,
+      "missing_depth_field_count": 12,
+      "blockers": [],
+      "warnings": [
+        "Mechanism not found in taxonomy: LOGISTICS_DELAY",
+        "Case has no depth fields populated.",
+        "No sources attached."
+      ],
+      "approved_for_registry": false,
+      "requires_human_review": true
+    },
+    {
+      "case_id": "HIST-SG-BIOMEDICAL-SURGE-2020",
+      "title": "Singapore biomedical manufacturing surge",
+      "audit_status": "PASS_WITH_WARNINGS",
+      "audit_score": 0.44,
+      "blocker_count": 0,
+      "warning_count": 4,
+      "missing_depth_field_count": 12,
+      "blockers": [],
+      "warnings": [
+        "Mechanism not found in taxonomy: SECTOR_SPECIFIC_DEMAND_SURGE",
+        "Mechanism not found in taxonomy: HEALTHCARE_DEMAND_SHOCK",
+        "Case has no depth fields populated.",
+        "No sources attached."
+      ],
+      "approved_for_registry": false,
+      "requires_human_review": true
+    },
+    {
+      "case_id": "HIST-SG-SEMICONDUCTOR-UPCYCLE-2021",
+      "title": "Singapore semiconductor upcycle",
+      "audit_status": "PASS_WITH_WARNINGS",
+      "audit_score": 0.39,
+      "blocker_count": 0,
+      "warning_count": 5,
+      "missing_depth_field_count": 12,
+      "blockers": [],
+      "warnings": [
+        "Mechanism not found in taxonomy: GLOBAL_DEMAND_RECOVERY",
+        "Mechanism not found in taxonomy: INVENTORY_REBUILD",
+        "Mechanism not found in taxonomy: CAPACITY_EXPANSION",
+        "Case has no depth fields populated.",
+        "No sources attached."
+      ],
+      "approved_for_registry": false,
+      "requires_human_review": true
+    },
+    {
+      "case_id": "HIST-SG-SEMICONDUCTOR-DOWNTURN-2019",
+      "title": "Singapore semiconductor downturn 2019",
+      "audit_status": "PASS_WITH_WARNINGS",
+      "audit_score": 0.49,
+      "blocker_count": 0,
+      "warning_count": 3,
+      "missing_depth_field_count": 12,
+      "blockers": [],
+      "warnings": [
+        "Mechanism not found in taxonomy: ELECTRONICS_CYCLE_DOWNTURN",
+        "Case has no depth fields populated.",
+        "No sources attached."
+      ],
+      "approved_for_registry": false,
+      "requires_human_review": true
+    },
+    {
+      "case_id": "HIST-SG-PORT-CONGESTION-COVID",
+      "title": "Singapore port congestion during COVID",
+      "audit_status": "PASS_WITH_WARNINGS",
+      "audit_score": 0.49,
+      "blocker_count": 0,
+      "warning_count": 3,
+      "missing_depth_field_count": 12,
+      "blockers": [],
+      "warnings": [
+        "Mechanism not found in taxonomy: LOGISTICS_DELAY",
+        "Case has no depth fields populated.",
+        "No sources attached."
+      ],
+      "approved_for_registry": false,
+      "requires_human_review": true
+    },
+    {
+      "case_id": "HIST-SG-LABOUR-SHORTAGE-2021",
+      "title": "Singapore labour shortage during reopening",
+      "audit_status": "PASS_WITH_WARNINGS",
+      "audit_score": 0.39,
+      "blocker_count": 0,
+      "warning_count": 5,
+      "missing_depth_field_count": 12,
+      "blockers": [],
+      "warnings": [
+        "Mechanism not found in taxonomy: LABOUR_SUPPLY_CONSTRAINT",
+        "Mechanism not found in taxonomy: REOPENING_FRICTION",
+        "Mechanism not found in taxonomy: COST_PRESSURE",
+        "Case has no depth fields populated.",
+        "No sources attached."
+      ],
+      "approved_for_registry": false,
+      "requires_human_review": true
+    },
+    {
+      "case_id": "HIST-RUSSIA-SANCTIONS-2022",
+      "title": "Russia sanctions shock",
+      "audit_status": "PASS_WITH_WARNINGS",
+      "audit_score": 0.44,
+      "blocker_count": 0,
+      "warning_count": 4,
+      "missing_depth_field_count": 12,
+      "blockers": [],
+      "warnings": [
+        "Mechanism not found in taxonomy: SANCTIONS_SHOCK",
+        "Mechanism not found in taxonomy: TRADE_DISRUPTION",
+        "Case has no depth fields populated.",
+        "No sources attached."
+      ],
+      "approved_for_registry": false,
+      "requires_human_review": true
+    },
+    {
+      "case_id": "HIST-CHINA-REOPENING-2023",
+      "title": "China reopening recovery",
+      "audit_status": "PASS_WITH_WARNINGS",
+      "audit_score": 0.39,
+      "blocker_count": 0,
+      "warning_count": 5,
+      "missing_depth_field_count": 12,
+      "blockers": [],
+      "warnings": [
+        "Mechanism not found in taxonomy: REOPENING_RECOVERY",
+        "Mechanism not found in taxonomy: DEMAND_RECOVERY",
+        "Mechanism not found in taxonomy: SERVICE_SECTOR_REBOUND",
+        "Case has no depth fields populated.",
+        "No sources attached."
+      ],
+      "approved_for_registry": false,
+      "requires_human_review": true
+    },
+    {
+      "case_id": "HIST-SG-PROPERTY-COOLING-2018",
+      "title": "Singapore property cooling measures",
+      "audit_status": "PASS_WITH_WARNINGS",
+      "audit_score": 0.39,
+      "blocker_count": 0,
+      "warning_count": 5,
+      "missing_depth_field_count": 12,
+      "blockers": [],
+      "warnings": [
+        "Mechanism not found in taxonomy: POLICY_TIGHTENING",
+        "Mechanism not found in taxonomy: CREDIT_CONSTRAINT",
+        "Mechanism not found in taxonomy: DEMAND_COOLING",
+        "Case has no depth fields populated.",
+        "No sources attached."
+      ],
+      "approved_for_registry": false,
+      "requires_human_review": true
+    }
+  ]
+}
