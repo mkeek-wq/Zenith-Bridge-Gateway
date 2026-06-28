@@ -1,0 +1,10 @@
+[
+  {
+    "snapshot_id": "REPLAY_HIST_2026-06-28T13-19-39-887Z",
+    "created_at": "2026-06-28T13:19:39.887Z",
+    "historical_case_count": 25,
+    "unique_mechanism_count": 38,
+    "confidence_score": 0.888,
+    "confidence_band": "strong"
+  }
+]
