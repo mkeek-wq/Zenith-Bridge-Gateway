@@ -16,7 +16,11 @@
     "replay:proposal-cycle": "pnpm replay:case-completeness && pnpm replay:proposals && pnpm replay:proposal-registry",
     "replay:proposal-dashboard": "tsx src/scripts/build-replay-proposal-dashboard-v0.1.ts",
     "replay:approve": "tsx src/scripts/approve-replay-proposal-v0.1.ts",
-    "replay:shadow": "tsx src/scripts/build-replay-shadow-execution-v0.1.ts"
+    "replay:shadow": "tsx src/scripts/build-replay-shadow-execution-v0.1.ts",
+    "replay:audit": "tsx src/scripts/build-replay-audit-engine-v0.1.ts",
+    "replay:promote": "tsx src/scripts/promote-replay-proposal-v0.1.ts",
+    "replay:reject": "tsx src/scripts/reject-replay-proposal-v0.1.ts",
+    "replay:governance-history": "tsx src/scripts/build-replay-governance-history-v0.1.ts"
   },
   "dependencies": {
     "@tiptap/react": "^3.22.5",

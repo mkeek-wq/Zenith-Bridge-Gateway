@@ -1,6 +1,6 @@
 {
   "dashboard_version": "replay-proposal-dashboard-v0.1",
-  "generated_at": "2026-06-29T01:53:10.937Z",
+  "generated_at": "2026-06-29T02:07:24.590Z",
   "source_registry": "data/replay/replay-proposal-registry-v0.1.json",
   "proposal_count": 25,
   "priority_summary": {
@@ -9,19 +9,20 @@
     "low": 0
   },
   "approval_summary": {
-    "awaiting_papa_approval": 24,
+    "awaiting_papa_approval": 23,
     "approved": 1,
-    "rejected": 0
+    "rejected": 1
   },
   "implementation_summary": {
-    "not_started": 25,
-    "shadow_ready": 1
+    "not_started": 23,
+    "shadow_ready": 0
   },
   "audit_summary": {
-    "not_audited": 25
+    "not_audited": 23
   },
   "production_summary": {
-    "not_promoted": 25
+    "not_promoted": 24,
+    "promoted": 1
   },
   "doctrine": "Dashboard is read-only. Approval, shadow execution, audit, and production promotion remain separate governed steps.",
   "top_proposals": [
@@ -32,7 +33,7 @@
       "title": "Singapore manufacturing recovery 2021",
       "target_case_id": "HIST-SG-MFG-RECOVERY-2021",
       "approval_status": "approved",
-      "implementation_status": "not_started",
+      "implementation_status": "shadow_validated",
       "recommended_action": "Enrich case HIST-SG-MFG-RECOVERY-2021 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes."
     },
     {
@@ -41,8 +42,8 @@
       "priority": "high",
       "title": "Singapore NODX recovery 2021",
       "target_case_id": "HIST-SG-NODX-RECOVERY-2021",
-      "approval_status": "awaiting_papa_approval",
-      "implementation_status": "not_started",
+      "approval_status": "rejected",
+      "implementation_status": "rejected",
       "recommended_action": "Enrich case HIST-SG-NODX-RECOVERY-2021 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes."
     },
     {

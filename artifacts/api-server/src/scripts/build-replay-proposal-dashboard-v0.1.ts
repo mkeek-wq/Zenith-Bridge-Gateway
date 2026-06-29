@@ -37,6 +37,7 @@ const shadowReady = proposals.filter(
 
 const notAudited = countBy("audit_status", "not_audited");
 const notPromoted = countBy("production_status", "not_promoted");
+const promoted = countBy("production_status", "promoted");
 
 const topProposals = proposals.slice(0, 10).map((p: any) => ({
   proposal_id: p.proposal_id,
@@ -73,6 +74,7 @@ const dashboard = {
   },
   production_summary: {
     not_promoted: notPromoted,
+    promoted,
   },
   doctrine:
     "Dashboard is read-only. Approval, shadow execution, audit, and production promotion remain separate governed steps.",
