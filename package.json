@@ -14,8 +14,8 @@
     "typecheck:libs": "tsc --build",
     "typecheck": "pnpm run typecheck:libs && pnpm -r --filter \"./artifacts/**\" --filter \"./scripts\" --if-present run typecheck",
     "validate:api": "pnpm run typecheck",
-    "dev": "concurrently \"pnpm --filter zenith-api-server dev\" \"pnpm --filter znbw-website dev\"",
-    "dev:api": "pnpm --filter @workspace/api-server dev",
+    "dev": "concurrently \"pnpm --filter zenith-api-server dev\" \"pnpm --filter @workspace/znbw-website dev\"",
+    "dev:api": "pnpm --filter zenith-api-server dev",
     "dev:web": "pnpm --filter @workspace/znbw-website dev"
   },
   "pnpm": {
