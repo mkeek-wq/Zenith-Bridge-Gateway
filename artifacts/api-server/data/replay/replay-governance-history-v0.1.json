@@ -1,6 +1,6 @@
 {
   "history_version": "replay-governance-history-v0.1",
-  "generated_at": "2026-06-29T02:09:27.529Z",
+  "generated_at": "2026-06-29T02:28:18.748Z",
   "doctrine": "Governance history records proposal, approval, rejection, shadow, audit, and promotion events.",
   "source_files": {
     "registry": "data/replay/replay-proposal-registry-v0.1.json",
@@ -15,10 +15,10 @@
     "approved": 1,
     "rejected": 1,
     "promoted": 1,
-    "shadow_runs": 1,
-    "audits": 1
+    "shadow_runs": 0,
+    "audits": 0
   },
-  "event_count": 30,
+  "event_count": 28,
   "events": [
     {
       "event_type": "proposal_registered",
@@ -200,23 +200,6 @@
       "proposal_id": "REPLAY_PROP_CASE_HIST-SG-MFG-RECOVERY-2021",
       "timestamp": "2026-06-29T01:53:09.707Z",
       "actor": "Papa"
-    },
-    {
-      "event_type": "shadow_run",
-      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-MFG-RECOVERY-2021",
-      "shadow_run_id": "REPLAY_SHADOW_001",
-      "timestamp": "2026-06-29T01:54:18.941Z",
-      "status": "shadow_completed",
-      "production_write": false
-    },
-    {
-      "event_type": "audit_completed",
-      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-MFG-RECOVERY-2021",
-      "audit_id": "AUDIT_REPLAY_SHADOW_001",
-      "timestamp": "2026-06-29T02:00:28.153Z",
-      "status": "passed",
-      "recommendation": "promote_candidate",
-      "production_promotion_allowed": true
     },
     {
       "event_type": "proposal_promoted",
