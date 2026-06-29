@@ -100,3 +100,28 @@ src_backup_DISABLED/
 *.bak-*
 *.backup-*
 governance/09-benchmarks/replay-benchmark-results/*.json
+
+# Runtime/generated ZNBW data
+artifacts/api-server/data/**
+!artifacts/api-server/data/.gitkeep
+
+# Generated exports and drafts
+artifacts/admin-ui/exports/**
+artifacts/api-server/data/cms/drafts/**
+
+# Archives / checkpoints / monitoring
+**/checkpoints/**
+**/monitoring-runs/**
+**/document-archive/**
+**/raw-downloads/**
+**/replay-sandbox/**
+**/historical-discovery-tests/**
+**/tablebuilder-tests/**
+**/tablebuilder-access-tests/**
+**/tablebuilder-discovery/**
+
+# Backup / scratch
+*.backup.*
+*.save.*
+*.legacy.*
+*.tmp
