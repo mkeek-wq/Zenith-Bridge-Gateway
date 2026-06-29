@@ -273,3 +273,30 @@ When closing debt:
 2. Record action taken.
 3. Move item to Closed Items.
 4. Update relevant governance documents.
+
+## Website / Replit Migration Build Debt
+
+Priority: High
+
+Discovery:
+- `hygiene/phase-d-clean-source-selection` only changes `.gitignore` and the Codex audit document.
+- Push was blocked by API contract/typecheck validation.
+- Typecheck failures come from inherited website/API workspace state, not the hygiene changes.
+- Historical context: original website was later moved/rebuilt through Replit, leaving legacy dependencies, generated clients, and UI packages inconsistent.
+
+Symptoms:
+- `artifacts/znbw-website` missing frontend dependencies.
+- `@workspace/api-client-react` not resolved.
+- Many Radix/UI, form, chart, carousel, and editor packages missing.
+- This prevents clean CI/push for some branches.
+
+Decision:
+- Do not fix during Replay/Git preservation session.
+- Treat as Phase D repository classification and build reproducibility work.
+
+Next actions:
+1. Identify active website/admin app.
+2. Decide whether `artifacts/znbw-website` is legacy, active, or archive-only.
+3. Restore reproducible workspace dependencies only for active apps.
+4. Exclude legacy apps from CI or archive them.
+5. Keep current hygiene branch local until build policy is clarified.
