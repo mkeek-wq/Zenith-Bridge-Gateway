@@ -1,18 +1,33 @@
 {
-  "name": "workspace",
+  "name": "zenith-bridge-gateway",
   "version": "0.0.0",
   "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "artifacts/*",
+    "lib/*",
+    "scripts"
+  ],
   "scripts": {
     "preinstall": "sh -c 'rm -f package-lock.json yarn.lock; case \"$npm_config_user_agent\" in pnpm/*) ;; *) echo \"Use pnpm instead\" >&2; exit 1 ;; esac'",
     "build": "pnpm run typecheck && pnpm -r --if-present run build",
     "typecheck:libs": "tsc --build",
-    "typecheck": "pnpm run typecheck:libs && pnpm -r --filter \"./artifacts/**\" --filter \"./scripts\" --if-present run typecheck"
-"dev": "concurrently \"pnpm:dev:api\" \"pnpm:dev:web\"",
-"dev:api": "pnpm --filter @workspace/api-server dev",
-"dev:web": "pnpm --filter @workspace/znbw-website dev"
+    "typecheck": "pnpm run typecheck:libs && pnpm -r --filter \"./artifacts/**\" --filter \"./scripts\" --if-present run typecheck",
+    "validate:api": "pnpm run typecheck",
+    "dev": "concurrently \"pnpm --filter zenith-api-server dev\" \"pnpm --filter znbw-website dev\"",
+    "dev:api": "pnpm --filter @workspace/api-server dev",
+    "dev:web": "pnpm --filter @workspace/znbw-website dev"
   },
-  "private": true,
+  "pnpm": {
+    "overrides": {
+      "@types/node": "24.12.2",
+      "@types/react": "18.3.12",
+      "@types/react-dom": "18.3.1"
+    }
+  },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.59.0",
+    "@typescript-eslint/parser": "^8.59.0",
     "concurrently": "^9.2.1",
     "nodemon": "^3.1.14",
     "prettier": "^3.8.1",
@@ -20,6 +35,7 @@
     "typescript": "~5.9.2"
   },
   "dependencies": {
+    "tsconfig-paths": "^4.2.0",
     "zod": "catalog:"
   }
 }
