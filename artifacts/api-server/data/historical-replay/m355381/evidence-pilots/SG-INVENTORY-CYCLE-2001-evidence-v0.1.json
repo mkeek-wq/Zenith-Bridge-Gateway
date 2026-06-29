@@ -1,0 +1,89 @@
+{
+  "evidence_package_version": "historical-evidence-package-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-INVENTORY-CYCLE-2001",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_investigation_package": "data/historical-replay/m355381/investigation-packages/sg-inventory-cycle-2001-investigation-package-v0.1.json",
+  "case_summary": {
+    "period": "2001",
+    "series_no": "SG-INVENTORY-CYCLE-2001",
+    "series_name": "Inventory Cycle / Restocking",
+    "priority": "critical",
+    "direction": "mixed",
+    "latest_value": null,
+    "month_on_month_change_pct": null,
+    "year_on_year_change_pct": null
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "SG_INVENTORY_CYCLE_2001_EVIDENCE_001",
+      "source_type": "inventory_cycle_event",
+      "source_name": "SG-INVENTORY-CYCLE-2001",
+      "evidence_summary": "Inventory adjustment reflected firms reducing stock levels as external demand weakened.",
+      "supports_drivers": [
+        "MKT_002"
+      ],
+      "evidence_strength": "high"
+    },
+    {
+      "evidence_id": "SG_INVENTORY_CYCLE_2001_EVIDENCE_002",
+      "source_type": "mechanism_context",
+      "source_name": "SG-INVENTORY-CYCLE-2001",
+      "evidence_summary": "Export weakness created pressure to cut production and manage inventory accumulation.",
+      "supports_drivers": [
+        "MKT_002",
+        "MKT_003"
+      ],
+      "evidence_strength": "high"
+    },
+    {
+      "evidence_id": "SG_INVENTORY_CYCLE_2001_EVIDENCE_003",
+      "source_type": "mechanism_context",
+      "source_name": "SG-INVENTORY-CYCLE-2001",
+      "evidence_summary": "Broader downturn conditions provided the macro backdrop.",
+      "supports_drivers": [
+        "MKT_002",
+        "MKT_003"
+      ],
+      "evidence_strength": "medium"
+    },
+    {
+      "evidence_id": "SG_INVENTORY_CYCLE_2001_EVIDENCE_004",
+      "source_type": "mechanism_context",
+      "source_name": "SG-INVENTORY-CYCLE-2001",
+      "evidence_summary": "The primary mechanism was inventory correction and restocking-cycle adjustment.",
+      "supports_drivers": [
+        "MKT_002",
+        "MKT_003"
+      ],
+      "evidence_strength": "medium"
+    }
+  ],
+  "driver_evidence_summary": [
+    {
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "evidence_count": 4,
+      "evidence_strength": "high"
+    },
+    {
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness",
+      "evidence_count": 2,
+      "evidence_strength": "medium"
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "evidence_count": 1,
+      "evidence_strength": "medium"
+    }
+  ],
+  "evidence_assessment": {
+    "evidence_collected": true,
+    "attribution_ready": true,
+    "outcome_ready": false,
+    "confidence": "high"
+  }
+}

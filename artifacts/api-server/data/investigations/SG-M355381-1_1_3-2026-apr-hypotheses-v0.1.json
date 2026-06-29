@@ -1,0 +1,34 @@
+{
+  "hypothesis_version": "hypothesis-engine-v0.1",
+  "generated_at": "2026-06-02T15:01:29.203Z",
+  "case_id": "SG-M355381-1_1_3-2026-apr",
+  "observation": {
+    "latest_value": 173.489,
+    "month_on_month_change_pct": 13.259737037955846,
+    "year_on_year_change_pct": 129.60428798305983
+  },
+  "confidence": "unknown",
+  "hypotheses": [
+    {
+      "hypothesis_id": "MKT_001",
+      "name": "Global Demand Surge",
+      "bucket": "market_effect",
+      "status": "candidate",
+      "reason": "Generated from manufacturing driver library based on YoY movement (129.60%)."
+    },
+    {
+      "hypothesis_id": "OPS_001",
+      "name": "Capacity Expansion",
+      "bucket": "operational_effect",
+      "status": "candidate",
+      "reason": "Generated from manufacturing driver library based on YoY movement (129.60%)."
+    },
+    {
+      "hypothesis_id": "MKT_002",
+      "name": "Inventory Replenishment",
+      "bucket": "market_effect",
+      "status": "candidate",
+      "reason": "Generated from manufacturing driver library based on YoY movement (129.60%)."
+    }
+  ]
+}

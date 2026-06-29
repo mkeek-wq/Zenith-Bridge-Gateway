@@ -1,0 +1,87 @@
+{
+  "evidence_file_version": "replay-evidence-file-v0.1",
+  "generated_at": "2026-06-10T03:40:51.154Z",
+  "case_id": "SG-NODX-2023",
+  "wave_id": "replay-wave-1",
+  "domain": "trade",
+  "period": "2023",
+  "priority": "high",
+  "evidence_status": "populated_pending_validation",
+  "replay_execution_status": "not_ready_validation_required",
+  "no_future_leakage_guard": {
+    "enabled": true,
+    "rule": "Only use evidence published at or before the replay decision date or replay period cutoff.",
+    "publication_date_required": true,
+    "future_dated_records_block_execution": true
+  },
+  "candidate_mechanisms": [
+    "MKT_010"
+  ],
+  "required_signals": [
+    {
+      "signal": "nodx",
+      "source_status": "not_mapped",
+      "evidence_records": []
+    },
+    {
+      "signal": "goods_exports",
+      "source_status": "not_mapped",
+      "evidence_records": []
+    },
+    {
+      "signal": "global_trade_volume",
+      "source_status": "not_mapped",
+      "evidence_records": []
+    },
+    {
+      "signal": "global_pmi",
+      "source_status": "not_mapped",
+      "evidence_records": []
+    }
+  ],
+  "required_manual_fields_before_execution": [
+    "source_name",
+    "source_url_or_reference",
+    "publication_date",
+    "observed_period",
+    "value_or_qualitative_finding",
+    "lineage_note"
+  ],
+  "governance_note": "This file is a replay evidence skeleton only. It is not evidence until populated, sourced, date-checked, and lineage-reviewed.",
+  "replay_decision_date": "2023-12-31",
+  "evidence_records": [
+    {
+      "evidence_id": "SG-NODX-2023-EV001",
+      "metric": "NODX",
+      "observed_period": "2023",
+      "publication_date": "2023-12-18",
+      "source_name": "Enterprise Singapore",
+      "source_url_or_reference": "official_trade_statistics",
+      "value_or_qualitative_finding": "NODX contraction observed during 2023 trade downturn",
+      "lineage_note": "Official Singapore trade statistic; exact source URL to be attached before production use.",
+      "future_leakage_check": "pending_validation"
+    },
+    {
+      "evidence_id": "SG-NODX-2023-EV002",
+      "metric": "GLOBAL_TRADE_VOLUME",
+      "observed_period": "2023",
+      "publication_date": "2023-12-15",
+      "source_name": "WTO / CPB / World Bank",
+      "source_url_or_reference": "global_trade_context",
+      "value_or_qualitative_finding": "Weak global trade conditions during 2023",
+      "lineage_note": "Global trade context source; exact source URL to be attached before production use.",
+      "future_leakage_check": "pending_validation"
+    },
+    {
+      "evidence_id": "SG-NODX-2023-EV003",
+      "metric": "GLOBAL_PMI",
+      "observed_period": "2023",
+      "publication_date": "2023-12-05",
+      "source_name": "S&P Global / JPMorgan Global PMI",
+      "source_url_or_reference": "global_pmi_context",
+      "value_or_qualitative_finding": "Soft global manufacturing demand context",
+      "lineage_note": "Macro context indicator; exact publication reference to be attached before production use.",
+      "future_leakage_check": "pending_validation"
+    }
+  ]
+}

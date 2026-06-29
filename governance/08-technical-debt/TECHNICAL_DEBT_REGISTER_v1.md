@@ -2,7 +2,7 @@
 
 Status: Active
 Version: 1.0
-Last Updated: 2026-06-23
+Last Updated: 2026-06-29
 
 Purpose:
 Track known technical debt, architectural debt, governance debt and cleanup opportunities.
@@ -273,3 +273,22 @@ When closing debt:
 2. Record action taken.
 3. Move item to Closed Items.
 4. Update relevant governance documents.
+
+## Git Working Tree Hygiene – Phase D
+
+Priority: High
+
+Issue:
+- Repository still has modified/deleted/untracked workspace files after source preservation.
+- Remaining files need classification: source code, generated artifacts, runtime outputs, legacy deletions, or ignore candidates.
+
+Current safe point:
+- `safety/discovered-untracked-code`
+- `zenith-pre-git-source-snapshot-v0.1`
+
+Next actions:
+1. Classify remaining dirty tree.
+2. Decide what belongs in Git.
+3. Expand `.gitignore`.
+4. Separate generated data from source code.
+5. Create Git repository policy.

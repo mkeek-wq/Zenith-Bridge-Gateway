@@ -1,0 +1,49 @@
+{
+  "queue_version": "data-request-queue-v0.1",
+  "generated_at": "2026-06-11T01:36:43.104Z",
+  "input_package": "article-evidence-package-v0.2",
+  "seed_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+  "summary": {
+    "total_requests": 3,
+    "high_priority": 2,
+    "graph_dependencies": 0
+  },
+  "requests": [
+    {
+      "request_id": "DRQ_REQ_001",
+      "seed_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+      "country": "Singapore",
+      "claim": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles can be supported by Singapore-specific evidence.",
+      "metric_needed": "Evidence claim",
+      "preferred_source": "Singapore Department of Statistics",
+      "priority": "high",
+      "needed_for": "article_only",
+      "graph_dependency": false,
+      "status": "open"
+    },
+    {
+      "request_id": "DRQ_REQ_002",
+      "seed_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+      "country": "Singapore",
+      "claim": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles may require sector or agency evidence.",
+      "metric_needed": "Evidence claim",
+      "preferred_source": "Relevant Singapore official agency",
+      "priority": "high",
+      "needed_for": "article_only",
+      "graph_dependency": false,
+      "status": "open"
+    },
+    {
+      "request_id": "DRQ_REQ_003",
+      "seed_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+      "country": "Singapore",
+      "claim": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles may benefit from light macro comparison.",
+      "metric_needed": "Evidence claim",
+      "preferred_source": "World Bank / IEA / WTO / IMF where relevant",
+      "priority": "medium",
+      "needed_for": "article_only",
+      "graph_dependency": false,
+      "status": "open"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "prediction_accuracy_version": "prediction-accuracy-v0.2",
+  "generated_at": "2026-06-03T10:58:52.587Z",
+  "source_prediction_file": "data/replay-sandbox/predictions/replay-predictions-similarity-2026-06-03T09-00-00.000Z.json",
+  "source_historical_outcomes_file": "data/intelligence/historical-outcomes-v0.1.json",
+  "source_sandbox_ground_truth_file": "data/replay-sandbox/ground-truth/sandbox-ground-truth-v0.1.json",
+  "sandbox_ground_truth_version": "sandbox-ground-truth-v0.2",
+  "replay_prediction_version": "replay-prediction-v0.2-similarity",
+  "prediction_governance_version": "prediction-governance-v0.1",
+  "replay_date": "2026-06-03T09:00:00.000Z",
+  "scoring_policy": {
+    "principle": "Prediction accuracy v0.2 can score against production historical outcomes and sandbox-only ground truth records.",
+    "production_mutation_allowed": false,
+    "labels": [
+      "correct",
+      "incorrect",
+      "unknown_actual_outcome",
+      "not_scorable"
+    ]
+  },
+  "summary": {
+    "total_cases": 11,
+    "predictions_available": 2,
+    "scorable_predictions": 2,
+    "correct": 2,
+    "incorrect": 0,
+    "unknown_actual_outcome": 0,
+    "not_scorable": 9,
+    "sandbox_scorable_predictions": 2,
+    "production_scorable_predictions": 0,
+    "accuracy_rate": 100
+  },
+  "scored_predictions": [
+    {
+      "case_id": "SG-M355381-1_1-2026-apr",
+      "prediction_available": true,
+      "prediction_status": "similarity_prediction_available",
+      "predicted_outcome": {
+        "primary_driver": "MKT_001",
+        "primary_driver_name": "Global Demand Surge",
+        "supporting_cases": 1,
+        "supporting_case_ids": [
+          "SG-M355381-1_1_3-2026-apr"
+        ],
+        "max_similarity_percent": 63.64,
+        "average_similarity_percent": 63.64,
+        "prediction_strength": "low",
+        "prediction_method": "similar_visible_historical_outcome"
+      },
+      "actual_outcome": {
+        "case_id": "SG-M355381-1_1-2026-apr",
+        "primary_driver": "MKT_001",
+        "primary_driver_name": "Global Demand Surge",
+        "ground_truth_source": "sandbox_override",
+        "ground_truth_confidence": "test",
+        "sandbox_only": true
+      },
+      "accuracy_result": "correct",
+      "accuracy_note": "Predicted driver matches ground truth driver."
+    },
+    {
+      "case_id": "SG-M355381-1_1_1-2026-apr",
+      "prediction_available": true,
+      "prediction_status": "similarity_prediction_available",
+      "predicted_outcome": {
+        "primary_driver": "MKT_001",
+        "primary_driver_name": "Global Demand Surge",
+        "supporting_cases": 1,
+        "supporting_case_ids": [
+          "SG-M355381-1_1_3-2026-apr"
+        ],
+        "max_similarity_percent": 63.64,
+        "average_similarity_percent": 63.64,
+        "prediction_strength": "low",
+        "prediction_method": "similar_visible_historical_outcome"
+      },
+      "actual_outcome": {
+        "case_id": "SG-M355381-1_1_1-2026-apr",
+        "primary_driver": "MKT_001",
+        "primary_driver_name": "Global Demand Surge",
+        "ground_truth_source": "sandbox_override",
+        "ground_truth_confidence": "test",
+        "sandbox_only": true
+      },
+      "accuracy_result": "correct",
+      "accuracy_note": "Predicted driver matches ground truth driver."
+    },
+    {
+      "case_id": "SG-M355381-1_1_3-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "outcome_already_visible",
+      "predicted_outcome": null,
+      "actual_outcome": {
+        "case_id": "SG-M355381-1_1_3-2026-apr",
+        "primary_driver": "MKT_001",
+        "primary_driver_name": "Global Demand Surge",
+        "ground_truth_source": "historical_outcomes",
+        "ground_truth_confidence": "high",
+        "sandbox_only": false
+      },
+      "accuracy_result": "not_scorable",
+      "accuracy_note": "No prediction was available for this case, so accuracy was not scored."
+    },
+    {
+      "case_id": "SG-M355381-1_2_1-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "no_visible_similar_outcome_above_threshold",
+      "predicted_outcome": null,
+      "actual_outcome": null,
+      "accuracy_result": "not_scorable",
+      "accuracy_note": "No prediction was available for this case, so accuracy was not scored."
+    },
+    {
+      "case_id": "SG-M355381-1_2_2-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "no_visible_similar_outcome_above_threshold",
+      "predicted_outcome": null,
+      "actual_outcome": null,
+      "accuracy_result": "not_scorable",
+      "accuracy_note": "No prediction was available for this case, so accuracy was not scored."
+    },
+    {
+      "case_id": "SG-M355381-1_2_4-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "no_visible_similar_outcome_above_threshold",
+      "predicted_outcome": null,
+      "actual_outcome": null,
+      "accuracy_result": "not_scorable",
+      "accuracy_note": "No prediction was available for this case, so accuracy was not scored."
+    },
+    {
+      "case_id": "SG-M355381-1_3-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "no_visible_similar_outcome_above_threshold",
+      "predicted_outcome": null,
+      "actual_outcome": null,
+      "accuracy_result": "not_scorable",
+      "accuracy_note": "No prediction was available for this case, so accuracy was not scored."
+    },
+    {
+      "case_id": "SG-M355381-1_3_1-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "no_visible_similar_outcome_above_threshold",
+      "predicted_outcome": null,
+      "actual_outcome": null,
+      "accuracy_result": "not_scorable",
+      "accuracy_note": "No prediction was available for this case, so accuracy was not scored."
+    },
+    {
+      "case_id": "SG-M355381-1_3_2-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "no_visible_similar_outcome_above_threshold",
+      "predicted_outcome": null,
+      "actual_outcome": null,
+      "accuracy_result": "not_scorable",
+      "accuracy_note": "No prediction was available for this case, so accuracy was not scored."
+    },
+    {
+      "case_id": "SG-M355381-1_5_2-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "no_visible_similar_outcome_above_threshold",
+      "predicted_outcome": null,
+      "actual_outcome": null,
+      "accuracy_result": "not_scorable",
+      "accuracy_note": "No prediction was available for this case, so accuracy was not scored."
+    },
+    {
+      "case_id": "SG-M355381-1_5_3-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "no_visible_similar_outcome_above_threshold",
+      "predicted_outcome": null,
+      "actual_outcome": null,
+      "accuracy_result": "not_scorable",
+      "accuracy_note": "No prediction was available for this case, so accuracy was not scored."
+    }
+  ]
+}

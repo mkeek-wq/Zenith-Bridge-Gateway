@@ -1,0 +1,42 @@
+{
+  "index_version": "replay-evidence-file-index-v0.1",
+  "generated_at": "2026-06-10T03:40:51.155Z",
+  "source_gate": "data/replay/replay-wave-1-readiness-gate-v0.1.json",
+  "source_pack": "data/replay/replay-wave-1-pack-v0.1.json",
+  "files_created": 4,
+  "output_dir": "data/replay/wave-1/evidence-files",
+  "files": [
+    {
+      "case_id": "SG-GOODS-EXPORTS-2020",
+      "domain": "trade",
+      "period": "2020",
+      "evidence_file": "data/replay/wave-1/evidence-files/SG-GOODS-EXPORTS-2020-replay-evidence-v0.1.json",
+      "evidence_status": "skeleton_created_needs_evidence_population",
+      "replay_execution_status": "not_ready_for_execution"
+    },
+    {
+      "case_id": "SG-NODX-2023",
+      "domain": "trade",
+      "period": "2023",
+      "evidence_file": "data/replay/wave-1/evidence-files/SG-NODX-2023-replay-evidence-v0.1.json",
+      "evidence_status": "skeleton_created_needs_evidence_population",
+      "replay_execution_status": "not_ready_for_execution"
+    },
+    {
+      "case_id": "SG-FINANCE-2020",
+      "domain": "finance",
+      "period": "2020",
+      "evidence_file": "data/replay/wave-1/evidence-files/SG-FINANCE-2020-replay-evidence-v0.1.json",
+      "evidence_status": "skeleton_created_needs_evidence_population",
+      "replay_execution_status": "not_ready_for_execution"
+    },
+    {
+      "case_id": "SG-LABOUR-MARKET-2020",
+      "domain": "employment",
+      "period": "2020",
+      "evidence_file": "data/replay/wave-1/evidence-files/SG-LABOUR-MARKET-2020-replay-evidence-v0.1.json",
+      "evidence_status": "skeleton_created_needs_evidence_population",
+      "replay_execution_status": "not_ready_for_execution"
+    }
+  ]
+}

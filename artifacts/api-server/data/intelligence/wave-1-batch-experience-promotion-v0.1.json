@@ -1,0 +1,69 @@
+{
+  "promotion_batch_version": "wave-1-batch-experience-promotion-v0.1",
+  "generated_at": "2026-06-10T09:22:24.941Z",
+  "source_comparison_batch": "data/replay/wave-1/wave-1-batch-outcome-comparison-v0.1.json",
+  "candidates_reviewed": 3,
+  "promoted_to_experience_memory": 3,
+  "candidate_only": 0,
+  "promoted": [
+    {
+      "experience_candidate_id": "SG-GOODS-EXPORTS-2020-EXP-CANDIDATE-v0.1",
+      "case_id": "SG-GOODS-EXPORTS-2020",
+      "mechanism_ids": [
+        "MKT_010"
+      ],
+      "alignment_score": 0.74,
+      "alignment_band": "moderate_alignment",
+      "promotion_status": "promoted_to_experience_memory",
+      "gate_decision": "GO_FOR_EXPERIENCE_MEMORY_ENTRY",
+      "observed_outcome": {
+        "outcome_id": "SG-GOODS-EXPORTS-2020-OUTCOME",
+        "observed_period": "2020",
+        "outcome_summary": "Goods exports faced external demand pressure during the 2020 global trade shock.",
+        "outcome_direction": "contraction",
+        "source_status": "historical_outcome_recorded"
+      },
+      "governance_note": "Batch promotion adds experience memory entries only; mechanisms remain unvalidated."
+    },
+    {
+      "experience_candidate_id": "SG-LABOUR-MARKET-2020-EXP-CANDIDATE-v0.1",
+      "case_id": "SG-LABOUR-MARKET-2020",
+      "mechanism_ids": [
+        "MKT_005",
+        "MKT_006"
+      ],
+      "alignment_score": 0.79,
+      "alignment_band": "strong_alignment",
+      "promotion_status": "promoted_to_experience_memory",
+      "gate_decision": "GO_FOR_EXPERIENCE_MEMORY_ENTRY",
+      "observed_outcome": {
+        "outcome_id": "SG-LABOUR-MARKET-2020-OUTCOME",
+        "observed_period": "2020",
+        "outcome_summary": "Singapore labour market conditions deteriorated during the 2020 downturn, with employment pressure and policy support.",
+        "outcome_direction": "deterioration",
+        "source_status": "historical_outcome_recorded"
+      },
+      "governance_note": "Batch promotion adds experience memory entries only; mechanisms remain unvalidated."
+    },
+    {
+      "experience_candidate_id": "SG-FINANCE-2020-EXP-CANDIDATE-v0.1",
+      "case_id": "SG-FINANCE-2020",
+      "mechanism_ids": [
+        "MKT_007",
+        "MKT_010"
+      ],
+      "alignment_score": 0.76,
+      "alignment_band": "strong_alignment",
+      "promotion_status": "promoted_to_experience_memory",
+      "gate_decision": "GO_FOR_EXPERIENCE_MEMORY_ENTRY",
+      "observed_outcome": {
+        "outcome_id": "SG-FINANCE-2020-OUTCOME",
+        "observed_period": "2020",
+        "outcome_summary": "Finance-sector conditions reflected market volatility and macro-financial stress during the 2020 shock.",
+        "outcome_direction": "stress",
+        "source_status": "historical_outcome_recorded"
+      },
+      "governance_note": "Batch promotion adds experience memory entries only; mechanisms remain unvalidated."
+    }
+  ]
+}

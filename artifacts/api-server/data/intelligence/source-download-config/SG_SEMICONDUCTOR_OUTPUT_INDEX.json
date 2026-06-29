@@ -1,0 +1,14 @@
+{
+  "dataset_id": "SG_SEMICONDUCTOR_OUTPUT_INDEX",
+  "name": "Singapore computer, electronic and optical products output",
+  "country": "Singapore",
+  "metric_type": "manufacturing_output_value",
+  "frequency": "annual",
+  "source_name": "SingStat Table Builder",
+  "table_id": "M354851",
+  "series_match": "Computer, Electronic & Optical Products",
+  "file_type": "singstat_table",
+  "unit": "Million Dollars",
+  "verification_status_after_load": "loaded_pending_review",
+  "notes": "Loaded from SingStat Table Builder API table M354851. Series: Computer, Electronic & Optical Products."
+}

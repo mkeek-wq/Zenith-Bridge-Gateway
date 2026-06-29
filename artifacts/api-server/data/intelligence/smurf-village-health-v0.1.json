@@ -1,0 +1,43 @@
+{
+  "report_version": "smurf-village-health-v0.1",
+  "generated_at": "2026-06-25T13:45:22.216Z",
+  "smurf_count": 4,
+  "healthy_count": 4,
+  "review_count": 0,
+  "blocked_count": 0,
+  "missing_count": 0,
+  "smurfs": [
+    {
+      "smurf": "Hungry",
+      "role": "Update scan",
+      "file": "data/intelligence/hungry-smurf-update-scan-v0.1.json",
+      "present": true,
+      "health": "healthy",
+      "detail": "ready=7, review=7, blocked=0"
+    },
+    {
+      "smurf": "Nose",
+      "role": "Schema sniff",
+      "file": "data/intelligence/hungry-smurf-schema-sniff-v0.1.json",
+      "present": true,
+      "health": "healthy",
+      "detail": "clean=7, review=0, blocked=0"
+    },
+    {
+      "smurf": "Governance",
+      "role": "Pre-ingestion gate",
+      "file": "data/intelligence/hungry-smurf-pre-ingestion-gate-v0.1.json",
+      "present": true,
+      "health": "healthy",
+      "detail": "decision=GO_FOR_CONTROLLED_STAGING, warnings=2"
+    },
+    {
+      "smurf": "Staging",
+      "role": "Controlled staging",
+      "file": "data/ingestion/hungry-smurf-controlled-staging-v0.1.json",
+      "present": true,
+      "health": "healthy",
+      "detail": "staged=7"
+    }
+  ]
+}

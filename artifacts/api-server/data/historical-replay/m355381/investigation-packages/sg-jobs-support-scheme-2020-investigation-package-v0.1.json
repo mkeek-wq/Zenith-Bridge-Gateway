@@ -1,0 +1,87 @@
+{
+  "investigation_package_version": "historical-investigation-package-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-JOBS-SUPPORT-SCHEME-2020",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_candidate_file": "docs/policy-replay-candidate-list-v0.1.md",
+  "case_summary": {
+    "period": "2020",
+    "series_no": "POLICY-MOF-JOBS-SUPPORT-SCHEME",
+    "series_name": "Jobs Support Scheme",
+    "priority": "critical",
+    "direction": "positive",
+    "latest_value": null,
+    "month_on_month_change_pct": null,
+    "year_on_year_change_pct": null
+  },
+  "search_queries": {
+    "official_queries": [
+      "Singapore Jobs Support Scheme 2020 MOF",
+      "Singapore JSS wage support scheme COVID 2020",
+      "Singapore Jobs Support Scheme employment retention 2020",
+      "Singapore government wage subsidy employers COVID 2020"
+    ],
+    "industry_queries": [
+      "Singapore Jobs Support Scheme business survival 2020",
+      "Singapore Jobs Support Scheme labour market impact",
+      "Singapore wage subsidy employment stabilization COVID"
+    ],
+    "context_queries": [
+      "Singapore COVID support measures 2020",
+      "Singapore employment support package 2020",
+      "Singapore labour market stabilization 2020"
+    ]
+  },
+  "hypotheses": [
+    {
+      "hypothesis_id": "HYP_POLICY_SUPPORT",
+      "hypothesis": "The movement may reflect direct government wage support that helped preserve employment and business continuity.",
+      "attribution_bucket": "policy_effect"
+    },
+    {
+      "hypothesis_id": "HYP_DEMAND_SHOCK",
+      "hypothesis": "The movement may primarily reflect COVID demand collapse rather than the effectiveness of policy support.",
+      "attribution_bucket": "market_effect"
+    },
+    {
+      "hypothesis_id": "HYP_OPERATIONAL_DISRUPTION",
+      "hypothesis": "The movement may reflect operational restrictions and circuit breaker measures that affected business activity.",
+      "attribution_bucket": "operational_effect"
+    },
+    {
+      "hypothesis_id": "HYP_UNKNOWN",
+      "hypothesis": "The event is policy-relevant but currently lacks sufficient explanatory evidence.",
+      "attribution_bucket": "unknown_effect"
+    }
+  ],
+  "driver_candidates": [
+    {
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "applies_when": "Output, employment, or business activity changes due to subsidies, incentives, support schemes, regulations, or government intervention."
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "applies_when": "Output or employment changes due to pandemic shock, recession, export weakness, or demand collapse."
+    },
+    {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "applies_when": "Activity changes due to lockdowns, restrictions, manpower constraints, supply chain issues, or operational limitations."
+    }
+  ],
+  "expected_mechanisms": [
+    "government subsidized employee wages",
+    "businesses retained workers during COVID downturn",
+    "employment losses may have been reduced",
+    "firm survival rates may have improved",
+    "policy effects may be visible through labour market stabilization and business continuity"
+  ],
+  "investigation_status": {
+    "evidence_collected": false,
+    "attribution_scored": false,
+    "outcome_ready": false
+  }
+}

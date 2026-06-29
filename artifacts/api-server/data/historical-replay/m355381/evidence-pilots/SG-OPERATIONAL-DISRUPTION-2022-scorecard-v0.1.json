@@ -1,0 +1,48 @@
+{
+  "scorecard_version": "historical-evidence-scorecard-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-OPERATIONAL-DISRUPTION-2022",
+  "driver_scores": [
+    {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "score": 48,
+      "rank": 1
+    },
+    {
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "score": 18,
+      "rank": 2
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "score": 10,
+      "rank": 3
+    }
+  ],
+  "final_attribution": {
+    "primary_driver": {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "score": 48
+    },
+    "secondary_driver": {
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "score": 18
+    },
+    "tertiary_driver": {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "score": 10
+    },
+    "confidence": "high"
+  },
+  "scorecard_status": {
+    "attribution_scored": true,
+    "outcome_ready": true,
+    "human_review_required": true
+  }
+}

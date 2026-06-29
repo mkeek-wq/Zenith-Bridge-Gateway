@@ -1,0 +1,54 @@
+{
+  "worker_version": "replay-smurf-task-runner-v0.1",
+  "generated_at": "2026-06-26T06:48:28.554Z",
+  "task_id": "DSP-20260626-0001-TASK-004",
+  "smurf_id": "REPLAY",
+  "status": "completed",
+  "duration_seconds": 4.864,
+  "governance": {
+    "replay_worker_only": true,
+    "dry_run_only": true,
+    "production_mutation_allowed": false,
+    "downstream_tasks_unlocked": true
+  },
+  "replay_summary": {
+    "readiness_status": "ready_for_replay_dry_run",
+    "fleet_execution_status": "fleet_replay_dry_run_completed",
+    "cases_processed": 4,
+    "total_records_replayed": 11,
+    "fleet_quality_score": 1,
+    "fleet_mechanism_coverage": 1,
+    "average_calibration_score": 0.82,
+    "mechanisms_calibrated": 3
+  },
+  "results": [
+    {
+      "script": "src/scripts/build-replay-readiness-check-v0.1.ts",
+      "status": "completed",
+      "exit_code": 0,
+      "stdout_tail": "──────────────────────────────────────────┐\n│ (index) │ check                           │ passed │ detail                                                 │\n├─────────┼─────────────────────────────────┼────────┼────────────────────────────────────────────────────────┤\n│ 0       │ 'MAINTENANCE_COMPATIBILITY'     │ true   │ 'General maintenance compatibility must be clean.'     │\n│ 1       │ 'MODULE_REGISTRY_PRESENT'       │ true   │ 'Module registry must exist.'                          │\n│ 2       │ 'COMPATIBILITY_CHECK_PRESENT'   │ true   │ 'Compatibility check must allow standard operations.'  │\n│ 3       │ 'REPLAY_CONFIG_PRESENT'         │ true   │ 'Replay run config must exist.'                        │\n│ 4       │ 'REPLAY_DRY_RUN_MODE'           │ true   │ 'Replay must begin in dry_run_only mode.'              │\n│ 5       │ 'PRODUCTION_MUTATION_BLOCKED'   │ true   │ 'Replay must not mutate production evidence.'          │\n│ 6       │ 'THROTTLE_ENABLED'              │ true   │ 'Replay should start throttled and single-threaded.'   │\n│ 7       │ 'RUN_LIMITS_PRESENT'            │ true   │ 'Replay must have run-size limits.'                    │\n│ 8       │ 'REPLAY_DIRECTORIES_PRESENT'    │ true   │ 'Replay directory structure must exist.'               │\n│ 9       │ 'PRE_INGESTION_BASELINE_EXISTS' │ true   │ 'A baseline snapshot should exist before replay runs.' │\n└─────────┴─────────────────────────────────┴────────┴────────────────────────────────────────────────────────┘\n",
+      "stderr_tail": ""
+    },
+    {
+      "script": "src/scripts/build-replay-fleet-dry-run-executor-v0.1.ts",
+      "status": "completed",
+      "exit_code": 0,
+      "stdout_tail": "{\n  engine_version: 'replay-fleet-dry-run-executor-v0.1',\n  fleet_run_id: 'FLEET_RUN_2026-06-26T06-48-26-182Z',\n  execution_status: 'fleet_replay_dry_run_completed',\n  summary: {\n    cases_processed: 4,\n    cases_completed: 4,\n    cases_failed: 0,\n    total_records_replayed: 11,\n    production_records_written: 0\n  },\n  output: 'data/replay/fleet-runs/replay-fleet-dry-run-executor-v0.1.json'\n}\n┌─────────┬─────────────────────────┬──────────────────┬─────────┬────────────┬─────────────┐\n│ (index) │ case_id                 │ domain           │ records │ mechanisms │ status      │\n├─────────┼─────────────────────────┼──────────────────┼─────────┼────────────┼─────────────┤\n│ 0       │ 'SG-MANUFACTURING-2020' │ 'manufacturing'  │ 3       │ 2          │ 'completed' │\n│ 1       │ 'SG-PETROLEUM-2020'     │ 'petroleum'      │ 2       │ 2          │ 'completed' │\n│ 2       │ 'SG-SEMICONDUCTOR-2021' │ 'semiconductors' │ 3       │ 2          │ 'completed' │\n│ 3       │ 'SG-BIOMEDICAL-2021'    │ 'biomedical'     │ 3       │ 3          │ 'completed' │\n└─────────┴─────────────────────────┴──────────────────┴─────────┴────────────┴─────────────┘\n",
+      "stderr_tail": ""
+    },
+    {
+      "script": "src/scripts/build-replay-fleet-evaluation-engine-v0.1.ts",
+      "status": "completed",
+      "exit_code": 0,
+      "stdout_tail": "{\n  engine_version: 'replay-fleet-evaluation-engine-v0.1',\n  fleet_run_id: 'FLEET_RUN_2026-06-26T06-48-26-182Z',\n  summary: {\n    fleet_quality_score: 1,\n    fleet_mechanism_coverage: 1,\n    fleet_expected_match_ratio: 1,\n    unique_mechanisms_detected: 3,\n    strong_cases: 4,\n    moderate_cases: 0,\n    weak_cases: 0,\n    insufficient_cases: 0,\n    production_records_written: 0\n  },\n  output: 'data/replay/fleet-evaluations/replay-fleet-evaluation-engine-v0.1.json'\n}\n┌─────────┬─────────────────────────┬──────────┬───────┬─────────┬──────────────────────┐\n│ (index) │ case_id                 │ coverage │ match │ quality │ band                 │\n├─────────┼─────────────────────────┼──────────┼───────┼─────────┼──────────────────────┤\n│ 0       │ 'SG-MANUFACTURING-2020' │ 1        │ 1     │ 1       │ 'strong_replay_case' │\n│ 1       │ 'SG-PETROLEUM-2020'     │ 1        │ 1     │ 1       │ 'strong_replay_case' │\n│ 2       │ 'SG-SEMICONDUCTOR-2021' │ 1        │ 1     │ 1       │ 'strong_replay_case' │\n│ 3       │ 'SG-BIOMEDICAL-2021'    │ 1        │ 1     │ 1       │ 'strong_replay_case' │\n└─────────┴─────────────────────────┴──────────┴───────┴─────────┴──────────────────────┘\n",
+      "stderr_tail": ""
+    },
+    {
+      "script": "src/scripts/build-replay-calibration-engine-v0.2.ts",
+      "status": "completed",
+      "exit_code": 0,
+      "stdout_tail": "{\n  registry_version: 'replay-calibration-engine-v0.2',\n  inputs: { fleet_cases: 4, mechanisms_detected: 3 },\n  summary: {\n    mechanisms_calibrated: 3,\n    average_calibration_score: 0.82,\n    strong_calibration: 2,\n    moderate_calibration: 1,\n    weak_calibration: 0,\n    insufficient_calibration: 0\n  },\n  output: 'data/replay/replay-calibration-engine-v0.2.json'\n}\n┌─────────┬──────────────────────────────────────────────────┬───────┬───────────┬────────┬────────────┬────────┬───────┬────────────────────────┐\n│ (index) │ mechanism                                        │ cases │ precision │ recall │ unexpected │ missed │ score │ band                   │\n├─────────┼──────────────────────────────────────────────────┼───────┼───────────┼────────┼────────────┼────────┼───────┼────────────────────────┤\n│ 0       │ 'MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY' │ 4     │ 0.5       │ 1      │ 2          │ 0      │ 0.685 │ 'moderate_calibration' │\n│ 1       │ 'MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY'      │ 4     │ 1         │ 1      │ 0          │ 0      │ 0.91  │ 'strong_calibration'   │\n│ 2       │ 'MKT_006_POLICY_REGULATORY_IMPACT'               │ 1     │ 1         │ 1      │ 0          │ 0      │ 0.865 │ 'strong_calibration'   │\n└─────────┴──────────────────────────────────────────────────┴───────┴───────────┴────────┴────────────┴────────┴───────┴────────────────────────┘\n",
+      "stderr_tail": ""
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "replay_prediction_version": "replay-prediction-v0.2-similarity",
+  "generated_at": "2026-06-03T10:58:49.440Z",
+  "source_replay_plan": "data/replay-sandbox/replay-plan-2026-06-03T09-00-00.000Z.json",
+  "source_similarity_file": "data/intelligence/case-similarity-v0.1.json",
+  "source_historical_outcomes_file": "data/intelligence/historical-outcomes-v0.1.json",
+  "source_prediction_governance_file": "config/prediction-governance-v0.1.json",
+  "prediction_governance_version": "prediction-governance-v0.1",
+  "replay_date": "2026-06-03T09:00:00.000Z",
+  "prediction_policy": {
+    "governance": {
+      "version": "prediction-governance-v0.1",
+      "principle": "Replay predictions must be conservative, explainable, and based only on replay-visible prior outcomes.",
+      "minimum_similarity_percent": 60,
+      "minimum_supporting_cases": 1,
+      "strength_thresholds": {
+        "low": {
+          "min_supporting_cases": 1,
+          "min_max_similarity_percent": 60,
+          "min_average_similarity_percent": 60
+        },
+        "medium": {
+          "min_supporting_cases": 2,
+          "min_max_similarity_percent": 70,
+          "min_average_similarity_percent": 60
+        },
+        "high": {
+          "min_supporting_cases": 3,
+          "min_max_similarity_percent": 85,
+          "min_average_similarity_percent": 75
+        }
+      },
+      "allowed_prediction_statuses": [
+        "case_not_visible",
+        "outcome_already_visible",
+        "missing_similarity_record",
+        "no_visible_similar_outcome_above_threshold",
+        "similarity_prediction_available"
+      ]
+    }
+  },
+  "summary": {
+    "total_cases": 11,
+    "visible_prior_outcomes": 1,
+    "predictions_available": 2,
+    "case_not_visible": 0,
+    "outcome_already_visible": 1,
+    "no_visible_similar_outcome_above_threshold": 8,
+    "missing_similarity_record": 0
+  },
+  "predictions": [
+    {
+      "case_id": "SG-M355381-1_1-2026-apr",
+      "prediction_available": true,
+      "prediction_status": "similarity_prediction_available",
+      "predicted_outcome": {
+        "primary_driver": "MKT_001",
+        "primary_driver_name": "Global Demand Surge",
+        "supporting_cases": 1,
+        "supporting_case_ids": [
+          "SG-M355381-1_1_3-2026-apr"
+        ],
+        "max_similarity_percent": 63.64,
+        "average_similarity_percent": 63.64,
+        "prediction_strength": "low",
+        "prediction_method": "similar_visible_historical_outcome"
+      },
+      "candidate_outcomes": [
+        {
+          "primary_driver": "MKT_001",
+          "primary_driver_name": "Global Demand Surge",
+          "supporting_cases": 1,
+          "supporting_case_ids": [
+            "SG-M355381-1_1_3-2026-apr"
+          ],
+          "max_similarity_percent": 63.64,
+          "average_similarity_percent": 63.64,
+          "prediction_strength": "low"
+        }
+      ],
+      "prediction_note": "Prediction generated from replay-visible similar historical outcomes only."
+    },
+    {
+      "case_id": "SG-M355381-1_1_1-2026-apr",
+      "prediction_available": true,
+      "prediction_status": "similarity_prediction_available",
+      "predicted_outcome": {
+        "primary_driver": "MKT_001",
+        "primary_driver_name": "Global Demand Surge",
+        "supporting_cases": 1,
+        "supporting_case_ids": [
+          "SG-M355381-1_1_3-2026-apr"
+        ],
+        "max_similarity_percent": 63.64,
+        "average_similarity_percent": 63.64,
+        "prediction_strength": "low",
+        "prediction_method": "similar_visible_historical_outcome"
+      },
+      "candidate_outcomes": [
+        {
+          "primary_driver": "MKT_001",
+          "primary_driver_name": "Global Demand Surge",
+          "supporting_cases": 1,
+          "supporting_case_ids": [
+            "SG-M355381-1_1_3-2026-apr"
+          ],
+          "max_similarity_percent": 63.64,
+          "average_similarity_percent": 63.64,
+          "prediction_strength": "low"
+        }
+      ],
+      "prediction_note": "Prediction generated from replay-visible similar historical outcomes only."
+    },
+    {
+      "case_id": "SG-M355381-1_1_3-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "outcome_already_visible",
+      "predicted_outcome": null,
+      "prediction_note": "Outcome was already visible at replay date. Case is ground truth."
+    },
+    {
+      "case_id": "SG-M355381-1_2_1-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "no_visible_similar_outcome_above_threshold",
+      "predicted_outcome": null,
+      "candidate_outcomes": [
+        {
+          "primary_driver": "MKT_001",
+          "primary_driver_name": "Global Demand Surge",
+          "supporting_cases": 1,
+          "supporting_case_ids": [
+            "SG-M355381-1_1_3-2026-apr"
+          ],
+          "max_similarity_percent": 31.82,
+          "average_similarity_percent": 31.82,
+          "prediction_strength": "none"
+        }
+      ],
+      "prediction_note": "No visible similar outcome passed governance thresholds."
+    },
+    {
+      "case_id": "SG-M355381-1_2_2-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "no_visible_similar_outcome_above_threshold",
+      "predicted_outcome": null,
+      "candidate_outcomes": [
+        {
+          "primary_driver": "MKT_001",
+          "primary_driver_name": "Global Demand Surge",
+          "supporting_cases": 1,
+          "supporting_case_ids": [
+            "SG-M355381-1_1_3-2026-apr"
+          ],
+          "max_similarity_percent": 18.18,
+          "average_similarity_percent": 18.18,
+          "prediction_strength": "none"
+        }
+      ],
+      "prediction_note": "No visible similar outcome passed governance thresholds."
+    },
+    {
+      "case_id": "SG-M355381-1_2_4-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "no_visible_similar_outcome_above_threshold",
+      "predicted_outcome": null,
+      "candidate_outcomes": [
+        {
+          "primary_driver": "MKT_001",
+          "primary_driver_name": "Global Demand Surge",
+          "supporting_cases": 1,
+          "supporting_case_ids": [
+            "SG-M355381-1_1_3-2026-apr"
+          ],
+          "max_similarity_percent": 31.82,
+          "average_similarity_percent": 31.82,
+          "prediction_strength": "none"
+        }
+      ],
+      "prediction_note": "No visible similar outcome passed governance thresholds."
+    },
+    {
+      "case_id": "SG-M355381-1_3-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "no_visible_similar_outcome_above_threshold",
+      "predicted_outcome": null,
+      "candidate_outcomes": [
+        {
+          "primary_driver": "MKT_001",
+          "primary_driver_name": "Global Demand Surge",
+          "supporting_cases": 1,
+          "supporting_case_ids": [
+            "SG-M355381-1_1_3-2026-apr"
+          ],
+          "max_similarity_percent": 13.64,
+          "average_similarity_percent": 13.64,
+          "prediction_strength": "none"
+        }
+      ],
+      "prediction_note": "No visible similar outcome passed governance thresholds."
+    },
+    {
+      "case_id": "SG-M355381-1_3_1-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "no_visible_similar_outcome_above_threshold",
+      "predicted_outcome": null,
+      "candidate_outcomes": [
+        {
+          "primary_driver": "MKT_001",
+          "primary_driver_name": "Global Demand Surge",
+          "supporting_cases": 1,
+          "supporting_case_ids": [
+            "SG-M355381-1_1_3-2026-apr"
+          ],
+          "max_similarity_percent": 31.82,
+          "average_similarity_percent": 31.82,
+          "prediction_strength": "none"
+        }
+      ],
+      "prediction_note": "No visible similar outcome passed governance thresholds."
+    },
+    {
+      "case_id": "SG-M355381-1_3_2-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "no_visible_similar_outcome_above_threshold",
+      "predicted_outcome": null,
+      "candidate_outcomes": [
+        {
+          "primary_driver": "MKT_001",
+          "primary_driver_name": "Global Demand Surge",
+          "supporting_cases": 1,
+          "supporting_case_ids": [
+            "SG-M355381-1_1_3-2026-apr"
+          ],
+          "max_similarity_percent": 31.82,
+          "average_similarity_percent": 31.82,
+          "prediction_strength": "none"
+        }
+      ],
+      "prediction_note": "No visible similar outcome passed governance thresholds."
+    },
+    {
+      "case_id": "SG-M355381-1_5_2-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "no_visible_similar_outcome_above_threshold",
+      "predicted_outcome": null,
+      "candidate_outcomes": [
+        {
+          "primary_driver": "MKT_001",
+          "primary_driver_name": "Global Demand Surge",
+          "supporting_cases": 1,
+          "supporting_case_ids": [
+            "SG-M355381-1_1_3-2026-apr"
+          ],
+          "max_similarity_percent": 31.82,
+          "average_similarity_percent": 31.82,
+          "prediction_strength": "none"
+        }
+      ],
+      "prediction_note": "No visible similar outcome passed governance thresholds."
+    },
+    {
+      "case_id": "SG-M355381-1_5_3-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "no_visible_similar_outcome_above_threshold",
+      "predicted_outcome": null,
+      "candidate_outcomes": [
+        {
+          "primary_driver": "MKT_001",
+          "primary_driver_name": "Global Demand Surge",
+          "supporting_cases": 1,
+          "supporting_case_ids": [
+            "SG-M355381-1_1_3-2026-apr"
+          ],
+          "max_similarity_percent": 31.82,
+          "average_similarity_percent": 31.82,
+          "prediction_strength": "none"
+        }
+      ],
+      "prediction_note": "No visible similar outcome passed governance thresholds."
+    }
+  ]
+}

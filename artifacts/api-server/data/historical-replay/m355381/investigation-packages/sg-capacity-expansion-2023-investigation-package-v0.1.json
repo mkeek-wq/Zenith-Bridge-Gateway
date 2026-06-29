@@ -1,0 +1,43 @@
+{
+  "investigation_package_version": "historical-investigation-package-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-CAPACITY-EXPANSION-2023",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_candidate_file": "capacity-cluster-seed-v0.1",
+  "case_summary": {
+    "period": "2023",
+    "series_no": "CAPACITY-EXPANSION-2023",
+    "series_name": "Capacity Expansion",
+    "priority": "critical",
+    "direction": "positive",
+    "latest_value": null,
+    "month_on_month_change_pct": null,
+    "year_on_year_change_pct": null
+  },
+  "driver_candidates": [
+    {
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion"
+    },
+    {
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact"
+    },
+    {
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle"
+    }
+  ],
+  "expected_mechanisms": [
+    "Capacity expansion reflected investment in manufacturing footprint, production capability, and industrial facilities.",
+    "Policy incentives and investment support may have influenced facility-location and expansion decisions.",
+    "Semiconductor and electronics-linked activity provided a secondary sector channel.",
+    "The primary mechanism was expansion of productive capacity rather than immediate output shock."
+  ],
+  "investigation_status": {
+    "evidence_collected": false,
+    "attribution_scored": false,
+    "outcome_ready": false
+  }
+}

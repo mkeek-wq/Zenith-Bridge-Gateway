@@ -1,0 +1,30 @@
+{
+  "version": "prediction-governance-v0.1",
+  "principle": "Replay predictions must be conservative, explainable, and based only on replay-visible prior outcomes.",
+  "minimum_similarity_percent": 60,
+  "minimum_supporting_cases": 1,
+  "strength_thresholds": {
+    "low": {
+      "min_supporting_cases": 1,
+      "min_max_similarity_percent": 60,
+      "min_average_similarity_percent": 60
+    },
+    "medium": {
+      "min_supporting_cases": 2,
+      "min_max_similarity_percent": 70,
+      "min_average_similarity_percent": 60
+    },
+    "high": {
+      "min_supporting_cases": 3,
+      "min_max_similarity_percent": 85,
+      "min_average_similarity_percent": 75
+    }
+  },
+  "allowed_prediction_statuses": [
+    "case_not_visible",
+    "outcome_already_visible",
+    "missing_similarity_record",
+    "no_visible_similar_outcome_above_threshold",
+    "similarity_prediction_available"
+  ]
+}

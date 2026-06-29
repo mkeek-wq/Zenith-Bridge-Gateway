@@ -1,0 +1,244 @@
+{
+  "history_version": "village-execution-history-v0.1",
+  "generated_at": "2026-06-26T06:58:01.522Z",
+  "purpose": "Historian Smurf records village task execution history for Brainy, Papa, bottleneck tracking, and future scaling decisions.",
+  "run_count": 3,
+  "runs": [
+    {
+      "run_id": "VILLAGE_RUN_2026-06-26T06-33-54-421Z",
+      "dispatch_id": "DSP-20260626-0001",
+      "recorded_at": "2026-06-26T06:33:54.422Z",
+      "task_count": 5,
+      "completed_count": 3,
+      "failed_count": 0,
+      "ready_count": 2,
+      "waiting_count": 0,
+      "tasks": [
+        {
+          "task_id": "DSP-20260626-0001-TASK-001",
+          "smurf_id": "COVERAGE",
+          "stage": 1,
+          "status": "completed",
+          "started_at": "2026-06-26T05:50:15.653Z",
+          "finished_at": "2026-06-26T05:50:19.239Z",
+          "duration_seconds": 3.586,
+          "expected_runtime_seconds": 60,
+          "yellow_runtime_seconds": 300,
+          "red_runtime_seconds": 900,
+          "bottleneck_band": "green"
+        },
+        {
+          "task_id": "DSP-20260626-0001-TASK-002",
+          "smurf_id": "GRAPH",
+          "stage": 2,
+          "status": "completed",
+          "started_at": "2026-06-26T05:50:32.915Z",
+          "finished_at": "2026-06-26T05:50:36.558Z",
+          "duration_seconds": 3.643,
+          "expected_runtime_seconds": 90,
+          "yellow_runtime_seconds": 420,
+          "red_runtime_seconds": 1200,
+          "bottleneck_band": "green"
+        },
+        {
+          "task_id": "DSP-20260626-0001-TASK-003",
+          "smurf_id": "SIGNAL",
+          "stage": 2,
+          "status": "completed",
+          "started_at": "2026-06-26T05:50:37.612Z",
+          "finished_at": "2026-06-26T05:50:39.752Z",
+          "duration_seconds": 2.14,
+          "expected_runtime_seconds": 90,
+          "yellow_runtime_seconds": 420,
+          "red_runtime_seconds": 1200,
+          "bottleneck_band": "green"
+        },
+        {
+          "task_id": "DSP-20260626-0001-TASK-004",
+          "smurf_id": "REPLAY",
+          "stage": 3,
+          "status": "ready",
+          "started_at": null,
+          "finished_at": null,
+          "duration_seconds": null,
+          "expected_runtime_seconds": 300,
+          "yellow_runtime_seconds": 900,
+          "red_runtime_seconds": 1800,
+          "bottleneck_band": "not_measured"
+        },
+        {
+          "task_id": "DSP-20260626-0001-TASK-005",
+          "smurf_id": "WORKBENCH",
+          "stage": 4,
+          "status": "ready",
+          "started_at": null,
+          "finished_at": null,
+          "duration_seconds": null,
+          "expected_runtime_seconds": 120,
+          "yellow_runtime_seconds": 600,
+          "red_runtime_seconds": 1500,
+          "bottleneck_band": "not_measured"
+        }
+      ]
+    },
+    {
+      "run_id": "VILLAGE_RUN_2026-06-26T06-49-01-204Z",
+      "dispatch_id": "DSP-20260626-0001",
+      "recorded_at": "2026-06-26T06:49:01.205Z",
+      "task_count": 5,
+      "completed_count": 4,
+      "failed_count": 0,
+      "ready_count": 1,
+      "waiting_count": 0,
+      "tasks": [
+        {
+          "task_id": "DSP-20260626-0001-TASK-001",
+          "smurf_id": "COVERAGE",
+          "stage": 1,
+          "status": "completed",
+          "started_at": "2026-06-26T05:50:15.653Z",
+          "finished_at": "2026-06-26T05:50:19.239Z",
+          "duration_seconds": 3.586,
+          "expected_runtime_seconds": 60,
+          "yellow_runtime_seconds": 300,
+          "red_runtime_seconds": 900,
+          "bottleneck_band": "green"
+        },
+        {
+          "task_id": "DSP-20260626-0001-TASK-002",
+          "smurf_id": "GRAPH",
+          "stage": 2,
+          "status": "completed",
+          "started_at": "2026-06-26T05:50:32.915Z",
+          "finished_at": "2026-06-26T05:50:36.558Z",
+          "duration_seconds": 3.643,
+          "expected_runtime_seconds": 90,
+          "yellow_runtime_seconds": 420,
+          "red_runtime_seconds": 1200,
+          "bottleneck_band": "green"
+        },
+        {
+          "task_id": "DSP-20260626-0001-TASK-003",
+          "smurf_id": "SIGNAL",
+          "stage": 2,
+          "status": "completed",
+          "started_at": "2026-06-26T05:50:37.612Z",
+          "finished_at": "2026-06-26T05:50:39.752Z",
+          "duration_seconds": 2.14,
+          "expected_runtime_seconds": 90,
+          "yellow_runtime_seconds": 420,
+          "red_runtime_seconds": 1200,
+          "bottleneck_band": "green"
+        },
+        {
+          "task_id": "DSP-20260626-0001-TASK-004",
+          "smurf_id": "REPLAY",
+          "stage": 3,
+          "status": "completed",
+          "started_at": "2026-06-26T06:48:23.688Z",
+          "finished_at": "2026-06-26T06:48:28.552Z",
+          "duration_seconds": 4.864,
+          "expected_runtime_seconds": 300,
+          "yellow_runtime_seconds": 900,
+          "red_runtime_seconds": 1800,
+          "bottleneck_band": "green"
+        },
+        {
+          "task_id": "DSP-20260626-0001-TASK-005",
+          "smurf_id": "WORKBENCH",
+          "stage": 4,
+          "status": "ready",
+          "started_at": null,
+          "finished_at": null,
+          "duration_seconds": null,
+          "expected_runtime_seconds": 120,
+          "yellow_runtime_seconds": 600,
+          "red_runtime_seconds": 1500,
+          "bottleneck_band": "not_measured"
+        }
+      ]
+    },
+    {
+      "run_id": "VILLAGE_RUN_2026-06-26T06-58-01-522Z",
+      "dispatch_id": "DSP-20260626-0001",
+      "recorded_at": "2026-06-26T06:58:01.522Z",
+      "task_count": 5,
+      "completed_count": 5,
+      "failed_count": 0,
+      "ready_count": 0,
+      "waiting_count": 0,
+      "tasks": [
+        {
+          "task_id": "DSP-20260626-0001-TASK-001",
+          "smurf_id": "COVERAGE",
+          "stage": 1,
+          "status": "completed",
+          "started_at": "2026-06-26T05:50:15.653Z",
+          "finished_at": "2026-06-26T05:50:19.239Z",
+          "duration_seconds": 3.586,
+          "expected_runtime_seconds": 60,
+          "yellow_runtime_seconds": 300,
+          "red_runtime_seconds": 900,
+          "bottleneck_band": "green"
+        },
+        {
+          "task_id": "DSP-20260626-0001-TASK-002",
+          "smurf_id": "GRAPH",
+          "stage": 2,
+          "status": "completed",
+          "started_at": "2026-06-26T05:50:32.915Z",
+          "finished_at": "2026-06-26T05:50:36.558Z",
+          "duration_seconds": 3.643,
+          "expected_runtime_seconds": 90,
+          "yellow_runtime_seconds": 420,
+          "red_runtime_seconds": 1200,
+          "bottleneck_band": "green"
+        },
+        {
+          "task_id": "DSP-20260626-0001-TASK-003",
+          "smurf_id": "SIGNAL",
+          "stage": 2,
+          "status": "completed",
+          "started_at": "2026-06-26T05:50:37.612Z",
+          "finished_at": "2026-06-26T05:50:39.752Z",
+          "duration_seconds": 2.14,
+          "expected_runtime_seconds": 90,
+          "yellow_runtime_seconds": 420,
+          "red_runtime_seconds": 1200,
+          "bottleneck_band": "green"
+        },
+        {
+          "task_id": "DSP-20260626-0001-TASK-004",
+          "smurf_id": "REPLAY",
+          "stage": 3,
+          "status": "completed",
+          "started_at": "2026-06-26T06:48:23.688Z",
+          "finished_at": "2026-06-26T06:48:28.552Z",
+          "duration_seconds": 4.864,
+          "expected_runtime_seconds": 300,
+          "yellow_runtime_seconds": 900,
+          "red_runtime_seconds": 1800,
+          "bottleneck_band": "green"
+        },
+        {
+          "task_id": "DSP-20260626-0001-TASK-005",
+          "smurf_id": "WORKBENCH",
+          "stage": 4,
+          "status": "completed",
+          "started_at": "2026-06-26T06:57:46.855Z",
+          "finished_at": "2026-06-26T06:57:50.266Z",
+          "duration_seconds": 3.411,
+          "expected_runtime_seconds": 120,
+          "yellow_runtime_seconds": 600,
+          "red_runtime_seconds": 1500,
+          "bottleneck_band": "green"
+        }
+      ]
+    }
+  ],
+  "governance": {
+    "records_only": true,
+    "no_execution": true,
+    "no_production_mutation": true
+  }
+}

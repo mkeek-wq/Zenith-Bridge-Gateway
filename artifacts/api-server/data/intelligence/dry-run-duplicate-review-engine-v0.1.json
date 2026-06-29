@@ -1,0 +1,45 @@
+{
+  "engine_version": "dry-run-duplicate-review-engine-v0.1",
+  "generated_at": "2026-06-10T02:37:43.607Z",
+  "items_reviewed": 6,
+  "duplicates_detected": 0,
+  "approved_for_staging": 6,
+  "review": [
+    {
+      "indicator_id": "SG_MANUFACTURING_OUTPUT",
+      "indicator_name": "Singapore Manufacturing Output",
+      "duplicate_detected": false,
+      "review_status": "approved_for_staging"
+    },
+    {
+      "indicator_id": "SG_ELECTRONICS_EXPORTS",
+      "indicator_name": "Singapore Electronics Exports",
+      "duplicate_detected": false,
+      "review_status": "approved_for_staging"
+    },
+    {
+      "indicator_id": "BRENT_CRUDE",
+      "indicator_name": "Brent Crude Oil Price",
+      "duplicate_detected": false,
+      "review_status": "approved_for_staging"
+    },
+    {
+      "indicator_id": "GLOBAL_SEMICONDUCTOR_SALES",
+      "indicator_name": "Global Semiconductor Sales",
+      "duplicate_detected": false,
+      "review_status": "approved_for_staging"
+    },
+    {
+      "indicator_id": "SG_PHARMACEUTICAL_OUTPUT",
+      "indicator_name": "Singapore Pharmaceutical Output",
+      "duplicate_detected": false,
+      "review_status": "approved_for_staging"
+    },
+    {
+      "indicator_id": "SG_BIOMEDICAL_EXPORTS",
+      "indicator_name": "Singapore Biomedical Exports",
+      "duplicate_detected": false,
+      "review_status": "approved_for_staging"
+    }
+  ]
+}

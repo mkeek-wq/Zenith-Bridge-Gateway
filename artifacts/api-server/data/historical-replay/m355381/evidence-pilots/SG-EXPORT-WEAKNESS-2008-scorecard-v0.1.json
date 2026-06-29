@@ -1,0 +1,59 @@
+{
+  "scorecard_version": "historical-evidence-scorecard-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-EXPORT-WEAKNESS-2008",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_evidence_package": "data/historical-replay/m355381/evidence-pilots/SG-EXPORT-WEAKNESS-2008-evidence-v0.1.json",
+  "case_summary": {
+    "period": "2008",
+    "series_no": "EXPORT-WEAKNESS-2008",
+    "series_name": "Export Demand Weakness",
+    "priority": "critical",
+    "direction": "negative"
+  },
+  "driver_scores": [
+    {
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness",
+      "score": 35,
+      "rank": 1
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "score": 22,
+      "rank": 2
+    },
+    {
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "score": 12,
+      "rank": 3
+    }
+  ],
+  "final_attribution": {
+    "primary_driver": {
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness",
+      "score": 35
+    },
+    "secondary_driver": {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "score": 22
+    },
+    "tertiary_driver": {
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "score": 12
+    },
+    "confidence": "high",
+    "summary": "Export demand weakness is assessed as the dominant mechanism. Global financial crisis conditions created the macro backdrop, while electronics and export-linked sectors acted as transmission channels."
+  },
+  "scorecard_status": {
+    "attribution_scored": true,
+    "outcome_ready": true,
+    "human_review_required": true
+  }
+}

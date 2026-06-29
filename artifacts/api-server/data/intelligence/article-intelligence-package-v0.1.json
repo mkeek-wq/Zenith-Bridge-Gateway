@@ -1,0 +1,470 @@
+{
+  "package_version": "article-intelligence-package-v0.1",
+  "generated_at": "2026-06-17T03:38:55.945Z",
+  "source_files": {
+    "workbench_package": "data/intelligence/article-workbench-package-v0.2.json",
+    "graph_data_package": "data/intelligence/graph-data-package-v0.1.json"
+  },
+  "package_count": 10,
+  "packages": [
+    {
+      "candidate_id": "ART-what-precision-engineering-reveals-about-singapore-s-capital-equipment-cycle",
+      "primary_dataset_id": "SG_PRECISION_ENGINEERING_OUTPUT_INDEX",
+      "primary_dataset_title": "Singapore machinery and equipment output",
+      "intelligence": {
+        "relative_performance": {
+          "sector_growth_10y_percent": 114.13,
+          "manufacturing_growth_10y_percent": 77.56,
+          "outperformance_pp": 36.57
+        },
+        "manufacturing_share": {
+          "start_period": "2016",
+          "end_period": "2025",
+          "share_start_percent": 8.68,
+          "share_end_percent": 10.46,
+          "change_pp": 1.79
+        },
+        "latest_momentum": {
+          "latest_period": "2025",
+          "latest_value": 48081,
+          "latest_yoy_percent": 13.71
+        },
+        "sector_ranking": {
+          "rank_latest_yoy_growth": 4,
+          "rank_10y_growth": 2,
+          "sector_count": 6
+        },
+        "trend_classification": {
+          "classification": "recovering_expansion"
+        },
+        "proxy_disclosure": {
+          "required": true,
+          "direct_series_used": "Machinery & Equipment",
+          "limitation": "Machinery & Equipment is used as a proxy for capital-equipment-linked precision engineering activity. Current table does not expose deeper precision-engineering subsegments."
+        }
+      },
+      "generated_at": "2026-06-17T03:38:55.943Z"
+    },
+    {
+      "candidate_id": "ART-what-transport-engineering-reveals-about-singapore-s-aviation-and-marine-recovery",
+      "primary_dataset_id": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX",
+      "primary_dataset_title": "Singapore other transport equipment output",
+      "intelligence": {
+        "relative_performance": {
+          "sector_growth_10y_percent": 113.54,
+          "manufacturing_growth_10y_percent": 77.56,
+          "outperformance_pp": 35.98
+        },
+        "manufacturing_share": {
+          "start_period": "2016",
+          "end_period": "2025",
+          "share_start_percent": 6.08,
+          "share_end_percent": 7.32,
+          "change_pp": 1.23
+        },
+        "latest_momentum": {
+          "latest_period": "2025",
+          "latest_value": 33614.4,
+          "latest_yoy_percent": 31.49
+        },
+        "sector_ranking": {
+          "rank_latest_yoy_growth": 2,
+          "rank_10y_growth": 3,
+          "sector_count": 6
+        },
+        "trend_classification": {
+          "classification": "recovering_expansion"
+        },
+        "proxy_disclosure": {
+          "required": false,
+          "direct_series_used": "Other Transport Equipment",
+          "limitation": null
+        }
+      },
+      "generated_at": "2026-06-17T03:38:55.944Z"
+    },
+    {
+      "candidate_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+      "primary_dataset_id": "SG_PETROLEUM_OUTPUT_INDEX",
+      "primary_dataset_title": "Singapore refined petroleum products output",
+      "intelligence": {
+        "relative_performance": {
+          "sector_growth_10y_percent": 43.11,
+          "manufacturing_growth_10y_percent": 77.56,
+          "outperformance_pp": -34.45
+        },
+        "manufacturing_share": {
+          "start_period": "2016",
+          "end_period": "2025",
+          "share_start_percent": 10.35,
+          "share_end_percent": 8.34,
+          "change_pp": -2.01
+        },
+        "latest_momentum": {
+          "latest_period": "2025",
+          "latest_value": 38344,
+          "latest_yoy_percent": -9.02
+        },
+        "sector_ranking": {
+          "rank_latest_yoy_growth": 6,
+          "rank_10y_growth": 4,
+          "sector_count": 6
+        },
+        "trend_classification": {
+          "classification": "declining"
+        },
+        "proxy_disclosure": {
+          "required": false,
+          "direct_series_used": "Refined Petroleum Products",
+          "limitation": null
+        }
+      },
+      "generated_at": "2026-06-17T03:38:55.944Z"
+    },
+    {
+      "candidate_id": "ART-how-chemicals-and-petrochemicals-reflect-singapore-s-industrial-cycle",
+      "primary_dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+      "primary_dataset_title": "Singapore total manufacturing output",
+      "intelligence": {
+        "relative_performance": {
+          "sector_growth_10y_percent": 77.56,
+          "manufacturing_growth_10y_percent": 77.56,
+          "outperformance_pp": 0
+        },
+        "manufacturing_share": {
+          "start_period": "2016",
+          "end_period": "2025",
+          "share_start_percent": 100,
+          "share_end_percent": 100,
+          "change_pp": 0
+        },
+        "latest_momentum": {
+          "latest_period": "2025",
+          "latest_value": 459504.1,
+          "latest_yoy_percent": 11.25
+        },
+        "sector_ranking": {
+          "rank_latest_yoy_growth": null,
+          "rank_10y_growth": null,
+          "sector_count": 6
+        },
+        "trend_classification": {
+          "classification": "recovering_expansion"
+        },
+        "proxy_disclosure": {
+          "required": false,
+          "direct_series_used": "Total Manufacturing",
+          "limitation": null
+        }
+      },
+      "generated_at": "2026-06-17T03:38:55.944Z"
+    },
+    {
+      "candidate_id": "ART-understanding-biomedical-pharmaceutical-production-cycle-in-singapore-s-manufacturing-data",
+      "primary_dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+      "primary_dataset_title": "Singapore total manufacturing output",
+      "intelligence": {
+        "relative_performance": {
+          "sector_growth_10y_percent": 77.56,
+          "manufacturing_growth_10y_percent": 77.56,
+          "outperformance_pp": 0
+        },
+        "manufacturing_share": {
+          "start_period": "2016",
+          "end_period": "2025",
+          "share_start_percent": 100,
+          "share_end_percent": 100,
+          "change_pp": 0
+        },
+        "latest_momentum": {
+          "latest_period": "2025",
+          "latest_value": 459504.1,
+          "latest_yoy_percent": 11.25
+        },
+        "sector_ranking": {
+          "rank_latest_yoy_growth": null,
+          "rank_10y_growth": null,
+          "sector_count": 6
+        },
+        "trend_classification": {
+          "classification": "recovering_expansion"
+        },
+        "proxy_disclosure": {
+          "required": false,
+          "direct_series_used": "Total Manufacturing",
+          "limitation": null
+        }
+      },
+      "generated_at": "2026-06-17T03:38:55.944Z"
+    },
+    {
+      "candidate_id": "ART-how-global-demand-shocks-move-through-singapore-s-industrial-base",
+      "primary_dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+      "primary_dataset_title": "Singapore total manufacturing output",
+      "intelligence": {
+        "relative_performance": {
+          "sector_growth_10y_percent": 77.56,
+          "manufacturing_growth_10y_percent": 77.56,
+          "outperformance_pp": 0
+        },
+        "manufacturing_share": {
+          "start_period": "2016",
+          "end_period": "2025",
+          "share_start_percent": 100,
+          "share_end_percent": 100,
+          "change_pp": 0
+        },
+        "latest_momentum": {
+          "latest_period": "2025",
+          "latest_value": 459504.1,
+          "latest_yoy_percent": 11.25
+        },
+        "sector_ranking": {
+          "rank_latest_yoy_growth": null,
+          "rank_10y_growth": null,
+          "sector_count": 6
+        },
+        "trend_classification": {
+          "classification": "recovering_expansion"
+        },
+        "proxy_disclosure": {
+          "required": false,
+          "direct_series_used": "Total Manufacturing",
+          "limitation": null
+        }
+      },
+      "generated_at": "2026-06-17T03:38:55.944Z"
+    },
+    {
+      "candidate_id": "ART-how-semiconductor-cycles-shape-singapore-s-manufacturing-advantage",
+      "primary_dataset_id": "SG_SEMICONDUCTOR_OUTPUT_INDEX",
+      "primary_dataset_title": "Singapore computer, electronic and optical products output",
+      "intelligence": {
+        "relative_performance": {
+          "sector_growth_10y_percent": 129.24,
+          "manufacturing_growth_10y_percent": 77.56,
+          "outperformance_pp": 51.68
+        },
+        "manufacturing_share": {
+          "start_period": "2016",
+          "end_period": "2025",
+          "share_start_percent": 37.23,
+          "share_end_percent": 48.06,
+          "change_pp": 10.84
+        },
+        "latest_momentum": {
+          "latest_period": "2025",
+          "latest_value": 220845.7,
+          "latest_yoy_percent": 18.1
+        },
+        "sector_ranking": {
+          "rank_latest_yoy_growth": 3,
+          "rank_10y_growth": 1,
+          "sector_count": 6
+        },
+        "trend_classification": {
+          "classification": "recovering_expansion"
+        },
+        "proxy_disclosure": {
+          "required": false,
+          "direct_series_used": "Computer, Electronic & Optical Products",
+          "limitation": null
+        }
+      },
+      "generated_at": "2026-06-17T03:38:55.944Z"
+    },
+    {
+      "candidate_id": "ART-understanding-inventory-cycle-restocking-in-singapore-s-manufacturing-data",
+      "primary_dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+      "primary_dataset_title": "Singapore total manufacturing output",
+      "intelligence": {
+        "relative_performance": {
+          "sector_growth_10y_percent": 77.56,
+          "manufacturing_growth_10y_percent": 77.56,
+          "outperformance_pp": 0
+        },
+        "manufacturing_share": {
+          "start_period": "2016",
+          "end_period": "2025",
+          "share_start_percent": 100,
+          "share_end_percent": 100,
+          "change_pp": 0
+        },
+        "latest_momentum": {
+          "latest_period": "2025",
+          "latest_value": 459504.1,
+          "latest_yoy_percent": 11.25
+        },
+        "sector_ranking": {
+          "rank_latest_yoy_growth": null,
+          "rank_10y_growth": null,
+          "sector_count": 6
+        },
+        "trend_classification": {
+          "classification": "recovering_expansion"
+        },
+        "proxy_disclosure": {
+          "required": false,
+          "direct_series_used": "Total Manufacturing",
+          "limitation": null
+        }
+      },
+      "generated_at": "2026-06-17T03:38:55.944Z"
+    },
+    {
+      "candidate_id": "ART-understanding-operational-disruption-in-singapore-s-manufacturing-data",
+      "primary_dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+      "primary_dataset_title": "Singapore total manufacturing output",
+      "intelligence": {
+        "relative_performance": {
+          "sector_growth_10y_percent": 77.56,
+          "manufacturing_growth_10y_percent": 77.56,
+          "outperformance_pp": 0
+        },
+        "manufacturing_share": {
+          "start_period": "2016",
+          "end_period": "2025",
+          "share_start_percent": 100,
+          "share_end_percent": 100,
+          "change_pp": 0
+        },
+        "latest_momentum": {
+          "latest_period": "2025",
+          "latest_value": 459504.1,
+          "latest_yoy_percent": 11.25
+        },
+        "sector_ranking": {
+          "rank_latest_yoy_growth": null,
+          "rank_10y_growth": null,
+          "sector_count": 6
+        },
+        "trend_classification": {
+          "classification": "recovering_expansion"
+        },
+        "proxy_disclosure": {
+          "required": false,
+          "direct_series_used": "Total Manufacturing",
+          "limitation": null
+        }
+      },
+      "generated_at": "2026-06-17T03:38:55.944Z"
+    },
+    {
+      "candidate_id": "ART-understanding-capacity-expansion-in-singapore-s-manufacturing-data",
+      "primary_dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+      "primary_dataset_title": "Singapore total manufacturing output",
+      "intelligence": {
+        "relative_performance": {
+          "sector_growth_10y_percent": 77.56,
+          "manufacturing_growth_10y_percent": 77.56,
+          "outperformance_pp": 0
+        },
+        "manufacturing_share": {
+          "start_period": "2016",
+          "end_period": "2025",
+          "share_start_percent": 100,
+          "share_end_percent": 100,
+          "change_pp": 0
+        },
+        "latest_momentum": {
+          "latest_period": "2025",
+          "latest_value": 459504.1,
+          "latest_yoy_percent": 11.25
+        },
+        "sector_ranking": {
+          "rank_latest_yoy_growth": null,
+          "rank_10y_growth": null,
+          "sector_count": 6
+        },
+        "trend_classification": {
+          "classification": "recovering_expansion"
+        },
+        "proxy_disclosure": {
+          "required": false,
+          "direct_series_used": "Total Manufacturing",
+          "limitation": null
+        }
+      },
+      "generated_at": "2026-06-17T03:38:55.945Z"
+    }
+  ],
+  "sector_ranking_universe": {
+    "sector_count": 6,
+    "ranked_by_latest_growth": [
+      {
+        "dataset_id": "SG_BIOMEDICAL_OUTPUT_INDEX",
+        "title": "Singapore pharmaceutical and biological products output",
+        "latest_yoy_percent": 50.75,
+        "ten_year_change_percent": -12.97
+      },
+      {
+        "dataset_id": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX",
+        "title": "Singapore other transport equipment output",
+        "latest_yoy_percent": 31.49,
+        "ten_year_change_percent": 113.54
+      },
+      {
+        "dataset_id": "SG_SEMICONDUCTOR_OUTPUT_INDEX",
+        "title": "Singapore computer, electronic and optical products output",
+        "latest_yoy_percent": 18.1,
+        "ten_year_change_percent": 129.24
+      },
+      {
+        "dataset_id": "SG_PRECISION_ENGINEERING_OUTPUT_INDEX",
+        "title": "Singapore machinery and equipment output",
+        "latest_yoy_percent": 13.71,
+        "ten_year_change_percent": 114.13
+      },
+      {
+        "dataset_id": "SG_CHEMICALS_OUTPUT_INDEX",
+        "title": "Singapore chemicals and chemical products output",
+        "latest_yoy_percent": -5.44,
+        "ten_year_change_percent": 19.46
+      },
+      {
+        "dataset_id": "SG_PETROLEUM_OUTPUT_INDEX",
+        "title": "Singapore refined petroleum products output",
+        "latest_yoy_percent": -9.02,
+        "ten_year_change_percent": 43.11
+      }
+    ],
+    "ranked_by_10y_growth": [
+      {
+        "dataset_id": "SG_SEMICONDUCTOR_OUTPUT_INDEX",
+        "title": "Singapore computer, electronic and optical products output",
+        "latest_yoy_percent": 18.1,
+        "ten_year_change_percent": 129.24
+      },
+      {
+        "dataset_id": "SG_PRECISION_ENGINEERING_OUTPUT_INDEX",
+        "title": "Singapore machinery and equipment output",
+        "latest_yoy_percent": 13.71,
+        "ten_year_change_percent": 114.13
+      },
+      {
+        "dataset_id": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX",
+        "title": "Singapore other transport equipment output",
+        "latest_yoy_percent": 31.49,
+        "ten_year_change_percent": 113.54
+      },
+      {
+        "dataset_id": "SG_PETROLEUM_OUTPUT_INDEX",
+        "title": "Singapore refined petroleum products output",
+        "latest_yoy_percent": -9.02,
+        "ten_year_change_percent": 43.11
+      },
+      {
+        "dataset_id": "SG_CHEMICALS_OUTPUT_INDEX",
+        "title": "Singapore chemicals and chemical products output",
+        "latest_yoy_percent": -5.44,
+        "ten_year_change_percent": 19.46
+      },
+      {
+        "dataset_id": "SG_BIOMEDICAL_OUTPUT_INDEX",
+        "title": "Singapore pharmaceutical and biological products output",
+        "latest_yoy_percent": 50.75,
+        "ten_year_change_percent": -12.97
+      }
+    ]
+  }
+}

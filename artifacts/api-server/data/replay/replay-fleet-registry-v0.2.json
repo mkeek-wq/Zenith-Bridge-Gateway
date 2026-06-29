@@ -1,0 +1,39 @@
+{
+  "registry_version": "replay-fleet-registry-v0.2",
+  "generated_at": "2026-06-10T02:50:52.541Z",
+  "doctrine": {
+    "replay_cases_are_versioned": true,
+    "replay_runs_are_repeatable": true,
+    "replay_learning_requires_scale": true
+  },
+  "summary": {
+    "total_cases": 4,
+    "ready": 0,
+    "running": 0,
+    "completed": 4,
+    "failed": 0,
+    "retired": 0
+  },
+  "fleet": [
+    {
+      "case_id": "SG-MANUFACTURING-2020",
+      "domain": "manufacturing",
+      "status": "completed"
+    },
+    {
+      "case_id": "SG-PETROLEUM-2020",
+      "domain": "petroleum",
+      "status": "completed"
+    },
+    {
+      "case_id": "SG-SEMICONDUCTOR-2021",
+      "domain": "semiconductors",
+      "status": "completed"
+    },
+    {
+      "case_id": "SG-BIOMEDICAL-2021",
+      "domain": "biomedical",
+      "status": "completed"
+    }
+  ]
+}

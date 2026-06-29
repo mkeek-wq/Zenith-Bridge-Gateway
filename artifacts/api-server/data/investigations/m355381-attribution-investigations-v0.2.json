@@ -1,0 +1,564 @@
+{
+  "generated_at": "2026-06-01T05:16:30.941Z",
+  "source_investigation_file": "data/investigations/m355381-investigation-candidates-v0.1.json",
+  "source_relevance_file": "data/investigations/m355381-evidence-relevance-v0.1-approved.json",
+  "investigations": [
+    {
+      "attribution_version": "attribution-investigation-v0.2",
+      "table_id": "M355381",
+      "period": "2026 Apr",
+      "series_no": "1.1",
+      "series_name": "Electronics Cluster",
+      "investigation_priority": "medium",
+      "attribution_status": "investigation_open",
+      "observation": {
+        "latest_value": 131.206,
+        "month_on_month_change_pct": 16.284387407827563,
+        "year_on_year_change_pct": 44.00359992536739
+      },
+      "evidence_status": {
+        "internal_evidence_count": 0,
+        "relevant_evidence_count": 0,
+        "evidence_quality": "poor",
+        "external_search_required": true,
+        "relevant_evidence": []
+      },
+      "attribution": {
+        "market_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "External or global market movement, demand cycle, regional industry trend."
+        },
+        "portfolio_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Composition effect within Singapore manufacturing or sub-sector mix."
+        },
+        "operational_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Maintenance, shutdown, disruption, capacity change, plant-level event."
+        },
+        "policy_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Regulatory, tax, incentive, trade restriction, or government policy driver."
+        },
+        "unknown_effect": {
+          "score": 10,
+          "evidence": [],
+          "note": "Default bucket. Movement is confirmed but not yet explained by evidence."
+        }
+      },
+      "analyst_note": "Attribution starts as unknown. Movement data and evidence quality are preserved through lineage. Move weight into market, portfolio, operational or policy buckets only after supporting evidence is collected.",
+      "conclusion_status": "no_conclusion_yet"
+    },
+    {
+      "attribution_version": "attribution-investigation-v0.2",
+      "table_id": "M355381",
+      "period": "2026 Apr",
+      "series_no": "1.1.1",
+      "series_name": "Semiconductors",
+      "investigation_priority": "medium",
+      "attribution_status": "investigation_open",
+      "observation": {
+        "latest_value": 129.526,
+        "month_on_month_change_pct": 18.753839242328404,
+        "year_on_year_change_pct": 42.59010546247167
+      },
+      "evidence_status": {
+        "internal_evidence_count": 0,
+        "relevant_evidence_count": 0,
+        "evidence_quality": "poor",
+        "external_search_required": true,
+        "relevant_evidence": []
+      },
+      "attribution": {
+        "market_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "External or global market movement, demand cycle, regional industry trend."
+        },
+        "portfolio_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Composition effect within Singapore manufacturing or sub-sector mix."
+        },
+        "operational_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Maintenance, shutdown, disruption, capacity change, plant-level event."
+        },
+        "policy_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Regulatory, tax, incentive, trade restriction, or government policy driver."
+        },
+        "unknown_effect": {
+          "score": 10,
+          "evidence": [],
+          "note": "Default bucket. Movement is confirmed but not yet explained by evidence."
+        }
+      },
+      "analyst_note": "Attribution starts as unknown. Movement data and evidence quality are preserved through lineage. Move weight into market, portfolio, operational or policy buckets only after supporting evidence is collected.",
+      "conclusion_status": "no_conclusion_yet"
+    },
+    {
+      "attribution_version": "attribution-investigation-v0.2",
+      "table_id": "M355381",
+      "period": "2026 Apr",
+      "series_no": "1.1.3",
+      "series_name": "Infocomms & Consumer Electronics",
+      "investigation_priority": "critical",
+      "attribution_status": "investigation_open",
+      "observation": {
+        "latest_value": 173.489,
+        "month_on_month_change_pct": 13.259737037955846,
+        "year_on_year_change_pct": 129.60428798305983
+      },
+      "evidence_status": {
+        "internal_evidence_count": 10,
+        "relevant_evidence_count": 0,
+        "evidence_quality": "poor",
+        "external_search_required": false,
+        "relevant_evidence": []
+      },
+      "attribution": {
+        "market_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "External or global market movement, demand cycle, regional industry trend."
+        },
+        "portfolio_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Composition effect within Singapore manufacturing or sub-sector mix."
+        },
+        "operational_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Maintenance, shutdown, disruption, capacity change, plant-level event."
+        },
+        "policy_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Regulatory, tax, incentive, trade restriction, or government policy driver."
+        },
+        "unknown_effect": {
+          "score": 10,
+          "evidence": [],
+          "note": "Default bucket. Movement is confirmed but not yet explained by evidence."
+        }
+      },
+      "analyst_note": "Attribution starts as unknown. Movement data and evidence quality are preserved through lineage. Move weight into market, portfolio, operational or policy buckets only after supporting evidence is collected.",
+      "conclusion_status": "no_conclusion_yet"
+    },
+    {
+      "attribution_version": "attribution-investigation-v0.2",
+      "table_id": "M355381",
+      "period": "2026 Apr",
+      "series_no": "1.2.1",
+      "series_name": "Petroleum",
+      "investigation_priority": "medium",
+      "attribution_status": "investigation_open",
+      "observation": {
+        "latest_value": 68.566,
+        "month_on_month_change_pct": -15.277400222414435,
+        "year_on_year_change_pct": -29.667241096340057
+      },
+      "evidence_status": {
+        "internal_evidence_count": 0,
+        "relevant_evidence_count": 0,
+        "evidence_quality": "poor",
+        "external_search_required": true,
+        "relevant_evidence": []
+      },
+      "attribution": {
+        "market_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "External or global market movement, demand cycle, regional industry trend."
+        },
+        "portfolio_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Composition effect within Singapore manufacturing or sub-sector mix."
+        },
+        "operational_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Maintenance, shutdown, disruption, capacity change, plant-level event."
+        },
+        "policy_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Regulatory, tax, incentive, trade restriction, or government policy driver."
+        },
+        "unknown_effect": {
+          "score": 10,
+          "evidence": [],
+          "note": "Default bucket. Movement is confirmed but not yet explained by evidence."
+        }
+      },
+      "analyst_note": "Attribution starts as unknown. Movement data and evidence quality are preserved through lineage. Move weight into market, portfolio, operational or policy buckets only after supporting evidence is collected.",
+      "conclusion_status": "no_conclusion_yet"
+    },
+    {
+      "attribution_version": "attribution-investigation-v0.2",
+      "table_id": "M355381",
+      "period": "2026 Apr",
+      "series_no": "1.2.2",
+      "series_name": "Petrochemicals",
+      "investigation_priority": "medium",
+      "attribution_status": "investigation_open",
+      "observation": {
+        "latest_value": 60.362,
+        "month_on_month_change_pct": -8.890297651391647,
+        "year_on_year_change_pct": -41.62113020687254
+      },
+      "evidence_status": {
+        "internal_evidence_count": 0,
+        "relevant_evidence_count": 0,
+        "evidence_quality": "poor",
+        "external_search_required": true,
+        "relevant_evidence": []
+      },
+      "attribution": {
+        "market_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "External or global market movement, demand cycle, regional industry trend."
+        },
+        "portfolio_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Composition effect within Singapore manufacturing or sub-sector mix."
+        },
+        "operational_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Maintenance, shutdown, disruption, capacity change, plant-level event."
+        },
+        "policy_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Regulatory, tax, incentive, trade restriction, or government policy driver."
+        },
+        "unknown_effect": {
+          "score": 10,
+          "evidence": [],
+          "note": "Default bucket. Movement is confirmed but not yet explained by evidence."
+        }
+      },
+      "analyst_note": "Attribution starts as unknown. Movement data and evidence quality are preserved through lineage. Move weight into market, portfolio, operational or policy buckets only after supporting evidence is collected.",
+      "conclusion_status": "no_conclusion_yet"
+    },
+    {
+      "attribution_version": "attribution-investigation-v0.2",
+      "table_id": "M355381",
+      "period": "2026 Apr",
+      "series_no": "1.2.4",
+      "series_name": "Other Chemical Products",
+      "investigation_priority": "critical",
+      "attribution_status": "investigation_open",
+      "observation": {
+        "latest_value": 110.958,
+        "month_on_month_change_pct": 34.33497179108453,
+        "year_on_year_change_pct": 8.75996118446202
+      },
+      "evidence_status": {
+        "internal_evidence_count": 0,
+        "relevant_evidence_count": 0,
+        "evidence_quality": "poor",
+        "external_search_required": true,
+        "relevant_evidence": []
+      },
+      "attribution": {
+        "market_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "External or global market movement, demand cycle, regional industry trend."
+        },
+        "portfolio_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Composition effect within Singapore manufacturing or sub-sector mix."
+        },
+        "operational_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Maintenance, shutdown, disruption, capacity change, plant-level event."
+        },
+        "policy_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Regulatory, tax, incentive, trade restriction, or government policy driver."
+        },
+        "unknown_effect": {
+          "score": 10,
+          "evidence": [],
+          "note": "Default bucket. Movement is confirmed but not yet explained by evidence."
+        }
+      },
+      "analyst_note": "Attribution starts as unknown. Movement data and evidence quality are preserved through lineage. Move weight into market, portfolio, operational or policy buckets only after supporting evidence is collected.",
+      "conclusion_status": "no_conclusion_yet"
+    },
+    {
+      "attribution_version": "attribution-investigation-v0.2",
+      "table_id": "M355381",
+      "period": "2026 Apr",
+      "series_no": "1.3",
+      "series_name": "Biomedical Manufacturing Cluster",
+      "investigation_priority": "medium",
+      "attribution_status": "investigation_open",
+      "observation": {
+        "latest_value": 72.54,
+        "month_on_month_change_pct": -18.889907641389172,
+        "year_on_year_change_pct": -16.07857655197945
+      },
+      "evidence_status": {
+        "internal_evidence_count": 1,
+        "relevant_evidence_count": 1,
+        "evidence_quality": "limited",
+        "external_search_required": true,
+        "relevant_evidence": [
+          {
+            "publication_date": "2026-05-26",
+            "title": "Monthly Manufacturing Performance, Apr 2026",
+            "score": 1,
+            "relevance_score": 2
+          }
+        ]
+      },
+      "attribution": {
+        "market_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "External or global market movement, demand cycle, regional industry trend."
+        },
+        "portfolio_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Composition effect within Singapore manufacturing or sub-sector mix."
+        },
+        "operational_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Maintenance, shutdown, disruption, capacity change, plant-level event."
+        },
+        "policy_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Regulatory, tax, incentive, trade restriction, or government policy driver."
+        },
+        "unknown_effect": {
+          "score": 10,
+          "evidence": [],
+          "note": "Default bucket. Movement is confirmed but not yet explained by evidence."
+        }
+      },
+      "analyst_note": "Attribution starts as unknown. Movement data and evidence quality are preserved through lineage. Move weight into market, portfolio, operational or policy buckets only after supporting evidence is collected.",
+      "conclusion_status": "no_conclusion_yet"
+    },
+    {
+      "attribution_version": "attribution-investigation-v0.2",
+      "table_id": "M355381",
+      "period": "2026 Apr",
+      "series_no": "1.3.1",
+      "series_name": "Pharmaceuticals",
+      "investigation_priority": "critical",
+      "attribution_status": "investigation_open",
+      "observation": {
+        "latest_value": 44.089,
+        "month_on_month_change_pct": -39.33736017281471,
+        "year_on_year_change_pct": -32.602115690350985
+      },
+      "evidence_status": {
+        "internal_evidence_count": 0,
+        "relevant_evidence_count": 0,
+        "evidence_quality": "poor",
+        "external_search_required": true,
+        "relevant_evidence": []
+      },
+      "attribution": {
+        "market_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "External or global market movement, demand cycle, regional industry trend."
+        },
+        "portfolio_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Composition effect within Singapore manufacturing or sub-sector mix."
+        },
+        "operational_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Maintenance, shutdown, disruption, capacity change, plant-level event."
+        },
+        "policy_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Regulatory, tax, incentive, trade restriction, or government policy driver."
+        },
+        "unknown_effect": {
+          "score": 10,
+          "evidence": [],
+          "note": "Default bucket. Movement is confirmed but not yet explained by evidence."
+        }
+      },
+      "analyst_note": "Attribution starts as unknown. Movement data and evidence quality are preserved through lineage. Move weight into market, portfolio, operational or policy buckets only after supporting evidence is collected.",
+      "conclusion_status": "no_conclusion_yet"
+    },
+    {
+      "attribution_version": "attribution-investigation-v0.2",
+      "table_id": "M355381",
+      "period": "2026 Apr",
+      "series_no": "1.3.2",
+      "series_name": "Medical Technology",
+      "investigation_priority": "medium",
+      "attribution_status": "investigation_open",
+      "observation": {
+        "latest_value": 86.245,
+        "month_on_month_change_pct": -11.547218575648179,
+        "year_on_year_change_pct": -10.6852521151994
+      },
+      "evidence_status": {
+        "internal_evidence_count": 0,
+        "relevant_evidence_count": 0,
+        "evidence_quality": "poor",
+        "external_search_required": true,
+        "relevant_evidence": []
+      },
+      "attribution": {
+        "market_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "External or global market movement, demand cycle, regional industry trend."
+        },
+        "portfolio_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Composition effect within Singapore manufacturing or sub-sector mix."
+        },
+        "operational_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Maintenance, shutdown, disruption, capacity change, plant-level event."
+        },
+        "policy_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Regulatory, tax, incentive, trade restriction, or government policy driver."
+        },
+        "unknown_effect": {
+          "score": 10,
+          "evidence": [],
+          "note": "Default bucket. Movement is confirmed but not yet explained by evidence."
+        }
+      },
+      "analyst_note": "Attribution starts as unknown. Movement data and evidence quality are preserved through lineage. Move weight into market, portfolio, operational or policy buckets only after supporting evidence is collected.",
+      "conclusion_status": "no_conclusion_yet"
+    },
+    {
+      "attribution_version": "attribution-investigation-v0.2",
+      "table_id": "M355381",
+      "period": "2026 Apr",
+      "series_no": "1.5.2",
+      "series_name": "Aerospace",
+      "investigation_priority": "medium",
+      "attribution_status": "investigation_open",
+      "observation": {
+        "latest_value": 116.73,
+        "month_on_month_change_pct": 10.890505956339178,
+        "year_on_year_change_pct": 16.08341537635371
+      },
+      "evidence_status": {
+        "internal_evidence_count": 0,
+        "relevant_evidence_count": 0,
+        "evidence_quality": "poor",
+        "external_search_required": true,
+        "relevant_evidence": []
+      },
+      "attribution": {
+        "market_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "External or global market movement, demand cycle, regional industry trend."
+        },
+        "portfolio_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Composition effect within Singapore manufacturing or sub-sector mix."
+        },
+        "operational_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Maintenance, shutdown, disruption, capacity change, plant-level event."
+        },
+        "policy_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Regulatory, tax, incentive, trade restriction, or government policy driver."
+        },
+        "unknown_effect": {
+          "score": 10,
+          "evidence": [],
+          "note": "Default bucket. Movement is confirmed but not yet explained by evidence."
+        }
+      },
+      "analyst_note": "Attribution starts as unknown. Movement data and evidence quality are preserved through lineage. Move weight into market, portfolio, operational or policy buckets only after supporting evidence is collected.",
+      "conclusion_status": "no_conclusion_yet"
+    },
+    {
+      "attribution_version": "attribution-investigation-v0.2",
+      "table_id": "M355381",
+      "period": "2026 Apr",
+      "series_no": "1.5.3",
+      "series_name": "Land",
+      "investigation_priority": "critical",
+      "attribution_status": "investigation_open",
+      "observation": {
+        "latest_value": 87.503,
+        "month_on_month_change_pct": -39.443452504532935,
+        "year_on_year_change_pct": -8.87192518381205
+      },
+      "evidence_status": {
+        "internal_evidence_count": 0,
+        "relevant_evidence_count": 0,
+        "evidence_quality": "poor",
+        "external_search_required": true,
+        "relevant_evidence": []
+      },
+      "attribution": {
+        "market_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "External or global market movement, demand cycle, regional industry trend."
+        },
+        "portfolio_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Composition effect within Singapore manufacturing or sub-sector mix."
+        },
+        "operational_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Maintenance, shutdown, disruption, capacity change, plant-level event."
+        },
+        "policy_effect": {
+          "score": 0,
+          "evidence": [],
+          "note": "Regulatory, tax, incentive, trade restriction, or government policy driver."
+        },
+        "unknown_effect": {
+          "score": 10,
+          "evidence": [],
+          "note": "Default bucket. Movement is confirmed but not yet explained by evidence."
+        }
+      },
+      "analyst_note": "Attribution starts as unknown. Movement data and evidence quality are preserved through lineage. Move weight into market, portfolio, operational or policy buckets only after supporting evidence is collected.",
+      "conclusion_status": "no_conclusion_yet"
+    }
+  ]
+}

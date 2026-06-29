@@ -1,0 +1,81 @@
+{
+  "queue_version": "macro-specificity-hardening-queue-v0.1",
+  "generated_at": "2026-06-10T02:20:14.345Z",
+  "input": "data/intelligence/driver-diversity-engine-v0.1.json",
+  "cases_reviewed": 4,
+  "queue_count": 4,
+  "critical_count": 3,
+  "high_count": 1,
+  "medium_count": 0,
+  "doctrine": "Macro specificity hardening prevents broad indicators from becoming universal explanations.",
+  "hardening_queue": [
+    {
+      "case_id": "SG-MANUFACTURING-2020",
+      "case_label": "Singapore Manufacturing Recovery 2020-2021",
+      "domain": "manufacturing",
+      "priority": "critical",
+      "trigger_band": "over_concentrated",
+      "diversity_score": 0.288,
+      "dominant_or_high_driver_share": 0.75,
+      "missing_dimension": "sector_specific_macro_context",
+      "recommended_hardening_actions": [
+        "Add manufacturing output indicators",
+        "Add electronics export indicators",
+        "Add inventory/restocking indicators",
+        "Add sector-specific production cycle evidence"
+      ],
+      "governance_note": "Hardening queue is diagnostic only. It identifies cases requiring better macro specificity before stronger learning or synthesis is attempted."
+    },
+    {
+      "case_id": "SG-PETROLEUM-2020",
+      "case_label": "Singapore Petroleum Shock 2020",
+      "domain": "petroleum",
+      "priority": "critical",
+      "trigger_band": "over_concentrated",
+      "diversity_score": 0.288,
+      "dominant_or_high_driver_share": 0.75,
+      "missing_dimension": "sector_specific_macro_context",
+      "recommended_hardening_actions": [
+        "Add Brent crude and regional oil price indicators",
+        "Add refining margin indicators",
+        "Add petrochemical spread indicators",
+        "Add energy demand indicators"
+      ],
+      "governance_note": "Hardening queue is diagnostic only. It identifies cases requiring better macro specificity before stronger learning or synthesis is attempted."
+    },
+    {
+      "case_id": "SG-BIOMEDICAL-2021",
+      "case_label": "Singapore Biomedical Output 2021",
+      "domain": "biomedical",
+      "priority": "critical",
+      "trigger_band": "over_concentrated",
+      "diversity_score": 0.288,
+      "dominant_or_high_driver_share": 0.75,
+      "missing_dimension": "sector_specific_macro_context",
+      "recommended_hardening_actions": [
+        "Add pharmaceutical output indicators",
+        "Add biomedical export indicators",
+        "Add healthcare demand indicators",
+        "Add funding/rates context indicators"
+      ],
+      "governance_note": "Hardening queue is diagnostic only. It identifies cases requiring better macro specificity before stronger learning or synthesis is attempted."
+    },
+    {
+      "case_id": "SG-SEMICONDUCTOR-2021",
+      "case_label": "Singapore Semiconductor Recovery 2021",
+      "domain": "semiconductors",
+      "priority": "high",
+      "trigger_band": "thin_diversity",
+      "diversity_score": 0.375,
+      "dominant_or_high_driver_share": 0.5,
+      "missing_dimension": "sector_specific_macro_context",
+      "recommended_hardening_actions": [
+        "Add global semiconductor sales indicators",
+        "Add chip-cycle indicators",
+        "Add electronics export indicators",
+        "Add wafer/fab utilization indicators"
+      ],
+      "governance_note": "Hardening queue is diagnostic only. It identifies cases requiring better macro specificity before stronger learning or synthesis is attempted."
+    }
+  ]
+}

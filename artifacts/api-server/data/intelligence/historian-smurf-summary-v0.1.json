@@ -1,0 +1,74 @@
+{
+  "summary_version": "historian-smurf-summary-v0.1",
+  "generated_at": "2026-06-26T06:58:03.023Z",
+  "history_source": "data/intelligence/village-execution-history-v0.1.json",
+  "run_count": 3,
+  "smurf_count": 5,
+  "smurf_summary": [
+    {
+      "smurf_id": "COVERAGE",
+      "observations": 3,
+      "completed": 3,
+      "failed": 0,
+      "ready": 0,
+      "waiting": 0,
+      "avg_duration_seconds": 3.586,
+      "max_duration_seconds": 3.586,
+      "yellow_bottlenecks": 0,
+      "red_bottlenecks": 0
+    },
+    {
+      "smurf_id": "GRAPH",
+      "observations": 3,
+      "completed": 3,
+      "failed": 0,
+      "ready": 0,
+      "waiting": 0,
+      "avg_duration_seconds": 3.643,
+      "max_duration_seconds": 3.643,
+      "yellow_bottlenecks": 0,
+      "red_bottlenecks": 0
+    },
+    {
+      "smurf_id": "SIGNAL",
+      "observations": 3,
+      "completed": 3,
+      "failed": 0,
+      "ready": 0,
+      "waiting": 0,
+      "avg_duration_seconds": 2.14,
+      "max_duration_seconds": 2.14,
+      "yellow_bottlenecks": 0,
+      "red_bottlenecks": 0
+    },
+    {
+      "smurf_id": "REPLAY",
+      "observations": 3,
+      "completed": 2,
+      "failed": 0,
+      "ready": 1,
+      "waiting": 0,
+      "avg_duration_seconds": 3.243,
+      "max_duration_seconds": 4.864,
+      "yellow_bottlenecks": 0,
+      "red_bottlenecks": 0
+    },
+    {
+      "smurf_id": "WORKBENCH",
+      "observations": 3,
+      "completed": 1,
+      "failed": 0,
+      "ready": 2,
+      "waiting": 0,
+      "avg_duration_seconds": 1.137,
+      "max_duration_seconds": 3.411,
+      "yellow_bottlenecks": 0,
+      "red_bottlenecks": 0
+    }
+  ],
+  "governance": {
+    "summary_only": true,
+    "used_by_brainy": true,
+    "production_mutation_allowed": false
+  }
+}

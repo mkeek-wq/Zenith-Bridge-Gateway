@@ -1,0 +1,24 @@
+{
+  "monitoring_run_version": "monitoring-run-v0.4",
+  "run_status": "completed_no_change",
+  "observed_at": "2026-05-29T13:18:02.748Z",
+  "institution_id": "SG_SINGSTAT",
+  "feed_id": "SINGSTAT_RELEASES",
+  "authority_id": "A100",
+  "url": "https://www.singstat.gov.sg/news",
+  "http_status": 200,
+  "content_length": 899283,
+  "content_hash": "31265c22b5090ac2f28893f2fb3f6acf919816c538af507ca3313dc143c06cbf",
+  "previous_content_hash": null,
+  "first_observation": true,
+  "change_detected": false,
+  "snapshot_files": {
+    "latest_json": "latest.json",
+    "latest_content_html": "latest-content.html",
+    "timestamp_json": "2026-05-29T13-18-02-748Z.json",
+    "timestamp_content_html": "2026-05-29T13-18-02-748Z-content.html"
+  },
+  "documents_discovered": 0,
+  "documents_new": 0,
+  "documents_updated": 0
+}

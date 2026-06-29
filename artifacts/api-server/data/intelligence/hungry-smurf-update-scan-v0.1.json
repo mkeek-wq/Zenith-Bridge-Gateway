@@ -1,0 +1,745 @@
+{
+  "scan_version": "hungry-smurf-update-scan-v0.1",
+  "generated_at": "2026-06-25T13:02:04.546Z",
+  "purpose": "Read-only update-readiness scan for dataset ingestion. Hungry Smurf checks what can be updated, compared, loaded, or reviewed without mutating production data.",
+  "mutation_allowed": false,
+  "dataset_count": 14,
+  "ready_count": 7,
+  "review_count": 7,
+  "blocked_count": 0,
+  "scans": [
+    {
+      "dataset_id": "SG_CHEMICALS_OUTPUT_INDEX",
+      "name": "Singapore chemicals and chemical products output",
+      "registry_status": "verified",
+      "frequency": "annual",
+      "source_config": {
+        "exists": true,
+        "path": "data/intelligence/source-download-config/SG_CHEMICALS_OUTPUT_INDEX.json",
+        "source_name": "SingStat Table Builder",
+        "table_id": "M354851",
+        "series_match": "Chemicals & Chemical Products",
+        "source_url": null,
+        "file_type": "singstat_table"
+      },
+      "raw_files": [
+        {
+          "path": "data/intelligence/raw-downloads/SG_CHEMICALS_OUTPUT_INDEX.csv",
+          "exists": true,
+          "size_bytes": 140,
+          "modified_at": "2026-06-14T09:39:13.712Z",
+          "sha256": "6057e0cfef978fa1462637be4bfb331ac1914da06b56820b86dae848f4592e8b"
+        },
+        {
+          "path": "data/intelligence/raw-downloads/SG_CHEMICALS_OUTPUT_INDEX.json",
+          "exists": false,
+          "size_bytes": null,
+          "modified_at": null,
+          "sha256": null
+        },
+        {
+          "path": "data/intelligence/raw-downloads/SG_CHEMICALS_OUTPUT_INDEX.singstat.json",
+          "exists": true,
+          "size_bytes": 87787,
+          "modified_at": "2026-06-14T09:39:13.712Z",
+          "sha256": "b49e925de0429f5326a9377db51a7272adff08c0105d1ea852a014a7739e502b"
+        }
+      ],
+      "parsed_file": {
+        "path": "data/intelligence/parsed-datasets/SG_CHEMICALS_OUTPUT_INDEX.json",
+        "exists": true,
+        "size_bytes": 2619,
+        "modified_at": "2026-06-25T09:34:59.560Z",
+        "sha256": "afb233bc55d5ab81b566d2b4634c4426b072beead900b0e8671d54e1c0b145e9"
+      },
+      "issue_count": 0,
+      "warning_count": 0,
+      "issues": [],
+      "warnings": [],
+      "recommended_actions": [
+        "eligible_for_singstat_table_update_check",
+        "eligible_for_raw_vs_parsed_comparison"
+      ],
+      "scan_status": "ready"
+    },
+    {
+      "dataset_id": "SG_ELECTRONICS_OUTPUT_INDEX",
+      "name": "Singapore electronics output index",
+      "registry_status": "requested_not_loaded",
+      "frequency": "monthly_or_quarterly",
+      "source_config": {
+        "exists": false,
+        "path": "data/intelligence/source-download-config/SG_ELECTRONICS_OUTPUT_INDEX.json"
+      },
+      "raw_files": [
+        {
+          "path": "data/intelligence/raw-downloads/SG_ELECTRONICS_OUTPUT_INDEX.csv",
+          "exists": false,
+          "size_bytes": null,
+          "modified_at": null,
+          "sha256": null
+        },
+        {
+          "path": "data/intelligence/raw-downloads/SG_ELECTRONICS_OUTPUT_INDEX.json",
+          "exists": false,
+          "size_bytes": null,
+          "modified_at": null,
+          "sha256": null
+        },
+        {
+          "path": "data/intelligence/raw-downloads/SG_ELECTRONICS_OUTPUT_INDEX.singstat.json",
+          "exists": false,
+          "size_bytes": null,
+          "modified_at": null,
+          "sha256": null
+        }
+      ],
+      "parsed_file": {
+        "path": "data/intelligence/parsed-datasets/SG_ELECTRONICS_OUTPUT_INDEX.json",
+        "exists": false,
+        "size_bytes": null,
+        "modified_at": null,
+        "sha256": null
+      },
+      "issue_count": 0,
+      "warning_count": 1,
+      "issues": [],
+      "warnings": [
+        "missing_source_download_config"
+      ],
+      "recommended_actions": [
+        "await_initial_source_load"
+      ],
+      "scan_status": "review"
+    },
+    {
+      "dataset_id": "SG_HOW_CHEMICALS_AND_PETROCHEMICALS_REFLECT_SINGAPORE_S_INDUSTRIAL_CYCLE_PRIMARY_SERIES",
+      "name": "Primary time series for How Chemicals and Petrochemicals Reflect Singapore's Industrial Cycle",
+      "registry_status": "requested_not_loaded",
+      "frequency": "monthly_or_quarterly",
+      "source_config": {
+        "exists": false,
+        "path": "data/intelligence/source-download-config/SG_HOW_CHEMICALS_AND_PETROCHEMICALS_REFLECT_SINGAPORE_S_INDUSTRIAL_CYCLE_PRIMARY_SERIES.json"
+      },
+      "raw_files": [
+        {
+          "path": "data/intelligence/raw-downloads/SG_HOW_CHEMICALS_AND_PETROCHEMICALS_REFLECT_SINGAPORE_S_INDUSTRIAL_CYCLE_PRIMARY_SERIES.csv",
+          "exists": false,
+          "size_bytes": null,
+          "modified_at": null,
+          "sha256": null
+        },
+        {
+          "path": "data/intelligence/raw-downloads/SG_HOW_CHEMICALS_AND_PETROCHEMICALS_REFLECT_SINGAPORE_S_INDUSTRIAL_CYCLE_PRIMARY_SERIES.json",
+          "exists": false,
+          "size_bytes": null,
+          "modified_at": null,
+          "sha256": null
+        },
+        {
+          "path": "data/intelligence/raw-downloads/SG_HOW_CHEMICALS_AND_PETROCHEMICALS_REFLECT_SINGAPORE_S_INDUSTRIAL_CYCLE_PRIMARY_SERIES.singstat.json",
+          "exists": false,
+          "size_bytes": null,
+          "modified_at": null,
+          "sha256": null
+        }
+      ],
+      "parsed_file": {
+        "path": "data/intelligence/parsed-datasets/SG_HOW_CHEMICALS_AND_PETROCHEMICALS_REFLECT_SINGAPORE_S_INDUSTRIAL_CYCLE_PRIMARY_SERIES.json",
+        "exists": false,
+        "size_bytes": null,
+        "modified_at": null,
+        "sha256": null
+      },
+      "issue_count": 0,
+      "warning_count": 1,
+      "issues": [],
+      "warnings": [
+        "missing_source_download_config"
+      ],
+      "recommended_actions": [
+        "await_initial_source_load"
+      ],
+      "scan_status": "review"
+    },
+    {
+      "dataset_id": "SG_HOW_GLOBAL_DEMAND_SHOCKS_MOVE_THROUGH_SINGAPORE_S_INDUSTRIAL_BASE_PRIMARY_SERIES",
+      "name": "Primary time series for How Global Demand Shocks Move Through Singapore's Industrial Base",
+      "registry_status": "requested_not_loaded",
+      "frequency": "monthly_or_quarterly",
+      "source_config": {
+        "exists": false,
+        "path": "data/intelligence/source-download-config/SG_HOW_GLOBAL_DEMAND_SHOCKS_MOVE_THROUGH_SINGAPORE_S_INDUSTRIAL_BASE_PRIMARY_SERIES.json"
+      },
+      "raw_files": [
+        {
+          "path": "data/intelligence/raw-downloads/SG_HOW_GLOBAL_DEMAND_SHOCKS_MOVE_THROUGH_SINGAPORE_S_INDUSTRIAL_BASE_PRIMARY_SERIES.csv",
+          "exists": false,
+          "size_bytes": null,
+          "modified_at": null,
+          "sha256": null
+        },
+        {
+          "path": "data/intelligence/raw-downloads/SG_HOW_GLOBAL_DEMAND_SHOCKS_MOVE_THROUGH_SINGAPORE_S_INDUSTRIAL_BASE_PRIMARY_SERIES.json",
+          "exists": false,
+          "size_bytes": null,
+          "modified_at": null,
+          "sha256": null
+        },
+        {
+          "path": "data/intelligence/raw-downloads/SG_HOW_GLOBAL_DEMAND_SHOCKS_MOVE_THROUGH_SINGAPORE_S_INDUSTRIAL_BASE_PRIMARY_SERIES.singstat.json",
+          "exists": false,
+          "size_bytes": null,
+          "modified_at": null,
+          "sha256": null
+        }
+      ],
+      "parsed_file": {
+        "path": "data/intelligence/parsed-datasets/SG_HOW_GLOBAL_DEMAND_SHOCKS_MOVE_THROUGH_SINGAPORE_S_INDUSTRIAL_BASE_PRIMARY_SERIES.json",
+        "exists": false,
+        "size_bytes": null,
+        "modified_at": null,
+        "sha256": null
+      },
+      "issue_count": 0,
+      "warning_count": 1,
+      "issues": [],
+      "warnings": [
+        "missing_source_download_config"
+      ],
+      "recommended_actions": [
+        "await_initial_source_load"
+      ],
+      "scan_status": "review"
+    },
+    {
+      "dataset_id": "SG_PETROLEUM_OUTPUT_INDEX",
+      "name": "Singapore refined petroleum products output",
+      "registry_status": "verified",
+      "frequency": "annual",
+      "source_config": {
+        "exists": true,
+        "path": "data/intelligence/source-download-config/SG_PETROLEUM_OUTPUT_INDEX.json",
+        "source_name": "SingStat Table Builder",
+        "table_id": "M354851",
+        "series_match": "Refined Petroleum Products",
+        "source_url": null,
+        "file_type": "singstat_table"
+      },
+      "raw_files": [
+        {
+          "path": "data/intelligence/raw-downloads/SG_PETROLEUM_OUTPUT_INDEX.csv",
+          "exists": true,
+          "size_bytes": 138,
+          "modified_at": "2026-06-14T09:39:09.244Z",
+          "sha256": "ba67101fa0179209d5dec65467edb20d6378b9e636d1ecb417f7998c808ea6a5"
+        },
+        {
+          "path": "data/intelligence/raw-downloads/SG_PETROLEUM_OUTPUT_INDEX.json",
+          "exists": false,
+          "size_bytes": null,
+          "modified_at": null,
+          "sha256": null
+        },
+        {
+          "path": "data/intelligence/raw-downloads/SG_PETROLEUM_OUTPUT_INDEX.singstat.json",
+          "exists": true,
+          "size_bytes": 87787,
+          "modified_at": "2026-06-14T09:39:09.244Z",
+          "sha256": "b49e925de0429f5326a9377db51a7272adff08c0105d1ea852a014a7739e502b"
+        }
+      ],
+      "parsed_file": {
+        "path": "data/intelligence/parsed-datasets/SG_PETROLEUM_OUTPUT_INDEX.json",
+        "exists": true,
+        "size_bytes": 2611,
+        "modified_at": "2026-06-25T09:34:59.560Z",
+        "sha256": "f8432ebbffd8517bbf59a34620b08577fed0cf34ea8847d9b0771200aceb3d08"
+      },
+      "issue_count": 0,
+      "warning_count": 0,
+      "issues": [],
+      "warnings": [],
+      "recommended_actions": [
+        "eligible_for_singstat_table_update_check",
+        "eligible_for_raw_vs_parsed_comparison"
+      ],
+      "scan_status": "ready"
+    },
+    {
+      "dataset_id": "SG_PRECISION_ENGINEERING_OUTPUT_INDEX",
+      "name": "Singapore machinery and equipment output",
+      "registry_status": "verified",
+      "frequency": "annual",
+      "source_config": {
+        "exists": true,
+        "path": "data/intelligence/source-download-config/SG_PRECISION_ENGINEERING_OUTPUT_INDEX.json",
+        "source_name": "SingStat Table Builder",
+        "table_id": "M354851",
+        "series_match": "Machinery & Equipment",
+        "source_url": null,
+        "file_type": "singstat_table"
+      },
+      "raw_files": [
+        {
+          "path": "data/intelligence/raw-downloads/SG_PRECISION_ENGINEERING_OUTPUT_INDEX.csv",
+          "exists": true,
+          "size_bytes": 140,
+          "modified_at": "2026-06-14T09:39:25.440Z",
+          "sha256": "b99e5a7f643e0d9f26e02973747228739255bfacd7f2ce699833c9c363584836"
+        },
+        {
+          "path": "data/intelligence/raw-downloads/SG_PRECISION_ENGINEERING_OUTPUT_INDEX.json",
+          "exists": false,
+          "size_bytes": null,
+          "modified_at": null,
+          "sha256": null
+        },
+        {
+          "path": "data/intelligence/raw-downloads/SG_PRECISION_ENGINEERING_OUTPUT_INDEX.singstat.json",
+          "exists": true,
+          "size_bytes": 87787,
+          "modified_at": "2026-06-14T09:39:25.440Z",
+          "sha256": "b49e925de0429f5326a9377db51a7272adff08c0105d1ea852a014a7739e502b"
+        }
+      ],
+      "parsed_file": {
+        "path": "data/intelligence/parsed-datasets/SG_PRECISION_ENGINEERING_OUTPUT_INDEX.json",
+        "exists": true,
+        "size_bytes": 2627,
+        "modified_at": "2026-06-25T09:34:59.560Z",
+        "sha256": "90e4b60039796b48da2e75ad369e8ac44987ab0804851adae182bd21d4b718ce"
+      },
+      "issue_count": 0,
+      "warning_count": 0,
+      "issues": [],
+      "warnings": [],
+      "recommended_actions": [
+        "eligible_for_singstat_table_update_check",
+        "eligible_for_raw_vs_parsed_comparison"
+      ],
+      "scan_status": "ready"
+    },
+    {
+      "dataset_id": "SG_SEMICONDUCTOR_OUTPUT_INDEX",
+      "name": "Singapore computer, electronic and optical products output",
+      "registry_status": "verified",
+      "frequency": "annual",
+      "source_config": {
+        "exists": true,
+        "path": "data/intelligence/source-download-config/SG_SEMICONDUCTOR_OUTPUT_INDEX.json",
+        "source_name": "SingStat Table Builder",
+        "table_id": "M354851",
+        "series_match": "Computer, Electronic & Optical Products",
+        "source_url": null,
+        "file_type": "singstat_table"
+      },
+      "raw_files": [
+        {
+          "path": "data/intelligence/raw-downloads/SG_SEMICONDUCTOR_OUTPUT_INDEX.csv",
+          "exists": true,
+          "size_bytes": 151,
+          "modified_at": "2026-06-14T09:39:21.600Z",
+          "sha256": "1c88bfc96a8f52ce27eb3fcaab1b4b60225ade06da6ac9f6f7a043a2538b5d0f"
+        },
+        {
+          "path": "data/intelligence/raw-downloads/SG_SEMICONDUCTOR_OUTPUT_INDEX.json",
+          "exists": false,
+          "size_bytes": null,
+          "modified_at": null,
+          "sha256": null
+        },
+        {
+          "path": "data/intelligence/raw-downloads/SG_SEMICONDUCTOR_OUTPUT_INDEX.singstat.json",
+          "exists": true,
+          "size_bytes": 87787,
+          "modified_at": "2026-06-14T09:39:21.600Z",
+          "sha256": "b49e925de0429f5326a9377db51a7272adff08c0105d1ea852a014a7739e502b"
+        }
+      ],
+      "parsed_file": {
+        "path": "data/intelligence/parsed-datasets/SG_SEMICONDUCTOR_OUTPUT_INDEX.json",
+        "exists": true,
+        "size_bytes": 2658,
+        "modified_at": "2026-06-25T09:34:59.564Z",
+        "sha256": "77ae78ba845e27d17bbe34e5373e292a60da3b2a2f776c8574de2ef406b126fd"
+      },
+      "issue_count": 0,
+      "warning_count": 0,
+      "issues": [],
+      "warnings": [],
+      "recommended_actions": [
+        "eligible_for_singstat_table_update_check",
+        "eligible_for_raw_vs_parsed_comparison"
+      ],
+      "scan_status": "ready"
+    },
+    {
+      "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+      "name": "Singapore total manufacturing output",
+      "registry_status": "verified",
+      "frequency": "annual",
+      "source_config": {
+        "exists": true,
+        "path": "data/intelligence/source-download-config/SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.json",
+        "source_name": "SingStat Table Builder",
+        "table_id": "M354851",
+        "series_match": "Total Manufacturing",
+        "source_url": null,
+        "file_type": "singstat_table"
+      },
+      "raw_files": [
+        {
+          "path": "data/intelligence/raw-downloads/SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.csv",
+          "exists": true,
+          "size_bytes": 150,
+          "modified_at": "2026-06-14T09:39:05.364Z",
+          "sha256": "2ef813997787deb0867a528ab0f0d5dda2b3bca04dff8da4ec93e350a03c3a9f"
+        },
+        {
+          "path": "data/intelligence/raw-downloads/SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.json",
+          "exists": false,
+          "size_bytes": null,
+          "modified_at": null,
+          "sha256": null
+        },
+        {
+          "path": "data/intelligence/raw-downloads/SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.singstat.json",
+          "exists": true,
+          "size_bytes": 87787,
+          "modified_at": "2026-06-14T09:39:05.364Z",
+          "sha256": "b49e925de0429f5326a9377db51a7272adff08c0105d1ea852a014a7739e502b"
+        }
+      ],
+      "parsed_file": {
+        "path": "data/intelligence/parsed-datasets/SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.json",
+        "exists": true,
+        "size_bytes": 3392,
+        "modified_at": "2026-06-25T09:34:59.564Z",
+        "sha256": "16035dadc2c7d4bf524df2b4733f5c2c1512d21250633bfa81a5a4ad986542c6"
+      },
+      "issue_count": 0,
+      "warning_count": 0,
+      "issues": [],
+      "warnings": [],
+      "recommended_actions": [
+        "eligible_for_singstat_table_update_check",
+        "eligible_for_raw_vs_parsed_comparison"
+      ],
+      "scan_status": "ready"
+    },
+    {
+      "dataset_id": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX",
+      "name": "Singapore other transport equipment output",
+      "registry_status": "verified",
+      "frequency": "annual",
+      "source_config": {
+        "exists": true,
+        "path": "data/intelligence/source-download-config/SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.json",
+        "source_name": "SingStat Table Builder",
+        "table_id": "M354851",
+        "series_match": "Other Transport Equipment",
+        "source_url": null,
+        "file_type": "singstat_table"
+      },
+      "raw_files": [
+        {
+          "path": "data/intelligence/raw-downloads/SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.csv",
+          "exists": true,
+          "size_bytes": 140,
+          "modified_at": "2026-06-14T09:39:29.136Z",
+          "sha256": "41bc3b549ec493857b2df8b75716bd9aeaa9ba79cf0ac78340e2770933266ad2"
+        },
+        {
+          "path": "data/intelligence/raw-downloads/SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.json",
+          "exists": false,
+          "size_bytes": null,
+          "modified_at": null,
+          "sha256": null
+        },
+        {
+          "path": "data/intelligence/raw-downloads/SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.singstat.json",
+          "exists": true,
+          "size_bytes": 87787,
+          "modified_at": "2026-06-14T09:39:29.136Z",
+          "sha256": "b49e925de0429f5326a9377db51a7272adff08c0105d1ea852a014a7739e502b"
+        }
+      ],
+      "parsed_file": {
+        "path": "data/intelligence/parsed-datasets/SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.json",
+        "exists": true,
+        "size_bytes": 2734,
+        "modified_at": "2026-06-25T09:34:59.564Z",
+        "sha256": "7fa88dfa1ecf1be592d6b151bdd9a00a608f86214a8a3d027b5b713c383e8592"
+      },
+      "issue_count": 0,
+      "warning_count": 0,
+      "issues": [],
+      "warnings": [],
+      "recommended_actions": [
+        "eligible_for_singstat_table_update_check",
+        "eligible_for_raw_vs_parsed_comparison"
+      ],
+      "scan_status": "ready"
+    },
+    {
+      "dataset_id": "SG_UNDERSTANDING_BIOMEDICAL_PHARMACEUTICAL_PRODUCTION_CYCLE_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES",
+      "name": "Primary time series for Understanding Biomedical / Pharmaceutical Production Cycle in Singapore's Manufacturing Data",
+      "registry_status": "requested_not_loaded",
+      "frequency": "monthly_or_quarterly",
+      "source_config": {
+        "exists": false,
+        "path": "data/intelligence/source-download-config/SG_UNDERSTANDING_BIOMEDICAL_PHARMACEUTICAL_PRODUCTION_CYCLE_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES.json"
+      },
+      "raw_files": [
+        {
+          "path": "data/intelligence/raw-downloads/SG_UNDERSTANDING_BIOMEDICAL_PHARMACEUTICAL_PRODUCTION_CYCLE_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES.csv",
+          "exists": false,
+          "size_bytes": null,
+          "modified_at": null,
+          "sha256": null
+        },
+        {
+          "path": "data/intelligence/raw-downloads/SG_UNDERSTANDING_BIOMEDICAL_PHARMACEUTICAL_PRODUCTION_CYCLE_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES.json",
+          "exists": false,
+          "size_bytes": null,
+          "modified_at": null,
+          "sha256": null
+        },
+        {
+          "path": "data/intelligence/raw-downloads/SG_UNDERSTANDING_BIOMEDICAL_PHARMACEUTICAL_PRODUCTION_CYCLE_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES.singstat.json",
+          "exists": false,
+          "size_bytes": null,
+          "modified_at": null,
+          "sha256": null
+        }
+      ],
+      "parsed_file": {
+        "path": "data/intelligence/parsed-datasets/SG_UNDERSTANDING_BIOMEDICAL_PHARMACEUTICAL_PRODUCTION_CYCLE_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES.json",
+        "exists": false,
+        "size_bytes": null,
+        "modified_at": null,
+        "sha256": null
+      },
+      "issue_count": 0,
+      "warning_count": 1,
+      "issues": [],
+      "warnings": [
+        "missing_source_download_config"
+      ],
+      "recommended_actions": [
+        "await_initial_source_load"
+      ],
+      "scan_status": "review"
+    },
+    {
+      "dataset_id": "SG_UNDERSTANDING_CAPACITY_EXPANSION_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES",
+      "name": "Primary time series for Understanding Capacity Expansion in Singapore's Manufacturing Data",
+      "registry_status": "requested_not_loaded",
+      "frequency": "monthly_or_quarterly",
+      "source_config": {
+        "exists": false,
+        "path": "data/intelligence/source-download-config/SG_UNDERSTANDING_CAPACITY_EXPANSION_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES.json"
+      },
+      "raw_files": [
+        {
+          "path": "data/intelligence/raw-downloads/SG_UNDERSTANDING_CAPACITY_EXPANSION_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES.csv",
+          "exists": false,
+          "size_bytes": null,
+          "modified_at": null,
+          "sha256": null
+        },
+        {
+          "path": "data/intelligence/raw-downloads/SG_UNDERSTANDING_CAPACITY_EXPANSION_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES.json",
+          "exists": false,
+          "size_bytes": null,
+          "modified_at": null,
+          "sha256": null
+        },
+        {
+          "path": "data/intelligence/raw-downloads/SG_UNDERSTANDING_CAPACITY_EXPANSION_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES.singstat.json",
+          "exists": false,
+          "size_bytes": null,
+          "modified_at": null,
+          "sha256": null
+        }
+      ],
+      "parsed_file": {
+        "path": "data/intelligence/parsed-datasets/SG_UNDERSTANDING_CAPACITY_EXPANSION_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES.json",
+        "exists": false,
+        "size_bytes": null,
+        "modified_at": null,
+        "sha256": null
+      },
+      "issue_count": 0,
+      "warning_count": 1,
+      "issues": [],
+      "warnings": [
+        "missing_source_download_config"
+      ],
+      "recommended_actions": [
+        "await_initial_source_load"
+      ],
+      "scan_status": "review"
+    },
+    {
+      "dataset_id": "SG_UNDERSTANDING_INVENTORY_CYCLE_RESTOCKING_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES",
+      "name": "Primary time series for Understanding Inventory Cycle / Restocking in Singapore's Manufacturing Data",
+      "registry_status": "requested_not_loaded",
+      "frequency": "monthly_or_quarterly",
+      "source_config": {
+        "exists": false,
+        "path": "data/intelligence/source-download-config/SG_UNDERSTANDING_INVENTORY_CYCLE_RESTOCKING_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES.json"
+      },
+      "raw_files": [
+        {
+          "path": "data/intelligence/raw-downloads/SG_UNDERSTANDING_INVENTORY_CYCLE_RESTOCKING_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES.csv",
+          "exists": false,
+          "size_bytes": null,
+          "modified_at": null,
+          "sha256": null
+        },
+        {
+          "path": "data/intelligence/raw-downloads/SG_UNDERSTANDING_INVENTORY_CYCLE_RESTOCKING_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES.json",
+          "exists": false,
+          "size_bytes": null,
+          "modified_at": null,
+          "sha256": null
+        },
+        {
+          "path": "data/intelligence/raw-downloads/SG_UNDERSTANDING_INVENTORY_CYCLE_RESTOCKING_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES.singstat.json",
+          "exists": false,
+          "size_bytes": null,
+          "modified_at": null,
+          "sha256": null
+        }
+      ],
+      "parsed_file": {
+        "path": "data/intelligence/parsed-datasets/SG_UNDERSTANDING_INVENTORY_CYCLE_RESTOCKING_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES.json",
+        "exists": false,
+        "size_bytes": null,
+        "modified_at": null,
+        "sha256": null
+      },
+      "issue_count": 0,
+      "warning_count": 1,
+      "issues": [],
+      "warnings": [
+        "missing_source_download_config"
+      ],
+      "recommended_actions": [
+        "await_initial_source_load"
+      ],
+      "scan_status": "review"
+    },
+    {
+      "dataset_id": "SG_UNDERSTANDING_OPERATIONAL_DISRUPTION_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES",
+      "name": "Primary time series for Understanding Operational Disruption in Singapore's Manufacturing Data",
+      "registry_status": "requested_not_loaded",
+      "frequency": "monthly_or_quarterly",
+      "source_config": {
+        "exists": false,
+        "path": "data/intelligence/source-download-config/SG_UNDERSTANDING_OPERATIONAL_DISRUPTION_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES.json"
+      },
+      "raw_files": [
+        {
+          "path": "data/intelligence/raw-downloads/SG_UNDERSTANDING_OPERATIONAL_DISRUPTION_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES.csv",
+          "exists": false,
+          "size_bytes": null,
+          "modified_at": null,
+          "sha256": null
+        },
+        {
+          "path": "data/intelligence/raw-downloads/SG_UNDERSTANDING_OPERATIONAL_DISRUPTION_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES.json",
+          "exists": false,
+          "size_bytes": null,
+          "modified_at": null,
+          "sha256": null
+        },
+        {
+          "path": "data/intelligence/raw-downloads/SG_UNDERSTANDING_OPERATIONAL_DISRUPTION_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES.singstat.json",
+          "exists": false,
+          "size_bytes": null,
+          "modified_at": null,
+          "sha256": null
+        }
+      ],
+      "parsed_file": {
+        "path": "data/intelligence/parsed-datasets/SG_UNDERSTANDING_OPERATIONAL_DISRUPTION_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES.json",
+        "exists": false,
+        "size_bytes": null,
+        "modified_at": null,
+        "sha256": null
+      },
+      "issue_count": 0,
+      "warning_count": 1,
+      "issues": [],
+      "warnings": [
+        "missing_source_download_config"
+      ],
+      "recommended_actions": [
+        "await_initial_source_load"
+      ],
+      "scan_status": "review"
+    },
+    {
+      "dataset_id": "SG_BIOMEDICAL_OUTPUT_INDEX",
+      "name": "Singapore pharmaceutical and biological products output",
+      "registry_status": "verified",
+      "frequency": "annual",
+      "source_config": {
+        "exists": true,
+        "path": "data/intelligence/source-download-config/SG_BIOMEDICAL_OUTPUT_INDEX.json",
+        "source_name": "SingStat Table Builder",
+        "table_id": "M354851",
+        "series_match": "Pharmaceutical & Biological Products",
+        "source_url": null,
+        "file_type": "singstat_table"
+      },
+      "raw_files": [
+        {
+          "path": "data/intelligence/raw-downloads/SG_BIOMEDICAL_OUTPUT_INDEX.csv",
+          "exists": true,
+          "size_bytes": 139,
+          "modified_at": "2026-06-14T09:39:17.752Z",
+          "sha256": "905d10458d51698dd26fd414568a574385f70c5fede12571b8c5392a948be451"
+        },
+        {
+          "path": "data/intelligence/raw-downloads/SG_BIOMEDICAL_OUTPUT_INDEX.json",
+          "exists": false,
+          "size_bytes": null,
+          "modified_at": null,
+          "sha256": null
+        },
+        {
+          "path": "data/intelligence/raw-downloads/SG_BIOMEDICAL_OUTPUT_INDEX.singstat.json",
+          "exists": true,
+          "size_bytes": 87787,
+          "modified_at": "2026-06-14T09:39:17.752Z",
+          "sha256": "b49e925de0429f5326a9377db51a7272adff08c0105d1ea852a014a7739e502b"
+        }
+      ],
+      "parsed_file": {
+        "path": "data/intelligence/parsed-datasets/SG_BIOMEDICAL_OUTPUT_INDEX.json",
+        "exists": true,
+        "size_bytes": 2474,
+        "modified_at": "2026-06-25T09:34:59.564Z",
+        "sha256": "5bf0cea2178dafda6bdfd03385fadc597c1100bc49e8bfb155444b9b7fff1416"
+      },
+      "issue_count": 0,
+      "warning_count": 0,
+      "issues": [],
+      "warnings": [],
+      "recommended_actions": [
+        "eligible_for_singstat_table_update_check",
+        "eligible_for_raw_vs_parsed_comparison"
+      ],
+      "scan_status": "ready"
+    }
+  ],
+  "governance": {
+    "mutation_allowed": false,
+    "safe_to_schedule": true,
+    "next_step": "Use this scan to identify datasets eligible for incremental update checks. Do not promote data without validation and human review."
+  }
+}

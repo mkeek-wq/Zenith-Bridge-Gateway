@@ -1,0 +1,41 @@
+{
+  "evidence_search_package_version": "evidence-search-package-v0.2",
+  "generated_at": "2026-06-02T15:01:32.375Z",
+  "case_id": "SG-M355381-1_1_3-2026-apr",
+  "confidence": "unknown",
+  "search_packages": [
+    {
+      "hypothesis_id": "MKT_001",
+      "hypothesis_name": "Global Demand Surge",
+      "recommended_searches": [
+        "global semiconductor demand",
+        "electronics exports",
+        "global chip shipments",
+        "manufacturing PMI",
+        "electronics industry outlook"
+      ]
+    },
+    {
+      "hypothesis_id": "OPS_001",
+      "hypothesis_name": "Capacity Expansion",
+      "recommended_searches": [
+        "capacity expansion",
+        "factory expansion",
+        "new production line",
+        "manufacturing investment",
+        "EDB investment announcement"
+      ]
+    },
+    {
+      "hypothesis_id": "MKT_002",
+      "hypothesis_name": "Inventory Replenishment",
+      "recommended_searches": [
+        "inventory replenishment cycle",
+        "electronics inventory levels",
+        "supply chain restocking",
+        "inventory drawdown",
+        "inventory rebuilding"
+      ]
+    }
+  ]
+}

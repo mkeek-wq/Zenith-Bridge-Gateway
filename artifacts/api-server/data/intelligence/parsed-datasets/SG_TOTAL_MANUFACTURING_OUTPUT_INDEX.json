@@ -1,0 +1,86 @@
+{
+  "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+  "name": "Singapore total manufacturing output",
+  "country": "Singapore",
+  "metric_type": "manufacturing_output_value",
+  "frequency": "annual",
+  "preferred_sources": [
+    "SingStat Table Builder"
+  ],
+  "coverage_start": "2016",
+  "coverage_end": "2025",
+  "max_history_years_requested": 10,
+  "max_forecast_years_requested": 1,
+  "values_count": 10,
+  "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+  "local_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/raw-downloads/SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.csv",
+  "notes": "Loaded from SingStat Table Builder API table M354851. Series: Total Manufacturing.",
+  "used_by_candidates": [
+    "ART-what-precision-engineering-reveals-about-singapore-s-capital-equipment-cycle",
+    "ART-what-transport-engineering-reveals-about-singapore-s-aviation-and-marine-recovery",
+    "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+    "ART-how-chemicals-and-petrochemicals-reflect-singapore-s-industrial-cycle",
+    "ART-understanding-biomedical-pharmaceutical-production-cycle-in-singapore-s-manufacturing-data",
+    "ART-how-global-demand-shocks-move-through-singapore-s-industrial-base",
+    "ART-how-semiconductor-cycles-shape-singapore-s-manufacturing-advantage",
+    "ART-understanding-inventory-cycle-restocking-in-singapore-s-manufacturing-data",
+    "ART-understanding-operational-disruption-in-singapore-s-manufacturing-data",
+    "ART-understanding-capacity-expansion-in-singapore-s-manufacturing-data"
+  ],
+  "created_at": "2026-06-14T08:22:53.731Z",
+  "updated_at": "2026-06-25T09:34:59.567Z",
+  "raw_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/raw-downloads/SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.singstat.json",
+  "unit": "Million Dollars",
+  "values": [
+    {
+      "period": "2016",
+      "value": 258788.4
+    },
+    {
+      "period": "2017",
+      "value": 305118
+    },
+    {
+      "period": "2018",
+      "value": 343841.5
+    },
+    {
+      "period": "2019",
+      "value": 324431.9
+    },
+    {
+      "period": "2020",
+      "value": 300128.3
+    },
+    {
+      "period": "2021",
+      "value": 379845.2
+    },
+    {
+      "period": "2022",
+      "value": 444025.5
+    },
+    {
+      "period": "2023",
+      "value": 392206.2
+    },
+    {
+      "period": "2024",
+      "value": 413042.6
+    },
+    {
+      "period": "2025",
+      "value": 459504.1
+    }
+  ],
+  "source_metadata": {
+    "table_id": "M354851",
+    "table_title": "Manufacturing Output In Manufacturing By Industry, Annual",
+    "row_text": "Total Manufacturing",
+    "datasource": "ECONOMIC DEVELOPMENT BOARD",
+    "data_last_updated": "11/05/2026",
+    "date_generated": "14/06/2026",
+    "footnote": "From 2002, figures include establishments with less than 10 workers.  Prior to 2002, figures refer to establishments engaging 10 or more workers.  Data include all manufacturing establishments.  The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2025.  Valuation of output has been changed to basic price.  Historical data on manufacturing output has been revised accordingly from 1980.  Year 2025 data are preliminary estimates."
+  },
+  "dataset_state_source_of_truth": "data/intelligence/verified-dataset-registry-v0.1.json"
+}

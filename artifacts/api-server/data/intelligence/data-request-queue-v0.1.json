@@ -1,0 +1,463 @@
+{
+  "queue_version": "data-request-queue-v0.1",
+  "generated_at": "2026-06-14T08:21:43.967Z",
+  "purpose": "Surgical data requests required to upgrade article candidates into stronger ZNBW intelligence products.",
+  "request_count": 10,
+  "requests": [
+    {
+      "request_id": "DRQ_ART_WHAT_PRECISION_ENGINEERING_REVEALS_ABOUT_SINGAPORE_S_CAPITAL_EQUIPMENT_CYCLE",
+      "candidate_id": "ART-what-precision-engineering-reveals-about-singapore-s-capital-equipment-cycle",
+      "candidate_title": "What Precision Engineering Reveals About Singapore's Capital Equipment Cycle",
+      "priority": "high",
+      "request_status": "open",
+      "required_datasets": [
+        {
+          "dataset_id": "SG_PRECISION_ENGINEERING_OUTPUT_INDEX",
+          "name": "Singapore precision engineering output index",
+          "country": "Singapore",
+          "metric_type": "output_index",
+          "frequency": "monthly_or_quarterly",
+          "max_history_years": 10,
+          "max_forecast_years": 1,
+          "importance": "critical",
+          "preferred_sources": [
+            "EDB",
+            "SingStat"
+          ],
+          "reason": "Core metric for capital-equipment-cycle article."
+        },
+        {
+          "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "name": "Singapore total manufacturing output index",
+          "country": "Singapore",
+          "metric_type": "output_index",
+          "frequency": "monthly_or_quarterly",
+          "max_history_years": 10,
+          "max_forecast_years": 1,
+          "importance": "high",
+          "preferred_sources": [
+            "EDB",
+            "SingStat"
+          ],
+          "reason": "Provides industrial baseline for comparison."
+        }
+      ],
+      "created_at": "2026-06-14T08:21:43.966Z",
+      "source_package": "article-opportunity-queue-v0.1"
+    },
+    {
+      "request_id": "DRQ_ART_WHAT_TRANSPORT_ENGINEERING_REVEALS_ABOUT_SINGAPORE_S_AVIATION_AND_MARINE_RECOVERY",
+      "candidate_id": "ART-what-transport-engineering-reveals-about-singapore-s-aviation-and-marine-recovery",
+      "candidate_title": "What Transport Engineering Reveals About Singapore's Aviation and Marine Recovery",
+      "priority": "high",
+      "request_status": "open",
+      "required_datasets": [
+        {
+          "dataset_id": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX",
+          "name": "Singapore transport engineering output index",
+          "country": "Singapore",
+          "metric_type": "output_index",
+          "frequency": "monthly_or_quarterly",
+          "max_history_years": 10,
+          "max_forecast_years": 1,
+          "importance": "critical",
+          "preferred_sources": [
+            "EDB",
+            "SingStat"
+          ],
+          "reason": "Core metric for aviation/marine recovery article."
+        },
+        {
+          "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "name": "Singapore total manufacturing output index",
+          "country": "Singapore",
+          "metric_type": "output_index",
+          "frequency": "monthly_or_quarterly",
+          "max_history_years": 10,
+          "max_forecast_years": 1,
+          "importance": "high",
+          "preferred_sources": [
+            "EDB",
+            "SingStat"
+          ],
+          "reason": "Provides industrial baseline for comparison."
+        }
+      ],
+      "created_at": "2026-06-14T08:21:43.967Z",
+      "source_package": "article-opportunity-queue-v0.1"
+    },
+    {
+      "request_id": "DRQ_ART_WHAT_PETROLEUM_OUTPUT_REVEALS_ABOUT_SINGAPORE_S_EXPOSURE_TO_GLOBAL_ENERGY_CYCLES",
+      "candidate_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+      "candidate_title": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles",
+      "priority": "high",
+      "request_status": "open",
+      "required_datasets": [
+        {
+          "dataset_id": "SG_PETROLEUM_OUTPUT_INDEX",
+          "name": "Singapore petroleum output index",
+          "country": "Singapore",
+          "metric_type": "output_index",
+          "frequency": "monthly_or_quarterly",
+          "max_history_years": 10,
+          "max_forecast_years": 1,
+          "importance": "critical",
+          "preferred_sources": [
+            "EDB",
+            "SingStat"
+          ],
+          "reason": "Core metric for petroleum-cycle article."
+        },
+        {
+          "dataset_id": "SG_CHEMICALS_OUTPUT_INDEX",
+          "name": "Singapore chemicals output index",
+          "country": "Singapore",
+          "metric_type": "output_index",
+          "frequency": "monthly_or_quarterly",
+          "max_history_years": 10,
+          "max_forecast_years": 1,
+          "importance": "high",
+          "preferred_sources": [
+            "EDB",
+            "SingStat"
+          ],
+          "reason": "Related downstream/industrial comparison sector."
+        },
+        {
+          "dataset_id": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX",
+          "name": "Singapore transport engineering output index",
+          "country": "Singapore",
+          "metric_type": "output_index",
+          "frequency": "monthly_or_quarterly",
+          "max_history_years": 10,
+          "max_forecast_years": 1,
+          "importance": "medium",
+          "preferred_sources": [
+            "EDB",
+            "SingStat"
+          ],
+          "reason": "Useful comparison for aviation/marine recovery context."
+        },
+        {
+          "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "name": "Singapore total manufacturing output index",
+          "country": "Singapore",
+          "metric_type": "output_index",
+          "frequency": "monthly_or_quarterly",
+          "max_history_years": 10,
+          "max_forecast_years": 1,
+          "importance": "high",
+          "preferred_sources": [
+            "EDB",
+            "SingStat"
+          ],
+          "reason": "Provides industrial baseline for comparison."
+        }
+      ],
+      "created_at": "2026-06-14T08:21:43.967Z",
+      "source_package": "article-opportunity-queue-v0.1"
+    },
+    {
+      "request_id": "DRQ_ART_HOW_CHEMICALS_AND_PETROCHEMICALS_REFLECT_SINGAPORE_S_INDUSTRIAL_CYCLE",
+      "candidate_id": "ART-how-chemicals-and-petrochemicals-reflect-singapore-s-industrial-cycle",
+      "candidate_title": "How Chemicals and Petrochemicals Reflect Singapore's Industrial Cycle",
+      "priority": "high",
+      "request_status": "open",
+      "required_datasets": [
+        {
+          "dataset_id": "SG_HOW_CHEMICALS_AND_PETROCHEMICALS_REFLECT_SINGAPORE_S_INDUSTRIAL_CYCLE_PRIMARY_SERIES",
+          "name": "Primary time series for How Chemicals and Petrochemicals Reflect Singapore's Industrial Cycle",
+          "country": "Singapore",
+          "metric_type": "unknown",
+          "frequency": "monthly_or_quarterly",
+          "max_history_years": 10,
+          "max_forecast_years": 1,
+          "importance": "critical",
+          "preferred_sources": [
+            "EDB",
+            "SingStat"
+          ],
+          "reason": "Candidate requires a primary verified time series before publication-grade analysis."
+        },
+        {
+          "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "name": "Singapore total manufacturing output index",
+          "country": "Singapore",
+          "metric_type": "output_index",
+          "frequency": "monthly_or_quarterly",
+          "max_history_years": 10,
+          "max_forecast_years": 1,
+          "importance": "high",
+          "preferred_sources": [
+            "EDB",
+            "SingStat"
+          ],
+          "reason": "Provides industrial baseline for comparison."
+        }
+      ],
+      "created_at": "2026-06-14T08:21:43.967Z",
+      "source_package": "article-opportunity-queue-v0.1"
+    },
+    {
+      "request_id": "DRQ_ART_UNDERSTANDING_BIOMEDICAL_PHARMACEUTICAL_PRODUCTION_CYCLE_IN_SINGAPORE_S_MANUFACTURING_DATA",
+      "candidate_id": "ART-understanding-biomedical-pharmaceutical-production-cycle-in-singapore-s-manufacturing-data",
+      "candidate_title": "Understanding Biomedical / Pharmaceutical Production Cycle in Singapore's Manufacturing Data",
+      "priority": "high",
+      "request_status": "open",
+      "required_datasets": [
+        {
+          "dataset_id": "SG_UNDERSTANDING_BIOMEDICAL_PHARMACEUTICAL_PRODUCTION_CYCLE_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES",
+          "name": "Primary time series for Understanding Biomedical / Pharmaceutical Production Cycle in Singapore's Manufacturing Data",
+          "country": "Singapore",
+          "metric_type": "unknown",
+          "frequency": "monthly_or_quarterly",
+          "max_history_years": 10,
+          "max_forecast_years": 1,
+          "importance": "critical",
+          "preferred_sources": [
+            "EDB",
+            "SingStat"
+          ],
+          "reason": "Candidate requires a primary verified time series before publication-grade analysis."
+        },
+        {
+          "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "name": "Singapore total manufacturing output index",
+          "country": "Singapore",
+          "metric_type": "output_index",
+          "frequency": "monthly_or_quarterly",
+          "max_history_years": 10,
+          "max_forecast_years": 1,
+          "importance": "high",
+          "preferred_sources": [
+            "EDB",
+            "SingStat"
+          ],
+          "reason": "Provides industrial baseline for comparison."
+        }
+      ],
+      "created_at": "2026-06-14T08:21:43.967Z",
+      "source_package": "article-opportunity-queue-v0.1"
+    },
+    {
+      "request_id": "DRQ_ART_HOW_GLOBAL_DEMAND_SHOCKS_MOVE_THROUGH_SINGAPORE_S_INDUSTRIAL_BASE",
+      "candidate_id": "ART-how-global-demand-shocks-move-through-singapore-s-industrial-base",
+      "candidate_title": "How Global Demand Shocks Move Through Singapore's Industrial Base",
+      "priority": "high",
+      "request_status": "open",
+      "required_datasets": [
+        {
+          "dataset_id": "SG_HOW_GLOBAL_DEMAND_SHOCKS_MOVE_THROUGH_SINGAPORE_S_INDUSTRIAL_BASE_PRIMARY_SERIES",
+          "name": "Primary time series for How Global Demand Shocks Move Through Singapore's Industrial Base",
+          "country": "Singapore",
+          "metric_type": "unknown",
+          "frequency": "monthly_or_quarterly",
+          "max_history_years": 10,
+          "max_forecast_years": 1,
+          "importance": "critical",
+          "preferred_sources": [
+            "EDB",
+            "SingStat"
+          ],
+          "reason": "Candidate requires a primary verified time series before publication-grade analysis."
+        },
+        {
+          "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "name": "Singapore total manufacturing output index",
+          "country": "Singapore",
+          "metric_type": "output_index",
+          "frequency": "monthly_or_quarterly",
+          "max_history_years": 10,
+          "max_forecast_years": 1,
+          "importance": "high",
+          "preferred_sources": [
+            "EDB",
+            "SingStat"
+          ],
+          "reason": "Provides industrial baseline for comparison."
+        }
+      ],
+      "created_at": "2026-06-14T08:21:43.967Z",
+      "source_package": "article-opportunity-queue-v0.1"
+    },
+    {
+      "request_id": "DRQ_ART_HOW_SEMICONDUCTOR_CYCLES_SHAPE_SINGAPORE_S_MANUFACTURING_ADVANTAGE",
+      "candidate_id": "ART-how-semiconductor-cycles-shape-singapore-s-manufacturing-advantage",
+      "candidate_title": "How Semiconductor Cycles Shape Singapore's Manufacturing Advantage",
+      "priority": "high",
+      "request_status": "open",
+      "required_datasets": [
+        {
+          "dataset_id": "SG_SEMICONDUCTOR_OUTPUT_INDEX",
+          "name": "Singapore semiconductor output index",
+          "country": "Singapore",
+          "metric_type": "output_index",
+          "frequency": "monthly_or_quarterly",
+          "max_history_years": 10,
+          "max_forecast_years": 1,
+          "importance": "critical",
+          "preferred_sources": [
+            "EDB",
+            "SingStat"
+          ],
+          "reason": "Core metric for semiconductor-cycle analysis."
+        },
+        {
+          "dataset_id": "SG_ELECTRONICS_OUTPUT_INDEX",
+          "name": "Singapore electronics output index",
+          "country": "Singapore",
+          "metric_type": "output_index",
+          "frequency": "monthly_or_quarterly",
+          "max_history_years": 10,
+          "max_forecast_years": 1,
+          "importance": "high",
+          "preferred_sources": [
+            "EDB",
+            "SingStat"
+          ],
+          "reason": "Parent sector comparison for semiconductor activity."
+        },
+        {
+          "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "name": "Singapore total manufacturing output index",
+          "country": "Singapore",
+          "metric_type": "output_index",
+          "frequency": "monthly_or_quarterly",
+          "max_history_years": 10,
+          "max_forecast_years": 1,
+          "importance": "high",
+          "preferred_sources": [
+            "EDB",
+            "SingStat"
+          ],
+          "reason": "Provides industrial baseline for comparison."
+        }
+      ],
+      "created_at": "2026-06-14T08:21:43.967Z",
+      "source_package": "article-opportunity-queue-v0.1"
+    },
+    {
+      "request_id": "DRQ_ART_UNDERSTANDING_INVENTORY_CYCLE_RESTOCKING_IN_SINGAPORE_S_MANUFACTURING_DATA",
+      "candidate_id": "ART-understanding-inventory-cycle-restocking-in-singapore-s-manufacturing-data",
+      "candidate_title": "Understanding Inventory Cycle / Restocking in Singapore's Manufacturing Data",
+      "priority": "high",
+      "request_status": "open",
+      "required_datasets": [
+        {
+          "dataset_id": "SG_UNDERSTANDING_INVENTORY_CYCLE_RESTOCKING_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES",
+          "name": "Primary time series for Understanding Inventory Cycle / Restocking in Singapore's Manufacturing Data",
+          "country": "Singapore",
+          "metric_type": "unknown",
+          "frequency": "monthly_or_quarterly",
+          "max_history_years": 10,
+          "max_forecast_years": 1,
+          "importance": "critical",
+          "preferred_sources": [
+            "EDB",
+            "SingStat"
+          ],
+          "reason": "Candidate requires a primary verified time series before publication-grade analysis."
+        },
+        {
+          "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "name": "Singapore total manufacturing output index",
+          "country": "Singapore",
+          "metric_type": "output_index",
+          "frequency": "monthly_or_quarterly",
+          "max_history_years": 10,
+          "max_forecast_years": 1,
+          "importance": "high",
+          "preferred_sources": [
+            "EDB",
+            "SingStat"
+          ],
+          "reason": "Provides industrial baseline for comparison."
+        }
+      ],
+      "created_at": "2026-06-14T08:21:43.967Z",
+      "source_package": "article-opportunity-queue-v0.1"
+    },
+    {
+      "request_id": "DRQ_ART_UNDERSTANDING_OPERATIONAL_DISRUPTION_IN_SINGAPORE_S_MANUFACTURING_DATA",
+      "candidate_id": "ART-understanding-operational-disruption-in-singapore-s-manufacturing-data",
+      "candidate_title": "Understanding Operational Disruption in Singapore's Manufacturing Data",
+      "priority": "high",
+      "request_status": "open",
+      "required_datasets": [
+        {
+          "dataset_id": "SG_UNDERSTANDING_OPERATIONAL_DISRUPTION_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES",
+          "name": "Primary time series for Understanding Operational Disruption in Singapore's Manufacturing Data",
+          "country": "Singapore",
+          "metric_type": "unknown",
+          "frequency": "monthly_or_quarterly",
+          "max_history_years": 10,
+          "max_forecast_years": 1,
+          "importance": "critical",
+          "preferred_sources": [
+            "EDB",
+            "SingStat"
+          ],
+          "reason": "Candidate requires a primary verified time series before publication-grade analysis."
+        },
+        {
+          "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "name": "Singapore total manufacturing output index",
+          "country": "Singapore",
+          "metric_type": "output_index",
+          "frequency": "monthly_or_quarterly",
+          "max_history_years": 10,
+          "max_forecast_years": 1,
+          "importance": "high",
+          "preferred_sources": [
+            "EDB",
+            "SingStat"
+          ],
+          "reason": "Provides industrial baseline for comparison."
+        }
+      ],
+      "created_at": "2026-06-14T08:21:43.967Z",
+      "source_package": "article-opportunity-queue-v0.1"
+    },
+    {
+      "request_id": "DRQ_ART_UNDERSTANDING_CAPACITY_EXPANSION_IN_SINGAPORE_S_MANUFACTURING_DATA",
+      "candidate_id": "ART-understanding-capacity-expansion-in-singapore-s-manufacturing-data",
+      "candidate_title": "Understanding Capacity Expansion in Singapore's Manufacturing Data",
+      "priority": "high",
+      "request_status": "open",
+      "required_datasets": [
+        {
+          "dataset_id": "SG_UNDERSTANDING_CAPACITY_EXPANSION_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES",
+          "name": "Primary time series for Understanding Capacity Expansion in Singapore's Manufacturing Data",
+          "country": "Singapore",
+          "metric_type": "unknown",
+          "frequency": "monthly_or_quarterly",
+          "max_history_years": 10,
+          "max_forecast_years": 1,
+          "importance": "critical",
+          "preferred_sources": [
+            "EDB",
+            "SingStat"
+          ],
+          "reason": "Candidate requires a primary verified time series before publication-grade analysis."
+        },
+        {
+          "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "name": "Singapore total manufacturing output index",
+          "country": "Singapore",
+          "metric_type": "output_index",
+          "frequency": "monthly_or_quarterly",
+          "max_history_years": 10,
+          "max_forecast_years": 1,
+          "importance": "high",
+          "preferred_sources": [
+            "EDB",
+            "SingStat"
+          ],
+          "reason": "Provides industrial baseline for comparison."
+        }
+      ],
+      "created_at": "2026-06-14T08:21:43.967Z",
+      "source_package": "article-opportunity-queue-v0.1"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "summary_version": "publication-readiness-summary-v0.1",
+  "generated_at": "2026-06-18T04:53:44.836Z",
+  "source_files": {
+    "preview_package": "data/intelligence/article-preview-package-v0.1.json",
+    "mandatory_findings_audit": "data/intelligence/mandatory-findings-audit-v0.1.json"
+  },
+  "article_count": 4,
+  "publication_ready_count": 4,
+  "blocked_count": 0,
+  "summaries": [
+    {
+      "candidate_id": "ART-what-precision-engineering-reveals-about-singapore-s-capital-equipment-cycle",
+      "title": "What Precision Engineering Reveals About Singapore's Capital Equipment Cycle",
+      "publication_ready": true,
+      "preview_audit_ready": true,
+      "preview_mandatory_findings_passed": true,
+      "preview_critical_findings_passed": true,
+      "mandatory_findings_audit_attached": true,
+      "mandatory_findings_passed": true,
+      "critical_findings_passed": true,
+      "graph_count": 3,
+      "graphs_ready": true,
+      "caution_status": false,
+      "blockers": [],
+      "recommendation": "ready_for_human_editorial_review"
+    },
+    {
+      "candidate_id": "ART-what-transport-engineering-reveals-about-singapore-s-aviation-and-marine-recovery",
+      "title": "What Transport Engineering Reveals About Singapore's Aviation and Marine Recovery",
+      "publication_ready": true,
+      "preview_audit_ready": true,
+      "preview_mandatory_findings_passed": true,
+      "preview_critical_findings_passed": true,
+      "mandatory_findings_audit_attached": true,
+      "mandatory_findings_passed": true,
+      "critical_findings_passed": true,
+      "graph_count": 2,
+      "graphs_ready": true,
+      "caution_status": false,
+      "blockers": [],
+      "recommendation": "ready_for_human_editorial_review"
+    },
+    {
+      "candidate_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+      "title": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles",
+      "publication_ready": true,
+      "preview_audit_ready": true,
+      "preview_mandatory_findings_passed": true,
+      "preview_critical_findings_passed": true,
+      "mandatory_findings_audit_attached": true,
+      "mandatory_findings_passed": true,
+      "critical_findings_passed": true,
+      "graph_count": 2,
+      "graphs_ready": true,
+      "caution_status": false,
+      "blockers": [],
+      "recommendation": "ready_for_human_editorial_review"
+    },
+    {
+      "candidate_id": "ART-how-semiconductor-cycles-shape-singapore-s-manufacturing-advantage",
+      "title": "How Semiconductor Cycles Shape Singapore's Manufacturing Advantage",
+      "publication_ready": true,
+      "preview_audit_ready": true,
+      "preview_mandatory_findings_passed": true,
+      "preview_critical_findings_passed": true,
+      "mandatory_findings_audit_attached": true,
+      "mandatory_findings_passed": true,
+      "critical_findings_passed": true,
+      "graph_count": 3,
+      "graphs_ready": true,
+      "caution_status": false,
+      "blockers": [],
+      "recommendation": "ready_for_human_editorial_review"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "evidence_package_version": "historical-evidence-package-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-INVENTORY-CYCLE-2009",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_investigation_package": "data/historical-replay/m355381/investigation-packages/sg-inventory-cycle-2009-investigation-package-v0.1.json",
+  "case_summary": {
+    "period": "2009",
+    "series_no": "SG-INVENTORY-CYCLE-2009",
+    "series_name": "Inventory Cycle / Restocking",
+    "priority": "critical",
+    "direction": "mixed",
+    "latest_value": null,
+    "month_on_month_change_pct": null,
+    "year_on_year_change_pct": null
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "SG_INVENTORY_CYCLE_2009_EVIDENCE_001",
+      "source_type": "inventory_cycle_event",
+      "source_name": "SG-INVENTORY-CYCLE-2009",
+      "evidence_summary": "Inventory correction occurred as firms adjusted production to weaker demand after the global financial crisis.",
+      "supports_drivers": [
+        "MKT_002"
+      ],
+      "evidence_strength": "high"
+    },
+    {
+      "evidence_id": "SG_INVENTORY_CYCLE_2009_EVIDENCE_002",
+      "source_type": "mechanism_context",
+      "source_name": "SG-INVENTORY-CYCLE-2009",
+      "evidence_summary": "Demand shock created pressure to reduce excess inventories and slow restocking.",
+      "supports_drivers": [
+        "MKT_002",
+        "MKT_010"
+      ],
+      "evidence_strength": "high"
+    },
+    {
+      "evidence_id": "SG_INVENTORY_CYCLE_2009_EVIDENCE_003",
+      "source_type": "mechanism_context",
+      "source_name": "SG-INVENTORY-CYCLE-2009",
+      "evidence_summary": "Export weakness amplified inventory adjustment in trade-linked manufacturing.",
+      "supports_drivers": [
+        "MKT_002",
+        "MKT_010"
+      ],
+      "evidence_strength": "medium"
+    },
+    {
+      "evidence_id": "SG_INVENTORY_CYCLE_2009_EVIDENCE_004",
+      "source_type": "mechanism_context",
+      "source_name": "SG-INVENTORY-CYCLE-2009",
+      "evidence_summary": "The primary mechanism was inventory cycle adjustment rather than direct demand shock.",
+      "supports_drivers": [
+        "MKT_002",
+        "MKT_010"
+      ],
+      "evidence_strength": "medium"
+    }
+  ],
+  "driver_evidence_summary": [
+    {
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "evidence_count": 4,
+      "evidence_strength": "high"
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "evidence_count": 2,
+      "evidence_strength": "medium"
+    },
+    {
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness",
+      "evidence_count": 1,
+      "evidence_strength": "medium"
+    }
+  ],
+  "evidence_assessment": {
+    "evidence_collected": true,
+    "attribution_ready": true,
+    "outcome_ready": false,
+    "confidence": "high"
+  }
+}

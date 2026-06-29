@@ -1,0 +1,75 @@
+{
+  "generator_version": "graph-opportunity-generator-v0.2",
+  "generated_at": "2026-06-11T01:36:45.722Z",
+  "input_brief": "article-brief-package-v0.2",
+  "input_metrics_registry": "verified-metrics-registry-v0.1",
+  "seed_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+  "matching_mode": "domain_based_metric_mapping",
+  "summary": {
+    "total_graph_opportunities": 3,
+    "conceptual_ready": 2,
+    "quantitative_ready": 0,
+    "blocked": 1
+  },
+  "graph_opportunities": [
+    {
+      "graph_id": "GOG_VIS_001",
+      "seed_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+      "title": "Singapore's Energy Ecosystem",
+      "visual_type": "ecosystem_diagram",
+      "evidence_type": "qualitative",
+      "message": "Singapore's energy role is created by the interaction between shipping, storage, refining, trading, petrochemicals, and services.",
+      "required_domains": [
+        "energy_trade",
+        "industrial_ecosystem"
+      ],
+      "required_metric_ids": [],
+      "verified_metric_ids": [],
+      "graph_ready_metric_ids": [],
+      "conceptual_visual_ready": true,
+      "quantitative_graph_ready": false,
+      "graph_ready": true,
+      "publish_status": "conceptual_visual_allowed",
+      "notes": "Can be used now as a non-numerical intelligence visual."
+    },
+    {
+      "graph_id": "GOG_VIS_002",
+      "seed_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+      "title": "Singapore's Size vs Energy Influence",
+      "visual_type": "comparison_chart",
+      "evidence_type": "quantitative",
+      "message": "Singapore's energy influence appears disproportionate to its population and land area.",
+      "required_domains": [
+        "energy_trade",
+        "strategic_positioning"
+      ],
+      "required_metric_ids": [],
+      "verified_metric_ids": [],
+      "graph_ready_metric_ids": [],
+      "conceptual_visual_ready": false,
+      "quantitative_graph_ready": false,
+      "graph_ready": false,
+      "publish_status": "blocked_pending_verified_metrics",
+      "notes": "Do not publish until MPA, World Bank, and SingStat figures are verified."
+    },
+    {
+      "graph_id": "GOG_VIS_003",
+      "seed_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+      "title": "How Singapore Built Its Energy Hub",
+      "visual_type": "timeline",
+      "evidence_type": "mixed",
+      "message": "Singapore's energy position developed over decades through port, refining, storage, Jurong Island, and trading infrastructure.",
+      "required_domains": [
+        "industrial_ecosystem"
+      ],
+      "required_metric_ids": [],
+      "verified_metric_ids": [],
+      "graph_ready_metric_ids": [],
+      "conceptual_visual_ready": true,
+      "quantitative_graph_ready": false,
+      "graph_ready": true,
+      "publish_status": "conceptual_timeline_allowed_pending_verified_metrics",
+      "notes": "Can be used as a conceptual timeline if labelled as development pathway, not measured data."
+    }
+  ]
+}

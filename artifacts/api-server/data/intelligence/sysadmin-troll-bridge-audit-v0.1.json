@@ -1,0 +1,65 @@
+{
+  "audit_version": "sysadmin-troll-bridge-audit-v0.1",
+  "generated_at": "2026-06-26T02:20:02.977Z",
+  "purpose": "Enforces Village Rule #1: external data may only enter through approved ingestion scripts.",
+  "troll_mood": "calm",
+  "finding_count": 6,
+  "violation_count": 0,
+  "approved_external_access_scripts": [
+    "download-source-dataset-v0.1.ts",
+    "discover-singstat-table-rows-v0.1.ts",
+    "load-singstat-table-v0.1.ts",
+    "search-singstat-tables-v0.1.ts",
+    "archive-documents.ts",
+    "run-monitoring-check.ts"
+  ],
+  "findings": [
+    {
+      "file": "src/scripts/archive-documents.ts",
+      "pattern": "fetch(",
+      "allowed": true,
+      "severity": "info",
+      "rule": "Only Hungry/Ingestion Smurf scripts may acquire external data. No back-door external data access is allowed inside the village."
+    },
+    {
+      "file": "src/scripts/discover-singstat-table-rows-v0.1.ts",
+      "pattern": "fetch(",
+      "allowed": true,
+      "severity": "info",
+      "rule": "Only Hungry/Ingestion Smurf scripts may acquire external data. No back-door external data access is allowed inside the village."
+    },
+    {
+      "file": "src/scripts/download-source-dataset-v0.1.ts",
+      "pattern": "request(",
+      "allowed": true,
+      "severity": "info",
+      "rule": "Only Hungry/Ingestion Smurf scripts may acquire external data. No back-door external data access is allowed inside the village."
+    },
+    {
+      "file": "src/scripts/load-singstat-table-v0.1.ts",
+      "pattern": "fetch(",
+      "allowed": true,
+      "severity": "info",
+      "rule": "Only Hungry/Ingestion Smurf scripts may acquire external data. No back-door external data access is allowed inside the village."
+    },
+    {
+      "file": "src/scripts/run-monitoring-check.ts",
+      "pattern": "fetch(",
+      "allowed": true,
+      "severity": "info",
+      "rule": "Only Hungry/Ingestion Smurf scripts may acquire external data. No back-door external data access is allowed inside the village."
+    },
+    {
+      "file": "src/scripts/search-singstat-tables-v0.1.ts",
+      "pattern": "fetch(",
+      "allowed": true,
+      "severity": "info",
+      "rule": "Only Hungry/Ingestion Smurf scripts may acquire external data. No back-door external data access is allowed inside the village."
+    }
+  ],
+  "governance": {
+    "village_rule_1": "No Smurf other than an approved ingestion Smurf may acquire external data.",
+    "backdoor_data_access_allowed": false,
+    "human_review_required": false
+  }
+}

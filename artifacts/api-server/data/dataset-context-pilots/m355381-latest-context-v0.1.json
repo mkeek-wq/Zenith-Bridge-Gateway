@@ -1,0 +1,193 @@
+{
+  "context_version": "dataset-context-v0.1",
+  "generated_at": "2026-06-01T02:44:22.218Z",
+  "table_id": "M355381",
+  "table_title": "Index Of Industrial Production By Industry Cluster (2025 = 100), Monthly",
+  "datasource": "ECONOMIC DEVELOPMENT BOARD",
+  "period": "2026 Apr",
+  "metric_family": "INDUSTRIAL_PRODUCTION_INDEX",
+  "observations": [
+    {
+      "series_no": "1",
+      "series_name": "Total",
+      "value": 111.332,
+      "unit": "Index",
+      "metric_code": "INDUSTRIAL_PRODUCTION_INDEX_1"
+    },
+    {
+      "series_no": "1.1",
+      "series_name": "Electronics Cluster",
+      "value": 131.206,
+      "unit": "Index",
+      "metric_code": "INDUSTRIAL_PRODUCTION_INDEX_1_1"
+    },
+    {
+      "series_no": "1.1.1",
+      "series_name": "Semiconductors",
+      "value": 129.526,
+      "unit": "Index",
+      "metric_code": "INDUSTRIAL_PRODUCTION_INDEX_1_1_1"
+    },
+    {
+      "series_no": "1.1.2",
+      "series_name": "Computer Peripherals & Data Storage",
+      "value": 96.432,
+      "unit": "Index",
+      "metric_code": "INDUSTRIAL_PRODUCTION_INDEX_1_1_2"
+    },
+    {
+      "series_no": "1.1.3",
+      "series_name": "Infocomms & Consumer Electronics",
+      "value": 173.489,
+      "unit": "Index",
+      "metric_code": "INDUSTRIAL_PRODUCTION_INDEX_1_1_3"
+    },
+    {
+      "series_no": "1.1.4",
+      "series_name": "Other Electronic Modules & Components",
+      "value": 95.979,
+      "unit": "Index",
+      "metric_code": "INDUSTRIAL_PRODUCTION_INDEX_1_1_4"
+    },
+    {
+      "series_no": "1.2",
+      "series_name": "Chemicals Cluster",
+      "value": 81.745,
+      "unit": "Index",
+      "metric_code": "INDUSTRIAL_PRODUCTION_INDEX_1_2"
+    },
+    {
+      "series_no": "1.2.1",
+      "series_name": "Petroleum",
+      "value": 68.566,
+      "unit": "Index",
+      "metric_code": "INDUSTRIAL_PRODUCTION_INDEX_1_2_1"
+    },
+    {
+      "series_no": "1.2.2",
+      "series_name": "Petrochemicals",
+      "value": 60.362,
+      "unit": "Index",
+      "metric_code": "INDUSTRIAL_PRODUCTION_INDEX_1_2_2"
+    },
+    {
+      "series_no": "1.2.3",
+      "series_name": "Specialties",
+      "value": 101.635,
+      "unit": "Index",
+      "metric_code": "INDUSTRIAL_PRODUCTION_INDEX_1_2_3"
+    },
+    {
+      "series_no": "1.2.4",
+      "series_name": "Other Chemical Products",
+      "value": 110.958,
+      "unit": "Index",
+      "metric_code": "INDUSTRIAL_PRODUCTION_INDEX_1_2_4"
+    },
+    {
+      "series_no": "1.3",
+      "series_name": "Biomedical Manufacturing Cluster",
+      "value": 72.54,
+      "unit": "Index",
+      "metric_code": "INDUSTRIAL_PRODUCTION_INDEX_1_3"
+    },
+    {
+      "series_no": "1.3.1",
+      "series_name": "Pharmaceuticals",
+      "value": 44.089,
+      "unit": "Index",
+      "metric_code": "INDUSTRIAL_PRODUCTION_INDEX_1_3_1"
+    },
+    {
+      "series_no": "1.3.2",
+      "series_name": "Medical Technology",
+      "value": 86.245,
+      "unit": "Index",
+      "metric_code": "INDUSTRIAL_PRODUCTION_INDEX_1_3_2"
+    },
+    {
+      "series_no": "1.4",
+      "series_name": "Precision Engineering Cluster",
+      "value": 119.976,
+      "unit": "Index",
+      "metric_code": "INDUSTRIAL_PRODUCTION_INDEX_1_4"
+    },
+    {
+      "series_no": "1.4.1",
+      "series_name": "Machinery & Systems",
+      "value": 121.527,
+      "unit": "Index",
+      "metric_code": "INDUSTRIAL_PRODUCTION_INDEX_1_4_1"
+    },
+    {
+      "series_no": "1.4.2",
+      "series_name": "Precision Modules & Components",
+      "value": 112.887,
+      "unit": "Index",
+      "metric_code": "INDUSTRIAL_PRODUCTION_INDEX_1_4_2"
+    },
+    {
+      "series_no": "1.5",
+      "series_name": "Transport Engineering Cluster",
+      "value": 106.814,
+      "unit": "Index",
+      "metric_code": "INDUSTRIAL_PRODUCTION_INDEX_1_5"
+    },
+    {
+      "series_no": "1.5.1",
+      "series_name": "Marine & Offshore Engineering",
+      "value": 94.635,
+      "unit": "Index",
+      "metric_code": "INDUSTRIAL_PRODUCTION_INDEX_1_5_1"
+    },
+    {
+      "series_no": "1.5.2",
+      "series_name": "Aerospace",
+      "value": 116.73,
+      "unit": "Index",
+      "metric_code": "INDUSTRIAL_PRODUCTION_INDEX_1_5_2"
+    },
+    {
+      "series_no": "1.5.3",
+      "series_name": "Land",
+      "value": 87.503,
+      "unit": "Index",
+      "metric_code": "INDUSTRIAL_PRODUCTION_INDEX_1_5_3"
+    },
+    {
+      "series_no": "1.6",
+      "series_name": "General Manufacturing Cluster",
+      "value": 111.094,
+      "unit": "Index",
+      "metric_code": "INDUSTRIAL_PRODUCTION_INDEX_1_6"
+    },
+    {
+      "series_no": "1.6.1",
+      "series_name": "Printing",
+      "value": 99.722,
+      "unit": "Index",
+      "metric_code": "INDUSTRIAL_PRODUCTION_INDEX_1_6_1"
+    },
+    {
+      "series_no": "1.6.2",
+      "series_name": "Food, Beverages & Tobacco",
+      "value": 111.87,
+      "unit": "Index",
+      "metric_code": "INDUSTRIAL_PRODUCTION_INDEX_1_6_2"
+    },
+    {
+      "series_no": "1.6.3",
+      "series_name": "Miscellaneous Industries",
+      "value": 110.641,
+      "unit": "Index",
+      "metric_code": "INDUSTRIAL_PRODUCTION_INDEX_1_6_3"
+    },
+    {
+      "series_no": "2",
+      "series_name": "Total Excluding Biomedical Manufacturing",
+      "value": 116.28,
+      "unit": "Index",
+      "metric_code": "INDUSTRIAL_PRODUCTION_INDEX_2"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "staging_version": "hungry-smurf-controlled-staging-item-v0.1",
+  "generated_at": "2026-06-25T13:45:03.615Z",
+  "dataset_id": "SG_PRECISION_ENGINEERING_OUTPUT_INDEX",
+  "source_scan_status": "ready",
+  "source_config": {
+    "exists": true,
+    "path": "data/intelligence/source-download-config/SG_PRECISION_ENGINEERING_OUTPUT_INDEX.json",
+    "source_name": "SingStat Table Builder",
+    "table_id": "M354851",
+    "series_match": "Machinery & Equipment",
+    "source_url": null,
+    "file_type": "singstat_table"
+  },
+  "raw_files": [
+    {
+      "path": "data/intelligence/raw-downloads/SG_PRECISION_ENGINEERING_OUTPUT_INDEX.csv",
+      "exists": true,
+      "size_bytes": 140,
+      "modified_at": "2026-06-14T09:39:25.440Z",
+      "sha256": "b99e5a7f643e0d9f26e02973747228739255bfacd7f2ce699833c9c363584836"
+    },
+    {
+      "path": "data/intelligence/raw-downloads/SG_PRECISION_ENGINEERING_OUTPUT_INDEX.json",
+      "exists": false,
+      "size_bytes": null,
+      "modified_at": null,
+      "sha256": null
+    },
+    {
+      "path": "data/intelligence/raw-downloads/SG_PRECISION_ENGINEERING_OUTPUT_INDEX.singstat.json",
+      "exists": true,
+      "size_bytes": 87787,
+      "modified_at": "2026-06-14T09:39:25.440Z",
+      "sha256": "b49e925de0429f5326a9377db51a7272adff08c0105d1ea852a014a7739e502b"
+    }
+  ],
+  "parsed_file": {
+    "path": "data/intelligence/parsed-datasets/SG_PRECISION_ENGINEERING_OUTPUT_INDEX.json",
+    "exists": true,
+    "size_bytes": 2627,
+    "modified_at": "2026-06-25T09:34:59.560Z",
+    "sha256": "90e4b60039796b48da2e75ad369e8ac44987ab0804851adae182bd21d4b718ce"
+  },
+  "values_count": 10,
+  "coverage_start": "2016",
+  "coverage_end": "2025",
+  "staging_status": "staged_for_human_review",
+  "production_mutation_allowed": false,
+  "recommended_next_step": "Review staged item before promotion."
+}

@@ -1,0 +1,31 @@
+{
+  "evidence_package_version": "historical-evidence-package-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-OPERATIONAL-DISRUPTION-2020",
+  "evidence_items": [
+    "Operational disruption emerged from restrictions affecting production and workforce availability.",
+    "Factory operations faced interruptions and workflow constraints.",
+    "Policy measures contributed to the disruption environment.",
+    "Operational disruption was the primary mechanism impacting activity."
+  ],
+  "driver_evidence_summary": [
+    {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "evidence_count": 4
+    },
+    {
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "evidence_count": 2
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "evidence_count": 1
+    }
+  ],
+  "evidence_assessment": {
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "registry_version": "compatibility-check-engine-v0.1",
+  "created_at": "2026-06-10T02:23:31.482Z",
+  "doctrine": {
+    "compatibility_checks_dependencies_not_truth": true,
+    "broken_modules_should_block_major_runs": true,
+    "replay_requires_clean_compatibility": true,
+    "mixed_registry_schema_supported": true
+  },
+  "inputs": {
+    "modules_checked": 18
+  },
+  "summary": {
+    "compatible_modules": 18,
+    "not_compatible_modules": 0,
+    "critical_failures": 0,
+    "high_failures": 0,
+    "system_compatibility": "compatible_for_standard_operations"
+  },
+  "checks": [
+    {
+      "module_id": "CORE_EVIDENCE_V5",
+      "module_name": "Evidence Store v5",
+      "module_type": "core_data_store",
+      "version": "v5",
+      "risk_level": "critical",
+      "status": "active",
+      "script_path": null,
+      "script_exists": true,
+      "output_path": "data/evidence-v5/latest.json",
+      "output_exists": true,
+      "output_valid_json": true,
+      "dependency_results": [],
+      "failed_dependencies": [],
+      "compatibility_status": "compatible"
+    },
+    {
+      "module_id": "EVIDENCE_ASSESSMENT_V02",
+      "module_name": "Evidence Assessment Engine",
+      "module_type": "intelligence_engine",
+      "version": "v0.2",
+      "risk_level": "critical",
+      "status": "active",
+      "script_path": null,
+      "script_exists": true,
+      "output_path": "data/intelligence/evidence-assessment-engine-v0.2.json",
+      "output_exists": true,
+      "output_valid_json": true,
+      "dependency_results": [
+        {
+          "dependency_id": "CORE_EVIDENCE_V5",
+          "found": true,
+          "active": true,
+          "status": "ok"
+        }
+      ],
+      "failed_dependencies": [],
+      "compatibility_status": "compatible"
+    },
+    {
+      "module_id": "MECHANISM_LINKER_V01",
+      "module_name": "Mechanism Evidence Linker",
+      "module_type": "intelligence_engine",
+      "version": "v0.1",
+      "risk_level": "high",
+      "status": "active",
+      "script_path": null,
+      "script_exists": true,
+      "output_path": "data/intelligence/mechanism-evidence-linker-v0.1.json",
+      "output_exists": true,
+      "output_valid_json": true,
+      "dependency_results": [
+        {
+          "dependency_id": "EVIDENCE_ASSESSMENT_V02",
+          "found": true,
+          "active": true,
+          "status": "ok"
+        }
+      ],
+      "failed_dependencies": [],
+      "compatibility_status": "compatible"
+    },
+    {
+      "module_id": "MECHANISM_CONFIDENCE_V02",
+      "module_name": "Mechanism Confidence Engine",
+      "module_type": "intelligence_engine",
+      "version": "v0.2",
+      "risk_level": "high",
+      "status": "active",
+      "script_path": null,
+      "script_exists": true,
+      "output_path": "data/intelligence/mechanism-confidence-engine-v0.2.json",
+      "output_exists": true,
+      "output_valid_json": true,
+      "dependency_results": [
+        {
+          "dependency_id": "MECHANISM_LINKER_V01",
+          "found": true,
+          "active": true,
+          "status": "ok"
+        }
+      ],
+      "failed_dependencies": [],
+      "compatibility_status": "compatible"
+    },
+    {
+      "module_id": "CASE_CONSTRUCTION_V01",
+      "module_name": "Case Construction Engine",
+      "module_type": "intelligence_engine",
+      "version": "v0.1",
+      "risk_level": "high",
+      "status": "active",
+      "script_path": null,
+      "script_exists": true,
+      "output_path": "data/intelligence/case-construction-engine-v0.1.json",
+      "output_exists": true,
+      "output_valid_json": true,
+      "dependency_results": [
+        {
+          "dependency_id": "EVIDENCE_ASSESSMENT_V02",
+          "found": true,
+          "active": true,
+          "status": "ok"
+        },
+        {
+          "dependency_id": "MECHANISM_CONFIDENCE_V02",
+          "found": true,
+          "active": true,
+          "status": "ok"
+        }
+      ],
+      "failed_dependencies": [],
+      "compatibility_status": "compatible"
+    },
+    {
+      "module_id": "INTELLIGENCE_BRIEF_V02",
+      "module_name": "Intelligence Brief Generator",
+      "module_type": "reporting_engine",
+      "version": "v0.2",
+      "risk_level": "medium",
+      "status": "active",
+      "script_path": null,
+      "script_exists": true,
+      "output_path": "data/intelligence/intelligence-brief-generator-v0.2.json",
+      "output_exists": true,
+      "output_valid_json": true,
+      "dependency_results": [
+        {
+          "dependency_id": "CASE_CONSTRUCTION_V01",
+          "found": true,
+          "active": true,
+          "status": "ok"
+        }
+      ],
+      "failed_dependencies": [],
+      "compatibility_status": "compatible"
+    },
+    {
+      "module_id": "EXPERIENCE_REGISTRY_V01",
+      "module_name": "Experience Registry Engine",
+      "module_type": "learning_engine",
+      "version": "v0.1",
+      "risk_level": "high",
+      "status": "active",
+      "script_path": null,
+      "script_exists": true,
+      "output_path": "data/intelligence/experience-registry-engine-v0.1.json",
+      "output_exists": true,
+      "output_valid_json": true,
+      "dependency_results": [
+        {
+          "dependency_id": "CASE_CONSTRUCTION_V01",
+          "found": true,
+          "active": true,
+          "status": "ok"
+        }
+      ],
+      "failed_dependencies": [],
+      "compatibility_status": "compatible"
+    },
+    {
+      "module_id": "EXPERIENCE_CONFIDENCE_V01",
+      "module_name": "Experience Confidence Engine",
+      "module_type": "learning_engine",
+      "version": "v0.1",
+      "risk_level": "high",
+      "status": "active",
+      "script_path": null,
+      "script_exists": true,
+      "output_path": "data/intelligence/experience-confidence-engine-v0.1.json",
+      "output_exists": true,
+      "output_valid_json": true,
+      "dependency_results": [
+        {
+          "dependency_id": "EXPERIENCE_REGISTRY_V01",
+          "found": true,
+          "active": true,
+          "status": "ok"
+        }
+      ],
+      "failed_dependencies": [],
+      "compatibility_status": "compatible"
+    },
+    {
+      "module_id": "BULK_READINESS_V01",
+      "module_name": "Bulk Ingestion Readiness Check",
+      "module_type": "ingestion_governance",
+      "version": "v0.1",
+      "risk_level": "critical",
+      "status": "active",
+      "script_path": null,
+      "script_exists": true,
+      "output_path": "data/intelligence/bulk-ingestion-readiness-check-v0.1.json",
+      "output_exists": true,
+      "output_valid_json": true,
+      "dependency_results": [
+        {
+          "dependency_id": "CORE_EVIDENCE_V5",
+          "found": true,
+          "active": true,
+          "status": "ok"
+        }
+      ],
+      "failed_dependencies": [],
+      "compatibility_status": "compatible"
+    },
+    {
+      "module_id": "CONTROLLED_INGESTION_EXECUTOR_V01",
+      "module_name": "Controlled Ingestion Executor",
+      "module_type": "ingestion_governance",
+      "version": "v0.1",
+      "risk_level": "critical",
+      "status": "active",
+      "script_path": null,
+      "script_exists": true,
+      "output_path": "data/ingestion/staged-ingestion/controlled-ingestion-executor-v0.1.json",
+      "output_exists": true,
+      "output_valid_json": true,
+      "dependency_results": [
+        {
+          "dependency_id": "BULK_READINESS_V01",
+          "found": true,
+          "active": true,
+          "status": "ok"
+        }
+      ],
+      "failed_dependencies": [],
+      "compatibility_status": "compatible"
+    },
+    {
+      "module_id": "EVIDENCE_LINEAGE_V01",
+      "module_name": "Evidence Lineage Engine",
+      "module_type": "governance_engine",
+      "version": "v0.1",
+      "risk_level": "critical",
+      "status": "active",
+      "script_path": null,
+      "script_exists": true,
+      "output_path": "data/intelligence/evidence-lineage-engine-v0.1.json",
+      "output_exists": true,
+      "output_valid_json": true,
+      "dependency_results": [
+        {
+          "dependency_id": "CONTROLLED_INGESTION_EXECUTOR_V01",
+          "found": true,
+          "active": true,
+          "status": "ok"
+        }
+      ],
+      "failed_dependencies": [],
+      "compatibility_status": "compatible"
+    },
+    {
+      "module_id": "PRODUCTION_PROMOTION_GATE_V01",
+      "module_name": "Production Promotion Gate",
+      "module_type": "governance_engine",
+      "version": "v0.1",
+      "risk_level": "critical",
+      "status": "active",
+      "script_path": null,
+      "script_exists": true,
+      "output_path": "data/ingestion/promotion-gates/production-promotion-gate-v0.1.json",
+      "output_exists": true,
+      "output_valid_json": true,
+      "dependency_results": [
+        {
+          "dependency_id": "EVIDENCE_LINEAGE_V01",
+          "found": true,
+          "active": true,
+          "status": "ok"
+        }
+      ],
+      "failed_dependencies": [],
+      "compatibility_status": "compatible"
+    },
+    {
+      "module_id": "macro-driver-concentration-engine-v0.1",
+      "module_name": "macro-driver-concentration-engine-v0.1",
+      "module_type": "diagnostic_engine",
+      "version": null,
+      "risk_level": "medium",
+      "status": "active",
+      "script_path": "src/scripts/build-macro-driver-concentration-engine-v0.1.ts",
+      "script_exists": true,
+      "output_path": "data/intelligence/macro-driver-concentration-engine-v0.1.json",
+      "output_exists": true,
+      "output_valid_json": true,
+      "dependency_results": [],
+      "failed_dependencies": [],
+      "compatibility_status": "compatible"
+    },
+    {
+      "module_id": "macro-driver-concentration-report-v0.1",
+      "module_name": "macro-driver-concentration-report-v0.1",
+      "module_type": "report_generator",
+      "version": null,
+      "risk_level": "medium",
+      "status": "active",
+      "script_path": "src/scripts/build-macro-driver-concentration-report-v0.1.ts",
+      "script_exists": true,
+      "output_path": "exports/macro-reports/macro-driver-concentration-report-v0.1.md",
+      "output_exists": true,
+      "output_valid_json": true,
+      "dependency_results": [],
+      "failed_dependencies": [],
+      "compatibility_status": "compatible"
+    },
+    {
+      "module_id": "driver-diversity-engine-v0.1",
+      "module_name": "driver-diversity-engine-v0.1",
+      "module_type": "diagnostic_engine",
+      "version": null,
+      "risk_level": "medium",
+      "status": "active",
+      "script_path": "src/scripts/build-driver-diversity-engine-v0.1.ts",
+      "script_exists": true,
+      "output_path": "data/intelligence/driver-diversity-engine-v0.1.json",
+      "output_exists": true,
+      "output_valid_json": true,
+      "dependency_results": [],
+      "failed_dependencies": [],
+      "compatibility_status": "compatible"
+    },
+    {
+      "module_id": "driver-diversity-report-v0.1",
+      "module_name": "driver-diversity-report-v0.1",
+      "module_type": "report_generator",
+      "version": null,
+      "risk_level": "medium",
+      "status": "active",
+      "script_path": "src/scripts/build-driver-diversity-report-v0.1.ts",
+      "script_exists": true,
+      "output_path": "exports/macro-reports/driver-diversity-report-v0.1.md",
+      "output_exists": true,
+      "output_valid_json": true,
+      "dependency_results": [],
+      "failed_dependencies": [],
+      "compatibility_status": "compatible"
+    },
+    {
+      "module_id": "macro-specificity-hardening-queue-v0.1",
+      "module_name": "macro-specificity-hardening-queue-v0.1",
+      "module_type": "hardening_queue",
+      "version": null,
+      "risk_level": "medium",
+      "status": "active",
+      "script_path": "src/scripts/build-macro-specificity-hardening-queue-v0.1.ts",
+      "script_exists": true,
+      "output_path": "data/intelligence/macro-specificity-hardening-queue-v0.1.json",
+      "output_exists": true,
+      "output_valid_json": true,
+      "dependency_results": [],
+      "failed_dependencies": [],
+      "compatibility_status": "compatible"
+    },
+    {
+      "module_id": "macro-specificity-hardening-report-v0.1",
+      "module_name": "macro-specificity-hardening-report-v0.1",
+      "module_type": "report_generator",
+      "version": null,
+      "risk_level": "medium",
+      "status": "active",
+      "script_path": "src/scripts/build-macro-specificity-hardening-report-v0.1.ts",
+      "script_exists": true,
+      "output_path": "exports/macro-reports/macro-specificity-hardening-report-v0.1.md",
+      "output_exists": true,
+      "output_valid_json": true,
+      "dependency_results": [],
+      "failed_dependencies": [],
+      "compatibility_status": "compatible"
+    }
+  ]
+}

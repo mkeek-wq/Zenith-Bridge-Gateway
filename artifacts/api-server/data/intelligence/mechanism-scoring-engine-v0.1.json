@@ -1,0 +1,80 @@
+{
+  "registry_version": "mechanism-scoring-engine-v0.1",
+  "created_at": "2026-06-08T05:22:05.010Z",
+  "doctrine": {
+    "mechanisms_are_challengeable": true,
+    "mechanisms_are_not_principles": true,
+    "evidence_remains_primary": true,
+    "past_results_do_not_guarantee_future_outcomes": true
+  },
+  "inputs": {
+    "lifecycle_items": 3,
+    "validation_items": 0,
+    "falsification_items": 3,
+    "counter_evidence_items": 0,
+    "assessed_evidence_items": 552
+  },
+  "mechanisms_scored": 3,
+  "scored_mechanisms": [
+    {
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "scores": {
+        "evidence_support": 0.622,
+        "historical_support": 0.45,
+        "validation_support": 0.25,
+        "counter_evidence_penalty": 0.05,
+        "falsification_penalty": 0.1,
+        "confidence_score": 0.368
+      },
+      "confidence_band": "low",
+      "governance": {
+        "validated": false,
+        "evidence_remains_primary": true,
+        "historical_similarity_must_never_override_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "scores": {
+        "evidence_support": 0.621,
+        "historical_support": 0.45,
+        "validation_support": 0.25,
+        "counter_evidence_penalty": 0.05,
+        "falsification_penalty": 0.1,
+        "confidence_score": 0.367
+      },
+      "confidence_band": "low",
+      "governance": {
+        "validated": false,
+        "evidence_remains_primary": true,
+        "historical_similarity_must_never_override_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "scores": {
+        "evidence_support": 0.6,
+        "historical_support": 0.45,
+        "validation_support": 0.25,
+        "counter_evidence_penalty": 0.05,
+        "falsification_penalty": 0.1,
+        "confidence_score": 0.36
+      },
+      "confidence_band": "low",
+      "governance": {
+        "validated": false,
+        "evidence_remains_primary": true,
+        "historical_similarity_must_never_override_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    }
+  ]
+}

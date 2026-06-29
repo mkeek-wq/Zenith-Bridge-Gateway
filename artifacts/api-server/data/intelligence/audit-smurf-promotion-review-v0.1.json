@@ -1,0 +1,31 @@
+{
+  "review_version": "audit-smurf-promotion-review-v0.1",
+  "generated_at": "2026-06-26T01:30:14.533Z",
+  "mutation_allowed": false,
+  "decision": "PROMOTION_ALLOWED_WITH_REVIEW",
+  "confidence_score": 95,
+  "blockers": [],
+  "warnings": [
+    "dataset_backlog_warnings"
+  ],
+  "inputs": {
+    "staging_review": "data/ingestion/hungry-smurf-staging-review-v0.1.json",
+    "schema_sniff": "data/intelligence/hungry-smurf-schema-sniff-v0.1.json",
+    "quant_audit": "data/intelligence/quant-smurf-ingestion-audit-v0.1.json",
+    "consistency_audit": "data/intelligence/dataset-consistency-audit-v0.1.json"
+  },
+  "summary": {
+    "staged_count": 7,
+    "schema_clean_count": 7,
+    "quant_clean_count": 7,
+    "quant_review_count": 0,
+    "quant_blocked_count": 0,
+    "consistency_issue_count": 0,
+    "consistency_warning_count": 7
+  },
+  "governance": {
+    "production_mutation_allowed": false,
+    "human_approval_allowed": true,
+    "human_review_required": true
+  }
+}

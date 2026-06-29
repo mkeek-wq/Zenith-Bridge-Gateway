@@ -1,0 +1,84 @@
+{
+  "evidence_package_version": "historical-evidence-package-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-EXPORT-WEAKNESS-2001",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_investigation_package": "data/historical-replay/m355381/investigation-packages/sg-export-weakness-2001-investigation-package-v0.1.json",
+  "case_summary": {
+    "period": "2001",
+    "series_no": "EXPORT-WEAKNESS-2001",
+    "series_name": "Export Demand Weakness",
+    "priority": "critical",
+    "direction": "negative"
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "EXPORT_2001_001",
+      "source_type": "derived_from_existing_replay",
+      "source_name": "SG-MANUFACTURING-2001",
+      "evidence_summary": "Existing replay evidence links Singapore's 2001 manufacturing weakness to export demand weakness and external trade conditions.",
+      "supports_drivers": ["MKT_003"],
+      "evidence_strength": "high"
+    },
+    {
+      "evidence_id": "EXPORT_2001_002",
+      "source_type": "context",
+      "source_name": "Global Electronics Downturn Context",
+      "evidence_summary": "The 2001 period was associated with global technology and electronics-cycle weakness, affecting export-oriented manufacturing economies.",
+      "supports_drivers": ["MKT_008", "MKT_003"],
+      "evidence_strength": "high"
+    },
+    {
+      "evidence_id": "EXPORT_2001_003",
+      "source_type": "market_context",
+      "source_name": "External Demand Context",
+      "evidence_summary": "Weaker global demand and trade conditions reduced foreign orders and export-linked industrial activity.",
+      "supports_drivers": ["MKT_010", "MKT_003"],
+      "evidence_strength": "medium"
+    },
+    {
+      "evidence_id": "EXPORT_2001_004",
+      "source_type": "transmission_mechanism",
+      "source_name": "Export-to-Manufacturing Transmission",
+      "evidence_summary": "Export demand weakness transmitted into Singapore manufacturing output through reduced overseas orders and electronics-related trade weakness.",
+      "supports_drivers": ["MKT_003", "MKT_008"],
+      "evidence_strength": "high"
+    }
+  ],
+  "driver_evidence_summary": [
+    {
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness",
+      "evidence_count": 4,
+      "evidence_strength": "high"
+    },
+    {
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "evidence_count": 2,
+      "evidence_strength": "high"
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "evidence_count": 1,
+      "evidence_strength": "medium"
+    }
+  ],
+  "mechanism_assessment": {
+    "primary_mechanism": "Export demand weakened as external trade and electronics-cycle conditions deteriorated.",
+    "secondary_mechanisms": [
+      "global technology downturn reduced electronics demand",
+      "foreign orders weakened",
+      "trade-linked manufacturing activity declined",
+      "external demand weakness transmitted into Singapore industrial output"
+    ]
+  },
+  "evidence_assessment": {
+    "evidence_collected": true,
+    "attribution_ready": true,
+    "outcome_ready": false,
+    "confidence": "high"
+  }
+}

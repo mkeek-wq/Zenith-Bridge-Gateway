@@ -1,0 +1,19 @@
+{
+  "historical_evidence_pilot_version": "historical-evidence-pilot-v0.1",
+  "case_id": "SG-CHEMICALS-2023",
+  "period": "2023",
+  "series_name": "Chemicals",
+  "source_context": "Bulk sandbox historical replay evidence pilot. Synthetic seed evidence for attribution-learning pipeline testing; not production evidence.",
+  "governance": {
+    "sandbox_only": true,
+    "bulk_seed": true,
+    "manual_review_required": true,
+    "production_mutation_allowed": false
+  },
+  "evidence_items": [
+    "Singapore chemicals output in 2023 reflected chemicals demand, petrochemical demand, and downstream industrial conditions.",
+    "Specialty chemicals and basic chemicals production moved with regional manufacturing demand.",
+    "Feedstock prices and naphtha prices affected petrochemical margins and production decisions.",
+    "Chemical plant and petrochemical plant utilisation shaped the sector's output cycle."
+  ]
+}

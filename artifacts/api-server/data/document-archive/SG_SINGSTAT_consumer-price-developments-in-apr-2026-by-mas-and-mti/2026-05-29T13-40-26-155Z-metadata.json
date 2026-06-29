@@ -1,0 +1,22 @@
+{
+  "archive_version": "document-archive-v0.1",
+  "archived_at": "2026-05-29T13:40:26.155Z",
+  "document_id": "SG_SINGSTAT_consumer-price-developments-in-apr-2026-by-mas-and-mti",
+  "institution_id": "SG_SINGSTAT",
+  "feed_id": "SINGSTAT_RELEASES",
+  "title": "Consumer Price Developments in Apr 2026 (by MAS & MTI)",
+  "slug": "consumer-price-developments-in-apr-2026-by-mas-and-mti",
+  "url": "https://www.singstat.gov.sg/news/consumer-price-developments-in-apr-2026-by-mas-and-mti",
+  "publication_date": "2026-05-25",
+  "resource_type": "Press Releases",
+  "summary": "Joint press release on “Consumer Price Developments in Apr 2026” by MAS and MTI.",
+  "http_status": 200,
+  "content_length": 130119,
+  "content_hash": "ae63699f39141973549fa39eb4bc910bc17ab20c76f4ba7d7c77347165a93d01",
+  "files": {
+    "latest_metadata": "metadata.json",
+    "latest_document_html": "document.html",
+    "timestamp_metadata": "2026-05-29T13-40-26-155Z-metadata.json",
+    "timestamp_document_html": "2026-05-29T13-40-26-155Z-document.html"
+  }
+}

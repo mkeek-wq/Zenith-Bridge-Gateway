@@ -1,0 +1,180 @@
+{
+  "relevance_version": "evidence-relevance-v0.1",
+  "generated_at": "2026-06-01T04:46:56.430Z",
+  "packages": [
+    {
+      "series_no": "1.1",
+      "series_name": "Electronics Cluster",
+      "internal_evidence_count": 0,
+      "internal_evidence": [],
+      "external_search_required": true,
+      "relevant_evidence_count": 0,
+      "relevant_evidence": [],
+      "evidence_quality": "poor"
+    },
+    {
+      "series_no": "1.1.1",
+      "series_name": "Semiconductors",
+      "internal_evidence_count": 0,
+      "internal_evidence": [],
+      "external_search_required": true,
+      "relevant_evidence_count": 0,
+      "relevant_evidence": [],
+      "evidence_quality": "poor"
+    },
+    {
+      "series_no": "1.1.3",
+      "series_name": "Infocomms & Consumer Electronics",
+      "internal_evidence_count": 10,
+      "internal_evidence": [
+        {
+          "publication_date": "2026-05-25",
+          "title": "Singapore Consumer Price Index, Apr 2026",
+          "score": 1
+        },
+        {
+          "publication_date": "2026-05-25",
+          "title": "Consumer Price Developments in Apr 2026 (by MAS & MTI)",
+          "score": 1
+        },
+        {
+          "publication_date": "2026-04-23",
+          "title": "Consumer Price Developments in Mar 2026 (by MAS & MTI)",
+          "score": 1
+        },
+        {
+          "publication_date": "2026-03-23",
+          "title": "Singapore Consumer Price Index, Feb 2026",
+          "score": 1
+        },
+        {
+          "publication_date": "2026-03-23",
+          "title": "Consumer Price Developments in Feb 2026 (by MAS & MTI)",
+          "score": 1
+        },
+        {
+          "publication_date": "2026-02-23",
+          "title": "Consumer Price Developments in Jan 2026 (by MAS & MTI)",
+          "score": 1
+        },
+        {
+          "publication_date": "2026-02-23",
+          "title": "Singapore Consumer Price Index, Jan 2026",
+          "score": 1
+        },
+        {
+          "publication_date": "2026-01-23",
+          "title": "Singapore Consumer Price Index by Household Income Group for Jul - Dec 2025 and Full Year 2025",
+          "score": 1
+        },
+        {
+          "publication_date": "2026-01-23",
+          "title": "Singapore Consumer Price Index, Dec 2025",
+          "score": 1
+        },
+        {
+          "publication_date": "2026-01-23",
+          "title": "Consumer Price Developments in Dec 2025 (by MAS & MTI)",
+          "score": 1
+        }
+      ],
+      "external_search_required": false,
+      "relevant_evidence_count": 0,
+      "relevant_evidence": [],
+      "evidence_quality": "poor"
+    },
+    {
+      "series_no": "1.2.1",
+      "series_name": "Petroleum",
+      "internal_evidence_count": 0,
+      "internal_evidence": [],
+      "external_search_required": true,
+      "relevant_evidence_count": 0,
+      "relevant_evidence": [],
+      "evidence_quality": "poor"
+    },
+    {
+      "series_no": "1.2.2",
+      "series_name": "Petrochemicals",
+      "internal_evidence_count": 0,
+      "internal_evidence": [],
+      "external_search_required": true,
+      "relevant_evidence_count": 0,
+      "relevant_evidence": [],
+      "evidence_quality": "poor"
+    },
+    {
+      "series_no": "1.2.4",
+      "series_name": "Other Chemical Products",
+      "internal_evidence_count": 0,
+      "internal_evidence": [],
+      "external_search_required": true,
+      "relevant_evidence_count": 0,
+      "relevant_evidence": [],
+      "evidence_quality": "poor"
+    },
+    {
+      "series_no": "1.3",
+      "series_name": "Biomedical Manufacturing Cluster",
+      "internal_evidence_count": 1,
+      "internal_evidence": [
+        {
+          "publication_date": "2026-05-26",
+          "title": "Monthly Manufacturing Performance, Apr 2026",
+          "score": 1
+        }
+      ],
+      "external_search_required": true,
+      "relevant_evidence_count": 1,
+      "relevant_evidence": [
+        {
+          "publication_date": "2026-05-26",
+          "title": "Monthly Manufacturing Performance, Apr 2026",
+          "score": 1,
+          "relevance_score": 2
+        }
+      ],
+      "evidence_quality": "limited"
+    },
+    {
+      "series_no": "1.3.1",
+      "series_name": "Pharmaceuticals",
+      "internal_evidence_count": 0,
+      "internal_evidence": [],
+      "external_search_required": true,
+      "relevant_evidence_count": 0,
+      "relevant_evidence": [],
+      "evidence_quality": "poor"
+    },
+    {
+      "series_no": "1.3.2",
+      "series_name": "Medical Technology",
+      "internal_evidence_count": 0,
+      "internal_evidence": [],
+      "external_search_required": true,
+      "relevant_evidence_count": 0,
+      "relevant_evidence": [],
+      "evidence_quality": "poor"
+    },
+    {
+      "series_no": "1.5.2",
+      "series_name": "Aerospace",
+      "internal_evidence_count": 0,
+      "internal_evidence": [],
+      "external_search_required": true,
+      "relevant_evidence_count": 0,
+      "relevant_evidence": [],
+      "evidence_quality": "poor"
+    },
+    {
+      "series_no": "1.5.3",
+      "series_name": "Land",
+      "internal_evidence_count": 0,
+      "internal_evidence": [],
+      "external_search_required": true,
+      "relevant_evidence_count": 0,
+      "relevant_evidence": [],
+      "evidence_quality": "poor"
+    }
+  ]
+}

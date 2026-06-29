@@ -1,0 +1,88 @@
+{
+  "engine_version": "driver-diversity-engine-v0.1",
+  "generated_at": "2026-06-10T02:13:29.595Z",
+  "inputs": {
+    "macro_attribution": "data/intelligence/macro-attribution-engine-v0.2.json",
+    "concentration_engine": "data/intelligence/macro-driver-concentration-engine-v0.1.json"
+  },
+  "cases_assessed": 4,
+  "strong_diversity": 0,
+  "adequate_diversity": 0,
+  "thin_diversity": 1,
+  "over_concentrated": 3,
+  "governance_note": "Driver diversity is a diagnostic control. It does not validate or invalidate case explanations; it flags over-reliance on broad macro indicators.",
+  "case_diversity": [
+    {
+      "case_id": "SG-MANUFACTURING-2020",
+      "case_label": "Singapore Manufacturing Recovery 2020-2021",
+      "domain": "manufacturing",
+      "macro_driver_count": 5,
+      "unique_macro_driver_count": 4,
+      "driver_categories": [
+        "global_macro",
+        "national_macro"
+      ],
+      "detected_mechanism_count": 2,
+      "dominant_or_high_driver_count": 3,
+      "dominant_or_high_driver_share": 0.75,
+      "sector_specific_driver_count": 0,
+      "diversity_score": 0.288,
+      "diversity_band": "over_concentrated",
+      "interpretation": "Case explanation is heavily dependent on dominant or high-concentration macro drivers."
+    },
+    {
+      "case_id": "SG-PETROLEUM-2020",
+      "case_label": "Singapore Petroleum Shock 2020",
+      "domain": "petroleum",
+      "macro_driver_count": 5,
+      "unique_macro_driver_count": 4,
+      "driver_categories": [
+        "global_macro",
+        "national_macro"
+      ],
+      "detected_mechanism_count": 2,
+      "dominant_or_high_driver_count": 3,
+      "dominant_or_high_driver_share": 0.75,
+      "sector_specific_driver_count": 0,
+      "diversity_score": 0.288,
+      "diversity_band": "over_concentrated",
+      "interpretation": "Case explanation is heavily dependent on dominant or high-concentration macro drivers."
+    },
+    {
+      "case_id": "SG-SEMICONDUCTOR-2021",
+      "case_label": "Singapore Semiconductor Recovery 2021",
+      "domain": "semiconductors",
+      "macro_driver_count": 5,
+      "unique_macro_driver_count": 4,
+      "driver_categories": [
+        "global_macro",
+        "national_macro"
+      ],
+      "detected_mechanism_count": 2,
+      "dominant_or_high_driver_count": 2,
+      "dominant_or_high_driver_share": 0.5,
+      "sector_specific_driver_count": 0,
+      "diversity_score": 0.375,
+      "diversity_band": "thin_diversity",
+      "interpretation": "Case explanation has limited driver variety and should be strengthened with more specific evidence."
+    },
+    {
+      "case_id": "SG-BIOMEDICAL-2021",
+      "case_label": "Singapore Biomedical Output 2021",
+      "domain": "biomedical",
+      "macro_driver_count": 5,
+      "unique_macro_driver_count": 4,
+      "driver_categories": [
+        "global_macro",
+        "national_macro"
+      ],
+      "detected_mechanism_count": 3,
+      "dominant_or_high_driver_count": 3,
+      "dominant_or_high_driver_share": 0.75,
+      "sector_specific_driver_count": 0,
+      "diversity_score": 0.288,
+      "diversity_band": "over_concentrated",
+      "interpretation": "Case explanation is heavily dependent on dominant or high-concentration macro drivers."
+    }
+  ]
+}

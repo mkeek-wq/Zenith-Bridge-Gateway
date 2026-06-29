@@ -1,0 +1,618 @@
+{
+  "historical_evidence_acquisition_version": "historical-evidence-acquisition-v0.1",
+  "generated_at": "2026-06-03T11:55:14.837Z",
+  "package_count": 25,
+  "packages": [
+    {
+      "case_id": "SG-M355381-1_1-2020-apr",
+      "period": "2020 Apr",
+      "series_name": "Electronics Cluster",
+      "priority": "high",
+      "evidence_targets": {
+        "official_sources": [
+          "Singapore EDB Manufacturing Performance",
+          "Singapore MTI Economic Reports",
+          "Singapore Manufacturing Statistics"
+        ],
+        "industry_sources": [],
+        "company_sources": [],
+        "context_sources": [
+          "Global electronics demand",
+          "Consumer demand",
+          "Export demand"
+        ],
+        "expected_evidence_types": [
+          "Demand surge",
+          "Export cycle"
+        ]
+      }
+    },
+    {
+      "case_id": "SG-M355381-1_1_1-2020-apr",
+      "period": "2020 Apr",
+      "series_name": "Semiconductors",
+      "priority": "critical",
+      "evidence_targets": {
+        "official_sources": [
+          "Singapore EDB Manufacturing Performance",
+          "Singapore MTI Economic Reports",
+          "Singapore Manufacturing Statistics"
+        ],
+        "industry_sources": [
+          "Semiconductor Industry Association",
+          "WSTS"
+        ],
+        "company_sources": [
+          "TSMC",
+          "Intel",
+          "Micron",
+          "GlobalFoundries"
+        ],
+        "context_sources": [
+          "Chip shortage",
+          "Data center demand",
+          "Consumer electronics demand",
+          "Work-from-home demand"
+        ],
+        "expected_evidence_types": [
+          "Demand surge",
+          "Inventory cycle",
+          "Capacity expansion"
+        ]
+      }
+    },
+    {
+      "case_id": "SG-M355381-1_1_3-2020-apr",
+      "period": "2020 Apr",
+      "series_name": "Infocomms & Consumer Electronics",
+      "priority": "high",
+      "evidence_targets": {
+        "official_sources": [
+          "Singapore EDB Manufacturing Performance",
+          "Singapore MTI Economic Reports",
+          "Singapore Manufacturing Statistics"
+        ],
+        "industry_sources": [],
+        "company_sources": [],
+        "context_sources": [
+          "Global electronics demand",
+          "Consumer demand",
+          "Export demand"
+        ],
+        "expected_evidence_types": [
+          "Demand surge",
+          "Export cycle"
+        ]
+      }
+    },
+    {
+      "case_id": "SG-M355381-1_1_4-2020-apr",
+      "period": "2020 Apr",
+      "series_name": "Other Electronic Modules & Components",
+      "priority": "high",
+      "evidence_targets": {
+        "official_sources": [
+          "Singapore EDB Manufacturing Performance",
+          "Singapore MTI Economic Reports",
+          "Singapore Manufacturing Statistics"
+        ],
+        "industry_sources": [],
+        "company_sources": [],
+        "context_sources": [],
+        "expected_evidence_types": []
+      }
+    },
+    {
+      "case_id": "SG-M355381-1_1-2020-aug",
+      "period": "2020 Aug",
+      "series_name": "Electronics Cluster",
+      "priority": "high",
+      "evidence_targets": {
+        "official_sources": [
+          "Singapore EDB Manufacturing Performance",
+          "Singapore MTI Economic Reports",
+          "Singapore Manufacturing Statistics"
+        ],
+        "industry_sources": [],
+        "company_sources": [],
+        "context_sources": [
+          "Global electronics demand",
+          "Consumer demand",
+          "Export demand"
+        ],
+        "expected_evidence_types": [
+          "Demand surge",
+          "Export cycle"
+        ]
+      }
+    },
+    {
+      "case_id": "SG-M355381-1_1_1-2020-aug",
+      "period": "2020 Aug",
+      "series_name": "Semiconductors",
+      "priority": "critical",
+      "evidence_targets": {
+        "official_sources": [
+          "Singapore EDB Manufacturing Performance",
+          "Singapore MTI Economic Reports",
+          "Singapore Manufacturing Statistics"
+        ],
+        "industry_sources": [
+          "Semiconductor Industry Association",
+          "WSTS"
+        ],
+        "company_sources": [
+          "TSMC",
+          "Intel",
+          "Micron",
+          "GlobalFoundries"
+        ],
+        "context_sources": [
+          "Chip shortage",
+          "Data center demand",
+          "Consumer electronics demand",
+          "Work-from-home demand"
+        ],
+        "expected_evidence_types": [
+          "Demand surge",
+          "Inventory cycle",
+          "Capacity expansion"
+        ]
+      }
+    },
+    {
+      "case_id": "SG-M355381-1_1_2-2020-aug",
+      "period": "2020 Aug",
+      "series_name": "Computer Peripherals & Data Storage",
+      "priority": "high",
+      "evidence_targets": {
+        "official_sources": [
+          "Singapore EDB Manufacturing Performance",
+          "Singapore MTI Economic Reports",
+          "Singapore Manufacturing Statistics"
+        ],
+        "industry_sources": [],
+        "company_sources": [],
+        "context_sources": [],
+        "expected_evidence_types": []
+      }
+    },
+    {
+      "case_id": "SG-M355381-1_1-2020-dec",
+      "period": "2020 Dec",
+      "series_name": "Electronics Cluster",
+      "priority": "high",
+      "evidence_targets": {
+        "official_sources": [
+          "Singapore EDB Manufacturing Performance",
+          "Singapore MTI Economic Reports",
+          "Singapore Manufacturing Statistics"
+        ],
+        "industry_sources": [],
+        "company_sources": [],
+        "context_sources": [
+          "Global electronics demand",
+          "Consumer demand",
+          "Export demand"
+        ],
+        "expected_evidence_types": [
+          "Demand surge",
+          "Export cycle"
+        ]
+      }
+    },
+    {
+      "case_id": "SG-M355381-1_1_1-2020-dec",
+      "period": "2020 Dec",
+      "series_name": "Semiconductors",
+      "priority": "critical",
+      "evidence_targets": {
+        "official_sources": [
+          "Singapore EDB Manufacturing Performance",
+          "Singapore MTI Economic Reports",
+          "Singapore Manufacturing Statistics"
+        ],
+        "industry_sources": [
+          "Semiconductor Industry Association",
+          "WSTS"
+        ],
+        "company_sources": [
+          "TSMC",
+          "Intel",
+          "Micron",
+          "GlobalFoundries"
+        ],
+        "context_sources": [
+          "Chip shortage",
+          "Data center demand",
+          "Consumer electronics demand",
+          "Work-from-home demand"
+        ],
+        "expected_evidence_types": [
+          "Demand surge",
+          "Inventory cycle",
+          "Capacity expansion"
+        ]
+      }
+    },
+    {
+      "case_id": "SG-M355381-1_1_3-2020-dec",
+      "period": "2020 Dec",
+      "series_name": "Infocomms & Consumer Electronics",
+      "priority": "critical",
+      "evidence_targets": {
+        "official_sources": [
+          "Singapore EDB Manufacturing Performance",
+          "Singapore MTI Economic Reports",
+          "Singapore Manufacturing Statistics"
+        ],
+        "industry_sources": [],
+        "company_sources": [],
+        "context_sources": [
+          "Global electronics demand",
+          "Consumer demand",
+          "Export demand"
+        ],
+        "expected_evidence_types": [
+          "Demand surge",
+          "Export cycle"
+        ]
+      }
+    },
+    {
+      "case_id": "SG-M355381-1_1_4-2020-dec",
+      "period": "2020 Dec",
+      "series_name": "Other Electronic Modules & Components",
+      "priority": "high",
+      "evidence_targets": {
+        "official_sources": [
+          "Singapore EDB Manufacturing Performance",
+          "Singapore MTI Economic Reports",
+          "Singapore Manufacturing Statistics"
+        ],
+        "industry_sources": [],
+        "company_sources": [],
+        "context_sources": [],
+        "expected_evidence_types": []
+      }
+    },
+    {
+      "case_id": "SG-M355381-1-2020-feb",
+      "period": "2020 Feb",
+      "series_name": "Total",
+      "priority": "high",
+      "evidence_targets": {
+        "official_sources": [
+          "Singapore EDB Manufacturing Performance",
+          "Singapore MTI Economic Reports",
+          "Singapore Manufacturing Statistics"
+        ],
+        "industry_sources": [],
+        "company_sources": [],
+        "context_sources": [],
+        "expected_evidence_types": []
+      }
+    },
+    {
+      "case_id": "SG-M355381-1_1-2020-feb",
+      "period": "2020 Feb",
+      "series_name": "Electronics Cluster",
+      "priority": "high",
+      "evidence_targets": {
+        "official_sources": [
+          "Singapore EDB Manufacturing Performance",
+          "Singapore MTI Economic Reports",
+          "Singapore Manufacturing Statistics"
+        ],
+        "industry_sources": [],
+        "company_sources": [],
+        "context_sources": [
+          "Global electronics demand",
+          "Consumer demand",
+          "Export demand"
+        ],
+        "expected_evidence_types": [
+          "Demand surge",
+          "Export cycle"
+        ]
+      }
+    },
+    {
+      "case_id": "SG-M355381-1_1_1-2020-feb",
+      "period": "2020 Feb",
+      "series_name": "Semiconductors",
+      "priority": "high",
+      "evidence_targets": {
+        "official_sources": [
+          "Singapore EDB Manufacturing Performance",
+          "Singapore MTI Economic Reports",
+          "Singapore Manufacturing Statistics"
+        ],
+        "industry_sources": [
+          "Semiconductor Industry Association",
+          "WSTS"
+        ],
+        "company_sources": [
+          "TSMC",
+          "Intel",
+          "Micron",
+          "GlobalFoundries"
+        ],
+        "context_sources": [
+          "Chip shortage",
+          "Data center demand",
+          "Consumer electronics demand",
+          "Work-from-home demand"
+        ],
+        "expected_evidence_types": [
+          "Demand surge",
+          "Inventory cycle",
+          "Capacity expansion"
+        ]
+      }
+    },
+    {
+      "case_id": "SG-M355381-1_1_3-2020-feb",
+      "period": "2020 Feb",
+      "series_name": "Infocomms & Consumer Electronics",
+      "priority": "high",
+      "evidence_targets": {
+        "official_sources": [
+          "Singapore EDB Manufacturing Performance",
+          "Singapore MTI Economic Reports",
+          "Singapore Manufacturing Statistics"
+        ],
+        "industry_sources": [],
+        "company_sources": [],
+        "context_sources": [
+          "Global electronics demand",
+          "Consumer demand",
+          "Export demand"
+        ],
+        "expected_evidence_types": [
+          "Demand surge",
+          "Export cycle"
+        ]
+      }
+    },
+    {
+      "case_id": "SG-M355381-1_1-2020-jan",
+      "period": "2020 Jan",
+      "series_name": "Electronics Cluster",
+      "priority": "high",
+      "evidence_targets": {
+        "official_sources": [
+          "Singapore EDB Manufacturing Performance",
+          "Singapore MTI Economic Reports",
+          "Singapore Manufacturing Statistics"
+        ],
+        "industry_sources": [],
+        "company_sources": [],
+        "context_sources": [
+          "Global electronics demand",
+          "Consumer demand",
+          "Export demand"
+        ],
+        "expected_evidence_types": [
+          "Demand surge",
+          "Export cycle"
+        ]
+      }
+    },
+    {
+      "case_id": "SG-M355381-1_1_1-2020-jan",
+      "period": "2020 Jan",
+      "series_name": "Semiconductors",
+      "priority": "high",
+      "evidence_targets": {
+        "official_sources": [
+          "Singapore EDB Manufacturing Performance",
+          "Singapore MTI Economic Reports",
+          "Singapore Manufacturing Statistics"
+        ],
+        "industry_sources": [
+          "Semiconductor Industry Association",
+          "WSTS"
+        ],
+        "company_sources": [
+          "TSMC",
+          "Intel",
+          "Micron",
+          "GlobalFoundries"
+        ],
+        "context_sources": [
+          "Chip shortage",
+          "Data center demand",
+          "Consumer electronics demand",
+          "Work-from-home demand"
+        ],
+        "expected_evidence_types": [
+          "Demand surge",
+          "Inventory cycle",
+          "Capacity expansion"
+        ]
+      }
+    },
+    {
+      "case_id": "SG-M355381-1_1_3-2020-jan",
+      "period": "2020 Jan",
+      "series_name": "Infocomms & Consumer Electronics",
+      "priority": "critical",
+      "evidence_targets": {
+        "official_sources": [
+          "Singapore EDB Manufacturing Performance",
+          "Singapore MTI Economic Reports",
+          "Singapore Manufacturing Statistics"
+        ],
+        "industry_sources": [],
+        "company_sources": [],
+        "context_sources": [
+          "Global electronics demand",
+          "Consumer demand",
+          "Export demand"
+        ],
+        "expected_evidence_types": [
+          "Demand surge",
+          "Export cycle"
+        ]
+      }
+    },
+    {
+      "case_id": "SG-M355381-1_1_4-2020-jan",
+      "period": "2020 Jan",
+      "series_name": "Other Electronic Modules & Components",
+      "priority": "high",
+      "evidence_targets": {
+        "official_sources": [
+          "Singapore EDB Manufacturing Performance",
+          "Singapore MTI Economic Reports",
+          "Singapore Manufacturing Statistics"
+        ],
+        "industry_sources": [],
+        "company_sources": [],
+        "context_sources": [],
+        "expected_evidence_types": []
+      }
+    },
+    {
+      "case_id": "SG-M355381-1_1-2020-jul",
+      "period": "2020 Jul",
+      "series_name": "Electronics Cluster",
+      "priority": "high",
+      "evidence_targets": {
+        "official_sources": [
+          "Singapore EDB Manufacturing Performance",
+          "Singapore MTI Economic Reports",
+          "Singapore Manufacturing Statistics"
+        ],
+        "industry_sources": [],
+        "company_sources": [],
+        "context_sources": [
+          "Global electronics demand",
+          "Consumer demand",
+          "Export demand"
+        ],
+        "expected_evidence_types": [
+          "Demand surge",
+          "Export cycle"
+        ]
+      }
+    },
+    {
+      "case_id": "SG-M355381-1_1_1-2020-jul",
+      "period": "2020 Jul",
+      "series_name": "Semiconductors",
+      "priority": "critical",
+      "evidence_targets": {
+        "official_sources": [
+          "Singapore EDB Manufacturing Performance",
+          "Singapore MTI Economic Reports",
+          "Singapore Manufacturing Statistics"
+        ],
+        "industry_sources": [
+          "Semiconductor Industry Association",
+          "WSTS"
+        ],
+        "company_sources": [
+          "TSMC",
+          "Intel",
+          "Micron",
+          "GlobalFoundries"
+        ],
+        "context_sources": [
+          "Chip shortage",
+          "Data center demand",
+          "Consumer electronics demand",
+          "Work-from-home demand"
+        ],
+        "expected_evidence_types": [
+          "Demand surge",
+          "Inventory cycle",
+          "Capacity expansion"
+        ]
+      }
+    },
+    {
+      "case_id": "SG-M355381-1_1_3-2020-jul",
+      "period": "2020 Jul",
+      "series_name": "Infocomms & Consumer Electronics",
+      "priority": "critical",
+      "evidence_targets": {
+        "official_sources": [
+          "Singapore EDB Manufacturing Performance",
+          "Singapore MTI Economic Reports",
+          "Singapore Manufacturing Statistics"
+        ],
+        "industry_sources": [],
+        "company_sources": [],
+        "context_sources": [
+          "Global electronics demand",
+          "Consumer demand",
+          "Export demand"
+        ],
+        "expected_evidence_types": [
+          "Demand surge",
+          "Export cycle"
+        ]
+      }
+    },
+    {
+      "case_id": "SG-M355381-1_2_3-2020-jul",
+      "period": "2020 Jul",
+      "series_name": "Specialties",
+      "priority": "high",
+      "evidence_targets": {
+        "official_sources": [
+          "Singapore EDB Manufacturing Performance",
+          "Singapore MTI Economic Reports",
+          "Singapore Manufacturing Statistics"
+        ],
+        "industry_sources": [],
+        "company_sources": [],
+        "context_sources": [],
+        "expected_evidence_types": []
+      }
+    },
+    {
+      "case_id": "SG-M355381-1_2_4-2020-jul",
+      "period": "2020 Jul",
+      "series_name": "Other Chemical Products",
+      "priority": "high",
+      "evidence_targets": {
+        "official_sources": [
+          "Singapore EDB Manufacturing Performance",
+          "Singapore MTI Economic Reports",
+          "Singapore Manufacturing Statistics"
+        ],
+        "industry_sources": [],
+        "company_sources": [],
+        "context_sources": [],
+        "expected_evidence_types": []
+      }
+    },
+    {
+      "case_id": "SG-M355381-1_1_3-2020-jun",
+      "period": "2020 Jun",
+      "series_name": "Infocomms & Consumer Electronics",
+      "priority": "critical",
+      "evidence_targets": {
+        "official_sources": [
+          "Singapore EDB Manufacturing Performance",
+          "Singapore MTI Economic Reports",
+          "Singapore Manufacturing Statistics"
+        ],
+        "industry_sources": [],
+        "company_sources": [],
+        "context_sources": [
+          "Global electronics demand",
+          "Consumer demand",
+          "Export demand"
+        ],
+        "expected_evidence_types": [
+          "Demand surge",
+          "Export cycle"
+        ]
+      }
+    }
+  ]
+}

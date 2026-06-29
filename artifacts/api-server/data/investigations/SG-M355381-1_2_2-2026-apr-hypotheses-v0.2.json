@@ -1,0 +1,78 @@
+{
+  "hypothesis_version": "hypothesis-engine-v0.2",
+  "generated_at": "2026-06-02T15:01:30.777Z",
+  "source_hypothesis_file": "data/investigations/SG-M355381-1_2_2-2026-apr-hypotheses-v0.1.json",
+  "source_similarity_file": "data/intelligence/case-similarity-v0.1.json",
+  "case_id": "SG-M355381-1_2_2-2026-apr",
+  "observation": {
+    "latest_value": 60.362,
+    "month_on_month_change_pct": -8.890297651391647,
+    "year_on_year_change_pct": -41.62113020687254
+  },
+  "confidence": "unknown",
+  "similar_cases": [
+    {
+      "case_id": "SG-M355381-1_2_1-2026-apr",
+      "similarity_score": 95,
+      "similarity_percent": 86.36,
+      "reasons": [
+        "same_sector",
+        "same_yoy_band",
+        "same_priority",
+        "same_evidence_quality",
+        "same_confidence"
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_1_1-2026-apr",
+      "similarity_score": 60,
+      "similarity_percent": 54.55,
+      "reasons": [
+        "same_yoy_band",
+        "same_priority",
+        "same_evidence_quality",
+        "same_confidence"
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_1-2026-apr",
+      "similarity_score": 60,
+      "similarity_percent": 54.55,
+      "reasons": [
+        "same_yoy_band",
+        "same_priority",
+        "same_evidence_quality",
+        "same_confidence"
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_2_4-2026-apr",
+      "similarity_score": 55,
+      "similarity_percent": 50,
+      "reasons": [
+        "same_sector",
+        "same_evidence_quality",
+        "same_confidence"
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_3_1-2026-apr",
+      "similarity_score": 45,
+      "similarity_percent": 40.91,
+      "reasons": [
+        "same_yoy_band",
+        "same_evidence_quality",
+        "same_confidence"
+      ]
+    }
+  ],
+  "hypotheses": [
+    {
+      "hypothesis_id": "PORT_001",
+      "name": "Industry Mix Shift",
+      "bucket": "portfolio_effect",
+      "status": "candidate",
+      "reason": "Generated from manufacturing driver library based on YoY movement (41.62%)."
+    }
+  ]
+}

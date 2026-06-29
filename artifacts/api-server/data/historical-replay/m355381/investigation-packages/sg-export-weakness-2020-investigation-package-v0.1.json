@@ -1,0 +1,43 @@
+{
+  "investigation_package_version": "historical-investigation-package-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-EXPORT-WEAKNESS-2020",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_candidate_file": "replay-cluster-seed-v0.2",
+  "case_summary": {
+    "period": "2020",
+    "series_no": "EXPORT-WEAKNESS-2020",
+    "series_name": "Export Demand Weakness",
+    "priority": "critical",
+    "direction": "negative",
+    "latest_value": null,
+    "month_on_month_change_pct": null,
+    "year_on_year_change_pct": null
+  },
+  "driver_candidates": [
+    {
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness"
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn"
+    },
+    {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption"
+    }
+  ],
+  "expected_mechanisms": [
+    "Export demand weakened during the COVID-19 shock as global trade and foreign orders deteriorated.",
+    "External demand weakness transmitted into Singapore trade-linked manufacturing activity.",
+    "The global demand shock formed the macro backdrop to the export weakness.",
+    "Operational disruptions and COVID restrictions acted as secondary transmission channels."
+  ],
+  "investigation_status": {
+    "evidence_collected": false,
+    "attribution_scored": false,
+    "outcome_ready": false
+  }
+}

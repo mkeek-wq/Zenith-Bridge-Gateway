@@ -1,0 +1,106 @@
+{
+  "historical_evidence_scorecard_version": "historical-evidence-scorecard-v0.1",
+  "generated_at": "2026-06-04T10:30:56.195Z",
+  "source_taxonomy": "data/intelligence-driver-library/driver-evidence-taxonomy-v0.1.json",
+  "source_evidence": "data/historical-replay/m355381/evidence-pilots/SG-SEMICONDUCTOR-RECOVERY-2021-evidence-v0.1.json",
+  "case_id": "SG-SEMICONDUCTOR-RECOVERY-2021",
+  "period": "2021",
+  "series_name": "Semiconductors",
+  "governance": {
+    "sandbox_only": true,
+    "recommendation_only": true,
+    "auto_close_case": false,
+    "requires_human_review": true,
+    "production_mutation_allowed": false
+  },
+  "evidence_metadata": {
+    "evidence_origin": "synthetic",
+    "template_generated": true,
+    "attribution_discovery_ready": true,
+    "requires_human_review": true
+  },
+  "evidence_items": [
+    "Global chip shortages supported semiconductor demand.",
+    "Consumer electronics demand remained strong.",
+    "Data center investment increased chip demand.",
+    "Technology sector growth supported production."
+  ],
+  "evidence_matches": [
+    {
+      "evidence_text": "Global chip shortages supported semiconductor demand.",
+      "matches": [
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 7,
+          "matched_phrases": [
+            "semiconductor demand",
+            "chip shortage",
+            "global chip shortage"
+          ],
+          "match_score": 21
+        }
+      ]
+    },
+    {
+      "evidence_text": "Consumer electronics demand remained strong.",
+      "matches": [
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 7,
+          "matched_phrases": [
+            "electronics demand",
+            "consumer electronics"
+          ],
+          "match_score": 14
+        }
+      ]
+    },
+    {
+      "evidence_text": "Data center investment increased chip demand.",
+      "matches": []
+    },
+    {
+      "evidence_text": "Technology sector growth supported production.",
+      "matches": []
+    }
+  ],
+  "ranked_drivers": [
+    {
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "attribution_bucket": "market_effect",
+      "total_score": 35,
+      "evidence_count": 2,
+      "matched_phrases": [
+        "semiconductor demand",
+        "chip shortage",
+        "global chip shortage",
+        "electronics demand",
+        "consumer electronics"
+      ],
+      "supporting_evidence": [
+        "Global chip shortages supported semiconductor demand.",
+        "Consumer electronics demand remained strong."
+      ]
+    }
+  ],
+  "bucket_scores": [
+    {
+      "attribution_bucket": "market_effect",
+      "total_score": 35
+    }
+  ],
+  "recommended_outcome": {
+    "primary_driver": "MKT_008",
+    "primary_driver_name": "Semiconductor / Electronics Cycle",
+    "attribution_bucket": "market_effect",
+    "confidence": "high",
+    "total_score": 35,
+    "second_score": 0,
+    "score_gap": 35
+  }
+}

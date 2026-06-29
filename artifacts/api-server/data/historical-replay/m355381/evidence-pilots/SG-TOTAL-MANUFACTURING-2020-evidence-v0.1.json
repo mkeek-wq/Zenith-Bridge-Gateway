@@ -1,0 +1,12 @@
+{
+  "historical_evidence_pilot_version": "historical-evidence-pilot-v0.1",
+  "case_id": "SG-TOTAL-MANUFACTURING-2020",
+  "period": "2020",
+  "series_name": "Total Manufacturing",
+  "evidence_items": [
+    "Global recession reduced industrial demand.",
+    "COVID restrictions disrupted international trade.",
+    "Manufacturing output fell as external demand weakened.",
+    "Supply chain disruptions affected production activity."
+  ]
+}

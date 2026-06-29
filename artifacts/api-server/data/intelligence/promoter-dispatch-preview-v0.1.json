@@ -1,0 +1,79 @@
+{
+  "preview_version": "promoter-dispatch-preview-v0.1",
+  "generated_at": "2026-06-26T03:54:13.808Z",
+  "promotion_allowed": true,
+  "governance": {
+    "human_approved": true,
+    "troll_guard_ok": true,
+    "production_execution": false,
+    "preview_only": true
+  },
+  "wake_count": 5,
+  "wake_plan": [
+    {
+      "stage": 1,
+      "smurf_id": "COVERAGE",
+      "name": "Coverage Smurf",
+      "dependencies": [
+        "PROMOTER"
+      ],
+      "category": "intelligence",
+      "runtime": 60,
+      "parallel_group": "stage_1",
+      "status": "READY_TO_WAKE"
+    },
+    {
+      "stage": 2,
+      "smurf_id": "GRAPH",
+      "name": "Graph Smurf",
+      "dependencies": [
+        "PROMOTER",
+        "COVERAGE"
+      ],
+      "category": "publication",
+      "runtime": 90,
+      "parallel_group": "stage_2",
+      "status": "READY_TO_WAKE"
+    },
+    {
+      "stage": 2,
+      "smurf_id": "SIGNAL",
+      "name": "Signal Smurf",
+      "dependencies": [
+        "PROMOTER",
+        "COVERAGE"
+      ],
+      "category": "intelligence",
+      "runtime": 90,
+      "parallel_group": "stage_2",
+      "status": "READY_TO_WAKE"
+    },
+    {
+      "stage": 3,
+      "smurf_id": "REPLAY",
+      "name": "Replay Smurf",
+      "dependencies": [
+        "PROMOTER",
+        "SIGNAL"
+      ],
+      "category": "intelligence",
+      "runtime": 300,
+      "parallel_group": "stage_3",
+      "status": "READY_TO_WAKE"
+    },
+    {
+      "stage": 4,
+      "smurf_id": "WORKBENCH",
+      "name": "Workbench Smurf",
+      "dependencies": [
+        "COVERAGE",
+        "GRAPH",
+        "SIGNAL"
+      ],
+      "category": "publication",
+      "runtime": 120,
+      "parallel_group": "stage_4",
+      "status": "READY_TO_WAKE"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "confidence_framework_version": "confidence-framework-v0.1",
+  "generated_at": "2026-06-07T14:42:29.083Z",
+  "source_hypothesis_testing_registry": "data/intelligence/hypothesis-testing-registry-v0.1.json",
+  "policy": {
+    "principle": "Confidence framework v0.1 converts hypothesis testing diagnostics into provisional confidence assessments. Confidence is not truth and does not approve principles.",
+    "production_mutation_allowed": false,
+    "human_review_required": true,
+    "confidence_is_not_truth": true
+  },
+  "confidence_bands": {
+    "very_strong": ">= 0.85",
+    "strong": ">= 0.75",
+    "moderate": ">= 0.60",
+    "weak": ">= 0.45",
+    "insufficient": "< 0.45"
+  },
+  "scoring_notes": {
+    "v0_1_scope": "Lightweight structural confidence only. Future versions should add source authority, counter-evidence scoring, directional consistency, lag checks, and statistical tests."
+  },
+  "summary": {
+    "assessments_created": 3,
+    "very_strong": 0,
+    "strong": 1,
+    "moderate": 2,
+    "weak": 0,
+    "insufficient": 0,
+    "eligible_for_human_principle_review": 1
+  },
+  "assessments": [
+    {
+      "confidence_assessment_id": "CONF_001",
+      "confidence_version": "confidence-assessment-v0.1",
+      "testing_id": "HT_001",
+      "hypothesis_id": "HYP_001",
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "confidence_score": 0.65,
+      "confidence_band": "moderate",
+      "confidence_label": "Moderate confidence",
+      "components": {
+        "structural_support_score": 0.7,
+        "counter_evidence_penalty": 0,
+        "unresolved_questions_penalty": 0.05
+      },
+      "approval_readiness": "not_ready_for_principle_approval",
+      "governance": {
+        "confidence_is_provisional": true,
+        "approved_principle": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false,
+        "note": "Confidence scores are provisional and must not be treated as truth or automatic approval."
+      }
+    },
+    {
+      "confidence_assessment_id": "CONF_002",
+      "confidence_version": "confidence-assessment-v0.1",
+      "testing_id": "HT_002",
+      "hypothesis_id": "HYP_002",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "confidence_score": 0.7,
+      "confidence_band": "moderate",
+      "confidence_label": "Moderate confidence",
+      "components": {
+        "structural_support_score": 0.75,
+        "counter_evidence_penalty": 0,
+        "unresolved_questions_penalty": 0.05
+      },
+      "approval_readiness": "not_ready_for_principle_approval",
+      "governance": {
+        "confidence_is_provisional": true,
+        "approved_principle": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false,
+        "note": "Confidence scores are provisional and must not be treated as truth or automatic approval."
+      }
+    },
+    {
+      "confidence_assessment_id": "CONF_003",
+      "confidence_version": "confidence-assessment-v0.1",
+      "testing_id": "HT_003",
+      "hypothesis_id": "HYP_003",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "confidence_score": 0.75,
+      "confidence_band": "strong",
+      "confidence_label": "Strong confidence",
+      "components": {
+        "structural_support_score": 0.8,
+        "counter_evidence_penalty": 0,
+        "unresolved_questions_penalty": 0.05
+      },
+      "approval_readiness": "eligible_for_human_principle_review",
+      "governance": {
+        "confidence_is_provisional": true,
+        "approved_principle": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false,
+        "note": "Confidence scores are provisional and must not be treated as truth or automatic approval."
+      }
+    }
+  ]
+}

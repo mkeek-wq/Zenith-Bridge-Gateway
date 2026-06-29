@@ -1,0 +1,33 @@
+{
+  "replay_result_version": "single-case-replay-runner-v0.1",
+  "generated_at": "2026-06-10T03:47:40.491Z",
+  "case_id": "SG-NODX-2023",
+  "domain": "trade",
+  "period": "2023",
+  "replay_decision_date": "2023-12-31",
+  "governance_status": "REPLAY_EXECUTED_WITH_VALIDATED_EVIDENCE",
+  "evidence_records_used": 3,
+  "signals_observed": [
+    "NODX",
+    "GLOBAL_TRADE_VOLUME",
+    "GLOBAL_PMI"
+  ],
+  "triggered_mechanisms": [
+    "MKT_010"
+  ],
+  "replay_interpretation": "SG-NODX-2023 shows a trade-linked downturn context where NODX weakness is consistent with external demand pressure and weaker global trade conditions.",
+  "replay_confidence_score": 0.68,
+  "replay_confidence_band": "moderate",
+  "experience_candidate": {
+    "candidate_created": true,
+    "mechanism_ids": [
+      "MKT_010"
+    ],
+    "candidate_note": "Potential experience candidate for external demand shock / trade downturn mechanism. Requires outcome comparison before experience promotion."
+  },
+  "doctrine": {
+    "replay_result_is_not_truth": true,
+    "evidence_validation_required_before_execution": true,
+    "outcome_comparison_required_before_learning": true
+  }
+}

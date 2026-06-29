@@ -1,0 +1,137 @@
+{
+  "registry_version": "decision-support-engine-v0.1",
+  "created_at": "2026-06-08T05:22:06.408Z",
+  "architecture": {
+    "junior_smurf": "Evidence",
+    "medior_smurf": "Analysis",
+    "senior_smurf": "Historical comparison",
+    "papa_smurf": "Decision support"
+  },
+  "doctrine": {
+    "evidence_remains_primary": true,
+    "historical_similarity_may_influence_confidence": true,
+    "historical_similarity_must_never_override_evidence": true,
+    "past_results_do_not_guarantee_future_outcomes": true,
+    "decision_support_is_not_prediction": true
+  },
+  "inputs": {
+    "assessed_evidence_items": 552,
+    "scored_mechanisms": 3,
+    "strong_evidence_items": 0,
+    "useful_evidence_items": 171,
+    "moderate_or_better_mechanisms": 0
+  },
+  "decision_support_brief": {
+    "brief_id": "PAPA_SMURF_DECISION_SUPPORT_V0_1",
+    "status": "prototype_assessment",
+    "decision_confidence_score": 0.504,
+    "decision_confidence_band": "low",
+    "main_assessment": "Evidence base contains useful signals, but mechanism confidence remains limited. Decision support should remain cautious and monitoring-oriented.",
+    "attention_areas": [
+      "External trade and electronics cycle"
+    ],
+    "recommended_posture": "basic_monitoring",
+    "papa_smurf_rules": {
+      "no_crystal_ball_predictions": true,
+      "no_guaranteed_outcomes": true,
+      "no_override_of_current_evidence_by_history": true,
+      "express_uncertainty_explicitly": true,
+      "recommend_monitoring_before_action": true
+    }
+  },
+  "top_evidence": [
+    {
+      "evidence_id": "SG_SINGSTAT_singapores-direct-investment-abroad-2024_002_DIRECT_INVESTMENT_ABROAD_CHANGE_YOY_2026-03-03",
+      "metric_name": "DIRECT_INVESTMENT_ABROAD_CHANGE_YOY",
+      "period": "2026-03-03",
+      "score": 0.68,
+      "status": "useful_evidence"
+    },
+    {
+      "evidence_id": "SG_SINGSTAT_singapores-direct-investment-abroad-2023_002_DIRECT_INVESTMENT_ABROAD_CHANGE_YOY_2025-03-04",
+      "metric_name": "DIRECT_INVESTMENT_ABROAD_CHANGE_YOY",
+      "period": "2025-03-04",
+      "score": 0.68,
+      "status": "useful_evidence"
+    },
+    {
+      "evidence_id": "SG_SINGSTAT_singapores-external-trade-apr-2026_001_NODX_CHANGE_YOY_2026-04",
+      "metric_name": "NODX_CHANGE_YOY",
+      "period": "2026-04",
+      "score": 0.675,
+      "status": "useful_evidence"
+    },
+    {
+      "evidence_id": "SG_SINGSTAT_singapore-consumer-price-index-mar2026_003_GDP_GROWTH_YOY_2026-Q1",
+      "metric_name": "GDP_GROWTH_YOY",
+      "period": "2026-Q1",
+      "score": 0.675,
+      "status": "useful_evidence"
+    },
+    {
+      "evidence_id": "SG_SINGSTAT_singapores-external-trade-nov2025_002_NODX_CHANGE_YOY_2025-11",
+      "metric_name": "NODX_CHANGE_YOY",
+      "period": "2025-11",
+      "score": 0.675,
+      "status": "useful_evidence"
+    },
+    {
+      "evidence_id": "SG_SINGSTAT_singapores-external-trade-oct2025_001_NODX_CHANGE_YOY_2025-10",
+      "metric_name": "NODX_CHANGE_YOY",
+      "period": "2025-10",
+      "score": 0.675,
+      "status": "useful_evidence"
+    },
+    {
+      "evidence_id": "SG_SINGSTAT_singapores-international-trade-in-services-2024_001_UNCLASSIFIED_PERCENTAGE_2026-02-26",
+      "metric_name": "UNCLASSIFIED_PERCENTAGE",
+      "period": "2026-02-26",
+      "score": 0.665,
+      "status": "useful_evidence"
+    },
+    {
+      "evidence_id": "SG_SINGSTAT_singapores-international-trade-in-services-2024_002_UNCLASSIFIED_PERCENTAGE_2026-02-26",
+      "metric_name": "UNCLASSIFIED_PERCENTAGE",
+      "period": "2026-02-26",
+      "score": 0.665,
+      "status": "useful_evidence"
+    },
+    {
+      "evidence_id": "SG_SINGSTAT_singapores-balance-of-payments-services-trade-by-modes-of-supply-2023_001_UNCLASSIFIED_PERCENTAGE_2025-11-27",
+      "metric_name": "UNCLASSIFIED_PERCENTAGE",
+      "period": "2025-11-27",
+      "score": 0.665,
+      "status": "useful_evidence"
+    },
+    {
+      "evidence_id": "SG_SINGSTAT_singapores-balance-of-payments-services-trade-by-modes-of-supply-2023_002_UNCLASSIFIED_PERCENTAGE_2025-11-27",
+      "metric_name": "UNCLASSIFIED_PERCENTAGE",
+      "period": "2025-11-27",
+      "score": 0.665,
+      "status": "useful_evidence"
+    }
+  ],
+  "top_mechanisms": [
+    {
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "confidence_score": 0.368,
+      "confidence_band": "low",
+      "lifecycle_status": "candidate_not_validated"
+    },
+    {
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "confidence_score": 0.367,
+      "confidence_band": "low",
+      "lifecycle_status": "candidate_not_validated"
+    },
+    {
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "confidence_score": 0.36,
+      "confidence_band": "low",
+      "lifecycle_status": "candidate_not_validated"
+    }
+  ]
+}

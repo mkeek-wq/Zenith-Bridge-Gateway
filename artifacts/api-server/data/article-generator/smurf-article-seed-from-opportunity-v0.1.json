@@ -1,0 +1,210 @@
+{
+  "seed_version": "smurf-article-seed-from-opportunity-v0.1",
+  "generated_at": "2026-06-11T01:36:34.976Z",
+  "source_system": {
+    "name": "SMURF Intelligence Engine",
+    "integration_mode": "article_opportunity_queue_adapter",
+    "source_queue": "article-opportunity-queue-v0.1"
+  },
+  "article_seed": {
+    "seed_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+    "country_anchor": "Singapore",
+    "macro_role": "supporting_context_only",
+    "article_type": "flagship",
+    "topic": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles",
+    "proposed_title": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles",
+    "core_question": "What explains What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles?"
+  },
+  "smurf_context": {
+    "original_opportunity": {
+      "opportunity_version": "article-opportunity-v0.1",
+      "opportunity_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+      "title": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles",
+      "angle": "Explain how petroleum-related manufacturing movements reflect fuel demand, travel recovery, refining margins, and operational factors.",
+      "priority": "medium",
+      "opportunity_score": 141,
+      "recommended_format": "short_brief",
+      "source_driver": {
+        "driver_id": "MKT_007",
+        "driver_name": "Energy Demand / Refining Cycle",
+        "attribution_bucket": "market_effect"
+      },
+      "signal": {
+        "signal_strength": "medium",
+        "case_count": 6,
+        "weighted_case_count": 5.6,
+        "maturity_stage": "developing_cluster",
+        "confidence_score": 0.933,
+        "experience_strength": 0.606,
+        "recurrence_score": 0.833,
+        "persistence_score": 0.5,
+        "volatility_score": 0.553,
+        "confidence_tier": "emerging_pattern",
+        "stability_assessment": "volatile_pattern",
+        "recurrence_assessment": "recurring_across_periods",
+        "bias_warnings": [],
+        "score_volatility": 11.18,
+        "average_evidence_count": 4,
+        "average_driver_score": 43,
+        "weighted_average_driver_score": 44.786
+      },
+      "business_implication": "Singapore's petroleum-related manufacturing movements appear linked to energy demand and refining-cycle conditions, suggesting exposure to global fuel demand, travel activity, and refinery operations.",
+      "why_it_matters": "For businesses, energy-cycle exposure matters because petroleum and refining movements can signal changes in trade, logistics, travel, and industrial demand conditions.",
+      "affected_sectors": [
+        "Petroleum",
+        "Refining",
+        "Energy",
+        "Logistics"
+      ],
+      "source_cases": [
+        {
+          "case_id": "SG-PETROLEUM-2018",
+          "period": "2018",
+          "series_name": "Petroleum",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 48,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PETROLEUM-2019",
+          "period": "2019",
+          "series_name": "Petroleum",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 48,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PETROLEUM-2020",
+          "period": "2020",
+          "series_name": "Petroleum",
+          "confidence": "medium",
+          "confidence_weight": 0.6,
+          "driver_score": 18,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PETROLEUM-2021",
+          "period": "2021",
+          "series_name": "Petroleum",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 48,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PETROLEUM-2022",
+          "period": "2022",
+          "series_name": "Petroleum",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 48,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-REFINING-2021",
+          "period": "2021",
+          "series_name": "Refining",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 48,
+          "evidence_count": 4
+        }
+      ],
+      "evidence_patterns": [
+        {
+          "phrase": "fuel demand",
+          "count": 6
+        },
+        {
+          "phrase": "jet fuel demand",
+          "count": 6
+        },
+        {
+          "phrase": "refinery maintenance",
+          "count": 6
+        },
+        {
+          "phrase": "oil demand",
+          "count": 5
+        },
+        {
+          "phrase": "petroleum demand",
+          "count": 5
+        },
+        {
+          "phrase": "travel demand",
+          "count": 5
+        },
+        {
+          "phrase": "refining margin",
+          "count": 5
+        },
+        {
+          "phrase": "crude oil",
+          "count": 5
+        }
+      ],
+      "editorial_guidance": {
+        "suggested_sections": [
+          "What happened?",
+          "Why did it happen?",
+          "What does the historical evidence show?",
+          "Why does it matter for businesses?",
+          "What should operators watch next?"
+        ],
+        "required_graphs": [
+          "Singapore petroleum output trend",
+          "Energy demand and refining-cycle signal timeline"
+        ],
+        "tone": "Calm, factual, structured, business-oriented. Avoid hype. Explain mechanisms."
+      },
+      "governance": {
+        "sandbox_only": true,
+        "article_auto_publish_allowed": false,
+        "requires_editorial_review": true,
+        "production_mutation_allowed": false,
+        "source_insight_file": "data/intelligence/insight-generator-v0.1.json"
+      }
+    },
+    "confidence_mode": "early_article_generator_confidence"
+  },
+  "evidence_requests": [
+    {
+      "request_id": "REQ_001",
+      "claim_target": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles can be supported by Singapore-specific evidence.",
+      "preferred_source": "Singapore Department of Statistics",
+      "needed_for": [
+        "article"
+      ],
+      "priority": "high"
+    },
+    {
+      "request_id": "REQ_002",
+      "claim_target": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles may require sector or agency evidence.",
+      "preferred_source": "Relevant Singapore official agency",
+      "needed_for": [
+        "article",
+        "future_graph"
+      ],
+      "priority": "high"
+    },
+    {
+      "request_id": "REQ_003",
+      "claim_target": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles may benefit from light macro comparison.",
+      "preferred_source": "World Bank / IEA / WTO / IMF where relevant",
+      "needed_for": [
+        "macro_context"
+      ],
+      "priority": "medium"
+    }
+  ],
+  "generator_instructions": {
+    "generate_article": true,
+    "generate_quantitative_graphs": false,
+    "generate_conceptual_visuals": true,
+    "require_verified_figures_for_numeric_claims": true,
+    "public_article_should_include_confidence_table": true
+  }
+}

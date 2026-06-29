@@ -1,0 +1,18 @@
+{
+  "historical_evidence_pilot_version": "historical-evidence-pilot-v0.1",
+  "case_id": "SG-PETROCHEMICALS-2022",
+  "period": "2022",
+  "series_name": "Petrochemicals",
+  "source_context": "Sandbox historical replay evidence pilot for Singapore petrochemicals manufacturing movements.",
+  "governance": {
+    "sandbox_only": true,
+    "manual_review_required": true,
+    "production_mutation_allowed": false
+  },
+  "evidence_items": [
+    "Singapore petrochemicals output in 2022 was influenced by petrochemical demand, chemical demand, and downstream industrial activity.",
+    "Petrochemical production reflected movements in basic chemicals, specialty chemicals, and regional manufacturing demand.",
+    "Feedstock prices and naphtha prices affected petrochemical margins and production decisions during the year.",
+    "Chemical plant and petrochemical plant utilisation shaped output patterns as producers responded to demand and cost conditions."
+  ]
+}

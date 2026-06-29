@@ -1,0 +1,50 @@
+{
+  "batch_version": "controlled-bulk-ingestion-batch-v0.1",
+  "generated_at": "2026-06-10T02:33:04.746Z",
+  "batch_size": 6,
+  "governance_status": "GO_FOR_CONTROLLED_DRY_RUN_REVIEW",
+  "items": [
+    {
+      "indicator_id": "SG_MANUFACTURING_OUTPUT",
+      "indicator_name": "Singapore Manufacturing Output",
+      "domain": "manufacturing",
+      "ingestion_action": "dry_run_stage",
+      "lineage_status": "source_identified"
+    },
+    {
+      "indicator_id": "SG_ELECTRONICS_EXPORTS",
+      "indicator_name": "Singapore Electronics Exports",
+      "domain": "manufacturing",
+      "ingestion_action": "dry_run_stage",
+      "lineage_status": "source_identified"
+    },
+    {
+      "indicator_id": "BRENT_CRUDE",
+      "indicator_name": "Brent Crude Oil Price",
+      "domain": "petroleum",
+      "ingestion_action": "dry_run_stage",
+      "lineage_status": "source_identified"
+    },
+    {
+      "indicator_id": "GLOBAL_SEMICONDUCTOR_SALES",
+      "indicator_name": "Global Semiconductor Sales",
+      "domain": "semiconductors",
+      "ingestion_action": "dry_run_stage",
+      "lineage_status": "source_identified"
+    },
+    {
+      "indicator_id": "SG_PHARMACEUTICAL_OUTPUT",
+      "indicator_name": "Singapore Pharmaceutical Output",
+      "domain": "biomedical",
+      "ingestion_action": "dry_run_stage",
+      "lineage_status": "source_identified"
+    },
+    {
+      "indicator_id": "SG_BIOMEDICAL_EXPORTS",
+      "indicator_name": "Singapore Biomedical Exports",
+      "domain": "biomedical",
+      "ingestion_action": "dry_run_stage",
+      "lineage_status": "source_identified"
+    }
+  ]
+}

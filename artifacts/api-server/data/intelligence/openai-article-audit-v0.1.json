@@ -1,0 +1,30 @@
+{
+  "audit_version": "openai-article-audit-v0.1",
+  "generated_at": "2026-06-15T07:48:42.715Z",
+  "source_file": "data/intelligence/openai-generated-article-package-v0.1.json",
+  "article_count": 1,
+  "publication_ready_count": 1,
+  "blocked_count": 0,
+  "audits": [
+    {
+      "generated_article_id": "AI_ARTICLE_ART-what-precision-engineering-reveals-about-singapore-s-capital-equipment-cycle",
+      "candidate_id": "ART-what-precision-engineering-reveals-about-singapore-s-capital-equipment-cycle",
+      "title": "What Precision Engineering Reveals About Singapore's Capital Equipment Cycle",
+      "audit_status": "publication_ready_for_human_review",
+      "publication_ready_for_human_review": true,
+      "failures": [],
+      "warnings": [],
+      "checks": {
+        "has_title": true,
+        "has_markdown_body": true,
+        "has_sources_section": true,
+        "has_confidence_section": true,
+        "human_review_required": true,
+        "autonomous_publication_blocked": true,
+        "internal_reference_free": true,
+        "placeholder_free": true
+      },
+      "audited_at": "2026-06-15T07:48:42.714Z"
+    }
+  ]
+}

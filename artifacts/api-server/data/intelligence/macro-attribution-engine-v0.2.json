@@ -1,0 +1,387 @@
+{
+  "registry_version": "macro-attribution-engine-v0.2",
+  "created_at": "2026-06-09T13:12:37.005Z",
+  "doctrine": {
+    "macro_attribution_explains_environment_not_truth": true,
+    "domain_relevance_filter_reduces_noise": true,
+    "attribution_split_is_estimated_context": true,
+    "observed_macro_data_required_for_production_use": true,
+    "evidence_remains_primary": true
+  },
+  "inputs": {
+    "replay_cases": 4,
+    "macro_transmission_items": 12,
+    "mechanism_reputation_items": 3,
+    "relevance_domains": 8
+  },
+  "summary": {
+    "cases_attributed": 4,
+    "strong_macro_explanation": 3,
+    "moderate_macro_explanation": 1,
+    "weak_macro_explanation": 0,
+    "limited_macro_explanation": 0
+  },
+  "case_macro_attributions": [
+    {
+      "case_id": "SG-MANUFACTURING-2020",
+      "case_label": "Singapore Manufacturing Recovery 2020-2021",
+      "domain": "manufacturing",
+      "detected_mechanisms": [
+        "MKT_002",
+        "MKT_010"
+      ],
+      "macro_attribution_score": 0.767,
+      "macro_attribution_band": "strong_macro_explanation",
+      "attribution_split": {
+        "global_macro_share": 0.587,
+        "national_macro_share": 0.413,
+        "sector_or_idiosyncratic_share": 0
+      },
+      "top_macro_drivers": [
+        {
+          "macro_key": "SINGAPORE_NODX",
+          "macro_name": "Singapore NODX",
+          "macro_category": "national_trade",
+          "mechanism_id": "MKT_010",
+          "mechanism_name": "Demand Shock / External Downturn",
+          "channel": "nodx_to_external_trade_cycle",
+          "transmission_score": 0.92,
+          "mechanism_reputation_score": 0.564,
+          "domain_relevance_adjustment": 0.14,
+          "macro_attribution_score": 0.814,
+          "macro_attribution_band": "strong_macro_context"
+        },
+        {
+          "macro_key": "GLOBAL_TRADE_VOLUME",
+          "macro_name": "Global Trade Volume",
+          "macro_category": "global_trade",
+          "mechanism_id": "MKT_010",
+          "mechanism_name": "Demand Shock / External Downturn",
+          "channel": "global_trade_to_exports",
+          "transmission_score": 0.9,
+          "mechanism_reputation_score": 0.564,
+          "domain_relevance_adjustment": 0.14,
+          "macro_attribution_score": 0.803,
+          "macro_attribution_band": "strong_macro_context"
+        },
+        {
+          "macro_key": "GLOBAL_PMI",
+          "macro_name": "Global PMI",
+          "macro_category": "global_growth",
+          "mechanism_id": "MKT_010",
+          "mechanism_name": "Demand Shock / External Downturn",
+          "channel": "global_demand_to_exports",
+          "transmission_score": 0.88,
+          "mechanism_reputation_score": 0.564,
+          "domain_relevance_adjustment": 0.14,
+          "macro_attribution_score": 0.793,
+          "macro_attribution_band": "strong_macro_context"
+        },
+        {
+          "macro_key": "SINGAPORE_MANUFACTURING",
+          "macro_name": "Singapore Manufacturing Output",
+          "macro_category": "national_sector",
+          "mechanism_id": "MKT_002",
+          "mechanism_name": "Inventory Cycle / Restocking",
+          "channel": "manufacturing_output_to_inventory_cycle",
+          "transmission_score": 0.86,
+          "mechanism_reputation_score": 0.513,
+          "domain_relevance_adjustment": 0.14,
+          "macro_attribution_score": 0.77,
+          "macro_attribution_band": "strong_macro_context"
+        },
+        {
+          "macro_key": "GLOBAL_PMI",
+          "macro_name": "Global PMI",
+          "macro_category": "global_growth",
+          "mechanism_id": "MKT_002",
+          "mechanism_name": "Inventory Cycle / Restocking",
+          "channel": "growth_cycle_to_inventory_restocking",
+          "transmission_score": 0.64,
+          "mechanism_reputation_score": 0.513,
+          "domain_relevance_adjustment": 0.14,
+          "macro_attribution_score": 0.656,
+          "macro_attribution_band": "moderate_macro_context"
+        }
+      ],
+      "governance": {
+        "macro_attribution_is_explanatory_not_causal_proof": true,
+        "domain_relevance_filter_applied": true,
+        "macro_context_must_not_override_case_evidence": true,
+        "observed_macro_data_not_yet_loaded": true,
+        "synthetic_replay_context_only": true
+      }
+    },
+    {
+      "case_id": "SG-PETROLEUM-2020",
+      "case_label": "Singapore Petroleum Shock 2020",
+      "domain": "petroleum",
+      "detected_mechanisms": [
+        "MKT_002",
+        "MKT_010"
+      ],
+      "macro_attribution_score": 0.752,
+      "macro_attribution_band": "strong_macro_explanation",
+      "attribution_split": {
+        "global_macro_share": 0.784,
+        "national_macro_share": 0.216,
+        "sector_or_idiosyncratic_share": 0
+      },
+      "top_macro_drivers": [
+        {
+          "macro_key": "SINGAPORE_NODX",
+          "macro_name": "Singapore NODX",
+          "macro_category": "national_trade",
+          "mechanism_id": "MKT_010",
+          "mechanism_name": "Demand Shock / External Downturn",
+          "channel": "nodx_to_external_trade_cycle",
+          "transmission_score": 0.92,
+          "mechanism_reputation_score": 0.564,
+          "domain_relevance_adjustment": 0.14,
+          "macro_attribution_score": 0.814,
+          "macro_attribution_band": "strong_macro_context"
+        },
+        {
+          "macro_key": "GLOBAL_TRADE_VOLUME",
+          "macro_name": "Global Trade Volume",
+          "macro_category": "global_trade",
+          "mechanism_id": "MKT_010",
+          "mechanism_name": "Demand Shock / External Downturn",
+          "channel": "global_trade_to_exports",
+          "transmission_score": 0.9,
+          "mechanism_reputation_score": 0.564,
+          "domain_relevance_adjustment": 0.14,
+          "macro_attribution_score": 0.803,
+          "macro_attribution_band": "strong_macro_context"
+        },
+        {
+          "macro_key": "GLOBAL_PMI",
+          "macro_name": "Global PMI",
+          "macro_category": "global_growth",
+          "mechanism_id": "MKT_010",
+          "mechanism_name": "Demand Shock / External Downturn",
+          "channel": "global_demand_to_exports",
+          "transmission_score": 0.88,
+          "mechanism_reputation_score": 0.564,
+          "domain_relevance_adjustment": 0.14,
+          "macro_attribution_score": 0.793,
+          "macro_attribution_band": "strong_macro_context"
+        },
+        {
+          "macro_key": "BRENT_CRUDE",
+          "macro_name": "Brent Crude Oil Price",
+          "macro_category": "commodity_cycle",
+          "mechanism_id": "MKT_010",
+          "mechanism_name": "Demand Shock / External Downturn",
+          "channel": "commodity_price_to_petroleum_trade",
+          "transmission_score": 0.69,
+          "mechanism_reputation_score": 0.564,
+          "domain_relevance_adjustment": 0.14,
+          "macro_attribution_score": 0.694,
+          "macro_attribution_band": "moderate_macro_context"
+        },
+        {
+          "macro_key": "GLOBAL_PMI",
+          "macro_name": "Global PMI",
+          "macro_category": "global_growth",
+          "mechanism_id": "MKT_002",
+          "mechanism_name": "Inventory Cycle / Restocking",
+          "channel": "growth_cycle_to_inventory_restocking",
+          "transmission_score": 0.64,
+          "mechanism_reputation_score": 0.513,
+          "domain_relevance_adjustment": 0.14,
+          "macro_attribution_score": 0.656,
+          "macro_attribution_band": "moderate_macro_context"
+        }
+      ],
+      "governance": {
+        "macro_attribution_is_explanatory_not_causal_proof": true,
+        "domain_relevance_filter_applied": true,
+        "macro_context_must_not_override_case_evidence": true,
+        "observed_macro_data_not_yet_loaded": true,
+        "synthetic_replay_context_only": true
+      }
+    },
+    {
+      "case_id": "SG-SEMICONDUCTOR-2021",
+      "case_label": "Singapore Semiconductor Recovery 2021",
+      "domain": "semiconductors",
+      "detected_mechanisms": [
+        "MKT_002",
+        "MKT_010"
+      ],
+      "macro_attribution_score": 0.786,
+      "macro_attribution_band": "strong_macro_explanation",
+      "attribution_split": {
+        "global_macro_share": 0.793,
+        "national_macro_share": 0.207,
+        "sector_or_idiosyncratic_share": 0
+      },
+      "top_macro_drivers": [
+        {
+          "macro_key": "SINGAPORE_NODX",
+          "macro_name": "Singapore NODX",
+          "macro_category": "national_trade",
+          "mechanism_id": "MKT_010",
+          "mechanism_name": "Demand Shock / External Downturn",
+          "channel": "nodx_to_external_trade_cycle",
+          "transmission_score": 0.92,
+          "mechanism_reputation_score": 0.564,
+          "domain_relevance_adjustment": 0.14,
+          "macro_attribution_score": 0.814,
+          "macro_attribution_band": "strong_macro_context"
+        },
+        {
+          "macro_key": "GLOBAL_SEMICONDUCTOR_SALES",
+          "macro_name": "Global Semiconductor Sales",
+          "macro_category": "sector_global_cycle",
+          "mechanism_id": "MKT_002",
+          "mechanism_name": "Inventory Cycle / Restocking",
+          "channel": "semiconductor_cycle_to_inventory_and_output",
+          "transmission_score": 0.91,
+          "mechanism_reputation_score": 0.513,
+          "domain_relevance_adjustment": 0.14,
+          "macro_attribution_score": 0.796,
+          "macro_attribution_band": "strong_macro_context"
+        },
+        {
+          "macro_key": "GLOBAL_PMI",
+          "macro_name": "Global PMI",
+          "macro_category": "global_growth",
+          "mechanism_id": "MKT_010",
+          "mechanism_name": "Demand Shock / External Downturn",
+          "channel": "global_demand_to_exports",
+          "transmission_score": 0.88,
+          "mechanism_reputation_score": 0.564,
+          "domain_relevance_adjustment": 0.14,
+          "macro_attribution_score": 0.793,
+          "macro_attribution_band": "strong_macro_context"
+        },
+        {
+          "macro_key": "CHINA_EXPORT_GROWTH",
+          "macro_name": "China Export Growth",
+          "macro_category": "regional_trade_cycle",
+          "mechanism_id": "MKT_010",
+          "mechanism_name": "Demand Shock / External Downturn",
+          "channel": "regional_trade_cycle_to_external_demand",
+          "transmission_score": 0.83,
+          "mechanism_reputation_score": 0.564,
+          "domain_relevance_adjustment": 0.14,
+          "macro_attribution_score": 0.767,
+          "macro_attribution_band": "strong_macro_context"
+        },
+        {
+          "macro_key": "GLOBAL_SEMICONDUCTOR_SALES",
+          "macro_name": "Global Semiconductor Sales",
+          "macro_category": "sector_global_cycle",
+          "mechanism_id": "MKT_010",
+          "mechanism_name": "Demand Shock / External Downturn",
+          "channel": "chip_demand_to_external_trade",
+          "transmission_score": 0.82,
+          "mechanism_reputation_score": 0.564,
+          "domain_relevance_adjustment": 0.14,
+          "macro_attribution_score": 0.762,
+          "macro_attribution_band": "strong_macro_context"
+        }
+      ],
+      "governance": {
+        "macro_attribution_is_explanatory_not_causal_proof": true,
+        "domain_relevance_filter_applied": true,
+        "macro_context_must_not_override_case_evidence": true,
+        "observed_macro_data_not_yet_loaded": true,
+        "synthetic_replay_context_only": true
+      }
+    },
+    {
+      "case_id": "SG-BIOMEDICAL-2021",
+      "case_label": "Singapore Biomedical Output 2021",
+      "domain": "biomedical",
+      "detected_mechanisms": [
+        "MKT_002",
+        "MKT_006",
+        "MKT_010"
+      ],
+      "macro_attribution_score": 0.697,
+      "macro_attribution_band": "moderate_macro_explanation",
+      "attribution_split": {
+        "global_macro_share": 0.818,
+        "national_macro_share": 0.182,
+        "sector_or_idiosyncratic_share": 0
+      },
+      "top_macro_drivers": [
+        {
+          "macro_key": "GLOBAL_TRADE_VOLUME",
+          "macro_name": "Global Trade Volume",
+          "macro_category": "global_trade",
+          "mechanism_id": "MKT_010",
+          "mechanism_name": "Demand Shock / External Downturn",
+          "channel": "global_trade_to_exports",
+          "transmission_score": 0.9,
+          "mechanism_reputation_score": 0.564,
+          "domain_relevance_adjustment": 0.14,
+          "macro_attribution_score": 0.803,
+          "macro_attribution_band": "strong_macro_context"
+        },
+        {
+          "macro_key": "GLOBAL_PMI",
+          "macro_name": "Global PMI",
+          "macro_category": "global_growth",
+          "mechanism_id": "MKT_010",
+          "mechanism_name": "Demand Shock / External Downturn",
+          "channel": "global_demand_to_exports",
+          "transmission_score": 0.88,
+          "mechanism_reputation_score": 0.564,
+          "domain_relevance_adjustment": 0.14,
+          "macro_attribution_score": 0.793,
+          "macro_attribution_band": "strong_macro_context"
+        },
+        {
+          "macro_key": "GLOBAL_PMI",
+          "macro_name": "Global PMI",
+          "macro_category": "global_growth",
+          "mechanism_id": "MKT_002",
+          "mechanism_name": "Inventory Cycle / Restocking",
+          "channel": "growth_cycle_to_inventory_restocking",
+          "transmission_score": 0.64,
+          "mechanism_reputation_score": 0.513,
+          "domain_relevance_adjustment": 0.14,
+          "macro_attribution_score": 0.656,
+          "macro_attribution_band": "moderate_macro_context"
+        },
+        {
+          "macro_key": "SINGAPORE_NODX",
+          "macro_name": "Singapore NODX",
+          "macro_category": "national_trade",
+          "mechanism_id": "MKT_010",
+          "mechanism_name": "Demand Shock / External Downturn",
+          "channel": "nodx_to_external_trade_cycle",
+          "transmission_score": 0.92,
+          "mechanism_reputation_score": 0.564,
+          "domain_relevance_adjustment": -0.04,
+          "macro_attribution_score": 0.634,
+          "macro_attribution_band": "moderate_macro_context"
+        },
+        {
+          "macro_key": "FED_FUNDS_RATE",
+          "macro_name": "US Federal Funds Rate",
+          "macro_category": "financial_conditions",
+          "mechanism_id": "MKT_006",
+          "mechanism_name": "Policy / Regulatory Impact",
+          "channel": "financial_conditions_to_investment_policy",
+          "transmission_score": 0.58,
+          "mechanism_reputation_score": 0.408,
+          "domain_relevance_adjustment": 0.14,
+          "macro_attribution_score": 0.6,
+          "macro_attribution_band": "moderate_macro_context"
+        }
+      ],
+      "governance": {
+        "macro_attribution_is_explanatory_not_causal_proof": true,
+        "domain_relevance_filter_applied": true,
+        "macro_context_must_not_override_case_evidence": true,
+        "observed_macro_data_not_yet_loaded": true,
+        "synthetic_replay_context_only": true
+      }
+    }
+  ]
+}

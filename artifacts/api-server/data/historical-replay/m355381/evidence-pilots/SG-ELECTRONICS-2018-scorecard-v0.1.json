@@ -1,0 +1,184 @@
+{
+  "historical_evidence_scorecard_version": "historical-evidence-scorecard-v0.1",
+  "generated_at": "2026-06-06T09:38:10.087Z",
+  "source_taxonomy": "data/intelligence-driver-library/driver-evidence-taxonomy-v0.1.json",
+  "source_evidence": "data/historical-replay/m355381/evidence-pilots/SG-ELECTRONICS-2018-evidence-v0.1.json",
+  "case_id": "SG-ELECTRONICS-2018",
+  "period": "2018",
+  "series_name": "Electronics",
+  "governance": {
+    "sandbox_only": true,
+    "recommendation_only": true,
+    "auto_close_case": false,
+    "requires_human_review": true,
+    "production_mutation_allowed": false
+  },
+  "evidence_metadata": {
+    "evidence_origin": "synthetic",
+    "template_generated": true,
+    "attribution_discovery_ready": true,
+    "requires_human_review": true
+  },
+  "evidence_items": [
+    "Singapore Electronics output in 2018 was shaped by semiconductor demand, electronics demand, and global technology-cycle conditions.",
+    "Chip shortage conditions, wafer demand, foundry demand, memory demand, and logic chip demand affected production patterns.",
+    "Consumer electronics demand, data center chips, and export demand influenced semiconductor-related activity.",
+    "Inventory restocking, channel inventory, and customer inventory conditions shaped the electronics cycle."
+  ],
+  "evidence_matches": [
+    {
+      "evidence_text": "Singapore Electronics output in 2018 was shaped by semiconductor demand, electronics demand, and global technology-cycle conditions.",
+      "matches": [
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 7,
+          "matched_phrases": [
+            "semiconductor demand",
+            "electronics demand"
+          ],
+          "match_score": 14
+        }
+      ]
+    },
+    {
+      "evidence_text": "Chip shortage conditions, wafer demand, foundry demand, memory demand, and logic chip demand affected production patterns.",
+      "matches": [
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 7,
+          "matched_phrases": [
+            "chip shortage",
+            "wafer demand",
+            "foundry demand",
+            "memory demand",
+            "logic chip demand"
+          ],
+          "match_score": 35
+        }
+      ]
+    },
+    {
+      "evidence_text": "Consumer electronics demand, data center chips, and export demand influenced semiconductor-related activity.",
+      "matches": [
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 7,
+          "matched_phrases": [
+            "electronics demand",
+            "data center chips",
+            "consumer electronics"
+          ],
+          "match_score": 21
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "attribution_bucket": "market_effect",
+          "default_score": 5,
+          "matched_phrases": [
+            "export demand"
+          ],
+          "match_score": 5
+        }
+      ]
+    },
+    {
+      "evidence_text": "Inventory restocking, channel inventory, and customer inventory conditions shaped the electronics cycle.",
+      "matches": [
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "attribution_bucket": "portfolio_effect",
+          "default_score": 5,
+          "matched_phrases": [
+            "inventory restocking",
+            "restocking",
+            "channel inventory",
+            "customer inventory"
+          ],
+          "match_score": 20
+        }
+      ]
+    }
+  ],
+  "ranked_drivers": [
+    {
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "attribution_bucket": "market_effect",
+      "total_score": 70,
+      "evidence_count": 3,
+      "matched_phrases": [
+        "semiconductor demand",
+        "electronics demand",
+        "chip shortage",
+        "wafer demand",
+        "foundry demand",
+        "memory demand",
+        "logic chip demand",
+        "electronics demand",
+        "data center chips",
+        "consumer electronics"
+      ],
+      "supporting_evidence": [
+        "Singapore Electronics output in 2018 was shaped by semiconductor demand, electronics demand, and global technology-cycle conditions.",
+        "Chip shortage conditions, wafer demand, foundry demand, memory demand, and logic chip demand affected production patterns.",
+        "Consumer electronics demand, data center chips, and export demand influenced semiconductor-related activity."
+      ]
+    },
+    {
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "attribution_bucket": "portfolio_effect",
+      "total_score": 20,
+      "evidence_count": 1,
+      "matched_phrases": [
+        "inventory restocking",
+        "restocking",
+        "channel inventory",
+        "customer inventory"
+      ],
+      "supporting_evidence": [
+        "Inventory restocking, channel inventory, and customer inventory conditions shaped the electronics cycle."
+      ]
+    },
+    {
+      "driver_id": "MKT_001",
+      "driver_name": "Global Demand Surge",
+      "attribution_bucket": "market_effect",
+      "total_score": 5,
+      "evidence_count": 1,
+      "matched_phrases": [
+        "export demand"
+      ],
+      "supporting_evidence": [
+        "Consumer electronics demand, data center chips, and export demand influenced semiconductor-related activity."
+      ]
+    }
+  ],
+  "bucket_scores": [
+    {
+      "attribution_bucket": "market_effect",
+      "total_score": 75
+    },
+    {
+      "attribution_bucket": "portfolio_effect",
+      "total_score": 20
+    }
+  ],
+  "recommended_outcome": {
+    "primary_driver": "MKT_008",
+    "primary_driver_name": "Semiconductor / Electronics Cycle",
+    "attribution_bucket": "market_effect",
+    "confidence": "high",
+    "total_score": 70,
+    "second_score": 20,
+    "score_gap": 50
+  }
+}

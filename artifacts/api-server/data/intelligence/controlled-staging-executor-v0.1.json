@@ -1,0 +1,44 @@
+{
+  "executor_version": "controlled-staging-executor-v0.1",
+  "generated_at": "2026-06-10T02:37:44.989Z",
+  "staged_count": 6,
+  "staging_status": "GO_FOR_PROMOTION_GATE_REVIEW",
+  "staged_items": [
+    {
+      "indicator_id": "SG_MANUFACTURING_OUTPUT",
+      "indicator_name": "Singapore Manufacturing Output",
+      "staging_status": "staged",
+      "staged_at": "2026-06-10T02:37:44.988Z"
+    },
+    {
+      "indicator_id": "SG_ELECTRONICS_EXPORTS",
+      "indicator_name": "Singapore Electronics Exports",
+      "staging_status": "staged",
+      "staged_at": "2026-06-10T02:37:44.989Z"
+    },
+    {
+      "indicator_id": "BRENT_CRUDE",
+      "indicator_name": "Brent Crude Oil Price",
+      "staging_status": "staged",
+      "staged_at": "2026-06-10T02:37:44.989Z"
+    },
+    {
+      "indicator_id": "GLOBAL_SEMICONDUCTOR_SALES",
+      "indicator_name": "Global Semiconductor Sales",
+      "staging_status": "staged",
+      "staged_at": "2026-06-10T02:37:44.989Z"
+    },
+    {
+      "indicator_id": "SG_PHARMACEUTICAL_OUTPUT",
+      "indicator_name": "Singapore Pharmaceutical Output",
+      "staging_status": "staged",
+      "staged_at": "2026-06-10T02:37:44.989Z"
+    },
+    {
+      "indicator_id": "SG_BIOMEDICAL_EXPORTS",
+      "indicator_name": "Singapore Biomedical Exports",
+      "staging_status": "staged",
+      "staged_at": "2026-06-10T02:37:44.989Z"
+    }
+  ]
+}

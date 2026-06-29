@@ -1,0 +1,314 @@
+{
+  "principle_candidate_registry_version": "principle-candidate-registry-v0.1",
+  "generated_at": "2026-06-07T13:48:07.582Z",
+  "source_dashboard": "data/intelligence/coverage-hardening-dashboard-v0.2.json",
+  "source_experience_registry": "data/intelligence/experience-registry-v0.2.json",
+  "policy": {
+    "principle": "Principle candidate registry v0.1 records drivers that passed coverage and diversity gates. It does not approve principles and does not mutate production memory.",
+    "production_mutation_allowed": false,
+    "human_review_required_before_principle_extraction": true,
+    "principle_candidate_is_not_principle": true
+  },
+  "summary": {
+    "candidates_identified": 3,
+    "source_drivers_assessed": 13,
+    "selection_rule": "principle_readiness_status == principle_candidate",
+    "candidate_driver_ids": [
+      "MKT_006",
+      "MKT_010",
+      "MKT_002"
+    ]
+  },
+  "candidates": [
+    {
+      "candidate_id": "PC_001",
+      "candidate_version": "principle-candidate-v0.1",
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "candidate_status": "ready_for_review",
+      "approved_principle": false,
+      "coverage_score": 0.755,
+      "coverage_status": "well_covered",
+      "diversity_score": 0.884,
+      "diversity_status": "strong",
+      "principle_readiness_score": 0.813,
+      "principle_readiness_status": "principle_candidate",
+      "supporting_case_count": 6,
+      "supporting_period_count": 5,
+      "experience_strength": 0.666,
+      "maturity_stage": "developing_cluster",
+      "confidence_score": 1,
+      "warnings": [],
+      "review_rationale": [
+        "Coverage score meets principle-candidate threshold.",
+        "Diversity score meets principle-candidate threshold.",
+        "Combined readiness score is strong.",
+        "No active coverage or diversity warnings.",
+        "Supported by 6 reviewed historical cases.",
+        "Observed across 5 unique periods.",
+        "Current maturity stage: developing_cluster."
+      ],
+      "governance": {
+        "principle_candidate_only": true,
+        "approved_principle": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false,
+        "note": "This candidate has passed coverage and diversity screening, but it is not an approved principle."
+      },
+      "supporting_cases": [
+        {
+          "case_id": "SG-CARBON-TAX-2019",
+          "period": "2019",
+          "series_name": "Carbon Tax",
+          "confidence": "high",
+          "driver_score": 34,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-FOREIGN-WORKER-CONSTRAINTS-2021",
+          "period": "2021",
+          "series_name": "Foreign Worker Constraints",
+          "confidence": "high",
+          "driver_score": 35,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-GLOBAL-MINIMUM-TAX-2025",
+          "period": "2025",
+          "series_name": "Global Minimum Tax",
+          "confidence": "high",
+          "driver_score": 36,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-GST-INCREASE-2023",
+          "period": "2023",
+          "series_name": "GST Increase",
+          "confidence": "high",
+          "driver_score": 34,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-JOBS-SUPPORT-SCHEME-2020",
+          "period": "2020",
+          "series_name": "Jobs Support Scheme",
+          "confidence": "high",
+          "driver_score": 38,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-PRODUCTIVITY-SOLUTIONS-GRANT",
+          "period": "2020",
+          "series_name": "Productivity Solutions Grant",
+          "confidence": "high",
+          "driver_score": 32,
+          "evidence_count": 3
+        }
+      ]
+    },
+    {
+      "candidate_id": "PC_002",
+      "candidate_version": "principle-candidate-v0.1",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "candidate_status": "ready_for_review",
+      "approved_principle": false,
+      "coverage_score": 0.793,
+      "coverage_status": "well_covered",
+      "diversity_score": 0.875,
+      "diversity_status": "strong",
+      "principle_readiness_score": 0.83,
+      "principle_readiness_status": "principle_candidate",
+      "supporting_case_count": 8,
+      "supporting_period_count": 5,
+      "experience_strength": 0.651,
+      "maturity_stage": "developing_cluster",
+      "confidence_score": 0.912,
+      "warnings": [],
+      "review_rationale": [
+        "Coverage score meets principle-candidate threshold.",
+        "Diversity score meets principle-candidate threshold.",
+        "Combined readiness score is strong.",
+        "No active coverage or diversity warnings.",
+        "Supported by 8 reviewed historical cases.",
+        "Observed across 5 unique periods.",
+        "Current maturity stage: developing_cluster."
+      ],
+      "governance": {
+        "principle_candidate_only": true,
+        "approved_principle": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false,
+        "note": "This candidate has passed coverage and diversity screening, but it is not an approved principle."
+      },
+      "supporting_cases": [
+        {
+          "case_id": "SG-CHEMICALS-2019",
+          "period": "2019",
+          "series_name": "Chemicals",
+          "confidence": "high",
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-MANUFACTURING-2001",
+          "period": "2001",
+          "series_name": "Total Manufacturing",
+          "confidence": "high",
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-MANUFACTURING-2008",
+          "period": "2008",
+          "series_name": "Total Manufacturing",
+          "confidence": "high",
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-MANUFACTURING-2009",
+          "period": "2009",
+          "series_name": "Total Manufacturing",
+          "confidence": "high",
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-MANUFACTURING-2020-SHOCK",
+          "period": "2020",
+          "series_name": "Total Manufacturing",
+          "confidence": "high",
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PETROCHEMICALS-2019",
+          "period": "2019",
+          "series_name": "Petrochemicals",
+          "confidence": "high",
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PETROCHEMICALS-2020",
+          "period": "2020",
+          "series_name": "Petrochemicals",
+          "confidence": "high",
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-TOTAL-MANUFACTURING-2020",
+          "period": "2020",
+          "series_name": "Total Manufacturing",
+          "confidence": "low",
+          "driver_score": 7,
+          "evidence_count": 4
+        }
+      ]
+    },
+    {
+      "candidate_id": "PC_003",
+      "candidate_version": "principle-candidate-v0.1",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "candidate_status": "ready_for_review",
+      "approved_principle": false,
+      "coverage_score": 0.795,
+      "coverage_status": "well_covered",
+      "diversity_score": 0.944,
+      "diversity_status": "strong",
+      "principle_readiness_score": 0.862,
+      "principle_readiness_status": "principle_candidate",
+      "supporting_case_count": 8,
+      "supporting_period_count": 4,
+      "experience_strength": 0.752,
+      "maturity_stage": "developing_cluster",
+      "confidence_score": 1,
+      "warnings": [],
+      "review_rationale": [
+        "Coverage score meets principle-candidate threshold.",
+        "Diversity score meets principle-candidate threshold.",
+        "Combined readiness score is strong.",
+        "No active coverage or diversity warnings.",
+        "Supported by 8 reviewed historical cases.",
+        "Observed across 4 unique periods.",
+        "Current maturity stage: developing_cluster."
+      ],
+      "governance": {
+        "principle_candidate_only": true,
+        "approved_principle": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false,
+        "note": "This candidate has passed coverage and diversity screening, but it is not an approved principle."
+      },
+      "supporting_cases": [
+        {
+          "case_id": "SG-ELECTRONICS-2019",
+          "period": "2019",
+          "series_name": "Electronics",
+          "confidence": "high",
+          "driver_score": 35,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-ELECTRONICS-2023",
+          "period": "2023",
+          "series_name": "Electronics",
+          "confidence": "high",
+          "driver_score": 35,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-INVENTORY-CYCLE-2001",
+          "period": "2001",
+          "series_name": "Inventory Cycle / Restocking",
+          "confidence": "high",
+          "driver_score": 38,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-INVENTORY-CYCLE-2009",
+          "period": "2009",
+          "series_name": "Inventory Cycle / Restocking",
+          "confidence": "high",
+          "driver_score": 38,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-INVENTORY-CYCLE-2019",
+          "period": "2019",
+          "series_name": "Inventory Cycle / Restocking",
+          "confidence": "high",
+          "driver_score": 38,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-PRECISION-ENGINEERING-2023",
+          "period": "2023",
+          "series_name": "Precision Engineering",
+          "confidence": "high",
+          "driver_score": 35,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-SEMICONDUCTOR-2019",
+          "period": "2019",
+          "series_name": "Semiconductors",
+          "confidence": "high",
+          "driver_score": 35,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-SEMICONDUCTOR-2023",
+          "period": "2023",
+          "series_name": "Semiconductors",
+          "confidence": "high",
+          "driver_score": 35,
+          "evidence_count": 4
+        }
+      ]
+    }
+  ]
+}

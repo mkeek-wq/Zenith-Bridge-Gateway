@@ -1,0 +1,336 @@
+{
+  "principle_review_registry_version": "principle-review-registry-v0.1",
+  "generated_at": "2026-06-07T13:50:13.387Z",
+  "source_principle_candidate_registry": "data/intelligence/principle-candidate-registry-v0.1.json",
+  "policy": {
+    "principle": "Principle review registry v0.1 creates human-review scaffolds for principle candidates. It does not propose, approve, or mutate principles.",
+    "production_mutation_allowed": false,
+    "human_review_required": true,
+    "principle_review_is_not_principle_extraction": true
+  },
+  "summary": {
+    "reviews_created": 3,
+    "source_candidates": 3,
+    "pending_human_review": 3,
+    "approved_principles": 0,
+    "rejected_principles": 0,
+    "driver_ids_under_review": [
+      "MKT_006",
+      "MKT_010",
+      "MKT_002"
+    ]
+  },
+  "reviews": [
+    {
+      "review_id": "PR_001",
+      "review_version": "principle-review-v0.1",
+      "candidate_id": "PC_001",
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "review_status": "pending_human_review",
+      "proposed_principle": null,
+      "principle_scope": null,
+      "principle_conditions": [],
+      "principle_limitations": [],
+      "counter_evidence": [],
+      "falsification_tests": [],
+      "approved_principle": false,
+      "rejected_principle": false,
+      "coverage_score": 0.755,
+      "diversity_score": 0.884,
+      "principle_readiness_score": 0.813,
+      "supporting_case_count": 6,
+      "supporting_period_count": 5,
+      "supporting_cases": [
+        {
+          "case_id": "SG-CARBON-TAX-2019",
+          "period": "2019",
+          "series_name": "Carbon Tax",
+          "confidence": "high",
+          "driver_score": 34,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-FOREIGN-WORKER-CONSTRAINTS-2021",
+          "period": "2021",
+          "series_name": "Foreign Worker Constraints",
+          "confidence": "high",
+          "driver_score": 35,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-GLOBAL-MINIMUM-TAX-2025",
+          "period": "2025",
+          "series_name": "Global Minimum Tax",
+          "confidence": "high",
+          "driver_score": 36,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-GST-INCREASE-2023",
+          "period": "2023",
+          "series_name": "GST Increase",
+          "confidence": "high",
+          "driver_score": 34,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-JOBS-SUPPORT-SCHEME-2020",
+          "period": "2020",
+          "series_name": "Jobs Support Scheme",
+          "confidence": "high",
+          "driver_score": 38,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-PRODUCTIVITY-SOLUTIONS-GRANT",
+          "period": "2020",
+          "series_name": "Productivity Solutions Grant",
+          "confidence": "high",
+          "driver_score": 32,
+          "evidence_count": 3
+        }
+      ],
+      "review_questions": [
+        "What recurring mechanism appears across the supporting cases?",
+        "Does the mechanism hold across multiple periods and sectors?",
+        "Are there counterexamples or failure cases?",
+        "Is the candidate driver causal, reinforcing, or merely descriptive?",
+        "Can the principle be stated with clear boundaries and conditions?",
+        "Would this principle have predictive value in a future case?",
+        "What evidence would falsify or weaken this principle?"
+      ],
+      "initial_review_notes": [
+        "Candidate PC_001 passed coverage and diversity screening.",
+        "Driver MKT_006 is ready for human principle review.",
+        "No principle has been proposed or approved by this registry.",
+        "This review object is a governance scaffold only."
+      ],
+      "governance": {
+        "review_scaffold_only": true,
+        "human_review_required": true,
+        "approved_principle": false,
+        "production_mutation_allowed": false,
+        "note": "This registry prepares candidates for principle review. It does not extract or approve principles."
+      }
+    },
+    {
+      "review_id": "PR_002",
+      "review_version": "principle-review-v0.1",
+      "candidate_id": "PC_002",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "review_status": "pending_human_review",
+      "proposed_principle": null,
+      "principle_scope": null,
+      "principle_conditions": [],
+      "principle_limitations": [],
+      "counter_evidence": [],
+      "falsification_tests": [],
+      "approved_principle": false,
+      "rejected_principle": false,
+      "coverage_score": 0.793,
+      "diversity_score": 0.875,
+      "principle_readiness_score": 0.83,
+      "supporting_case_count": 8,
+      "supporting_period_count": 5,
+      "supporting_cases": [
+        {
+          "case_id": "SG-CHEMICALS-2019",
+          "period": "2019",
+          "series_name": "Chemicals",
+          "confidence": "high",
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-MANUFACTURING-2001",
+          "period": "2001",
+          "series_name": "Total Manufacturing",
+          "confidence": "high",
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-MANUFACTURING-2008",
+          "period": "2008",
+          "series_name": "Total Manufacturing",
+          "confidence": "high",
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-MANUFACTURING-2009",
+          "period": "2009",
+          "series_name": "Total Manufacturing",
+          "confidence": "high",
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-MANUFACTURING-2020-SHOCK",
+          "period": "2020",
+          "series_name": "Total Manufacturing",
+          "confidence": "high",
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PETROCHEMICALS-2019",
+          "period": "2019",
+          "series_name": "Petrochemicals",
+          "confidence": "high",
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PETROCHEMICALS-2020",
+          "period": "2020",
+          "series_name": "Petrochemicals",
+          "confidence": "high",
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-TOTAL-MANUFACTURING-2020",
+          "period": "2020",
+          "series_name": "Total Manufacturing",
+          "confidence": "low",
+          "driver_score": 7,
+          "evidence_count": 4
+        }
+      ],
+      "review_questions": [
+        "What recurring mechanism appears across the supporting cases?",
+        "Does the mechanism hold across multiple periods and sectors?",
+        "Are there counterexamples or failure cases?",
+        "Is the candidate driver causal, reinforcing, or merely descriptive?",
+        "Can the principle be stated with clear boundaries and conditions?",
+        "Would this principle have predictive value in a future case?",
+        "What evidence would falsify or weaken this principle?"
+      ],
+      "initial_review_notes": [
+        "Candidate PC_002 passed coverage and diversity screening.",
+        "Driver MKT_010 is ready for human principle review.",
+        "No principle has been proposed or approved by this registry.",
+        "This review object is a governance scaffold only."
+      ],
+      "governance": {
+        "review_scaffold_only": true,
+        "human_review_required": true,
+        "approved_principle": false,
+        "production_mutation_allowed": false,
+        "note": "This registry prepares candidates for principle review. It does not extract or approve principles."
+      }
+    },
+    {
+      "review_id": "PR_003",
+      "review_version": "principle-review-v0.1",
+      "candidate_id": "PC_003",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "review_status": "pending_human_review",
+      "proposed_principle": null,
+      "principle_scope": null,
+      "principle_conditions": [],
+      "principle_limitations": [],
+      "counter_evidence": [],
+      "falsification_tests": [],
+      "approved_principle": false,
+      "rejected_principle": false,
+      "coverage_score": 0.795,
+      "diversity_score": 0.944,
+      "principle_readiness_score": 0.862,
+      "supporting_case_count": 8,
+      "supporting_period_count": 4,
+      "supporting_cases": [
+        {
+          "case_id": "SG-ELECTRONICS-2019",
+          "period": "2019",
+          "series_name": "Electronics",
+          "confidence": "high",
+          "driver_score": 35,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-ELECTRONICS-2023",
+          "period": "2023",
+          "series_name": "Electronics",
+          "confidence": "high",
+          "driver_score": 35,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-INVENTORY-CYCLE-2001",
+          "period": "2001",
+          "series_name": "Inventory Cycle / Restocking",
+          "confidence": "high",
+          "driver_score": 38,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-INVENTORY-CYCLE-2009",
+          "period": "2009",
+          "series_name": "Inventory Cycle / Restocking",
+          "confidence": "high",
+          "driver_score": 38,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-INVENTORY-CYCLE-2019",
+          "period": "2019",
+          "series_name": "Inventory Cycle / Restocking",
+          "confidence": "high",
+          "driver_score": 38,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-PRECISION-ENGINEERING-2023",
+          "period": "2023",
+          "series_name": "Precision Engineering",
+          "confidence": "high",
+          "driver_score": 35,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-SEMICONDUCTOR-2019",
+          "period": "2019",
+          "series_name": "Semiconductors",
+          "confidence": "high",
+          "driver_score": 35,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-SEMICONDUCTOR-2023",
+          "period": "2023",
+          "series_name": "Semiconductors",
+          "confidence": "high",
+          "driver_score": 35,
+          "evidence_count": 4
+        }
+      ],
+      "review_questions": [
+        "What recurring mechanism appears across the supporting cases?",
+        "Does the mechanism hold across multiple periods and sectors?",
+        "Are there counterexamples or failure cases?",
+        "Is the candidate driver causal, reinforcing, or merely descriptive?",
+        "Can the principle be stated with clear boundaries and conditions?",
+        "Would this principle have predictive value in a future case?",
+        "What evidence would falsify or weaken this principle?"
+      ],
+      "initial_review_notes": [
+        "Candidate PC_003 passed coverage and diversity screening.",
+        "Driver MKT_002 is ready for human principle review.",
+        "No principle has been proposed or approved by this registry.",
+        "This review object is a governance scaffold only."
+      ],
+      "governance": {
+        "review_scaffold_only": true,
+        "human_review_required": true,
+        "approved_principle": false,
+        "production_mutation_allowed": false,
+        "note": "This registry prepares candidates for principle review. It does not extract or approve principles."
+      }
+    }
+  ]
+}

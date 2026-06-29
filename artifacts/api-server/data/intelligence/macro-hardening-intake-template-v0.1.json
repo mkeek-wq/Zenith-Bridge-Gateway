@@ -1,0 +1,48 @@
+{
+  "template_version": "macro-hardening-intake-template-v0.1",
+  "generated_at": "2026-06-10T02:30:29.358Z",
+  "doctrine": "New macro indicators must be source-governed, domain-mapped, mechanism-linked, and lineage-ready before controlled ingestion.",
+  "required_fields": [
+    "indicator_id",
+    "indicator_name",
+    "domain",
+    "macro_category",
+    "source_authority",
+    "source_url_or_reference",
+    "frequency",
+    "period_coverage",
+    "mechanisms_supported",
+    "replay_cases_supported",
+    "rationale",
+    "lineage_status",
+    "ingestion_status"
+  ],
+  "allowed_ingestion_statuses": [
+    "candidate_not_ingested",
+    "dry_run_ready",
+    "staged",
+    "promoted",
+    "rejected"
+  ],
+  "allowed_lineage_statuses": [
+    "source_identified",
+    "source_verified",
+    "lineage_complete",
+    "lineage_incomplete"
+  ],
+  "blank_record": {
+    "indicator_id": "",
+    "indicator_name": "",
+    "domain": "",
+    "macro_category": "",
+    "source_authority": "",
+    "source_url_or_reference": "",
+    "frequency": "",
+    "period_coverage": "",
+    "mechanisms_supported": [],
+    "replay_cases_supported": [],
+    "rationale": "",
+    "lineage_status": "source_identified",
+    "ingestion_status": "candidate_not_ingested"
+  }
+}

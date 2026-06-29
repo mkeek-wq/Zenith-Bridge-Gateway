@@ -1,0 +1,58 @@
+{
+  "experience_registry_version": "experience-registry-v0.1",
+  "generated_at": "2026-06-03T10:14:01.037Z",
+  "source_accuracy_dir": "data/replay-sandbox/accuracy",
+  "policy": {
+    "principle": "Experience registry aggregates measured replay prediction performance into reusable institutional memory.",
+    "warning": "Sandbox-scored predictions are useful for plumbing tests but must not be treated as production accuracy."
+  },
+  "summary": {
+    "accuracy_files_processed": 1,
+    "predictions_made": 2,
+    "scorable_predictions": 2,
+    "correct": 2,
+    "incorrect": 0,
+    "sandbox_scorable_predictions": 2,
+    "production_scorable_predictions": 0,
+    "overall_accuracy_rate": 100
+  },
+  "by_driver": [
+    {
+      "primary_driver": "MKT_001",
+      "primary_driver_name": "Global Demand Surge",
+      "predictions_made": 2,
+      "scorable_predictions": 2,
+      "correct": 2,
+      "incorrect": 0,
+      "unknown_actual_outcome": 0,
+      "sandbox_scorable_predictions": 2,
+      "production_scorable_predictions": 0,
+      "accuracy_rate": 100
+    }
+  ],
+  "by_prediction_strength": [
+    {
+      "prediction_strength": "low",
+      "predictions_made": 2,
+      "scorable_predictions": 2,
+      "correct": 2,
+      "incorrect": 0,
+      "unknown_actual_outcome": 0,
+      "sandbox_scorable_predictions": 2,
+      "production_scorable_predictions": 0,
+      "accuracy_rate": 100
+    }
+  ],
+  "by_prediction_governance_version": [
+    {
+      "prediction_governance_version": "prediction-governance-v0.1",
+      "predictions_made": 2,
+      "scorable_predictions": 2,
+      "correct": 2,
+      "incorrect": 0,
+      "sandbox_scorable_predictions": 2,
+      "production_scorable_predictions": 0,
+      "accuracy_rate": 100
+    }
+  ]
+}

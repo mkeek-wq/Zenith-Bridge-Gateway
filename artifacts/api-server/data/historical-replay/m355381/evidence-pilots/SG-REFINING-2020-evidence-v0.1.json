@@ -1,0 +1,24 @@
+{
+  "historical_evidence_pilot_version": "historical-evidence-pilot-v0.1",
+  "case_id": "SG-REFINING-2020",
+  "period": "2020",
+  "series_name": "Refining",
+  "source_context": "Bulk sandbox historical replay evidence pilot v0.2. Synthetic seed evidence for attribution-learning pipeline testing; not production evidence.",
+  "governance": {
+    "sandbox_only": true,
+    "bulk_seed": true,
+    "synthetic_seed_evidence": true,
+    "manual_review_required": true,
+    "production_mutation_allowed": false
+  },
+  "replay_metadata": {
+    "theme": "operational_disruption",
+    "direction": "contraction"
+  },
+  "evidence_items": [
+    "Singapore Refining output in 2020 was affected by maintenance shutdown, plant shutdown, and production disruption.",
+    "Supply disruption, factory closure, covid restrictions, and supply constraints affected production.",
+    "Operational disruption rather than demand alone shaped output movements.",
+    "Plant-level constraints and supply conditions affected manufacturing performance."
+  ]
+}

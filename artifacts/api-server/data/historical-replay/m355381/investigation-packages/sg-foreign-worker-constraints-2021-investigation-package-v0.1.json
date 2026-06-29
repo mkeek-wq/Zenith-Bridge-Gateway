@@ -1,0 +1,87 @@
+{
+  "investigation_package_version": "historical-investigation-package-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-FOREIGN-WORKER-CONSTRAINTS-2021",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_candidate_file": "docs/policy-replay-candidate-list-v0.1.md",
+  "case_summary": {
+    "period": "2021",
+    "series_no": "POLICY-MOM-FOREIGN-WORKER-CONSTRAINTS",
+    "series_name": "Foreign Worker Constraints",
+    "priority": "critical",
+    "direction": "negative",
+    "latest_value": null,
+    "month_on_month_change_pct": null,
+    "year_on_year_change_pct": null
+  },
+  "search_queries": {
+    "official_queries": [
+      "MOM Singapore foreign worker constraints 2021 border restrictions",
+      "MOM Singapore migrant worker inflow 2021 manpower shortage",
+      "Singapore foreign worker shortage 2021 construction marine process sectors",
+      "Singapore border restrictions foreign workers 2021 MOM"
+    ],
+    "industry_queries": [
+      "Singapore manpower shortage 2021 construction marine process sectors",
+      "Singapore foreign worker restrictions 2021 manufacturing impact",
+      "Singapore labour shortage 2021 industrial capacity constraints"
+    ],
+    "context_queries": [
+      "Singapore COVID border restrictions 2021 foreign workers",
+      "Singapore work permit holders decline 2020 2021",
+      "Singapore marine offshore worker shortage 2021"
+    ]
+  },
+  "hypotheses": [
+    {
+      "hypothesis_id": "HYP_POLICY_RESTRICTION",
+      "hypothesis": "The movement may reflect policy or border restrictions that reduced foreign worker availability.",
+      "attribution_bucket": "policy_effect"
+    },
+    {
+      "hypothesis_id": "HYP_OPERATIONAL_CONSTRAINT",
+      "hypothesis": "The movement may reflect operational constraints caused by manpower shortages, project delays, or reduced capacity.",
+      "attribution_bucket": "operational_effect"
+    },
+    {
+      "hypothesis_id": "HYP_DEMAND_SHOCK",
+      "hypothesis": "The movement may reflect broader pandemic-related demand shock rather than policy-specific constraints.",
+      "attribution_bucket": "market_effect"
+    },
+    {
+      "hypothesis_id": "HYP_UNKNOWN",
+      "hypothesis": "The event is policy-relevant but currently lacks sufficient explanatory evidence.",
+      "attribution_bucket": "unknown_effect"
+    }
+  ],
+  "driver_candidates": [
+    {
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "applies_when": "Output or sector activity changes due to regulation, border controls, work permit restrictions, immigration policy, tax, trade restrictions, incentives, or government policy."
+    },
+    {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "applies_when": "Output or sector activity falls due to manpower shortages, supply constraints, plant disruptions, shutdowns, project delays, or COVID restrictions."
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "applies_when": "Output or sector activity changes due to broader pandemic shock, external downturn, global recession, or demand collapse."
+    }
+  ],
+  "expected_mechanisms": [
+    "border restrictions reduced inflow of foreign workers",
+    "worker outflows could not be fully replaced",
+    "construction, marine and process sectors faced manpower shortages",
+    "manpower shortages created operational capacity constraints",
+    "policy effects may be visible through project delays, output disruption, or sector-level underperformance"
+  ],
+  "investigation_status": {
+    "evidence_collected": false,
+    "attribution_scored": false,
+    "outcome_ready": false
+  }
+}

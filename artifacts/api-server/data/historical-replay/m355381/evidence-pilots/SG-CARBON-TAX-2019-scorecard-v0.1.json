@@ -1,0 +1,71 @@
+{
+  "scorecard_version": "historical-evidence-scorecard-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-CARBON-TAX-2019",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_evidence_package": "data/historical-replay/m355381/evidence-pilots/SG-CARBON-TAX-2019-evidence-v0.1.json",
+  "case_summary": {
+    "period": "2019",
+    "series_no": "POLICY-MOF-CARBON-TAX",
+    "series_name": "Carbon Tax",
+    "priority": "critical",
+    "direction": "mixed"
+  },
+  "driver_scores": [
+    {
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "score": 34,
+      "rank": 1,
+      "evidence_basis": "Singapore's carbon tax was a direct policy intervention that changed economic incentives by placing a price on emissions."
+    },
+    {
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "score": 16,
+      "rank": 2,
+      "evidence_basis": "The policy particularly affected emissions-intensive industrial and energy-related facilities, including refining and petrochemical activities."
+    },
+    {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "score": 9,
+      "rank": 3,
+      "evidence_basis": "Compliance obligations and emissions reporting created operational adjustments, but not the dominant transmission channel."
+    }
+  ],
+  "final_attribution": {
+    "primary_driver": {
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "score": 34
+    },
+    "secondary_driver": {
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "score": 16
+    },
+    "tertiary_driver": {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "score": 9
+    },
+    "confidence": "high",
+    "summary": "SG-CARBON-TAX-2019 is classified as a policy-native replay case. The primary attribution is MKT_006 because the carbon tax was a government policy mechanism that changed incentives and costs through emissions pricing."
+  },
+  "mechanism_summary": {
+    "dominant_mechanism": "Policy cost signalling through carbon pricing.",
+    "supporting_mechanisms": [
+      "emissions-intensive firms faced carbon-related costs",
+      "carbon pricing encouraged efficiency and lower-emissions behaviour",
+      "energy-related sectors were more exposed due to emissions intensity",
+      "compliance and reporting created operational adjustment requirements"
+    ]
+  },
+  "scorecard_status": {
+    "attribution_scored": true,
+    "outcome_ready": true,
+    "human_review_required": true
+  }
+}

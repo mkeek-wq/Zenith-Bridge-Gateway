@@ -1,0 +1,317 @@
+{
+  "dispatch_version": "promoter-task-dispatch-v0.1",
+  "dispatch_id": "DSP-20260626-0001",
+  "generated_at": "2026-06-26T05:10:48.006Z",
+  "purpose": "Creates queued downstream Smurf tasks after human-approved promotion. Does not execute tasks.",
+  "source_preview": "data/intelligence/promoter-dispatch-preview-v0.1.json",
+  "source_registry": "data/intelligence/smurf-registry-v0.1.json",
+  "task_count": 5,
+  "tasks": [
+    {
+      "task_id": "DSP-20260626-0001-TASK-001",
+      "dispatch_id": "DSP-20260626-0001",
+      "smurf_id": "COVERAGE",
+      "smurf_name": "Coverage Smurf",
+      "stage": 1,
+      "parallel_group": "stage_1",
+      "dependencies": [
+        "PROMOTER"
+      ],
+      "status": "completed",
+      "trigger_event": "dataset_promoted",
+      "dataset_count": 7,
+      "assigned_worker": null,
+      "created_at": "2026-06-26T05:10:48.006Z",
+      "started_at": "2026-06-26T05:50:15.653Z",
+      "finished_at": "2026-06-26T05:50:19.239Z",
+      "duration_seconds": 3.586,
+      "expected_runtime_seconds": 60,
+      "yellow_runtime_seconds": 300,
+      "red_runtime_seconds": 900,
+      "scaling": {
+        "parallelizable": true,
+        "parallel_unit": "candidate_or_dataset",
+        "expected_runtime_seconds": 60,
+        "yellow_runtime_seconds": 300,
+        "red_runtime_seconds": 900,
+        "scale_strategy": "split_by_candidate_then_add_worker"
+      },
+      "outputs_expected": [
+        "data/intelligence/dataset-coverage-engine-v0.1.json",
+        "data/intelligence/coverage-hardening-dashboard-v0.2.json"
+      ],
+      "production_mutation_allowed": false,
+      "execution_allowed": true,
+      "worker_results": [
+        {
+          "script": "src/scripts/build-dataset-coverage-engine-v0.1.ts",
+          "status": "completed",
+          "exit_code": 0,
+          "stdout_tail": "ence/dataset-coverage-engine-v0.1.json'\n}\nART-what-precision-engineering-reveals-about-singapore-s-capital-equipment-cycle | 1 | strong_data_coverage | missing=0\nART-what-transport-engineering-reveals-about-singapore-s-aviation-and-marine-recovery | 1 | strong_data_coverage | missing=0\nART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles | 1 | strong_data_coverage | missing=0\nART-how-chemicals-and-petrochemicals-reflect-singapore-s-industrial-cycle | 0.4 | thin_data_coverage | missing=1\nART-understanding-biomedical-pharmaceutical-production-cycle-in-singapore-s-manufacturing-data | 0.4 | thin_data_coverage | missing=1\nART-how-global-demand-shocks-move-through-singapore-s-industrial-base | 0.4 | thin_data_coverage | missing=1\nART-how-semiconductor-cycles-shape-singapore-s-manufacturing-advantage | 0.714 | partial_data_coverage | missing=1\nART-understanding-inventory-cycle-restocking-in-singapore-s-manufacturing-data | 0.4 | thin_data_coverage | missing=1\n",
+          "stderr_tail": ""
+        },
+        {
+          "script": "src/scripts/build-coverage-hardening-dashboard-v0.2.ts",
+          "status": "completed",
+          "exit_code": 0,
+          "stdout_tail": "mited\nMKT_007 | coverage=0.726 | diversity=0.545 | readiness=0.645 | coverage_strong_diversity_limited\nMKT_004 | coverage=0.803 | diversity=0.508 | readiness=0.67 | coverage_strong_diversity_limited\nMKT_005 | coverage=0.764 | diversity=0.649 | readiness=0.712 | watchlist_candidate\nMKT_009 | coverage=0.894 | diversity=0.494 | readiness=0.714 | coverage_strong_diversity_limited\nMKT_012 | coverage=0.853 | diversity=0.576 | readiness=0.728 | coverage_strong_diversity_limited\nMKT_011 | coverage=0.848 | diversity=0.583 | readiness=0.729 | coverage_strong_diversity_limited\nMKT_013 | coverage=0.936 | diversity=0.494 | readiness=0.737 | coverage_strong_diversity_limited\nMKT_008 | coverage=0.827 | diversity=0.72 | readiness=0.779 | watchlist_candidate\nMKT_006 | coverage=0.755 | diversity=0.884 | readiness=0.813 | principle_candidate\nMKT_010 | coverage=0.793 | diversity=0.875 | readiness=0.83 | principle_candidate\nMKT_002 | coverage=0.795 | diversity=0.944 | readiness=0.862 | principle_candidate\n",
+          "stderr_tail": ""
+        },
+        {
+          "script": "src/scripts/build-macro-coverage-assessment-v0.1.ts",
+          "status": "completed",
+          "exit_code": 0,
+          "stdout_tail": "{\n  assessment_version: 'macro-coverage-assessment-v0.1',\n  cases_assessed: 4,\n  well_hardened: 0,\n  partially_hardened: 4,\n  thin_but_improving: 0,\n  still_under_hardened: 0,\n  output: 'data/intelligence/macro-coverage-assessment-v0.1.json'\n}\npartially_hardened | SG-MANUFACTURING-2020 | score=0.812 | candidates=3\npartially_hardened | SG-PETROLEUM-2020 | score=0.713 | candidates=3\npartially_hardened | SG-BIOMEDICAL-2021 | score=0.713 | candidates=3\npartially_hardened | SG-SEMICONDUCTOR-2021 | score=0.8 | candidates=4\n",
+          "stderr_tail": ""
+        }
+      ]
+    },
+    {
+      "task_id": "DSP-20260626-0001-TASK-002",
+      "dispatch_id": "DSP-20260626-0001",
+      "smurf_id": "GRAPH",
+      "smurf_name": "Graph Smurf",
+      "stage": 2,
+      "parallel_group": "stage_2",
+      "dependencies": [
+        "PROMOTER",
+        "COVERAGE"
+      ],
+      "status": "completed",
+      "trigger_event": "dataset_promoted",
+      "dataset_count": 7,
+      "assigned_worker": null,
+      "created_at": "2026-06-26T05:10:48.006Z",
+      "started_at": "2026-06-26T05:50:32.915Z",
+      "finished_at": "2026-06-26T05:50:36.558Z",
+      "duration_seconds": 3.643,
+      "expected_runtime_seconds": 90,
+      "yellow_runtime_seconds": 420,
+      "red_runtime_seconds": 1200,
+      "scaling": {
+        "parallelizable": true,
+        "parallel_unit": "graph",
+        "expected_runtime_seconds": 90,
+        "yellow_runtime_seconds": 420,
+        "red_runtime_seconds": 1200,
+        "scale_strategy": "split_by_graph_then_add_worker"
+      },
+      "outputs_expected": [
+        "data/intelligence/graph-data-package-v0.1.json",
+        "data/intelligence/graph-specification-package-v0.1.json"
+      ],
+      "production_mutation_allowed": false,
+      "execution_allowed": true,
+      "worker_results": [
+        {
+          "script": "src/scripts/build-graph-data-package-v0.1.ts",
+          "status": "completed",
+          "exit_code": 0,
+          "stdout_tail": "{\n  package_version: 'graph-data-package-v0.1',\n  package_count: 7,\n  output: '/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/graph-data-package-v0.1.json'\n}\nSG_CHEMICALS_OUTPUT_INDEX | latest=2025:46718.4 | yoy=-5.44% | trend=rising\nSG_PETROLEUM_OUTPUT_INDEX | latest=2025:38344 | yoy=-9.02% | trend=rising\nSG_PRECISION_ENGINEERING_OUTPUT_INDEX | latest=2025:48081 | yoy=13.71% | trend=rising\nSG_SEMICONDUCTOR_OUTPUT_INDEX | latest=2025:220845.7 | yoy=18.1% | trend=rising\nSG_TOTAL_MANUFACTURING_OUTPUT_INDEX | latest=2025:459504.1 | yoy=11.25% | trend=rising\nSG_TRANSPORT_ENGINEERING_OUTPUT_INDEX | latest=2025:33614.4 | yoy=31.49% | trend=rising\nSG_BIOMEDICAL_OUTPUT_INDEX | latest=2025:14655 | yoy=50.75% | trend=broadly_stable\n",
+          "stderr_tail": ""
+        },
+        {
+          "script": "src/scripts/build-graph-specification-package-v0.1.ts",
+          "status": "completed",
+          "exit_code": 0,
+          "stdout_tail": "{\n  package_version: 'graph-specification-package-v0.1',\n  graph_spec_count: 10,\n  output: '/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/graph-specification-package-v0.1.json'\n}\n",
+          "stderr_tail": ""
+        },
+        {
+          "script": "src/scripts/render-graph-specification-v0.3.ts",
+          "status": "completed",
+          "exit_code": 0,
+          "stdout_tail": "{\n  rendered_count: 10,\n  output_dir: '/var/www/zenith-admin/intelligence-data/assets/generated-graphs',\n  manifest: 'rendered-graph-assets-v0.3.json'\n}\n",
+          "stderr_tail": ""
+        }
+      ]
+    },
+    {
+      "task_id": "DSP-20260626-0001-TASK-003",
+      "dispatch_id": "DSP-20260626-0001",
+      "smurf_id": "SIGNAL",
+      "smurf_name": "Signal Smurf",
+      "stage": 2,
+      "parallel_group": "stage_2",
+      "dependencies": [
+        "PROMOTER",
+        "COVERAGE"
+      ],
+      "status": "completed",
+      "trigger_event": "dataset_promoted",
+      "dataset_count": 7,
+      "assigned_worker": null,
+      "created_at": "2026-06-26T05:10:48.006Z",
+      "started_at": "2026-06-26T05:50:37.612Z",
+      "finished_at": "2026-06-26T05:50:39.752Z",
+      "duration_seconds": 2.14,
+      "expected_runtime_seconds": 90,
+      "yellow_runtime_seconds": 420,
+      "red_runtime_seconds": 1200,
+      "scaling": {
+        "parallelizable": true,
+        "parallel_unit": "signal_or_dataset",
+        "expected_runtime_seconds": 90,
+        "yellow_runtime_seconds": 420,
+        "red_runtime_seconds": 1200,
+        "scale_strategy": "split_by_signal_family_then_add_worker"
+      },
+      "outputs_expected": [
+        "data/intelligence/early-warning-signal-skeleton-v0.1.json",
+        "data/intelligence/signal-watchlist-registry-v0.1.json"
+      ],
+      "production_mutation_allowed": false,
+      "execution_allowed": true,
+      "worker_results": [
+        {
+          "script": "src/scripts/build-early-warning-signal-skeleton-v0.1.ts",
+          "status": "completed",
+          "exit_code": 0,
+          "stdout_tail": "\nmedium_high | MKT_009 | healthcare demand | threshold_or_change_detection\nhigh | MKT_013 | IATA traffic | threshold_or_change_detection\nhigh | MKT_013 | aircraft utilization | threshold_or_change_detection\nhigh | MKT_013 | MRO demand | threshold_or_change_detection\nhigh | MKT_013 | fleet expansion | event_detection\nhigh | MKT_012 | capital expenditure | qualitative_signal_detection\nhigh | MKT_012 | machinery orders | threshold_or_change_detection\nhigh | MKT_012 | automation investment | qualitative_signal_detection\nhigh | MKT_012 | equipment demand | threshold_or_change_detection\nmedium | MKT_007 | industrial production | qualitative_signal_detection\nmedium | MKT_007 | business sentiment | qualitative_signal_detection\nmedium | MKT_007 | sector demand | threshold_or_change_detection\nmedium | MKT_002 | industrial production | qualitative_signal_detection\nmedium | MKT_002 | business sentiment | qualitative_signal_detection\nmedium | MKT_002 | sector demand | threshold_or_change_detection\n",
+          "stderr_tail": ""
+        },
+        {
+          "script": "src/scripts/build-signal-watchlist-registry-v0.1.ts",
+          "status": "completed",
+          "exit_code": 0,
+          "stdout_tail": "biweekly | MKT_010 | global PMI\nbiweekly | MKT_010 | export orders\nbiweekly | MKT_010 | trade volumes\nbiweekly | MKT_010 | manufacturing sentiment\nbiweekly | MKT_011 | chemical demand\nbiweekly | MKT_011 | feedstock prices\nbiweekly | MKT_011 | petrochemical margins\nbiweekly | MKT_011 | plant utilization\nbiweekly | MKT_009 | pharmaceutical production schedules\nbiweekly | MKT_009 | biologics demand\nbiweekly | MKT_009 | vaccine manufacturing\nbiweekly | MKT_009 | healthcare demand\nweekly | MKT_013 | IATA traffic\nweekly | MKT_013 | aircraft utilization\nweekly | MKT_013 | MRO demand\nweekly | MKT_013 | fleet expansion\nweekly | MKT_012 | capital expenditure\nweekly | MKT_012 | machinery orders\nweekly | MKT_012 | automation investment\nweekly | MKT_012 | equipment demand\nmonthly | MKT_007 | industrial production\nmonthly | MKT_007 | business sentiment\nmonthly | MKT_007 | sector demand\nmonthly | MKT_002 | industrial production\nmonthly | MKT_002 | business sentiment\nmonthly | MKT_002 | sector demand\n",
+          "stderr_tail": ""
+        }
+      ]
+    },
+    {
+      "task_id": "DSP-20260626-0001-TASK-004",
+      "dispatch_id": "DSP-20260626-0001",
+      "smurf_id": "REPLAY",
+      "smurf_name": "Replay Smurf",
+      "stage": 3,
+      "parallel_group": "stage_3",
+      "dependencies": [
+        "PROMOTER",
+        "SIGNAL"
+      ],
+      "status": "completed",
+      "trigger_event": "dataset_promoted",
+      "dataset_count": 7,
+      "assigned_worker": null,
+      "created_at": "2026-06-26T05:10:48.006Z",
+      "started_at": "2026-06-26T06:48:23.688Z",
+      "finished_at": "2026-06-26T06:48:28.552Z",
+      "duration_seconds": 4.864,
+      "expected_runtime_seconds": 300,
+      "yellow_runtime_seconds": 900,
+      "red_runtime_seconds": 1800,
+      "scaling": {
+        "parallelizable": true,
+        "parallel_unit": "case",
+        "expected_runtime_seconds": 300,
+        "yellow_runtime_seconds": 900,
+        "red_runtime_seconds": 1800,
+        "scale_strategy": "split_by_case_or_sector_then_add_replay_worker"
+      },
+      "outputs_expected": [
+        "data/replay",
+        "data/intelligence/replay-experience-accumulator-v0.1.json"
+      ],
+      "production_mutation_allowed": false,
+      "execution_allowed": true,
+      "worker_results": [
+        {
+          "script": "src/scripts/build-replay-readiness-check-v0.1.ts",
+          "status": "completed",
+          "exit_code": 0,
+          "stdout_tail": "──────────────────────────────────────────┐\n│ (index) │ check                           │ passed │ detail                                                 │\n├─────────┼─────────────────────────────────┼────────┼────────────────────────────────────────────────────────┤\n│ 0       │ 'MAINTENANCE_COMPATIBILITY'     │ true   │ 'General maintenance compatibility must be clean.'     │\n│ 1       │ 'MODULE_REGISTRY_PRESENT'       │ true   │ 'Module registry must exist.'                          │\n│ 2       │ 'COMPATIBILITY_CHECK_PRESENT'   │ true   │ 'Compatibility check must allow standard operations.'  │\n│ 3       │ 'REPLAY_CONFIG_PRESENT'         │ true   │ 'Replay run config must exist.'                        │\n│ 4       │ 'REPLAY_DRY_RUN_MODE'           │ true   │ 'Replay must begin in dry_run_only mode.'              │\n│ 5       │ 'PRODUCTION_MUTATION_BLOCKED'   │ true   │ 'Replay must not mutate production evidence.'          │\n│ 6       │ 'THROTTLE_ENABLED'              │ true   │ 'Replay should start throttled and single-threaded.'   │\n│ 7       │ 'RUN_LIMITS_PRESENT'            │ true   │ 'Replay must have run-size limits.'                    │\n│ 8       │ 'REPLAY_DIRECTORIES_PRESENT'    │ true   │ 'Replay directory structure must exist.'               │\n│ 9       │ 'PRE_INGESTION_BASELINE_EXISTS' │ true   │ 'A baseline snapshot should exist before replay runs.' │\n└─────────┴─────────────────────────────────┴────────┴────────────────────────────────────────────────────────┘\n",
+          "stderr_tail": ""
+        },
+        {
+          "script": "src/scripts/build-replay-fleet-dry-run-executor-v0.1.ts",
+          "status": "completed",
+          "exit_code": 0,
+          "stdout_tail": "{\n  engine_version: 'replay-fleet-dry-run-executor-v0.1',\n  fleet_run_id: 'FLEET_RUN_2026-06-26T06-48-26-182Z',\n  execution_status: 'fleet_replay_dry_run_completed',\n  summary: {\n    cases_processed: 4,\n    cases_completed: 4,\n    cases_failed: 0,\n    total_records_replayed: 11,\n    production_records_written: 0\n  },\n  output: 'data/replay/fleet-runs/replay-fleet-dry-run-executor-v0.1.json'\n}\n┌─────────┬─────────────────────────┬──────────────────┬─────────┬────────────┬─────────────┐\n│ (index) │ case_id                 │ domain           │ records │ mechanisms │ status      │\n├─────────┼─────────────────────────┼──────────────────┼─────────┼────────────┼─────────────┤\n│ 0       │ 'SG-MANUFACTURING-2020' │ 'manufacturing'  │ 3       │ 2          │ 'completed' │\n│ 1       │ 'SG-PETROLEUM-2020'     │ 'petroleum'      │ 2       │ 2          │ 'completed' │\n│ 2       │ 'SG-SEMICONDUCTOR-2021' │ 'semiconductors' │ 3       │ 2          │ 'completed' │\n│ 3       │ 'SG-BIOMEDICAL-2021'    │ 'biomedical'     │ 3       │ 3          │ 'completed' │\n└─────────┴─────────────────────────┴──────────────────┴─────────┴────────────┴─────────────┘\n",
+          "stderr_tail": ""
+        },
+        {
+          "script": "src/scripts/build-replay-fleet-evaluation-engine-v0.1.ts",
+          "status": "completed",
+          "exit_code": 0,
+          "stdout_tail": "{\n  engine_version: 'replay-fleet-evaluation-engine-v0.1',\n  fleet_run_id: 'FLEET_RUN_2026-06-26T06-48-26-182Z',\n  summary: {\n    fleet_quality_score: 1,\n    fleet_mechanism_coverage: 1,\n    fleet_expected_match_ratio: 1,\n    unique_mechanisms_detected: 3,\n    strong_cases: 4,\n    moderate_cases: 0,\n    weak_cases: 0,\n    insufficient_cases: 0,\n    production_records_written: 0\n  },\n  output: 'data/replay/fleet-evaluations/replay-fleet-evaluation-engine-v0.1.json'\n}\n┌─────────┬─────────────────────────┬──────────┬───────┬─────────┬──────────────────────┐\n│ (index) │ case_id                 │ coverage │ match │ quality │ band                 │\n├─────────┼─────────────────────────┼──────────┼───────┼─────────┼──────────────────────┤\n│ 0       │ 'SG-MANUFACTURING-2020' │ 1        │ 1     │ 1       │ 'strong_replay_case' │\n│ 1       │ 'SG-PETROLEUM-2020'     │ 1        │ 1     │ 1       │ 'strong_replay_case' │\n│ 2       │ 'SG-SEMICONDUCTOR-2021' │ 1        │ 1     │ 1       │ 'strong_replay_case' │\n│ 3       │ 'SG-BIOMEDICAL-2021'    │ 1        │ 1     │ 1       │ 'strong_replay_case' │\n└─────────┴─────────────────────────┴──────────┴───────┴─────────┴──────────────────────┘\n",
+          "stderr_tail": ""
+        },
+        {
+          "script": "src/scripts/build-replay-calibration-engine-v0.2.ts",
+          "status": "completed",
+          "exit_code": 0,
+          "stdout_tail": "{\n  registry_version: 'replay-calibration-engine-v0.2',\n  inputs: { fleet_cases: 4, mechanisms_detected: 3 },\n  summary: {\n    mechanisms_calibrated: 3,\n    average_calibration_score: 0.82,\n    strong_calibration: 2,\n    moderate_calibration: 1,\n    weak_calibration: 0,\n    insufficient_calibration: 0\n  },\n  output: 'data/replay/replay-calibration-engine-v0.2.json'\n}\n┌─────────┬──────────────────────────────────────────────────┬───────┬───────────┬────────┬────────────┬────────┬───────┬────────────────────────┐\n│ (index) │ mechanism                                        │ cases │ precision │ recall │ unexpected │ missed │ score │ band                   │\n├─────────┼──────────────────────────────────────────────────┼───────┼───────────┼────────┼────────────┼────────┼───────┼────────────────────────┤\n│ 0       │ 'MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY' │ 4     │ 0.5       │ 1      │ 2          │ 0      │ 0.685 │ 'moderate_calibration' │\n│ 1       │ 'MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY'      │ 4     │ 1         │ 1      │ 0          │ 0      │ 0.91  │ 'strong_calibration'   │\n│ 2       │ 'MKT_006_POLICY_REGULATORY_IMPACT'               │ 1     │ 1         │ 1      │ 0          │ 0      │ 0.865 │ 'strong_calibration'   │\n└─────────┴──────────────────────────────────────────────────┴───────┴───────────┴────────┴────────────┴────────┴───────┴────────────────────────┘\n",
+          "stderr_tail": ""
+        }
+      ]
+    },
+    {
+      "task_id": "DSP-20260626-0001-TASK-005",
+      "dispatch_id": "DSP-20260626-0001",
+      "smurf_id": "WORKBENCH",
+      "smurf_name": "Workbench Smurf",
+      "stage": 4,
+      "parallel_group": "stage_4",
+      "dependencies": [
+        "COVERAGE",
+        "GRAPH",
+        "SIGNAL"
+      ],
+      "status": "completed",
+      "trigger_event": "dataset_promoted",
+      "dataset_count": 7,
+      "assigned_worker": null,
+      "created_at": "2026-06-26T05:10:48.006Z",
+      "started_at": "2026-06-26T06:57:46.855Z",
+      "finished_at": "2026-06-26T06:57:50.266Z",
+      "duration_seconds": 3.411,
+      "expected_runtime_seconds": 120,
+      "yellow_runtime_seconds": 600,
+      "red_runtime_seconds": 1500,
+      "scaling": {
+        "parallelizable": true,
+        "parallel_unit": "article_candidate",
+        "expected_runtime_seconds": 120,
+        "yellow_runtime_seconds": 600,
+        "red_runtime_seconds": 1500,
+        "scale_strategy": "split_by_article_candidate_then_add_worker"
+      },
+      "outputs_expected": [
+        "data/intelligence/article-workbench-package-v0.2.json",
+        "data/intelligence/interpretation-workbench-package-v0.1.json"
+      ],
+      "production_mutation_allowed": false,
+      "execution_allowed": true,
+      "worker_results": [
+        {
+          "script": "src/scripts/build-article-workbench-package-v0.2.ts",
+          "status": "completed",
+          "exit_code": 0,
+          "stdout_tail": "{\n  workbench_version: 'article-workbench-package-v0.2',\n  package_count: 10,\n  ready_count: 4,\n  blocked_count: 6,\n  output: '/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/article-workbench-package-v0.2.json'\n}\n",
+          "stderr_tail": ""
+        },
+        {
+          "script": "src/scripts/build-interpretation-workbench-package-v0.1.ts",
+          "status": "completed",
+          "exit_code": 0,
+          "stdout_tail": "{\n  package_version: 'interpretation-workbench-package-v0.1',\n  title: \"What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles\",\n  confidence: '93.3%',\n  historical_cases: 6,\n  questions: 5,\n  output: '/opt/Zenith-Bridge-Gateway/artifacts/api-server/exports/article-generator/interpretation-workbench-package-v0.1.json'\n}\n",
+          "stderr_tail": ""
+        },
+        {
+          "script": "src/scripts/build-graph-data-workbench-package-v0.1.ts",
+          "status": "completed",
+          "exit_code": 0,
+          "stdout_tail": "{\n  package_version: 'graph-data-workbench-package-v0.1',\n  title: \"What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles\",\n  graph_tasks: 3,\n  conceptual_possible: 2,\n  manual_verified_data_required: 1,\n  output: '/opt/Zenith-Bridge-Gateway/artifacts/api-server/exports/article-generator/graph-data-workbench-package-v0.1.json'\n}\n",
+          "stderr_tail": ""
+        }
+      ]
+    }
+  ],
+  "governance": {
+    "dispatch_only": true,
+    "production_mutation_allowed": false,
+    "execution_allowed": false,
+    "papa_approval_required_for_execution": true
+  }
+}

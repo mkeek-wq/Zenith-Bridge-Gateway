@@ -1,0 +1,22 @@
+{
+  "archive_version": "document-archive-v0.1",
+  "archived_at": "2026-05-29T13:40:24.110Z",
+  "document_id": "SG_SINGSTAT_business-receipts-for-services-industries-1q2026",
+  "institution_id": "SG_SINGSTAT",
+  "feed_id": "SINGSTAT_RELEASES",
+  "title": "Business Receipts for Services Industries, 1Q 2026",
+  "slug": "business-receipts-for-services-industries-1q2026",
+  "url": "https://www.singstat.gov.sg/news/business-receipts-for-services-industries-1q2026",
+  "publication_date": "2026-05-28",
+  "resource_type": "Press Releases",
+  "summary": "Business receipts for the services sector, excluding Accommodation, Finance & Insurance and Real Estate Developers, increased 3.7% year-on-year in 1Q 2026.",
+  "http_status": 200,
+  "content_length": 137052,
+  "content_hash": "2de6145af26be0a7e79ef63f6010fcfc33d9a9289348c2f41fe96c15641f9f2e",
+  "files": {
+    "latest_metadata": "metadata.json",
+    "latest_document_html": "document.html",
+    "timestamp_metadata": "2026-05-29T13-40-24-110Z-metadata.json",
+    "timestamp_document_html": "2026-05-29T13-40-24-110Z-document.html"
+  }
+}

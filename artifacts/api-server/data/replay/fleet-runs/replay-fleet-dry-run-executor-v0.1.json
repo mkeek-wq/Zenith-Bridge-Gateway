@@ -1,0 +1,339 @@
+{
+  "registry_version": "replay-fleet-dry-run-executor-v0.1",
+  "created_at": "2026-06-26T06:48:26.197Z",
+  "doctrine": {
+    "fleet_replay_is_dry_run_only": true,
+    "no_production_mutation": true,
+    "no_lifecycle_mutation": true,
+    "no_validation_mutation": true,
+    "fleet_outputs_require_evaluation": true
+  },
+  "fleet_run_id": "FLEET_RUN_2026-06-26T06-48-26-182Z",
+  "execution_status": "fleet_replay_dry_run_completed",
+  "blockers": [],
+  "inputs": {
+    "fleet_items": 8,
+    "ready_items": 4
+  },
+  "summary": {
+    "cases_processed": 4,
+    "cases_completed": 4,
+    "cases_failed": 0,
+    "total_records_replayed": 11,
+    "production_records_written": 0
+  },
+  "case_outputs": [
+    {
+      "case_id": "SG-MANUFACTURING-2020",
+      "case_label": "Singapore Manufacturing Recovery 2020-2021",
+      "domain": "manufacturing",
+      "input_file": "data/replay/input/replay-input-sg-manufacturing-recovery-v0.1.json",
+      "replay_status": "completed",
+      "records_supplied": 3,
+      "records_replayed": 3,
+      "records_with_mechanisms": 3,
+      "unique_mechanisms_detected": 2,
+      "mechanism_counts": {
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY": 3,
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY": 1
+      },
+      "expected_mechanisms": [
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY",
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "replayed_records": [
+        {
+          "replay_record_id": "SG-MANUFACTURING-2020_REC_0001",
+          "source_record_id": "RPLAY_SG_MFG_2020_001",
+          "metric_name": "MANUFACTURING_OUTPUT_CHANGE_YOY",
+          "period": "2020-Q2",
+          "value": -8.5,
+          "direction": "negative",
+          "source_title": "Replay Pilot Synthetic Historical Input",
+          "evidence_window": "Manufacturing output weakened during the 2020 shock period.",
+          "inferred_mechanisms": [
+            "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY"
+          ],
+          "governance": {
+            "dry_run_only": true,
+            "production_write_allowed": false,
+            "lifecycle_mutation_allowed": false,
+            "validation_mutation_allowed": false
+          }
+        },
+        {
+          "replay_record_id": "SG-MANUFACTURING-2020_REC_0002",
+          "source_record_id": "RPLAY_SG_MFG_2021_001",
+          "metric_name": "MANUFACTURING_OUTPUT_CHANGE_YOY",
+          "period": "2021-Q1",
+          "value": 10.7,
+          "direction": "positive",
+          "source_title": "Replay Pilot Synthetic Historical Input",
+          "evidence_window": "Manufacturing output recovered strongly during the 2021 recovery period.",
+          "inferred_mechanisms": [
+            "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY"
+          ],
+          "governance": {
+            "dry_run_only": true,
+            "production_write_allowed": false,
+            "lifecycle_mutation_allowed": false,
+            "validation_mutation_allowed": false
+          }
+        },
+        {
+          "replay_record_id": "SG-MANUFACTURING-2020_REC_0003",
+          "source_record_id": "RPLAY_SG_NODX_2021_001",
+          "metric_name": "NODX_CHANGE_YOY",
+          "period": "2021-Q1",
+          "value": 12.1,
+          "direction": "positive",
+          "source_title": "Replay Pilot Synthetic Historical Input",
+          "evidence_window": "External trade improved during the recovery period.",
+          "inferred_mechanisms": [
+            "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY",
+            "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+          ],
+          "governance": {
+            "dry_run_only": true,
+            "production_write_allowed": false,
+            "lifecycle_mutation_allowed": false,
+            "validation_mutation_allowed": false
+          }
+        }
+      ],
+      "governance": {
+        "dry_run_only": true,
+        "production_records_written": 0
+      }
+    },
+    {
+      "case_id": "SG-PETROLEUM-2020",
+      "case_label": "Singapore Petroleum Shock 2020",
+      "domain": "petroleum",
+      "input_file": "data/replay/input/replay-input-sg-petroleum-2020-v0.1.json",
+      "replay_status": "completed",
+      "records_supplied": 2,
+      "records_replayed": 2,
+      "records_with_mechanisms": 2,
+      "unique_mechanisms_detected": 2,
+      "mechanism_counts": {
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY": 1,
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY": 2
+      },
+      "expected_mechanisms": [
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "replayed_records": [
+        {
+          "replay_record_id": "SG-PETROLEUM-2020_REC_0001",
+          "source_record_id": "RPLAY_SG_PET_2020_001",
+          "metric_name": "PETROLEUM_OUTPUT_CHANGE_YOY",
+          "period": "2020-Q2",
+          "value": -22.4,
+          "direction": "negative",
+          "source_title": "Replay Pilot Synthetic Historical Input",
+          "evidence_window": "Petroleum output weakened sharply during the 2020 demand shock.",
+          "inferred_mechanisms": [
+            "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY",
+            "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+          ],
+          "governance": {
+            "dry_run_only": true,
+            "production_write_allowed": false,
+            "lifecycle_mutation_allowed": false,
+            "validation_mutation_allowed": false
+          }
+        },
+        {
+          "replay_record_id": "SG-PETROLEUM-2020_REC_0002",
+          "source_record_id": "RPLAY_SG_PET_2020_002",
+          "metric_name": "EXPORT_DEMAND_CHANGE_YOY",
+          "period": "2020-Q2",
+          "value": -14.1,
+          "direction": "negative",
+          "source_title": "Replay Pilot Synthetic Historical Input",
+          "evidence_window": "External demand weakened during the 2020 shock period.",
+          "inferred_mechanisms": [
+            "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+          ],
+          "governance": {
+            "dry_run_only": true,
+            "production_write_allowed": false,
+            "lifecycle_mutation_allowed": false,
+            "validation_mutation_allowed": false
+          }
+        }
+      ],
+      "governance": {
+        "dry_run_only": true,
+        "production_records_written": 0
+      }
+    },
+    {
+      "case_id": "SG-SEMICONDUCTOR-2021",
+      "case_label": "Singapore Semiconductor Recovery 2021",
+      "domain": "semiconductors",
+      "input_file": "data/replay/input/replay-input-sg-semiconductor-2021-v0.1.json",
+      "replay_status": "completed",
+      "records_supplied": 3,
+      "records_replayed": 3,
+      "records_with_mechanisms": 3,
+      "unique_mechanisms_detected": 2,
+      "mechanism_counts": {
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY": 3,
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY": 1
+      },
+      "expected_mechanisms": [
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY",
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "replayed_records": [
+        {
+          "replay_record_id": "SG-SEMICONDUCTOR-2021_REC_0001",
+          "source_record_id": "RPLAY_SG_SEMI_2021_001",
+          "metric_name": "SEMICONDUCTOR_OUTPUT_CHANGE_YOY",
+          "period": "2021-Q1",
+          "value": 18.2,
+          "direction": "positive",
+          "source_title": "Replay Pilot Synthetic Historical Input",
+          "evidence_window": "Semiconductor output recovered strongly during the 2021 electronics recovery.",
+          "inferred_mechanisms": [
+            "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY"
+          ],
+          "governance": {
+            "dry_run_only": true,
+            "production_write_allowed": false,
+            "lifecycle_mutation_allowed": false,
+            "validation_mutation_allowed": false
+          }
+        },
+        {
+          "replay_record_id": "SG-SEMICONDUCTOR-2021_REC_0002",
+          "source_record_id": "RPLAY_SG_SEMI_2021_002",
+          "metric_name": "NODX_CHANGE_YOY",
+          "period": "2021-Q1",
+          "value": 12.1,
+          "direction": "positive",
+          "source_title": "Replay Pilot Synthetic Historical Input",
+          "evidence_window": "Electronics exports improved during the 2021 external demand recovery.",
+          "inferred_mechanisms": [
+            "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY",
+            "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+          ],
+          "governance": {
+            "dry_run_only": true,
+            "production_write_allowed": false,
+            "lifecycle_mutation_allowed": false,
+            "validation_mutation_allowed": false
+          }
+        },
+        {
+          "replay_record_id": "SG-SEMICONDUCTOR-2021_REC_0003",
+          "source_record_id": "RPLAY_SG_SEMI_2021_003",
+          "metric_name": "INVENTORY_RESTOCKING_SIGNAL",
+          "period": "2021-Q2",
+          "value": 1,
+          "direction": "positive",
+          "source_title": "Replay Pilot Synthetic Historical Input",
+          "evidence_window": "Restocking signals appeared during semiconductor recovery.",
+          "inferred_mechanisms": [
+            "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY"
+          ],
+          "governance": {
+            "dry_run_only": true,
+            "production_write_allowed": false,
+            "lifecycle_mutation_allowed": false,
+            "validation_mutation_allowed": false
+          }
+        }
+      ],
+      "governance": {
+        "dry_run_only": true,
+        "production_records_written": 0
+      }
+    },
+    {
+      "case_id": "SG-BIOMEDICAL-2021",
+      "case_label": "Singapore Biomedical Output 2021",
+      "domain": "biomedical",
+      "input_file": "data/replay/input/replay-input-sg-biomedical-2021-v0.1.json",
+      "replay_status": "completed",
+      "records_supplied": 3,
+      "records_replayed": 3,
+      "records_with_mechanisms": 3,
+      "unique_mechanisms_detected": 3,
+      "mechanism_counts": {
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY": 1,
+        "MKT_006_POLICY_REGULATORY_IMPACT": 1,
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY": 1
+      },
+      "expected_mechanisms": [
+        "MKT_006_POLICY_REGULATORY_IMPACT",
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "replayed_records": [
+        {
+          "replay_record_id": "SG-BIOMEDICAL-2021_REC_0001",
+          "source_record_id": "RPLAY_SG_BIO_2021_001",
+          "metric_name": "BIOMEDICAL_OUTPUT_CHANGE_YOY",
+          "period": "2021-Q1",
+          "value": 9.6,
+          "direction": "positive",
+          "source_title": "Replay Pilot Synthetic Historical Input",
+          "evidence_window": "Biomedical output expanded during the post-shock recovery period.",
+          "inferred_mechanisms": [
+            "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY"
+          ],
+          "governance": {
+            "dry_run_only": true,
+            "production_write_allowed": false,
+            "lifecycle_mutation_allowed": false,
+            "validation_mutation_allowed": false
+          }
+        },
+        {
+          "replay_record_id": "SG-BIOMEDICAL-2021_REC_0002",
+          "source_record_id": "RPLAY_SG_BIO_2021_002",
+          "metric_name": "POLICY_SUPPORT_SIGNAL",
+          "period": "2021-Q1",
+          "value": 1,
+          "direction": "positive",
+          "source_title": "Replay Pilot Synthetic Historical Input",
+          "evidence_window": "Policy and capacity support signals were present in biomedical manufacturing.",
+          "inferred_mechanisms": [
+            "MKT_006_POLICY_REGULATORY_IMPACT"
+          ],
+          "governance": {
+            "dry_run_only": true,
+            "production_write_allowed": false,
+            "lifecycle_mutation_allowed": false,
+            "validation_mutation_allowed": false
+          }
+        },
+        {
+          "replay_record_id": "SG-BIOMEDICAL-2021_REC_0003",
+          "source_record_id": "RPLAY_SG_BIO_2021_003",
+          "metric_name": "EXTERNAL_HEALTHCARE_DEMAND_SIGNAL",
+          "period": "2021-Q2",
+          "value": 1,
+          "direction": "positive",
+          "source_title": "Replay Pilot Synthetic Historical Input",
+          "evidence_window": "External healthcare demand remained supportive.",
+          "inferred_mechanisms": [
+            "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+          ],
+          "governance": {
+            "dry_run_only": true,
+            "production_write_allowed": false,
+            "lifecycle_mutation_allowed": false,
+            "validation_mutation_allowed": false
+          }
+        }
+      ],
+      "governance": {
+        "dry_run_only": true,
+        "production_records_written": 0
+      }
+    }
+  ]
+}

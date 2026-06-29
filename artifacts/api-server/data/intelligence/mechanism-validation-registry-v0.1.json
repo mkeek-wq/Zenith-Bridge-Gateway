@@ -1,0 +1,149 @@
+{
+  "mechanism_validation_registry_version": "mechanism-validation-registry-v0.1",
+  "generated_at": "2026-06-08T01:23:11.496Z",
+  "source_validated_mechanism_registry": "data/intelligence/validated-mechanism-registry-v0.1.json",
+  "source_falsification_registry": "data/intelligence/falsification-registry-v0.1.json",
+  "policy": {
+    "principle": "Mechanism validation registry v0.1 controls whether mechanism candidates can become validated mechanisms. No mechanism is validated automatically.",
+    "production_mutation_allowed": false,
+    "human_validation_required": true,
+    "no_automatic_validation": true,
+    "evidence_remains_primary": true
+  },
+  "summary": {
+    "validation_reviews_created": 3,
+    "validated_mechanisms_count": 0,
+    "blocked_pending_falsification": 3,
+    "driver_ids": [
+      "MKT_006",
+      "MKT_010",
+      "MKT_002"
+    ]
+  },
+  "validation_reviews": [
+    {
+      "mechanism_validation_review_id": "MVR_001",
+      "validation_version": "mechanism-validation-review-v0.1",
+      "mechanism_candidate_id": "VMC_001",
+      "hypothesis_id": "HYP_001",
+      "falsification_review_id": "FAL_001",
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "mechanism_statement": "Policy and regulatory changes affect industrial outcomes through cost, incentive, compliance, or capacity-support channels.",
+      "mechanism_type": "policy_transmission_mechanism",
+      "confidence_score": 0.65,
+      "confidence_band": "moderate",
+      "validation_status": "blocked_pending_falsification",
+      "validated_mechanism": false,
+      "validated_mechanism_id": null,
+      "validation_decision": {
+        "decision": "not_validated",
+        "reason": "Counter-evidence and falsification review must be completed before validation.",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "required_before_validation": [
+        "Counter-evidence review completed.",
+        "Falsification review completed.",
+        "Ambiguous evidence assessed.",
+        "Scope and limits defined.",
+        "Human validation decision recorded."
+      ],
+      "usage_permissions_after_validation": {
+        "may_adjust_confidence": true,
+        "may_override_evidence": false,
+        "may_determine_case_outcome": false,
+        "maximum_confidence_adjustment": 0.15
+      },
+      "governance": {
+        "validation_blocked": true,
+        "human_validation_required": true,
+        "production_mutation_allowed": false,
+        "note": "Validation is blocked until falsification and counter-evidence review are completed."
+      }
+    },
+    {
+      "mechanism_validation_review_id": "MVR_002",
+      "validation_version": "mechanism-validation-review-v0.1",
+      "mechanism_candidate_id": "VMC_002",
+      "hypothesis_id": "HYP_002",
+      "falsification_review_id": "FAL_002",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "mechanism_statement": "External demand shocks propagate through export-sensitive sectors before appearing in broader manufacturing outcomes.",
+      "mechanism_type": "external_demand_transmission_mechanism",
+      "confidence_score": 0.7,
+      "confidence_band": "moderate",
+      "validation_status": "blocked_pending_falsification",
+      "validated_mechanism": false,
+      "validated_mechanism_id": null,
+      "validation_decision": {
+        "decision": "not_validated",
+        "reason": "Counter-evidence and falsification review must be completed before validation.",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "required_before_validation": [
+        "Counter-evidence review completed.",
+        "Falsification review completed.",
+        "Ambiguous evidence assessed.",
+        "Scope and limits defined.",
+        "Human validation decision recorded."
+      ],
+      "usage_permissions_after_validation": {
+        "may_adjust_confidence": true,
+        "may_override_evidence": false,
+        "may_determine_case_outcome": false,
+        "maximum_confidence_adjustment": 0.15
+      },
+      "governance": {
+        "validation_blocked": true,
+        "human_validation_required": true,
+        "production_mutation_allowed": false,
+        "note": "Validation is blocked until falsification and counter-evidence review are completed."
+      }
+    },
+    {
+      "mechanism_validation_review_id": "MVR_003",
+      "validation_version": "mechanism-validation-review-v0.1",
+      "mechanism_candidate_id": "VMC_003",
+      "hypothesis_id": "HYP_003",
+      "falsification_review_id": "FAL_003",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "mechanism_statement": "Inventory adjustments amplify manufacturing downturns and recoveries by causing production changes that exceed the underlying change in demand.",
+      "mechanism_type": "amplification_mechanism",
+      "confidence_score": 0.75,
+      "confidence_band": "strong",
+      "validation_status": "blocked_pending_falsification",
+      "validated_mechanism": false,
+      "validated_mechanism_id": null,
+      "validation_decision": {
+        "decision": "not_validated",
+        "reason": "Counter-evidence and falsification review must be completed before validation.",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "required_before_validation": [
+        "Counter-evidence review completed.",
+        "Falsification review completed.",
+        "Ambiguous evidence assessed.",
+        "Scope and limits defined.",
+        "Human validation decision recorded."
+      ],
+      "usage_permissions_after_validation": {
+        "may_adjust_confidence": true,
+        "may_override_evidence": false,
+        "may_determine_case_outcome": false,
+        "maximum_confidence_adjustment": 0.15
+      },
+      "governance": {
+        "validation_blocked": true,
+        "human_validation_required": true,
+        "production_mutation_allowed": false,
+        "note": "Validation is blocked until falsification and counter-evidence review are completed."
+      }
+    }
+  ],
+  "validated_mechanisms": []
+}

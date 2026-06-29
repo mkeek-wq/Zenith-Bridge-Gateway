@@ -1,0 +1,103 @@
+{
+  "cycle_version": "smurf-intelligence-cycle-v0.2",
+  "cycle_id": "2026-06-02T14-47-37-728Z",
+  "cycle_status": "completed",
+  "cycle_started_at": "2026-06-02T14:47:37.728Z",
+  "cycle_completed_at": "2026-06-02T14:47:57.133Z",
+  "steps_planned": 13,
+  "steps_completed": 13,
+  "steps_failed": 0,
+  "steps": [
+    {
+      "name": "Build case files",
+      "command": "pnpm tsx src/scripts/build-case-files.ts",
+      "started_at": "2026-06-02T14:47:37.734Z",
+      "completed_at": "2026-06-02T14:47:39.143Z",
+      "status": "completed"
+    },
+    {
+      "name": "Update case confidence",
+      "command": "pnpm tsx src/scripts/update-case-confidence.ts",
+      "started_at": "2026-06-02T14:47:39.144Z",
+      "completed_at": "2026-06-02T14:47:40.557Z",
+      "status": "completed"
+    },
+    {
+      "name": "Update case state",
+      "command": "pnpm tsx src/scripts/update-case-state.ts",
+      "started_at": "2026-06-02T14:47:40.558Z",
+      "completed_at": "2026-06-02T14:47:41.871Z",
+      "status": "completed"
+    },
+    {
+      "name": "Build investigation queue",
+      "command": "pnpm tsx src/scripts/build-investigation-queue.ts",
+      "started_at": "2026-06-02T14:47:41.873Z",
+      "completed_at": "2026-06-02T14:47:43.214Z",
+      "status": "completed"
+    },
+    {
+      "name": "Update case history",
+      "command": "pnpm tsx src/scripts/update-case-history.ts",
+      "started_at": "2026-06-02T14:47:43.216Z",
+      "completed_at": "2026-06-02T14:47:44.652Z",
+      "status": "completed"
+    },
+    {
+      "name": "Build case fingerprints",
+      "command": "pnpm tsx src/scripts/build-case-fingerprints.ts",
+      "started_at": "2026-06-02T14:47:44.654Z",
+      "completed_at": "2026-06-02T14:47:46.136Z",
+      "status": "completed"
+    },
+    {
+      "name": "Build case similarity",
+      "command": "pnpm tsx src/scripts/build-case-similarity.ts",
+      "started_at": "2026-06-02T14:47:46.139Z",
+      "completed_at": "2026-06-02T14:47:47.627Z",
+      "status": "completed"
+    },
+    {
+      "name": "Build investigation hypotheses",
+      "command": "pnpm tsx src/scripts/build-investigation-hypotheses.ts",
+      "started_at": "2026-06-02T14:47:47.628Z",
+      "completed_at": "2026-06-02T14:47:49.140Z",
+      "status": "completed"
+    },
+    {
+      "name": "Enrich hypotheses with similarity",
+      "command": "pnpm tsx src/scripts/enrich-hypotheses-with-similarity.ts",
+      "started_at": "2026-06-02T14:47:49.142Z",
+      "completed_at": "2026-06-02T14:47:50.658Z",
+      "status": "completed"
+    },
+    {
+      "name": "Build evidence search packages",
+      "command": "pnpm tsx src/scripts/build-evidence-search-packages-v2.ts",
+      "started_at": "2026-06-02T14:47:50.660Z",
+      "completed_at": "2026-06-02T14:47:52.061Z",
+      "status": "completed"
+    },
+    {
+      "name": "Build case outcomes",
+      "command": "pnpm tsx src/scripts/build-case-outcomes.ts",
+      "started_at": "2026-06-02T14:47:52.062Z",
+      "completed_at": "2026-06-02T14:47:53.884Z",
+      "status": "completed"
+    },
+    {
+      "name": "Build historical outcomes",
+      "command": "pnpm tsx src/scripts/build-historical-outcomes.ts",
+      "started_at": "2026-06-02T14:47:53.886Z",
+      "completed_at": "2026-06-02T14:47:55.699Z",
+      "status": "completed"
+    },
+    {
+      "name": "Build outcome recommendations",
+      "command": "pnpm tsx src/scripts/build-outcome-recommendations.ts",
+      "started_at": "2026-06-02T14:47:55.701Z",
+      "completed_at": "2026-06-02T14:47:57.131Z",
+      "status": "completed"
+    }
+  ]
+}

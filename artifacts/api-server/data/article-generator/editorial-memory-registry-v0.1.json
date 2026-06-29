@@ -1,0 +1,219 @@
+{
+  "registry_version": "editorial-memory-registry-v0.1",
+  "generated_at": "2026-06-11T01:36:58.738Z",
+  "memory_items": [
+    {
+      "memory_id": "EMR_ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+      "created_at": "2026-06-11T01:36:58.737Z",
+      "article_identity": {
+        "title": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles",
+        "slug": "what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+        "country": "Singapore",
+        "category": "Energy | Manufacturing | Trade & Logistics",
+        "source_opportunity_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles"
+      },
+      "intelligence_context": {
+        "primary_driver": "Energy Demand / Refining Cycle",
+        "driver_id": "MKT_007",
+        "confidence_score": 0.933,
+        "confidence_tier": "emerging_pattern",
+        "historical_cases": 6,
+        "recurrence_score": 0.833,
+        "experience_strength": 0.606,
+        "pattern_stability": "volatile_pattern"
+      },
+      "editorial_thesis": {
+        "main_thesis": "Singapore's petroleum-related manufacturing activity can be read as a signal of the country's exposure to global energy demand, travel recovery, refining margins, and logistics conditions.",
+        "refined_angle": "Use Singapore petroleum output as the entry point, but make the article about energy-cycle exposure rather than petroleum alone.",
+        "article_promise": "Explain what petroleum-related manufacturing movements may reveal about Singapore's exposure to global energy, travel, logistics, and refining conditions.",
+        "target_reader": "Business leaders, investors, consultants, operators, and professionals monitoring Singapore's economic position in Asia."
+      },
+      "supporting_argument_map": [
+        {
+          "argument": "The signal is recurring, not isolated.",
+          "support": "6 historical cases are linked to the same driver context.",
+          "caveat": "Historical recurrence does not prove causality."
+        },
+        {
+          "argument": "The driver points to energy demand and refining-cycle exposure.",
+          "support": "Primary driver: Energy Demand / Refining Cycle.",
+          "caveat": "The mechanism should be described as interpretation, not proof."
+        },
+        {
+          "argument": "The evidence patterns are business-relevant.",
+          "support": "Fuel demand, jet fuel demand, refinery maintenance, refining margins, crude oil, and travel demand recur in the evidence set.",
+          "caveat": "Pattern frequency is not the same as measured impact."
+        },
+        {
+          "argument": "The topic matters beyond energy.",
+          "support": "Affected sectors include petroleum, refining, energy, and logistics.",
+          "caveat": "Broader trade and logistics implications need verified data for stronger claims."
+        }
+      ],
+      "visual_memory": {
+        "visuals_considered": 3,
+        "conceptual_ready": 2,
+        "quantitative_ready": 0,
+        "blocked": 1,
+        "graph_tasks": [
+          {
+            "graph_task_id": "GDW_GOG_VIS_001",
+            "visual_id": "GOG_VIS_001",
+            "chart_title": "Singapore's Energy Ecosystem",
+            "chart_type": "ecosystem_diagram",
+            "publish_status": "conceptual_ready",
+            "chart_purpose": "Singapore's energy role is created by the interaction between shipping, storage, refining, trading, petrochemicals, and services.",
+            "data_status": "conceptual_visual_possible",
+            "required_metric_ids": [],
+            "suggested_metric_needs": [
+              "No exact metric required if published as conceptual visual",
+              "Use labels that describe mechanism, not measured values"
+            ],
+            "preferred_sources": [
+              "SMURF evidence package",
+              "ZNBW editorial interpretation"
+            ],
+            "publication_use": "Can support article explanation as conceptual visual.",
+            "graph_ready": true
+          },
+          {
+            "graph_task_id": "GDW_GOG_VIS_002",
+            "visual_id": "GOG_VIS_002",
+            "chart_title": "Singapore's Size vs Energy Influence",
+            "chart_type": "comparison_chart",
+            "publish_status": "blocked_pending_verified_metrics",
+            "chart_purpose": "Singapore's energy influence appears disproportionate to its population and land area.",
+            "data_status": "manual_verified_data_required",
+            "required_metric_ids": [],
+            "suggested_metric_needs": [
+              "Singapore petroleum or refining output trend",
+              "Relevant comparator metric for Singapore size or influence",
+              "Source-backed denominator or benchmark"
+            ],
+            "preferred_sources": [
+              "Singapore Department of Statistics",
+              "Maritime and Port Authority of Singapore",
+              "World Bank",
+              "IEA"
+            ],
+            "publication_use": "Do not use until verified metrics are available.",
+            "graph_ready": false
+          },
+          {
+            "graph_task_id": "GDW_GOG_VIS_003",
+            "visual_id": "GOG_VIS_003",
+            "chart_title": "How Singapore Built Its Energy Hub",
+            "chart_type": "timeline",
+            "publish_status": "conceptual_ready",
+            "chart_purpose": "Singapore's energy position developed over decades through port, refining, storage, Jurong Island, and trading infrastructure.",
+            "data_status": "conceptual_visual_possible",
+            "required_metric_ids": [],
+            "suggested_metric_needs": [
+              "No exact metric required if published as conceptual visual",
+              "Use labels that describe mechanism, not measured values"
+            ],
+            "preferred_sources": [
+              "SMURF evidence package",
+              "ZNBW editorial interpretation"
+            ],
+            "publication_use": "Can support article explanation as conceptual visual.",
+            "graph_ready": true
+          }
+        ]
+      },
+      "data_memory": {
+        "open_data_requests": [
+          {
+            "request_id": "DRQ_REQ_001",
+            "seed_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+            "country": "Singapore",
+            "claim": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles can be supported by Singapore-specific evidence.",
+            "metric_needed": "Evidence claim",
+            "preferred_source": "Singapore Department of Statistics",
+            "priority": "high",
+            "needed_for": "article_only",
+            "graph_dependency": false,
+            "status": "open"
+          },
+          {
+            "request_id": "DRQ_REQ_002",
+            "seed_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+            "country": "Singapore",
+            "claim": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles may require sector or agency evidence.",
+            "metric_needed": "Evidence claim",
+            "preferred_source": "Relevant Singapore official agency",
+            "priority": "high",
+            "needed_for": "article_only",
+            "graph_dependency": false,
+            "status": "open"
+          },
+          {
+            "request_id": "DRQ_REQ_003",
+            "seed_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+            "country": "Singapore",
+            "claim": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles may benefit from light macro comparison.",
+            "metric_needed": "Evidence claim",
+            "preferred_source": "World Bank / IEA / WTO / IMF where relevant",
+            "priority": "medium",
+            "needed_for": "article_only",
+            "graph_dependency": false,
+            "status": "open"
+          }
+        ],
+        "minimum_data_for_publishable_article": [
+          {
+            "priority": "high",
+            "metric": "Singapore petroleum-related manufacturing output trend",
+            "preferred_source": "Singapore Department of Statistics",
+            "needed_for": "article claim support and possible line chart"
+          },
+          {
+            "priority": "medium",
+            "metric": "Regional or global fuel demand / jet fuel demand indicator",
+            "preferred_source": "IEA or relevant official aviation/energy source",
+            "needed_for": "macro context"
+          },
+          {
+            "priority": "medium",
+            "metric": "Shipping, bunkering, or logistics activity indicator",
+            "preferred_source": "Maritime and Port Authority of Singapore",
+            "needed_for": "business implication support"
+          }
+        ],
+        "graph_governance_rules": [
+          "No exact values unless stored in verified metrics registry.",
+          "No comparative ranking unless backed by official or high-authority source.",
+          "Conceptual visuals must be labelled as conceptual.",
+          "Quantitative charts require verified source, metric name, observation period, and unit."
+        ]
+      },
+      "publication_memory": {
+        "article_package_version": "publication-package-v0.1",
+        "article_editor_version": "article-editor-v0.1",
+        "publication_recommendation": "draft_ready_pending_verified_metrics",
+        "exact_figures_allowed": false,
+        "quantitative_graphs_allowed": false,
+        "governance_note": "Publication package may be used for editorial review. Exact figures, rankings, and quantitative charts remain blocked unless verified metrics are approved."
+      },
+      "editorial_lessons_learned": [
+        "Petroleum output should be used as the entry signal, not the full story.",
+        "The stronger editorial angle is Singapore's exposure to global energy-cycle conditions.",
+        "Historical cases provide useful interpretation context but should not be framed as causal proof.",
+        "Conceptual visuals are publishable earlier than quantitative charts if clearly labelled.",
+        "Verified data remains the main blocker for quantitative publication claims."
+      ],
+      "future_follow_up_signals": [
+        "New petroleum-related manufacturing output movement",
+        "Jet fuel demand recovery or slowdown",
+        "Refining margin shifts",
+        "Shipping, bunkering, or logistics activity changes",
+        "Energy demand or crude oil market volatility"
+      ],
+      "reuse_guidance": {
+        "use_when_driver_reappears": true,
+        "relevant_driver_id": "MKT_007",
+        "recommended_future_use": "When SMURF identifies future Energy Demand / Refining Cycle signals, compare the new signal against this editorial memory before generating a new article thesis."
+      }
+    }
+  ]
+}

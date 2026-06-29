@@ -1,0 +1,125 @@
+{
+  "historical_evidence_scorecard_version": "historical-evidence-scorecard-v0.1",
+  "generated_at": "2026-06-04T10:30:56.188Z",
+  "source_taxonomy": "data/intelligence-driver-library/driver-evidence-taxonomy-v0.1.json",
+  "source_evidence": "data/historical-replay/m355381/evidence-pilots/SG-PHARMACEUTICALS-2021-evidence-v0.1.json",
+  "case_id": "SG-PHARMACEUTICALS-2021",
+  "period": "2021",
+  "series_name": "Pharmaceuticals",
+  "governance": {
+    "sandbox_only": true,
+    "recommendation_only": true,
+    "auto_close_case": false,
+    "requires_human_review": true,
+    "production_mutation_allowed": false
+  },
+  "evidence_metadata": {
+    "evidence_origin": "synthetic",
+    "template_generated": true,
+    "attribution_discovery_ready": true,
+    "requires_human_review": true
+  },
+  "evidence_items": [
+    "Singapore Pharmaceuticals output in 2021 was influenced by pharmaceutical batch production, drug production, and biologics production.",
+    "Healthcare demand, medical technology demand, and vaccine production shaped selected biomedical activities.",
+    "Plant schedule effects and batch production cycles affected output movements during the year.",
+    "Biomedical manufacturing reflected product mix, production timing, and healthcare-related demand."
+  ],
+  "evidence_matches": [
+    {
+      "evidence_text": "Singapore Pharmaceuticals output in 2021 was influenced by pharmaceutical batch production, drug production, and biologics production.",
+      "matches": [
+        {
+          "driver_id": "MKT_009",
+          "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+          "attribution_bucket": "operational_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "pharmaceutical batch",
+            "batch production",
+            "biologics production",
+            "drug production"
+          ],
+          "match_score": 24
+        }
+      ]
+    },
+    {
+      "evidence_text": "Healthcare demand, medical technology demand, and vaccine production shaped selected biomedical activities.",
+      "matches": [
+        {
+          "driver_id": "MKT_009",
+          "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+          "attribution_bucket": "operational_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "medical technology demand",
+            "healthcare demand",
+            "vaccine production"
+          ],
+          "match_score": 18
+        }
+      ]
+    },
+    {
+      "evidence_text": "Plant schedule effects and batch production cycles affected output movements during the year.",
+      "matches": [
+        {
+          "driver_id": "MKT_009",
+          "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+          "attribution_bucket": "operational_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "batch production",
+            "plant schedule"
+          ],
+          "match_score": 12
+        }
+      ]
+    },
+    {
+      "evidence_text": "Biomedical manufacturing reflected product mix, production timing, and healthcare-related demand.",
+      "matches": []
+    }
+  ],
+  "ranked_drivers": [
+    {
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "attribution_bucket": "operational_effect",
+      "total_score": 54,
+      "evidence_count": 3,
+      "matched_phrases": [
+        "pharmaceutical batch",
+        "batch production",
+        "biologics production",
+        "drug production",
+        "medical technology demand",
+        "healthcare demand",
+        "vaccine production",
+        "batch production",
+        "plant schedule"
+      ],
+      "supporting_evidence": [
+        "Singapore Pharmaceuticals output in 2021 was influenced by pharmaceutical batch production, drug production, and biologics production.",
+        "Healthcare demand, medical technology demand, and vaccine production shaped selected biomedical activities.",
+        "Plant schedule effects and batch production cycles affected output movements during the year."
+      ]
+    }
+  ],
+  "bucket_scores": [
+    {
+      "attribution_bucket": "operational_effect",
+      "total_score": 54
+    }
+  ],
+  "recommended_outcome": {
+    "primary_driver": "MKT_009",
+    "primary_driver_name": "Biomedical / Pharmaceutical Production Cycle",
+    "attribution_bucket": "operational_effect",
+    "confidence": "high",
+    "total_score": 54,
+    "second_score": 0,
+    "score_gap": 54
+  }
+}

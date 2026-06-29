@@ -1,0 +1,138 @@
+{
+  "historical_evidence_scorecard_version": "historical-evidence-scorecard-v0.1",
+  "generated_at": "2026-06-04T10:30:56.185Z",
+  "source_taxonomy": "data/intelligence-driver-library/driver-evidence-taxonomy-v0.1.json",
+  "source_evidence": "data/historical-replay/m355381/evidence-pilots/SG-PETROCHEMICALS-2022-evidence-v0.1.json",
+  "case_id": "SG-PETROCHEMICALS-2022",
+  "period": "2022",
+  "series_name": "Petrochemicals",
+  "governance": {
+    "sandbox_only": true,
+    "recommendation_only": true,
+    "auto_close_case": false,
+    "requires_human_review": true,
+    "production_mutation_allowed": false
+  },
+  "evidence_metadata": {
+    "evidence_origin": "synthetic",
+    "template_generated": true,
+    "attribution_discovery_ready": true,
+    "requires_human_review": true
+  },
+  "evidence_items": [
+    "Singapore petrochemicals output in 2022 was influenced by petrochemical demand, chemical demand, and downstream industrial activity.",
+    "Petrochemical production reflected movements in basic chemicals, specialty chemicals, and regional manufacturing demand.",
+    "Feedstock prices and naphtha prices affected petrochemical margins and production decisions during the year.",
+    "Chemical plant and petrochemical plant utilisation shaped output patterns as producers responded to demand and cost conditions."
+  ],
+  "evidence_matches": [
+    {
+      "evidence_text": "Singapore petrochemicals output in 2022 was influenced by petrochemical demand, chemical demand, and downstream industrial activity.",
+      "matches": [
+        {
+          "driver_id": "MKT_011",
+          "driver_name": "Chemicals / Petrochemicals Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "chemical demand",
+            "petrochemical demand"
+          ],
+          "match_score": 12
+        }
+      ]
+    },
+    {
+      "evidence_text": "Petrochemical production reflected movements in basic chemicals, specialty chemicals, and regional manufacturing demand.",
+      "matches": [
+        {
+          "driver_id": "MKT_011",
+          "driver_name": "Chemicals / Petrochemicals Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "specialty chemicals",
+            "basic chemicals",
+            "chemical production",
+            "petrochemical production"
+          ],
+          "match_score": 24
+        }
+      ]
+    },
+    {
+      "evidence_text": "Feedstock prices and naphtha prices affected petrochemical margins and production decisions during the year.",
+      "matches": [
+        {
+          "driver_id": "MKT_011",
+          "driver_name": "Chemicals / Petrochemicals Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "feedstock prices",
+            "naphtha prices"
+          ],
+          "match_score": 12
+        }
+      ]
+    },
+    {
+      "evidence_text": "Chemical plant and petrochemical plant utilisation shaped output patterns as producers responded to demand and cost conditions.",
+      "matches": [
+        {
+          "driver_id": "MKT_011",
+          "driver_name": "Chemicals / Petrochemicals Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "chemical plant",
+            "petrochemical plant"
+          ],
+          "match_score": 12
+        }
+      ]
+    }
+  ],
+  "ranked_drivers": [
+    {
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "attribution_bucket": "market_effect",
+      "total_score": 60,
+      "evidence_count": 4,
+      "matched_phrases": [
+        "chemical demand",
+        "petrochemical demand",
+        "specialty chemicals",
+        "basic chemicals",
+        "chemical production",
+        "petrochemical production",
+        "feedstock prices",
+        "naphtha prices",
+        "chemical plant",
+        "petrochemical plant"
+      ],
+      "supporting_evidence": [
+        "Singapore petrochemicals output in 2022 was influenced by petrochemical demand, chemical demand, and downstream industrial activity.",
+        "Petrochemical production reflected movements in basic chemicals, specialty chemicals, and regional manufacturing demand.",
+        "Feedstock prices and naphtha prices affected petrochemical margins and production decisions during the year.",
+        "Chemical plant and petrochemical plant utilisation shaped output patterns as producers responded to demand and cost conditions."
+      ]
+    }
+  ],
+  "bucket_scores": [
+    {
+      "attribution_bucket": "market_effect",
+      "total_score": 60
+    }
+  ],
+  "recommended_outcome": {
+    "primary_driver": "MKT_011",
+    "primary_driver_name": "Chemicals / Petrochemicals Cycle",
+    "attribution_bucket": "market_effect",
+    "confidence": "high",
+    "total_score": 60,
+    "second_score": 0,
+    "score_gap": 60
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "replay_prediction_version": "replay-prediction-v0.2-similarity",
+  "generated_at": "2026-06-03T09:24:00.268Z",
+  "source_replay_plan": "data/replay-sandbox/replay-plan-2026-05-25T23-59-59.000Z.json",
+  "source_similarity_file": "data/intelligence/case-similarity-v0.1.json",
+  "source_historical_outcomes_file": "data/intelligence/historical-outcomes-v0.1.json",
+  "replay_date": "2026-05-25T23:59:59.000Z",
+  "prediction_policy": {
+    "principle": "Similarity replay prediction may only use outcomes visible at the replay date. Hidden or future outcomes must be excluded.",
+    "method": "Filter similar cases to replay-visible outcomes, then rank outcome drivers by support and similarity.",
+    "strength_thresholds": {
+      "low": ">=1 supporting case and max similarity >=60",
+      "medium": ">=2 supporting cases, max similarity >=70, average similarity >=60",
+      "high": ">=3 supporting cases, max similarity >=85, average similarity >=75"
+    }
+  },
+  "summary": {
+    "total_cases": 11,
+    "visible_prior_outcomes": 0,
+    "predictions_available": 0,
+    "case_not_visible": 11,
+    "outcome_already_visible": 0,
+    "no_visible_similar_outcome_above_threshold": 0,
+    "missing_similarity_record": 0
+  },
+  "predictions": [
+    {
+      "case_id": "SG-M355381-1_1-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "case_not_visible",
+      "predicted_outcome": null,
+      "prediction_note": "Case was not visible at replay date."
+    },
+    {
+      "case_id": "SG-M355381-1_1_1-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "case_not_visible",
+      "predicted_outcome": null,
+      "prediction_note": "Case was not visible at replay date."
+    },
+    {
+      "case_id": "SG-M355381-1_1_3-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "case_not_visible",
+      "predicted_outcome": null,
+      "prediction_note": "Case was not visible at replay date."
+    },
+    {
+      "case_id": "SG-M355381-1_2_1-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "case_not_visible",
+      "predicted_outcome": null,
+      "prediction_note": "Case was not visible at replay date."
+    },
+    {
+      "case_id": "SG-M355381-1_2_2-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "case_not_visible",
+      "predicted_outcome": null,
+      "prediction_note": "Case was not visible at replay date."
+    },
+    {
+      "case_id": "SG-M355381-1_2_4-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "case_not_visible",
+      "predicted_outcome": null,
+      "prediction_note": "Case was not visible at replay date."
+    },
+    {
+      "case_id": "SG-M355381-1_3-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "case_not_visible",
+      "predicted_outcome": null,
+      "prediction_note": "Case was not visible at replay date."
+    },
+    {
+      "case_id": "SG-M355381-1_3_1-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "case_not_visible",
+      "predicted_outcome": null,
+      "prediction_note": "Case was not visible at replay date."
+    },
+    {
+      "case_id": "SG-M355381-1_3_2-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "case_not_visible",
+      "predicted_outcome": null,
+      "prediction_note": "Case was not visible at replay date."
+    },
+    {
+      "case_id": "SG-M355381-1_5_2-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "case_not_visible",
+      "predicted_outcome": null,
+      "prediction_note": "Case was not visible at replay date."
+    },
+    {
+      "case_id": "SG-M355381-1_5_3-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "case_not_visible",
+      "predicted_outcome": null,
+      "prediction_note": "Case was not visible at replay date."
+    }
+  ]
+}

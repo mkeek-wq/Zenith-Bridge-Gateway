@@ -1,0 +1,122 @@
+{
+  "registry_version": "replay-case-scoreboard-v0.1",
+  "created_at": "2026-06-09T09:29:15.942Z",
+  "doctrine": {
+    "scoreboard_tracks_replay_performance_not_truth": true,
+    "expected_mechanisms_are_calibration_targets": true,
+    "replay_scores_do_not_validate_mechanisms": true
+  },
+  "summary": {
+    "cases_scored": 4,
+    "completed_cases": 1,
+    "awaiting_replay": 0,
+    "awaiting_input": 3
+  },
+  "scoreboard_items": [
+    {
+      "case_id": "SG-MANUFACTURING-2020",
+      "case_label": "Singapore Manufacturing Recovery 2020-2021",
+      "country": "SG",
+      "domain": "manufacturing",
+      "period_start": "2020-01",
+      "period_end": "2021-12",
+      "replay_status": "completed",
+      "input_exists": true,
+      "expected_mechanisms": [
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY",
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "detected_mechanisms": [
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY",
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "matched_expected_mechanisms": [
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY",
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "missing_expected_mechanisms": [],
+      "unexpected_mechanisms": [],
+      "mechanism_match_ratio": 1,
+      "replay_quality_score": 1,
+      "governance_score": 1,
+      "production_records_written": 0,
+      "scoreboard_status": "score_available"
+    },
+    {
+      "case_id": "SG-PETROLEUM-2020",
+      "case_label": "Singapore Petroleum Shock 2020",
+      "country": "SG",
+      "domain": "petroleum",
+      "period_start": "2020-01",
+      "period_end": "2020-12",
+      "replay_status": "not_yet_replayed",
+      "input_exists": false,
+      "expected_mechanisms": [
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "detected_mechanisms": [],
+      "matched_expected_mechanisms": [],
+      "missing_expected_mechanisms": [
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "unexpected_mechanisms": [],
+      "mechanism_match_ratio": 0,
+      "replay_quality_score": null,
+      "governance_score": null,
+      "production_records_written": null,
+      "scoreboard_status": "awaiting_input"
+    },
+    {
+      "case_id": "SG-SEMICONDUCTOR-2021",
+      "case_label": "Singapore Semiconductor Recovery 2021",
+      "country": "SG",
+      "domain": "semiconductors",
+      "period_start": "2021-01",
+      "period_end": "2021-12",
+      "replay_status": "not_yet_replayed",
+      "input_exists": false,
+      "expected_mechanisms": [
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY",
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "detected_mechanisms": [],
+      "matched_expected_mechanisms": [],
+      "missing_expected_mechanisms": [
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY",
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "unexpected_mechanisms": [],
+      "mechanism_match_ratio": 0,
+      "replay_quality_score": null,
+      "governance_score": null,
+      "production_records_written": null,
+      "scoreboard_status": "awaiting_input"
+    },
+    {
+      "case_id": "SG-BIOMEDICAL-2021",
+      "case_label": "Singapore Biomedical Output 2021",
+      "country": "SG",
+      "domain": "biomedical",
+      "period_start": "2021-01",
+      "period_end": "2021-12",
+      "replay_status": "not_yet_replayed",
+      "input_exists": false,
+      "expected_mechanisms": [
+        "MKT_006_POLICY_REGULATORY_IMPACT",
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "detected_mechanisms": [],
+      "matched_expected_mechanisms": [],
+      "missing_expected_mechanisms": [
+        "MKT_006_POLICY_REGULATORY_IMPACT",
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "unexpected_mechanisms": [],
+      "mechanism_match_ratio": 0,
+      "replay_quality_score": null,
+      "governance_score": null,
+      "production_records_written": null,
+      "scoreboard_status": "awaiting_input"
+    }
+  ]
+}

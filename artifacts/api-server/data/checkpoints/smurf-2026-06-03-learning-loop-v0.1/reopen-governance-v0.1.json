@@ -1,0 +1,14 @@
+{
+  "version": "reopen-governance-v0.1",
+  "allowed_reopen_reasons": [
+    "new_evidence",
+    "evidence_correction",
+    "attribution_error",
+    "manual_review"
+  ],
+  "preserve_previous_conclusions": true,
+  "preserve_previous_outcomes": true,
+  "reopened_case_status": "reopened",
+  "reopened_conclusion_status": "under_review",
+  "reopened_next_action": "review_new_evidence"
+}

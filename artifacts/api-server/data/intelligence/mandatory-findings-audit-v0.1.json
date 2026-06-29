@@ -1,0 +1,422 @@
+{
+  "audit_version": "mandatory-findings-audit-v0.1",
+  "generated_at": "2026-06-18T04:41:59.385Z",
+  "source_files": {
+    "source_article_package": "data/intelligence/openai-article-package-v0.4.json",
+    "generated_article_package": "data/intelligence/openai-generated-article-package-v0.4.json"
+  },
+  "audit_count": 4,
+  "passed_count": 4,
+  "blocked_count": 0,
+  "audits": [
+    {
+      "candidate_id": "ART-what-precision-engineering-reveals-about-singapore-s-capital-equipment-cycle",
+      "title": "What Precision Engineering Reveals About Singapore's Capital Equipment Cycle",
+      "generated_article_found": true,
+      "source_package_version": "openai-article-package-v0.4",
+      "generated_package_version": "openai-generated-article-package-v0.4",
+      "mandatory_finding_count": 5,
+      "mandatory_findings_passed": true,
+      "critical_findings_passed": true,
+      "missing_findings": [],
+      "finding_audit": [
+        {
+          "finding_id": "MF001",
+          "priority": "critical",
+          "type": "relative_performance",
+          "statement": "Precision Engineering grew 114.13% over 10 years versus 77.56% for total manufacturing, an outperformance of 36.57 percentage points.",
+          "passed": true,
+          "required_terms": [
+            {
+              "term": "114.13",
+              "found": true
+            },
+            {
+              "term": "77.56",
+              "found": true
+            },
+            {
+              "term": "36.57",
+              "found": true
+            }
+          ]
+        },
+        {
+          "finding_id": "MF002",
+          "priority": "critical",
+          "type": "sector_ranking",
+          "statement": "Precision Engineering ranked #2 out of 6 major manufacturing sectors by 10-year growth. The article must explicitly state rank #2 out of 6.",
+          "passed": true,
+          "required_terms": [
+            {
+              "term": "#2",
+              "found": true
+            },
+            {
+              "term": "out of 6",
+              "found": true
+            }
+          ]
+        },
+        {
+          "finding_id": "MF003",
+          "priority": "important",
+          "type": "manufacturing_share",
+          "statement": "Precision Engineering's manufacturing share increased from 8.68% in 2016 to 10.46% in 2025, a gain of 1.79 percentage points.",
+          "passed": true,
+          "required_terms": [
+            {
+              "term": "8.68",
+              "found": true
+            },
+            {
+              "term": "10.46",
+              "found": true
+            },
+            {
+              "term": "1.79",
+              "found": true
+            }
+          ]
+        },
+        {
+          "finding_id": "MF004",
+          "priority": "important",
+          "type": "latest_momentum",
+          "statement": "In 2025, Precision Engineering output reached 48081, with latest year-on-year growth of 13.71%.",
+          "passed": true,
+          "required_terms": [
+            {
+              "term": "2025",
+              "found": true
+            },
+            {
+              "term": "48081",
+              "found": true
+            },
+            {
+              "term": "13.71",
+              "found": true
+            }
+          ]
+        },
+        {
+          "finding_id": "MF005",
+          "priority": "critical",
+          "type": "proxy_disclosure",
+          "statement": "Machinery & Equipment is used as a proxy for capital-equipment-linked precision engineering activity because deeper precision-engineering subsegments are not exposed in the current table.",
+          "passed": true,
+          "required_terms": [
+            {
+              "term": "Machinery & Equipment",
+              "found": true
+            },
+            {
+              "term": "proxy",
+              "found": true
+            }
+          ]
+        }
+      ],
+      "governance": {
+        "human_review_required": true,
+        "publication_blocked": false,
+        "blocker_reason": null
+      }
+    },
+    {
+      "candidate_id": "ART-what-transport-engineering-reveals-about-singapore-s-aviation-and-marine-recovery",
+      "title": "What Transport Engineering Reveals About Singapore's Aviation and Marine Recovery",
+      "generated_article_found": true,
+      "source_package_version": "openai-article-package-v0.4",
+      "generated_package_version": "openai-generated-article-package-v0.4",
+      "mandatory_finding_count": 4,
+      "mandatory_findings_passed": true,
+      "critical_findings_passed": true,
+      "missing_findings": [],
+      "finding_audit": [
+        {
+          "finding_id": "MF001",
+          "priority": "critical",
+          "type": "relative_performance",
+          "statement": "Precision Engineering grew 113.54% over 10 years versus 77.56% for total manufacturing, an outperformance of 35.98 percentage points.",
+          "passed": true,
+          "required_terms": [
+            {
+              "term": "113.54",
+              "found": true
+            },
+            {
+              "term": "77.56",
+              "found": true
+            },
+            {
+              "term": "35.98",
+              "found": true
+            }
+          ]
+        },
+        {
+          "finding_id": "MF002",
+          "priority": "critical",
+          "type": "sector_ranking",
+          "statement": "Precision Engineering ranked #3 out of 6 major manufacturing sectors by 10-year growth. The article must explicitly state rank #3 out of 6.",
+          "passed": true,
+          "required_terms": [
+            {
+              "term": "#3",
+              "found": true
+            },
+            {
+              "term": "out of 6",
+              "found": true
+            }
+          ]
+        },
+        {
+          "finding_id": "MF003",
+          "priority": "important",
+          "type": "manufacturing_share",
+          "statement": "Precision Engineering's manufacturing share increased from 6.08% in 2016 to 7.32% in 2025, a gain of 1.23 percentage points.",
+          "passed": true,
+          "required_terms": [
+            {
+              "term": "6.08",
+              "found": true
+            },
+            {
+              "term": "7.32",
+              "found": true
+            },
+            {
+              "term": "1.23",
+              "found": true
+            }
+          ]
+        },
+        {
+          "finding_id": "MF004",
+          "priority": "important",
+          "type": "latest_momentum",
+          "statement": "In 2025, Precision Engineering output reached 33614.4, with latest year-on-year growth of 31.49%.",
+          "passed": true,
+          "required_terms": [
+            {
+              "term": "2025",
+              "found": true
+            },
+            {
+              "term": "33614.4",
+              "found": true
+            },
+            {
+              "term": "31.49",
+              "found": true
+            }
+          ]
+        }
+      ],
+      "governance": {
+        "human_review_required": true,
+        "publication_blocked": false,
+        "blocker_reason": null
+      }
+    },
+    {
+      "candidate_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+      "title": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles",
+      "generated_article_found": true,
+      "source_package_version": "openai-article-package-v0.4",
+      "generated_package_version": "openai-generated-article-package-v0.4",
+      "mandatory_finding_count": 4,
+      "mandatory_findings_passed": true,
+      "critical_findings_passed": true,
+      "missing_findings": [],
+      "finding_audit": [
+        {
+          "finding_id": "MF001",
+          "priority": "critical",
+          "type": "relative_performance",
+          "statement": "Precision Engineering grew 43.11% over 10 years versus 77.56% for total manufacturing, an outperformance of -34.45 percentage points.",
+          "passed": true,
+          "required_terms": [
+            {
+              "term": "43.11",
+              "found": true
+            },
+            {
+              "term": "77.56",
+              "found": true
+            },
+            {
+              "term": "-34.45",
+              "found": true
+            }
+          ]
+        },
+        {
+          "finding_id": "MF002",
+          "priority": "critical",
+          "type": "sector_ranking",
+          "statement": "Precision Engineering ranked #4 out of 6 major manufacturing sectors by 10-year growth. The article must explicitly state rank #4 out of 6.",
+          "passed": true,
+          "required_terms": [
+            {
+              "term": "#4",
+              "found": true
+            },
+            {
+              "term": "out of 6",
+              "found": true
+            }
+          ]
+        },
+        {
+          "finding_id": "MF003",
+          "priority": "important",
+          "type": "manufacturing_share",
+          "statement": "Precision Engineering's manufacturing share increased from 10.35% in 2016 to 8.34% in 2025, a gain of -2.01 percentage points.",
+          "passed": true,
+          "required_terms": [
+            {
+              "term": "10.35",
+              "found": true
+            },
+            {
+              "term": "8.34",
+              "found": true
+            },
+            {
+              "term": "-2.01",
+              "found": true
+            }
+          ]
+        },
+        {
+          "finding_id": "MF004",
+          "priority": "important",
+          "type": "latest_momentum",
+          "statement": "In 2025, Precision Engineering output reached 38344, with latest year-on-year growth of -9.02%.",
+          "passed": true,
+          "required_terms": [
+            {
+              "term": "2025",
+              "found": true
+            },
+            {
+              "term": "38344",
+              "found": true
+            },
+            {
+              "term": "-9.02",
+              "found": true
+            }
+          ]
+        }
+      ],
+      "governance": {
+        "human_review_required": true,
+        "publication_blocked": false,
+        "blocker_reason": null
+      }
+    },
+    {
+      "candidate_id": "ART-how-semiconductor-cycles-shape-singapore-s-manufacturing-advantage",
+      "title": "How Semiconductor Cycles Shape Singapore's Manufacturing Advantage",
+      "generated_article_found": true,
+      "source_package_version": "openai-article-package-v0.4",
+      "generated_package_version": "openai-generated-article-package-v0.4",
+      "mandatory_finding_count": 4,
+      "mandatory_findings_passed": true,
+      "critical_findings_passed": true,
+      "missing_findings": [],
+      "finding_audit": [
+        {
+          "finding_id": "MF001",
+          "priority": "critical",
+          "type": "relative_performance",
+          "statement": "Precision Engineering grew 129.24% over 10 years versus 77.56% for total manufacturing, an outperformance of 51.68 percentage points.",
+          "passed": true,
+          "required_terms": [
+            {
+              "term": "129.24",
+              "found": true
+            },
+            {
+              "term": "77.56",
+              "found": true
+            },
+            {
+              "term": "51.68",
+              "found": true
+            }
+          ]
+        },
+        {
+          "finding_id": "MF002",
+          "priority": "critical",
+          "type": "sector_ranking",
+          "statement": "Precision Engineering ranked #1 out of 6 major manufacturing sectors by 10-year growth. The article must explicitly state rank #1 out of 6.",
+          "passed": true,
+          "required_terms": [
+            {
+              "term": "#1",
+              "found": true
+            },
+            {
+              "term": "out of 6",
+              "found": true
+            }
+          ]
+        },
+        {
+          "finding_id": "MF003",
+          "priority": "important",
+          "type": "manufacturing_share",
+          "statement": "Precision Engineering's manufacturing share increased from 37.23% in 2016 to 48.06% in 2025, a gain of 10.84 percentage points.",
+          "passed": true,
+          "required_terms": [
+            {
+              "term": "37.23",
+              "found": true
+            },
+            {
+              "term": "48.06",
+              "found": true
+            },
+            {
+              "term": "10.84",
+              "found": true
+            }
+          ]
+        },
+        {
+          "finding_id": "MF004",
+          "priority": "important",
+          "type": "latest_momentum",
+          "statement": "In 2025, Precision Engineering output reached 220845.7, with latest year-on-year growth of 18.1%.",
+          "passed": true,
+          "required_terms": [
+            {
+              "term": "2025",
+              "found": true
+            },
+            {
+              "term": "220845.7",
+              "found": true
+            },
+            {
+              "term": "18.1",
+              "found": true
+            }
+          ]
+        }
+      ],
+      "governance": {
+        "human_review_required": true,
+        "publication_blocked": false,
+        "blocker_reason": null
+      }
+    }
+  ]
+}

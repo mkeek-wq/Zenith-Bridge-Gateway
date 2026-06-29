@@ -1,0 +1,71 @@
+{
+  "scorecard_version": "historical-evidence-scorecard-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-JOBS-SUPPORT-SCHEME-2020",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_evidence_package": "data/historical-replay/m355381/evidence-pilots/SG-JOBS-SUPPORT-SCHEME-2020-evidence-v0.1.json",
+  "case_summary": {
+    "period": "2020",
+    "series_no": "POLICY-MOF-JOBS-SUPPORT-SCHEME",
+    "series_name": "Jobs Support Scheme",
+    "priority": "critical",
+    "direction": "positive"
+  },
+  "driver_scores": [
+    {
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "score": 38,
+      "rank": 1,
+      "evidence_basis": "JSS was a direct government wage-support intervention designed to reduce employer labour cost pressure and support job retention during the COVID-19 downturn."
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "score": 24,
+      "rank": 2,
+      "evidence_basis": "The policy response was triggered by COVID-related economic weakness and demand collapse, making the broader shock an important contextual driver."
+    },
+    {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "score": 12,
+      "rank": 3,
+      "evidence_basis": "Circuit breaker and operational restrictions affected business activity, but the replay case is primarily about policy support rather than operational disruption itself."
+    }
+  ],
+  "final_attribution": {
+    "primary_driver": {
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "score": 38
+    },
+    "secondary_driver": {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "score": 24
+    },
+    "tertiary_driver": {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "score": 12
+    },
+    "confidence": "high",
+    "summary": "SG-JOBS-SUPPORT-SCHEME-2020 is classified as a policy-native replay case. The primary attribution is MKT_006 because the Jobs Support Scheme was a direct government intervention intended to stabilize employment and business continuity during the COVID-19 shock."
+  },
+  "mechanism_summary": {
+    "dominant_mechanism": "Policy support reduced labour cost pressure and supported employment retention.",
+    "supporting_mechanisms": [
+      "COVID-19 created demand and revenue stress for firms",
+      "government wage subsidies reduced employer cost pressure",
+      "automatic CPF-linked payouts reduced delivery friction",
+      "employment and wage outcomes were partly stabilized"
+    ]
+  },
+  "scorecard_status": {
+    "attribution_scored": true,
+    "outcome_ready": true,
+    "human_review_required": true
+  }
+}

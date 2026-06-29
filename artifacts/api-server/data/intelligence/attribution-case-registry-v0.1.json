@@ -1,0 +1,886 @@
+{
+  "attribution_case_registry_version": "attribution-case-registry-v0.1",
+  "generated_at": "2026-06-06T05:52:58.315Z",
+  "source_investigation_pack_registry": "data/intelligence/investigation-pack-registry-v0.1.json",
+  "policy": {
+    "principle": "Creates empty attribution case containers from investigation packs. These cases must be filled by reviewed evidence before they can influence production attribution.",
+    "human_review_required": true,
+    "auto_ingestion_allowed": false,
+    "auto_close_allowed": false,
+    "production_mutation_allowed": false
+  },
+  "summary": {
+    "source_packs": 13,
+    "attribution_cases_created": 13,
+    "awaiting_research": 13
+  },
+  "attribution_cases": [
+    {
+      "attribution_case_version": "attribution-case-v0.1",
+      "attribution_case_id": "ATTR-MKT_012",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "source_investigation_pack": "MKT_012",
+      "review_status": "awaiting_research",
+      "review_priority": "top_review",
+      "priority_score": 121,
+      "signal_strength": "high",
+      "expected_mechanisms": [
+        "machinery demand",
+        "capital equipment demand",
+        "automation investment",
+        "semiconductor equipment",
+        "equipment orders",
+        "capex cycle"
+      ],
+      "target_evidence_sources": [
+        "EDB Singapore",
+        "SingStat",
+        "SEMI equipment reports",
+        "company earnings releases",
+        "machinery industry publications",
+        "automation industry publications"
+      ],
+      "target_search_phrases": [
+        "precision engineering",
+        "machinery demand",
+        "capital equipment demand",
+        "automation equipment",
+        "semiconductor equipment",
+        "equipment orders",
+        "capex cycle"
+      ],
+      "research_questions": [
+        "What evidence supports this driver?",
+        "What evidence contradicts this driver?",
+        "Which institutions mention this mechanism?",
+        "Can the mechanism explain the observed output movement?",
+        "Would an analyst classify this attribution as high confidence?"
+      ],
+      "evidence_review": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "missing_evidence": []
+      },
+      "analyst_assessment": {
+        "preliminary_assessment": "not_reviewed",
+        "confidence_after_review": "unknown",
+        "attribution_supported": null,
+        "notes": ""
+      },
+      "source_lineage": {
+        "reviewed_sources": [],
+        "source_documents": [],
+        "evidence_items": []
+      },
+      "governance": {
+        "human_review_required": true,
+        "auto_close_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "attribution_case_version": "attribution-case-v0.1",
+      "attribution_case_id": "ATTR-MKT_013",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "source_investigation_pack": "MKT_013",
+      "review_status": "awaiting_research",
+      "review_priority": "top_review",
+      "priority_score": 115,
+      "signal_strength": "high",
+      "expected_mechanisms": [
+        "aviation recovery",
+        "aircraft maintenance",
+        "MRO demand",
+        "fleet maintenance",
+        "ship repair",
+        "marine engineering",
+        "offshore engineering"
+      ],
+      "target_evidence_sources": [
+        "SingStat",
+        "EDB Singapore",
+        "IATA",
+        "ICAO",
+        "aircraft MRO publications",
+        "marine engineering publications",
+        "ship repair industry publications",
+        "offshore engineering reports"
+      ],
+      "target_search_phrases": [
+        "transport engineering",
+        "aerospace demand",
+        "aircraft maintenance",
+        "MRO demand",
+        "fleet maintenance",
+        "ship repair",
+        "marine engineering",
+        "offshore engineering"
+      ],
+      "research_questions": [
+        "What evidence supports this driver?",
+        "What evidence contradicts this driver?",
+        "Which institutions mention this mechanism?",
+        "Can the mechanism explain the observed output movement?",
+        "Would an analyst classify this attribution as high confidence?"
+      ],
+      "evidence_review": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "missing_evidence": []
+      },
+      "analyst_assessment": {
+        "preliminary_assessment": "not_reviewed",
+        "confidence_after_review": "unknown",
+        "attribution_supported": null,
+        "notes": ""
+      },
+      "source_lineage": {
+        "reviewed_sources": [],
+        "source_documents": [],
+        "evidence_items": []
+      },
+      "governance": {
+        "human_review_required": true,
+        "auto_close_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "attribution_case_version": "attribution-case-v0.1",
+      "attribution_case_id": "ATTR-MKT_009",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "source_investigation_pack": "MKT_009",
+      "review_status": "awaiting_research",
+      "review_priority": "top_review",
+      "priority_score": 111,
+      "signal_strength": "medium_high",
+      "expected_mechanisms": [
+        "pharmaceutical batch production",
+        "biologics production",
+        "vaccine production",
+        "plant schedule",
+        "healthcare demand",
+        "drug production cycle"
+      ],
+      "target_evidence_sources": [
+        "EDB Singapore",
+        "SingStat",
+        "pharmaceutical company reports",
+        "biologics company announcements",
+        "Fierce Pharma",
+        "BioPharma Dive",
+        "healthcare industry publications"
+      ],
+      "target_search_phrases": [
+        "pharmaceutical batch",
+        "batch production",
+        "biologics production",
+        "vaccine production",
+        "drug production",
+        "plant schedule",
+        "medical technology demand"
+      ],
+      "research_questions": [
+        "What evidence supports this driver?",
+        "What evidence contradicts this driver?",
+        "Which institutions mention this mechanism?",
+        "Can the mechanism explain the observed output movement?",
+        "Would an analyst classify this attribution as high confidence?"
+      ],
+      "evidence_review": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "missing_evidence": []
+      },
+      "analyst_assessment": {
+        "preliminary_assessment": "not_reviewed",
+        "confidence_after_review": "unknown",
+        "attribution_supported": null,
+        "notes": ""
+      },
+      "source_lineage": {
+        "reviewed_sources": [],
+        "source_documents": [],
+        "evidence_items": []
+      },
+      "governance": {
+        "human_review_required": true,
+        "auto_close_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "attribution_case_version": "attribution-case-v0.1",
+      "attribution_case_id": "ATTR-MKT_011",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "source_investigation_pack": "MKT_011",
+      "review_status": "awaiting_research",
+      "review_priority": "top_review",
+      "priority_score": 111,
+      "signal_strength": "medium_high",
+      "expected_mechanisms": [
+        "chemical demand",
+        "petrochemical demand",
+        "feedstock prices",
+        "naphtha prices",
+        "plant utilisation",
+        "downstream industrial demand"
+      ],
+      "target_evidence_sources": [
+        "SingStat",
+        "ICIS",
+        "Argus Media",
+        "S&P Global Commodity Insights",
+        "Shell",
+        "ExxonMobil",
+        "BASF",
+        "chemical industry publications"
+      ],
+      "target_search_phrases": [
+        "chemical demand",
+        "petrochemical demand",
+        "specialty chemicals",
+        "basic chemicals",
+        "feedstock prices",
+        "naphtha prices",
+        "petrochemical plant utilisation"
+      ],
+      "research_questions": [
+        "What evidence supports this driver?",
+        "What evidence contradicts this driver?",
+        "Which institutions mention this mechanism?",
+        "Can the mechanism explain the observed output movement?",
+        "Would an analyst classify this attribution as high confidence?"
+      ],
+      "evidence_review": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "missing_evidence": []
+      },
+      "analyst_assessment": {
+        "preliminary_assessment": "not_reviewed",
+        "confidence_after_review": "unknown",
+        "attribution_supported": null,
+        "notes": ""
+      },
+      "source_lineage": {
+        "reviewed_sources": [],
+        "source_documents": [],
+        "evidence_items": []
+      },
+      "governance": {
+        "human_review_required": true,
+        "auto_close_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "attribution_case_version": "attribution-case-v0.1",
+      "attribution_case_id": "ATTR-MKT_010",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "source_investigation_pack": "MKT_010",
+      "review_status": "awaiting_research",
+      "review_priority": "top_review",
+      "priority_score": 109,
+      "signal_strength": "medium_high",
+      "expected_mechanisms": [
+        "global recession",
+        "external downturn",
+        "pandemic disruption",
+        "demand shock",
+        "trade contraction",
+        "sharp demand fall"
+      ],
+      "target_evidence_sources": [
+        "MTI Singapore",
+        "SingStat",
+        "IMF",
+        "World Bank",
+        "WTO",
+        "S&P Global PMI",
+        "Reuters",
+        "Bloomberg"
+      ],
+      "target_search_phrases": [
+        "global recession",
+        "external downturn",
+        "demand shock",
+        "pandemic disruption",
+        "collapse in demand",
+        "sharp demand fall",
+        "trade contraction"
+      ],
+      "research_questions": [
+        "What evidence supports this driver?",
+        "What evidence contradicts this driver?",
+        "Which institutions mention this mechanism?",
+        "Can the mechanism explain the observed output movement?",
+        "Would an analyst classify this attribution as high confidence?"
+      ],
+      "evidence_review": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "missing_evidence": []
+      },
+      "analyst_assessment": {
+        "preliminary_assessment": "not_reviewed",
+        "confidence_after_review": "unknown",
+        "attribution_supported": null,
+        "notes": ""
+      },
+      "source_lineage": {
+        "reviewed_sources": [],
+        "source_documents": [],
+        "evidence_items": []
+      },
+      "governance": {
+        "human_review_required": true,
+        "auto_close_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "attribution_case_version": "attribution-case-v0.1",
+      "attribution_case_id": "ATTR-MKT_008",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "source_investigation_pack": "MKT_008",
+      "review_status": "awaiting_research",
+      "review_priority": "top_review",
+      "priority_score": 95,
+      "signal_strength": "medium_high",
+      "expected_mechanisms": [
+        "semiconductor demand",
+        "chip shortage",
+        "fab utilization",
+        "wafer demand",
+        "electronics exports",
+        "inventory correction",
+        "equipment orders"
+      ],
+      "target_evidence_sources": [
+        "SingStat",
+        "EDB Singapore",
+        "SEMI",
+        "WSTS",
+        "SIA",
+        "TSMC investor relations",
+        "UMC investor relations",
+        "GlobalFoundries investor relations",
+        "ASEAN electronics trade publications"
+      ],
+      "target_search_phrases": [
+        "semiconductor demand",
+        "chip shortage",
+        "global chip shortage",
+        "electronics demand",
+        "wafer demand",
+        "foundry demand",
+        "inventory correction",
+        "semiconductor equipment orders"
+      ],
+      "research_questions": [
+        "What evidence supports this driver?",
+        "What evidence contradicts this driver?",
+        "Which institutions mention this mechanism?",
+        "Can the mechanism explain the observed output movement?",
+        "Would an analyst classify this attribution as high confidence?"
+      ],
+      "evidence_review": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "missing_evidence": []
+      },
+      "analyst_assessment": {
+        "preliminary_assessment": "not_reviewed",
+        "confidence_after_review": "unknown",
+        "attribution_supported": null,
+        "notes": ""
+      },
+      "source_lineage": {
+        "reviewed_sources": [],
+        "source_documents": [],
+        "evidence_items": []
+      },
+      "governance": {
+        "human_review_required": true,
+        "auto_close_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "attribution_case_version": "attribution-case-v0.1",
+      "attribution_case_id": "ATTR-MKT_007",
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "source_investigation_pack": "MKT_007",
+      "review_status": "awaiting_research",
+      "review_priority": "high_review",
+      "priority_score": 94,
+      "signal_strength": "medium",
+      "expected_mechanisms": [
+        "oil demand",
+        "fuel demand",
+        "jet fuel demand",
+        "refining margin",
+        "refinery maintenance",
+        "travel recovery"
+      ],
+      "target_evidence_sources": [
+        "IEA",
+        "EIA",
+        "OPEC",
+        "S&P Global Commodity Insights",
+        "Argus Media",
+        "ICIS",
+        "Shell",
+        "ExxonMobil",
+        "refinery maintenance reports"
+      ],
+      "target_search_phrases": [
+        "oil demand",
+        "fuel demand",
+        "jet fuel demand",
+        "refining margin",
+        "refinery maintenance",
+        "travel recovery",
+        "crude oil demand"
+      ],
+      "research_questions": [
+        "What evidence supports this driver?",
+        "What evidence contradicts this driver?",
+        "Which institutions mention this mechanism?",
+        "Can the mechanism explain the observed output movement?",
+        "Would an analyst classify this attribution as high confidence?"
+      ],
+      "evidence_review": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "missing_evidence": []
+      },
+      "analyst_assessment": {
+        "preliminary_assessment": "not_reviewed",
+        "confidence_after_review": "unknown",
+        "attribution_supported": null,
+        "notes": ""
+      },
+      "source_lineage": {
+        "reviewed_sources": [],
+        "source_documents": [],
+        "evidence_items": []
+      },
+      "governance": {
+        "human_review_required": true,
+        "auto_close_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "attribution_case_version": "attribution-case-v0.1",
+      "attribution_case_id": "ATTR-MKT_002",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "source_investigation_pack": "MKT_002",
+      "review_status": "awaiting_research",
+      "review_priority": "high_review",
+      "priority_score": 86,
+      "signal_strength": "medium",
+      "expected_mechanisms": [
+        "inventory restocking",
+        "inventory correction",
+        "channel inventory",
+        "customer inventory",
+        "order normalization"
+      ],
+      "target_evidence_sources": [
+        "SingStat",
+        "SEMI",
+        "company earnings releases",
+        "Purchasing Managers Index reports",
+        "electronics industry publications",
+        "S&P Global PMI"
+      ],
+      "target_search_phrases": [
+        "inventory restocking",
+        "inventory correction",
+        "channel inventory",
+        "customer inventory",
+        "destocking",
+        "restocking cycle"
+      ],
+      "research_questions": [
+        "What evidence supports this driver?",
+        "What evidence contradicts this driver?",
+        "Which institutions mention this mechanism?",
+        "Can the mechanism explain the observed output movement?",
+        "Would an analyst classify this attribution as high confidence?"
+      ],
+      "evidence_review": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "missing_evidence": []
+      },
+      "analyst_assessment": {
+        "preliminary_assessment": "not_reviewed",
+        "confidence_after_review": "unknown",
+        "attribution_supported": null,
+        "notes": ""
+      },
+      "source_lineage": {
+        "reviewed_sources": [],
+        "source_documents": [],
+        "evidence_items": []
+      },
+      "governance": {
+        "human_review_required": true,
+        "auto_close_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "attribution_case_version": "attribution-case-v0.1",
+      "attribution_case_id": "ATTR-MKT_004",
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "source_investigation_pack": "MKT_004",
+      "review_status": "awaiting_research",
+      "review_priority": "high_review",
+      "priority_score": 78,
+      "signal_strength": "early_signal",
+      "expected_mechanisms": [
+        "new plant",
+        "capacity expansion",
+        "production ramp-up",
+        "new facility",
+        "capex investment"
+      ],
+      "target_evidence_sources": [
+        "EDB Singapore",
+        "company press releases",
+        "company annual reports",
+        "factory opening announcements",
+        "industrial park announcements",
+        "sector trade publications"
+      ],
+      "target_search_phrases": [
+        "capacity expansion",
+        "new plant",
+        "production ramp-up",
+        "new facility",
+        "factory opening",
+        "manufacturing investment"
+      ],
+      "research_questions": [
+        "What evidence supports this driver?",
+        "What evidence contradicts this driver?",
+        "Which institutions mention this mechanism?",
+        "Can the mechanism explain the observed output movement?",
+        "Would an analyst classify this attribution as high confidence?"
+      ],
+      "evidence_review": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "missing_evidence": []
+      },
+      "analyst_assessment": {
+        "preliminary_assessment": "not_reviewed",
+        "confidence_after_review": "unknown",
+        "attribution_supported": null,
+        "notes": ""
+      },
+      "source_lineage": {
+        "reviewed_sources": [],
+        "source_documents": [],
+        "evidence_items": []
+      },
+      "governance": {
+        "human_review_required": true,
+        "auto_close_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "attribution_case_version": "attribution-case-v0.1",
+      "attribution_case_id": "ATTR-MKT_001",
+      "driver_id": "MKT_001",
+      "driver_name": "Global Demand Surge",
+      "source_investigation_pack": "MKT_001",
+      "review_status": "awaiting_research",
+      "review_priority": "medium_review",
+      "priority_score": 70,
+      "signal_strength": "unknown",
+      "expected_mechanisms": [
+        "export demand",
+        "regional demand recovery",
+        "consumer demand",
+        "industrial demand",
+        "order growth"
+      ],
+      "target_evidence_sources": [
+        "SingStat",
+        "MTI Singapore",
+        "EDB Singapore",
+        "WTO",
+        "IMF",
+        "company earnings releases",
+        "sector trade publications"
+      ],
+      "target_search_phrases": [
+        "strong global demand",
+        "export demand recovery",
+        "order growth",
+        "regional manufacturing demand",
+        "consumer demand recovery"
+      ],
+      "research_questions": [
+        "What evidence supports this driver?",
+        "What evidence contradicts this driver?",
+        "Which institutions mention this mechanism?",
+        "Can the mechanism explain the observed output movement?",
+        "Would an analyst classify this attribution as high confidence?"
+      ],
+      "evidence_review": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "missing_evidence": []
+      },
+      "analyst_assessment": {
+        "preliminary_assessment": "not_reviewed",
+        "confidence_after_review": "unknown",
+        "attribution_supported": null,
+        "notes": ""
+      },
+      "source_lineage": {
+        "reviewed_sources": [],
+        "source_documents": [],
+        "evidence_items": []
+      },
+      "governance": {
+        "human_review_required": true,
+        "auto_close_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "attribution_case_version": "attribution-case-v0.1",
+      "attribution_case_id": "ATTR-MKT_003",
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness",
+      "source_investigation_pack": "MKT_003",
+      "review_status": "awaiting_research",
+      "review_priority": "medium_review",
+      "priority_score": 70,
+      "signal_strength": "unknown",
+      "expected_mechanisms": [
+        "weak external demand",
+        "export decline",
+        "trade slowdown",
+        "order slowdown",
+        "regional demand weakness"
+      ],
+      "target_evidence_sources": [
+        "SingStat",
+        "MTI Singapore",
+        "WTO",
+        "IMF",
+        "World Bank",
+        "S&P Global PMI",
+        "trade publications"
+      ],
+      "target_search_phrases": [
+        "weak external demand",
+        "export decline",
+        "lower exports",
+        "trade slowdown",
+        "order slowdown",
+        "soft global demand"
+      ],
+      "research_questions": [
+        "What evidence supports this driver?",
+        "What evidence contradicts this driver?",
+        "Which institutions mention this mechanism?",
+        "Can the mechanism explain the observed output movement?",
+        "Would an analyst classify this attribution as high confidence?"
+      ],
+      "evidence_review": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "missing_evidence": []
+      },
+      "analyst_assessment": {
+        "preliminary_assessment": "not_reviewed",
+        "confidence_after_review": "unknown",
+        "attribution_supported": null,
+        "notes": ""
+      },
+      "source_lineage": {
+        "reviewed_sources": [],
+        "source_documents": [],
+        "evidence_items": []
+      },
+      "governance": {
+        "human_review_required": true,
+        "auto_close_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "attribution_case_version": "attribution-case-v0.1",
+      "attribution_case_id": "ATTR-MKT_006",
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "source_investigation_pack": "MKT_006",
+      "review_status": "awaiting_research",
+      "review_priority": "medium_review",
+      "priority_score": 70,
+      "signal_strength": "unknown",
+      "expected_mechanisms": [
+        "policy change",
+        "regulatory change",
+        "tax incentive",
+        "trade restriction",
+        "export restriction",
+        "sanctions"
+      ],
+      "target_evidence_sources": [
+        "MTI Singapore",
+        "EDB Singapore",
+        "MAS",
+        "IRAS",
+        "Enterprise Singapore",
+        "government gazettes",
+        "regulatory agencies"
+      ],
+      "target_search_phrases": [
+        "policy change",
+        "regulatory change",
+        "tax incentive",
+        "government incentive",
+        "export restriction",
+        "trade restriction"
+      ],
+      "research_questions": [
+        "What evidence supports this driver?",
+        "What evidence contradicts this driver?",
+        "Which institutions mention this mechanism?",
+        "Can the mechanism explain the observed output movement?",
+        "Would an analyst classify this attribution as high confidence?"
+      ],
+      "evidence_review": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "missing_evidence": []
+      },
+      "analyst_assessment": {
+        "preliminary_assessment": "not_reviewed",
+        "confidence_after_review": "unknown",
+        "attribution_supported": null,
+        "notes": ""
+      },
+      "source_lineage": {
+        "reviewed_sources": [],
+        "source_documents": [],
+        "evidence_items": []
+      },
+      "governance": {
+        "human_review_required": true,
+        "auto_close_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "attribution_case_version": "attribution-case-v0.1",
+      "attribution_case_id": "ATTR-MKT_005",
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "source_investigation_pack": "MKT_005",
+      "review_status": "awaiting_research",
+      "review_priority": "medium_review",
+      "priority_score": 66,
+      "signal_strength": "early_signal",
+      "expected_mechanisms": [
+        "maintenance shutdown",
+        "plant shutdown",
+        "supply disruption",
+        "factory closure",
+        "covid restrictions",
+        "logistics disruption"
+      ],
+      "target_evidence_sources": [
+        "company announcements",
+        "maintenance notices",
+        "plant shutdown notices",
+        "Reuters",
+        "industry trade publications",
+        "regulatory filings"
+      ],
+      "target_search_phrases": [
+        "maintenance shutdown",
+        "plant shutdown",
+        "production disruption",
+        "supply disruption",
+        "factory closure",
+        "scheduled maintenance"
+      ],
+      "research_questions": [
+        "What evidence supports this driver?",
+        "What evidence contradicts this driver?",
+        "Which institutions mention this mechanism?",
+        "Can the mechanism explain the observed output movement?",
+        "Would an analyst classify this attribution as high confidence?"
+      ],
+      "evidence_review": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "missing_evidence": []
+      },
+      "analyst_assessment": {
+        "preliminary_assessment": "not_reviewed",
+        "confidence_after_review": "unknown",
+        "attribution_supported": null,
+        "notes": ""
+      },
+      "source_lineage": {
+        "reviewed_sources": [],
+        "source_documents": [],
+        "evidence_items": []
+      },
+      "governance": {
+        "human_review_required": true,
+        "auto_close_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    }
+  ]
+}

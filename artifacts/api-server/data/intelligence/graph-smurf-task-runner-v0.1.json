@@ -1,0 +1,31 @@
+{
+  "worker_version": "graph-smurf-task-runner-v0.1",
+  "generated_at": "2026-06-26T05:50:36.558Z",
+  "task_id": "DSP-20260626-0001-TASK-002",
+  "smurf_id": "GRAPH",
+  "status": "completed",
+  "duration_seconds": 3.643,
+  "results": [
+    {
+      "script": "src/scripts/build-graph-data-package-v0.1.ts",
+      "status": "completed",
+      "exit_code": 0,
+      "stdout_tail": "{\n  package_version: 'graph-data-package-v0.1',\n  package_count: 7,\n  output: '/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/graph-data-package-v0.1.json'\n}\nSG_CHEMICALS_OUTPUT_INDEX | latest=2025:46718.4 | yoy=-5.44% | trend=rising\nSG_PETROLEUM_OUTPUT_INDEX | latest=2025:38344 | yoy=-9.02% | trend=rising\nSG_PRECISION_ENGINEERING_OUTPUT_INDEX | latest=2025:48081 | yoy=13.71% | trend=rising\nSG_SEMICONDUCTOR_OUTPUT_INDEX | latest=2025:220845.7 | yoy=18.1% | trend=rising\nSG_TOTAL_MANUFACTURING_OUTPUT_INDEX | latest=2025:459504.1 | yoy=11.25% | trend=rising\nSG_TRANSPORT_ENGINEERING_OUTPUT_INDEX | latest=2025:33614.4 | yoy=31.49% | trend=rising\nSG_BIOMEDICAL_OUTPUT_INDEX | latest=2025:14655 | yoy=50.75% | trend=broadly_stable\n",
+      "stderr_tail": ""
+    },
+    {
+      "script": "src/scripts/build-graph-specification-package-v0.1.ts",
+      "status": "completed",
+      "exit_code": 0,
+      "stdout_tail": "{\n  package_version: 'graph-specification-package-v0.1',\n  graph_spec_count: 10,\n  output: '/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/graph-specification-package-v0.1.json'\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "script": "src/scripts/render-graph-specification-v0.3.ts",
+      "status": "completed",
+      "exit_code": 0,
+      "stdout_tail": "{\n  rendered_count: 10,\n  output_dir: '/var/www/zenith-admin/intelligence-data/assets/generated-graphs',\n  manifest: 'rendered-graph-assets-v0.3.json'\n}\n",
+      "stderr_tail": ""
+    }
+  ]
+}

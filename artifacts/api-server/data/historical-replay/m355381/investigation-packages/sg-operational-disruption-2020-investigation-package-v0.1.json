@@ -1,0 +1,14 @@
+{
+  "investigation_package_version": "historical-investigation-package-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-OPERATIONAL-DISRUPTION-2020",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "case_summary": {
+    "period": "2020",
+    "series_no": "SG-OPERATIONAL-DISRUPTION-2020",
+    "series_name": "Operational Disruption",
+    "priority": "critical",
+    "direction": "negative"
+  }
+}

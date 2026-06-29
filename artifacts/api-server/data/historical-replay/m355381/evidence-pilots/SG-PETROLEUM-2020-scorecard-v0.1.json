@@ -1,0 +1,153 @@
+{
+  "historical_evidence_scorecard_version": "historical-evidence-scorecard-v0.1",
+  "generated_at": "2026-06-04T10:30:56.187Z",
+  "source_taxonomy": "data/intelligence-driver-library/driver-evidence-taxonomy-v0.1.json",
+  "source_evidence": "data/historical-replay/m355381/evidence-pilots/SG-PETROLEUM-2020-evidence-v0.1.json",
+  "case_id": "SG-PETROLEUM-2020",
+  "period": "2020",
+  "series_name": "Petroleum",
+  "governance": {
+    "sandbox_only": true,
+    "recommendation_only": true,
+    "auto_close_case": false,
+    "requires_human_review": true,
+    "production_mutation_allowed": false
+  },
+  "evidence_metadata": {
+    "evidence_origin": "synthetic",
+    "template_generated": true,
+    "attribution_discovery_ready": true,
+    "requires_human_review": true
+  },
+  "evidence_items": [
+    "COVID lockdowns and travel restrictions caused a sharp demand fall.",
+    "Jet fuel demand collapsed as international travel stopped.",
+    "Refinery maintenance reduced petroleum production during the period.",
+    "Energy demand weakened significantly during the pandemic."
+  ],
+  "evidence_matches": [
+    {
+      "evidence_text": "COVID lockdowns and travel restrictions caused a sharp demand fall.",
+      "matches": [
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "attribution_bucket": "operational_effect",
+          "default_score": 7,
+          "matched_phrases": [
+            "lockdown"
+          ],
+          "match_score": 7
+        },
+        {
+          "driver_id": "MKT_010",
+          "driver_name": "Demand Shock / External Downturn",
+          "attribution_bucket": "market_effect",
+          "default_score": 7,
+          "matched_phrases": [
+            "sharp demand fall"
+          ],
+          "match_score": 7
+        }
+      ]
+    },
+    {
+      "evidence_text": "Jet fuel demand collapsed as international travel stopped.",
+      "matches": [
+        {
+          "driver_id": "MKT_007",
+          "driver_name": "Energy Demand / Refining Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "fuel demand",
+            "jet fuel demand"
+          ],
+          "match_score": 12
+        }
+      ]
+    },
+    {
+      "evidence_text": "Refinery maintenance reduced petroleum production during the period.",
+      "matches": [
+        {
+          "driver_id": "MKT_007",
+          "driver_name": "Energy Demand / Refining Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "refinery maintenance"
+          ],
+          "match_score": 6
+        }
+      ]
+    },
+    {
+      "evidence_text": "Energy demand weakened significantly during the pandemic.",
+      "matches": []
+    }
+  ],
+  "ranked_drivers": [
+    {
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "attribution_bucket": "market_effect",
+      "total_score": 18,
+      "evidence_count": 2,
+      "matched_phrases": [
+        "fuel demand",
+        "jet fuel demand",
+        "refinery maintenance"
+      ],
+      "supporting_evidence": [
+        "Jet fuel demand collapsed as international travel stopped.",
+        "Refinery maintenance reduced petroleum production during the period."
+      ]
+    },
+    {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "attribution_bucket": "operational_effect",
+      "total_score": 7,
+      "evidence_count": 1,
+      "matched_phrases": [
+        "lockdown"
+      ],
+      "supporting_evidence": [
+        "COVID lockdowns and travel restrictions caused a sharp demand fall."
+      ]
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "attribution_bucket": "market_effect",
+      "total_score": 7,
+      "evidence_count": 1,
+      "matched_phrases": [
+        "sharp demand fall"
+      ],
+      "supporting_evidence": [
+        "COVID lockdowns and travel restrictions caused a sharp demand fall."
+      ]
+    }
+  ],
+  "bucket_scores": [
+    {
+      "attribution_bucket": "market_effect",
+      "total_score": 25
+    },
+    {
+      "attribution_bucket": "operational_effect",
+      "total_score": 7
+    }
+  ],
+  "recommended_outcome": {
+    "primary_driver": "MKT_007",
+    "primary_driver_name": "Energy Demand / Refining Cycle",
+    "attribution_bucket": "market_effect",
+    "confidence": "medium",
+    "total_score": 18,
+    "second_score": 7,
+    "score_gap": 11
+  }
+}

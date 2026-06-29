@@ -1,0 +1,88 @@
+{
+  "evidence_file_version": "replay-evidence-file-v0.1",
+  "generated_at": "2026-06-10T03:40:51.155Z",
+  "case_id": "SG-FINANCE-2020",
+  "wave_id": "replay-wave-1",
+  "domain": "finance",
+  "period": "2020",
+  "priority": "medium",
+  "evidence_status": "populated_pending_validation",
+  "replay_execution_status": "not_ready_validation_required",
+  "no_future_leakage_guard": {
+    "enabled": true,
+    "rule": "Only use evidence published at or before the replay decision date or replay period cutoff.",
+    "publication_date_required": true,
+    "future_dated_records_block_execution": true
+  },
+  "candidate_mechanisms": [
+    "MKT_007",
+    "MKT_010"
+  ],
+  "required_signals": [
+    {
+      "signal": "credit_conditions",
+      "source_status": "not_mapped",
+      "evidence_records": []
+    },
+    {
+      "signal": "interest_rates",
+      "source_status": "not_mapped",
+      "evidence_records": []
+    },
+    {
+      "signal": "market_volatility",
+      "source_status": "not_mapped",
+      "evidence_records": []
+    },
+    {
+      "signal": "business_activity",
+      "source_status": "not_mapped",
+      "evidence_records": []
+    }
+  ],
+  "required_manual_fields_before_execution": [
+    "source_name",
+    "source_url_or_reference",
+    "publication_date",
+    "observed_period",
+    "value_or_qualitative_finding",
+    "lineage_note"
+  ],
+  "governance_note": "This file is a replay evidence skeleton only. It is not evidence until populated, sourced, date-checked, and lineage-reviewed.",
+  "replay_decision_date": "2020-12-31",
+  "evidence_records": [
+    {
+      "evidence_id": "SG-FINANCE-2020-EV001",
+      "metric": "MARKET_VOLATILITY",
+      "observed_period": "2020",
+      "publication_date": "2020-12-15",
+      "source_name": "MAS / SGX / market statistics",
+      "source_url_or_reference": "market_volatility_2020_context",
+      "value_or_qualitative_finding": "Financial markets experienced elevated volatility during the 2020 COVID shock.",
+      "lineage_note": "Market statistics placeholder; exact source URL required before production use.",
+      "future_leakage_check": "pending_validation"
+    },
+    {
+      "evidence_id": "SG-FINANCE-2020-EV002",
+      "metric": "CREDIT_CONDITIONS",
+      "observed_period": "2020",
+      "publication_date": "2020-12-20",
+      "source_name": "MAS",
+      "source_url_or_reference": "credit_conditions_2020_context",
+      "value_or_qualitative_finding": "Credit and financial conditions were affected by the 2020 macro shock.",
+      "lineage_note": "MAS source placeholder; exact source URL required before production use.",
+      "future_leakage_check": "pending_validation"
+    },
+    {
+      "evidence_id": "SG-FINANCE-2020-EV003",
+      "metric": "INTEREST_RATES",
+      "observed_period": "2020",
+      "publication_date": "2020-12-10",
+      "source_name": "MAS / global rates context",
+      "source_url_or_reference": "interest_rate_2020_context",
+      "value_or_qualitative_finding": "Rates and liquidity conditions reflected global monetary easing during 2020.",
+      "lineage_note": "Rates context placeholder; exact source URL required before production use.",
+      "future_leakage_check": "pending_validation"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "review_version": "hungry-smurf-staging-review-v0.1",
+  "generated_at": "2026-06-25T13:52:02.676Z",
+  "mutation_allowed": false,
+  "decision": "READY_FOR_HUMAN_PROMOTION_REVIEW",
+  "blockers": [],
+  "warnings": [
+    "requested_not_loaded_backlog_exists"
+  ],
+  "staged_count": 7,
+  "staged_items": [
+    {
+      "dataset_id": "SG_CHEMICALS_OUTPUT_INDEX",
+      "staging_status": "staged_for_human_review",
+      "staged_file": "data/ingestion/hungry-smurf-staging/SG_CHEMICALS_OUTPUT_INDEX.json",
+      "values_count": 10,
+      "coverage_start": "2016",
+      "coverage_end": "2025"
+    },
+    {
+      "dataset_id": "SG_PETROLEUM_OUTPUT_INDEX",
+      "staging_status": "staged_for_human_review",
+      "staged_file": "data/ingestion/hungry-smurf-staging/SG_PETROLEUM_OUTPUT_INDEX.json",
+      "values_count": 10,
+      "coverage_start": "2016",
+      "coverage_end": "2025"
+    },
+    {
+      "dataset_id": "SG_PRECISION_ENGINEERING_OUTPUT_INDEX",
+      "staging_status": "staged_for_human_review",
+      "staged_file": "data/ingestion/hungry-smurf-staging/SG_PRECISION_ENGINEERING_OUTPUT_INDEX.json",
+      "values_count": 10,
+      "coverage_start": "2016",
+      "coverage_end": "2025"
+    },
+    {
+      "dataset_id": "SG_SEMICONDUCTOR_OUTPUT_INDEX",
+      "staging_status": "staged_for_human_review",
+      "staged_file": "data/ingestion/hungry-smurf-staging/SG_SEMICONDUCTOR_OUTPUT_INDEX.json",
+      "values_count": 10,
+      "coverage_start": "2016",
+      "coverage_end": "2025"
+    },
+    {
+      "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+      "staging_status": "staged_for_human_review",
+      "staged_file": "data/ingestion/hungry-smurf-staging/SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.json",
+      "values_count": 10,
+      "coverage_start": "2016",
+      "coverage_end": "2025"
+    },
+    {
+      "dataset_id": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX",
+      "staging_status": "staged_for_human_review",
+      "staged_file": "data/ingestion/hungry-smurf-staging/SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.json",
+      "values_count": 10,
+      "coverage_start": "2016",
+      "coverage_end": "2025"
+    },
+    {
+      "dataset_id": "SG_BIOMEDICAL_OUTPUT_INDEX",
+      "staging_status": "staged_for_human_review",
+      "staged_file": "data/ingestion/hungry-smurf-staging/SG_BIOMEDICAL_OUTPUT_INDEX.json",
+      "values_count": 10,
+      "coverage_start": "2016",
+      "coverage_end": "2025"
+    }
+  ],
+  "governance": {
+    "production_mutation_allowed": false,
+    "human_review_required": true,
+    "promotion_requires_separate_gate": true
+  }
+}

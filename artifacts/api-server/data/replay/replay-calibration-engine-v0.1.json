@@ -1,0 +1,59 @@
+{
+  "registry_version": "replay-calibration-engine-v0.1",
+  "created_at": "2026-06-09T09:29:17.551Z",
+  "doctrine": {
+    "calibration_measures_replay_behavior_not_truth": true,
+    "calibration_requires_many_cases": true,
+    "dry_run_calibration_does_not_validate_mechanisms": true
+  },
+  "inputs": {
+    "scoreboard_cases": 4,
+    "completed_cases": 1
+  },
+  "summary": {
+    "mechanisms_calibrated": 2,
+    "average_calibration_score": 1,
+    "strong_calibration": 2,
+    "moderate_calibration": 0,
+    "weak_calibration": 0,
+    "insufficient_calibration": 0
+  },
+  "calibration_items": [
+    {
+      "mechanism_id": "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY",
+      "cases_relevant": 1,
+      "expected_count": 1,
+      "detected_count": 1,
+      "matched_count": 1,
+      "false_positive_count": 0,
+      "missed_count": 0,
+      "precision": 1,
+      "recall": 1,
+      "calibration_score": 1,
+      "calibration_band": "strong_calibration",
+      "governance": {
+        "calibration_is_not_validation": true,
+        "more_cases_required_before_confidence": true,
+        "replay_dry_run_only": true
+      }
+    },
+    {
+      "mechanism_id": "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY",
+      "cases_relevant": 1,
+      "expected_count": 1,
+      "detected_count": 1,
+      "matched_count": 1,
+      "false_positive_count": 0,
+      "missed_count": 0,
+      "precision": 1,
+      "recall": 1,
+      "calibration_score": 1,
+      "calibration_band": "strong_calibration",
+      "governance": {
+        "calibration_is_not_validation": true,
+        "more_cases_required_before_confidence": true,
+        "replay_dry_run_only": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "historical_evidence_pilot_version": "historical-evidence-pilot-v0.1",
+  "case_id": "SG-M355381-1_1_1-2020-aug",
+  "period": "2020 Aug",
+  "series_name": "Semiconductors",
+  "evidence_items": [
+    "Global chip shortage increased demand for foundry capacity.",
+    "Data center demand and consumer electronics demand supported semiconductor output.",
+    "Work-from-home demand lifted electronics orders.",
+    "Semiconductor demand remained resilient during the pandemic period."
+  ],
+  "governance": {
+    "sandbox_only": true,
+    "manual_pilot": true,
+    "production_mutation_allowed": false
+  }
+}

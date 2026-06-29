@@ -1,0 +1,204 @@
+{
+  "registry_version": "mechanism-discovery-engine-v0.1",
+  "created_at": "2026-06-08T08:12:14.379Z",
+  "doctrine": {
+    "discovery_is_suggestion_not_truth": true,
+    "discovery_does_not_create_validated_mechanism": true,
+    "human_review_required_to_seed_new_mechanisms": true,
+    "evidence_remains_primary": true
+  },
+  "inputs": {
+    "assessed_evidence_items": 552,
+    "existing_mechanism_links": 300,
+    "strong_or_useful_unlinked_evidence": 153
+  },
+  "summary": {
+    "discovery_candidates": 3,
+    "candidate_discoveries": 2,
+    "watch_themes": 0,
+    "insufficient_signal": 1
+  },
+  "discovery_candidates": [
+    {
+      "discovery_id": "MDISC_001",
+      "theme_id": "DISC_THEME_001",
+      "suggested_mechanism_name": "Household Balance Sheet Transmission",
+      "suggested_mechanism_statement": "Household balance sheet changes may transmit into demand conditions through income, savings, wealth, and consumption channels.",
+      "discovery_status": "candidate_discovery",
+      "discovery_score": 0.708,
+      "evidence_items_matched": 23,
+      "average_evidence_score": 0.65,
+      "top_supporting_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_household-sector-balance-sheet-1q2026_001_HOUSEHOLD_NET_WORTH_CHANGE_YOY_2026-Q1",
+          "metric_name": "HOUSEHOLD_NET_WORTH_CHANGE_YOY",
+          "period": "2026-Q1",
+          "direction": "positive",
+          "evidence_score": 0.698,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_household-sector-balance-sheet-4q2025_001_HOUSEHOLD_NET_WORTH_CHANGE_YOY_2025-Q4",
+          "metric_name": "HOUSEHOLD_NET_WORTH_CHANGE_YOY",
+          "period": "2025-Q4",
+          "direction": "positive",
+          "evidence_score": 0.698,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_household-sector-balance-sheet-3q2025_001_HOUSEHOLD_NET_WORTH_CHANGE_YOY_2025-Q3",
+          "metric_name": "HOUSEHOLD_NET_WORTH_CHANGE_YOY",
+          "period": "2025-Q3",
+          "direction": "positive",
+          "evidence_score": 0.698,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_household-sector-balance-sheet-2q2025_001_HOUSEHOLD_NET_WORTH_CHANGE_YOY_2025-Q2",
+          "metric_name": "HOUSEHOLD_NET_WORTH_CHANGE_YOY",
+          "period": "2025-Q2",
+          "direction": "positive",
+          "evidence_score": 0.698,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_household-sector-balance-sheet-1q2025_001_HOUSEHOLD_NET_WORTH_CHANGE_YOY_2025-Q1",
+          "metric_name": "HOUSEHOLD_NET_WORTH_CHANGE_YOY",
+          "period": "2025-Q1",
+          "direction": "positive",
+          "evidence_score": 0.698,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_household-sector-balance-sheet-4q2024_001_HOUSEHOLD_NET_WORTH_CHANGE_YOY_2024-Q4",
+          "metric_name": "HOUSEHOLD_NET_WORTH_CHANGE_YOY",
+          "period": "2024-Q4",
+          "direction": "positive",
+          "evidence_score": 0.682,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_household-sector-balance-sheet-3q2024_001_HOUSEHOLD_NET_WORTH_CHANGE_YOY_2024-Q3",
+          "metric_name": "HOUSEHOLD_NET_WORTH_CHANGE_YOY",
+          "period": "2024-Q3",
+          "direction": "positive",
+          "evidence_score": 0.682,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_household-sector-balance-sheet-2q2024_001_HOUSEHOLD_NET_WORTH_CHANGE_YOY_2024-Q2",
+          "metric_name": "HOUSEHOLD_NET_WORTH_CHANGE_YOY",
+          "period": "2024-Q2",
+          "direction": "positive",
+          "evidence_score": 0.682,
+          "status": "useful_evidence"
+        }
+      ],
+      "governance": {
+        "discovery_is_not_validation": true,
+        "discovery_is_not_lifecycle_creation": true,
+        "human_review_required_to_create_mechanism_candidate": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "discovery_id": "MDISC_002",
+      "theme_id": "DISC_THEME_002",
+      "suggested_mechanism_name": "Services Receipts Momentum",
+      "suggested_mechanism_statement": "Services-sector receipts may act as an early signal for domestic demand, tourism-linked activity, or business services momentum.",
+      "discovery_status": "candidate_discovery",
+      "discovery_score": 0.705,
+      "evidence_items_matched": 78,
+      "average_evidence_score": 0.646,
+      "top_supporting_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_e-commerce-in-the-services-sector-2023_001_BUSINESS_RECEIPTS_CHANGE_YOY_2025-07-31",
+          "metric_name": "BUSINESS_RECEIPTS_CHANGE_YOY",
+          "period": "2025-07-31",
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.702,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_e-commerce-in-the-services-sector-2022_001_BUSINESS_RECEIPTS_CHANGE_YOY_2024-08-02",
+          "metric_name": "BUSINESS_RECEIPTS_CHANGE_YOY",
+          "period": "2024-08-02",
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.687,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_business-receipts-for-services-industries-1q2026_001_BUSINESS_RECEIPTS_CHANGE_YOY_2026-Q1",
+          "metric_name": "BUSINESS_RECEIPTS_CHANGE_YOY",
+          "period": "2026-Q1",
+          "direction": "positive",
+          "evidence_score": 0.679,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_advance-estimates-of-singapores-direct-investment-abroad-2024_001_BUSINESS_OUTLOOK_UPBEAT_SHARE_2025-10",
+          "metric_name": "BUSINESS_OUTLOOK_UPBEAT_SHARE",
+          "period": "2025-10",
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.677,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_business-expectations-of-services-sector-4q2025_001_BUSINESS_OUTLOOK_UPBEAT_SHARE_2025-10",
+          "metric_name": "BUSINESS_OUTLOOK_UPBEAT_SHARE",
+          "period": "2025-10",
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.677,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_business-expectations-of-services-sector-2q2025_002_BUSINESS_OUTLOOK_PESSIMISTIC_SHARE_2025-09",
+          "metric_name": "BUSINESS_OUTLOOK_PESSIMISTIC_SHARE",
+          "period": "2025-09",
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.677,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_monthly-retail-sales-index-and-food-beverage-services-index-mar2025_002_BUSINESS_OUTLOOK_PESSIMISTIC_SHARE_2025-09",
+          "metric_name": "BUSINESS_OUTLOOK_PESSIMISTIC_SHARE",
+          "period": "2025-09",
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.677,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_business-expectations-of-manufacturing-sector-2q2026_002_BUSINESS_OUTLOOK_UPBEAT_SHARE_2026-09",
+          "metric_name": "BUSINESS_OUTLOOK_UPBEAT_SHARE",
+          "period": "2026-09",
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.662,
+          "status": "useful_evidence"
+        }
+      ],
+      "governance": {
+        "discovery_is_not_validation": true,
+        "discovery_is_not_lifecycle_creation": true,
+        "human_review_required_to_create_mechanism_candidate": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "discovery_id": "MDISC_003",
+      "theme_id": "DISC_THEME_003",
+      "suggested_mechanism_name": "Investment Flow Reallocation",
+      "suggested_mechanism_statement": "Investment flow changes may reflect capital reallocation, regional expansion, or changing corporate confidence.",
+      "discovery_status": "insufficient_signal",
+      "discovery_score": 0,
+      "evidence_items_matched": 0,
+      "average_evidence_score": 0,
+      "top_supporting_evidence": [],
+      "governance": {
+        "discovery_is_not_validation": true,
+        "discovery_is_not_lifecycle_creation": true,
+        "human_review_required_to_create_mechanism_candidate": true,
+        "evidence_remains_primary": true
+      }
+    }
+  ]
+}

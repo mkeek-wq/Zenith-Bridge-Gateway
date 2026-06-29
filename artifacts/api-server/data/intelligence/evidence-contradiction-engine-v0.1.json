@@ -1,0 +1,449 @@
+{
+  "registry_version": "evidence-contradiction-engine-v0.1",
+  "created_at": "2026-06-08T08:12:12.669Z",
+  "doctrine": {
+    "contradictions_are_signals_not_failures": true,
+    "contradictory_evidence_reduces_certainty": true,
+    "evidence_remains_primary": true,
+    "human_review_required_for_interpretation": true
+  },
+  "inputs": {
+    "assessed_evidence_items": 552,
+    "useful_or_strong_items": 424,
+    "buckets_assessed": 6
+  },
+  "summary": {
+    "contradictions_found": 5,
+    "strong_contradictions": 1,
+    "moderate_contradictions": 4,
+    "weak_contradictions": 0
+  },
+  "contradictions": [
+    {
+      "contradiction_id": "CON_0001",
+      "evidence_bucket": "other",
+      "positive_items": 112,
+      "negative_items": 23,
+      "contradiction_strength": 0.646,
+      "contradiction_band": "moderate_contradiction",
+      "interpretation": "Evidence in the same analytical bucket contains both positive and negative signals. This should reduce certainty and trigger closer monitoring.",
+      "sample_positive_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_business-receipts-for-services-industries-1q2026_001_BUSINESS_RECEIPTS_CHANGE_YOY_2026-Q1",
+          "metric_name": "BUSINESS_RECEIPTS_CHANGE_YOY",
+          "period": "2026-Q1",
+          "score": 0.679,
+          "direction": "positive"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_household-sector-balance-sheet-1q2026_001_HOUSEHOLD_NET_WORTH_CHANGE_YOY_2026-Q1",
+          "metric_name": "HOUSEHOLD_NET_WORTH_CHANGE_YOY",
+          "period": "2026-Q1",
+          "score": 0.698,
+          "direction": "positive"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_personal-disposable-income-and-saving-1q2026_001_PERSONAL_DISPOSABLE_INCOME_CHANGE_YOY_2026-Q1",
+          "metric_name": "PERSONAL_DISPOSABLE_INCOME_CHANGE_YOY",
+          "period": "2026-Q1",
+          "score": 0.627,
+          "direction": "positive"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_personal-disposable-income-and-saving-1q2026_003_PERSONAL_SAVING_RATE_2026-Q1",
+          "metric_name": "PERSONAL_SAVING_RATE",
+          "period": "2026-Q1",
+          "score": 0.727,
+          "direction": "positive"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_personal-disposable-income-and-saving-1q2026_004_PERSONAL_DISPOSABLE_INCOME_CHANGE_YOY_2026-Q1",
+          "metric_name": "PERSONAL_DISPOSABLE_INCOME_CHANGE_YOY",
+          "period": "2026-Q1",
+          "score": 0.665,
+          "direction": "positive"
+        }
+      ],
+      "sample_negative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_monthly-retail-sales-index-and-food-beverage-services-index-jan2026_003_RETAIL_SALES_CHANGE_YOY_2026-01",
+          "metric_name": "RETAIL_SALES_CHANGE_YOY",
+          "period": "2026-01",
+          "score": 0.617,
+          "direction": "negative"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_4th-quarter-2025-public-housing-data-and-upcoming-flat-supply_001_PRIVATE_RESIDENTIAL_PRICE_INDEX_CHANGE_QOQ_2025-Q4",
+          "metric_name": "PRIVATE_RESIDENTIAL_PRICE_INDEX_CHANGE_QOQ",
+          "period": "2025-Q4",
+          "score": 0.665,
+          "direction": "negative"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_4th-quarter-2025-public-housing-data-and-upcoming-flat-supply_002_HDB_RENTED_FLATS_CHANGE_QOQ_2025-Q4",
+          "metric_name": "HDB_RENTED_FLATS_CHANGE_QOQ",
+          "period": "2025-Q4",
+          "score": 0.635,
+          "direction": "negative"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_jtc-quarterly-market-report-for-4q2025_003_INDUSTRIAL_OCCUPANCY_RATE_2025-Q4",
+          "metric_name": "INDUSTRIAL_OCCUPANCY_RATE",
+          "period": "2025-Q4",
+          "score": 0.672,
+          "direction": "negative"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_wholesale-trade-index-3q2025_002_DOMESTIC_WHOLESALE_SALES_CHANGE_YOY_2025-Q3",
+          "metric_name": "DOMESTIC_WHOLESALE_SALES_CHANGE_YOY",
+          "period": "2025-Q3",
+          "score": 0.605,
+          "direction": "negative"
+        }
+      ],
+      "governance": {
+        "contradiction_does_not_invalidate_evidence": true,
+        "contradiction_reduces_certainty": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "contradiction_id": "CON_0002",
+      "evidence_bucket": "manufacturing",
+      "positive_items": 13,
+      "negative_items": 14,
+      "contradiction_strength": 0.723,
+      "contradiction_band": "moderate_contradiction",
+      "interpretation": "Evidence in the same analytical bucket contains both positive and negative signals. This should reduce certainty and trigger closer monitoring.",
+      "sample_positive_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_monthly-manufacturing-performance-apr2026_001_MANUFACTURING_OUTPUT_CHANGE_MOM_2026-04",
+          "metric_name": "MANUFACTURING_OUTPUT_CHANGE_MOM",
+          "period": "2026-04",
+          "score": 0.752,
+          "direction": "positive"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-dec2024_001_MANUFACTURING_OUTPUT_CHANGE_MOM_2024-12",
+          "metric_name": "MANUFACTURING_OUTPUT_CHANGE_MOM",
+          "period": "2024-12",
+          "score": 0.704,
+          "direction": "positive"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-dec2024_002_MANUFACTURING_OUTPUT_CHANGE_MOM_2024-12",
+          "metric_name": "MANUFACTURING_OUTPUT_CHANGE_MOM",
+          "period": "2024-12",
+          "score": 0.771,
+          "direction": "positive"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-nov2024_001_MANUFACTURING_OUTPUT_CHANGE_MOM_2024-11",
+          "metric_name": "MANUFACTURING_OUTPUT_CHANGE_MOM",
+          "period": "2024-11",
+          "score": 0.771,
+          "direction": "positive"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-nov2024_002_MANUFACTURING_OUTPUT_CHANGE_MOM_2024-11",
+          "metric_name": "MANUFACTURING_OUTPUT_CHANGE_MOM",
+          "period": "2024-11",
+          "score": 0.749,
+          "direction": "positive"
+        }
+      ],
+      "sample_negative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-oct2024_001_MANUFACTURING_OUTPUT_CHANGE_MOM_2024-10",
+          "metric_name": "MANUFACTURING_OUTPUT_CHANGE_MOM",
+          "period": "2024-10",
+          "score": 0.749,
+          "direction": "negative"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-oct2024_002_MANUFACTURING_OUTPUT_CHANGE_MOM_2024-10",
+          "metric_name": "MANUFACTURING_OUTPUT_CHANGE_MOM",
+          "period": "2024-10",
+          "score": 0.704,
+          "direction": "negative"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-aug2024_001_MANUFACTURING_OUTPUT_CHANGE_MOM_2024-08",
+          "metric_name": "MANUFACTURING_OUTPUT_CHANGE_MOM",
+          "period": "2024-08",
+          "score": 0.726,
+          "direction": "negative"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-aug2024_002_MANUFACTURING_OUTPUT_CHANGE_MOM_2024-08",
+          "metric_name": "MANUFACTURING_OUTPUT_CHANGE_MOM",
+          "period": "2024-08",
+          "score": 0.771,
+          "direction": "negative"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-jun2024_001_MANUFACTURING_OUTPUT_CHANGE_MOM_2024-06",
+          "metric_name": "MANUFACTURING_OUTPUT_CHANGE_MOM",
+          "period": "2024-06",
+          "score": 0.704,
+          "direction": "negative"
+        }
+      ],
+      "governance": {
+        "contradiction_does_not_invalidate_evidence": true,
+        "contradiction_reduces_certainty": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "contradiction_id": "CON_0003",
+      "evidence_bucket": "macro_growth",
+      "positive_items": 45,
+      "negative_items": 8,
+      "contradiction_strength": 0.712,
+      "contradiction_band": "moderate_contradiction",
+      "interpretation": "Evidence in the same analytical bucket contains both positive and negative signals. This should reduce certainty and trigger closer monitoring.",
+      "sample_positive_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_performance-of-singapore-economy-1q2026_001_GDP_GROWTH_YOY_2026-Q1",
+          "metric_name": "GDP_GROWTH_YOY",
+          "period": "2026-Q1",
+          "score": 0.752,
+          "direction": "positive"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapore-consumer-price-index-mar2026_001_GDP_GROWTH_YOY_2026-Q1",
+          "metric_name": "GDP_GROWTH_YOY",
+          "period": "2026-Q1",
+          "score": 0.707,
+          "direction": "positive"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapore-consumer-price-index-mar2026_002_GDP_GROWTH_YOY_2026-Q1",
+          "metric_name": "GDP_GROWTH_YOY",
+          "period": "2026-Q1",
+          "score": 0.707,
+          "direction": "positive"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapore-consumer-price-index-mar2026_003_GDP_GROWTH_YOY_2026-Q1",
+          "metric_name": "GDP_GROWTH_YOY",
+          "period": "2026-Q1",
+          "score": 0.789,
+          "direction": "positive"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_advance-gdp-estimate-1q2026_001_GDP_GROWTH_YOY_2026-Q1",
+          "metric_name": "GDP_GROWTH_YOY",
+          "period": "2026-Q1",
+          "score": 0.729,
+          "direction": "positive"
+        }
+      ],
+      "sample_negative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_jtc-quarterly-market-report-for-1q2026_001_GDP_GROWTH_YOY_2026-Q1",
+          "metric_name": "GDP_GROWTH_YOY",
+          "period": "2026-Q1",
+          "score": 0.707,
+          "direction": "negative"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_jtc-quarterly-market-report-for-1q2026_002_GDP_GROWTH_YOY_2026-Q1",
+          "metric_name": "GDP_GROWTH_YOY",
+          "period": "2026-Q1",
+          "score": 0.729,
+          "direction": "negative"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_advance-gdp-estimate-1q2025_001_GDP_GROWTH_YOY_2025-Q1",
+          "metric_name": "GDP_GROWTH_YOY",
+          "period": "2025-Q1",
+          "score": 0.707,
+          "direction": "negative"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_advance-gdp-estimate-1q2025_002_GDP_GROWTH_YOY_2025-Q1",
+          "metric_name": "GDP_GROWTH_YOY",
+          "period": "2025-Q1",
+          "score": 0.707,
+          "direction": "negative"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_advance-gdp-estimate-1q2025_003_GDP_GROWTH_YOY_2025-Q1",
+          "metric_name": "GDP_GROWTH_YOY",
+          "period": "2025-Q1",
+          "score": 0.707,
+          "direction": "negative"
+        }
+      ],
+      "governance": {
+        "contradiction_does_not_invalidate_evidence": true,
+        "contradiction_reduces_certainty": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "contradiction_id": "CON_0004",
+      "evidence_bucket": "external_trade",
+      "positive_items": 24,
+      "negative_items": 8,
+      "contradiction_strength": 0.761,
+      "contradiction_band": "strong_contradiction",
+      "interpretation": "Evidence in the same analytical bucket contains both positive and negative signals. This should reduce certainty and trigger closer monitoring.",
+      "sample_positive_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-apr-2026_001_NODX_CHANGE_YOY_2026-04",
+          "metric_name": "NODX_CHANGE_YOY",
+          "period": "2026-04",
+          "score": 0.801,
+          "direction": "positive"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-apr-2026_002_NODX_CHANGE_YOY_2026-04",
+          "metric_name": "NODX_CHANGE_YOY",
+          "period": "2026-04",
+          "score": 0.786,
+          "direction": "positive"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-mar-2026_001_NODX_CHANGE_YOY_2026-03",
+          "metric_name": "NODX_CHANGE_YOY",
+          "period": "2026-03",
+          "score": 0.786,
+          "direction": "positive"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-mar-2026_002_NODX_CHANGE_YOY_2026-03",
+          "metric_name": "NODX_CHANGE_YOY",
+          "period": "2026-03",
+          "score": 0.741,
+          "direction": "positive"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-feb-2026_001_NODX_CHANGE_YOY_2026-02",
+          "metric_name": "NODX_CHANGE_YOY",
+          "period": "2026-02",
+          "score": 0.741,
+          "direction": "positive"
+        }
+      ],
+      "sample_negative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-aug2025_001_NODX_CHANGE_YOY_2025-08",
+          "metric_name": "NODX_CHANGE_YOY",
+          "period": "2025-08",
+          "score": 0.786,
+          "direction": "negative"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-aug2025_002_NODX_CHANGE_YOY_2025-08",
+          "metric_name": "NODX_CHANGE_YOY",
+          "period": "2025-08",
+          "score": 0.741,
+          "direction": "negative"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-jul2025_001_NODX_CHANGE_YOY_2025-07",
+          "metric_name": "NODX_CHANGE_YOY",
+          "period": "2025-07",
+          "score": 0.741,
+          "direction": "negative"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-jul2025_002_NODX_CHANGE_YOY_2025-07",
+          "metric_name": "NODX_CHANGE_YOY",
+          "period": "2025-07",
+          "score": 0.786,
+          "direction": "negative"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-may2025_001_NODX_CHANGE_YOY_2025-05",
+          "metric_name": "NODX_CHANGE_YOY",
+          "period": "2025-05",
+          "score": 0.741,
+          "direction": "negative"
+        }
+      ],
+      "governance": {
+        "contradiction_does_not_invalidate_evidence": true,
+        "contradiction_reduces_certainty": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "contradiction_id": "CON_0005",
+      "evidence_bucket": "investment",
+      "positive_items": 11,
+      "negative_items": 3,
+      "contradiction_strength": 0.705,
+      "contradiction_band": "moderate_contradiction",
+      "interpretation": "Evidence in the same analytical bucket contains both positive and negative signals. This should reduce certainty and trigger closer monitoring.",
+      "sample_positive_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_foreign-direct-investment-in-singapore-flows-2025_001_FDI_FLOW_CHANGE_2026-04-28",
+          "metric_name": "FDI_FLOW_CHANGE",
+          "period": "2026-04-28",
+          "score": 0.654,
+          "direction": "positive"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_international-investment-position-4q2025_001_INTERNATIONAL_INVESTMENT_POSITION_CHANGE_QOQ_2025-Q4",
+          "metric_name": "INTERNATIONAL_INVESTMENT_POSITION_CHANGE_QOQ",
+          "period": "2025-Q4",
+          "score": 0.737,
+          "direction": "positive"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-direct-investment-abroad-2024_001_DIRECT_INVESTMENT_ABROAD_CHANGE_YOY_2026-03-03",
+          "metric_name": "DIRECT_INVESTMENT_ABROAD_CHANGE_YOY",
+          "period": "2026-03-03",
+          "score": 0.759,
+          "direction": "positive"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_foreign-direct-investment-in-singapore-2024_001_FDI_FLOW_CHANGE_2026-02-26",
+          "metric_name": "FDI_FLOW_CHANGE",
+          "period": "2026-02-26",
+          "score": 0.654,
+          "direction": "positive"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_international-investment-position-3q2025_001_INTERNATIONAL_INVESTMENT_POSITION_CHANGE_QOQ_2025-Q3",
+          "metric_name": "INTERNATIONAL_INVESTMENT_POSITION_CHANGE_QOQ",
+          "period": "2025-Q3",
+          "score": 0.737,
+          "direction": "positive"
+        }
+      ],
+      "sample_negative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_international-investment-position-2q2025_001_INTERNATIONAL_INVESTMENT_POSITION_CHANGE_QOQ_2025-Q2",
+          "metric_name": "INTERNATIONAL_INVESTMENT_POSITION_CHANGE_QOQ",
+          "period": "2025-Q2",
+          "score": 0.715,
+          "direction": "negative"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_international-investment-position-2q2024_001_INTERNATIONAL_INVESTMENT_POSITION_CHANGE_QOQ_2024-Q2",
+          "metric_name": "INTERNATIONAL_INVESTMENT_POSITION_CHANGE_QOQ",
+          "period": "2024-Q2",
+          "score": 0.7,
+          "direction": "negative"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_international-investment-position-4q2023_001_INTERNATIONAL_INVESTMENT_POSITION_CHANGE_QOQ_2023-Q4",
+          "metric_name": "INTERNATIONAL_INVESTMENT_POSITION_CHANGE_QOQ",
+          "period": "2023-Q4",
+          "score": 0.7,
+          "direction": "negative"
+        }
+      ],
+      "governance": {
+        "contradiction_does_not_invalidate_evidence": true,
+        "contradiction_reduces_certainty": true,
+        "evidence_remains_primary": true
+      }
+    }
+  ]
+}

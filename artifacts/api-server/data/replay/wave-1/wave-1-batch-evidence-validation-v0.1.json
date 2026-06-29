@@ -1,0 +1,132 @@
+{
+  "validation_version": "wave-1-batch-evidence-validation-v0.1",
+  "generated_at": "2026-06-10T04:13:10.361Z",
+  "cases_checked": 3,
+  "ready_for_replay": 3,
+  "blocked": 0,
+  "validations": [
+    {
+      "case_id": "SG-GOODS-EXPORTS-2020",
+      "evidence_file": "data/replay/wave-1/evidence-files/SG-GOODS-EXPORTS-2020-replay-evidence-v0.1.json",
+      "replay_decision_date": "2020-12-31",
+      "records_checked": 3,
+      "passed": 3,
+      "failed": 0,
+      "governance_status": "READY_FOR_SINGLE_CASE_REPLAY",
+      "checks": [
+        {
+          "evidence_id": "SG-GOODS-EXPORTS-2020-EV001",
+          "metric": "GOODS_EXPORTS",
+          "validation_status": "passed",
+          "has_source": true,
+          "has_publication_date": true,
+          "has_observed_period": true,
+          "has_lineage": true,
+          "publication_before_decision_date": true
+        },
+        {
+          "evidence_id": "SG-GOODS-EXPORTS-2020-EV002",
+          "metric": "GLOBAL_TRADE_VOLUME",
+          "validation_status": "passed",
+          "has_source": true,
+          "has_publication_date": true,
+          "has_observed_period": true,
+          "has_lineage": true,
+          "publication_before_decision_date": true
+        },
+        {
+          "evidence_id": "SG-GOODS-EXPORTS-2020-EV003",
+          "metric": "GLOBAL_PMI",
+          "validation_status": "passed",
+          "has_source": true,
+          "has_publication_date": true,
+          "has_observed_period": true,
+          "has_lineage": true,
+          "publication_before_decision_date": true
+        }
+      ]
+    },
+    {
+      "case_id": "SG-LABOUR-MARKET-2020",
+      "evidence_file": "data/replay/wave-1/evidence-files/SG-LABOUR-MARKET-2020-replay-evidence-v0.1.json",
+      "replay_decision_date": "2020-12-31",
+      "records_checked": 3,
+      "passed": 3,
+      "failed": 0,
+      "governance_status": "READY_FOR_SINGLE_CASE_REPLAY",
+      "checks": [
+        {
+          "evidence_id": "SG-LABOUR-MARKET-2020-EV001",
+          "metric": "UNEMPLOYMENT_RATE",
+          "validation_status": "passed",
+          "has_source": true,
+          "has_publication_date": true,
+          "has_observed_period": true,
+          "has_lineage": true,
+          "publication_before_decision_date": true
+        },
+        {
+          "evidence_id": "SG-LABOUR-MARKET-2020-EV002",
+          "metric": "RETRENCHMENTS",
+          "validation_status": "passed",
+          "has_source": true,
+          "has_publication_date": true,
+          "has_observed_period": true,
+          "has_lineage": true,
+          "publication_before_decision_date": true
+        },
+        {
+          "evidence_id": "SG-LABOUR-MARKET-2020-EV003",
+          "metric": "POLICY_SUPPORT",
+          "validation_status": "passed",
+          "has_source": true,
+          "has_publication_date": true,
+          "has_observed_period": true,
+          "has_lineage": true,
+          "publication_before_decision_date": true
+        }
+      ]
+    },
+    {
+      "case_id": "SG-FINANCE-2020",
+      "evidence_file": "data/replay/wave-1/evidence-files/SG-FINANCE-2020-replay-evidence-v0.1.json",
+      "replay_decision_date": "2020-12-31",
+      "records_checked": 3,
+      "passed": 3,
+      "failed": 0,
+      "governance_status": "READY_FOR_SINGLE_CASE_REPLAY",
+      "checks": [
+        {
+          "evidence_id": "SG-FINANCE-2020-EV001",
+          "metric": "MARKET_VOLATILITY",
+          "validation_status": "passed",
+          "has_source": true,
+          "has_publication_date": true,
+          "has_observed_period": true,
+          "has_lineage": true,
+          "publication_before_decision_date": true
+        },
+        {
+          "evidence_id": "SG-FINANCE-2020-EV002",
+          "metric": "CREDIT_CONDITIONS",
+          "validation_status": "passed",
+          "has_source": true,
+          "has_publication_date": true,
+          "has_observed_period": true,
+          "has_lineage": true,
+          "publication_before_decision_date": true
+        },
+        {
+          "evidence_id": "SG-FINANCE-2020-EV003",
+          "metric": "INTEREST_RATES",
+          "validation_status": "passed",
+          "has_source": true,
+          "has_publication_date": true,
+          "has_observed_period": true,
+          "has_lineage": true,
+          "publication_before_decision_date": true
+        }
+      ]
+    }
+  ]
+}

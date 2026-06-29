@@ -1,0 +1,264 @@
+{
+  "registry_version": "sector-macro-registry-v0.1",
+  "generated_at": "2026-06-10T02:30:31.056Z",
+  "doctrine": "Sector macro indicators harden replay explanations by reducing over-reliance on broad macro drivers such as GLOBAL_PMI, SINGAPORE_NODX, and GLOBAL_TRADE_VOLUME.",
+  "indicators": [
+    {
+      "indicator_id": "SG_MANUFACTURING_OUTPUT",
+      "indicator_name": "Singapore Manufacturing Output",
+      "domain": "manufacturing",
+      "macro_category": "sector_specific",
+      "source_authority": "SingStat / EDB",
+      "source_url_or_reference": "to_be_confirmed",
+      "frequency": "monthly",
+      "period_coverage": "historical_required",
+      "mechanisms_supported": [
+        "MKT_002",
+        "MKT_010"
+      ],
+      "replay_cases_supported": [
+        "SG-MANUFACTURING-2020"
+      ],
+      "rationale": "Adds sector-specific output context to manufacturing replay cases.",
+      "lineage_status": "source_verified",
+      "ingestion_status": "promoted",
+      "promoted_at": "2026-06-10T02:48:20.445Z",
+      "promotion_basis": "manual approval after duplicate review and controlled staging"
+    },
+    {
+      "indicator_id": "SG_ELECTRONICS_EXPORTS",
+      "indicator_name": "Singapore Electronics Exports",
+      "domain": "manufacturing",
+      "macro_category": "sector_specific",
+      "source_authority": "Enterprise Singapore / SingStat",
+      "source_url_or_reference": "to_be_confirmed",
+      "frequency": "monthly",
+      "period_coverage": "historical_required",
+      "mechanisms_supported": [
+        "MKT_010",
+        "MKT_002"
+      ],
+      "replay_cases_supported": [
+        "SG-MANUFACTURING-2020",
+        "SG-SEMICONDUCTOR-2021"
+      ],
+      "rationale": "Adds electronics trade context to manufacturing and semiconductor replay cases.",
+      "lineage_status": "source_verified",
+      "ingestion_status": "promoted",
+      "promoted_at": "2026-06-10T02:48:20.445Z",
+      "promotion_basis": "manual approval after duplicate review and controlled staging"
+    },
+    {
+      "indicator_id": "GLOBAL_INVENTORY_CYCLE",
+      "indicator_name": "Global Inventory Cycle Indicator",
+      "domain": "manufacturing",
+      "macro_category": "mechanism_specific",
+      "source_authority": "to_be_confirmed",
+      "source_url_or_reference": "to_be_confirmed",
+      "frequency": "monthly_or_quarterly",
+      "period_coverage": "historical_required",
+      "mechanisms_supported": [
+        "MKT_002"
+      ],
+      "replay_cases_supported": [
+        "SG-MANUFACTURING-2020"
+      ],
+      "rationale": "Supports inventory/restocking mechanism attribution.",
+      "lineage_status": "source_identified",
+      "ingestion_status": "candidate_not_ingested"
+    },
+    {
+      "indicator_id": "BRENT_CRUDE",
+      "indicator_name": "Brent Crude Oil Price",
+      "domain": "petroleum",
+      "macro_category": "sector_specific",
+      "source_authority": "EIA / FRED / World Bank",
+      "source_url_or_reference": "to_be_confirmed",
+      "frequency": "daily_or_monthly",
+      "period_coverage": "historical_required",
+      "mechanisms_supported": [
+        "MKT_010",
+        "MKT_007"
+      ],
+      "replay_cases_supported": [
+        "SG-PETROLEUM-2020"
+      ],
+      "rationale": "Adds oil-price context to petroleum shock replay cases.",
+      "lineage_status": "source_verified",
+      "ingestion_status": "promoted",
+      "promoted_at": "2026-06-10T02:48:20.445Z",
+      "promotion_basis": "manual approval after duplicate review and controlled staging"
+    },
+    {
+      "indicator_id": "REFINING_MARGINS",
+      "indicator_name": "Refining Margins",
+      "domain": "petroleum",
+      "macro_category": "sector_specific",
+      "source_authority": "to_be_confirmed",
+      "source_url_or_reference": "to_be_confirmed",
+      "frequency": "weekly_or_monthly",
+      "period_coverage": "historical_required",
+      "mechanisms_supported": [
+        "MKT_007",
+        "MKT_010"
+      ],
+      "replay_cases_supported": [
+        "SG-PETROLEUM-2020"
+      ],
+      "rationale": "Adds downstream petroleum profitability context.",
+      "lineage_status": "source_identified",
+      "ingestion_status": "candidate_not_ingested"
+    },
+    {
+      "indicator_id": "PETROCHEMICAL_SPREADS",
+      "indicator_name": "Petrochemical Spreads",
+      "domain": "petroleum",
+      "macro_category": "sector_specific",
+      "source_authority": "to_be_confirmed",
+      "source_url_or_reference": "to_be_confirmed",
+      "frequency": "weekly_or_monthly",
+      "period_coverage": "historical_required",
+      "mechanisms_supported": [
+        "MKT_007",
+        "MKT_010"
+      ],
+      "replay_cases_supported": [
+        "SG-PETROLEUM-2020"
+      ],
+      "rationale": "Adds petrochemical cycle evidence beyond broad trade indicators.",
+      "lineage_status": "source_identified",
+      "ingestion_status": "candidate_not_ingested"
+    },
+    {
+      "indicator_id": "GLOBAL_SEMICONDUCTOR_SALES",
+      "indicator_name": "Global Semiconductor Sales",
+      "domain": "semiconductors",
+      "macro_category": "sector_specific",
+      "source_authority": "SIA / WSTS",
+      "source_url_or_reference": "to_be_confirmed",
+      "frequency": "monthly",
+      "period_coverage": "historical_required",
+      "mechanisms_supported": [
+        "MKT_002",
+        "MKT_010"
+      ],
+      "replay_cases_supported": [
+        "SG-SEMICONDUCTOR-2021"
+      ],
+      "rationale": "Adds direct semiconductor cycle context.",
+      "lineage_status": "source_verified",
+      "ingestion_status": "promoted",
+      "promoted_at": "2026-06-10T02:48:20.445Z",
+      "promotion_basis": "manual approval after duplicate review and controlled staging"
+    },
+    {
+      "indicator_id": "WAFER_FAB_UTILIZATION",
+      "indicator_name": "Wafer Fab Utilization",
+      "domain": "semiconductors",
+      "macro_category": "sector_specific",
+      "source_authority": "to_be_confirmed",
+      "source_url_or_reference": "to_be_confirmed",
+      "frequency": "monthly_or_quarterly",
+      "period_coverage": "historical_required",
+      "mechanisms_supported": [
+        "MKT_002"
+      ],
+      "replay_cases_supported": [
+        "SG-SEMICONDUCTOR-2021"
+      ],
+      "rationale": "Adds semiconductor supply-cycle evidence.",
+      "lineage_status": "source_identified",
+      "ingestion_status": "candidate_not_ingested"
+    },
+    {
+      "indicator_id": "CHIP_DEMAND",
+      "indicator_name": "Chip Demand Indicator",
+      "domain": "semiconductors",
+      "macro_category": "sector_specific",
+      "source_authority": "to_be_confirmed",
+      "source_url_or_reference": "to_be_confirmed",
+      "frequency": "monthly_or_quarterly",
+      "period_coverage": "historical_required",
+      "mechanisms_supported": [
+        "MKT_010",
+        "MKT_002"
+      ],
+      "replay_cases_supported": [
+        "SG-SEMICONDUCTOR-2021"
+      ],
+      "rationale": "Adds demand-side semiconductor evidence.",
+      "lineage_status": "source_identified",
+      "ingestion_status": "candidate_not_ingested"
+    },
+    {
+      "indicator_id": "SG_PHARMACEUTICAL_OUTPUT",
+      "indicator_name": "Singapore Pharmaceutical Output",
+      "domain": "biomedical",
+      "macro_category": "sector_specific",
+      "source_authority": "SingStat / EDB",
+      "source_url_or_reference": "to_be_confirmed",
+      "frequency": "monthly",
+      "period_coverage": "historical_required",
+      "mechanisms_supported": [
+        "MKT_010",
+        "MKT_006"
+      ],
+      "replay_cases_supported": [
+        "SG-BIOMEDICAL-2021"
+      ],
+      "rationale": "Adds direct biomedical/pharma output context.",
+      "lineage_status": "source_verified",
+      "ingestion_status": "promoted",
+      "promoted_at": "2026-06-10T02:48:20.445Z",
+      "promotion_basis": "manual approval after duplicate review and controlled staging"
+    },
+    {
+      "indicator_id": "SG_BIOMEDICAL_EXPORTS",
+      "indicator_name": "Singapore Biomedical Exports",
+      "domain": "biomedical",
+      "macro_category": "sector_specific",
+      "source_authority": "Enterprise Singapore / SingStat",
+      "source_url_or_reference": "to_be_confirmed",
+      "frequency": "monthly",
+      "period_coverage": "historical_required",
+      "mechanisms_supported": [
+        "MKT_010"
+      ],
+      "replay_cases_supported": [
+        "SG-BIOMEDICAL-2021"
+      ],
+      "rationale": "Adds biomedical trade-specific context.",
+      "lineage_status": "source_verified",
+      "ingestion_status": "promoted",
+      "promoted_at": "2026-06-10T02:48:20.445Z",
+      "promotion_basis": "manual approval after duplicate review and controlled staging"
+    },
+    {
+      "indicator_id": "HEALTHCARE_DEMAND",
+      "indicator_name": "Healthcare Demand Indicator",
+      "domain": "biomedical",
+      "macro_category": "sector_specific",
+      "source_authority": "to_be_confirmed",
+      "source_url_or_reference": "to_be_confirmed",
+      "frequency": "monthly_or_quarterly",
+      "period_coverage": "historical_required",
+      "mechanisms_supported": [
+        "MKT_010",
+        "MKT_006"
+      ],
+      "replay_cases_supported": [
+        "SG-BIOMEDICAL-2021"
+      ],
+      "rationale": "Adds demand-side biomedical context.",
+      "lineage_status": "source_identified",
+      "ingestion_status": "candidate_not_ingested"
+    }
+  ],
+  "updated_at": "2026-06-10T02:48:20.445Z",
+  "promotion_run": {
+    "executor_version": "sector-indicator-promotion-executor-v0.1",
+    "decision_source": "data/intelligence/sector-manual-promotion-decision-v0.1.json",
+    "promoted_count": 6,
+    "not_promoted_count": 6
+  }
+}

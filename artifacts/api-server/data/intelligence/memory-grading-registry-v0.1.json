@@ -1,0 +1,2194 @@
+{
+  "memory_grading_registry_version": "memory-grading-registry-v0.1",
+  "generated_at": "2026-06-06T06:53:36.493Z",
+  "source_experience_registry": "data/intelligence/experience-registry-v0.2.json",
+  "policy": {
+    "principle": "Memory grading classifies historical memory for retention, compression, or archive without deleting or mutating source memory.",
+    "first_memory_always_retained": true,
+    "latest_memory_always_retained": true,
+    "intermediate_memory_may_be_compressed_or_archived": true,
+    "deletion_allowed": false,
+    "production_mutation_allowed": false
+  },
+  "summary": {
+    "drivers_processed": 10,
+    "memories_graded": 68,
+    "action_counts": {
+      "retain_anchor": 20,
+      "retain_active": 48
+    }
+  },
+  "memory_grades": [
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "case_id": "SG-TRANSPORT-ENGINEERING-2018",
+      "period": "2018",
+      "series_name": "Transport Engineering",
+      "memory_score": 0.863,
+      "memory_action": "retain_anchor",
+      "retention_reason": "First known memory for this driver must be retained.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 72,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.865,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.811,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "POSSIBLE_TEMPLATE_CONCENTRATION"
+        ],
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "case_id": "SG-TRANSPORT-ENGINEERING-2019",
+      "period": "2019",
+      "series_name": "Transport Engineering",
+      "memory_score": 0.863,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 72,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.865,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.811,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "POSSIBLE_TEMPLATE_CONCENTRATION"
+        ],
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "case_id": "SG-AEROSPACE-2020",
+      "period": "2020",
+      "series_name": "Aerospace",
+      "memory_score": 0.863,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 72,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.865,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.811,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "POSSIBLE_TEMPLATE_CONCENTRATION"
+        ],
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "case_id": "SG-TRANSPORT-ENGINEERING-2020",
+      "period": "2020",
+      "series_name": "Transport Engineering",
+      "memory_score": 0.852,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 66,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.865,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.811,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "POSSIBLE_TEMPLATE_CONCENTRATION"
+        ],
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "case_id": "SG-AEROSPACE-2021",
+      "period": "2021",
+      "series_name": "Aerospace",
+      "memory_score": 0.863,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 72,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.865,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.811,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "POSSIBLE_TEMPLATE_CONCENTRATION"
+        ],
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "case_id": "SG-TRANSPORT-ENGINEERING-2021",
+      "period": "2021",
+      "series_name": "Transport Engineering",
+      "memory_score": 0.887,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 84,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.865,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.811,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "POSSIBLE_TEMPLATE_CONCENTRATION"
+        ],
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "case_id": "SG-AEROSPACE-2022",
+      "period": "2022",
+      "series_name": "Aerospace",
+      "memory_score": 0.863,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 72,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.865,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.811,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "POSSIBLE_TEMPLATE_CONCENTRATION"
+        ],
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "case_id": "SG-TRANSPORT-ENGINEERING-2022",
+      "period": "2022",
+      "series_name": "Transport Engineering",
+      "memory_score": 0.876,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 78,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.865,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.811,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "POSSIBLE_TEMPLATE_CONCENTRATION"
+        ],
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "case_id": "SG-TRANSPORT-ENGINEERING-2023",
+      "period": "2023",
+      "series_name": "Transport Engineering",
+      "memory_score": 0.863,
+      "memory_action": "retain_anchor",
+      "retention_reason": "Most recent memory for this driver must be retained.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 72,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.865,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.811,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "POSSIBLE_TEMPLATE_CONCENTRATION"
+        ],
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "case_id": "SG-PRECISION-ENGINEERING-2018",
+      "period": "2018",
+      "series_name": "Precision Engineering",
+      "memory_score": 0.862,
+      "memory_action": "retain_anchor",
+      "retention_reason": "First known memory for this driver must be retained.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 78,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.819,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.768,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "case_id": "SG-PRECISION-ENGINEERING-2019",
+      "period": "2019",
+      "series_name": "Precision Engineering",
+      "memory_score": 0.862,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 78,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.819,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.768,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "case_id": "SG-MACHINERY-2020",
+      "period": "2020",
+      "series_name": "Machinery",
+      "memory_score": 0.838,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 66,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.819,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.768,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "case_id": "SG-PRECISION-ENGINEERING-2020",
+      "period": "2020",
+      "series_name": "Precision Engineering",
+      "memory_score": 0.862,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 78,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.819,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.768,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "case_id": "SG-MACHINERY-2021",
+      "period": "2021",
+      "series_name": "Machinery",
+      "memory_score": 0.838,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 66,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.819,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.768,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "case_id": "SG-PRECISION-ENGINEERING-2021",
+      "period": "2021",
+      "series_name": "Precision Engineering",
+      "memory_score": 0.862,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 78,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.819,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.768,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "case_id": "SG-MACHINERY-2022",
+      "period": "2022",
+      "series_name": "Machinery",
+      "memory_score": 0.838,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 66,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.819,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.768,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "case_id": "SG-PRECISION-ENGINEERING-2022",
+      "period": "2022",
+      "series_name": "Precision Engineering",
+      "memory_score": 0.862,
+      "memory_action": "retain_anchor",
+      "retention_reason": "Most recent memory for this driver must be retained.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 78,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.819,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.768,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "case_id": "SG-CHEMICALS-2018",
+      "period": "2018",
+      "series_name": "Chemicals",
+      "memory_score": 0.819,
+      "memory_action": "retain_anchor",
+      "retention_reason": "First known memory for this driver must be retained.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 60,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.797,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.856,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "case_id": "SG-PETROCHEMICALS-2018",
+      "period": "2018",
+      "series_name": "Petrochemicals",
+      "memory_score": 0.819,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 60,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.797,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.856,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "case_id": "SG-CHEMICALS-2020",
+      "period": "2020",
+      "series_name": "Chemicals",
+      "memory_score": 0.807,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 54,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.797,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.856,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "case_id": "SG-CHEMICALS-2021",
+      "period": "2021",
+      "series_name": "Chemicals",
+      "memory_score": 0.831,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 66,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.797,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.856,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "case_id": "SG-CHEMICALS-2022",
+      "period": "2022",
+      "series_name": "Chemicals",
+      "memory_score": 0.819,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 60,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.797,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.856,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "case_id": "SG-PETROCHEMICALS-2022",
+      "period": "2022",
+      "series_name": "Petrochemicals",
+      "memory_score": 0.819,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 60,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.797,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.856,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "case_id": "SG-CHEMICALS-2023",
+      "period": "2023",
+      "series_name": "Chemicals",
+      "memory_score": 0.807,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 54,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.797,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.856,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "case_id": "SG-PETROCHEMICALS-2023",
+      "period": "2023",
+      "series_name": "Petrochemicals",
+      "memory_score": 0.819,
+      "memory_action": "retain_anchor",
+      "retention_reason": "Most recent memory for this driver must be retained.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 60,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.797,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.856,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "case_id": "SG-BIOMEDICAL-2018",
+      "period": "2018",
+      "series_name": "Biomedical Manufacturing",
+      "memory_score": 0.788,
+      "memory_action": "retain_anchor",
+      "retention_reason": "First known memory for this driver must be retained.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 54,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.732,
+        "driver_confidence_score": 0.956,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.476,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "case_id": "SG-BIOMEDICAL-2019",
+      "period": "2019",
+      "series_name": "Biomedical Manufacturing",
+      "memory_score": 0.788,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 54,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.732,
+        "driver_confidence_score": 0.956,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.476,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "case_id": "SG-BIOMEDICAL-2020",
+      "period": "2020",
+      "series_name": "Biomedical Manufacturing",
+      "memory_score": 0.788,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 54,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.732,
+        "driver_confidence_score": 0.956,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.476,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "case_id": "SG-PHARMACEUTICALS-2020",
+      "period": "2020",
+      "series_name": "Pharmaceuticals",
+      "memory_score": 0.788,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 54,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.732,
+        "driver_confidence_score": 0.956,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.476,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "case_id": "SG-BIOMEDICAL-2021",
+      "period": "2021",
+      "series_name": "Biomedical Manufacturing",
+      "memory_score": 0.584,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "medium",
+        "confidence_weight": 0.6,
+        "driver_score": 12,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.732,
+        "driver_confidence_score": 0.956,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.476,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "case_id": "SG-PHARMACEUTICALS-2021",
+      "period": "2021",
+      "series_name": "Pharmaceuticals",
+      "memory_score": 0.788,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 54,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.732,
+        "driver_confidence_score": 0.956,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.476,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "case_id": "SG-BIOMEDICAL-2022",
+      "period": "2022",
+      "series_name": "Biomedical Manufacturing",
+      "memory_score": 0.776,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 48,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.732,
+        "driver_confidence_score": 0.956,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.476,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "case_id": "SG-PHARMACEUTICALS-2022",
+      "period": "2022",
+      "series_name": "Pharmaceuticals",
+      "memory_score": 0.788,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 54,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.732,
+        "driver_confidence_score": 0.956,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.476,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "case_id": "SG-BIOMEDICAL-2023",
+      "period": "2023",
+      "series_name": "Biomedical Manufacturing",
+      "memory_score": 0.788,
+      "memory_action": "retain_anchor",
+      "retention_reason": "Most recent memory for this driver must be retained.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 54,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.732,
+        "driver_confidence_score": 0.956,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.476,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "case_id": "SG-ELECTRONICS-2018",
+      "period": "2018",
+      "series_name": "Electronics",
+      "memory_score": 0.815,
+      "memory_action": "retain_anchor",
+      "retention_reason": "First known memory for this driver must be retained.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 70,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.715,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.352,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "HIGH_VOLATILITY"
+        ],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "case_id": "SG-SEMICONDUCTOR-2018",
+      "period": "2018",
+      "series_name": "Semiconductors",
+      "memory_score": 0.815,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 70,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.715,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.352,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "HIGH_VOLATILITY"
+        ],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "case_id": "SG-ELECTRONICS-2020",
+      "period": "2020",
+      "series_name": "Electronics",
+      "memory_score": 0.787,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 56,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.715,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.352,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "HIGH_VOLATILITY"
+        ],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "case_id": "SG-M355381-1_1_1-2020-aug",
+      "period": "2020 Aug",
+      "series_name": "Semiconductors",
+      "memory_score": 0.745,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 35,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.715,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.352,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "HIGH_VOLATILITY"
+        ],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "case_id": "SG-ELECTRONICS-2021",
+      "period": "2021",
+      "series_name": "Electronics",
+      "memory_score": 0.829,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 77,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.715,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.352,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "HIGH_VOLATILITY"
+        ],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "case_id": "SG-SEMICONDUCTOR-RECOVERY-2021",
+      "period": "2021",
+      "series_name": "Semiconductors",
+      "memory_score": 0.745,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 35,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.715,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.352,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "HIGH_VOLATILITY"
+        ],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "case_id": "SG-ELECTRONICS-2022",
+      "period": "2022",
+      "series_name": "Electronics",
+      "memory_score": 0.759,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 42,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.715,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.352,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "HIGH_VOLATILITY"
+        ],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "case_id": "SG-SEMICONDUCTOR-2022",
+      "period": "2022",
+      "series_name": "Semiconductors",
+      "memory_score": 0.815,
+      "memory_action": "retain_anchor",
+      "retention_reason": "Most recent memory for this driver must be retained.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 70,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.715,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.352,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "HIGH_VOLATILITY"
+        ],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "case_id": "SG-MANUFACTURING-2001",
+      "period": "2001",
+      "series_name": "Total Manufacturing",
+      "memory_score": 0.711,
+      "memory_action": "retain_anchor",
+      "retention_reason": "First known memory for this driver must be retained.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 28,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.651,
+        "driver_confidence_score": 0.912,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.722,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "case_id": "SG-MANUFACTURING-2008",
+      "period": "2008",
+      "series_name": "Total Manufacturing",
+      "memory_score": 0.711,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 28,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.651,
+        "driver_confidence_score": 0.912,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.722,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "case_id": "SG-MANUFACTURING-2009",
+      "period": "2009",
+      "series_name": "Total Manufacturing",
+      "memory_score": 0.711,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 28,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.651,
+        "driver_confidence_score": 0.912,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.722,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "case_id": "SG-CHEMICALS-2019",
+      "period": "2019",
+      "series_name": "Chemicals",
+      "memory_score": 0.711,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 28,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.651,
+        "driver_confidence_score": 0.912,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.722,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "case_id": "SG-PETROCHEMICALS-2019",
+      "period": "2019",
+      "series_name": "Petrochemicals",
+      "memory_score": 0.711,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 28,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.651,
+        "driver_confidence_score": 0.912,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.722,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "case_id": "SG-MANUFACTURING-2020-SHOCK",
+      "period": "2020",
+      "series_name": "Total Manufacturing",
+      "memory_score": 0.711,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 28,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.651,
+        "driver_confidence_score": 0.912,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.722,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "case_id": "SG-PETROCHEMICALS-2020",
+      "period": "2020",
+      "series_name": "Petrochemicals",
+      "memory_score": 0.711,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 28,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.651,
+        "driver_confidence_score": 0.912,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.722,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "case_id": "SG-TOTAL-MANUFACTURING-2020",
+      "period": "2020",
+      "series_name": "Total Manufacturing",
+      "memory_score": 0.459,
+      "memory_action": "retain_anchor",
+      "retention_reason": "Most recent memory for this driver must be retained.",
+      "grading_inputs": {
+        "confidence": "low",
+        "confidence_weight": 0.3,
+        "driver_score": 7,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.651,
+        "driver_confidence_score": 0.912,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.722,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "case_id": "SG-ELECTRONICS-2019",
+      "period": "2019",
+      "series_name": "Electronics",
+      "memory_score": 0.721,
+      "memory_action": "retain_anchor",
+      "retention_reason": "First known memory for this driver must be retained.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 35,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.638,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.4,
+        "persistence_score": 0.2,
+        "volatility_score": 1,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "LOW_PERSISTENCE",
+          "LOW_RECURRENCE"
+        ],
+        "cluster_case_count": 5
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "case_id": "SG-SEMICONDUCTOR-2019",
+      "period": "2019",
+      "series_name": "Semiconductors",
+      "memory_score": 0.721,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 35,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.638,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.4,
+        "persistence_score": 0.2,
+        "volatility_score": 1,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "LOW_PERSISTENCE",
+          "LOW_RECURRENCE"
+        ],
+        "cluster_case_count": 5
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "case_id": "SG-ELECTRONICS-2023",
+      "period": "2023",
+      "series_name": "Electronics",
+      "memory_score": 0.721,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 35,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.638,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.4,
+        "persistence_score": 0.2,
+        "volatility_score": 1,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "LOW_PERSISTENCE",
+          "LOW_RECURRENCE"
+        ],
+        "cluster_case_count": 5
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "case_id": "SG-PRECISION-ENGINEERING-2023",
+      "period": "2023",
+      "series_name": "Precision Engineering",
+      "memory_score": 0.721,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 35,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.638,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.4,
+        "persistence_score": 0.2,
+        "volatility_score": 1,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "LOW_PERSISTENCE",
+          "LOW_RECURRENCE"
+        ],
+        "cluster_case_count": 5
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "case_id": "SG-SEMICONDUCTOR-2023",
+      "period": "2023",
+      "series_name": "Semiconductors",
+      "memory_score": 0.721,
+      "memory_action": "retain_anchor",
+      "retention_reason": "Most recent memory for this driver must be retained.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 35,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.638,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.4,
+        "persistence_score": 0.2,
+        "volatility_score": 1,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "LOW_PERSISTENCE",
+          "LOW_RECURRENCE"
+        ],
+        "cluster_case_count": 5
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "case_id": "SG-OPERATIONS-2020-COVID",
+      "period": "2020",
+      "series_name": "Manufacturing Operations",
+      "memory_score": 0.748,
+      "memory_action": "retain_anchor",
+      "retention_reason": "First known memory for this driver must be retained.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 49,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.633,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.75,
+        "persistence_score": 0.3,
+        "volatility_score": 1,
+        "maturity_stage": "early_cluster",
+        "bias_warnings": [
+          "LOW_SAMPLE_SIZE"
+        ],
+        "cluster_case_count": 4
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "case_id": "SG-REFINING-2020",
+      "period": "2020",
+      "series_name": "Refining",
+      "memory_score": 0.748,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 49,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.633,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.75,
+        "persistence_score": 0.3,
+        "volatility_score": 1,
+        "maturity_stage": "early_cluster",
+        "bias_warnings": [
+          "LOW_SAMPLE_SIZE"
+        ],
+        "cluster_case_count": 4
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "case_id": "SG-OPERATIONS-2021-SUPPLY",
+      "period": "2021",
+      "series_name": "Manufacturing Operations",
+      "memory_score": 0.748,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 49,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.633,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.75,
+        "persistence_score": 0.3,
+        "volatility_score": 1,
+        "maturity_stage": "early_cluster",
+        "bias_warnings": [
+          "LOW_SAMPLE_SIZE"
+        ],
+        "cluster_case_count": 4
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "case_id": "SG-OPERATIONS-2022-SUPPLY",
+      "period": "2022",
+      "series_name": "Manufacturing Operations",
+      "memory_score": 0.748,
+      "memory_action": "retain_anchor",
+      "retention_reason": "Most recent memory for this driver must be retained.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 49,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.633,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.75,
+        "persistence_score": 0.3,
+        "volatility_score": 1,
+        "maturity_stage": "early_cluster",
+        "bias_warnings": [
+          "LOW_SAMPLE_SIZE"
+        ],
+        "cluster_case_count": 4
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "case_id": "SG-PETROLEUM-2018",
+      "period": "2018",
+      "series_name": "Petroleum",
+      "memory_score": 0.738,
+      "memory_action": "retain_anchor",
+      "retention_reason": "First known memory for this driver must be retained.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 48,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.606,
+        "driver_confidence_score": 0.933,
+        "recurrence_score": 0.833,
+        "persistence_score": 0.5,
+        "volatility_score": 0.553,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 6
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "case_id": "SG-PETROLEUM-2019",
+      "period": "2019",
+      "series_name": "Petroleum",
+      "memory_score": 0.738,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 48,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.606,
+        "driver_confidence_score": 0.933,
+        "recurrence_score": 0.833,
+        "persistence_score": 0.5,
+        "volatility_score": 0.553,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 6
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "case_id": "SG-PETROLEUM-2020",
+      "period": "2020",
+      "series_name": "Petroleum",
+      "memory_score": 0.558,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "medium",
+        "confidence_weight": 0.6,
+        "driver_score": 18,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.606,
+        "driver_confidence_score": 0.933,
+        "recurrence_score": 0.833,
+        "persistence_score": 0.5,
+        "volatility_score": 0.553,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 6
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "case_id": "SG-PETROLEUM-2021",
+      "period": "2021",
+      "series_name": "Petroleum",
+      "memory_score": 0.738,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 48,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.606,
+        "driver_confidence_score": 0.933,
+        "recurrence_score": 0.833,
+        "persistence_score": 0.5,
+        "volatility_score": 0.553,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 6
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "case_id": "SG-REFINING-2021",
+      "period": "2021",
+      "series_name": "Refining",
+      "memory_score": 0.738,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 48,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.606,
+        "driver_confidence_score": 0.933,
+        "recurrence_score": 0.833,
+        "persistence_score": 0.5,
+        "volatility_score": 0.553,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 6
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "case_id": "SG-PETROLEUM-2022",
+      "period": "2022",
+      "series_name": "Petroleum",
+      "memory_score": 0.738,
+      "memory_action": "retain_anchor",
+      "retention_reason": "Most recent memory for this driver must be retained.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 48,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.606,
+        "driver_confidence_score": 0.933,
+        "recurrence_score": 0.833,
+        "persistence_score": 0.5,
+        "volatility_score": 0.553,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [],
+        "cluster_case_count": 6
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "case_id": "SG-CAPACITY-EXPANSION-2018",
+      "period": "2018",
+      "series_name": "Manufacturing Capacity",
+      "memory_score": 0.717,
+      "memory_action": "retain_anchor",
+      "retention_reason": "First known memory for this driver must be retained.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 42,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.575,
+        "driver_confidence_score": 1,
+        "recurrence_score": 1,
+        "persistence_score": 0.3,
+        "volatility_score": 1,
+        "maturity_stage": "early_cluster",
+        "bias_warnings": [
+          "LOW_SAMPLE_SIZE"
+        ],
+        "cluster_case_count": 3
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "case_id": "SG-CAPACITY-EXPANSION-2021",
+      "period": "2021",
+      "series_name": "Manufacturing Capacity",
+      "memory_score": 0.717,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 42,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.575,
+        "driver_confidence_score": 1,
+        "recurrence_score": 1,
+        "persistence_score": 0.3,
+        "volatility_score": 1,
+        "maturity_stage": "early_cluster",
+        "bias_warnings": [
+          "LOW_SAMPLE_SIZE"
+        ],
+        "cluster_case_count": 3
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "memory_grade_version": "memory-grade-v0.1",
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "case_id": "SG-CAPACITY-EXPANSION-2022",
+      "period": "2022",
+      "series_name": "Manufacturing Capacity",
+      "memory_score": 0.717,
+      "memory_action": "retain_anchor",
+      "retention_reason": "Most recent memory for this driver must be retained.",
+      "grading_inputs": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 42,
+        "evidence_count": 4,
+        "driver_experience_strength": 0.575,
+        "driver_confidence_score": 1,
+        "recurrence_score": 1,
+        "persistence_score": 0.3,
+        "volatility_score": 1,
+        "maturity_stage": "early_cluster",
+        "bias_warnings": [
+          "LOW_SAMPLE_SIZE"
+        ],
+        "cluster_case_count": 3
+      },
+      "governance": {
+        "delete_allowed": false,
+        "archive_only": true,
+        "human_review_required_before_removal": true,
+        "production_mutation_allowed": false
+      }
+    }
+  ]
+}

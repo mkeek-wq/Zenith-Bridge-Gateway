@@ -1,0 +1,114 @@
+{
+  "approved_principles_registry_version": "approved-principles-registry-v0.1",
+  "generated_at": "2026-06-07T14:42:30.256Z",
+  "source_confidence_framework": "data/intelligence/confidence-framework-v0.1.json",
+  "source_hypothesis_registry": "data/intelligence/hypothesis-registry-v0.1.json",
+  "policy": {
+    "principle": "Approved principles registry v0.1 creates a governance container for approved principles and a review queue for eligible hypotheses. It does not auto-approve principles.",
+    "production_mutation_allowed": false,
+    "human_approval_required": true,
+    "no_automatic_principle_approval": true
+  },
+  "summary": {
+    "review_queue_count": 3,
+    "approved_principles_count": 0,
+    "not_approved_count": 3,
+    "eligible_for_human_principle_review": 1
+  },
+  "review_queue": [
+    {
+      "principle_review_queue_id": "APRQ_001",
+      "hypothesis_id": "HYP_001",
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "proposed_principle_statement": "Policy and regulatory changes affect industrial outcomes through cost, incentive, compliance, or capacity-support channels.",
+      "proposed_mechanism_type": "policy_transmission_mechanism",
+      "expected_direction": "Policy measures change firm behaviour by altering costs, incentives, constraints, or available support.",
+      "confidence_score": 0.65,
+      "confidence_band": "moderate",
+      "confidence_label": "Moderate confidence",
+      "approval_readiness": "not_ready_for_principle_approval",
+      "approval_status": "not_approved",
+      "approved_principle": false,
+      "approved_principle_id": null,
+      "required_before_approval": [
+        "Human review of hypothesis statement.",
+        "Human review of support evidence.",
+        "Counter-evidence search completed.",
+        "Falsification questions answered.",
+        "Scope and limitations defined.",
+        "Confidence score accepted or adjusted by reviewer."
+      ],
+      "governance": {
+        "queue_only": true,
+        "approved_principle": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false,
+        "note": "This object places a tested hypothesis into an approval queue. It does not approve principles automatically."
+      }
+    },
+    {
+      "principle_review_queue_id": "APRQ_002",
+      "hypothesis_id": "HYP_002",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "proposed_principle_statement": "External demand shocks propagate through export-sensitive sectors before appearing in broader manufacturing outcomes.",
+      "proposed_mechanism_type": "external_demand_transmission_mechanism",
+      "expected_direction": "Demand-sensitive sectors weaken first during external downturns and may recover earlier when demand conditions improve.",
+      "confidence_score": 0.7,
+      "confidence_band": "moderate",
+      "confidence_label": "Moderate confidence",
+      "approval_readiness": "not_ready_for_principle_approval",
+      "approval_status": "not_approved",
+      "approved_principle": false,
+      "approved_principle_id": null,
+      "required_before_approval": [
+        "Human review of hypothesis statement.",
+        "Human review of support evidence.",
+        "Counter-evidence search completed.",
+        "Falsification questions answered.",
+        "Scope and limitations defined.",
+        "Confidence score accepted or adjusted by reviewer."
+      ],
+      "governance": {
+        "queue_only": true,
+        "approved_principle": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false,
+        "note": "This object places a tested hypothesis into an approval queue. It does not approve principles automatically."
+      }
+    },
+    {
+      "principle_review_queue_id": "APRQ_003",
+      "hypothesis_id": "HYP_003",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "proposed_principle_statement": "Inventory adjustments amplify manufacturing downturns and recoveries by causing production changes that exceed the underlying change in demand.",
+      "proposed_mechanism_type": "amplification_mechanism",
+      "expected_direction": "Inventory drawdowns deepen production cuts; restocking supports production recovery.",
+      "confidence_score": 0.75,
+      "confidence_band": "strong",
+      "confidence_label": "Strong confidence",
+      "approval_readiness": "eligible_for_human_principle_review",
+      "approval_status": "not_approved",
+      "approved_principle": false,
+      "approved_principle_id": null,
+      "required_before_approval": [
+        "Human review of hypothesis statement.",
+        "Human review of support evidence.",
+        "Counter-evidence search completed.",
+        "Falsification questions answered.",
+        "Scope and limitations defined.",
+        "Confidence score accepted or adjusted by reviewer."
+      ],
+      "governance": {
+        "queue_only": true,
+        "approved_principle": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false,
+        "note": "This object places a tested hypothesis into an approval queue. It does not approve principles automatically."
+      }
+    }
+  ],
+  "approved_principles": []
+}

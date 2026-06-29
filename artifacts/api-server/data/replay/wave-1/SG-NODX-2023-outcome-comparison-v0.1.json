@@ -1,0 +1,21 @@
+{
+  "comparison_version": "outcome-comparison-engine-v0.1",
+  "generated_at": "2026-06-10T03:58:27.347Z",
+  "case_id": "SG-NODX-2023",
+  "replay_result_source": "data/replay/wave-1/SG-NODX-2023-single-case-replay-result-v0.1.json",
+  "observed_outcome": {
+    "outcome_id": "SG-NODX-2023-OUTCOME",
+    "observed_period": "2023",
+    "outcome_summary": "Singapore NODX experienced a trade downturn in 2023, consistent with weak external demand and softer global trade conditions.",
+    "outcome_direction": "contraction",
+    "source_status": "historical_outcome_recorded"
+  },
+  "replay_expected_direction": "contraction",
+  "alignment_score": 0.78,
+  "alignment_band": "strong_alignment",
+  "outcome_comparison_status": "eligible_for_experience_promotion_review",
+  "mechanism_ids": [
+    "MKT_010"
+  ],
+  "governance_note": "Outcome comparison assesses whether the replay interpretation aligned with observed historical outcome. It does not by itself validate a mechanism."
+}

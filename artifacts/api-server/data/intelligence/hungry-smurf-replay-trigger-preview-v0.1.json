@@ -1,0 +1,113 @@
+{
+  "preview_version": "hungry-smurf-replay-trigger-preview-v0.1",
+  "generated_at": "2026-06-25T13:52:40.875Z",
+  "mutation_allowed": false,
+  "source_gate": "data/ingestion/hungry-smurf-promotion-gate-v0.1.json",
+  "gate_decision": "READY_FOR_MANUAL_APPROVAL",
+  "trigger_count": 7,
+  "triggers": [
+    {
+      "dataset_id": "SG_CHEMICALS_OUTPUT_INDEX",
+      "coverage_start": "2016",
+      "coverage_end": "2025",
+      "values_count": 10,
+      "trigger_status": "preview_only",
+      "downstream_candidates": {
+        "signal_scan": true,
+        "dataset_coverage_refresh": true,
+        "article_workbench_refresh": true,
+        "replay_refresh": true,
+        "graph_refresh": true
+      }
+    },
+    {
+      "dataset_id": "SG_PETROLEUM_OUTPUT_INDEX",
+      "coverage_start": "2016",
+      "coverage_end": "2025",
+      "values_count": 10,
+      "trigger_status": "preview_only",
+      "downstream_candidates": {
+        "signal_scan": true,
+        "dataset_coverage_refresh": true,
+        "article_workbench_refresh": true,
+        "replay_refresh": true,
+        "graph_refresh": true
+      }
+    },
+    {
+      "dataset_id": "SG_PRECISION_ENGINEERING_OUTPUT_INDEX",
+      "coverage_start": "2016",
+      "coverage_end": "2025",
+      "values_count": 10,
+      "trigger_status": "preview_only",
+      "downstream_candidates": {
+        "signal_scan": true,
+        "dataset_coverage_refresh": true,
+        "article_workbench_refresh": true,
+        "replay_refresh": true,
+        "graph_refresh": true
+      }
+    },
+    {
+      "dataset_id": "SG_SEMICONDUCTOR_OUTPUT_INDEX",
+      "coverage_start": "2016",
+      "coverage_end": "2025",
+      "values_count": 10,
+      "trigger_status": "preview_only",
+      "downstream_candidates": {
+        "signal_scan": true,
+        "dataset_coverage_refresh": true,
+        "article_workbench_refresh": true,
+        "replay_refresh": true,
+        "graph_refresh": true
+      }
+    },
+    {
+      "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+      "coverage_start": "2016",
+      "coverage_end": "2025",
+      "values_count": 10,
+      "trigger_status": "preview_only",
+      "downstream_candidates": {
+        "signal_scan": true,
+        "dataset_coverage_refresh": true,
+        "article_workbench_refresh": true,
+        "replay_refresh": true,
+        "graph_refresh": true
+      }
+    },
+    {
+      "dataset_id": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX",
+      "coverage_start": "2016",
+      "coverage_end": "2025",
+      "values_count": 10,
+      "trigger_status": "preview_only",
+      "downstream_candidates": {
+        "signal_scan": true,
+        "dataset_coverage_refresh": true,
+        "article_workbench_refresh": true,
+        "replay_refresh": true,
+        "graph_refresh": true
+      }
+    },
+    {
+      "dataset_id": "SG_BIOMEDICAL_OUTPUT_INDEX",
+      "coverage_start": "2016",
+      "coverage_end": "2025",
+      "values_count": 10,
+      "trigger_status": "preview_only",
+      "downstream_candidates": {
+        "signal_scan": true,
+        "dataset_coverage_refresh": true,
+        "article_workbench_refresh": true,
+        "replay_refresh": true,
+        "graph_refresh": true
+      }
+    }
+  ],
+  "governance": {
+    "replay_execution_allowed": false,
+    "preview_only": true,
+    "requires_promotion_before_execution": true
+  }
+}

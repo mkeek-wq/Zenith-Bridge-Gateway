@@ -1,0 +1,42 @@
+{
+  "validation_version": "replay-evidence-validation-engine-v0.1",
+  "generated_at": "2026-06-10T03:47:39.247Z",
+  "case_id": "SG-NODX-2023",
+  "replay_decision_date": "2023-12-31",
+  "records_checked": 3,
+  "passed": 3,
+  "failed": 0,
+  "governance_status": "READY_FOR_SINGLE_CASE_REPLAY",
+  "checks": [
+    {
+      "evidence_id": "SG-NODX-2023-EV001",
+      "metric": "NODX",
+      "has_source": true,
+      "has_publication_date": true,
+      "has_observed_period": true,
+      "has_lineage": true,
+      "publication_before_decision_date": true,
+      "validation_status": "passed"
+    },
+    {
+      "evidence_id": "SG-NODX-2023-EV002",
+      "metric": "GLOBAL_TRADE_VOLUME",
+      "has_source": true,
+      "has_publication_date": true,
+      "has_observed_period": true,
+      "has_lineage": true,
+      "publication_before_decision_date": true,
+      "validation_status": "passed"
+    },
+    {
+      "evidence_id": "SG-NODX-2023-EV003",
+      "metric": "GLOBAL_PMI",
+      "has_source": true,
+      "has_publication_date": true,
+      "has_observed_period": true,
+      "has_lineage": true,
+      "publication_before_decision_date": true,
+      "validation_status": "passed"
+    }
+  ]
+}
