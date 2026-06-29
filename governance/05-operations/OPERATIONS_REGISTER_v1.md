@@ -2,7 +2,7 @@
 
 Status: Active
 Version: 1.0
-Last Updated: 2026-06-26
+Last Updated: 2026-06-29
 
 Purpose:
 Document operational infrastructure, services and runtime environment.
@@ -437,3 +437,24 @@ This establishes operational memory for:
 ## Significance
 
 This milestone represents the transition from individual scripts and components into a governed, dependency-aware intelligence operating system.
+
+## 2026-06-29 – Pre-Git Source Preservation Snapshot
+
+Discovery:
+- Git pushing only started after Codex audit.
+- VPS contained months of untracked ZNBW source/data.
+- Major untracked code/data was preserved on branch `safety/discovered-untracked-code`.
+
+Actions completed:
+- Typecheck passed.
+- Safety branch pushed to GitHub.
+- Snapshot commit: `5f25f99`
+- Tag pushed: `zenith-pre-git-source-snapshot-v0.1`
+
+Status:
+- Major backup gap reduced.
+- Remaining working tree still requires classification before merge/cleanup.
+
+Rule:
+- Do not use `git add .`.
+- Continue targeted commits only.
