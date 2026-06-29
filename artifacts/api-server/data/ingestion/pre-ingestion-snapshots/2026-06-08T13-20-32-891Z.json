@@ -1,0 +1,13 @@
+{
+  "snapshot_version": "pre-ingestion-snapshot-v0.1",
+  "captured_at": "2026-06-08T13:20:32.891Z",
+  "evidence_items": 552,
+  "grouped_signals": 28,
+  "very_strong_signals": 1,
+  "strong_signals": 14,
+  "case_confidence_score": 0.481,
+  "recommended_posture": "focused_monitoring",
+  "experience_confidence_items": 6,
+  "moderate_experience_confidence": 0,
+  "low_experience_confidence": 1
+}

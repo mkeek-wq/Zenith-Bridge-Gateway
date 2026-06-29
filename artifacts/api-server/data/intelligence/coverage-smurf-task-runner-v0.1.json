@@ -1,0 +1,37 @@
+{
+  "worker_version": "coverage-smurf-task-runner-v0.1",
+  "generated_at": "2026-06-26T05:50:19.240Z",
+  "task_id": "DSP-20260626-0001-TASK-001",
+  "smurf_id": "COVERAGE",
+  "status": "completed",
+  "duration_seconds": 3.586,
+  "scripts_run": 3,
+  "results": [
+    {
+      "script": "src/scripts/build-dataset-coverage-engine-v0.1.ts",
+      "status": "completed",
+      "exit_code": 0,
+      "stdout_tail": "ence/dataset-coverage-engine-v0.1.json'\n}\nART-what-precision-engineering-reveals-about-singapore-s-capital-equipment-cycle | 1 | strong_data_coverage | missing=0\nART-what-transport-engineering-reveals-about-singapore-s-aviation-and-marine-recovery | 1 | strong_data_coverage | missing=0\nART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles | 1 | strong_data_coverage | missing=0\nART-how-chemicals-and-petrochemicals-reflect-singapore-s-industrial-cycle | 0.4 | thin_data_coverage | missing=1\nART-understanding-biomedical-pharmaceutical-production-cycle-in-singapore-s-manufacturing-data | 0.4 | thin_data_coverage | missing=1\nART-how-global-demand-shocks-move-through-singapore-s-industrial-base | 0.4 | thin_data_coverage | missing=1\nART-how-semiconductor-cycles-shape-singapore-s-manufacturing-advantage | 0.714 | partial_data_coverage | missing=1\nART-understanding-inventory-cycle-restocking-in-singapore-s-manufacturing-data | 0.4 | thin_data_coverage | missing=1\n",
+      "stderr_tail": ""
+    },
+    {
+      "script": "src/scripts/build-coverage-hardening-dashboard-v0.2.ts",
+      "status": "completed",
+      "exit_code": 0,
+      "stdout_tail": "mited\nMKT_007 | coverage=0.726 | diversity=0.545 | readiness=0.645 | coverage_strong_diversity_limited\nMKT_004 | coverage=0.803 | diversity=0.508 | readiness=0.67 | coverage_strong_diversity_limited\nMKT_005 | coverage=0.764 | diversity=0.649 | readiness=0.712 | watchlist_candidate\nMKT_009 | coverage=0.894 | diversity=0.494 | readiness=0.714 | coverage_strong_diversity_limited\nMKT_012 | coverage=0.853 | diversity=0.576 | readiness=0.728 | coverage_strong_diversity_limited\nMKT_011 | coverage=0.848 | diversity=0.583 | readiness=0.729 | coverage_strong_diversity_limited\nMKT_013 | coverage=0.936 | diversity=0.494 | readiness=0.737 | coverage_strong_diversity_limited\nMKT_008 | coverage=0.827 | diversity=0.72 | readiness=0.779 | watchlist_candidate\nMKT_006 | coverage=0.755 | diversity=0.884 | readiness=0.813 | principle_candidate\nMKT_010 | coverage=0.793 | diversity=0.875 | readiness=0.83 | principle_candidate\nMKT_002 | coverage=0.795 | diversity=0.944 | readiness=0.862 | principle_candidate\n",
+      "stderr_tail": ""
+    },
+    {
+      "script": "src/scripts/build-macro-coverage-assessment-v0.1.ts",
+      "status": "completed",
+      "exit_code": 0,
+      "stdout_tail": "{\n  assessment_version: 'macro-coverage-assessment-v0.1',\n  cases_assessed: 4,\n  well_hardened: 0,\n  partially_hardened: 4,\n  thin_but_improving: 0,\n  still_under_hardened: 0,\n  output: 'data/intelligence/macro-coverage-assessment-v0.1.json'\n}\npartially_hardened | SG-MANUFACTURING-2020 | score=0.812 | candidates=3\npartially_hardened | SG-PETROLEUM-2020 | score=0.713 | candidates=3\npartially_hardened | SG-BIOMEDICAL-2021 | score=0.713 | candidates=3\npartially_hardened | SG-SEMICONDUCTOR-2021 | score=0.8 | candidates=4\n",
+      "stderr_tail": ""
+    }
+  ],
+  "governance": {
+    "coverage_worker_only": true,
+    "production_mutation_allowed": false,
+    "downstream_tasks_unlocked": true
+  }
+}

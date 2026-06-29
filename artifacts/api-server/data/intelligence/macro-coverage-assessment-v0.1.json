@@ -1,0 +1,192 @@
+{
+  "assessment_version": "macro-coverage-assessment-v0.1",
+  "generated_at": "2026-06-26T05:50:19.201Z",
+  "inputs": {
+    "hardening_queue": "data/intelligence/macro-specificity-hardening-queue-v0.1.json",
+    "sector_macro_registry": "data/intelligence/sector-macro-registry-v0.1.json"
+  },
+  "cases_assessed": 4,
+  "well_hardened": 0,
+  "partially_hardened": 4,
+  "thin_but_improving": 0,
+  "still_under_hardened": 0,
+  "controlled_bulk_ingestion_recommendation": "Do not ingest full bulk yet. First verify sources and promote a small dry-run batch of sector indicators.",
+  "assessments": [
+    {
+      "case_id": "SG-MANUFACTURING-2020",
+      "case_label": "Singapore Manufacturing Recovery 2020-2021",
+      "domain": "manufacturing",
+      "original_priority": "critical",
+      "trigger_band": "over_concentrated",
+      "recommended_indicator_count": 4,
+      "candidate_indicator_count": 3,
+      "sector_specific_indicator_count": 2,
+      "mechanism_specific_indicator_count": 1,
+      "source_identified_count": 3,
+      "dry_run_ready_count": 2,
+      "coverage_score": 0.812,
+      "coverage_band": "partially_hardened",
+      "candidate_indicators": [
+        {
+          "indicator_id": "SG_MANUFACTURING_OUTPUT",
+          "indicator_name": "Singapore Manufacturing Output",
+          "macro_category": "sector_specific",
+          "source_authority": "SingStat / EDB",
+          "lineage_status": "source_verified",
+          "ingestion_status": "promoted"
+        },
+        {
+          "indicator_id": "SG_ELECTRONICS_EXPORTS",
+          "indicator_name": "Singapore Electronics Exports",
+          "macro_category": "sector_specific",
+          "source_authority": "Enterprise Singapore / SingStat",
+          "lineage_status": "source_verified",
+          "ingestion_status": "promoted"
+        },
+        {
+          "indicator_id": "GLOBAL_INVENTORY_CYCLE",
+          "indicator_name": "Global Inventory Cycle Indicator",
+          "macro_category": "mechanism_specific",
+          "source_authority": "to_be_confirmed",
+          "lineage_status": "source_identified",
+          "ingestion_status": "candidate_not_ingested"
+        }
+      ],
+      "next_action": "Proceed to controlled dry-run ingestion for ready indicators."
+    },
+    {
+      "case_id": "SG-PETROLEUM-2020",
+      "case_label": "Singapore Petroleum Shock 2020",
+      "domain": "petroleum",
+      "original_priority": "critical",
+      "trigger_band": "over_concentrated",
+      "recommended_indicator_count": 4,
+      "candidate_indicator_count": 3,
+      "sector_specific_indicator_count": 3,
+      "mechanism_specific_indicator_count": 0,
+      "source_identified_count": 3,
+      "dry_run_ready_count": 1,
+      "coverage_score": 0.713,
+      "coverage_band": "partially_hardened",
+      "candidate_indicators": [
+        {
+          "indicator_id": "BRENT_CRUDE",
+          "indicator_name": "Brent Crude Oil Price",
+          "macro_category": "sector_specific",
+          "source_authority": "EIA / FRED / World Bank",
+          "lineage_status": "source_verified",
+          "ingestion_status": "promoted"
+        },
+        {
+          "indicator_id": "REFINING_MARGINS",
+          "indicator_name": "Refining Margins",
+          "macro_category": "sector_specific",
+          "source_authority": "to_be_confirmed",
+          "lineage_status": "source_identified",
+          "ingestion_status": "candidate_not_ingested"
+        },
+        {
+          "indicator_id": "PETROCHEMICAL_SPREADS",
+          "indicator_name": "Petrochemical Spreads",
+          "macro_category": "sector_specific",
+          "source_authority": "to_be_confirmed",
+          "lineage_status": "source_identified",
+          "ingestion_status": "candidate_not_ingested"
+        }
+      ],
+      "next_action": "Proceed to controlled dry-run ingestion for ready indicators."
+    },
+    {
+      "case_id": "SG-BIOMEDICAL-2021",
+      "case_label": "Singapore Biomedical Output 2021",
+      "domain": "biomedical",
+      "original_priority": "critical",
+      "trigger_band": "over_concentrated",
+      "recommended_indicator_count": 4,
+      "candidate_indicator_count": 3,
+      "sector_specific_indicator_count": 3,
+      "mechanism_specific_indicator_count": 0,
+      "source_identified_count": 3,
+      "dry_run_ready_count": 2,
+      "coverage_score": 0.713,
+      "coverage_band": "partially_hardened",
+      "candidate_indicators": [
+        {
+          "indicator_id": "SG_PHARMACEUTICAL_OUTPUT",
+          "indicator_name": "Singapore Pharmaceutical Output",
+          "macro_category": "sector_specific",
+          "source_authority": "SingStat / EDB",
+          "lineage_status": "source_verified",
+          "ingestion_status": "promoted"
+        },
+        {
+          "indicator_id": "SG_BIOMEDICAL_EXPORTS",
+          "indicator_name": "Singapore Biomedical Exports",
+          "macro_category": "sector_specific",
+          "source_authority": "Enterprise Singapore / SingStat",
+          "lineage_status": "source_verified",
+          "ingestion_status": "promoted"
+        },
+        {
+          "indicator_id": "HEALTHCARE_DEMAND",
+          "indicator_name": "Healthcare Demand Indicator",
+          "macro_category": "sector_specific",
+          "source_authority": "to_be_confirmed",
+          "lineage_status": "source_identified",
+          "ingestion_status": "candidate_not_ingested"
+        }
+      ],
+      "next_action": "Proceed to controlled dry-run ingestion for ready indicators."
+    },
+    {
+      "case_id": "SG-SEMICONDUCTOR-2021",
+      "case_label": "Singapore Semiconductor Recovery 2021",
+      "domain": "semiconductors",
+      "original_priority": "high",
+      "trigger_band": "thin_diversity",
+      "recommended_indicator_count": 4,
+      "candidate_indicator_count": 4,
+      "sector_specific_indicator_count": 4,
+      "mechanism_specific_indicator_count": 0,
+      "source_identified_count": 4,
+      "dry_run_ready_count": 2,
+      "coverage_score": 0.8,
+      "coverage_band": "partially_hardened",
+      "candidate_indicators": [
+        {
+          "indicator_id": "SG_ELECTRONICS_EXPORTS",
+          "indicator_name": "Singapore Electronics Exports",
+          "macro_category": "sector_specific",
+          "source_authority": "Enterprise Singapore / SingStat",
+          "lineage_status": "source_verified",
+          "ingestion_status": "promoted"
+        },
+        {
+          "indicator_id": "GLOBAL_SEMICONDUCTOR_SALES",
+          "indicator_name": "Global Semiconductor Sales",
+          "macro_category": "sector_specific",
+          "source_authority": "SIA / WSTS",
+          "lineage_status": "source_verified",
+          "ingestion_status": "promoted"
+        },
+        {
+          "indicator_id": "WAFER_FAB_UTILIZATION",
+          "indicator_name": "Wafer Fab Utilization",
+          "macro_category": "sector_specific",
+          "source_authority": "to_be_confirmed",
+          "lineage_status": "source_identified",
+          "ingestion_status": "candidate_not_ingested"
+        },
+        {
+          "indicator_id": "CHIP_DEMAND",
+          "indicator_name": "Chip Demand Indicator",
+          "macro_category": "sector_specific",
+          "source_authority": "to_be_confirmed",
+          "lineage_status": "source_identified",
+          "ingestion_status": "candidate_not_ingested"
+        }
+      ],
+      "next_action": "Proceed to controlled dry-run ingestion for ready indicators."
+    }
+  ]
+}

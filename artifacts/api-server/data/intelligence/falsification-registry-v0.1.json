@@ -1,0 +1,137 @@
+{
+  "falsification_registry_version": "falsification-registry-v0.1",
+  "generated_at": "2026-06-08T01:22:27.286Z",
+  "source_counter_evidence_registry": "data/intelligence/counter-evidence-registry-v0.1.json",
+  "policy": {
+    "principle": "Falsification registry v0.1 requires mechanisms to survive explicit attempts to weaken or disprove them before validation.",
+    "production_mutation_allowed": false,
+    "human_review_required": true,
+    "falsification_required_before_validation": true
+  },
+  "summary": {
+    "falsification_reviews_created": 3,
+    "not_performed": 3,
+    "validated_mechanisms_approved": 0,
+    "driver_ids": [
+      "MKT_006",
+      "MKT_010",
+      "MKT_002"
+    ]
+  },
+  "falsification_reviews": [
+    {
+      "falsification_review_id": "FAL_001",
+      "falsification_version": "falsification-review-v0.1",
+      "counter_evidence_review_id": "CER_001",
+      "hypothesis_id": "HYP_001",
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "hypothesis_statement": "Policy and regulatory changes affect industrial outcomes through cost, incentive, compliance, or capacity-support channels.",
+      "falsification_status": "not_performed",
+      "support_cases_reviewed": false,
+      "counter_cases_reviewed": false,
+      "ambiguous_cases_reviewed": false,
+      "support_findings": [],
+      "counter_findings": [],
+      "ambiguous_findings": [],
+      "falsification_tests": [
+        "Identify cases where the expected mechanism did not occur.",
+        "Identify cases where the opposite mechanism occurred.",
+        "Identify cases where another driver explains the outcome better.",
+        "Identify ambiguous cases where evidence can support both pro and contra interpretations.",
+        "Check whether high-authority sources weaken the mechanism."
+      ],
+      "falsification_score": null,
+      "falsification_result": "pending_review",
+      "validation_impact": {
+        "may_strengthen_mechanism": false,
+        "may_weaken_mechanism": false,
+        "may_block_validation": true,
+        "reason": "Falsification review has not yet been performed."
+      },
+      "governance": {
+        "falsification_required_before_validation": true,
+        "validated_mechanism_approval_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false,
+        "note": "This registry prepares falsification review. It does not validate mechanisms."
+      }
+    },
+    {
+      "falsification_review_id": "FAL_002",
+      "falsification_version": "falsification-review-v0.1",
+      "counter_evidence_review_id": "CER_002",
+      "hypothesis_id": "HYP_002",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "hypothesis_statement": "External demand shocks propagate through export-sensitive sectors before appearing in broader manufacturing outcomes.",
+      "falsification_status": "not_performed",
+      "support_cases_reviewed": false,
+      "counter_cases_reviewed": false,
+      "ambiguous_cases_reviewed": false,
+      "support_findings": [],
+      "counter_findings": [],
+      "ambiguous_findings": [],
+      "falsification_tests": [
+        "Identify cases where the expected mechanism did not occur.",
+        "Identify cases where the opposite mechanism occurred.",
+        "Identify cases where another driver explains the outcome better.",
+        "Identify ambiguous cases where evidence can support both pro and contra interpretations.",
+        "Check whether high-authority sources weaken the mechanism."
+      ],
+      "falsification_score": null,
+      "falsification_result": "pending_review",
+      "validation_impact": {
+        "may_strengthen_mechanism": false,
+        "may_weaken_mechanism": false,
+        "may_block_validation": true,
+        "reason": "Falsification review has not yet been performed."
+      },
+      "governance": {
+        "falsification_required_before_validation": true,
+        "validated_mechanism_approval_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false,
+        "note": "This registry prepares falsification review. It does not validate mechanisms."
+      }
+    },
+    {
+      "falsification_review_id": "FAL_003",
+      "falsification_version": "falsification-review-v0.1",
+      "counter_evidence_review_id": "CER_003",
+      "hypothesis_id": "HYP_003",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "hypothesis_statement": "Inventory adjustments amplify manufacturing downturns and recoveries by causing production changes that exceed the underlying change in demand.",
+      "falsification_status": "not_performed",
+      "support_cases_reviewed": false,
+      "counter_cases_reviewed": false,
+      "ambiguous_cases_reviewed": false,
+      "support_findings": [],
+      "counter_findings": [],
+      "ambiguous_findings": [],
+      "falsification_tests": [
+        "Identify cases where the expected mechanism did not occur.",
+        "Identify cases where the opposite mechanism occurred.",
+        "Identify cases where another driver explains the outcome better.",
+        "Identify ambiguous cases where evidence can support both pro and contra interpretations.",
+        "Check whether high-authority sources weaken the mechanism."
+      ],
+      "falsification_score": null,
+      "falsification_result": "pending_review",
+      "validation_impact": {
+        "may_strengthen_mechanism": false,
+        "may_weaken_mechanism": false,
+        "may_block_validation": true,
+        "reason": "Falsification review has not yet been performed."
+      },
+      "governance": {
+        "falsification_required_before_validation": true,
+        "validated_mechanism_approval_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false,
+        "note": "This registry prepares falsification review. It does not validate mechanisms."
+      }
+    }
+  ]
+}

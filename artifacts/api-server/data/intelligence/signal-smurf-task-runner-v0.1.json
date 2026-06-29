@@ -1,0 +1,24 @@
+{
+  "worker_version": "signal-smurf-task-runner-v0.1",
+  "generated_at": "2026-06-26T05:50:39.755Z",
+  "task_id": "DSP-20260626-0001-TASK-003",
+  "smurf_id": "SIGNAL",
+  "status": "completed",
+  "duration_seconds": 2.14,
+  "results": [
+    {
+      "script": "src/scripts/build-early-warning-signal-skeleton-v0.1.ts",
+      "status": "completed",
+      "exit_code": 0,
+      "stdout_tail": "\nmedium_high | MKT_009 | healthcare demand | threshold_or_change_detection\nhigh | MKT_013 | IATA traffic | threshold_or_change_detection\nhigh | MKT_013 | aircraft utilization | threshold_or_change_detection\nhigh | MKT_013 | MRO demand | threshold_or_change_detection\nhigh | MKT_013 | fleet expansion | event_detection\nhigh | MKT_012 | capital expenditure | qualitative_signal_detection\nhigh | MKT_012 | machinery orders | threshold_or_change_detection\nhigh | MKT_012 | automation investment | qualitative_signal_detection\nhigh | MKT_012 | equipment demand | threshold_or_change_detection\nmedium | MKT_007 | industrial production | qualitative_signal_detection\nmedium | MKT_007 | business sentiment | qualitative_signal_detection\nmedium | MKT_007 | sector demand | threshold_or_change_detection\nmedium | MKT_002 | industrial production | qualitative_signal_detection\nmedium | MKT_002 | business sentiment | qualitative_signal_detection\nmedium | MKT_002 | sector demand | threshold_or_change_detection\n",
+      "stderr_tail": ""
+    },
+    {
+      "script": "src/scripts/build-signal-watchlist-registry-v0.1.ts",
+      "status": "completed",
+      "exit_code": 0,
+      "stdout_tail": "biweekly | MKT_010 | global PMI\nbiweekly | MKT_010 | export orders\nbiweekly | MKT_010 | trade volumes\nbiweekly | MKT_010 | manufacturing sentiment\nbiweekly | MKT_011 | chemical demand\nbiweekly | MKT_011 | feedstock prices\nbiweekly | MKT_011 | petrochemical margins\nbiweekly | MKT_011 | plant utilization\nbiweekly | MKT_009 | pharmaceutical production schedules\nbiweekly | MKT_009 | biologics demand\nbiweekly | MKT_009 | vaccine manufacturing\nbiweekly | MKT_009 | healthcare demand\nweekly | MKT_013 | IATA traffic\nweekly | MKT_013 | aircraft utilization\nweekly | MKT_013 | MRO demand\nweekly | MKT_013 | fleet expansion\nweekly | MKT_012 | capital expenditure\nweekly | MKT_012 | machinery orders\nweekly | MKT_012 | automation investment\nweekly | MKT_012 | equipment demand\nmonthly | MKT_007 | industrial production\nmonthly | MKT_007 | business sentiment\nmonthly | MKT_007 | sector demand\nmonthly | MKT_002 | industrial production\nmonthly | MKT_002 | business sentiment\nmonthly | MKT_002 | sector demand\n",
+      "stderr_tail": ""
+    }
+  ]
+}

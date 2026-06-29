@@ -1,0 +1,377 @@
+{
+  "principle_review_briefs_version": "principle-review-briefs-v0.1",
+  "generated_at": "2026-06-07T13:52:05.117Z",
+  "source_principle_review_registry": "data/intelligence/principle-review-registry-v0.1.json",
+  "policy": {
+    "principle": "Principle review briefs v0.1 turn principle review scaffolds into readable analyst review packages. They do not propose or approve principles.",
+    "production_mutation_allowed": false,
+    "human_review_required": true,
+    "brief_is_not_principle": true
+  },
+  "summary": {
+    "briefs_created": 3,
+    "source_reviews": 3,
+    "pending_human_review": 3,
+    "driver_ids": [
+      "MKT_006",
+      "MKT_010",
+      "MKT_002"
+    ]
+  },
+  "briefs": [
+    {
+      "brief_id": "BRIEF_001",
+      "brief_version": "principle-review-brief-v0.1",
+      "review_id": "PR_001",
+      "candidate_id": "PC_001",
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "review_status": "pending_human_review",
+      "approved_principle": false,
+      "coverage_score": 0.755,
+      "diversity_score": 0.884,
+      "principle_readiness_score": 0.813,
+      "case_summary": {
+        "case_count": 6,
+        "periods": [
+          "2019",
+          "2020",
+          "2021",
+          "2023",
+          "2025"
+        ],
+        "series": [
+          "Carbon Tax",
+          "Foreign Worker Constraints",
+          "GST Increase",
+          "Global Minimum Tax",
+          "Jobs Support Scheme",
+          "Productivity Solutions Grant"
+        ],
+        "confidence_distribution": {
+          "high": 6
+        }
+      },
+      "supporting_cases": [
+        {
+          "case_id": "SG-CARBON-TAX-2019",
+          "period": "2019",
+          "series_name": "Carbon Tax",
+          "confidence": "high",
+          "driver_score": 34,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-FOREIGN-WORKER-CONSTRAINTS-2021",
+          "period": "2021",
+          "series_name": "Foreign Worker Constraints",
+          "confidence": "high",
+          "driver_score": 35,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-GLOBAL-MINIMUM-TAX-2025",
+          "period": "2025",
+          "series_name": "Global Minimum Tax",
+          "confidence": "high",
+          "driver_score": 36,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-GST-INCREASE-2023",
+          "period": "2023",
+          "series_name": "GST Increase",
+          "confidence": "high",
+          "driver_score": 34,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-JOBS-SUPPORT-SCHEME-2020",
+          "period": "2020",
+          "series_name": "Jobs Support Scheme",
+          "confidence": "high",
+          "driver_score": 38,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-PRODUCTIVITY-SOLUTIONS-GRANT",
+          "period": "2020",
+          "series_name": "Productivity Solutions Grant",
+          "confidence": "high",
+          "driver_score": 32,
+          "evidence_count": 3
+        }
+      ],
+      "review_focus": [
+        "Identify the recurring mechanism across the supporting cases.",
+        "Separate causal mechanism from descriptive label.",
+        "Define the boundary conditions under which the principle should apply.",
+        "Identify counterexamples or conditions where the mechanism may fail.",
+        "Compare fiscal, tax, labour, and productivity policy channels.",
+        "Determine whether the common mechanism is cost pressure, incentive response, compliance burden, or capacity support."
+      ],
+      "review_questions": [
+        "What recurring mechanism appears across the supporting cases?",
+        "Does the mechanism hold across multiple periods and sectors?",
+        "Are there counterexamples or failure cases?",
+        "Is the candidate driver causal, reinforcing, or merely descriptive?",
+        "Can the principle be stated with clear boundaries and conditions?",
+        "Would this principle have predictive value in a future case?",
+        "What evidence would falsify or weaken this principle?"
+      ],
+      "analyst_brief": "PR_001 / MKT_006\nPolicy / Regulatory Impact\n\nStatus: pending_human_review\nCoverage score: 0.755\nDiversity score: 0.884\nReadiness score: 0.813\n\nSupporting cases: 6\nPeriods: 2019, 2020, 2021, 2023, 2025\nSeries: Carbon Tax, Foreign Worker Constraints, GST Increase, Global Minimum Tax, Jobs Support Scheme, Productivity Solutions Grant\n\nReview objective:\nDetermine whether the supporting cases reveal a recurring, bounded, falsifiable principle.\n\nImportant:\nThis brief does not approve a principle. It only prepares human review.",
+      "governance": {
+        "brief_only": true,
+        "human_review_required": true,
+        "approved_principle": false,
+        "production_mutation_allowed": false,
+        "note": "This brief prepares human review. It does not propose, approve, or mutate principles."
+      }
+    },
+    {
+      "brief_id": "BRIEF_002",
+      "brief_version": "principle-review-brief-v0.1",
+      "review_id": "PR_002",
+      "candidate_id": "PC_002",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "review_status": "pending_human_review",
+      "approved_principle": false,
+      "coverage_score": 0.793,
+      "diversity_score": 0.875,
+      "principle_readiness_score": 0.83,
+      "case_summary": {
+        "case_count": 8,
+        "periods": [
+          "2001",
+          "2008",
+          "2009",
+          "2019",
+          "2020"
+        ],
+        "series": [
+          "Chemicals",
+          "Petrochemicals",
+          "Total Manufacturing"
+        ],
+        "confidence_distribution": {
+          "high": 7,
+          "low": 1
+        }
+      },
+      "supporting_cases": [
+        {
+          "case_id": "SG-CHEMICALS-2019",
+          "period": "2019",
+          "series_name": "Chemicals",
+          "confidence": "high",
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-MANUFACTURING-2001",
+          "period": "2001",
+          "series_name": "Total Manufacturing",
+          "confidence": "high",
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-MANUFACTURING-2008",
+          "period": "2008",
+          "series_name": "Total Manufacturing",
+          "confidence": "high",
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-MANUFACTURING-2009",
+          "period": "2009",
+          "series_name": "Total Manufacturing",
+          "confidence": "high",
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-MANUFACTURING-2020-SHOCK",
+          "period": "2020",
+          "series_name": "Total Manufacturing",
+          "confidence": "high",
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PETROCHEMICALS-2019",
+          "period": "2019",
+          "series_name": "Petrochemicals",
+          "confidence": "high",
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PETROCHEMICALS-2020",
+          "period": "2020",
+          "series_name": "Petrochemicals",
+          "confidence": "high",
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-TOTAL-MANUFACTURING-2020",
+          "period": "2020",
+          "series_name": "Total Manufacturing",
+          "confidence": "low",
+          "driver_score": 7,
+          "evidence_count": 4
+        }
+      ],
+      "review_focus": [
+        "Identify the recurring mechanism across the supporting cases.",
+        "Separate causal mechanism from descriptive label.",
+        "Define the boundary conditions under which the principle should apply.",
+        "Identify counterexamples or conditions where the mechanism may fail.",
+        "Compare recession, external demand, and sector-specific downturn cases.",
+        "Determine whether the common mechanism is demand destruction, export sensitivity, confidence shock, or inventory adjustment."
+      ],
+      "review_questions": [
+        "What recurring mechanism appears across the supporting cases?",
+        "Does the mechanism hold across multiple periods and sectors?",
+        "Are there counterexamples or failure cases?",
+        "Is the candidate driver causal, reinforcing, or merely descriptive?",
+        "Can the principle be stated with clear boundaries and conditions?",
+        "Would this principle have predictive value in a future case?",
+        "What evidence would falsify or weaken this principle?"
+      ],
+      "analyst_brief": "PR_002 / MKT_010\nDemand Shock / External Downturn\n\nStatus: pending_human_review\nCoverage score: 0.793\nDiversity score: 0.875\nReadiness score: 0.83\n\nSupporting cases: 8\nPeriods: 2001, 2008, 2009, 2019, 2020\nSeries: Chemicals, Petrochemicals, Total Manufacturing\n\nReview objective:\nDetermine whether the supporting cases reveal a recurring, bounded, falsifiable principle.\n\nImportant:\nThis brief does not approve a principle. It only prepares human review.",
+      "governance": {
+        "brief_only": true,
+        "human_review_required": true,
+        "approved_principle": false,
+        "production_mutation_allowed": false,
+        "note": "This brief prepares human review. It does not propose, approve, or mutate principles."
+      }
+    },
+    {
+      "brief_id": "BRIEF_003",
+      "brief_version": "principle-review-brief-v0.1",
+      "review_id": "PR_003",
+      "candidate_id": "PC_003",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "review_status": "pending_human_review",
+      "approved_principle": false,
+      "coverage_score": 0.795,
+      "diversity_score": 0.944,
+      "principle_readiness_score": 0.862,
+      "case_summary": {
+        "case_count": 8,
+        "periods": [
+          "2001",
+          "2009",
+          "2019",
+          "2023"
+        ],
+        "series": [
+          "Electronics",
+          "Inventory Cycle / Restocking",
+          "Precision Engineering",
+          "Semiconductors"
+        ],
+        "confidence_distribution": {
+          "high": 8
+        }
+      },
+      "supporting_cases": [
+        {
+          "case_id": "SG-ELECTRONICS-2019",
+          "period": "2019",
+          "series_name": "Electronics",
+          "confidence": "high",
+          "driver_score": 35,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-ELECTRONICS-2023",
+          "period": "2023",
+          "series_name": "Electronics",
+          "confidence": "high",
+          "driver_score": 35,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-INVENTORY-CYCLE-2001",
+          "period": "2001",
+          "series_name": "Inventory Cycle / Restocking",
+          "confidence": "high",
+          "driver_score": 38,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-INVENTORY-CYCLE-2009",
+          "period": "2009",
+          "series_name": "Inventory Cycle / Restocking",
+          "confidence": "high",
+          "driver_score": 38,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-INVENTORY-CYCLE-2019",
+          "period": "2019",
+          "series_name": "Inventory Cycle / Restocking",
+          "confidence": "high",
+          "driver_score": 38,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-PRECISION-ENGINEERING-2023",
+          "period": "2023",
+          "series_name": "Precision Engineering",
+          "confidence": "high",
+          "driver_score": 35,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-SEMICONDUCTOR-2019",
+          "period": "2019",
+          "series_name": "Semiconductors",
+          "confidence": "high",
+          "driver_score": 35,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-SEMICONDUCTOR-2023",
+          "period": "2023",
+          "series_name": "Semiconductors",
+          "confidence": "high",
+          "driver_score": 35,
+          "evidence_count": 4
+        }
+      ],
+      "review_focus": [
+        "Identify the recurring mechanism across the supporting cases.",
+        "Separate causal mechanism from descriptive label.",
+        "Define the boundary conditions under which the principle should apply.",
+        "Identify counterexamples or conditions where the mechanism may fail.",
+        "Compare inventory cycle cases across electronics, precision engineering, and manufacturing periods.",
+        "Determine whether inventory adjustment acts as a leading mechanism, lagging mechanism, or amplification mechanism."
+      ],
+      "review_questions": [
+        "What recurring mechanism appears across the supporting cases?",
+        "Does the mechanism hold across multiple periods and sectors?",
+        "Are there counterexamples or failure cases?",
+        "Is the candidate driver causal, reinforcing, or merely descriptive?",
+        "Can the principle be stated with clear boundaries and conditions?",
+        "Would this principle have predictive value in a future case?",
+        "What evidence would falsify or weaken this principle?"
+      ],
+      "analyst_brief": "PR_003 / MKT_002\nInventory Cycle / Restocking\n\nStatus: pending_human_review\nCoverage score: 0.795\nDiversity score: 0.944\nReadiness score: 0.862\n\nSupporting cases: 8\nPeriods: 2001, 2009, 2019, 2023\nSeries: Electronics, Inventory Cycle / Restocking, Precision Engineering, Semiconductors\n\nReview objective:\nDetermine whether the supporting cases reveal a recurring, bounded, falsifiable principle.\n\nImportant:\nThis brief does not approve a principle. It only prepares human review.",
+      "governance": {
+        "brief_only": true,
+        "human_review_required": true,
+        "approved_principle": false,
+        "production_mutation_allowed": false,
+        "note": "This brief prepares human review. It does not propose, approve, or mutate principles."
+      }
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+import fs from "node:fs";
+import path from "node:path";
+
+const sourcePath = "data/intelligence/historical-outcomes-v0.2.json";
+const outputPath = "data/intelligence/experience-registry-v0.2.json";
+
+function readJson(filePath: string) {
+  return JSON.parse(fs.readFileSync(filePath, "utf8"));
+}
+
+function confidenceWeight(confidence: string) {
+  if (confidence === "high") return 1.0;
+  if (confidence === "medium") return 0.6;
+  if (confidence === "low") return 0.3;
+  return 0.1;
+}
+
+function round(value: number, decimals = 3) {
+  return Number(value.toFixed(decimals));
+}
+
+function average(values: number[]) {
+  if (values.length === 0) return 0;
+  return values.reduce((sum, value) => sum + value, 0) / values.length;
+}
+
+function standardDeviation(values: number[]) {
+  if (values.length <= 1) return 0;
+
+  const avg = average(values);
+  const variance =
+    values.reduce((sum, value) => sum + Math.pow(value - avg, 2), 0) /
+    values.length;
+
+  return Math.sqrt(variance);
+}
+
+function maturityStage(caseCount: number, weightedCaseCount: number) {
+  if (caseCount >= 5 && weightedCaseCount >= 4) return "developing_cluster";
+  if (caseCount >= 3 && weightedCaseCount >= 2.5) return "early_cluster";
+  if (caseCount >= 2 && weightedCaseCount >= 1.5) return "emerging_pattern";
+  return "single_case_or_weak_pattern";
+}
+
+fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+
+const source = readJson(sourcePath);
+const outcomes = source.outcomes ?? [];
+
+const byDriver: Record<string, any> = {};
+
+for (const outcome of outcomes) {
+  const driverId = outcome.primary_driver ?? "UNKNOWN";
+
+  if (!byDriver[driverId]) {
+    byDriver[driverId] = {
+      driver_id: driverId,
+      driver_name: outcome.primary_driver_name ?? "Unknown",
+      attribution_bucket: outcome.attribution_bucket ?? "unknown_effect",
+      case_count: 0,
+      high_confidence_cases: 0,
+      medium_confidence_cases: 0,
+      low_confidence_cases: 0,
+      evidence_count_total: 0,
+      score_total: 0,
+      weighted_case_count: 0,
+      weighted_score_total: 0,
+      driver_scores: [],
+      
+      cases: [],
+      evidence_patterns: {},
+    };
+  }
+
+  const confidence = outcome.confidence ?? "unknown";
+  const weight = confidenceWeight(confidence);
+  const driverScore = outcome.driver_score ?? 0;
+
+  byDriver[driverId].case_count += 1;
+  byDriver[driverId].evidence_count_total += outcome.evidence_count ?? 0;
+  byDriver[driverId].score_total += driverScore;
+  byDriver[driverId].weighted_case_count += weight;
+  byDriver[driverId].weighted_score_total += driverScore * weight;
+  byDriver[driverId].driver_scores.push(driverScore);
+
+  if (confidence === "high") byDriver[driverId].high_confidence_cases += 1;
+  if (confidence === "medium") byDriver[driverId].medium_confidence_cases += 1;
+  if (confidence === "low") byDriver[driverId].low_confidence_cases += 1;
+
+  byDriver[driverId].cases.push({
+    case_id: outcome.case_id,
+    period: outcome.period,
+    series_name: outcome.series_name,
+    confidence,
+    confidence_weight: weight,
+    driver_score: driverScore,
+    evidence_count: outcome.evidence_count,
+  });
+
+  for (const driver of outcome.ranked_drivers ?? []) {
+    if (driver.driver_id !== driverId) continue;
+
+    for (const phrase of driver.matched_phrases ?? []) {
+      byDriver[driverId].evidence_patterns[phrase] =
+        (byDriver[driverId].evidence_patterns[phrase] ?? 0) + 1;
+    }
+  }
+}
+
+const driverExperiences = Object.values(byDriver).map((driver: any) => {
+  const evidencePatterns = Object.entries(driver.evidence_patterns)
+    .map(([phrase, count]) => ({
+      phrase,
+      count,
+    }))
+    .sort((a: any, b: any) => b.count - a.count);
+
+  const averageDriverScore =
+    driver.case_count > 0 ? driver.score_total / driver.case_count : 0;
+
+  const weightedAverageDriverScore =
+    driver.weighted_case_count > 0
+      ? driver.weighted_score_total / driver.weighted_case_count
+      : 0;
+
+  const confidenceScore =
+    driver.case_count > 0 ? driver.weighted_case_count / driver.case_count : 0;
+
+  const scoreVolatility = standardDeviation(driver.driver_scores);
+
+const evidenceDepthScore = Math.min(
+  driver.weighted_case_count / 10,
+  1
+);
+
+const driverStrengthScore = Math.min(
+  weightedAverageDriverScore / 100,
+  1
+);
+
+const volatilityScore = Math.max(
+  0,
+  1 - Math.min(scoreVolatility / 25, 1)
+);
+
+const experienceStrength =
+  driver.case_count > 0
+    ? round(
+        evidenceDepthScore * 0.40 +
+          confidenceScore * 0.20 +
+          driverStrengthScore * 0.25 +
+          volatilityScore * 0.15
+      )
+    : 0;
+
+  return {
+    experience_version: "driver-experience-v0.2",
+    driver_id: driver.driver_id,
+    driver_name: driver.driver_name,
+    attribution_bucket: driver.attribution_bucket,
+    case_count: driver.case_count,
+    weighted_case_count: round(driver.weighted_case_count),
+    maturity_stage: maturityStage(driver.case_count, driver.weighted_case_count),
+    confidence_distribution: {
+      high: driver.high_confidence_cases,
+      medium: driver.medium_confidence_cases,
+      low: driver.low_confidence_cases,
+    },
+    confidence_score: round(confidenceScore),
+    experience_strength: round(experienceStrength),
+    average_evidence_count:
+      driver.case_count > 0
+        ? round(driver.evidence_count_total / driver.case_count)
+        : 0,
+    average_driver_score: round(averageDriverScore),
+    weighted_average_driver_score: round(weightedAverageDriverScore),
+    score_volatility: round(scoreVolatility),
+    evidence_patterns: evidencePatterns,
+    cases: driver.cases,
+  };
+});
+
+driverExperiences.sort(
+  (a: any, b: any) =>
+    b.experience_strength - a.experience_strength ||
+    b.weighted_case_count - a.weighted_case_count ||
+    b.average_driver_score - a.average_driver_score
+);
+
+const output = {
+  experience_registry_version: "experience-registry-v0.2",
+  generated_at: new Date().toISOString(),
+  source_historical_outcomes: sourcePath,
+  policy: {
+    principle:
+      "Experience registry v0.2 aggregates sandbox-approved historical outcomes into reusable driver experience. It does not mutate production memory.",
+    production_mutation_allowed: false,
+  },
+  hardening_notes: {
+    confidence_weights: {
+      high: 1.0,
+      medium: 0.6,
+      low: 0.3,
+      unknown: 0.1,
+    },
+    purpose:
+      "Adds weighted case counts, confidence scoring, maturity stages, experience strength, and score volatility while preserving raw cases.",
+  },
+  summary: {
+    outcomes_processed: outcomes.length,
+    drivers_with_experience: driverExperiences.length,
+    total_cases: outcomes.length,
+  },
+  driver_experiences: driverExperiences,
+};
+
+fs.writeFileSync(outputPath, JSON.stringify(output, null, 2));
+
+console.log({
+  experience_registry_version: output.experience_registry_version,
+  outcomes_processed: output.summary.outcomes_processed,
+  drivers_with_experience: output.summary.drivers_with_experience,
+  output: outputPath,
+});
+
+for (const d of driverExperiences) {
+  console.log(
+    `${d.driver_id} ${d.driver_name} | cases=${d.case_count} | weighted=${d.weighted_case_count} | strength=${d.experience_strength} | maturity=${d.maturity_stage} | avgScore=${d.average_driver_score}`
+  );
+}

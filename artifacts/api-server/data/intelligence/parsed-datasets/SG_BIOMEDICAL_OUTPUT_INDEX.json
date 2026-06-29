@@ -1,0 +1,73 @@
+{
+  "dataset_id": "SG_BIOMEDICAL_OUTPUT_INDEX",
+  "name": "Singapore pharmaceutical and biological products output",
+  "country": "Singapore",
+  "metric_type": "manufacturing_output_value",
+  "frequency": "annual",
+  "preferred_sources": [
+    "SingStat Table Builder"
+  ],
+  "coverage_start": "2016",
+  "coverage_end": "2025",
+  "values_count": 10,
+  "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+  "local_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/raw-downloads/SG_BIOMEDICAL_OUTPUT_INDEX.csv",
+  "raw_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/raw-downloads/SG_BIOMEDICAL_OUTPUT_INDEX.singstat.json",
+  "unit": "Million Dollars",
+  "notes": "Loaded from SingStat Table Builder API table M354851. Series: Pharmaceutical & Biological Products.",
+  "values": [
+    {
+      "period": "2016",
+      "value": 16839.9
+    },
+    {
+      "period": "2017",
+      "value": 15739.4
+    },
+    {
+      "period": "2018",
+      "value": 19341.6
+    },
+    {
+      "period": "2019",
+      "value": 14398.7
+    },
+    {
+      "period": "2020",
+      "value": 15691.9
+    },
+    {
+      "period": "2021",
+      "value": 16830.7
+    },
+    {
+      "period": "2022",
+      "value": 18004.1
+    },
+    {
+      "period": "2023",
+      "value": 13915.3
+    },
+    {
+      "period": "2024",
+      "value": 9721.1
+    },
+    {
+      "period": "2025",
+      "value": 14655
+    }
+  ],
+  "source_metadata": {
+    "table_id": "M354851",
+    "table_title": "Manufacturing Output In Manufacturing By Industry, Annual",
+    "row_text": "Pharmaceutical & Biological Products",
+    "datasource": "ECONOMIC DEVELOPMENT BOARD",
+    "data_last_updated": "11/05/2026",
+    "date_generated": "14/06/2026",
+    "footnote": "From 2002, figures include establishments with less than 10 workers.  Prior to 2002, figures refer to establishments engaging 10 or more workers.  Data include all manufacturing establishments.  The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2025.  Valuation of output has been changed to basic price.  Historical data on manufacturing output has been revised accordingly from 1980.  Year 2025 data are preliminary estimates."
+  },
+  "used_by_candidates": [],
+  "created_at": "2026-06-14T09:39:17.757Z",
+  "updated_at": "2026-06-25T09:34:59.567Z",
+  "dataset_state_source_of_truth": "data/intelligence/verified-dataset-registry-v0.1.json"
+}

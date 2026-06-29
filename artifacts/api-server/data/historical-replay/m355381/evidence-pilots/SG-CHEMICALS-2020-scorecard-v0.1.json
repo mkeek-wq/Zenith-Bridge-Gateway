@@ -1,0 +1,136 @@
+{
+  "historical_evidence_scorecard_version": "historical-evidence-scorecard-v0.1",
+  "generated_at": "2026-06-06T09:38:10.086Z",
+  "source_taxonomy": "data/intelligence-driver-library/driver-evidence-taxonomy-v0.1.json",
+  "source_evidence": "data/historical-replay/m355381/evidence-pilots/SG-CHEMICALS-2020-evidence-v0.1.json",
+  "case_id": "SG-CHEMICALS-2020",
+  "period": "2020",
+  "series_name": "Chemicals",
+  "governance": {
+    "sandbox_only": true,
+    "recommendation_only": true,
+    "auto_close_case": false,
+    "requires_human_review": true,
+    "production_mutation_allowed": false
+  },
+  "evidence_metadata": {
+    "evidence_origin": "synthetic",
+    "template_generated": true,
+    "attribution_discovery_ready": true,
+    "requires_human_review": true
+  },
+  "evidence_items": [
+    "Singapore chemicals output in 2020 was affected by chemical demand, petrochemical demand, and weaker regional industrial activity.",
+    "Basic chemicals and specialty chemicals production reflected shifts in downstream manufacturing demand.",
+    "Feedstock prices and naphtha prices influenced chemical production economics.",
+    "Chemical plant utilisation and petrochemical plant operations shaped output patterns."
+  ],
+  "evidence_matches": [
+    {
+      "evidence_text": "Singapore chemicals output in 2020 was affected by chemical demand, petrochemical demand, and weaker regional industrial activity.",
+      "matches": [
+        {
+          "driver_id": "MKT_011",
+          "driver_name": "Chemicals / Petrochemicals Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "chemical demand",
+            "petrochemical demand"
+          ],
+          "match_score": 12
+        }
+      ]
+    },
+    {
+      "evidence_text": "Basic chemicals and specialty chemicals production reflected shifts in downstream manufacturing demand.",
+      "matches": [
+        {
+          "driver_id": "MKT_011",
+          "driver_name": "Chemicals / Petrochemicals Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "specialty chemicals",
+            "basic chemicals"
+          ],
+          "match_score": 12
+        }
+      ]
+    },
+    {
+      "evidence_text": "Feedstock prices and naphtha prices influenced chemical production economics.",
+      "matches": [
+        {
+          "driver_id": "MKT_011",
+          "driver_name": "Chemicals / Petrochemicals Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "chemical production",
+            "feedstock prices",
+            "naphtha prices"
+          ],
+          "match_score": 18
+        }
+      ]
+    },
+    {
+      "evidence_text": "Chemical plant utilisation and petrochemical plant operations shaped output patterns.",
+      "matches": [
+        {
+          "driver_id": "MKT_011",
+          "driver_name": "Chemicals / Petrochemicals Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "chemical plant",
+            "petrochemical plant"
+          ],
+          "match_score": 12
+        }
+      ]
+    }
+  ],
+  "ranked_drivers": [
+    {
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "attribution_bucket": "market_effect",
+      "total_score": 54,
+      "evidence_count": 4,
+      "matched_phrases": [
+        "chemical demand",
+        "petrochemical demand",
+        "specialty chemicals",
+        "basic chemicals",
+        "chemical production",
+        "feedstock prices",
+        "naphtha prices",
+        "chemical plant",
+        "petrochemical plant"
+      ],
+      "supporting_evidence": [
+        "Singapore chemicals output in 2020 was affected by chemical demand, petrochemical demand, and weaker regional industrial activity.",
+        "Basic chemicals and specialty chemicals production reflected shifts in downstream manufacturing demand.",
+        "Feedstock prices and naphtha prices influenced chemical production economics.",
+        "Chemical plant utilisation and petrochemical plant operations shaped output patterns."
+      ]
+    }
+  ],
+  "bucket_scores": [
+    {
+      "attribution_bucket": "market_effect",
+      "total_score": 54
+    }
+  ],
+  "recommended_outcome": {
+    "primary_driver": "MKT_011",
+    "primary_driver_name": "Chemicals / Petrochemicals Cycle",
+    "attribution_bucket": "market_effect",
+    "confidence": "high",
+    "total_score": 54,
+    "second_score": 0,
+    "score_gap": 54
+  }
+}

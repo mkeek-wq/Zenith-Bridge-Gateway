@@ -1,0 +1,95 @@
+{
+  "scorecard_version": "historical-evidence-scorecard-v0.1",
+  "case_id": "SG-FOREIGN-WORKER-CONSTRAINTS-2021",
+  "period": "2021",
+  "series_name": "Foreign Worker Constraints",
+  "attribution_summary": {
+    "primary_driver": "MKT_006",
+    "primary_driver_name": "Policy / Regulatory Impact",
+    "attribution_bucket": "policy_effect",
+    "confidence": "high",
+    "driver_score": 35,
+    "second_score": 28,
+    "score_gap": 7,
+    "evidence_count": 4
+  },
+  "ranked_drivers": [
+    {
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "attribution_bucket": "policy_effect",
+      "total_score": 35,
+      "evidence_count": 4,
+      "matched_phrases": [
+        "policy change",
+        "regulatory change",
+        "border restrictions",
+        "work permit restrictions",
+        "government policy",
+        "foreign worker inflow"
+      ],
+      "supporting_evidence": [
+        "Border restrictions reduced the inflow of migrant workers into Singapore and made it difficult to replace worker outflows.",
+        "Construction, marine and process sectors were among the sectors most affected by reduced availability of migrant workers.",
+        "Foreign workforce numbers declined during the pandemic period as border restrictions limited replacement inflows.",
+        "The observed mechanism is policy-driven labor availability constraint transmitting into operational disruption."
+      ]
+    },
+    {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "attribution_bucket": "operational_effect",
+      "total_score": 28,
+      "evidence_count": 4,
+      "matched_phrases": [
+        "manpower shortage",
+        "capacity constraint",
+        "project delays",
+        "operational disruption",
+        "supply constraints"
+      ],
+      "supporting_evidence": [
+        "Reduced migrant worker availability created manpower shortages.",
+        "Construction, marine and process sectors faced sector manpower constraints.",
+        "Firms faced manpower constraints as replacement inflows were limited.",
+        "Policy-driven labor availability constraints transmitted into operational disruption through project delays and capacity constraints."
+      ]
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "attribution_bucket": "market_effect",
+      "total_score": 7,
+      "evidence_count": 1,
+      "matched_phrases": [
+        "pandemic shock"
+      ],
+      "supporting_evidence": [
+        "The broader pandemic context contributed to sector disruption, but the identified mechanism in this case is policy-driven labor availability rather than demand shock."
+      ]
+    }
+  ],
+  "bucket_scores": [
+    {
+      "attribution_bucket": "policy_effect",
+      "total_score": 35
+    },
+    {
+      "attribution_bucket": "operational_effect",
+      "total_score": 28
+    },
+    {
+      "attribution_bucket": "market_effect",
+      "total_score": 7
+    }
+  ],
+  "review_status": "sandbox_approved",
+  "governance": {
+    "sandbox_only": true,
+    "manual_policy_case": true,
+    "source_evidence": "data/historical-replay/m355381/evidence-pilots/SG-FOREIGN-WORKER-CONSTRAINTS-2021-evidence-v0.1.json",
+    "requires_source_url_hardening": true,
+    "production_mutation_allowed": false,
+    "human_review_required_before_production": true
+  }
+}

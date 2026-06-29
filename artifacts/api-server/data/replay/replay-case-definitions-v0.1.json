@@ -1,0 +1,543 @@
+{
+  "definition_version": "replay-case-definitions-v0.1",
+  "generated_at": "2026-06-10T02:53:21.388Z",
+  "source_queue": "data/replay/replay-expansion-queue-v0.1.json",
+  "definitions_created": 20,
+  "definitions": [
+    {
+      "case_id": "SG-SERVICES-RECOVERY-2021",
+      "domain": "services",
+      "period": "2021",
+      "priority": "critical",
+      "replay_status": "definition_created",
+      "replay_mode": "historical_replay_candidate",
+      "evidence_rule": "Use only evidence available at or before the replay period. No future-data leakage.",
+      "expected_signals": [
+        "retail_sales",
+        "services_output",
+        "mobility",
+        "employment"
+      ],
+      "candidate_mechanisms": [
+        "MKT_010"
+      ],
+      "source_requirements": [
+        "official_statistics_preferred",
+        "publication_date_required",
+        "historical_period_alignment_required",
+        "lineage_required_before_replay_execution"
+      ],
+      "readiness_status": "definition_ready_needs_evidence_mapping",
+      "rationale": "Adds services-side recovery comparison after manufacturing replay."
+    },
+    {
+      "case_id": "SG-RETAIL-2020",
+      "domain": "retail",
+      "period": "2020",
+      "priority": "high",
+      "replay_status": "definition_created",
+      "replay_mode": "historical_replay_candidate",
+      "evidence_rule": "Use only evidence available at or before the replay period. No future-data leakage.",
+      "expected_signals": [
+        "retail_sales",
+        "services_output",
+        "mobility",
+        "employment"
+      ],
+      "candidate_mechanisms": [
+        "MKT_010"
+      ],
+      "source_requirements": [
+        "official_statistics_preferred",
+        "publication_date_required",
+        "historical_period_alignment_required",
+        "lineage_required_before_replay_execution"
+      ],
+      "readiness_status": "definition_ready_needs_evidence_mapping",
+      "rationale": "Adds domestic-demand shock case."
+    },
+    {
+      "case_id": "SG-FOOD-SERVICES-2020",
+      "domain": "food_services",
+      "period": "2020",
+      "priority": "high",
+      "replay_status": "definition_created",
+      "replay_mode": "historical_replay_candidate",
+      "evidence_rule": "Use only evidence available at or before the replay period. No future-data leakage.",
+      "expected_signals": [
+        "retail_sales",
+        "services_output",
+        "mobility",
+        "employment"
+      ],
+      "candidate_mechanisms": [
+        "MKT_010"
+      ],
+      "source_requirements": [
+        "official_statistics_preferred",
+        "publication_date_required",
+        "historical_period_alignment_required",
+        "lineage_required_before_replay_execution"
+      ],
+      "readiness_status": "definition_ready_needs_evidence_mapping",
+      "rationale": "Adds lockdown-sensitive service-sector replay."
+    },
+    {
+      "case_id": "SG-TOURISM-2020",
+      "domain": "tourism",
+      "period": "2020",
+      "priority": "critical",
+      "replay_status": "definition_created",
+      "replay_mode": "historical_replay_candidate",
+      "evidence_rule": "Use only evidence available at or before the replay period. No future-data leakage.",
+      "expected_signals": [
+        "visitor_arrivals",
+        "mobility",
+        "services_output",
+        "employment"
+      ],
+      "candidate_mechanisms": [
+        "MKT_010",
+        "MKT_005"
+      ],
+      "source_requirements": [
+        "official_statistics_preferred",
+        "publication_date_required",
+        "historical_period_alignment_required",
+        "lineage_required_before_replay_execution"
+      ],
+      "readiness_status": "definition_ready_needs_evidence_mapping",
+      "rationale": "Adds extreme external mobility shock case."
+    },
+    {
+      "case_id": "SG-AIR-TRANSPORT-2020",
+      "domain": "air_transport",
+      "period": "2020",
+      "priority": "critical",
+      "replay_status": "definition_created",
+      "replay_mode": "historical_replay_candidate",
+      "evidence_rule": "Use only evidence available at or before the replay period. No future-data leakage.",
+      "expected_signals": [
+        "visitor_arrivals",
+        "mobility",
+        "services_output",
+        "employment"
+      ],
+      "candidate_mechanisms": [
+        "MKT_010",
+        "MKT_005"
+      ],
+      "source_requirements": [
+        "official_statistics_preferred",
+        "publication_date_required",
+        "historical_period_alignment_required",
+        "lineage_required_before_replay_execution"
+      ],
+      "readiness_status": "definition_ready_needs_evidence_mapping",
+      "rationale": "Adds aviation-linked demand collapse case."
+    },
+    {
+      "case_id": "SG-CONSTRUCTION-2020",
+      "domain": "construction",
+      "period": "2020",
+      "priority": "critical",
+      "replay_status": "definition_created",
+      "replay_mode": "historical_replay_candidate",
+      "evidence_rule": "Use only evidence available at or before the replay period. No future-data leakage.",
+      "expected_signals": [
+        "construction_output",
+        "foreign_worker_constraints",
+        "employment",
+        "policy_support"
+      ],
+      "candidate_mechanisms": [
+        "MKT_005",
+        "MKT_006",
+        "MKT_010"
+      ],
+      "source_requirements": [
+        "official_statistics_preferred",
+        "publication_date_required",
+        "historical_period_alignment_required",
+        "lineage_required_before_replay_execution"
+      ],
+      "readiness_status": "definition_ready_needs_evidence_mapping",
+      "rationale": "Adds supply/labour constraint shock case."
+    },
+    {
+      "case_id": "SG-FOREIGN-WORKER-CONSTRAINTS-2021",
+      "domain": "labour_policy",
+      "period": "2021",
+      "priority": "critical",
+      "replay_status": "definition_created",
+      "replay_mode": "historical_replay_candidate",
+      "evidence_rule": "Use only evidence available at or before the replay period. No future-data leakage.",
+      "expected_signals": [
+        "construction_output",
+        "foreign_worker_constraints",
+        "employment",
+        "policy_support"
+      ],
+      "candidate_mechanisms": [
+        "MKT_006",
+        "MKT_007"
+      ],
+      "source_requirements": [
+        "official_statistics_preferred",
+        "publication_date_required",
+        "historical_period_alignment_required",
+        "lineage_required_before_replay_execution"
+      ],
+      "readiness_status": "definition_ready_needs_evidence_mapping",
+      "rationale": "Adds policy/labour constraint mechanism case."
+    },
+    {
+      "case_id": "SG-JOBS-SUPPORT-SCHEME-2020",
+      "domain": "policy",
+      "period": "2020",
+      "priority": "critical",
+      "replay_status": "definition_created",
+      "replay_mode": "historical_replay_candidate",
+      "evidence_rule": "Use only evidence available at or before the replay period. No future-data leakage.",
+      "expected_signals": [
+        "policy_announcement",
+        "fiscal_support",
+        "business_cost",
+        "employment"
+      ],
+      "candidate_mechanisms": [
+        "MKT_006",
+        "MKT_007"
+      ],
+      "source_requirements": [
+        "official_statistics_preferred",
+        "publication_date_required",
+        "historical_period_alignment_required",
+        "lineage_required_before_replay_execution"
+      ],
+      "readiness_status": "definition_ready_needs_evidence_mapping",
+      "rationale": "Adds fiscal support/policy intervention replay case."
+    },
+    {
+      "case_id": "SG-CARBON-TAX-2019",
+      "domain": "policy",
+      "period": "2019",
+      "priority": "high",
+      "replay_status": "definition_created",
+      "replay_mode": "historical_replay_candidate",
+      "evidence_rule": "Use only evidence available at or before the replay period. No future-data leakage.",
+      "expected_signals": [
+        "policy_announcement",
+        "fiscal_support",
+        "business_cost",
+        "employment"
+      ],
+      "candidate_mechanisms": [
+        "MKT_006",
+        "MKT_007"
+      ],
+      "source_requirements": [
+        "official_statistics_preferred",
+        "publication_date_required",
+        "historical_period_alignment_required",
+        "lineage_required_before_replay_execution"
+      ],
+      "readiness_status": "definition_ready_needs_evidence_mapping",
+      "rationale": "Adds structural policy cost pass-through case."
+    },
+    {
+      "case_id": "SG-ELECTRONICS-EXPORTS-2021",
+      "domain": "electronics",
+      "period": "2021",
+      "priority": "high",
+      "replay_status": "definition_created",
+      "replay_mode": "historical_replay_candidate",
+      "evidence_rule": "Use only evidence available at or before the replay period. No future-data leakage.",
+      "expected_signals": [
+        "electronics_exports",
+        "semiconductor_sales",
+        "global_pmi",
+        "nodx"
+      ],
+      "candidate_mechanisms": [
+        "MKT_002",
+        "MKT_010"
+      ],
+      "source_requirements": [
+        "official_statistics_preferred",
+        "publication_date_required",
+        "historical_period_alignment_required",
+        "lineage_required_before_replay_execution"
+      ],
+      "readiness_status": "definition_ready_needs_evidence_mapping",
+      "rationale": "Adds electronics export cycle replay."
+    },
+    {
+      "case_id": "SG-SEMICONDUCTOR-SLOWDOWN-2022",
+      "domain": "semiconductors",
+      "period": "2022",
+      "priority": "high",
+      "replay_status": "definition_created",
+      "replay_mode": "historical_replay_candidate",
+      "evidence_rule": "Use only evidence available at or before the replay period. No future-data leakage.",
+      "expected_signals": [
+        "electronics_exports",
+        "semiconductor_sales",
+        "global_pmi",
+        "nodx"
+      ],
+      "candidate_mechanisms": [
+        "MKT_002",
+        "MKT_010"
+      ],
+      "source_requirements": [
+        "official_statistics_preferred",
+        "publication_date_required",
+        "historical_period_alignment_required",
+        "lineage_required_before_replay_execution"
+      ],
+      "readiness_status": "definition_ready_needs_evidence_mapping",
+      "rationale": "Adds post-recovery semiconductor slowdown comparison."
+    },
+    {
+      "case_id": "SG-INFLATION-2022",
+      "domain": "inflation",
+      "period": "2022",
+      "priority": "high",
+      "replay_status": "definition_created",
+      "replay_mode": "historical_replay_candidate",
+      "evidence_rule": "Use only evidence available at or before the replay period. No future-data leakage.",
+      "expected_signals": [
+        "cpi",
+        "core_inflation",
+        "exchange_rate",
+        "interest_rates"
+      ],
+      "candidate_mechanisms": [
+        "MKT_007",
+        "MKT_010"
+      ],
+      "source_requirements": [
+        "official_statistics_preferred",
+        "publication_date_required",
+        "historical_period_alignment_required",
+        "lineage_required_before_replay_execution"
+      ],
+      "readiness_status": "definition_ready_needs_evidence_mapping",
+      "rationale": "Adds inflation/rates macro transmission replay."
+    },
+    {
+      "case_id": "SG-MONETARY-TIGHTENING-2022",
+      "domain": "monetary_policy",
+      "period": "2022",
+      "priority": "high",
+      "replay_status": "definition_created",
+      "replay_mode": "historical_replay_candidate",
+      "evidence_rule": "Use only evidence available at or before the replay period. No future-data leakage.",
+      "expected_signals": [
+        "policy_announcement",
+        "fiscal_support",
+        "business_cost",
+        "employment"
+      ],
+      "candidate_mechanisms": [
+        "MKT_006",
+        "MKT_007"
+      ],
+      "source_requirements": [
+        "official_statistics_preferred",
+        "publication_date_required",
+        "historical_period_alignment_required",
+        "lineage_required_before_replay_execution"
+      ],
+      "readiness_status": "definition_ready_needs_evidence_mapping",
+      "rationale": "Adds exchange-rate/rates policy response case."
+    },
+    {
+      "case_id": "SG-GOODS-EXPORTS-2020",
+      "domain": "trade",
+      "period": "2020",
+      "priority": "medium",
+      "replay_status": "definition_created",
+      "replay_mode": "historical_replay_candidate",
+      "evidence_rule": "Use only evidence available at or before the replay period. No future-data leakage.",
+      "expected_signals": [
+        "nodx",
+        "goods_exports",
+        "global_trade_volume",
+        "global_pmi"
+      ],
+      "candidate_mechanisms": [
+        "MKT_010"
+      ],
+      "source_requirements": [
+        "official_statistics_preferred",
+        "publication_date_required",
+        "historical_period_alignment_required",
+        "lineage_required_before_replay_execution"
+      ],
+      "readiness_status": "definition_ready_needs_evidence_mapping",
+      "rationale": "Adds broad goods trade cycle replay."
+    },
+    {
+      "case_id": "SG-NODX-2023",
+      "domain": "trade",
+      "period": "2023",
+      "priority": "high",
+      "replay_status": "definition_created",
+      "replay_mode": "historical_replay_candidate",
+      "evidence_rule": "Use only evidence available at or before the replay period. No future-data leakage.",
+      "expected_signals": [
+        "nodx",
+        "goods_exports",
+        "global_trade_volume",
+        "global_pmi"
+      ],
+      "candidate_mechanisms": [
+        "MKT_010"
+      ],
+      "source_requirements": [
+        "official_statistics_preferred",
+        "publication_date_required",
+        "historical_period_alignment_required",
+        "lineage_required_before_replay_execution"
+      ],
+      "readiness_status": "definition_ready_needs_evidence_mapping",
+      "rationale": "Adds NODX downturn/rebound comparison."
+    },
+    {
+      "case_id": "SG-FINANCE-2020",
+      "domain": "finance",
+      "period": "2020",
+      "priority": "medium",
+      "replay_status": "definition_created",
+      "replay_mode": "historical_replay_candidate",
+      "evidence_rule": "Use only evidence available at or before the replay period. No future-data leakage.",
+      "expected_signals": [
+        "credit_conditions",
+        "interest_rates",
+        "market_volatility",
+        "business_activity"
+      ],
+      "candidate_mechanisms": [
+        "MKT_007",
+        "MKT_010"
+      ],
+      "source_requirements": [
+        "official_statistics_preferred",
+        "publication_date_required",
+        "historical_period_alignment_required",
+        "lineage_required_before_replay_execution"
+      ],
+      "readiness_status": "definition_ready_needs_evidence_mapping",
+      "rationale": "Adds finance-sector resilience comparison."
+    },
+    {
+      "case_id": "SG-REAL-ESTATE-2020",
+      "domain": "real_estate",
+      "period": "2020",
+      "priority": "medium",
+      "replay_status": "definition_created",
+      "replay_mode": "historical_replay_candidate",
+      "evidence_rule": "Use only evidence available at or before the replay period. No future-data leakage.",
+      "expected_signals": [
+        "property_transactions",
+        "interest_rates",
+        "construction_output",
+        "employment"
+      ],
+      "candidate_mechanisms": [
+        "MKT_007",
+        "MKT_010"
+      ],
+      "source_requirements": [
+        "official_statistics_preferred",
+        "publication_date_required",
+        "historical_period_alignment_required",
+        "lineage_required_before_replay_execution"
+      ],
+      "readiness_status": "definition_ready_needs_evidence_mapping",
+      "rationale": "Adds property-sector shock/recovery case."
+    },
+    {
+      "case_id": "SG-MARINE-OFFSHORE-2020",
+      "domain": "marine_offshore",
+      "period": "2020",
+      "priority": "medium",
+      "replay_status": "definition_created",
+      "replay_mode": "historical_replay_candidate",
+      "evidence_rule": "Use only evidence available at or before the replay period. No future-data leakage.",
+      "expected_signals": [
+        "global_pmi",
+        "nodx",
+        "sector_output",
+        "employment"
+      ],
+      "candidate_mechanisms": [
+        "MKT_010"
+      ],
+      "source_requirements": [
+        "official_statistics_preferred",
+        "publication_date_required",
+        "historical_period_alignment_required",
+        "lineage_required_before_replay_execution"
+      ],
+      "readiness_status": "definition_ready_needs_evidence_mapping",
+      "rationale": "Adds oil-linked industrial sector comparison."
+    },
+    {
+      "case_id": "SG-BIOMEDICAL-VOLATILITY-2020",
+      "domain": "biomedical",
+      "period": "2020",
+      "priority": "high",
+      "replay_status": "definition_created",
+      "replay_mode": "historical_replay_candidate",
+      "evidence_rule": "Use only evidence available at or before the replay period. No future-data leakage.",
+      "expected_signals": [
+        "pharmaceutical_output",
+        "biomedical_exports",
+        "global_demand",
+        "production_volatility"
+      ],
+      "candidate_mechanisms": [
+        "MKT_010",
+        "MKT_006"
+      ],
+      "source_requirements": [
+        "official_statistics_preferred",
+        "publication_date_required",
+        "historical_period_alignment_required",
+        "lineage_required_before_replay_execution"
+      ],
+      "readiness_status": "definition_ready_needs_evidence_mapping",
+      "rationale": "Adds biomedical volatility comparison."
+    },
+    {
+      "case_id": "SG-LABOUR-MARKET-2020",
+      "domain": "employment",
+      "period": "2020",
+      "priority": "critical",
+      "replay_status": "definition_created",
+      "replay_mode": "historical_replay_candidate",
+      "evidence_rule": "Use only evidence available at or before the replay period. No future-data leakage.",
+      "expected_signals": [
+        "unemployment_rate",
+        "resident_employment",
+        "retrenchments",
+        "policy_support"
+      ],
+      "candidate_mechanisms": [
+        "MKT_005",
+        "MKT_006"
+      ],
+      "source_requirements": [
+        "official_statistics_preferred",
+        "publication_date_required",
+        "historical_period_alignment_required",
+        "lineage_required_before_replay_execution"
+      ],
+      "readiness_status": "definition_ready_needs_evidence_mapping",
+      "rationale": "Adds labour market outcome replay case."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "investigation_package_version": "historical-investigation-package-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-CAPACITY-EXPANSION-2010",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_candidate_file": "capacity-cluster-seed-v0.1",
+  "case_summary": {
+    "period": "2010",
+    "series_no": "CAPACITY-EXPANSION-2010",
+    "series_name": "Capacity Expansion",
+    "priority": "critical",
+    "direction": "positive",
+    "latest_value": null,
+    "month_on_month_change_pct": null,
+    "year_on_year_change_pct": null
+  },
+  "driver_candidates": [
+    {
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion"
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn"
+    },
+    {
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle"
+    }
+  ],
+  "expected_mechanisms": [
+    "Post-crisis recovery supported renewed capital investment and production capacity expansion.",
+    "Firms expanded production lines and industrial capacity as demand conditions recovered.",
+    "Capital equipment and precision engineering activity supported the capacity expansion mechanism.",
+    "The broader recovery environment provided the macro backdrop but capacity additions were the primary mechanism."
+  ],
+  "investigation_status": {
+    "evidence_collected": false,
+    "attribution_scored": false,
+    "outcome_ready": false
+  }
+}

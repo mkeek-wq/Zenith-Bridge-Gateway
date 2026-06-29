@@ -1,0 +1,209 @@
+{
+  "gate_version": "article-data-readiness-gate-v0.1",
+  "generated_at": "2026-06-14T09:39:50.097Z",
+  "purpose": "Blocks or allows AI draft generation based on verified data coverage.",
+  "candidate_count": 10,
+  "allowed": 4,
+  "blocked": 6,
+  "decisions": [
+    {
+      "candidate_id": "ART-what-precision-engineering-reveals-about-singapore-s-capital-equipment-cycle",
+      "candidate_title": "What Precision Engineering Reveals About Singapore's Capital Equipment Cycle",
+      "coverage_score": 1,
+      "readiness": "strong_data_coverage",
+      "required_dataset_count": 2,
+      "verified_dataset_count": 2,
+      "missing_dataset_count": 0,
+      "graph_readiness": "graph_package_possible",
+      "generation_allowed": true,
+      "generation_status": "ai_draft_allowed",
+      "decision_reason": "Strong verified data coverage is available.",
+      "missing_datasets": [],
+      "generated_at": "2026-06-14T09:39:50.096Z"
+    },
+    {
+      "candidate_id": "ART-what-transport-engineering-reveals-about-singapore-s-aviation-and-marine-recovery",
+      "candidate_title": "What Transport Engineering Reveals About Singapore's Aviation and Marine Recovery",
+      "coverage_score": 1,
+      "readiness": "strong_data_coverage",
+      "required_dataset_count": 2,
+      "verified_dataset_count": 2,
+      "missing_dataset_count": 0,
+      "graph_readiness": "graph_package_possible",
+      "generation_allowed": true,
+      "generation_status": "ai_draft_allowed",
+      "decision_reason": "Strong verified data coverage is available.",
+      "missing_datasets": [],
+      "generated_at": "2026-06-14T09:39:50.097Z"
+    },
+    {
+      "candidate_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+      "candidate_title": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles",
+      "coverage_score": 1,
+      "readiness": "strong_data_coverage",
+      "required_dataset_count": 4,
+      "verified_dataset_count": 4,
+      "missing_dataset_count": 0,
+      "graph_readiness": "graph_package_possible",
+      "generation_allowed": true,
+      "generation_status": "ai_draft_allowed",
+      "decision_reason": "Strong verified data coverage is available.",
+      "missing_datasets": [],
+      "generated_at": "2026-06-14T09:39:50.097Z"
+    },
+    {
+      "candidate_id": "ART-how-chemicals-and-petrochemicals-reflect-singapore-s-industrial-cycle",
+      "candidate_title": "How Chemicals and Petrochemicals Reflect Singapore's Industrial Cycle",
+      "coverage_score": 0.4,
+      "readiness": "thin_data_coverage",
+      "required_dataset_count": 2,
+      "verified_dataset_count": 1,
+      "missing_dataset_count": 1,
+      "graph_readiness": "graph_package_not_ready",
+      "generation_allowed": false,
+      "generation_status": "blocked_until_more_data",
+      "decision_reason": "Only thin verified data coverage is available. Add required datasets before AI drafting.",
+      "missing_datasets": [
+        {
+          "dataset_id": "SG_HOW_CHEMICALS_AND_PETROCHEMICALS_REFLECT_SINGAPORE_S_INDUSTRIAL_CYCLE_PRIMARY_SERIES",
+          "name": "Primary time series for How Chemicals and Petrochemicals Reflect Singapore's Industrial Cycle",
+          "importance": "critical",
+          "verification_status": "requested_not_loaded"
+        }
+      ],
+      "generated_at": "2026-06-14T09:39:50.097Z"
+    },
+    {
+      "candidate_id": "ART-understanding-biomedical-pharmaceutical-production-cycle-in-singapore-s-manufacturing-data",
+      "candidate_title": "Understanding Biomedical / Pharmaceutical Production Cycle in Singapore's Manufacturing Data",
+      "coverage_score": 0.4,
+      "readiness": "thin_data_coverage",
+      "required_dataset_count": 2,
+      "verified_dataset_count": 1,
+      "missing_dataset_count": 1,
+      "graph_readiness": "graph_package_not_ready",
+      "generation_allowed": false,
+      "generation_status": "blocked_until_more_data",
+      "decision_reason": "Only thin verified data coverage is available. Add required datasets before AI drafting.",
+      "missing_datasets": [
+        {
+          "dataset_id": "SG_UNDERSTANDING_BIOMEDICAL_PHARMACEUTICAL_PRODUCTION_CYCLE_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES",
+          "name": "Primary time series for Understanding Biomedical / Pharmaceutical Production Cycle in Singapore's Manufacturing Data",
+          "importance": "critical",
+          "verification_status": "requested_not_loaded"
+        }
+      ],
+      "generated_at": "2026-06-14T09:39:50.097Z"
+    },
+    {
+      "candidate_id": "ART-how-global-demand-shocks-move-through-singapore-s-industrial-base",
+      "candidate_title": "How Global Demand Shocks Move Through Singapore's Industrial Base",
+      "coverage_score": 0.4,
+      "readiness": "thin_data_coverage",
+      "required_dataset_count": 2,
+      "verified_dataset_count": 1,
+      "missing_dataset_count": 1,
+      "graph_readiness": "graph_package_not_ready",
+      "generation_allowed": false,
+      "generation_status": "blocked_until_more_data",
+      "decision_reason": "Only thin verified data coverage is available. Add required datasets before AI drafting.",
+      "missing_datasets": [
+        {
+          "dataset_id": "SG_HOW_GLOBAL_DEMAND_SHOCKS_MOVE_THROUGH_SINGAPORE_S_INDUSTRIAL_BASE_PRIMARY_SERIES",
+          "name": "Primary time series for How Global Demand Shocks Move Through Singapore's Industrial Base",
+          "importance": "critical",
+          "verification_status": "requested_not_loaded"
+        }
+      ],
+      "generated_at": "2026-06-14T09:39:50.097Z"
+    },
+    {
+      "candidate_id": "ART-how-semiconductor-cycles-shape-singapore-s-manufacturing-advantage",
+      "candidate_title": "How Semiconductor Cycles Shape Singapore's Manufacturing Advantage",
+      "coverage_score": 0.714,
+      "readiness": "partial_data_coverage",
+      "required_dataset_count": 3,
+      "verified_dataset_count": 2,
+      "missing_dataset_count": 1,
+      "graph_readiness": "graph_package_possible",
+      "generation_allowed": true,
+      "generation_status": "ai_draft_allowed_with_caution",
+      "decision_reason": "Partial verified data coverage is available. Article should include data limitations.",
+      "missing_datasets": [
+        {
+          "dataset_id": "SG_ELECTRONICS_OUTPUT_INDEX",
+          "name": "Singapore electronics output index",
+          "importance": "high",
+          "verification_status": "requested_not_loaded"
+        }
+      ],
+      "generated_at": "2026-06-14T09:39:50.097Z"
+    },
+    {
+      "candidate_id": "ART-understanding-inventory-cycle-restocking-in-singapore-s-manufacturing-data",
+      "candidate_title": "Understanding Inventory Cycle / Restocking in Singapore's Manufacturing Data",
+      "coverage_score": 0.4,
+      "readiness": "thin_data_coverage",
+      "required_dataset_count": 2,
+      "verified_dataset_count": 1,
+      "missing_dataset_count": 1,
+      "graph_readiness": "graph_package_not_ready",
+      "generation_allowed": false,
+      "generation_status": "blocked_until_more_data",
+      "decision_reason": "Only thin verified data coverage is available. Add required datasets before AI drafting.",
+      "missing_datasets": [
+        {
+          "dataset_id": "SG_UNDERSTANDING_INVENTORY_CYCLE_RESTOCKING_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES",
+          "name": "Primary time series for Understanding Inventory Cycle / Restocking in Singapore's Manufacturing Data",
+          "importance": "critical",
+          "verification_status": "requested_not_loaded"
+        }
+      ],
+      "generated_at": "2026-06-14T09:39:50.097Z"
+    },
+    {
+      "candidate_id": "ART-understanding-operational-disruption-in-singapore-s-manufacturing-data",
+      "candidate_title": "Understanding Operational Disruption in Singapore's Manufacturing Data",
+      "coverage_score": 0.4,
+      "readiness": "thin_data_coverage",
+      "required_dataset_count": 2,
+      "verified_dataset_count": 1,
+      "missing_dataset_count": 1,
+      "graph_readiness": "graph_package_not_ready",
+      "generation_allowed": false,
+      "generation_status": "blocked_until_more_data",
+      "decision_reason": "Only thin verified data coverage is available. Add required datasets before AI drafting.",
+      "missing_datasets": [
+        {
+          "dataset_id": "SG_UNDERSTANDING_OPERATIONAL_DISRUPTION_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES",
+          "name": "Primary time series for Understanding Operational Disruption in Singapore's Manufacturing Data",
+          "importance": "critical",
+          "verification_status": "requested_not_loaded"
+        }
+      ],
+      "generated_at": "2026-06-14T09:39:50.097Z"
+    },
+    {
+      "candidate_id": "ART-understanding-capacity-expansion-in-singapore-s-manufacturing-data",
+      "candidate_title": "Understanding Capacity Expansion in Singapore's Manufacturing Data",
+      "coverage_score": 0.4,
+      "readiness": "thin_data_coverage",
+      "required_dataset_count": 2,
+      "verified_dataset_count": 1,
+      "missing_dataset_count": 1,
+      "graph_readiness": "graph_package_not_ready",
+      "generation_allowed": false,
+      "generation_status": "blocked_until_more_data",
+      "decision_reason": "Only thin verified data coverage is available. Add required datasets before AI drafting.",
+      "missing_datasets": [
+        {
+          "dataset_id": "SG_UNDERSTANDING_CAPACITY_EXPANSION_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES",
+          "name": "Primary time series for Understanding Capacity Expansion in Singapore's Manufacturing Data",
+          "importance": "critical",
+          "verification_status": "requested_not_loaded"
+        }
+      ],
+      "generated_at": "2026-06-14T09:39:50.097Z"
+    }
+  ]
+}

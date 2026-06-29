@@ -1,0 +1,33 @@
+{
+  "registry_version": "intelligence-brief-generator-v0.2",
+  "created_at": "2026-06-08T08:40:26.345Z",
+  "doctrine": {
+    "brief_is_monitoring_assessment_not_prediction": true,
+    "grouped_signals_reduce_repetition": true,
+    "evidence_remains_primary": true,
+    "mechanisms_are_challengeable": true,
+    "human_review_required_for_action": true
+  },
+  "inputs": {
+    "case_available": true,
+    "grouped_signals": 28,
+    "triggers": 11,
+    "contradictions": 5,
+    "discoveries": 3,
+    "mechanisms": 3
+  },
+  "brief": {
+    "title": "SMURF Intelligence Brief v0.2",
+    "case_id": "SMURF_CASE_001",
+    "generated_at": "2026-06-08T08:40:26.345Z",
+    "case_confidence_score": 0.481,
+    "recommended_posture": "focused_monitoring",
+    "leading_mechanism": "Demand Shock / External Downturn",
+    "top_contradiction": "external_trade",
+    "candidate_discoveries": [
+      "Household Balance Sheet Transmission",
+      "Services Receipts Momentum"
+    ],
+    "markdown": "# SMURF Intelligence Brief v0.2\n\nGenerated: 2026-06-08T08:40:26.344Z\n\n## Executive Summary\n\nEvidence base contains strong signals and mechanism-linked evidence. Because mechanisms remain candidate_not_validated, decision support should escalate monitoring but avoid firm conclusions.\n\nCurrent posture: **focused_monitoring**.\nCase confidence: **0.481 (low)**.\n\n## Leading Mechanism\n\nThe leading monitored mechanism is **Demand Shock / External Downturn**.\n\n- Confidence: 0.536\n- Replay support: 0.349\n- Promotion status: watch_for_promotion\n- Lifecycle status: candidate_not_validated\n\nInterpretation: Leading candidate for continued monitoring, but not ready for validation or promotion.\n\n## Grouped Evidence Signals\n\n- **NODX_CHANGE_YOY**: very_strong_signal, 32 evidence items, dominant direction positive, signal score 0.804\n- **CPI_GROWTH_YOY**: strong_signal, 30 evidence items, dominant direction positive, signal score 0.769\n- **GDP_GROWTH_YOY**: strong_signal, 72 evidence items, dominant direction positive, signal score 0.767\n- **CPI_GROWTH_MOM**: strong_signal, 26 evidence items, dominant direction positive, signal score 0.763\n- **HOUSEHOLD_NET_WORTH_CHANGE_YOY**: strong_signal, 10 evidence items, dominant direction positive, signal score 0.755\n- **MANUFACTURING_OUTPUT_CHANGE_MOM**: strong_signal, 27 evidence items, dominant direction negative, signal score 0.754\n- **PERSONAL_SAVING_RATE**: strong_signal, 13 evidence items, dominant direction positive, signal score 0.748\n- **BUSINESS_RECEIPTS_CHANGE_YOY**: strong_signal, 12 evidence items, dominant direction positive, signal score 0.747\n\n## Contradiction Watch\n\nTotal contradictions detected: 5.\nStrong contradictions: 1.\n\nHighest contradiction: **external_trade** with strength 0.761 (strong_contradiction).\nInterpretation: contradictory evidence should reduce certainty and increase monitoring discipline.\n\n## Candidate Discoveries\n\n- **Household Balance Sheet Transmission**: discovery score 0.708, matched evidence 23.\n- **Services Receipts Momentum**: discovery score 0.705, matched evidence 78.\n\n## Priority Monitoring Triggers\n\n- **DIRECT_INVESTMENT_ABROAD_CHANGE_YOY** — metric_monitoring, high_priority, weekly.\n- **GDP_GROWTH_YOY** — metric_monitoring, high_priority, weekly.\n- **NODX_CHANGE_YOY** — metric_monitoring, high_priority, weekly.\n- **external_trade** — contradiction_monitoring, high_priority, weekly.\n- **manufacturing** — contradiction_monitoring, medium_priority, biweekly.\n- **macro_growth** — contradiction_monitoring, medium_priority, biweekly.\n- **Household Balance Sheet Transmission** — discovery_watch, medium_priority, monthly.\n- **investment** — contradiction_monitoring, medium_priority, biweekly.\n- **Services Receipts Momentum** — discovery_watch, medium_priority, monthly.\n- **other** — contradiction_monitoring, medium_priority, biweekly.\n\n## Case Evolution\n\nNo previous snapshot found. Current case is the baseline.\n\n## Brief Quality\n\nPrevious brief quality review: acceptable with score 0.84.\nv0.2 uses grouped evidence signals to reduce repeated metric rows.\n\n## Governance Note\n\nThis brief is a monitoring assessment. It is not a prediction, not investment advice, not an automated validation decision, and not a lifecycle mutation instruction. Evidence remains primary; mechanisms remain challengeable."
+  }
+}

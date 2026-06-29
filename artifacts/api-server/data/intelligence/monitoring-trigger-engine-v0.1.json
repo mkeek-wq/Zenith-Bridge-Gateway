@@ -1,0 +1,189 @@
+{
+  "registry_version": "monitoring-trigger-engine-v0.1",
+  "created_at": "2026-06-08T08:34:18.124Z",
+  "doctrine": {
+    "monitoring_triggers_are_not_predictions": true,
+    "triggers_prioritize_attention_not_action": true,
+    "evidence_remains_primary": true,
+    "human_review_required_for_decisions": true
+  },
+  "inputs": {
+    "top_evidence_items": 12,
+    "mechanisms": 3,
+    "contradictions": 5,
+    "discoveries": 3
+  },
+  "summary": {
+    "triggers_created": 11,
+    "high_priority": 4,
+    "medium_priority": 7,
+    "low_priority": 0
+  },
+  "monitoring_triggers": [
+    {
+      "trigger_id": "TRG_0005",
+      "metric_name": "DIRECT_INVESTMENT_ABROAD_CHANGE_YOY",
+      "trigger_type": "metric_monitoring",
+      "trigger_importance_score": 0.797,
+      "trigger_band": "high_priority",
+      "monitoring_frequency": "weekly",
+      "reason": "Top-ranked evidence in current monitoring case. Status: strong_evidence; direction: mixed_or_neutral.",
+      "suggested_watch_rule": "Monitor direction, magnitude, and whether new observations confirm or contradict current case posture.",
+      "governance": {
+        "trigger_is_not_prediction": true,
+        "human_review_required_for_action": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "trigger_id": "TRG_0006",
+      "metric_name": "GDP_GROWTH_YOY",
+      "trigger_type": "metric_monitoring",
+      "trigger_importance_score": 0.789,
+      "trigger_band": "high_priority",
+      "monitoring_frequency": "weekly",
+      "reason": "Top-ranked evidence in current monitoring case. Status: strong_evidence; direction: positive.",
+      "suggested_watch_rule": "Monitor direction, magnitude, and whether new observations confirm or contradict current case posture.",
+      "governance": {
+        "trigger_is_not_prediction": true,
+        "human_review_required_for_action": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "trigger_id": "TRG_0008",
+      "metric_name": "NODX_CHANGE_YOY",
+      "trigger_type": "metric_monitoring",
+      "trigger_importance_score": 0.786,
+      "trigger_band": "high_priority",
+      "monitoring_frequency": "weekly",
+      "reason": "Top-ranked evidence in current monitoring case. Status: strong_evidence; direction: positive.",
+      "suggested_watch_rule": "Monitor direction, magnitude, and whether new observations confirm or contradict current case posture.",
+      "governance": {
+        "trigger_is_not_prediction": true,
+        "human_review_required_for_action": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "trigger_id": "TRG_0012",
+      "metric_name": "external_trade",
+      "trigger_type": "contradiction_monitoring",
+      "trigger_importance_score": 0.761,
+      "trigger_band": "high_priority",
+      "monitoring_frequency": "weekly",
+      "reason": "Contradiction detected in external_trade. Positive and negative signals coexist.",
+      "suggested_watch_rule": "Track whether the contradiction resolves, deepens, or spreads into related evidence buckets.",
+      "governance": {
+        "trigger_is_not_prediction": true,
+        "contradiction_reduces_certainty": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "trigger_id": "TRG_0010",
+      "metric_name": "manufacturing",
+      "trigger_type": "contradiction_monitoring",
+      "trigger_importance_score": 0.723,
+      "trigger_band": "medium_priority",
+      "monitoring_frequency": "biweekly",
+      "reason": "Contradiction detected in manufacturing. Positive and negative signals coexist.",
+      "suggested_watch_rule": "Track whether the contradiction resolves, deepens, or spreads into related evidence buckets.",
+      "governance": {
+        "trigger_is_not_prediction": true,
+        "contradiction_reduces_certainty": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "trigger_id": "TRG_0011",
+      "metric_name": "macro_growth",
+      "trigger_type": "contradiction_monitoring",
+      "trigger_importance_score": 0.712,
+      "trigger_band": "medium_priority",
+      "monitoring_frequency": "biweekly",
+      "reason": "Contradiction detected in macro_growth. Positive and negative signals coexist.",
+      "suggested_watch_rule": "Track whether the contradiction resolves, deepens, or spreads into related evidence buckets.",
+      "governance": {
+        "trigger_is_not_prediction": true,
+        "contradiction_reduces_certainty": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "trigger_id": "TRG_0015",
+      "metric_name": "Household Balance Sheet Transmission",
+      "trigger_type": "discovery_watch",
+      "trigger_importance_score": 0.708,
+      "trigger_band": "medium_priority",
+      "monitoring_frequency": "monthly",
+      "reason": "Candidate discovery detected: Household Balance Sheet Transmission.",
+      "suggested_watch_rule": "Track whether this theme accumulates additional evidence and whether it deserves human-seeded mechanism review.",
+      "governance": {
+        "discovery_is_not_validation": true,
+        "human_review_required_to_seed_new_mechanism": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "trigger_id": "TRG_0013",
+      "metric_name": "investment",
+      "trigger_type": "contradiction_monitoring",
+      "trigger_importance_score": 0.705,
+      "trigger_band": "medium_priority",
+      "monitoring_frequency": "biweekly",
+      "reason": "Contradiction detected in investment. Positive and negative signals coexist.",
+      "suggested_watch_rule": "Track whether the contradiction resolves, deepens, or spreads into related evidence buckets.",
+      "governance": {
+        "trigger_is_not_prediction": true,
+        "contradiction_reduces_certainty": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "trigger_id": "TRG_0016",
+      "metric_name": "Services Receipts Momentum",
+      "trigger_type": "discovery_watch",
+      "trigger_importance_score": 0.705,
+      "trigger_band": "medium_priority",
+      "monitoring_frequency": "monthly",
+      "reason": "Candidate discovery detected: Services Receipts Momentum.",
+      "suggested_watch_rule": "Track whether this theme accumulates additional evidence and whether it deserves human-seeded mechanism review.",
+      "governance": {
+        "discovery_is_not_validation": true,
+        "human_review_required_to_seed_new_mechanism": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "trigger_id": "TRG_0009",
+      "metric_name": "other",
+      "trigger_type": "contradiction_monitoring",
+      "trigger_importance_score": 0.646,
+      "trigger_band": "medium_priority",
+      "monitoring_frequency": "biweekly",
+      "reason": "Contradiction detected in other. Positive and negative signals coexist.",
+      "suggested_watch_rule": "Track whether the contradiction resolves, deepens, or spreads into related evidence buckets.",
+      "governance": {
+        "trigger_is_not_prediction": true,
+        "contradiction_reduces_certainty": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "trigger_id": "TRG_0014",
+      "metric_name": "Demand Shock / External Downturn",
+      "trigger_type": "mechanism_watch",
+      "trigger_importance_score": 0.56,
+      "trigger_band": "medium_priority",
+      "monitoring_frequency": "biweekly",
+      "reason": "Mechanism is marked watch_for_promotion: Demand Shock / External Downturn.",
+      "suggested_watch_rule": "Monitor new supporting evidence, contradictions, falsification risk, and replay support changes.",
+      "governance": {
+        "trigger_is_not_validation": true,
+        "promotion_is_not_validation": true,
+        "human_review_required_for_lifecycle_change": true
+      }
+    }
+  ]
+}

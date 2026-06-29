@@ -1,0 +1,57 @@
+{
+  "experience_metrics_version": "experience-metrics-v0.1",
+  "generated_at": "2026-06-03T09:51:15.622Z",
+  "source_accuracy_dir": "data/replay-sandbox/accuracy",
+  "metrics_policy": {
+    "principle": "Experience metrics aggregate replay prediction accuracy over time. Accuracy remains null until actual outcomes are available.",
+    "current_limitations": [
+      "Only accuracy files present in the replay sandbox are included.",
+      "Accuracy is only computed when actual historical outcomes exist.",
+      "Current pilot may show null accuracy because predicted cases are not yet closed."
+    ]
+  },
+  "summary": {
+    "accuracy_runs": 1,
+    "total_cases": 11,
+    "predictions_available": 2,
+    "scorable_predictions": 0,
+    "correct": 0,
+    "incorrect": 0,
+    "unknown_actual_outcome": 2,
+    "not_scorable": 9,
+    "overall_accuracy_rate": null
+  },
+  "by_prediction_governance_version": [
+    {
+      "prediction_governance_version": "prediction-governance-v0.1",
+      "runs": 1,
+      "total_cases": 11,
+      "predictions_available": 2,
+      "scorable_predictions": 0,
+      "correct": 0,
+      "incorrect": 0,
+      "unknown_actual_outcome": 2,
+      "not_scorable": 9,
+      "accuracy_rate": null
+    }
+  ],
+  "accuracy_runs": [
+    {
+      "file": "data/replay-sandbox/accuracy/prediction-accuracy-2026-06-03T09-00-00.000Z.json",
+      "replay_date": "2026-06-03T09:00:00.000Z",
+      "prediction_accuracy_version": "prediction-accuracy-v0.1",
+      "replay_prediction_version": "replay-prediction-v0.2-similarity",
+      "prediction_governance_version": "prediction-governance-v0.1",
+      "summary": {
+        "total_cases": 11,
+        "predictions_available": 2,
+        "scorable_predictions": 0,
+        "correct": 0,
+        "incorrect": 0,
+        "unknown_actual_outcome": 2,
+        "not_scorable": 9,
+        "accuracy_rate": null
+      }
+    }
+  ]
+}

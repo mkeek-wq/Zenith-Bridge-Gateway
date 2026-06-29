@@ -1,0 +1,80 @@
+{
+  "health_version": "village-task-health-v0.1",
+  "generated_at": "2026-06-26T06:57:51.367Z",
+  "dispatch_id": "DSP-20260626-0001",
+  "task_count": 5,
+  "ready_count": 0,
+  "waiting_count": 0,
+  "running_count": 0,
+  "completed_count": 5,
+  "failed_count": 0,
+  "bottleneck_yellow_count": 0,
+  "bottleneck_red_count": 0,
+  "tasks": [
+    {
+      "task_id": "DSP-20260626-0001-TASK-001",
+      "smurf_id": "COVERAGE",
+      "stage": 1,
+      "status": "completed",
+      "expected_runtime_seconds": 60,
+      "duration_seconds": 3.586,
+      "bottleneck_risk": "none",
+      "parallelizable": true,
+      "parallel_unit": "candidate_or_dataset",
+      "scale_strategy": "split_by_candidate_then_add_worker"
+    },
+    {
+      "task_id": "DSP-20260626-0001-TASK-002",
+      "smurf_id": "GRAPH",
+      "stage": 2,
+      "status": "completed",
+      "expected_runtime_seconds": 90,
+      "duration_seconds": 3.643,
+      "bottleneck_risk": "none",
+      "parallelizable": true,
+      "parallel_unit": "graph",
+      "scale_strategy": "split_by_graph_then_add_worker"
+    },
+    {
+      "task_id": "DSP-20260626-0001-TASK-003",
+      "smurf_id": "SIGNAL",
+      "stage": 2,
+      "status": "completed",
+      "expected_runtime_seconds": 90,
+      "duration_seconds": 2.14,
+      "bottleneck_risk": "none",
+      "parallelizable": true,
+      "parallel_unit": "signal_or_dataset",
+      "scale_strategy": "split_by_signal_family_then_add_worker"
+    },
+    {
+      "task_id": "DSP-20260626-0001-TASK-004",
+      "smurf_id": "REPLAY",
+      "stage": 3,
+      "status": "completed",
+      "expected_runtime_seconds": 300,
+      "duration_seconds": 4.864,
+      "bottleneck_risk": "none",
+      "parallelizable": true,
+      "parallel_unit": "case",
+      "scale_strategy": "split_by_case_or_sector_then_add_replay_worker"
+    },
+    {
+      "task_id": "DSP-20260626-0001-TASK-005",
+      "smurf_id": "WORKBENCH",
+      "stage": 4,
+      "status": "completed",
+      "expected_runtime_seconds": 120,
+      "duration_seconds": 3.411,
+      "bottleneck_risk": "none",
+      "parallelizable": true,
+      "parallel_unit": "article_candidate",
+      "scale_strategy": "split_by_article_candidate_then_add_worker"
+    }
+  ],
+  "governance": {
+    "health_report_only": true,
+    "execution_allowed": false,
+    "bottleneck_policy": "split parallelizable jobs first, add worker or VPS capacity second, redesign last"
+  }
+}

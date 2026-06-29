@@ -1,0 +1,207 @@
+{
+  "hypothesis_testing_registry_version": "hypothesis-testing-registry-v0.1",
+  "generated_at": "2026-06-07T14:42:27.907Z",
+  "source_hypothesis_registry": "data/intelligence/hypothesis-registry-v0.1.json",
+  "policy": {
+    "principle": "Hypothesis testing registry v0.1 initiates structured falsification and support review. It does not approve principles or mutate production memory.",
+    "production_mutation_allowed": false,
+    "human_review_required": true,
+    "counter_evidence_required_before_approval": true,
+    "testing_registry_is_not_principle_registry": true
+  },
+  "summary": {
+    "tests_created": 3,
+    "source_hypotheses": 3,
+    "survived_initial_structure_review": 3,
+    "requires_more_testing": 0,
+    "approved_principles": 0,
+    "driver_ids": [
+      "MKT_006",
+      "MKT_010",
+      "MKT_002"
+    ]
+  },
+  "tests": [
+    {
+      "testing_id": "HT_001",
+      "testing_version": "hypothesis-testing-v0.1",
+      "hypothesis_id": "HYP_001",
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "hypothesis_statement": "Policy and regulatory changes affect industrial outcomes through cost, incentive, compliance, or capacity-support channels.",
+      "mechanism_type": "policy_transmission_mechanism",
+      "testing_level": 1,
+      "testing_level_name": "qualitative_case_review",
+      "supporting_case_count": 6,
+      "supporting_periods": [
+        "2019",
+        "2020",
+        "2021",
+        "2023",
+        "2025"
+      ],
+      "supporting_series": [
+        "Carbon Tax",
+        "Foreign Worker Constraints",
+        "GST Increase",
+        "Global Minimum Tax",
+        "Jobs Support Scheme",
+        "Productivity Solutions Grant"
+      ],
+      "confidence_distribution": {
+        "high": 6
+      },
+      "support_evidence": [
+        "Hypothesis originates from a principle candidate that passed coverage and diversity screening.",
+        "Supported by 6 reviewed historical cases.",
+        "Observed across 5 periods.",
+        "Observed across 6 series."
+      ],
+      "counter_evidence": [],
+      "counter_evidence_required": true,
+      "falsification_questions": [
+        "Can we identify cases where the expected mechanism did not occur?",
+        "Can we identify cases where the opposite mechanism occurred?",
+        "Can another driver explain the outcome better?",
+        "Does the mechanism hold outside the strongest supporting cases?",
+        "Does the mechanism survive review using higher-authority source material?"
+      ],
+      "unresolved_questions": [
+        "Does the hypothesis survive counterexample search?",
+        "Is the mechanism causal, reinforcing, or merely descriptive?",
+        "What evidence would materially weaken the hypothesis?"
+      ],
+      "preliminary_support_score": 0.7,
+      "testing_status": "survived_initial_structure_review",
+      "test_result": "not_final",
+      "confidence_score_after_testing": null,
+      "approved_for_principle_review": false,
+      "governance": {
+        "testing_only": true,
+        "approved_principle": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false,
+        "note": "This registry starts hypothesis testing. It does not approve principles. Counter-evidence review remains required."
+      }
+    },
+    {
+      "testing_id": "HT_002",
+      "testing_version": "hypothesis-testing-v0.1",
+      "hypothesis_id": "HYP_002",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "hypothesis_statement": "External demand shocks propagate through export-sensitive sectors before appearing in broader manufacturing outcomes.",
+      "mechanism_type": "external_demand_transmission_mechanism",
+      "testing_level": 1,
+      "testing_level_name": "qualitative_case_review",
+      "supporting_case_count": 8,
+      "supporting_periods": [
+        "2001",
+        "2008",
+        "2009",
+        "2019",
+        "2020"
+      ],
+      "supporting_series": [
+        "Chemicals",
+        "Petrochemicals",
+        "Total Manufacturing"
+      ],
+      "confidence_distribution": {
+        "high": 7,
+        "low": 1
+      },
+      "support_evidence": [
+        "Hypothesis originates from a principle candidate that passed coverage and diversity screening.",
+        "Supported by 8 reviewed historical cases.",
+        "Observed across 5 periods.",
+        "Observed across 3 series."
+      ],
+      "counter_evidence": [],
+      "counter_evidence_required": true,
+      "falsification_questions": [
+        "Can we identify cases where the expected mechanism did not occur?",
+        "Can we identify cases where the opposite mechanism occurred?",
+        "Can another driver explain the outcome better?",
+        "Does the mechanism hold outside the strongest supporting cases?",
+        "Does the mechanism survive review using higher-authority source material?"
+      ],
+      "unresolved_questions": [
+        "Does the hypothesis survive counterexample search?",
+        "Is the mechanism causal, reinforcing, or merely descriptive?",
+        "What evidence would materially weaken the hypothesis?"
+      ],
+      "preliminary_support_score": 0.75,
+      "testing_status": "survived_initial_structure_review",
+      "test_result": "not_final",
+      "confidence_score_after_testing": null,
+      "approved_for_principle_review": false,
+      "governance": {
+        "testing_only": true,
+        "approved_principle": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false,
+        "note": "This registry starts hypothesis testing. It does not approve principles. Counter-evidence review remains required."
+      }
+    },
+    {
+      "testing_id": "HT_003",
+      "testing_version": "hypothesis-testing-v0.1",
+      "hypothesis_id": "HYP_003",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "hypothesis_statement": "Inventory adjustments amplify manufacturing downturns and recoveries by causing production changes that exceed the underlying change in demand.",
+      "mechanism_type": "amplification_mechanism",
+      "testing_level": 1,
+      "testing_level_name": "qualitative_case_review",
+      "supporting_case_count": 8,
+      "supporting_periods": [
+        "2001",
+        "2009",
+        "2019",
+        "2023"
+      ],
+      "supporting_series": [
+        "Electronics",
+        "Inventory Cycle / Restocking",
+        "Precision Engineering",
+        "Semiconductors"
+      ],
+      "confidence_distribution": {
+        "high": 8
+      },
+      "support_evidence": [
+        "Hypothesis originates from a principle candidate that passed coverage and diversity screening.",
+        "Supported by 8 reviewed historical cases.",
+        "Observed across 4 periods.",
+        "Observed across 4 series."
+      ],
+      "counter_evidence": [],
+      "counter_evidence_required": true,
+      "falsification_questions": [
+        "Can we identify cases where the expected mechanism did not occur?",
+        "Can we identify cases where the opposite mechanism occurred?",
+        "Can another driver explain the outcome better?",
+        "Does the mechanism hold outside the strongest supporting cases?",
+        "Does the mechanism survive review using higher-authority source material?"
+      ],
+      "unresolved_questions": [
+        "Does the hypothesis survive counterexample search?",
+        "Is the mechanism causal, reinforcing, or merely descriptive?",
+        "What evidence would materially weaken the hypothesis?"
+      ],
+      "preliminary_support_score": 0.8,
+      "testing_status": "survived_initial_structure_review",
+      "test_result": "not_final",
+      "confidence_score_after_testing": null,
+      "approved_for_principle_review": false,
+      "governance": {
+        "testing_only": true,
+        "approved_principle": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false,
+        "note": "This registry starts hypothesis testing. It does not approve principles. Counter-evidence review remains required."
+      }
+    }
+  ]
+}

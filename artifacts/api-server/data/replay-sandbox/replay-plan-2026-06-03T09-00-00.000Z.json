@@ -1,0 +1,688 @@
+{
+  "replay_plan_version": "replay-sandbox-plan-v0.2",
+  "generated_at": "2026-06-03T10:58:46.550Z",
+  "replay_date": "2026-06-03T09:00:00.000Z",
+  "governance_version": "replay-governance-v0.1",
+  "source_temporal_index": "data/replay-sandbox/temporal-index-v0.1.json",
+  "temporal_index_version": "temporal-index-v0.2",
+  "governance": {
+    "version": "replay-governance-v0.1",
+    "principle": "Replay may only use evidence available on or before the replay date. No future-data leakage.",
+    "visibility_rules": {
+      "evidence_visible_if": "publication_date <= replay_date",
+      "case_visible_if": "opened_at <= replay_date",
+      "outcome_visible_if": "closed_at <= replay_date"
+    },
+    "scoring_labels": [
+      "correct",
+      "incorrect",
+      "partial",
+      "unknown",
+      "not_scorable"
+    ],
+    "default_replay_mode": "sandbox",
+    "allow_production_mutation": false
+  },
+  "summary": {
+    "total_cases_checked": 11,
+    "visible_cases": 11,
+    "hidden_cases": 0,
+    "visible_outcomes": 1,
+    "using_publication_date": 11,
+    "using_fallback_opened_at": 0
+  },
+  "replay_cases": [
+    {
+      "case_id": "SG-M355381-1_1-2026-apr",
+      "case_file": "data/cases/case-SG-M355381-1_1-2026-apr.json",
+      "case_visible": true,
+      "replay_visible_from": "2026-05-26",
+      "replay_visibility_basis": "publication_date",
+      "observation_period": "2026 Apr",
+      "observation_date": "2026-04-01",
+      "publication_date": "2026-05-26",
+      "publication_date_source": "estimated_from_observation_period",
+      "publication_date_confidence": "medium",
+      "opened_at": "2026-06-02T14:38:49.900Z",
+      "ingested_at": "2026-06-02T14:38:49.900Z",
+      "current_case_status": "investigating",
+      "current_conclusion_status": "no_conclusion_yet",
+      "current_revision_number": null,
+      "outcome_visible": false,
+      "outcome_closed_at": null,
+      "visible_history_events": 5,
+      "latest_visible_history_event": {
+        "timestamp": "2026-06-02T14:47:44.596Z",
+        "event_type": "case_snapshot",
+        "case_status": "investigating",
+        "conclusion_status": "no_conclusion_yet",
+        "confidence": "unknown",
+        "confidence_reason": {
+          "rule_applied": "UNKNOWN_V1",
+          "relevant_evidence_count": 0,
+          "evidence_quality": "poor",
+          "unknown_effect": 10,
+          "conclusion_status": "no_conclusion_yet"
+        },
+        "outcome": {
+          "primary_driver": null,
+          "primary_driver_name": null,
+          "confidence": null,
+          "closed_at": null
+        },
+        "evidence_quality": "poor",
+        "next_action": "collect_external_evidence",
+        "publication_status": "not_published",
+        "observation": {
+          "latest_value": 131.206,
+          "month_on_month_change_pct": 16.284387407827563,
+          "year_on_year_change_pct": 44.00359992536739
+        },
+        "attribution_snapshot": {
+          "market_effect": 0,
+          "portfolio_effect": 0,
+          "operational_effect": 0,
+          "policy_effect": 0,
+          "unknown_effect": 10
+        },
+        "note": "Case history snapshot recorded from current persistent case file."
+      },
+      "replay_note": "Case is visible to replay based on temporal index."
+    },
+    {
+      "case_id": "SG-M355381-1_1_1-2026-apr",
+      "case_file": "data/cases/case-SG-M355381-1_1_1-2026-apr.json",
+      "case_visible": true,
+      "replay_visible_from": "2026-05-26",
+      "replay_visibility_basis": "publication_date",
+      "observation_period": "2026 Apr",
+      "observation_date": "2026-04-01",
+      "publication_date": "2026-05-26",
+      "publication_date_source": "estimated_from_observation_period",
+      "publication_date_confidence": "medium",
+      "opened_at": "2026-06-02T14:38:49.900Z",
+      "ingested_at": "2026-06-02T14:38:49.900Z",
+      "current_case_status": "investigating",
+      "current_conclusion_status": "no_conclusion_yet",
+      "current_revision_number": null,
+      "outcome_visible": false,
+      "outcome_closed_at": null,
+      "visible_history_events": 5,
+      "latest_visible_history_event": {
+        "timestamp": "2026-06-02T14:47:44.598Z",
+        "event_type": "case_snapshot",
+        "case_status": "investigating",
+        "conclusion_status": "no_conclusion_yet",
+        "confidence": "unknown",
+        "confidence_reason": {
+          "rule_applied": "UNKNOWN_V1",
+          "relevant_evidence_count": 0,
+          "evidence_quality": "poor",
+          "unknown_effect": 10,
+          "conclusion_status": "no_conclusion_yet"
+        },
+        "outcome": {
+          "primary_driver": null,
+          "primary_driver_name": null,
+          "confidence": null,
+          "closed_at": null
+        },
+        "evidence_quality": "poor",
+        "next_action": "collect_external_evidence",
+        "publication_status": "not_published",
+        "observation": {
+          "latest_value": 129.526,
+          "month_on_month_change_pct": 18.753839242328404,
+          "year_on_year_change_pct": 42.59010546247167
+        },
+        "attribution_snapshot": {
+          "market_effect": 0,
+          "portfolio_effect": 0,
+          "operational_effect": 0,
+          "policy_effect": 0,
+          "unknown_effect": 10
+        },
+        "note": "Case history snapshot recorded from current persistent case file."
+      },
+      "replay_note": "Case is visible to replay based on temporal index."
+    },
+    {
+      "case_id": "SG-M355381-1_1_3-2026-apr",
+      "case_file": "data/cases/case-SG-M355381-1_1_3-2026-apr.json",
+      "case_visible": true,
+      "replay_visible_from": "2026-05-26",
+      "replay_visibility_basis": "publication_date",
+      "observation_period": "2026 Apr",
+      "observation_date": "2026-04-01",
+      "publication_date": "2026-05-26",
+      "publication_date_source": "estimated_from_observation_period",
+      "publication_date_confidence": "medium",
+      "opened_at": "2026-06-02T14:38:49.900Z",
+      "ingested_at": "2026-06-02T14:38:49.900Z",
+      "current_case_status": "closed",
+      "current_conclusion_status": "attributed",
+      "current_revision_number": 2,
+      "outcome_visible": true,
+      "outcome_closed_at": "2026-06-03T08:09:11.553Z",
+      "visible_history_events": 9,
+      "latest_visible_history_event": {
+        "timestamp": "2026-06-03T08:09:11.553Z",
+        "event_type": "case_closed_with_outcome",
+        "closure_engine_version": "case-closure-revision-v0.1",
+        "revision_number": 2,
+        "previous_revision_number": 1,
+        "previous_state": {
+          "case_status": "reopened",
+          "conclusion_status": "under_review",
+          "confidence": "unknown",
+          "outcome": {
+            "primary_driver": "MKT_001",
+            "primary_driver_name": "Global Demand Surge",
+            "confidence": "high",
+            "closed_at": "2026-06-02T15:01:04.192Z"
+          },
+          "workflow": {
+            "next_action": "review_new_evidence",
+            "publication_status": "not_published",
+            "state_last_evaluated_at": "2026-06-03T08:06:19.512Z"
+          },
+          "last_updated_at": "2026-06-03T08:06:19.512Z",
+          "reopen_control": {
+            "version": "reopen-governance-v0.1",
+            "reopened_at": "2026-06-03T08:06:19.512Z",
+            "reopen_reason": "manual_review",
+            "reopen_note": "Testing governed reopen controls after outcome recommendation v0.2",
+            "previous_state": {
+              "case_status": "closed",
+              "conclusion_status": "attributed",
+              "confidence": "unknown",
+              "outcome": {
+                "primary_driver": "MKT_001",
+                "primary_driver_name": "Global Demand Surge",
+                "confidence": "high",
+                "closed_at": "2026-06-02T15:01:04.192Z"
+              },
+              "workflow": {
+                "next_action": "none",
+                "publication_status": "not_published",
+                "state_last_evaluated_at": "2026-06-02T15:01:21.972Z"
+              },
+              "last_updated_at": "2026-06-02T15:01:21.972Z"
+            }
+          }
+        },
+        "new_state": {
+          "case_status": "closed",
+          "conclusion_status": "attributed",
+          "next_action": "none",
+          "outcome": {
+            "primary_driver": "MKT_001",
+            "primary_driver_name": "Global Demand Surge",
+            "confidence": "high",
+            "closed_at": "2026-06-03T08:09:11.553Z",
+            "revision_number": 2,
+            "closure_note": "Reclosed after governed manual review test"
+          }
+        },
+        "note": "Reclosed after governed manual review test"
+      },
+      "replay_note": "Case is visible to replay based on temporal index."
+    },
+    {
+      "case_id": "SG-M355381-1_2_1-2026-apr",
+      "case_file": "data/cases/case-SG-M355381-1_2_1-2026-apr.json",
+      "case_visible": true,
+      "replay_visible_from": "2026-05-26",
+      "replay_visibility_basis": "publication_date",
+      "observation_period": "2026 Apr",
+      "observation_date": "2026-04-01",
+      "publication_date": "2026-05-26",
+      "publication_date_source": "estimated_from_observation_period",
+      "publication_date_confidence": "medium",
+      "opened_at": "2026-06-02T14:38:49.900Z",
+      "ingested_at": "2026-06-02T14:38:49.900Z",
+      "current_case_status": "investigating",
+      "current_conclusion_status": "no_conclusion_yet",
+      "current_revision_number": null,
+      "outcome_visible": false,
+      "outcome_closed_at": null,
+      "visible_history_events": 5,
+      "latest_visible_history_event": {
+        "timestamp": "2026-06-02T14:47:44.600Z",
+        "event_type": "case_snapshot",
+        "case_status": "investigating",
+        "conclusion_status": "no_conclusion_yet",
+        "confidence": "unknown",
+        "confidence_reason": {
+          "rule_applied": "UNKNOWN_V1",
+          "relevant_evidence_count": 0,
+          "evidence_quality": "poor",
+          "unknown_effect": 10,
+          "conclusion_status": "no_conclusion_yet"
+        },
+        "outcome": {
+          "primary_driver": null,
+          "primary_driver_name": null,
+          "confidence": null,
+          "closed_at": null
+        },
+        "evidence_quality": "poor",
+        "next_action": "collect_external_evidence",
+        "publication_status": "not_published",
+        "observation": {
+          "latest_value": 68.566,
+          "month_on_month_change_pct": -15.277400222414435,
+          "year_on_year_change_pct": -29.667241096340057
+        },
+        "attribution_snapshot": {
+          "market_effect": 0,
+          "portfolio_effect": 0,
+          "operational_effect": 0,
+          "policy_effect": 0,
+          "unknown_effect": 10
+        },
+        "note": "Case history snapshot recorded from current persistent case file."
+      },
+      "replay_note": "Case is visible to replay based on temporal index."
+    },
+    {
+      "case_id": "SG-M355381-1_2_2-2026-apr",
+      "case_file": "data/cases/case-SG-M355381-1_2_2-2026-apr.json",
+      "case_visible": true,
+      "replay_visible_from": "2026-05-26",
+      "replay_visibility_basis": "publication_date",
+      "observation_period": "2026 Apr",
+      "observation_date": "2026-04-01",
+      "publication_date": "2026-05-26",
+      "publication_date_source": "estimated_from_observation_period",
+      "publication_date_confidence": "medium",
+      "opened_at": "2026-06-02T14:38:49.900Z",
+      "ingested_at": "2026-06-02T14:38:49.900Z",
+      "current_case_status": "investigating",
+      "current_conclusion_status": "no_conclusion_yet",
+      "current_revision_number": null,
+      "outcome_visible": false,
+      "outcome_closed_at": null,
+      "visible_history_events": 5,
+      "latest_visible_history_event": {
+        "timestamp": "2026-06-02T14:47:44.601Z",
+        "event_type": "case_snapshot",
+        "case_status": "investigating",
+        "conclusion_status": "no_conclusion_yet",
+        "confidence": "unknown",
+        "confidence_reason": {
+          "rule_applied": "UNKNOWN_V1",
+          "relevant_evidence_count": 0,
+          "evidence_quality": "poor",
+          "unknown_effect": 10,
+          "conclusion_status": "no_conclusion_yet"
+        },
+        "outcome": {
+          "primary_driver": null,
+          "primary_driver_name": null,
+          "confidence": null,
+          "closed_at": null
+        },
+        "evidence_quality": "poor",
+        "next_action": "collect_external_evidence",
+        "publication_status": "not_published",
+        "observation": {
+          "latest_value": 60.362,
+          "month_on_month_change_pct": -8.890297651391647,
+          "year_on_year_change_pct": -41.62113020687254
+        },
+        "attribution_snapshot": {
+          "market_effect": 0,
+          "portfolio_effect": 0,
+          "operational_effect": 0,
+          "policy_effect": 0,
+          "unknown_effect": 10
+        },
+        "note": "Case history snapshot recorded from current persistent case file."
+      },
+      "replay_note": "Case is visible to replay based on temporal index."
+    },
+    {
+      "case_id": "SG-M355381-1_2_4-2026-apr",
+      "case_file": "data/cases/case-SG-M355381-1_2_4-2026-apr.json",
+      "case_visible": true,
+      "replay_visible_from": "2026-05-26",
+      "replay_visibility_basis": "publication_date",
+      "observation_period": "2026 Apr",
+      "observation_date": "2026-04-01",
+      "publication_date": "2026-05-26",
+      "publication_date_source": "estimated_from_observation_period",
+      "publication_date_confidence": "medium",
+      "opened_at": "2026-06-02T14:38:49.900Z",
+      "ingested_at": "2026-06-02T14:38:49.900Z",
+      "current_case_status": "investigating",
+      "current_conclusion_status": "no_conclusion_yet",
+      "current_revision_number": null,
+      "outcome_visible": false,
+      "outcome_closed_at": null,
+      "visible_history_events": 5,
+      "latest_visible_history_event": {
+        "timestamp": "2026-06-02T14:47:44.602Z",
+        "event_type": "case_snapshot",
+        "case_status": "investigating",
+        "conclusion_status": "no_conclusion_yet",
+        "confidence": "unknown",
+        "confidence_reason": {
+          "rule_applied": "UNKNOWN_V1",
+          "relevant_evidence_count": 0,
+          "evidence_quality": "poor",
+          "unknown_effect": 10,
+          "conclusion_status": "no_conclusion_yet"
+        },
+        "outcome": {
+          "primary_driver": null,
+          "primary_driver_name": null,
+          "confidence": null,
+          "closed_at": null
+        },
+        "evidence_quality": "poor",
+        "next_action": "collect_external_evidence",
+        "publication_status": "not_published",
+        "observation": {
+          "latest_value": 110.958,
+          "month_on_month_change_pct": 34.33497179108453,
+          "year_on_year_change_pct": 8.75996118446202
+        },
+        "attribution_snapshot": {
+          "market_effect": 0,
+          "portfolio_effect": 0,
+          "operational_effect": 0,
+          "policy_effect": 0,
+          "unknown_effect": 10
+        },
+        "note": "Case history snapshot recorded from current persistent case file."
+      },
+      "replay_note": "Case is visible to replay based on temporal index."
+    },
+    {
+      "case_id": "SG-M355381-1_3-2026-apr",
+      "case_file": "data/cases/case-SG-M355381-1_3-2026-apr.json",
+      "case_visible": true,
+      "replay_visible_from": "2026-05-26",
+      "replay_visibility_basis": "publication_date",
+      "observation_period": "2026 Apr",
+      "observation_date": "2026-04-01",
+      "publication_date": "2026-05-26",
+      "publication_date_source": "estimated_from_observation_period",
+      "publication_date_confidence": "medium",
+      "opened_at": "2026-06-02T14:38:49.900Z",
+      "ingested_at": "2026-06-02T14:38:49.900Z",
+      "current_case_status": "investigating",
+      "current_conclusion_status": "no_conclusion_yet",
+      "current_revision_number": null,
+      "outcome_visible": false,
+      "outcome_closed_at": null,
+      "visible_history_events": 5,
+      "latest_visible_history_event": {
+        "timestamp": "2026-06-02T14:47:44.603Z",
+        "event_type": "case_snapshot",
+        "case_status": "investigating",
+        "conclusion_status": "no_conclusion_yet",
+        "confidence": "low",
+        "confidence_reason": {
+          "rule_applied": "LOW_V1",
+          "relevant_evidence_count": 1,
+          "evidence_quality": "limited",
+          "unknown_effect": 10,
+          "conclusion_status": "no_conclusion_yet"
+        },
+        "outcome": {
+          "primary_driver": null,
+          "primary_driver_name": null,
+          "confidence": null,
+          "closed_at": null
+        },
+        "evidence_quality": "limited",
+        "next_action": "collect_additional_evidence",
+        "publication_status": "not_published",
+        "observation": {
+          "latest_value": 72.54,
+          "month_on_month_change_pct": -18.889907641389172,
+          "year_on_year_change_pct": -16.07857655197945
+        },
+        "attribution_snapshot": {
+          "market_effect": 0,
+          "portfolio_effect": 0,
+          "operational_effect": 0,
+          "policy_effect": 0,
+          "unknown_effect": 10
+        },
+        "note": "Case history snapshot recorded from current persistent case file."
+      },
+      "replay_note": "Case is visible to replay based on temporal index."
+    },
+    {
+      "case_id": "SG-M355381-1_3_1-2026-apr",
+      "case_file": "data/cases/case-SG-M355381-1_3_1-2026-apr.json",
+      "case_visible": true,
+      "replay_visible_from": "2026-05-26",
+      "replay_visibility_basis": "publication_date",
+      "observation_period": "2026 Apr",
+      "observation_date": "2026-04-01",
+      "publication_date": "2026-05-26",
+      "publication_date_source": "estimated_from_observation_period",
+      "publication_date_confidence": "medium",
+      "opened_at": "2026-06-02T14:38:49.900Z",
+      "ingested_at": "2026-06-02T14:38:49.900Z",
+      "current_case_status": "investigating",
+      "current_conclusion_status": "no_conclusion_yet",
+      "current_revision_number": null,
+      "outcome_visible": false,
+      "outcome_closed_at": null,
+      "visible_history_events": 5,
+      "latest_visible_history_event": {
+        "timestamp": "2026-06-02T14:47:44.603Z",
+        "event_type": "case_snapshot",
+        "case_status": "investigating",
+        "conclusion_status": "no_conclusion_yet",
+        "confidence": "unknown",
+        "confidence_reason": {
+          "rule_applied": "UNKNOWN_V1",
+          "relevant_evidence_count": 0,
+          "evidence_quality": "poor",
+          "unknown_effect": 10,
+          "conclusion_status": "no_conclusion_yet"
+        },
+        "outcome": {
+          "primary_driver": null,
+          "primary_driver_name": null,
+          "confidence": null,
+          "closed_at": null
+        },
+        "evidence_quality": "poor",
+        "next_action": "collect_external_evidence",
+        "publication_status": "not_published",
+        "observation": {
+          "latest_value": 44.089,
+          "month_on_month_change_pct": -39.33736017281471,
+          "year_on_year_change_pct": -32.602115690350985
+        },
+        "attribution_snapshot": {
+          "market_effect": 0,
+          "portfolio_effect": 0,
+          "operational_effect": 0,
+          "policy_effect": 0,
+          "unknown_effect": 10
+        },
+        "note": "Case history snapshot recorded from current persistent case file."
+      },
+      "replay_note": "Case is visible to replay based on temporal index."
+    },
+    {
+      "case_id": "SG-M355381-1_3_2-2026-apr",
+      "case_file": "data/cases/case-SG-M355381-1_3_2-2026-apr.json",
+      "case_visible": true,
+      "replay_visible_from": "2026-05-26",
+      "replay_visibility_basis": "publication_date",
+      "observation_period": "2026 Apr",
+      "observation_date": "2026-04-01",
+      "publication_date": "2026-05-26",
+      "publication_date_source": "estimated_from_observation_period",
+      "publication_date_confidence": "medium",
+      "opened_at": "2026-06-02T14:38:49.900Z",
+      "ingested_at": "2026-06-02T14:38:49.900Z",
+      "current_case_status": "investigating",
+      "current_conclusion_status": "no_conclusion_yet",
+      "current_revision_number": null,
+      "outcome_visible": false,
+      "outcome_closed_at": null,
+      "visible_history_events": 5,
+      "latest_visible_history_event": {
+        "timestamp": "2026-06-02T14:47:44.604Z",
+        "event_type": "case_snapshot",
+        "case_status": "investigating",
+        "conclusion_status": "no_conclusion_yet",
+        "confidence": "unknown",
+        "confidence_reason": {
+          "rule_applied": "UNKNOWN_V1",
+          "relevant_evidence_count": 0,
+          "evidence_quality": "poor",
+          "unknown_effect": 10,
+          "conclusion_status": "no_conclusion_yet"
+        },
+        "outcome": {
+          "primary_driver": null,
+          "primary_driver_name": null,
+          "confidence": null,
+          "closed_at": null
+        },
+        "evidence_quality": "poor",
+        "next_action": "collect_external_evidence",
+        "publication_status": "not_published",
+        "observation": {
+          "latest_value": 86.245,
+          "month_on_month_change_pct": -11.547218575648179,
+          "year_on_year_change_pct": -10.6852521151994
+        },
+        "attribution_snapshot": {
+          "market_effect": 0,
+          "portfolio_effect": 0,
+          "operational_effect": 0,
+          "policy_effect": 0,
+          "unknown_effect": 10
+        },
+        "note": "Case history snapshot recorded from current persistent case file."
+      },
+      "replay_note": "Case is visible to replay based on temporal index."
+    },
+    {
+      "case_id": "SG-M355381-1_5_2-2026-apr",
+      "case_file": "data/cases/case-SG-M355381-1_5_2-2026-apr.json",
+      "case_visible": true,
+      "replay_visible_from": "2026-05-26",
+      "replay_visibility_basis": "publication_date",
+      "observation_period": "2026 Apr",
+      "observation_date": "2026-04-01",
+      "publication_date": "2026-05-26",
+      "publication_date_source": "estimated_from_observation_period",
+      "publication_date_confidence": "medium",
+      "opened_at": "2026-06-02T14:38:49.900Z",
+      "ingested_at": "2026-06-02T14:38:49.900Z",
+      "current_case_status": "investigating",
+      "current_conclusion_status": "no_conclusion_yet",
+      "current_revision_number": null,
+      "outcome_visible": false,
+      "outcome_closed_at": null,
+      "visible_history_events": 5,
+      "latest_visible_history_event": {
+        "timestamp": "2026-06-02T14:47:44.605Z",
+        "event_type": "case_snapshot",
+        "case_status": "investigating",
+        "conclusion_status": "no_conclusion_yet",
+        "confidence": "unknown",
+        "confidence_reason": {
+          "rule_applied": "UNKNOWN_V1",
+          "relevant_evidence_count": 0,
+          "evidence_quality": "poor",
+          "unknown_effect": 10,
+          "conclusion_status": "no_conclusion_yet"
+        },
+        "outcome": {
+          "primary_driver": null,
+          "primary_driver_name": null,
+          "confidence": null,
+          "closed_at": null
+        },
+        "evidence_quality": "poor",
+        "next_action": "collect_external_evidence",
+        "publication_status": "not_published",
+        "observation": {
+          "latest_value": 116.73,
+          "month_on_month_change_pct": 10.890505956339178,
+          "year_on_year_change_pct": 16.08341537635371
+        },
+        "attribution_snapshot": {
+          "market_effect": 0,
+          "portfolio_effect": 0,
+          "operational_effect": 0,
+          "policy_effect": 0,
+          "unknown_effect": 10
+        },
+        "note": "Case history snapshot recorded from current persistent case file."
+      },
+      "replay_note": "Case is visible to replay based on temporal index."
+    },
+    {
+      "case_id": "SG-M355381-1_5_3-2026-apr",
+      "case_file": "data/cases/case-SG-M355381-1_5_3-2026-apr.json",
+      "case_visible": true,
+      "replay_visible_from": "2026-05-26",
+      "replay_visibility_basis": "publication_date",
+      "observation_period": "2026 Apr",
+      "observation_date": "2026-04-01",
+      "publication_date": "2026-05-26",
+      "publication_date_source": "estimated_from_observation_period",
+      "publication_date_confidence": "medium",
+      "opened_at": "2026-06-02T14:38:49.900Z",
+      "ingested_at": "2026-06-02T14:38:49.900Z",
+      "current_case_status": "investigating",
+      "current_conclusion_status": "no_conclusion_yet",
+      "current_revision_number": null,
+      "outcome_visible": false,
+      "outcome_closed_at": null,
+      "visible_history_events": 5,
+      "latest_visible_history_event": {
+        "timestamp": "2026-06-02T14:47:44.606Z",
+        "event_type": "case_snapshot",
+        "case_status": "investigating",
+        "conclusion_status": "no_conclusion_yet",
+        "confidence": "unknown",
+        "confidence_reason": {
+          "rule_applied": "UNKNOWN_V1",
+          "relevant_evidence_count": 0,
+          "evidence_quality": "poor",
+          "unknown_effect": 10,
+          "conclusion_status": "no_conclusion_yet"
+        },
+        "outcome": {
+          "primary_driver": null,
+          "primary_driver_name": null,
+          "confidence": null,
+          "closed_at": null
+        },
+        "evidence_quality": "poor",
+        "next_action": "collect_external_evidence",
+        "publication_status": "not_published",
+        "observation": {
+          "latest_value": 87.503,
+          "month_on_month_change_pct": -39.443452504532935,
+          "year_on_year_change_pct": -8.87192518381205
+        },
+        "attribution_snapshot": {
+          "market_effect": 0,
+          "portfolio_effect": 0,
+          "operational_effect": 0,
+          "policy_effect": 0,
+          "unknown_effect": 10
+        },
+        "note": "Case history snapshot recorded from current persistent case file."
+      },
+      "replay_note": "Case is visible to replay based on temporal index."
+    }
+  ]
+}

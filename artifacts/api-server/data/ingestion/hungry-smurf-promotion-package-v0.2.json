@@ -1,0 +1,138 @@
+{
+  "package_version": "hungry-smurf-promotion-package-v0.2",
+  "generated_at": "2026-06-26T01:30:32.023Z",
+  "mutation_allowed": false,
+  "decision": "READY_FOR_HUMAN_APPROVAL",
+  "blockers": [],
+  "confidence_score": 95,
+  "staged_count": 7,
+  "approval": {
+    "human_approved": true,
+    "human_rejected": false,
+    "approved_by": "M Keek",
+    "rejected_by": null,
+    "approved_at": "2026-06-26T02:02:50.816Z",
+    "rejected_at": null
+  },
+  "included_reports": {
+    "promotion_gate": "data/ingestion/hungry-smurf-promotion-gate-v0.1.json",
+    "audit_smurf_review": "data/intelligence/audit-smurf-promotion-review-v0.1.json",
+    "quant_smurf_audit": "data/intelligence/quant-smurf-ingestion-audit-v0.1.json"
+  },
+  "staged_items": [
+    {
+      "dataset_id": "SG_CHEMICALS_OUTPUT_INDEX",
+      "staging_status": "staged_for_human_review",
+      "staged_file": "data/ingestion/hungry-smurf-staging/SG_CHEMICALS_OUTPUT_INDEX.json",
+      "values_count": 10,
+      "coverage_start": "2016",
+      "coverage_end": "2025"
+    },
+    {
+      "dataset_id": "SG_PETROLEUM_OUTPUT_INDEX",
+      "staging_status": "staged_for_human_review",
+      "staged_file": "data/ingestion/hungry-smurf-staging/SG_PETROLEUM_OUTPUT_INDEX.json",
+      "values_count": 10,
+      "coverage_start": "2016",
+      "coverage_end": "2025"
+    },
+    {
+      "dataset_id": "SG_PRECISION_ENGINEERING_OUTPUT_INDEX",
+      "staging_status": "staged_for_human_review",
+      "staged_file": "data/ingestion/hungry-smurf-staging/SG_PRECISION_ENGINEERING_OUTPUT_INDEX.json",
+      "values_count": 10,
+      "coverage_start": "2016",
+      "coverage_end": "2025"
+    },
+    {
+      "dataset_id": "SG_SEMICONDUCTOR_OUTPUT_INDEX",
+      "staging_status": "staged_for_human_review",
+      "staged_file": "data/ingestion/hungry-smurf-staging/SG_SEMICONDUCTOR_OUTPUT_INDEX.json",
+      "values_count": 10,
+      "coverage_start": "2016",
+      "coverage_end": "2025"
+    },
+    {
+      "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+      "staging_status": "staged_for_human_review",
+      "staged_file": "data/ingestion/hungry-smurf-staging/SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.json",
+      "values_count": 10,
+      "coverage_start": "2016",
+      "coverage_end": "2025"
+    },
+    {
+      "dataset_id": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX",
+      "staging_status": "staged_for_human_review",
+      "staged_file": "data/ingestion/hungry-smurf-staging/SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.json",
+      "values_count": 10,
+      "coverage_start": "2016",
+      "coverage_end": "2025"
+    },
+    {
+      "dataset_id": "SG_BIOMEDICAL_OUTPUT_INDEX",
+      "staging_status": "staged_for_human_review",
+      "staged_file": "data/ingestion/hungry-smurf-staging/SG_BIOMEDICAL_OUTPUT_INDEX.json",
+      "values_count": 10,
+      "coverage_start": "2016",
+      "coverage_end": "2025"
+    }
+  ],
+  "quant_summary": [
+    {
+      "dataset_id": "SG_CHEMICALS_OUTPUT_INDEX",
+      "quant_status": "clean",
+      "latest_change_z_score": -0.39072824416580704,
+      "warnings": [],
+      "issues": []
+    },
+    {
+      "dataset_id": "SG_PETROLEUM_OUTPUT_INDEX",
+      "quant_status": "clean",
+      "latest_change_z_score": -0.4481336822914242,
+      "warnings": [],
+      "issues": []
+    },
+    {
+      "dataset_id": "SG_PRECISION_ENGINEERING_OUTPUT_INDEX",
+      "quant_status": "clean",
+      "latest_change_z_score": 0.7609881058947973,
+      "warnings": [],
+      "issues": []
+    },
+    {
+      "dataset_id": "SG_SEMICONDUCTOR_OUTPUT_INDEX",
+      "quant_status": "clean",
+      "latest_change_z_score": 1.0419751657954675,
+      "warnings": [],
+      "issues": []
+    },
+    {
+      "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+      "quant_status": "clean",
+      "latest_change_z_score": 0.5421124520890822,
+      "warnings": [],
+      "issues": []
+    },
+    {
+      "dataset_id": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX",
+      "quant_status": "clean",
+      "latest_change_z_score": 1.864117069442097,
+      "warnings": [],
+      "issues": []
+    },
+    {
+      "dataset_id": "SG_BIOMEDICAL_OUTPUT_INDEX",
+      "quant_status": "clean",
+      "latest_change_z_score": 1.4562827660434445,
+      "warnings": [],
+      "issues": []
+    }
+  ],
+  "governance": {
+    "production_mutation_allowed": false,
+    "approval_required_before_promotion_executor": true,
+    "approve_package_not_raw_data": true
+  },
+  "human_decision": "APPROVED",
+  "updated_at": "2026-06-26T02:02:50.819Z"
+}

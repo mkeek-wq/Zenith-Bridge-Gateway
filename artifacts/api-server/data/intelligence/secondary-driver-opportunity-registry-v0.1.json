@@ -1,0 +1,804 @@
+{
+  "secondary_driver_opportunity_registry_version": "secondary-driver-opportunity-registry-v0.1",
+  "generated_at": "2026-06-06T08:23:18.844Z",
+  "sources": {
+    "historical_outcomes": "data/intelligence/historical-outcomes-v0.2.json",
+    "replay_coverage_assessment": "data/intelligence/replay-coverage-assessment-registry-v0.1.json"
+  },
+  "policy": {
+    "principle": "Secondary driver opportunities identify repeated non-primary drivers that may function as transmission mechanisms.",
+    "diagnostic_only": true,
+    "secondary_driver_is_not_automatically_experience_memory": true,
+    "human_review_required_before_driver_promotion": true,
+    "production_mutation_allowed": false
+  },
+  "summary": {
+    "secondary_drivers_assessed": 7,
+    "opportunity_counts": {
+      "very_high": 1,
+      "medium": 3,
+      "low": 3
+    }
+  },
+  "opportunities": [
+    {
+      "secondary_driver_opportunity_version": "secondary-driver-opportunity-v0.1",
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness",
+      "opportunity_level": "very_high",
+      "recommended_action": "promote_to_transmission_mechanism_candidate_and_add_targeted_replay_cases",
+      "secondary_role_metrics": {
+        "secondary_appearances": 7,
+        "average_secondary_score": 20,
+        "average_secondary_evidence_count": 1,
+        "total_secondary_score": 140
+      },
+      "replay_coverage_context": {
+        "coverage_score": 0,
+        "coverage_status": "thin_or_missing",
+        "recommended_priority": "critical"
+      },
+      "mechanism_hypothesis": {
+        "possible_transmission_mechanism": true,
+        "observed_with_primary_drivers": {
+          "MKT_010": 7
+        },
+        "hypothesis": "Export Demand Weakness may act as a recurring transmission mechanism rather than only a primary driver."
+      },
+      "supporting_cases": [
+        {
+          "case_id": "SG-CHEMICALS-2019",
+          "period": "2019",
+          "series_name": "Chemicals",
+          "primary_driver": "MKT_010",
+          "primary_driver_name": "Demand Shock / External Downturn",
+          "secondary_score": 20,
+          "secondary_evidence_count": 1,
+          "matched_phrases": [
+            "export decline",
+            "lower exports",
+            "order slowdown",
+            "trade slowdown"
+          ],
+          "supporting_evidence": [
+            "Export decline, lower exports, order slowdown, and trade slowdown weighed on production activity."
+          ]
+        },
+        {
+          "case_id": "SG-MANUFACTURING-2001",
+          "period": "2001",
+          "series_name": "Total Manufacturing",
+          "primary_driver": "MKT_010",
+          "primary_driver_name": "Demand Shock / External Downturn",
+          "secondary_score": 20,
+          "secondary_evidence_count": 1,
+          "matched_phrases": [
+            "export decline",
+            "lower exports",
+            "order slowdown",
+            "trade slowdown"
+          ],
+          "supporting_evidence": [
+            "Export decline, lower exports, order slowdown, and trade slowdown weighed on production activity."
+          ]
+        },
+        {
+          "case_id": "SG-MANUFACTURING-2008",
+          "period": "2008",
+          "series_name": "Total Manufacturing",
+          "primary_driver": "MKT_010",
+          "primary_driver_name": "Demand Shock / External Downturn",
+          "secondary_score": 20,
+          "secondary_evidence_count": 1,
+          "matched_phrases": [
+            "export decline",
+            "lower exports",
+            "order slowdown",
+            "trade slowdown"
+          ],
+          "supporting_evidence": [
+            "Export decline, lower exports, order slowdown, and trade slowdown weighed on production activity."
+          ]
+        },
+        {
+          "case_id": "SG-MANUFACTURING-2009",
+          "period": "2009",
+          "series_name": "Total Manufacturing",
+          "primary_driver": "MKT_010",
+          "primary_driver_name": "Demand Shock / External Downturn",
+          "secondary_score": 20,
+          "secondary_evidence_count": 1,
+          "matched_phrases": [
+            "export decline",
+            "lower exports",
+            "order slowdown",
+            "trade slowdown"
+          ],
+          "supporting_evidence": [
+            "Export decline, lower exports, order slowdown, and trade slowdown weighed on production activity."
+          ]
+        },
+        {
+          "case_id": "SG-MANUFACTURING-2020-SHOCK",
+          "period": "2020",
+          "series_name": "Total Manufacturing",
+          "primary_driver": "MKT_010",
+          "primary_driver_name": "Demand Shock / External Downturn",
+          "secondary_score": 20,
+          "secondary_evidence_count": 1,
+          "matched_phrases": [
+            "export decline",
+            "lower exports",
+            "order slowdown",
+            "trade slowdown"
+          ],
+          "supporting_evidence": [
+            "Export decline, lower exports, order slowdown, and trade slowdown weighed on production activity."
+          ]
+        },
+        {
+          "case_id": "SG-PETROCHEMICALS-2019",
+          "period": "2019",
+          "series_name": "Petrochemicals",
+          "primary_driver": "MKT_010",
+          "primary_driver_name": "Demand Shock / External Downturn",
+          "secondary_score": 20,
+          "secondary_evidence_count": 1,
+          "matched_phrases": [
+            "export decline",
+            "lower exports",
+            "order slowdown",
+            "trade slowdown"
+          ],
+          "supporting_evidence": [
+            "Export decline, lower exports, order slowdown, and trade slowdown weighed on production activity."
+          ]
+        },
+        {
+          "case_id": "SG-PETROCHEMICALS-2020",
+          "period": "2020",
+          "series_name": "Petrochemicals",
+          "primary_driver": "MKT_010",
+          "primary_driver_name": "Demand Shock / External Downturn",
+          "secondary_score": 20,
+          "secondary_evidence_count": 1,
+          "matched_phrases": [
+            "export decline",
+            "lower exports",
+            "order slowdown",
+            "trade slowdown"
+          ],
+          "supporting_evidence": [
+            "Export decline, lower exports, order slowdown, and trade slowdown weighed on production activity."
+          ]
+        }
+      ],
+      "governance": {
+        "diagnostic_only": true,
+        "does_not_mutate_experience_registry": true,
+        "does_not_promote_driver_automatically": true,
+        "human_review_required_before_memory_update": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "secondary_driver_opportunity_version": "secondary-driver-opportunity-v0.1",
+      "driver_id": "MKT_001",
+      "driver_name": "Global Demand Surge",
+      "opportunity_level": "medium",
+      "recommended_action": "monitor_secondary_driver_role",
+      "secondary_role_metrics": {
+        "secondary_appearances": 7,
+        "average_secondary_score": 7.143,
+        "average_secondary_evidence_count": 1.286,
+        "total_secondary_score": 50
+      },
+      "replay_coverage_context": {
+        "coverage_score": 0,
+        "coverage_status": "thin_or_missing",
+        "recommended_priority": "critical"
+      },
+      "mechanism_hypothesis": {
+        "possible_transmission_mechanism": false,
+        "observed_with_primary_drivers": {
+          "MKT_008": 7
+        },
+        "hypothesis": "Global Demand Surge has secondary appearances but does not yet warrant mechanism promotion."
+      },
+      "supporting_cases": [
+        {
+          "case_id": "SG-ELECTRONICS-2018",
+          "period": "2018",
+          "series_name": "Electronics",
+          "primary_driver": "MKT_008",
+          "primary_driver_name": "Semiconductor / Electronics Cycle",
+          "secondary_score": 5,
+          "secondary_evidence_count": 1,
+          "matched_phrases": [
+            "export demand"
+          ],
+          "supporting_evidence": [
+            "Consumer electronics demand, data center chips, and export demand influenced semiconductor-related activity."
+          ]
+        },
+        {
+          "case_id": "SG-ELECTRONICS-2020",
+          "period": "2020",
+          "series_name": "Electronics",
+          "primary_driver": "MKT_008",
+          "primary_driver_name": "Semiconductor / Electronics Cycle",
+          "secondary_score": 10,
+          "secondary_evidence_count": 2,
+          "matched_phrases": [
+            "work-from-home demand",
+            "export demand"
+          ],
+          "supporting_evidence": [
+            "Singapore electronics output in 2020 was influenced by electronics demand, semiconductor demand, and work-from-home demand.",
+            "Supply constraints and changing export demand shaped electronics output during the year."
+          ]
+        },
+        {
+          "case_id": "SG-ELECTRONICS-2021",
+          "period": "2021",
+          "series_name": "Electronics",
+          "primary_driver": "MKT_008",
+          "primary_driver_name": "Semiconductor / Electronics Cycle",
+          "secondary_score": 5,
+          "secondary_evidence_count": 1,
+          "matched_phrases": [
+            "work-from-home demand"
+          ],
+          "supporting_evidence": [
+            "Consumer electronics demand, data center chips, and work-from-home demand supported parts of the electronics manufacturing base."
+          ]
+        },
+        {
+          "case_id": "SG-ELECTRONICS-2022",
+          "period": "2022",
+          "series_name": "Electronics",
+          "primary_driver": "MKT_008",
+          "primary_driver_name": "Semiconductor / Electronics Cycle",
+          "secondary_score": 10,
+          "secondary_evidence_count": 1,
+          "matched_phrases": [
+            "export demand",
+            "order growth"
+          ],
+          "supporting_evidence": [
+            "Export demand and order growth shaped electronics manufacturing performance."
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_1_1-2020-aug",
+          "period": "2020 Aug",
+          "series_name": "Semiconductors",
+          "primary_driver": "MKT_008",
+          "primary_driver_name": "Semiconductor / Electronics Cycle",
+          "secondary_score": 10,
+          "secondary_evidence_count": 2,
+          "matched_phrases": [
+            "data center demand",
+            "work-from-home demand"
+          ],
+          "supporting_evidence": [
+            "Data center demand and consumer electronics demand supported semiconductor output.",
+            "Work-from-home demand lifted electronics orders."
+          ]
+        },
+        {
+          "case_id": "SG-SEMICONDUCTOR-2018",
+          "period": "2018",
+          "series_name": "Semiconductors",
+          "primary_driver": "MKT_008",
+          "primary_driver_name": "Semiconductor / Electronics Cycle",
+          "secondary_score": 5,
+          "secondary_evidence_count": 1,
+          "matched_phrases": [
+            "export demand"
+          ],
+          "supporting_evidence": [
+            "Consumer electronics demand, data center chips, and export demand influenced semiconductor-related activity."
+          ]
+        },
+        {
+          "case_id": "SG-SEMICONDUCTOR-2022",
+          "period": "2022",
+          "series_name": "Semiconductors",
+          "primary_driver": "MKT_008",
+          "primary_driver_name": "Semiconductor / Electronics Cycle",
+          "secondary_score": 5,
+          "secondary_evidence_count": 1,
+          "matched_phrases": [
+            "export demand"
+          ],
+          "supporting_evidence": [
+            "Consumer electronics demand, data center chips, and export demand influenced semiconductor-related activity."
+          ]
+        }
+      ],
+      "governance": {
+        "diagnostic_only": true,
+        "does_not_mutate_experience_registry": true,
+        "does_not_promote_driver_automatically": true,
+        "human_review_required_before_memory_update": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "secondary_driver_opportunity_version": "secondary-driver-opportunity-v0.1",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "opportunity_level": "medium",
+      "recommended_action": "monitor_secondary_driver_role",
+      "secondary_role_metrics": {
+        "secondary_appearances": 4,
+        "average_secondary_score": 17.5,
+        "average_secondary_evidence_count": 1,
+        "total_secondary_score": 70
+      },
+      "replay_coverage_context": {
+        "coverage_score": 0.593,
+        "coverage_status": "moderately_covered",
+        "recommended_priority": "medium"
+      },
+      "mechanism_hypothesis": {
+        "possible_transmission_mechanism": false,
+        "observed_with_primary_drivers": {
+          "MKT_008": 4
+        },
+        "hypothesis": "Inventory Cycle / Restocking has secondary appearances but does not yet warrant mechanism promotion."
+      },
+      "supporting_cases": [
+        {
+          "case_id": "SG-ELECTRONICS-2018",
+          "period": "2018",
+          "series_name": "Electronics",
+          "primary_driver": "MKT_008",
+          "primary_driver_name": "Semiconductor / Electronics Cycle",
+          "secondary_score": 20,
+          "secondary_evidence_count": 1,
+          "matched_phrases": [
+            "inventory restocking",
+            "restocking",
+            "channel inventory",
+            "customer inventory"
+          ],
+          "supporting_evidence": [
+            "Inventory restocking, channel inventory, and customer inventory conditions shaped the electronics cycle."
+          ]
+        },
+        {
+          "case_id": "SG-ELECTRONICS-2022",
+          "period": "2022",
+          "series_name": "Electronics",
+          "primary_driver": "MKT_008",
+          "primary_driver_name": "Semiconductor / Electronics Cycle",
+          "secondary_score": 10,
+          "secondary_evidence_count": 1,
+          "matched_phrases": [
+            "channel inventory",
+            "customer inventory"
+          ],
+          "supporting_evidence": [
+            "Customer inventory and channel inventory conditions influenced electronics production cycles."
+          ]
+        },
+        {
+          "case_id": "SG-SEMICONDUCTOR-2018",
+          "period": "2018",
+          "series_name": "Semiconductors",
+          "primary_driver": "MKT_008",
+          "primary_driver_name": "Semiconductor / Electronics Cycle",
+          "secondary_score": 20,
+          "secondary_evidence_count": 1,
+          "matched_phrases": [
+            "inventory restocking",
+            "restocking",
+            "channel inventory",
+            "customer inventory"
+          ],
+          "supporting_evidence": [
+            "Inventory restocking, channel inventory, and customer inventory conditions shaped the electronics cycle."
+          ]
+        },
+        {
+          "case_id": "SG-SEMICONDUCTOR-2022",
+          "period": "2022",
+          "series_name": "Semiconductors",
+          "primary_driver": "MKT_008",
+          "primary_driver_name": "Semiconductor / Electronics Cycle",
+          "secondary_score": 20,
+          "secondary_evidence_count": 1,
+          "matched_phrases": [
+            "inventory restocking",
+            "restocking",
+            "channel inventory",
+            "customer inventory"
+          ],
+          "supporting_evidence": [
+            "Inventory restocking, channel inventory, and customer inventory conditions shaped the electronics cycle."
+          ]
+        }
+      ],
+      "governance": {
+        "diagnostic_only": true,
+        "does_not_mutate_experience_registry": true,
+        "does_not_promote_driver_automatically": true,
+        "human_review_required_before_memory_update": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "secondary_driver_opportunity_version": "secondary-driver-opportunity-v0.1",
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "opportunity_level": "medium",
+      "recommended_action": "monitor_secondary_driver_role",
+      "secondary_role_metrics": {
+        "secondary_appearances": 3,
+        "average_secondary_score": 7,
+        "average_secondary_evidence_count": 1,
+        "total_secondary_score": 21
+      },
+      "replay_coverage_context": {
+        "coverage_score": 0.603,
+        "coverage_status": "moderately_covered",
+        "recommended_priority": "medium"
+      },
+      "mechanism_hypothesis": {
+        "possible_transmission_mechanism": false,
+        "observed_with_primary_drivers": {
+          "MKT_008": 1,
+          "MKT_007": 1,
+          "MKT_010": 1
+        },
+        "hypothesis": "Operational Disruption has secondary appearances but does not yet warrant mechanism promotion."
+      },
+      "supporting_cases": [
+        {
+          "case_id": "SG-ELECTRONICS-2020",
+          "period": "2020",
+          "series_name": "Electronics",
+          "primary_driver": "MKT_008",
+          "primary_driver_name": "Semiconductor / Electronics Cycle",
+          "secondary_score": 7,
+          "secondary_evidence_count": 1,
+          "matched_phrases": [
+            "supply constraints"
+          ],
+          "supporting_evidence": [
+            "Supply constraints and changing export demand shaped electronics output during the year."
+          ]
+        },
+        {
+          "case_id": "SG-PETROLEUM-2020",
+          "period": "2020",
+          "series_name": "Petroleum",
+          "primary_driver": "MKT_007",
+          "primary_driver_name": "Energy Demand / Refining Cycle",
+          "secondary_score": 7,
+          "secondary_evidence_count": 1,
+          "matched_phrases": [
+            "lockdown"
+          ],
+          "supporting_evidence": [
+            "COVID lockdowns and travel restrictions caused a sharp demand fall."
+          ]
+        },
+        {
+          "case_id": "SG-TOTAL-MANUFACTURING-2020",
+          "period": "2020",
+          "series_name": "Total Manufacturing",
+          "primary_driver": "MKT_010",
+          "primary_driver_name": "Demand Shock / External Downturn",
+          "secondary_score": 7,
+          "secondary_evidence_count": 1,
+          "matched_phrases": [
+            "covid restrictions"
+          ],
+          "supporting_evidence": [
+            "COVID restrictions disrupted international trade."
+          ]
+        }
+      ],
+      "governance": {
+        "diagnostic_only": true,
+        "does_not_mutate_experience_registry": true,
+        "does_not_promote_driver_automatically": true,
+        "human_review_required_before_memory_update": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "secondary_driver_opportunity_version": "secondary-driver-opportunity-v0.1",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "opportunity_level": "low",
+      "recommended_action": "no_immediate_action",
+      "secondary_role_metrics": {
+        "secondary_appearances": 10,
+        "average_secondary_score": 8.4,
+        "average_secondary_evidence_count": 1.3,
+        "total_secondary_score": 84
+      },
+      "replay_coverage_context": {
+        "coverage_score": 0.853,
+        "coverage_status": "well_covered",
+        "recommended_priority": "low"
+      },
+      "mechanism_hypothesis": {
+        "possible_transmission_mechanism": false,
+        "observed_with_primary_drivers": {
+          "MKT_013": 9,
+          "MKT_002": 1
+        },
+        "hypothesis": "Precision Engineering / Capital Equipment Cycle has secondary appearances but does not yet warrant mechanism promotion."
+      },
+      "supporting_cases": [
+        {
+          "case_id": "SG-AEROSPACE-2020",
+          "period": "2020",
+          "series_name": "Aerospace",
+          "primary_driver": "MKT_013",
+          "primary_driver_name": "Transport Engineering / Aerospace Marine Cycle",
+          "secondary_score": 6,
+          "secondary_evidence_count": 1,
+          "matched_phrases": [
+            "engineering output"
+          ],
+          "supporting_evidence": [
+            "Marine engineering, ship repair, and offshore engineering influenced transport engineering output."
+          ]
+        },
+        {
+          "case_id": "SG-AEROSPACE-2021",
+          "period": "2021",
+          "series_name": "Aerospace",
+          "primary_driver": "MKT_013",
+          "primary_driver_name": "Transport Engineering / Aerospace Marine Cycle",
+          "secondary_score": 6,
+          "secondary_evidence_count": 1,
+          "matched_phrases": [
+            "engineering output"
+          ],
+          "supporting_evidence": [
+            "Marine engineering, ship repair, and offshore engineering influenced transport engineering output."
+          ]
+        },
+        {
+          "case_id": "SG-AEROSPACE-2022",
+          "period": "2022",
+          "series_name": "Aerospace",
+          "primary_driver": "MKT_013",
+          "primary_driver_name": "Transport Engineering / Aerospace Marine Cycle",
+          "secondary_score": 6,
+          "secondary_evidence_count": 1,
+          "matched_phrases": [
+            "engineering output"
+          ],
+          "supporting_evidence": [
+            "Marine engineering, ship repair, and offshore engineering influenced transport engineering output."
+          ]
+        },
+        {
+          "case_id": "SG-PRECISION-ENGINEERING-2023",
+          "period": "2023",
+          "series_name": "Precision Engineering",
+          "primary_driver": "MKT_002",
+          "primary_driver_name": "Inventory Cycle / Restocking",
+          "secondary_score": 12,
+          "secondary_evidence_count": 1,
+          "matched_phrases": [
+            "precision engineering",
+            "engineering output"
+          ],
+          "supporting_evidence": [
+            "Singapore Precision Engineering output in 2023 was influenced by inventory restocking, customer inventory, and channel inventory conditions."
+          ]
+        },
+        {
+          "case_id": "SG-TRANSPORT-ENGINEERING-2018",
+          "period": "2018",
+          "series_name": "Transport Engineering",
+          "primary_driver": "MKT_013",
+          "primary_driver_name": "Transport Engineering / Aerospace Marine Cycle",
+          "secondary_score": 12,
+          "secondary_evidence_count": 2,
+          "matched_phrases": [
+            "engineering output",
+            "engineering output"
+          ],
+          "supporting_evidence": [
+            "Singapore Transport Engineering output in 2018 was shaped by transport engineering, aerospace demand, and aviation recovery conditions.",
+            "Marine engineering, ship repair, and offshore engineering influenced transport engineering output."
+          ]
+        },
+        {
+          "case_id": "SG-TRANSPORT-ENGINEERING-2019",
+          "period": "2019",
+          "series_name": "Transport Engineering",
+          "primary_driver": "MKT_013",
+          "primary_driver_name": "Transport Engineering / Aerospace Marine Cycle",
+          "secondary_score": 12,
+          "secondary_evidence_count": 2,
+          "matched_phrases": [
+            "engineering output",
+            "engineering output"
+          ],
+          "supporting_evidence": [
+            "Singapore Transport Engineering output in 2019 was shaped by transport engineering, aerospace demand, and aviation recovery conditions.",
+            "Marine engineering, ship repair, and offshore engineering influenced transport engineering output."
+          ]
+        },
+        {
+          "case_id": "SG-TRANSPORT-ENGINEERING-2020",
+          "period": "2020",
+          "series_name": "Transport Engineering",
+          "primary_driver": "MKT_013",
+          "primary_driver_name": "Transport Engineering / Aerospace Marine Cycle",
+          "secondary_score": 6,
+          "secondary_evidence_count": 1,
+          "matched_phrases": [
+            "engineering output"
+          ],
+          "supporting_evidence": [
+            "Singapore transport engineering output in 2020 was affected by weak aerospace demand and reduced aircraft maintenance activity."
+          ]
+        },
+        {
+          "case_id": "SG-TRANSPORT-ENGINEERING-2021",
+          "period": "2021",
+          "series_name": "Transport Engineering",
+          "primary_driver": "MKT_013",
+          "primary_driver_name": "Transport Engineering / Aerospace Marine Cycle",
+          "secondary_score": 6,
+          "secondary_evidence_count": 1,
+          "matched_phrases": [
+            "engineering output"
+          ],
+          "supporting_evidence": [
+            "Singapore transport engineering output in 2021 was affected by aviation recovery and changing aerospace demand as travel activity gradually resumed."
+          ]
+        },
+        {
+          "case_id": "SG-TRANSPORT-ENGINEERING-2022",
+          "period": "2022",
+          "series_name": "Transport Engineering",
+          "primary_driver": "MKT_013",
+          "primary_driver_name": "Transport Engineering / Aerospace Marine Cycle",
+          "secondary_score": 6,
+          "secondary_evidence_count": 1,
+          "matched_phrases": [
+            "engineering output"
+          ],
+          "supporting_evidence": [
+            "Singapore transport engineering output in 2022 was supported by aviation recovery and stronger aerospace demand."
+          ]
+        },
+        {
+          "case_id": "SG-TRANSPORT-ENGINEERING-2023",
+          "period": "2023",
+          "series_name": "Transport Engineering",
+          "primary_driver": "MKT_013",
+          "primary_driver_name": "Transport Engineering / Aerospace Marine Cycle",
+          "secondary_score": 12,
+          "secondary_evidence_count": 2,
+          "matched_phrases": [
+            "engineering output",
+            "engineering output"
+          ],
+          "supporting_evidence": [
+            "Singapore Transport Engineering output in 2023 was shaped by transport engineering, aerospace demand, and aviation recovery conditions.",
+            "Marine engineering, ship repair, and offshore engineering influenced transport engineering output."
+          ]
+        }
+      ],
+      "governance": {
+        "diagnostic_only": true,
+        "does_not_mutate_experience_registry": true,
+        "does_not_promote_driver_automatically": true,
+        "human_review_required_before_memory_update": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "secondary_driver_opportunity_version": "secondary-driver-opportunity-v0.1",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "opportunity_level": "low",
+      "recommended_action": "no_immediate_action",
+      "secondary_role_metrics": {
+        "secondary_appearances": 1,
+        "average_secondary_score": 7,
+        "average_secondary_evidence_count": 1,
+        "total_secondary_score": 7
+      },
+      "replay_coverage_context": {
+        "coverage_score": 0.793,
+        "coverage_status": "well_covered",
+        "recommended_priority": "low"
+      },
+      "mechanism_hypothesis": {
+        "possible_transmission_mechanism": false,
+        "observed_with_primary_drivers": {
+          "MKT_007": 1
+        },
+        "hypothesis": "Demand Shock / External Downturn has secondary appearances but does not yet warrant mechanism promotion."
+      },
+      "supporting_cases": [
+        {
+          "case_id": "SG-PETROLEUM-2020",
+          "period": "2020",
+          "series_name": "Petroleum",
+          "primary_driver": "MKT_007",
+          "primary_driver_name": "Energy Demand / Refining Cycle",
+          "secondary_score": 7,
+          "secondary_evidence_count": 1,
+          "matched_phrases": [
+            "sharp demand fall"
+          ],
+          "supporting_evidence": [
+            "COVID lockdowns and travel restrictions caused a sharp demand fall."
+          ]
+        }
+      ],
+      "governance": {
+        "diagnostic_only": true,
+        "does_not_mutate_experience_registry": true,
+        "does_not_promote_driver_automatically": true,
+        "human_review_required_before_memory_update": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "secondary_driver_opportunity_version": "secondary-driver-opportunity-v0.1",
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "opportunity_level": "low",
+      "recommended_action": "no_immediate_action",
+      "secondary_role_metrics": {
+        "secondary_appearances": 1,
+        "average_secondary_score": 6,
+        "average_secondary_evidence_count": 1,
+        "total_secondary_score": 6
+      },
+      "replay_coverage_context": {
+        "coverage_score": 0.726,
+        "coverage_status": "moderately_covered",
+        "recommended_priority": "medium"
+      },
+      "mechanism_hypothesis": {
+        "possible_transmission_mechanism": false,
+        "observed_with_primary_drivers": {
+          "MKT_013": 1
+        },
+        "hypothesis": "Energy Demand / Refining Cycle has secondary appearances but does not yet warrant mechanism promotion."
+      },
+      "supporting_cases": [
+        {
+          "case_id": "SG-TRANSPORT-ENGINEERING-2020",
+          "period": "2020",
+          "series_name": "Transport Engineering",
+          "primary_driver": "MKT_013",
+          "primary_driver_name": "Transport Engineering / Aerospace Marine Cycle",
+          "secondary_score": 6,
+          "secondary_evidence_count": 1,
+          "matched_phrases": [
+            "travel demand"
+          ],
+          "supporting_evidence": [
+            "Aircraft repair and MRO demand were constrained by lower travel demand and reduced fleet maintenance needs."
+          ]
+        }
+      ],
+      "governance": {
+        "diagnostic_only": true,
+        "does_not_mutate_experience_registry": true,
+        "does_not_promote_driver_automatically": true,
+        "human_review_required_before_memory_update": true,
+        "production_mutation_allowed": false
+      }
+    }
+  ]
+}

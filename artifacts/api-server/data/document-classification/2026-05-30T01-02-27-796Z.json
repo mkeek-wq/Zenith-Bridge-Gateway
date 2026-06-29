@@ -1,0 +1,94 @@
+{
+  "classification_version": "document-classification-v0.1",
+  "generated_at": "2026-05-30T01:02:27.796Z",
+  "archive_root": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/document-archive",
+  "documents_classified": 5,
+  "counts": {
+    "embedded_content": 3,
+    "redirect": 2,
+    "pdf": 0,
+    "unknown": 0
+  },
+  "records": [
+    {
+      "classification_version": "document-classification-v0.1",
+      "classified_at": "2026-05-30T01:02:27.796Z",
+      "document_id": "SG_SINGSTAT_business-receipts-for-services-industries-1q2026",
+      "institution_id": "SG_SINGSTAT",
+      "feed_id": "SINGSTAT_RELEASES",
+      "title": "Business Receipts for Services Industries, 1Q 2026",
+      "url": "https://www.singstat.gov.sg/news/business-receipts-for-services-industries-1q2026",
+      "publication_date": "2026-05-28",
+      "archive_type": "embedded_content",
+      "redirect_url": null,
+      "confidence": "medium",
+      "signals": [
+        "nextjs_payload_or_content_markers_found"
+      ]
+    },
+    {
+      "classification_version": "document-classification-v0.1",
+      "classified_at": "2026-05-30T01:02:27.796Z",
+      "document_id": "SG_SINGSTAT_household-sector-balance-sheet-1q2026",
+      "institution_id": "SG_SINGSTAT",
+      "feed_id": "SINGSTAT_RELEASES",
+      "title": "Household Sector Balance Sheet, 1Q 2026",
+      "url": "https://www.singstat.gov.sg/news/household-sector-balance-sheet-1q2026",
+      "publication_date": "2026-05-26",
+      "archive_type": "embedded_content",
+      "redirect_url": null,
+      "confidence": "medium",
+      "signals": [
+        "nextjs_payload_or_content_markers_found"
+      ]
+    },
+    {
+      "classification_version": "document-classification-v0.1",
+      "classified_at": "2026-05-30T01:02:27.796Z",
+      "document_id": "SG_SINGSTAT_monthly-manufacturing-performance-apr2026",
+      "institution_id": "SG_SINGSTAT",
+      "feed_id": "SINGSTAT_RELEASES",
+      "title": "Monthly Manufacturing Performance, Apr 2026",
+      "url": "https://www.singstat.gov.sg/news/monthly-manufacturing-performance-apr2026",
+      "publication_date": "2026-05-26",
+      "archive_type": "redirect",
+      "redirect_url": "https://www.edb.gov.sg/en/about-edb/media-releases-publications/monthly-manufacturing-performance.html\\",
+      "confidence": "high",
+      "signals": [
+        "redirect_url_found"
+      ]
+    },
+    {
+      "classification_version": "document-classification-v0.1",
+      "classified_at": "2026-05-30T01:02:27.796Z",
+      "document_id": "SG_SINGSTAT_personal-disposable-income-and-saving-1q2026",
+      "institution_id": "SG_SINGSTAT",
+      "feed_id": "SINGSTAT_RELEASES",
+      "title": "Personal Disposable Income and Saving 1Q 2026",
+      "url": "https://www.singstat.gov.sg/news/personal-disposable-income-and-saving-1q2026",
+      "publication_date": "2026-05-26",
+      "archive_type": "embedded_content",
+      "redirect_url": null,
+      "confidence": "medium",
+      "signals": [
+        "nextjs_payload_or_content_markers_found"
+      ]
+    },
+    {
+      "classification_version": "document-classification-v0.1",
+      "classified_at": "2026-05-30T01:02:27.796Z",
+      "document_id": "SG_SINGSTAT_consumer-price-developments-in-apr-2026-by-mas-and-mti",
+      "institution_id": "SG_SINGSTAT",
+      "feed_id": "SINGSTAT_RELEASES",
+      "title": "Consumer Price Developments in Apr 2026 (by MAS & MTI)",
+      "url": "https://www.singstat.gov.sg/news/consumer-price-developments-in-apr-2026-by-mas-and-mti",
+      "publication_date": "2026-05-25",
+      "archive_type": "redirect",
+      "redirect_url": "https://www.mas.gov.sg/news/consumer-price-developments/2026/consumer-price-developments-in-april-2026\\",
+      "confidence": "high",
+      "signals": [
+        "redirect_url_found"
+      ]
+    }
+  ]
+}

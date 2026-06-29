@@ -1,0 +1,18 @@
+{
+  "version": "replay-governance-v0.1",
+  "principle": "Replay may only use evidence available on or before the replay date. No future-data leakage.",
+  "visibility_rules": {
+    "evidence_visible_if": "publication_date <= replay_date",
+    "case_visible_if": "opened_at <= replay_date",
+    "outcome_visible_if": "closed_at <= replay_date"
+  },
+  "scoring_labels": [
+    "correct",
+    "incorrect",
+    "partial",
+    "unknown",
+    "not_scorable"
+  ],
+  "default_replay_mode": "sandbox",
+  "allow_production_mutation": false
+}

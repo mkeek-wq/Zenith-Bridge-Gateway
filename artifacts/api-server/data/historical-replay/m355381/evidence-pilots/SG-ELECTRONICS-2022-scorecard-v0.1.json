@@ -1,0 +1,164 @@
+{
+  "historical_evidence_scorecard_version": "historical-evidence-scorecard-v0.1",
+  "generated_at": "2026-06-06T09:38:10.089Z",
+  "source_taxonomy": "data/intelligence-driver-library/driver-evidence-taxonomy-v0.1.json",
+  "source_evidence": "data/historical-replay/m355381/evidence-pilots/SG-ELECTRONICS-2022-evidence-v0.1.json",
+  "case_id": "SG-ELECTRONICS-2022",
+  "period": "2022",
+  "series_name": "Electronics",
+  "governance": {
+    "sandbox_only": true,
+    "recommendation_only": true,
+    "auto_close_case": false,
+    "requires_human_review": true,
+    "production_mutation_allowed": false
+  },
+  "evidence_metadata": {
+    "evidence_origin": "synthetic",
+    "template_generated": true,
+    "attribution_discovery_ready": true,
+    "requires_human_review": true
+  },
+  "evidence_items": [
+    "Singapore electronics output in 2022 reflected semiconductor demand, electronics demand, and shifts in consumer electronics orders.",
+    "Memory demand, logic chip demand, and foundry demand affected semiconductor-related electronics activity.",
+    "Customer inventory and channel inventory conditions influenced electronics production cycles.",
+    "Export demand and order growth shaped electronics manufacturing performance."
+  ],
+  "evidence_matches": [
+    {
+      "evidence_text": "Singapore electronics output in 2022 reflected semiconductor demand, electronics demand, and shifts in consumer electronics orders.",
+      "matches": [
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 7,
+          "matched_phrases": [
+            "semiconductor demand",
+            "electronics demand",
+            "consumer electronics"
+          ],
+          "match_score": 21
+        }
+      ]
+    },
+    {
+      "evidence_text": "Memory demand, logic chip demand, and foundry demand affected semiconductor-related electronics activity.",
+      "matches": [
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 7,
+          "matched_phrases": [
+            "foundry demand",
+            "memory demand",
+            "logic chip demand"
+          ],
+          "match_score": 21
+        }
+      ]
+    },
+    {
+      "evidence_text": "Customer inventory and channel inventory conditions influenced electronics production cycles.",
+      "matches": [
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "attribution_bucket": "portfolio_effect",
+          "default_score": 5,
+          "matched_phrases": [
+            "channel inventory",
+            "customer inventory"
+          ],
+          "match_score": 10
+        }
+      ]
+    },
+    {
+      "evidence_text": "Export demand and order growth shaped electronics manufacturing performance.",
+      "matches": [
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "attribution_bucket": "market_effect",
+          "default_score": 5,
+          "matched_phrases": [
+            "export demand",
+            "order growth"
+          ],
+          "match_score": 10
+        }
+      ]
+    }
+  ],
+  "ranked_drivers": [
+    {
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "attribution_bucket": "market_effect",
+      "total_score": 42,
+      "evidence_count": 2,
+      "matched_phrases": [
+        "semiconductor demand",
+        "electronics demand",
+        "consumer electronics",
+        "foundry demand",
+        "memory demand",
+        "logic chip demand"
+      ],
+      "supporting_evidence": [
+        "Singapore electronics output in 2022 reflected semiconductor demand, electronics demand, and shifts in consumer electronics orders.",
+        "Memory demand, logic chip demand, and foundry demand affected semiconductor-related electronics activity."
+      ]
+    },
+    {
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "attribution_bucket": "portfolio_effect",
+      "total_score": 10,
+      "evidence_count": 1,
+      "matched_phrases": [
+        "channel inventory",
+        "customer inventory"
+      ],
+      "supporting_evidence": [
+        "Customer inventory and channel inventory conditions influenced electronics production cycles."
+      ]
+    },
+    {
+      "driver_id": "MKT_001",
+      "driver_name": "Global Demand Surge",
+      "attribution_bucket": "market_effect",
+      "total_score": 10,
+      "evidence_count": 1,
+      "matched_phrases": [
+        "export demand",
+        "order growth"
+      ],
+      "supporting_evidence": [
+        "Export demand and order growth shaped electronics manufacturing performance."
+      ]
+    }
+  ],
+  "bucket_scores": [
+    {
+      "attribution_bucket": "market_effect",
+      "total_score": 52
+    },
+    {
+      "attribution_bucket": "portfolio_effect",
+      "total_score": 10
+    }
+  ],
+  "recommended_outcome": {
+    "primary_driver": "MKT_008",
+    "primary_driver_name": "Semiconductor / Electronics Cycle",
+    "attribution_bucket": "market_effect",
+    "confidence": "high",
+    "total_score": 42,
+    "second_score": 10,
+    "score_gap": 32
+  }
+}

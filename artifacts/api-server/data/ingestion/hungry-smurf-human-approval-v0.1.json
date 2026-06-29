@@ -1,0 +1,17 @@
+{
+  "approval_version": "hungry-smurf-human-approval-v0.1",
+  "generated_at": "2026-06-26T02:02:50.819Z",
+  "action": "approve",
+  "human_decision": "APPROVED",
+  "package_path": "data/ingestion/hungry-smurf-promotion-package-v0.2.json",
+  "mutation_performed": "approval_metadata_only",
+  "production_mutation_allowed": false,
+  "approval": {
+    "human_approved": true,
+    "human_rejected": false,
+    "approved_by": "M Keek",
+    "rejected_by": null,
+    "approved_at": "2026-06-26T02:02:50.816Z",
+    "rejected_at": null
+  }
+}

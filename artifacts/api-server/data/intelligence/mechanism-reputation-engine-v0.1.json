@@ -1,0 +1,103 @@
+{
+  "registry_version": "mechanism-reputation-engine-v0.1",
+  "created_at": "2026-06-09T10:02:30.185Z",
+  "doctrine": {
+    "reputation_is_not_truth": true,
+    "reputation_is_not_validation": true,
+    "reputation_combines_current_confidence_replay_experience_and_governance": true,
+    "evidence_remains_primary": true
+  },
+  "inputs": {
+    "mechanism_confidence_items": 3,
+    "replay_calibration_items": 2,
+    "experience_confidence_items": 6,
+    "fleet_quality_score": 1
+  },
+  "summary": {
+    "reputation_items_created": 3,
+    "high_reputation": 0,
+    "moderate_reputation": 1,
+    "low_reputation": 2,
+    "very_low_reputation": 0
+  },
+  "reputation_items": [
+    {
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "reputation_score": 0.564,
+      "reputation_band": "moderate_reputation",
+      "components": {
+        "current_confidence_score": 0.536,
+        "replay_calibration_score": 1,
+        "experience_confidence_score": 0.234,
+        "fleet_quality_score": 1,
+        "sample_penalty": 0.12
+      },
+      "permitted_use": {
+        "may_inform_monitoring_priority": true,
+        "may_inform_publication_readiness": true,
+        "may_validate_mechanism": false,
+        "may_override_current_evidence": false
+      },
+      "governance": {
+        "reputation_is_not_truth": true,
+        "reputation_is_not_validation": true,
+        "reputation_is_historical_survivability_signal": true,
+        "mechanisms_remain_challengeable": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "reputation_score": 0.513,
+      "reputation_band": "low_reputation",
+      "components": {
+        "current_confidence_score": 0.414,
+        "replay_calibration_score": 1,
+        "experience_confidence_score": 0.19,
+        "fleet_quality_score": 1,
+        "sample_penalty": 0.12
+      },
+      "permitted_use": {
+        "may_inform_monitoring_priority": true,
+        "may_inform_publication_readiness": false,
+        "may_validate_mechanism": false,
+        "may_override_current_evidence": false
+      },
+      "governance": {
+        "reputation_is_not_truth": true,
+        "reputation_is_not_validation": true,
+        "reputation_is_historical_survivability_signal": true,
+        "mechanisms_remain_challengeable": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "reputation_score": 0.408,
+      "reputation_band": "low_reputation",
+      "components": {
+        "current_confidence_score": 0.455,
+        "replay_calibration_score": 0,
+        "experience_confidence_score": 0.243,
+        "fleet_quality_score": 1,
+        "sample_penalty": 0
+      },
+      "permitted_use": {
+        "may_inform_monitoring_priority": true,
+        "may_inform_publication_readiness": false,
+        "may_validate_mechanism": false,
+        "may_override_current_evidence": false
+      },
+      "governance": {
+        "reputation_is_not_truth": true,
+        "reputation_is_not_validation": true,
+        "reputation_is_historical_survivability_signal": true,
+        "mechanisms_remain_challengeable": true,
+        "evidence_remains_primary": true
+      }
+    }
+  ]
+}

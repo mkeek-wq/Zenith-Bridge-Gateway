@@ -1,0 +1,31 @@
+{
+  "evidence_package_version": "historical-evidence-package-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-OPERATIONAL-DISRUPTION-2003",
+  "evidence_items": [
+    "Manufacturing activity faced operational disruption due to weak external conditions.",
+    "Production schedules and factory utilization were affected by reduced orders.",
+    "Export weakness amplified operational inefficiencies.",
+    "Operational disruption was the dominant transmission mechanism."
+  ],
+  "driver_evidence_summary": [
+    {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "evidence_count": 4
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "evidence_count": 2
+    },
+    {
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness",
+      "evidence_count": 1
+    }
+  ],
+  "evidence_assessment": {
+    "confidence": "high"
+  }
+}

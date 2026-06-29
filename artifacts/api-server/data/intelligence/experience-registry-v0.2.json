@@ -1,0 +1,1522 @@
+{
+  "experience_registry_version": "experience-registry-v0.2",
+  "generated_at": "2026-06-06T14:50:41.342Z",
+  "source_historical_outcomes": "data/intelligence/historical-outcomes-v0.2.json",
+  "policy": {
+    "principle": "Experience registry v0.2 aggregates sandbox-approved historical outcomes into reusable driver experience. It does not mutate production memory.",
+    "production_mutation_allowed": false
+  },
+  "hardening_notes": {
+    "confidence_weights": {
+      "high": 1,
+      "medium": 0.6,
+      "low": 0.3,
+      "unknown": 0.1
+    },
+    "purpose": "Adds weighted case counts, confidence scoring, maturity stages, experience strength, and score volatility while preserving raw cases."
+  },
+  "summary": {
+    "outcomes_processed": 88,
+    "drivers_with_experience": 12,
+    "total_cases": 88
+  },
+  "driver_experiences": [
+    {
+      "experience_version": "driver-experience-v0.2",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "attribution_bucket": "market_effect",
+      "case_count": 9,
+      "weighted_case_count": 9,
+      "unique_periods": 6,
+      "recurrence_score": 0.667,
+      "persistence_score": 0.6,
+      "volatility_score": 0.811,
+      "bias_warnings": [
+        "POSSIBLE_TEMPLATE_CONCENTRATION"
+      ],
+      "maturity_stage": "developing_cluster",
+      "confidence_distribution": {
+        "high": 9,
+        "medium": 0,
+        "low": 0
+      },
+      "confidence_score": 1,
+      "experience_strength": 0.865,
+      "average_evidence_count": 4,
+      "average_driver_score": 73.333,
+      "weighted_average_driver_score": 73.333,
+      "score_volatility": 4.714,
+      "evidence_patterns": [
+        {
+          "phrase": "transport engineering",
+          "count": 19
+        },
+        {
+          "phrase": "aviation recovery",
+          "count": 10
+        },
+        {
+          "phrase": "fleet maintenance",
+          "count": 10
+        },
+        {
+          "phrase": "aerospace demand",
+          "count": 9
+        },
+        {
+          "phrase": "aircraft maintenance",
+          "count": 9
+        },
+        {
+          "phrase": "aircraft repair",
+          "count": 9
+        },
+        {
+          "phrase": "mro demand",
+          "count": 9
+        },
+        {
+          "phrase": "marine engineering",
+          "count": 9
+        },
+        {
+          "phrase": "ship repair",
+          "count": 9
+        },
+        {
+          "phrase": "offshore engineering",
+          "count": 9
+        },
+        {
+          "phrase": "travel recovery",
+          "count": 8
+        }
+      ],
+      "cases": [
+        {
+          "case_id": "SG-AEROSPACE-2020",
+          "period": "2020",
+          "series_name": "Aerospace",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 72,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-AEROSPACE-2021",
+          "period": "2021",
+          "series_name": "Aerospace",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 72,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-AEROSPACE-2022",
+          "period": "2022",
+          "series_name": "Aerospace",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 72,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-TRANSPORT-ENGINEERING-2018",
+          "period": "2018",
+          "series_name": "Transport Engineering",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 72,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-TRANSPORT-ENGINEERING-2019",
+          "period": "2019",
+          "series_name": "Transport Engineering",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 72,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-TRANSPORT-ENGINEERING-2020",
+          "period": "2020",
+          "series_name": "Transport Engineering",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 66,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-TRANSPORT-ENGINEERING-2021",
+          "period": "2021",
+          "series_name": "Transport Engineering",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 84,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-TRANSPORT-ENGINEERING-2022",
+          "period": "2022",
+          "series_name": "Transport Engineering",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 78,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-TRANSPORT-ENGINEERING-2023",
+          "period": "2023",
+          "series_name": "Transport Engineering",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 72,
+          "evidence_count": 4
+        }
+      ]
+    },
+    {
+      "experience_version": "driver-experience-v0.2",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "attribution_bucket": "market_effect",
+      "case_count": 8,
+      "weighted_case_count": 8,
+      "unique_periods": 5,
+      "recurrence_score": 0.625,
+      "persistence_score": 0.5,
+      "volatility_score": 0.768,
+      "bias_warnings": [],
+      "maturity_stage": "developing_cluster",
+      "confidence_distribution": {
+        "high": 8,
+        "medium": 0,
+        "low": 0
+      },
+      "confidence_score": 1,
+      "experience_strength": 0.819,
+      "average_evidence_count": 4,
+      "average_driver_score": 73.5,
+      "weighted_average_driver_score": 73.5,
+      "score_volatility": 5.809,
+      "evidence_patterns": [
+        {
+          "phrase": "engineering output",
+          "count": 13
+        },
+        {
+          "phrase": "precision engineering",
+          "count": 13
+        },
+        {
+          "phrase": "machinery demand",
+          "count": 8
+        },
+        {
+          "phrase": "capital equipment demand",
+          "count": 8
+        },
+        {
+          "phrase": "industrial equipment demand",
+          "count": 8
+        },
+        {
+          "phrase": "automation equipment",
+          "count": 8
+        },
+        {
+          "phrase": "semiconductor equipment",
+          "count": 8
+        },
+        {
+          "phrase": "equipment orders",
+          "count": 8
+        },
+        {
+          "phrase": "capital spending",
+          "count": 8
+        },
+        {
+          "phrase": "capex cycle",
+          "count": 8
+        },
+        {
+          "phrase": "investment demand",
+          "count": 8
+        }
+      ],
+      "cases": [
+        {
+          "case_id": "SG-MACHINERY-2020",
+          "period": "2020",
+          "series_name": "Machinery",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 66,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-MACHINERY-2021",
+          "period": "2021",
+          "series_name": "Machinery",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 66,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-MACHINERY-2022",
+          "period": "2022",
+          "series_name": "Machinery",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 66,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PRECISION-ENGINEERING-2018",
+          "period": "2018",
+          "series_name": "Precision Engineering",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 78,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PRECISION-ENGINEERING-2019",
+          "period": "2019",
+          "series_name": "Precision Engineering",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 78,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PRECISION-ENGINEERING-2020",
+          "period": "2020",
+          "series_name": "Precision Engineering",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 78,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PRECISION-ENGINEERING-2021",
+          "period": "2021",
+          "series_name": "Precision Engineering",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 78,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PRECISION-ENGINEERING-2022",
+          "period": "2022",
+          "series_name": "Precision Engineering",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 78,
+          "evidence_count": 4
+        }
+      ]
+    },
+    {
+      "experience_version": "driver-experience-v0.2",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "attribution_bucket": "market_effect",
+      "case_count": 8,
+      "weighted_case_count": 8,
+      "unique_periods": 5,
+      "recurrence_score": 0.625,
+      "persistence_score": 0.5,
+      "volatility_score": 0.856,
+      "bias_warnings": [],
+      "maturity_stage": "developing_cluster",
+      "confidence_distribution": {
+        "high": 8,
+        "medium": 0,
+        "low": 0
+      },
+      "confidence_score": 1,
+      "experience_strength": 0.797,
+      "average_evidence_count": 4,
+      "average_driver_score": 59.25,
+      "weighted_average_driver_score": 59.25,
+      "score_volatility": 3.597,
+      "evidence_patterns": [
+        {
+          "phrase": "chemical demand",
+          "count": 8
+        },
+        {
+          "phrase": "petrochemical demand",
+          "count": 8
+        },
+        {
+          "phrase": "specialty chemicals",
+          "count": 8
+        },
+        {
+          "phrase": "basic chemicals",
+          "count": 8
+        },
+        {
+          "phrase": "chemical production",
+          "count": 8
+        },
+        {
+          "phrase": "feedstock prices",
+          "count": 8
+        },
+        {
+          "phrase": "naphtha prices",
+          "count": 8
+        },
+        {
+          "phrase": "chemical plant",
+          "count": 8
+        },
+        {
+          "phrase": "petrochemical plant",
+          "count": 8
+        },
+        {
+          "phrase": "petrochemical production",
+          "count": 6
+        },
+        {
+          "phrase": "chemicals demand",
+          "count": 1
+        }
+      ],
+      "cases": [
+        {
+          "case_id": "SG-CHEMICALS-2018",
+          "period": "2018",
+          "series_name": "Chemicals",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 60,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-CHEMICALS-2020",
+          "period": "2020",
+          "series_name": "Chemicals",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 54,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-CHEMICALS-2021",
+          "period": "2021",
+          "series_name": "Chemicals",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 66,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-CHEMICALS-2022",
+          "period": "2022",
+          "series_name": "Chemicals",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 60,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-CHEMICALS-2023",
+          "period": "2023",
+          "series_name": "Chemicals",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 54,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PETROCHEMICALS-2018",
+          "period": "2018",
+          "series_name": "Petrochemicals",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 60,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PETROCHEMICALS-2022",
+          "period": "2022",
+          "series_name": "Petrochemicals",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 60,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PETROCHEMICALS-2023",
+          "period": "2023",
+          "series_name": "Petrochemicals",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 60,
+          "evidence_count": 4
+        }
+      ]
+    },
+    {
+      "experience_version": "driver-experience-v0.2",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "attribution_bucket": "portfolio_effect",
+      "case_count": 8,
+      "weighted_case_count": 8,
+      "unique_periods": 4,
+      "recurrence_score": 0.5,
+      "persistence_score": 0.4,
+      "volatility_score": 0.942,
+      "bias_warnings": [],
+      "maturity_stage": "developing_cluster",
+      "confidence_distribution": {
+        "high": 8,
+        "medium": 0,
+        "low": 0
+      },
+      "confidence_score": 1,
+      "experience_strength": 0.752,
+      "average_evidence_count": 3.625,
+      "average_driver_score": 36.125,
+      "weighted_average_driver_score": 36.125,
+      "score_volatility": 1.452,
+      "evidence_patterns": [
+        {
+          "phrase": "inventory restocking",
+          "count": 5
+        },
+        {
+          "phrase": "restocking",
+          "count": 5
+        },
+        {
+          "phrase": "channel inventory",
+          "count": 5
+        },
+        {
+          "phrase": "customer inventory",
+          "count": 5
+        },
+        {
+          "phrase": "stockpiling",
+          "count": 5
+        },
+        {
+          "phrase": "inventory correction",
+          "count": 5
+        },
+        {
+          "phrase": "inventory drawdown",
+          "count": 5
+        }
+      ],
+      "cases": [
+        {
+          "case_id": "SG-ELECTRONICS-2019",
+          "period": "2019",
+          "series_name": "Electronics",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 35,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-ELECTRONICS-2023",
+          "period": "2023",
+          "series_name": "Electronics",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 35,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-INVENTORY-CYCLE-2001",
+          "period": "2001",
+          "series_name": "Inventory Cycle / Restocking",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 38,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-INVENTORY-CYCLE-2009",
+          "period": "2009",
+          "series_name": "Inventory Cycle / Restocking",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 38,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-INVENTORY-CYCLE-2019",
+          "period": "2019",
+          "series_name": "Inventory Cycle / Restocking",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 38,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-PRECISION-ENGINEERING-2023",
+          "period": "2023",
+          "series_name": "Precision Engineering",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 35,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-SEMICONDUCTOR-2019",
+          "period": "2019",
+          "series_name": "Semiconductors",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 35,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-SEMICONDUCTOR-2023",
+          "period": "2023",
+          "series_name": "Semiconductors",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 35,
+          "evidence_count": 4
+        }
+      ]
+    },
+    {
+      "experience_version": "driver-experience-v0.2",
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "attribution_bucket": "policy_effect",
+      "case_count": 7,
+      "weighted_case_count": 7,
+      "unique_periods": 4,
+      "recurrence_score": 0.571,
+      "persistence_score": 0.4,
+      "volatility_score": 0.98,
+      "bias_warnings": [],
+      "maturity_stage": "developing_cluster",
+      "confidence_distribution": {
+        "high": 7,
+        "medium": 0,
+        "low": 0
+      },
+      "confidence_score": 1,
+      "experience_strength": 0.748,
+      "average_evidence_count": 3.571,
+      "average_driver_score": 48.571,
+      "weighted_average_driver_score": 48.571,
+      "score_volatility": 0.495,
+      "evidence_patterns": [
+        {
+          "phrase": "maintenance shutdown",
+          "count": 4
+        },
+        {
+          "phrase": "plant shutdown",
+          "count": 4
+        },
+        {
+          "phrase": "production disruption",
+          "count": 4
+        },
+        {
+          "phrase": "supply disruption",
+          "count": 4
+        },
+        {
+          "phrase": "factory closure",
+          "count": 4
+        },
+        {
+          "phrase": "covid restrictions",
+          "count": 4
+        },
+        {
+          "phrase": "supply constraints",
+          "count": 4
+        }
+      ],
+      "cases": [
+        {
+          "case_id": "SG-OPERATIONAL-DISRUPTION-2003",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 48,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-OPERATIONAL-DISRUPTION-2020",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 48,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-OPERATIONAL-DISRUPTION-2022",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 48,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-OPERATIONS-2020-COVID",
+          "period": "2020",
+          "series_name": "Manufacturing Operations",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 49,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-OPERATIONS-2021-SUPPLY",
+          "period": "2021",
+          "series_name": "Manufacturing Operations",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 49,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-OPERATIONS-2022-SUPPLY",
+          "period": "2022",
+          "series_name": "Manufacturing Operations",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 49,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-REFINING-2020",
+          "period": "2020",
+          "series_name": "Refining",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 49,
+          "evidence_count": 4
+        }
+      ]
+    },
+    {
+      "experience_version": "driver-experience-v0.2",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "attribution_bucket": "operational_effect",
+      "case_count": 9,
+      "weighted_case_count": 8.6,
+      "unique_periods": 6,
+      "recurrence_score": 0.667,
+      "persistence_score": 0.6,
+      "volatility_score": 0.476,
+      "bias_warnings": [],
+      "maturity_stage": "developing_cluster",
+      "confidence_distribution": {
+        "high": 8,
+        "medium": 1,
+        "low": 0
+      },
+      "confidence_score": 0.956,
+      "experience_strength": 0.732,
+      "average_evidence_count": 4,
+      "average_driver_score": 48.667,
+      "weighted_average_driver_score": 50.372,
+      "score_volatility": 13.098,
+      "evidence_patterns": [
+        {
+          "phrase": "batch production",
+          "count": 14
+        },
+        {
+          "phrase": "healthcare demand",
+          "count": 10
+        },
+        {
+          "phrase": "vaccine production",
+          "count": 9
+        },
+        {
+          "phrase": "pharmaceutical batch",
+          "count": 8
+        },
+        {
+          "phrase": "biologics production",
+          "count": 8
+        },
+        {
+          "phrase": "drug production",
+          "count": 8
+        },
+        {
+          "phrase": "medical technology demand",
+          "count": 8
+        },
+        {
+          "phrase": "plant schedule",
+          "count": 8
+        }
+      ],
+      "cases": [
+        {
+          "case_id": "SG-BIOMEDICAL-2018",
+          "period": "2018",
+          "series_name": "Biomedical Manufacturing",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 54,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-BIOMEDICAL-2019",
+          "period": "2019",
+          "series_name": "Biomedical Manufacturing",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 54,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-BIOMEDICAL-2020",
+          "period": "2020",
+          "series_name": "Biomedical Manufacturing",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 54,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-BIOMEDICAL-2021",
+          "period": "2021",
+          "series_name": "Biomedical Manufacturing",
+          "confidence": "medium",
+          "confidence_weight": 0.6,
+          "driver_score": 12,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-BIOMEDICAL-2022",
+          "period": "2022",
+          "series_name": "Biomedical Manufacturing",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 48,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-BIOMEDICAL-2023",
+          "period": "2023",
+          "series_name": "Biomedical Manufacturing",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 54,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PHARMACEUTICALS-2020",
+          "period": "2020",
+          "series_name": "Pharmaceuticals",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 54,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PHARMACEUTICALS-2021",
+          "period": "2021",
+          "series_name": "Pharmaceuticals",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 54,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PHARMACEUTICALS-2022",
+          "period": "2022",
+          "series_name": "Pharmaceuticals",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 54,
+          "evidence_count": 4
+        }
+      ]
+    },
+    {
+      "experience_version": "driver-experience-v0.2",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "attribution_bucket": "market_effect",
+      "case_count": 8,
+      "weighted_case_count": 8,
+      "unique_periods": 5,
+      "recurrence_score": 0.625,
+      "persistence_score": 0.5,
+      "volatility_score": 0.352,
+      "bias_warnings": [
+        "HIGH_VOLATILITY"
+      ],
+      "maturity_stage": "developing_cluster",
+      "confidence_distribution": {
+        "high": 8,
+        "medium": 0,
+        "low": 0
+      },
+      "confidence_score": 1,
+      "experience_strength": 0.715,
+      "average_evidence_count": 4,
+      "average_driver_score": 56.875,
+      "weighted_average_driver_score": 56.875,
+      "score_volatility": 16.205,
+      "evidence_patterns": [
+        {
+          "phrase": "electronics demand",
+          "count": 13
+        },
+        {
+          "phrase": "semiconductor demand",
+          "count": 8
+        },
+        {
+          "phrase": "consumer electronics",
+          "count": 8
+        },
+        {
+          "phrase": "chip shortage",
+          "count": 7
+        },
+        {
+          "phrase": "wafer demand",
+          "count": 5
+        },
+        {
+          "phrase": "foundry demand",
+          "count": 5
+        },
+        {
+          "phrase": "memory demand",
+          "count": 5
+        },
+        {
+          "phrase": "logic chip demand",
+          "count": 5
+        },
+        {
+          "phrase": "data center chips",
+          "count": 5
+        },
+        {
+          "phrase": "global chip shortage",
+          "count": 4
+        }
+      ],
+      "cases": [
+        {
+          "case_id": "SG-ELECTRONICS-2018",
+          "period": "2018",
+          "series_name": "Electronics",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 70,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-ELECTRONICS-2020",
+          "period": "2020",
+          "series_name": "Electronics",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 56,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-ELECTRONICS-2021",
+          "period": "2021",
+          "series_name": "Electronics",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 77,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-ELECTRONICS-2022",
+          "period": "2022",
+          "series_name": "Electronics",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 42,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-M355381-1_1_1-2020-aug",
+          "period": "2020 Aug",
+          "series_name": "Semiconductors",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 35,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-SEMICONDUCTOR-2018",
+          "period": "2018",
+          "series_name": "Semiconductors",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 70,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-SEMICONDUCTOR-2022",
+          "period": "2022",
+          "series_name": "Semiconductors",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 70,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-SEMICONDUCTOR-RECOVERY-2021",
+          "period": "2021",
+          "series_name": "Semiconductors",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 35,
+          "evidence_count": 4
+        }
+      ]
+    },
+    {
+      "experience_version": "driver-experience-v0.2",
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "attribution_bucket": "policy_effect",
+      "case_count": 6,
+      "weighted_case_count": 6,
+      "unique_periods": 6,
+      "recurrence_score": 1,
+      "persistence_score": 0.6,
+      "volatility_score": 0.954,
+      "bias_warnings": [],
+      "maturity_stage": "developing_cluster",
+      "confidence_distribution": {
+        "high": 6,
+        "medium": 0,
+        "low": 0
+      },
+      "confidence_score": 1,
+      "experience_strength": 0.691,
+      "average_evidence_count": 3.5,
+      "average_driver_score": 43,
+      "weighted_average_driver_score": 43,
+      "score_volatility": 1.155,
+      "evidence_patterns": [
+        {
+          "phrase": "capacity expansion",
+          "count": 3
+        },
+        {
+          "phrase": "production ramp-up",
+          "count": 3
+        },
+        {
+          "phrase": "new plant",
+          "count": 3
+        },
+        {
+          "phrase": "new facility",
+          "count": 3
+        },
+        {
+          "phrase": "higher capacity",
+          "count": 3
+        },
+        {
+          "phrase": "capacity addition",
+          "count": 3
+        },
+        {
+          "phrase": "ramp up",
+          "count": 3
+        }
+      ],
+      "cases": [
+        {
+          "case_id": "SG-CAPACITY-EXPANSION-2010",
+          "period": "2010",
+          "series_name": "Capacity Expansion",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 44,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-CAPACITY-EXPANSION-2018",
+          "period": "2018",
+          "series_name": "Manufacturing Capacity",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 42,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-CAPACITY-EXPANSION-2019",
+          "period": "2019",
+          "series_name": "Capacity Expansion",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 43,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-CAPACITY-EXPANSION-2021",
+          "period": "2021",
+          "series_name": "Manufacturing Capacity",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 42,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-CAPACITY-EXPANSION-2022",
+          "period": "2022",
+          "series_name": "Manufacturing Capacity",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 42,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-CAPACITY-EXPANSION-2023",
+          "period": "2023",
+          "series_name": "Capacity Expansion",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 45,
+          "evidence_count": 3
+        }
+      ]
+    },
+    {
+      "experience_version": "driver-experience-v0.2",
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "attribution_bucket": "policy_effect",
+      "case_count": 6,
+      "weighted_case_count": 6,
+      "unique_periods": 5,
+      "recurrence_score": 0.833,
+      "persistence_score": 0.5,
+      "volatility_score": 0.925,
+      "bias_warnings": [],
+      "maturity_stage": "developing_cluster",
+      "confidence_distribution": {
+        "high": 6,
+        "medium": 0,
+        "low": 0
+      },
+      "confidence_score": 1,
+      "experience_strength": 0.666,
+      "average_evidence_count": 3.167,
+      "average_driver_score": 34.833,
+      "weighted_average_driver_score": 34.833,
+      "score_volatility": 1.863,
+      "evidence_patterns": [
+        {
+          "phrase": "policy change",
+          "count": 1
+        },
+        {
+          "phrase": "regulatory change",
+          "count": 1
+        },
+        {
+          "phrase": "border restrictions",
+          "count": 1
+        },
+        {
+          "phrase": "work permit restrictions",
+          "count": 1
+        },
+        {
+          "phrase": "government policy",
+          "count": 1
+        },
+        {
+          "phrase": "foreign worker inflow",
+          "count": 1
+        }
+      ],
+      "cases": [
+        {
+          "case_id": "SG-CARBON-TAX-2019",
+          "period": "2019",
+          "series_name": "Carbon Tax",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 34,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-FOREIGN-WORKER-CONSTRAINTS-2021",
+          "period": "2021",
+          "series_name": "Foreign Worker Constraints",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 35,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-GLOBAL-MINIMUM-TAX-2025",
+          "period": "2025",
+          "series_name": "Global Minimum Tax",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 36,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-GST-INCREASE-2023",
+          "period": "2023",
+          "series_name": "GST Increase",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 34,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-JOBS-SUPPORT-SCHEME-2020",
+          "period": "2020",
+          "series_name": "Jobs Support Scheme",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 38,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-PRODUCTIVITY-SOLUTIONS-GRANT",
+          "period": "2020",
+          "series_name": "Productivity Solutions Grant",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 32,
+          "evidence_count": 3
+        }
+      ]
+    },
+    {
+      "experience_version": "driver-experience-v0.2",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "attribution_bucket": "market_effect",
+      "case_count": 8,
+      "weighted_case_count": 7.3,
+      "unique_periods": 5,
+      "recurrence_score": 0.625,
+      "persistence_score": 0.5,
+      "volatility_score": 0.722,
+      "bias_warnings": [],
+      "maturity_stage": "developing_cluster",
+      "confidence_distribution": {
+        "high": 7,
+        "medium": 0,
+        "low": 1
+      },
+      "confidence_score": 0.912,
+      "experience_strength": 0.651,
+      "average_evidence_count": 4,
+      "average_driver_score": 25.375,
+      "weighted_average_driver_score": 27.137,
+      "score_volatility": 6.945,
+      "evidence_patterns": [
+        {
+          "phrase": "global recession",
+          "count": 8
+        },
+        {
+          "phrase": "demand shock",
+          "count": 7
+        },
+        {
+          "phrase": "external downturn",
+          "count": 7
+        },
+        {
+          "phrase": "sharp demand fall",
+          "count": 7
+        }
+      ],
+      "cases": [
+        {
+          "case_id": "SG-CHEMICALS-2019",
+          "period": "2019",
+          "series_name": "Chemicals",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-MANUFACTURING-2001",
+          "period": "2001",
+          "series_name": "Total Manufacturing",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-MANUFACTURING-2008",
+          "period": "2008",
+          "series_name": "Total Manufacturing",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-MANUFACTURING-2009",
+          "period": "2009",
+          "series_name": "Total Manufacturing",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-MANUFACTURING-2020-SHOCK",
+          "period": "2020",
+          "series_name": "Total Manufacturing",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PETROCHEMICALS-2019",
+          "period": "2019",
+          "series_name": "Petrochemicals",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PETROCHEMICALS-2020",
+          "period": "2020",
+          "series_name": "Petrochemicals",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-TOTAL-MANUFACTURING-2020",
+          "period": "2020",
+          "series_name": "Total Manufacturing",
+          "confidence": "low",
+          "confidence_weight": 0.3,
+          "driver_score": 7,
+          "evidence_count": 4
+        }
+      ]
+    },
+    {
+      "experience_version": "driver-experience-v0.2",
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness",
+      "attribution_bucket": "policy_effect",
+      "case_count": 5,
+      "weighted_case_count": 5,
+      "unique_periods": 5,
+      "recurrence_score": 1,
+      "persistence_score": 0.5,
+      "volatility_score": 0.959,
+      "bias_warnings": [],
+      "maturity_stage": "developing_cluster",
+      "confidence_distribution": {
+        "high": 5,
+        "medium": 0,
+        "low": 0
+      },
+      "confidence_score": 1,
+      "experience_strength": 0.628,
+      "average_evidence_count": 3,
+      "average_driver_score": 33.6,
+      "weighted_average_driver_score": 33.6,
+      "score_volatility": 1.02,
+      "evidence_patterns": [],
+      "cases": [
+        {
+          "case_id": "SG-EXPORT-WEAKNESS-2001",
+          "period": "2001",
+          "series_name": "Export Demand Weakness",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 34,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-EXPORT-WEAKNESS-2008",
+          "period": "2008",
+          "series_name": "Export Demand Weakness",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 35,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-EXPORT-WEAKNESS-2009",
+          "period": "2009",
+          "series_name": "Export Demand Weakness",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 32,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-EXPORT-WEAKNESS-2019",
+          "period": "2019",
+          "series_name": "Export Demand Weakness",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 33,
+          "evidence_count": 3
+        },
+        {
+          "case_id": "SG-EXPORT-WEAKNESS-2020",
+          "period": "2020",
+          "series_name": "Export Demand Weakness",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 34,
+          "evidence_count": 3
+        }
+      ]
+    },
+    {
+      "experience_version": "driver-experience-v0.2",
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "attribution_bucket": "market_effect",
+      "case_count": 6,
+      "weighted_case_count": 5.6,
+      "unique_periods": 5,
+      "recurrence_score": 0.833,
+      "persistence_score": 0.5,
+      "volatility_score": 0.553,
+      "bias_warnings": [],
+      "maturity_stage": "developing_cluster",
+      "confidence_distribution": {
+        "high": 5,
+        "medium": 1,
+        "low": 0
+      },
+      "confidence_score": 0.933,
+      "experience_strength": 0.606,
+      "average_evidence_count": 4,
+      "average_driver_score": 43,
+      "weighted_average_driver_score": 44.786,
+      "score_volatility": 11.18,
+      "evidence_patterns": [
+        {
+          "phrase": "fuel demand",
+          "count": 6
+        },
+        {
+          "phrase": "jet fuel demand",
+          "count": 6
+        },
+        {
+          "phrase": "refinery maintenance",
+          "count": 6
+        },
+        {
+          "phrase": "oil demand",
+          "count": 5
+        },
+        {
+          "phrase": "petroleum demand",
+          "count": 5
+        },
+        {
+          "phrase": "travel demand",
+          "count": 5
+        },
+        {
+          "phrase": "refining margin",
+          "count": 5
+        },
+        {
+          "phrase": "crude oil",
+          "count": 5
+        }
+      ],
+      "cases": [
+        {
+          "case_id": "SG-PETROLEUM-2018",
+          "period": "2018",
+          "series_name": "Petroleum",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 48,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PETROLEUM-2019",
+          "period": "2019",
+          "series_name": "Petroleum",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 48,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PETROLEUM-2020",
+          "period": "2020",
+          "series_name": "Petroleum",
+          "confidence": "medium",
+          "confidence_weight": 0.6,
+          "driver_score": 18,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PETROLEUM-2021",
+          "period": "2021",
+          "series_name": "Petroleum",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 48,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PETROLEUM-2022",
+          "period": "2022",
+          "series_name": "Petroleum",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 48,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-REFINING-2021",
+          "period": "2021",
+          "series_name": "Refining",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 48,
+          "evidence_count": 4
+        }
+      ]
+    }
+  ]
+}

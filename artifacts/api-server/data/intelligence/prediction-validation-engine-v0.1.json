@@ -1,0 +1,183 @@
+{
+  "registry_version": "prediction-validation-engine-v0.1",
+  "created_at": "2026-06-08T10:55:35.962Z",
+  "doctrine": {
+    "predictions_are_monitoring_expectations_not_certainties": true,
+    "future_observations_required_for_validation": true,
+    "no_prediction_is_self_validating": true,
+    "evidence_remains_primary": true
+  },
+  "inputs": {
+    "case_id": "SMURF_CASE_001",
+    "grouped_signals": 28,
+    "attribution_items": 3
+  },
+  "summary": {
+    "predictions_created": 8,
+    "pending_future_observation": 8,
+    "validated_predictions": 0,
+    "failed_predictions": 0
+  },
+  "prediction_items": [
+    {
+      "prediction_id": "PRED_0001",
+      "case_id": "SMURF_CASE_001",
+      "prediction_type": "directional_monitoring_expectation",
+      "metric_name": "NODX_CHANGE_YOY",
+      "created_at": "2026-06-08T10:55:35.962Z",
+      "expected_direction": "positive",
+      "confidence_score": 0.804,
+      "confidence_band": "high",
+      "leading_mechanism": "Policy / Regulatory Impact",
+      "validation_status": "pending_future_observation",
+      "observed_direction": null,
+      "accuracy_score": null,
+      "governance": {
+        "prediction_is_monitoring_expectation_not_certainty": true,
+        "pending_future_observation": true,
+        "no_automatic_action": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "prediction_id": "PRED_0002",
+      "case_id": "SMURF_CASE_001",
+      "prediction_type": "directional_monitoring_expectation",
+      "metric_name": "CPI_GROWTH_YOY",
+      "created_at": "2026-06-08T10:55:35.962Z",
+      "expected_direction": "positive",
+      "confidence_score": 0.769,
+      "confidence_band": "moderate",
+      "leading_mechanism": "Policy / Regulatory Impact",
+      "validation_status": "pending_future_observation",
+      "observed_direction": null,
+      "accuracy_score": null,
+      "governance": {
+        "prediction_is_monitoring_expectation_not_certainty": true,
+        "pending_future_observation": true,
+        "no_automatic_action": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "prediction_id": "PRED_0003",
+      "case_id": "SMURF_CASE_001",
+      "prediction_type": "directional_monitoring_expectation",
+      "metric_name": "GDP_GROWTH_YOY",
+      "created_at": "2026-06-08T10:55:35.962Z",
+      "expected_direction": "positive",
+      "confidence_score": 0.767,
+      "confidence_band": "moderate",
+      "leading_mechanism": "Policy / Regulatory Impact",
+      "validation_status": "pending_future_observation",
+      "observed_direction": null,
+      "accuracy_score": null,
+      "governance": {
+        "prediction_is_monitoring_expectation_not_certainty": true,
+        "pending_future_observation": true,
+        "no_automatic_action": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "prediction_id": "PRED_0004",
+      "case_id": "SMURF_CASE_001",
+      "prediction_type": "directional_monitoring_expectation",
+      "metric_name": "CPI_GROWTH_MOM",
+      "created_at": "2026-06-08T10:55:35.962Z",
+      "expected_direction": "positive",
+      "confidence_score": 0.763,
+      "confidence_band": "moderate",
+      "leading_mechanism": "Policy / Regulatory Impact",
+      "validation_status": "pending_future_observation",
+      "observed_direction": null,
+      "accuracy_score": null,
+      "governance": {
+        "prediction_is_monitoring_expectation_not_certainty": true,
+        "pending_future_observation": true,
+        "no_automatic_action": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "prediction_id": "PRED_0005",
+      "case_id": "SMURF_CASE_001",
+      "prediction_type": "directional_monitoring_expectation",
+      "metric_name": "HOUSEHOLD_NET_WORTH_CHANGE_YOY",
+      "created_at": "2026-06-08T10:55:35.962Z",
+      "expected_direction": "positive",
+      "confidence_score": 0.755,
+      "confidence_band": "moderate",
+      "leading_mechanism": "Policy / Regulatory Impact",
+      "validation_status": "pending_future_observation",
+      "observed_direction": null,
+      "accuracy_score": null,
+      "governance": {
+        "prediction_is_monitoring_expectation_not_certainty": true,
+        "pending_future_observation": true,
+        "no_automatic_action": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "prediction_id": "PRED_0006",
+      "case_id": "SMURF_CASE_001",
+      "prediction_type": "directional_monitoring_expectation",
+      "metric_name": "MANUFACTURING_OUTPUT_CHANGE_MOM",
+      "created_at": "2026-06-08T10:55:35.962Z",
+      "expected_direction": "negative",
+      "confidence_score": 0.754,
+      "confidence_band": "moderate",
+      "leading_mechanism": "Policy / Regulatory Impact",
+      "validation_status": "pending_future_observation",
+      "observed_direction": null,
+      "accuracy_score": null,
+      "governance": {
+        "prediction_is_monitoring_expectation_not_certainty": true,
+        "pending_future_observation": true,
+        "no_automatic_action": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "prediction_id": "PRED_0007",
+      "case_id": "SMURF_CASE_001",
+      "prediction_type": "directional_monitoring_expectation",
+      "metric_name": "PERSONAL_SAVING_RATE",
+      "created_at": "2026-06-08T10:55:35.962Z",
+      "expected_direction": "positive",
+      "confidence_score": 0.748,
+      "confidence_band": "moderate",
+      "leading_mechanism": "Policy / Regulatory Impact",
+      "validation_status": "pending_future_observation",
+      "observed_direction": null,
+      "accuracy_score": null,
+      "governance": {
+        "prediction_is_monitoring_expectation_not_certainty": true,
+        "pending_future_observation": true,
+        "no_automatic_action": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "prediction_id": "PRED_0008",
+      "case_id": "SMURF_CASE_001",
+      "prediction_type": "directional_monitoring_expectation",
+      "metric_name": "BUSINESS_RECEIPTS_CHANGE_YOY",
+      "created_at": "2026-06-08T10:55:35.962Z",
+      "expected_direction": "positive",
+      "confidence_score": 0.747,
+      "confidence_band": "moderate",
+      "leading_mechanism": "Policy / Regulatory Impact",
+      "validation_status": "pending_future_observation",
+      "observed_direction": null,
+      "accuracy_score": null,
+      "governance": {
+        "prediction_is_monitoring_expectation_not_certainty": true,
+        "pending_future_observation": true,
+        "no_automatic_action": true,
+        "evidence_remains_primary": true
+      }
+    }
+  ]
+}

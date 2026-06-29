@@ -1,0 +1,32 @@
+{
+  "gate_version": "hungry-smurf-pre-ingestion-gate-v0.1",
+  "generated_at": "2026-06-25T13:02:07.032Z",
+  "purpose": "Combines consistency audit, update scan, and schema sniff before controlled ingestion.",
+  "mutation_allowed": false,
+  "decision": "GO_FOR_CONTROLLED_STAGING",
+  "blockers": [],
+  "warnings": [
+    "dataset_consistency_warnings",
+    "update_scan_review_items"
+  ],
+  "inputs": {
+    "consistency_audit": "data/intelligence/dataset-consistency-audit-v0.1.json",
+    "update_scan": "data/intelligence/hungry-smurf-update-scan-v0.1.json",
+    "schema_sniff": "data/intelligence/hungry-smurf-schema-sniff-v0.1.json"
+  },
+  "summary": {
+    "consistency_issue_count": 0,
+    "consistency_warning_count": 7,
+    "update_ready_count": 7,
+    "update_review_count": 7,
+    "update_blocked_count": 0,
+    "sniff_clean_count": 7,
+    "sniff_review_count": 0,
+    "sniff_blocked_count": 0
+  },
+  "governance": {
+    "production_mutation_allowed": false,
+    "controlled_staging_allowed": true,
+    "human_review_required": true
+  }
+}

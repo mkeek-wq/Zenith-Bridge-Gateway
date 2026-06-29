@@ -1,0 +1,92 @@
+{
+  "evidence_package_version": "historical-evidence-package-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-CARBON-TAX-2019",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_investigation_package": "data/historical-replay/m355381/investigation-packages/sg-carbon-tax-2019-investigation-package-v0.1.json",
+  "case_summary": {
+    "period": "2019",
+    "series_no": "POLICY-MOF-CARBON-TAX",
+    "series_name": "Carbon Tax",
+    "priority": "critical",
+    "direction": "mixed"
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "CARBON_2019_001",
+      "source_type": "official",
+      "source_name": "Singapore Government",
+      "evidence_summary": "Singapore implemented a carbon tax on large greenhouse gas emitters beginning in 2019.",
+      "supports_drivers": ["MKT_006"],
+      "evidence_strength": "high"
+    },
+    {
+      "evidence_id": "CARBON_2019_002",
+      "source_type": "official",
+      "source_name": "Ministry of Finance",
+      "evidence_summary": "The carbon tax was designed to create an economy-wide price signal encouraging emissions reduction and efficiency improvements.",
+      "supports_drivers": ["MKT_006"],
+      "evidence_strength": "high"
+    },
+    {
+      "evidence_id": "CARBON_2019_003",
+      "source_type": "industry",
+      "source_name": "Industrial Facilities Context",
+      "evidence_summary": "Large industrial emitters including energy, refining and petrochemical facilities became subject to carbon-pricing costs.",
+      "supports_drivers": ["MKT_006", "MKT_007"],
+      "evidence_strength": "high"
+    },
+    {
+      "evidence_id": "CARBON_2019_004",
+      "source_type": "operational",
+      "source_name": "Compliance Mechanism",
+      "evidence_summary": "Covered facilities were required to measure emissions and comply with reporting and payment obligations.",
+      "supports_drivers": ["MKT_005"],
+      "evidence_strength": "medium"
+    },
+    {
+      "evidence_id": "CARBON_2019_005",
+      "source_type": "mechanism",
+      "source_name": "Policy Transmission",
+      "evidence_summary": "The primary transmission mechanism was economic incentive and cost signalling rather than direct production restrictions.",
+      "supports_drivers": ["MKT_006"],
+      "evidence_strength": "high"
+    }
+  ],
+  "driver_evidence_summary": [
+    {
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "evidence_count": 4,
+      "evidence_strength": "high"
+    },
+    {
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "evidence_count": 1,
+      "evidence_strength": "medium"
+    },
+    {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "evidence_count": 1,
+      "evidence_strength": "medium"
+    }
+  ],
+  "mechanism_assessment": {
+    "primary_mechanism": "Government carbon pricing changed economic incentives by attaching a cost to emissions.",
+    "secondary_mechanisms": [
+      "industrial cost pressure",
+      "efficiency incentives",
+      "emissions reporting requirements",
+      "long-term decarbonisation signalling"
+    ]
+  },
+  "evidence_assessment": {
+    "evidence_collected": true,
+    "attribution_ready": true,
+    "outcome_ready": false,
+    "confidence": "high"
+  }
+}

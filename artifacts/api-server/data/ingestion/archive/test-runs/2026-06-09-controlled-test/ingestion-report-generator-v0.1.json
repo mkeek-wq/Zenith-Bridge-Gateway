@@ -1,0 +1,29 @@
+{
+  "registry_version": "ingestion-report-generator-v0.1",
+  "created_at": "2026-06-09T07:18:55.850Z",
+  "doctrine": {
+    "report_does_not_ingest": true,
+    "go_status_requires_human_review": true,
+    "production_mutation_allowed": false,
+    "evidence_lineage_required": true
+  },
+  "recommendation": "GO_FOR_CONTROLLED_DRY_RUN_REVIEW",
+  "blockers": [],
+  "warnings": [],
+  "inputs": {
+    "manifest_found": true,
+    "readiness_status": "ready_for_controlled_bulk_ingestion",
+    "dry_run_status": "dry_run_passed",
+    "duplicate_status": "no_duplicates_detected"
+  },
+  "summary": {
+    "files_detected": 1,
+    "records_detected": 1,
+    "accepted_records": 1,
+    "rejected_records": 0,
+    "exact_duplicates": 0,
+    "possible_duplicates": 0,
+    "new_record_candidates": 1
+  },
+  "markdown": "# Ingestion Dry Run Report v0.1\n\nGenerated: 2026-06-09T07:18:55.850Z\n\n## Recommendation\n\n**GO_FOR_CONTROLLED_DRY_RUN_REVIEW**\n\n## Batch\n\n- Batch ID: INGEST_BATCH_2026-06-08T13-20-48-942Z\n- Batch status: manifest_created_not_ingested\n- Dry run: true\n- Human approved: false\n\n## Dry Run Summary\n\n- Files detected: 1\n- Records detected: 1\n- Accepted records: 1\n- Rejected records: 0\n\n## Duplicate Summary\n\n- Exact duplicates: 0\n- Possible duplicates: 0\n- New record candidates: 1\n\n## Blockers\n\n- None\n\n## Warnings\n\n- None\n\n## Governance Note\n\nThis report does not authorize production ingestion. Human approval and controlled executor flow remain required before any write to production evidence."
+}

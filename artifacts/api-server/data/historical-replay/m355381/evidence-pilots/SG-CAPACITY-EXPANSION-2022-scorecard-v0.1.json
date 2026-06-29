@@ -1,0 +1,121 @@
+{
+  "historical_evidence_scorecard_version": "historical-evidence-scorecard-v0.1",
+  "generated_at": "2026-06-06T09:38:10.084Z",
+  "source_taxonomy": "data/intelligence-driver-library/driver-evidence-taxonomy-v0.1.json",
+  "source_evidence": "data/historical-replay/m355381/evidence-pilots/SG-CAPACITY-EXPANSION-2022-evidence-v0.1.json",
+  "case_id": "SG-CAPACITY-EXPANSION-2022",
+  "period": "2022",
+  "series_name": "Manufacturing Capacity",
+  "governance": {
+    "sandbox_only": true,
+    "recommendation_only": true,
+    "auto_close_case": false,
+    "requires_human_review": true,
+    "production_mutation_allowed": false
+  },
+  "evidence_metadata": {
+    "evidence_origin": "synthetic",
+    "template_generated": true,
+    "attribution_discovery_ready": true,
+    "requires_human_review": true
+  },
+  "evidence_items": [
+    "Singapore Manufacturing Capacity output in 2022 was influenced by capacity expansion and production ramp-up activity.",
+    "A new plant, new facility, higher capacity, and capacity addition affected production levels.",
+    "Investment activity and ramp up conditions shaped output movements.",
+    "Production increased as facilities came online and operational capacity improved."
+  ],
+  "evidence_matches": [
+    {
+      "evidence_text": "Singapore Manufacturing Capacity output in 2022 was influenced by capacity expansion and production ramp-up activity.",
+      "matches": [
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "attribution_bucket": "operational_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "capacity expansion",
+            "production ramp-up"
+          ],
+          "match_score": 12
+        }
+      ]
+    },
+    {
+      "evidence_text": "A new plant, new facility, higher capacity, and capacity addition affected production levels.",
+      "matches": [
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "attribution_bucket": "operational_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "new plant",
+            "new facility",
+            "higher capacity",
+            "capacity addition"
+          ],
+          "match_score": 24
+        }
+      ]
+    },
+    {
+      "evidence_text": "Investment activity and ramp up conditions shaped output movements.",
+      "matches": [
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "attribution_bucket": "operational_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "ramp up"
+          ],
+          "match_score": 6
+        }
+      ]
+    },
+    {
+      "evidence_text": "Production increased as facilities came online and operational capacity improved.",
+      "matches": []
+    }
+  ],
+  "ranked_drivers": [
+    {
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "attribution_bucket": "operational_effect",
+      "total_score": 42,
+      "evidence_count": 3,
+      "matched_phrases": [
+        "capacity expansion",
+        "production ramp-up",
+        "new plant",
+        "new facility",
+        "higher capacity",
+        "capacity addition",
+        "ramp up"
+      ],
+      "supporting_evidence": [
+        "Singapore Manufacturing Capacity output in 2022 was influenced by capacity expansion and production ramp-up activity.",
+        "A new plant, new facility, higher capacity, and capacity addition affected production levels.",
+        "Investment activity and ramp up conditions shaped output movements."
+      ]
+    }
+  ],
+  "bucket_scores": [
+    {
+      "attribution_bucket": "operational_effect",
+      "total_score": 42
+    }
+  ],
+  "recommended_outcome": {
+    "primary_driver": "MKT_004",
+    "primary_driver_name": "Capacity Expansion",
+    "attribution_bucket": "operational_effect",
+    "confidence": "high",
+    "total_score": 42,
+    "second_score": 0,
+    "score_gap": 42
+  }
+}

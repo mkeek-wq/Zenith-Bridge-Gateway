@@ -1,0 +1,4129 @@
+{
+  "registry_version": "replay-mechanism-evidence-matrix-v0.1",
+  "created_at": "2026-06-08T07:07:55.075Z",
+  "doctrine": {
+    "replay_matrix_is_evidence_mapping_not_validation": true,
+    "historical_similarity_must_never_override_current_evidence": true,
+    "past_results_do_not_guarantee_future_outcomes": true
+  },
+  "inputs": {
+    "historical_outcome_items": 88,
+    "mechanism_links": 300,
+    "lifecycle_items": 3
+  },
+  "summary": {
+    "matrix_rows": 202,
+    "mechanisms_processed": 3
+  },
+  "mechanism_summaries": [
+    {
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_rows": 32,
+      "supporting_cases": 5,
+      "contradicting_cases": 16,
+      "neutral_cases": 11,
+      "support_ratio": 0.156,
+      "average_replay_support_score": 0.3,
+      "top_replay_rows": [
+        {
+          "matrix_id": "RME_00007",
+          "mechanism_id": "MKT_006",
+          "mechanism_name": "Policy / Regulatory Impact",
+          "lifecycle_status": "candidate_not_validated",
+          "historical_outcome_id": "OUTCOME_00007",
+          "historical_period": "2019",
+          "historical_case": "SG-CARBON-TAX-2019",
+          "outcome_direction": "neutral",
+          "outcome_mechanism_fit_score": 0.375,
+          "current_average_link_strength": 0.57,
+          "replay_support_score": 0.449,
+          "governance": {
+            "replay_support_is_not_validation": true,
+            "historical_similarity_must_never_override_current_evidence": true,
+            "past_results_do_not_guarantee_future_outcomes": true
+          }
+        },
+        {
+          "matrix_id": "RME_00002",
+          "mechanism_id": "MKT_006",
+          "mechanism_name": "Policy / Regulatory Impact",
+          "lifecycle_status": "candidate_not_validated",
+          "historical_outcome_id": "OUTCOME_00002",
+          "historical_period": "2018",
+          "historical_case": "SG-CAPACITY-EXPANSION-2018",
+          "outcome_direction": "supports",
+          "outcome_mechanism_fit_score": 0.125,
+          "current_average_link_strength": 0.57,
+          "replay_support_score": 0.411,
+          "governance": {
+            "replay_support_is_not_validation": true,
+            "historical_similarity_must_never_override_current_evidence": true,
+            "past_results_do_not_guarantee_future_outcomes": true
+          }
+        },
+        {
+          "matrix_id": "RME_00004",
+          "mechanism_id": "MKT_006",
+          "mechanism_name": "Policy / Regulatory Impact",
+          "lifecycle_status": "candidate_not_validated",
+          "historical_outcome_id": "OUTCOME_00004",
+          "historical_period": "2021",
+          "historical_case": "SG-CAPACITY-EXPANSION-2021",
+          "outcome_direction": "supports",
+          "outcome_mechanism_fit_score": 0.125,
+          "current_average_link_strength": 0.57,
+          "replay_support_score": 0.411,
+          "governance": {
+            "replay_support_is_not_validation": true,
+            "historical_similarity_must_never_override_current_evidence": true,
+            "past_results_do_not_guarantee_future_outcomes": true
+          }
+        },
+        {
+          "matrix_id": "RME_00005",
+          "mechanism_id": "MKT_006",
+          "mechanism_name": "Policy / Regulatory Impact",
+          "lifecycle_status": "candidate_not_validated",
+          "historical_outcome_id": "OUTCOME_00005",
+          "historical_period": "2022",
+          "historical_case": "SG-CAPACITY-EXPANSION-2022",
+          "outcome_direction": "supports",
+          "outcome_mechanism_fit_score": 0.125,
+          "current_average_link_strength": 0.57,
+          "replay_support_score": 0.411,
+          "governance": {
+            "replay_support_is_not_validation": true,
+            "historical_similarity_must_never_override_current_evidence": true,
+            "past_results_do_not_guarantee_future_outcomes": true
+          }
+        },
+        {
+          "matrix_id": "RME_00029",
+          "mechanism_id": "MKT_006",
+          "mechanism_name": "Policy / Regulatory Impact",
+          "lifecycle_status": "candidate_not_validated",
+          "historical_outcome_id": "OUTCOME_00029",
+          "historical_period": "2021",
+          "historical_case": "SG-PRECISION-ENGINEERING-2021",
+          "outcome_direction": "supports",
+          "outcome_mechanism_fit_score": 0.125,
+          "current_average_link_strength": 0.57,
+          "replay_support_score": 0.411,
+          "governance": {
+            "replay_support_is_not_validation": true,
+            "historical_similarity_must_never_override_current_evidence": true,
+            "past_results_do_not_guarantee_future_outcomes": true
+          }
+        },
+        {
+          "matrix_id": "RME_00032",
+          "mechanism_id": "MKT_006",
+          "mechanism_name": "Policy / Regulatory Impact",
+          "lifecycle_status": "candidate_not_validated",
+          "historical_outcome_id": "OUTCOME_00032",
+          "historical_period": "2021",
+          "historical_case": "SG-SEMICONDUCTOR-RECOVERY-2021",
+          "outcome_direction": "supports",
+          "outcome_mechanism_fit_score": 0.125,
+          "current_average_link_strength": 0.57,
+          "replay_support_score": 0.411,
+          "governance": {
+            "replay_support_is_not_validation": true,
+            "historical_similarity_must_never_override_current_evidence": true,
+            "past_results_do_not_guarantee_future_outcomes": true
+          }
+        },
+        {
+          "matrix_id": "RME_00006",
+          "mechanism_id": "MKT_006",
+          "mechanism_name": "Policy / Regulatory Impact",
+          "lifecycle_status": "candidate_not_validated",
+          "historical_outcome_id": "OUTCOME_00006",
+          "historical_period": "2023",
+          "historical_case": "SG-CAPACITY-EXPANSION-2023",
+          "outcome_direction": "neutral",
+          "outcome_mechanism_fit_score": 0.25,
+          "current_average_link_strength": 0.57,
+          "replay_support_score": 0.38,
+          "governance": {
+            "replay_support_is_not_validation": true,
+            "historical_similarity_must_never_override_current_evidence": true,
+            "past_results_do_not_guarantee_future_outcomes": true
+          }
+        },
+        {
+          "matrix_id": "RME_00031",
+          "mechanism_id": "MKT_006",
+          "mechanism_name": "Policy / Regulatory Impact",
+          "lifecycle_status": "candidate_not_validated",
+          "historical_outcome_id": "OUTCOME_00031",
+          "historical_period": "2020",
+          "historical_case": "SG-PRODUCTIVITY-SOLUTIONS-GRANT",
+          "outcome_direction": "neutral",
+          "outcome_mechanism_fit_score": 0.25,
+          "current_average_link_strength": 0.57,
+          "replay_support_score": 0.38,
+          "governance": {
+            "replay_support_is_not_validation": true,
+            "historical_similarity_must_never_override_current_evidence": true,
+            "past_results_do_not_guarantee_future_outcomes": true
+          }
+        }
+      ]
+    },
+    {
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_rows": 82,
+      "supporting_cases": 7,
+      "contradicting_cases": 25,
+      "neutral_cases": 50,
+      "support_ratio": 0.085,
+      "average_replay_support_score": 0.382,
+      "top_replay_rows": [
+        {
+          "matrix_id": "RME_00039",
+          "mechanism_id": "MKT_010",
+          "mechanism_name": "Demand Shock / External Downturn",
+          "lifecycle_status": "candidate_not_validated",
+          "historical_outcome_id": "OUTCOME_00039",
+          "historical_period": "2021",
+          "historical_case": "SG-BIOMEDICAL-2021",
+          "outcome_direction": "supports",
+          "outcome_mechanism_fit_score": 0.375,
+          "current_average_link_strength": 0.677,
+          "replay_support_score": 0.575,
+          "governance": {
+            "replay_support_is_not_validation": true,
+            "historical_similarity_must_never_override_current_evidence": true,
+            "past_results_do_not_guarantee_future_outcomes": true
+          }
+        },
+        {
+          "matrix_id": "RME_00054",
+          "mechanism_id": "MKT_010",
+          "mechanism_name": "Demand Shock / External Downturn",
+          "lifecycle_status": "candidate_not_validated",
+          "historical_outcome_id": "OUTCOME_00054",
+          "historical_period": "2022",
+          "historical_case": "SG-ELECTRONICS-2022",
+          "outcome_direction": "supports",
+          "outcome_mechanism_fit_score": 0.375,
+          "current_average_link_strength": 0.677,
+          "replay_support_score": 0.575,
+          "governance": {
+            "replay_support_is_not_validation": true,
+            "historical_similarity_must_never_override_current_evidence": true,
+            "past_results_do_not_guarantee_future_outcomes": true
+          }
+        },
+        {
+          "matrix_id": "RME_00045",
+          "mechanism_id": "MKT_010",
+          "mechanism_name": "Demand Shock / External Downturn",
+          "lifecycle_status": "candidate_not_validated",
+          "historical_outcome_id": "OUTCOME_00045",
+          "historical_period": "2019",
+          "historical_case": "SG-CHEMICALS-2019",
+          "outcome_direction": "contradicts",
+          "outcome_mechanism_fit_score": 0.625,
+          "current_average_link_strength": 0.677,
+          "replay_support_score": 0.513,
+          "governance": {
+            "replay_support_is_not_validation": true,
+            "historical_similarity_must_never_override_current_evidence": true,
+            "past_results_do_not_guarantee_future_outcomes": true
+          }
+        },
+        {
+          "matrix_id": "RME_00058",
+          "mechanism_id": "MKT_010",
+          "mechanism_name": "Demand Shock / External Downturn",
+          "lifecycle_status": "candidate_not_validated",
+          "historical_outcome_id": "OUTCOME_00058",
+          "historical_period": "2009",
+          "historical_case": "SG-EXPORT-WEAKNESS-2009",
+          "outcome_direction": "contradicts",
+          "outcome_mechanism_fit_score": 0.625,
+          "current_average_link_strength": 0.677,
+          "replay_support_score": 0.513,
+          "governance": {
+            "replay_support_is_not_validation": true,
+            "historical_similarity_must_never_override_current_evidence": true,
+            "past_results_do_not_guarantee_future_outcomes": true
+          }
+        },
+        {
+          "matrix_id": "RME_00072",
+          "mechanism_id": "MKT_010",
+          "mechanism_name": "Demand Shock / External Downturn",
+          "lifecycle_status": "candidate_not_validated",
+          "historical_outcome_id": "OUTCOME_00072",
+          "historical_period": "2001",
+          "historical_case": "SG-MANUFACTURING-2001",
+          "outcome_direction": "contradicts",
+          "outcome_mechanism_fit_score": 0.625,
+          "current_average_link_strength": 0.677,
+          "replay_support_score": 0.513,
+          "governance": {
+            "replay_support_is_not_validation": true,
+            "historical_similarity_must_never_override_current_evidence": true,
+            "past_results_do_not_guarantee_future_outcomes": true
+          }
+        },
+        {
+          "matrix_id": "RME_00073",
+          "mechanism_id": "MKT_010",
+          "mechanism_name": "Demand Shock / External Downturn",
+          "lifecycle_status": "candidate_not_validated",
+          "historical_outcome_id": "OUTCOME_00073",
+          "historical_period": "2008",
+          "historical_case": "SG-MANUFACTURING-2008",
+          "outcome_direction": "contradicts",
+          "outcome_mechanism_fit_score": 0.625,
+          "current_average_link_strength": 0.677,
+          "replay_support_score": 0.513,
+          "governance": {
+            "replay_support_is_not_validation": true,
+            "historical_similarity_must_never_override_current_evidence": true,
+            "past_results_do_not_guarantee_future_outcomes": true
+          }
+        },
+        {
+          "matrix_id": "RME_00074",
+          "mechanism_id": "MKT_010",
+          "mechanism_name": "Demand Shock / External Downturn",
+          "lifecycle_status": "candidate_not_validated",
+          "historical_outcome_id": "OUTCOME_00074",
+          "historical_period": "2009",
+          "historical_case": "SG-MANUFACTURING-2009",
+          "outcome_direction": "contradicts",
+          "outcome_mechanism_fit_score": 0.625,
+          "current_average_link_strength": 0.677,
+          "replay_support_score": 0.513,
+          "governance": {
+            "replay_support_is_not_validation": true,
+            "historical_similarity_must_never_override_current_evidence": true,
+            "past_results_do_not_guarantee_future_outcomes": true
+          }
+        },
+        {
+          "matrix_id": "RME_00075",
+          "mechanism_id": "MKT_010",
+          "mechanism_name": "Demand Shock / External Downturn",
+          "lifecycle_status": "candidate_not_validated",
+          "historical_outcome_id": "OUTCOME_00075",
+          "historical_period": "2020",
+          "historical_case": "SG-MANUFACTURING-2020-SHOCK",
+          "outcome_direction": "contradicts",
+          "outcome_mechanism_fit_score": 0.625,
+          "current_average_link_strength": 0.677,
+          "replay_support_score": 0.513,
+          "governance": {
+            "replay_support_is_not_validation": true,
+            "historical_similarity_must_never_override_current_evidence": true,
+            "past_results_do_not_guarantee_future_outcomes": true
+          }
+        }
+      ]
+    },
+    {
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_rows": 88,
+      "supporting_cases": 10,
+      "contradicting_cases": 25,
+      "neutral_cases": 53,
+      "support_ratio": 0.114,
+      "average_replay_support_score": 0.508,
+      "top_replay_rows": [
+        {
+          "matrix_id": "RME_00141",
+          "mechanism_id": "MKT_002",
+          "mechanism_name": "Inventory Cycle / Restocking",
+          "lifecycle_status": "candidate_not_validated",
+          "historical_outcome_id": "OUTCOME_00141",
+          "historical_period": "2022",
+          "historical_case": "SG-ELECTRONICS-2022",
+          "outcome_direction": "supports",
+          "outcome_mechanism_fit_score": 1,
+          "current_average_link_strength": 0.736,
+          "replay_support_score": 0.934,
+          "governance": {
+            "replay_support_is_not_validation": true,
+            "historical_similarity_must_never_override_current_evidence": true,
+            "past_results_do_not_guarantee_future_outcomes": true
+          }
+        },
+        {
+          "matrix_id": "RME_00185",
+          "mechanism_id": "MKT_002",
+          "mechanism_name": "Inventory Cycle / Restocking",
+          "lifecycle_status": "candidate_not_validated",
+          "historical_outcome_id": "OUTCOME_00185",
+          "historical_period": "2021",
+          "historical_case": "SG-PRECISION-ENGINEERING-2021",
+          "outcome_direction": "supports",
+          "outcome_mechanism_fit_score": 0.714,
+          "current_average_link_strength": 0.736,
+          "replay_support_score": 0.777,
+          "governance": {
+            "replay_support_is_not_validation": true,
+            "historical_similarity_must_never_override_current_evidence": true,
+            "past_results_do_not_guarantee_future_outcomes": true
+          }
+        },
+        {
+          "matrix_id": "RME_00137",
+          "mechanism_id": "MKT_002",
+          "mechanism_name": "Inventory Cycle / Restocking",
+          "lifecycle_status": "candidate_not_validated",
+          "historical_outcome_id": "OUTCOME_00137",
+          "historical_period": "2018",
+          "historical_case": "SG-ELECTRONICS-2018",
+          "outcome_direction": "neutral",
+          "outcome_mechanism_fit_score": 0.857,
+          "current_average_link_strength": 0.736,
+          "replay_support_score": 0.755,
+          "governance": {
+            "replay_support_is_not_validation": true,
+            "historical_similarity_must_never_override_current_evidence": true,
+            "past_results_do_not_guarantee_future_outcomes": true
+          }
+        },
+        {
+          "matrix_id": "RME_00138",
+          "mechanism_id": "MKT_002",
+          "mechanism_name": "Inventory Cycle / Restocking",
+          "lifecycle_status": "candidate_not_validated",
+          "historical_outcome_id": "OUTCOME_00138",
+          "historical_period": "2019",
+          "historical_case": "SG-ELECTRONICS-2019",
+          "outcome_direction": "neutral",
+          "outcome_mechanism_fit_score": 0.857,
+          "current_average_link_strength": 0.736,
+          "replay_support_score": 0.755,
+          "governance": {
+            "replay_support_is_not_validation": true,
+            "historical_similarity_must_never_override_current_evidence": true,
+            "past_results_do_not_guarantee_future_outcomes": true
+          }
+        },
+        {
+          "matrix_id": "RME_00142",
+          "mechanism_id": "MKT_002",
+          "mechanism_name": "Inventory Cycle / Restocking",
+          "lifecycle_status": "candidate_not_validated",
+          "historical_outcome_id": "OUTCOME_00142",
+          "historical_period": "2023",
+          "historical_case": "SG-ELECTRONICS-2023",
+          "outcome_direction": "neutral",
+          "outcome_mechanism_fit_score": 0.857,
+          "current_average_link_strength": 0.736,
+          "replay_support_score": 0.755,
+          "governance": {
+            "replay_support_is_not_validation": true,
+            "historical_similarity_must_never_override_current_evidence": true,
+            "past_results_do_not_guarantee_future_outcomes": true
+          }
+        },
+        {
+          "matrix_id": "RME_00191",
+          "mechanism_id": "MKT_002",
+          "mechanism_name": "Inventory Cycle / Restocking",
+          "lifecycle_status": "candidate_not_validated",
+          "historical_outcome_id": "OUTCOME_00191",
+          "historical_period": "2018",
+          "historical_case": "SG-SEMICONDUCTOR-2018",
+          "outcome_direction": "neutral",
+          "outcome_mechanism_fit_score": 0.857,
+          "current_average_link_strength": 0.736,
+          "replay_support_score": 0.755,
+          "governance": {
+            "replay_support_is_not_validation": true,
+            "historical_similarity_must_never_override_current_evidence": true,
+            "past_results_do_not_guarantee_future_outcomes": true
+          }
+        },
+        {
+          "matrix_id": "RME_00192",
+          "mechanism_id": "MKT_002",
+          "mechanism_name": "Inventory Cycle / Restocking",
+          "lifecycle_status": "candidate_not_validated",
+          "historical_outcome_id": "OUTCOME_00192",
+          "historical_period": "2019",
+          "historical_case": "SG-SEMICONDUCTOR-2019",
+          "outcome_direction": "neutral",
+          "outcome_mechanism_fit_score": 0.857,
+          "current_average_link_strength": 0.736,
+          "replay_support_score": 0.755,
+          "governance": {
+            "replay_support_is_not_validation": true,
+            "historical_similarity_must_never_override_current_evidence": true,
+            "past_results_do_not_guarantee_future_outcomes": true
+          }
+        },
+        {
+          "matrix_id": "RME_00193",
+          "mechanism_id": "MKT_002",
+          "mechanism_name": "Inventory Cycle / Restocking",
+          "lifecycle_status": "candidate_not_validated",
+          "historical_outcome_id": "OUTCOME_00193",
+          "historical_period": "2022",
+          "historical_case": "SG-SEMICONDUCTOR-2022",
+          "outcome_direction": "neutral",
+          "outcome_mechanism_fit_score": 0.857,
+          "current_average_link_strength": 0.736,
+          "replay_support_score": 0.755,
+          "governance": {
+            "replay_support_is_not_validation": true,
+            "historical_similarity_must_never_override_current_evidence": true,
+            "past_results_do_not_guarantee_future_outcomes": true
+          }
+        }
+      ]
+    }
+  ],
+  "matrix_rows": [
+    {
+      "matrix_id": "RME_00001",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00001",
+      "historical_period": "2010",
+      "historical_case": "SG-CAPACITY-EXPANSION-2010",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.211,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00002",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00002",
+      "historical_period": "2018",
+      "historical_case": "SG-CAPACITY-EXPANSION-2018",
+      "outcome_direction": "supports",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.411,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00003",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00003",
+      "historical_period": "2019",
+      "historical_case": "SG-CAPACITY-EXPANSION-2019",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.311,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00004",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00004",
+      "historical_period": "2021",
+      "historical_case": "SG-CAPACITY-EXPANSION-2021",
+      "outcome_direction": "supports",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.411,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00005",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00005",
+      "historical_period": "2022",
+      "historical_case": "SG-CAPACITY-EXPANSION-2022",
+      "outcome_direction": "supports",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.411,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00006",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00006",
+      "historical_period": "2023",
+      "historical_case": "SG-CAPACITY-EXPANSION-2023",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.38,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00007",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00007",
+      "historical_period": "2019",
+      "historical_case": "SG-CARBON-TAX-2019",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.375,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.449,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00008",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00008",
+      "historical_period": "2001",
+      "historical_case": "SG-EXPORT-WEAKNESS-2001",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.211,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00009",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00009",
+      "historical_period": "2008",
+      "historical_case": "SG-EXPORT-WEAKNESS-2008",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.211,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00010",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00010",
+      "historical_period": "2009",
+      "historical_case": "SG-EXPORT-WEAKNESS-2009",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.211,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00011",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00011",
+      "historical_period": "2019",
+      "historical_case": "SG-EXPORT-WEAKNESS-2019",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.211,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00012",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00012",
+      "historical_period": "2020",
+      "historical_case": "SG-EXPORT-WEAKNESS-2020",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.211,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00013",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00013",
+      "historical_period": "2021",
+      "historical_case": "SG-FOREIGN-WORKER-CONSTRAINTS-2021",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.375,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.349,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00014",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00014",
+      "historical_period": "2025",
+      "historical_case": "SG-GLOBAL-MINIMUM-TAX-2025",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.28,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00015",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00015",
+      "historical_period": "2023",
+      "historical_case": "SG-GST-INCREASE-2023",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.28,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00016",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00016",
+      "historical_period": "2001",
+      "historical_case": "SG-INVENTORY-CYCLE-2001",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.211,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00017",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00017",
+      "historical_period": "2009",
+      "historical_case": "SG-INVENTORY-CYCLE-2009",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.211,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00018",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00018",
+      "historical_period": "2019",
+      "historical_case": "SG-INVENTORY-CYCLE-2019",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.311,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00019",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00019",
+      "historical_period": "2020",
+      "historical_case": "SG-JOBS-SUPPORT-SCHEME-2020",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.375,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.349,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00020",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00020",
+      "historical_period": "2020",
+      "historical_case": "SG-MACHINERY-2020",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.311,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00021",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00021",
+      "historical_period": "2021",
+      "historical_case": "SG-MACHINERY-2021",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.311,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00022",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00022",
+      "historical_period": "2022",
+      "historical_case": "SG-MACHINERY-2022",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.311,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00023",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00023",
+      "historical_period": null,
+      "historical_case": "SG-OPERATIONAL-DISRUPTION-2003",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.211,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00024",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00024",
+      "historical_period": null,
+      "historical_case": "SG-OPERATIONAL-DISRUPTION-2020",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.28,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00025",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00025",
+      "historical_period": null,
+      "historical_case": "SG-OPERATIONAL-DISRUPTION-2022",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.211,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00026",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00026",
+      "historical_period": "2018",
+      "historical_case": "SG-PRECISION-ENGINEERING-2018",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.311,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00027",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00027",
+      "historical_period": "2019",
+      "historical_case": "SG-PRECISION-ENGINEERING-2019",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.311,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00028",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00028",
+      "historical_period": "2020",
+      "historical_case": "SG-PRECISION-ENGINEERING-2020",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.211,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00029",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00029",
+      "historical_period": "2021",
+      "historical_case": "SG-PRECISION-ENGINEERING-2021",
+      "outcome_direction": "supports",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.411,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00030",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00030",
+      "historical_period": "2022",
+      "historical_case": "SG-PRECISION-ENGINEERING-2022",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.311,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00031",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00031",
+      "historical_period": "2020",
+      "historical_case": "SG-PRODUCTIVITY-SOLUTIONS-GRANT",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.38,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00032",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00032",
+      "historical_period": "2021",
+      "historical_case": "SG-SEMICONDUCTOR-RECOVERY-2021",
+      "outcome_direction": "supports",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.57,
+      "replay_support_score": 0.411,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00033",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00033",
+      "historical_period": "2020",
+      "historical_case": "SG-AEROSPACE-2020",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00034",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00034",
+      "historical_period": "2021",
+      "historical_case": "SG-AEROSPACE-2021",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00035",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00035",
+      "historical_period": "2022",
+      "historical_case": "SG-AEROSPACE-2022",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00036",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00036",
+      "historical_period": "2018",
+      "historical_case": "SG-BIOMEDICAL-2018",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00037",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00037",
+      "historical_period": "2019",
+      "historical_case": "SG-BIOMEDICAL-2019",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00038",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00038",
+      "historical_period": "2020",
+      "historical_case": "SG-BIOMEDICAL-2020",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00039",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00039",
+      "historical_period": "2021",
+      "historical_case": "SG-BIOMEDICAL-2021",
+      "outcome_direction": "supports",
+      "outcome_mechanism_fit_score": 0.375,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.575,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00040",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00040",
+      "historical_period": "2022",
+      "historical_case": "SG-BIOMEDICAL-2022",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00041",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00041",
+      "historical_period": "2023",
+      "historical_case": "SG-BIOMEDICAL-2023",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00042",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00042",
+      "historical_period": "2010",
+      "historical_case": "SG-CAPACITY-EXPANSION-2010",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.307,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00043",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00043",
+      "historical_period": "2019",
+      "historical_case": "SG-CARBON-TAX-2019",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00044",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00044",
+      "historical_period": "2018",
+      "historical_case": "SG-CHEMICALS-2018",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00045",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00045",
+      "historical_period": "2019",
+      "historical_case": "SG-CHEMICALS-2019",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.625,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.513,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00046",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00046",
+      "historical_period": "2020",
+      "historical_case": "SG-CHEMICALS-2020",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00047",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00047",
+      "historical_period": "2021",
+      "historical_case": "SG-CHEMICALS-2021",
+      "outcome_direction": "supports",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.438,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00048",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00048",
+      "historical_period": "2022",
+      "historical_case": "SG-CHEMICALS-2022",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00049",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00049",
+      "historical_period": "2023",
+      "historical_case": "SG-CHEMICALS-2023",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00050",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00050",
+      "historical_period": "2018",
+      "historical_case": "SG-ELECTRONICS-2018",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.407,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00051",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00051",
+      "historical_period": "2019",
+      "historical_case": "SG-ELECTRONICS-2019",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.407,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00052",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00052",
+      "historical_period": "2020",
+      "historical_case": "SG-ELECTRONICS-2020",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.407,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00053",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00053",
+      "historical_period": "2021",
+      "historical_case": "SG-ELECTRONICS-2021",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00054",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00054",
+      "historical_period": "2022",
+      "historical_case": "SG-ELECTRONICS-2022",
+      "outcome_direction": "supports",
+      "outcome_mechanism_fit_score": 0.375,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.575,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00055",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00055",
+      "historical_period": "2023",
+      "historical_case": "SG-ELECTRONICS-2023",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.407,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00056",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00056",
+      "historical_period": "2001",
+      "historical_case": "SG-EXPORT-WEAKNESS-2001",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.375,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.375,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00057",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00057",
+      "historical_period": "2008",
+      "historical_case": "SG-EXPORT-WEAKNESS-2008",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.375,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.375,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00058",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00058",
+      "historical_period": "2009",
+      "historical_case": "SG-EXPORT-WEAKNESS-2009",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.625,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.513,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00059",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00059",
+      "historical_period": "2019",
+      "historical_case": "SG-EXPORT-WEAKNESS-2019",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.375,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.375,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00060",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00060",
+      "historical_period": "2020",
+      "historical_case": "SG-EXPORT-WEAKNESS-2020",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.375,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.375,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00061",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00061",
+      "historical_period": "2021",
+      "historical_case": "SG-FOREIGN-WORKER-CONSTRAINTS-2021",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.307,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00062",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00062",
+      "historical_period": "2025",
+      "historical_case": "SG-GLOBAL-MINIMUM-TAX-2025",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.307,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00063",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00063",
+      "historical_period": "2023",
+      "historical_case": "SG-GST-INCREASE-2023",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.307,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00064",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00064",
+      "historical_period": "2001",
+      "historical_case": "SG-INVENTORY-CYCLE-2001",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.375,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.375,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00065",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00065",
+      "historical_period": "2009",
+      "historical_case": "SG-INVENTORY-CYCLE-2009",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.375,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.375,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00066",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00066",
+      "historical_period": "2019",
+      "historical_case": "SG-INVENTORY-CYCLE-2019",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.407,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00067",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00067",
+      "historical_period": "2020",
+      "historical_case": "SG-JOBS-SUPPORT-SCHEME-2020",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.307,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00068",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00068",
+      "historical_period": "2020 Aug",
+      "historical_case": "SG-M355381-1_1_1-2020-aug",
+      "outcome_direction": "supports",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.507,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00069",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00069",
+      "historical_period": "2020",
+      "historical_case": "SG-MACHINERY-2020",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.407,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00070",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00070",
+      "historical_period": "2021",
+      "historical_case": "SG-MACHINERY-2021",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.407,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00071",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00071",
+      "historical_period": "2022",
+      "historical_case": "SG-MACHINERY-2022",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.407,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00072",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00072",
+      "historical_period": "2001",
+      "historical_case": "SG-MANUFACTURING-2001",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.625,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.513,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00073",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00073",
+      "historical_period": "2008",
+      "historical_case": "SG-MANUFACTURING-2008",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.625,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.513,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00074",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00074",
+      "historical_period": "2009",
+      "historical_case": "SG-MANUFACTURING-2009",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.625,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.513,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00075",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00075",
+      "historical_period": "2020",
+      "historical_case": "SG-MANUFACTURING-2020-SHOCK",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.625,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.513,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00076",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00076",
+      "historical_period": null,
+      "historical_case": "SG-OPERATIONAL-DISRUPTION-2003",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.375,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.375,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00077",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00077",
+      "historical_period": null,
+      "historical_case": "SG-OPERATIONAL-DISRUPTION-2020",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.307,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00078",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00078",
+      "historical_period": null,
+      "historical_case": "SG-OPERATIONAL-DISRUPTION-2022",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.307,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00079",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00079",
+      "historical_period": "2020",
+      "historical_case": "SG-OPERATIONS-2020-COVID",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00080",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00080",
+      "historical_period": "2021",
+      "historical_case": "SG-OPERATIONS-2021-SUPPLY",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00081",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00081",
+      "historical_period": "2022",
+      "historical_case": "SG-OPERATIONS-2022-SUPPLY",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00082",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00082",
+      "historical_period": "2018",
+      "historical_case": "SG-PETROCHEMICALS-2018",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00083",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00083",
+      "historical_period": "2019",
+      "historical_case": "SG-PETROCHEMICALS-2019",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.625,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.513,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00084",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00084",
+      "historical_period": "2020",
+      "historical_case": "SG-PETROCHEMICALS-2020",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.625,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.513,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00085",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00085",
+      "historical_period": "2022",
+      "historical_case": "SG-PETROCHEMICALS-2022",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00086",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00086",
+      "historical_period": "2023",
+      "historical_case": "SG-PETROCHEMICALS-2023",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00087",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00087",
+      "historical_period": "2018",
+      "historical_case": "SG-PETROLEUM-2018",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00088",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00088",
+      "historical_period": "2019",
+      "historical_case": "SG-PETROLEUM-2019",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00089",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00089",
+      "historical_period": "2020",
+      "historical_case": "SG-PETROLEUM-2020",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.307,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00090",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00090",
+      "historical_period": "2021",
+      "historical_case": "SG-PETROLEUM-2021",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00091",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00091",
+      "historical_period": "2022",
+      "historical_case": "SG-PETROLEUM-2022",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00092",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00092",
+      "historical_period": "2020",
+      "historical_case": "SG-PHARMACEUTICALS-2020",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00093",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00093",
+      "historical_period": "2021",
+      "historical_case": "SG-PHARMACEUTICALS-2021",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00094",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00094",
+      "historical_period": "2022",
+      "historical_case": "SG-PHARMACEUTICALS-2022",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00095",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00095",
+      "historical_period": "2018",
+      "historical_case": "SG-PRECISION-ENGINEERING-2018",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.407,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00096",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00096",
+      "historical_period": "2019",
+      "historical_case": "SG-PRECISION-ENGINEERING-2019",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.407,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00097",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00097",
+      "historical_period": "2020",
+      "historical_case": "SG-PRECISION-ENGINEERING-2020",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.307,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00098",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00098",
+      "historical_period": "2021",
+      "historical_case": "SG-PRECISION-ENGINEERING-2021",
+      "outcome_direction": "supports",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.507,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00099",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00099",
+      "historical_period": "2022",
+      "historical_case": "SG-PRECISION-ENGINEERING-2022",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.407,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00100",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00100",
+      "historical_period": "2023",
+      "historical_case": "SG-PRECISION-ENGINEERING-2023",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.407,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00101",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00101",
+      "historical_period": "2020",
+      "historical_case": "SG-REFINING-2020",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00102",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00102",
+      "historical_period": "2021",
+      "historical_case": "SG-REFINING-2021",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00103",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00103",
+      "historical_period": "2018",
+      "historical_case": "SG-SEMICONDUCTOR-2018",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.407,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00104",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00104",
+      "historical_period": "2019",
+      "historical_case": "SG-SEMICONDUCTOR-2019",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.407,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00105",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00105",
+      "historical_period": "2022",
+      "historical_case": "SG-SEMICONDUCTOR-2022",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.407,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00106",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00106",
+      "historical_period": "2023",
+      "historical_case": "SG-SEMICONDUCTOR-2023",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.25,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.407,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00107",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00107",
+      "historical_period": "2021",
+      "historical_case": "SG-SEMICONDUCTOR-RECOVERY-2021",
+      "outcome_direction": "supports",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.438,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00108",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00108",
+      "historical_period": "2020",
+      "historical_case": "SG-TOTAL-MANUFACTURING-2020",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.375,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.375,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00109",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00109",
+      "historical_period": "2018",
+      "historical_case": "SG-TRANSPORT-ENGINEERING-2018",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00110",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00110",
+      "historical_period": "2019",
+      "historical_case": "SG-TRANSPORT-ENGINEERING-2019",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00111",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00111",
+      "historical_period": "2020",
+      "historical_case": "SG-TRANSPORT-ENGINEERING-2020",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00112",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00112",
+      "historical_period": "2021",
+      "historical_case": "SG-TRANSPORT-ENGINEERING-2021",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00113",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00113",
+      "historical_period": "2022",
+      "historical_case": "SG-TRANSPORT-ENGINEERING-2022",
+      "outcome_direction": "supports",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.438,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00114",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00114",
+      "historical_period": "2023",
+      "historical_case": "SG-TRANSPORT-ENGINEERING-2023",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.125,
+      "current_average_link_strength": 0.677,
+      "replay_support_score": 0.338,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00115",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00115",
+      "historical_period": "2020",
+      "historical_case": "SG-AEROSPACE-2020",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.286,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.441,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00116",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00116",
+      "historical_period": "2021",
+      "historical_case": "SG-AEROSPACE-2021",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.286,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.441,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00117",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00117",
+      "historical_period": "2022",
+      "historical_case": "SG-AEROSPACE-2022",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.286,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.441,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00118",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00118",
+      "historical_period": "2018",
+      "historical_case": "SG-BIOMEDICAL-2018",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.52,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00119",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00119",
+      "historical_period": "2019",
+      "historical_case": "SG-BIOMEDICAL-2019",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.52,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00120",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00120",
+      "historical_period": "2020",
+      "historical_case": "SG-BIOMEDICAL-2020",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.52,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00121",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00121",
+      "historical_period": "2021",
+      "historical_case": "SG-BIOMEDICAL-2021",
+      "outcome_direction": "supports",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.62,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00122",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00122",
+      "historical_period": "2022",
+      "historical_case": "SG-BIOMEDICAL-2022",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.52,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00123",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00123",
+      "historical_period": "2023",
+      "historical_case": "SG-BIOMEDICAL-2023",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.52,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00124",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00124",
+      "historical_period": "2010",
+      "historical_case": "SG-CAPACITY-EXPANSION-2010",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.143,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.263,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00125",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00125",
+      "historical_period": "2018",
+      "historical_case": "SG-CAPACITY-EXPANSION-2018",
+      "outcome_direction": "supports",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.62,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00126",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00126",
+      "historical_period": "2019",
+      "historical_case": "SG-CAPACITY-EXPANSION-2019",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.52,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00127",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00127",
+      "historical_period": "2021",
+      "historical_case": "SG-CAPACITY-EXPANSION-2021",
+      "outcome_direction": "supports",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.62,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00128",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00128",
+      "historical_period": "2022",
+      "historical_case": "SG-CAPACITY-EXPANSION-2022",
+      "outcome_direction": "supports",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.62,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00129",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00129",
+      "historical_period": "2023",
+      "historical_case": "SG-CAPACITY-EXPANSION-2023",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.52,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00130",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00130",
+      "historical_period": "2019",
+      "historical_case": "SG-CARBON-TAX-2019",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.143,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.363,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00131",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00131",
+      "historical_period": "2018",
+      "historical_case": "SG-CHEMICALS-2018",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.52,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00132",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00132",
+      "historical_period": "2019",
+      "historical_case": "SG-CHEMICALS-2019",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.42,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00133",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00133",
+      "historical_period": "2020",
+      "historical_case": "SG-CHEMICALS-2020",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.52,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00134",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00134",
+      "historical_period": "2021",
+      "historical_case": "SG-CHEMICALS-2021",
+      "outcome_direction": "supports",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.62,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00135",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00135",
+      "historical_period": "2022",
+      "historical_case": "SG-CHEMICALS-2022",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.52,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00136",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00136",
+      "historical_period": "2023",
+      "historical_case": "SG-CHEMICALS-2023",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.52,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00137",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00137",
+      "historical_period": "2018",
+      "historical_case": "SG-ELECTRONICS-2018",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.857,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.755,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00138",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00138",
+      "historical_period": "2019",
+      "historical_case": "SG-ELECTRONICS-2019",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.857,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.755,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00139",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00139",
+      "historical_period": "2020",
+      "historical_case": "SG-ELECTRONICS-2020",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.714,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.677,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00140",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00140",
+      "historical_period": "2021",
+      "historical_case": "SG-ELECTRONICS-2021",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.714,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.677,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00141",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00141",
+      "historical_period": "2022",
+      "historical_case": "SG-ELECTRONICS-2022",
+      "outcome_direction": "supports",
+      "outcome_mechanism_fit_score": 1,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.934,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00142",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00142",
+      "historical_period": "2023",
+      "historical_case": "SG-ELECTRONICS-2023",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.857,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.755,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00143",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00143",
+      "historical_period": "2001",
+      "historical_case": "SG-EXPORT-WEAKNESS-2001",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.42,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00144",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00144",
+      "historical_period": "2008",
+      "historical_case": "SG-EXPORT-WEAKNESS-2008",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.42,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00145",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00145",
+      "historical_period": "2009",
+      "historical_case": "SG-EXPORT-WEAKNESS-2009",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.42,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00146",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00146",
+      "historical_period": "2019",
+      "historical_case": "SG-EXPORT-WEAKNESS-2019",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.143,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.263,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00147",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00147",
+      "historical_period": "2020",
+      "historical_case": "SG-EXPORT-WEAKNESS-2020",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.143,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.263,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00148",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00148",
+      "historical_period": "2021",
+      "historical_case": "SG-FOREIGN-WORKER-CONSTRAINTS-2021",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.143,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.263,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00149",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00149",
+      "historical_period": "2025",
+      "historical_case": "SG-GLOBAL-MINIMUM-TAX-2025",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.143,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.263,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00150",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00150",
+      "historical_period": "2023",
+      "historical_case": "SG-GST-INCREASE-2023",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.143,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.263,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00151",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00151",
+      "historical_period": "2001",
+      "historical_case": "SG-INVENTORY-CYCLE-2001",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.42,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00152",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00152",
+      "historical_period": "2009",
+      "historical_case": "SG-INVENTORY-CYCLE-2009",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.42,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00153",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00153",
+      "historical_period": "2019",
+      "historical_case": "SG-INVENTORY-CYCLE-2019",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.714,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.677,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00154",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00154",
+      "historical_period": "2020",
+      "historical_case": "SG-JOBS-SUPPORT-SCHEME-2020",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.143,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.263,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00155",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00155",
+      "historical_period": "2020 Aug",
+      "historical_case": "SG-M355381-1_1_1-2020-aug",
+      "outcome_direction": "supports",
+      "outcome_mechanism_fit_score": 0.571,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.698,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00156",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00156",
+      "historical_period": "2020",
+      "historical_case": "SG-MACHINERY-2020",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.571,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.598,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00157",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00157",
+      "historical_period": "2021",
+      "historical_case": "SG-MACHINERY-2021",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.571,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.598,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00158",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00158",
+      "historical_period": "2022",
+      "historical_case": "SG-MACHINERY-2022",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.571,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.598,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00159",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00159",
+      "historical_period": "2001",
+      "historical_case": "SG-MANUFACTURING-2001",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.42,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00160",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00160",
+      "historical_period": "2008",
+      "historical_case": "SG-MANUFACTURING-2008",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.42,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00161",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00161",
+      "historical_period": "2009",
+      "historical_case": "SG-MANUFACTURING-2009",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.42,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00162",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00162",
+      "historical_period": "2020",
+      "historical_case": "SG-MANUFACTURING-2020-SHOCK",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.42,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00163",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00163",
+      "historical_period": null,
+      "historical_case": "SG-OPERATIONAL-DISRUPTION-2003",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.143,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.263,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00164",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00164",
+      "historical_period": null,
+      "historical_case": "SG-OPERATIONAL-DISRUPTION-2020",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.143,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.263,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00165",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00165",
+      "historical_period": null,
+      "historical_case": "SG-OPERATIONAL-DISRUPTION-2022",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.143,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.263,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00166",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00166",
+      "historical_period": "2020",
+      "historical_case": "SG-OPERATIONS-2020-COVID",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.52,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00167",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00167",
+      "historical_period": "2021",
+      "historical_case": "SG-OPERATIONS-2021-SUPPLY",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.52,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00168",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00168",
+      "historical_period": "2022",
+      "historical_case": "SG-OPERATIONS-2022-SUPPLY",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.52,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00169",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00169",
+      "historical_period": "2018",
+      "historical_case": "SG-PETROCHEMICALS-2018",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.52,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00170",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00170",
+      "historical_period": "2019",
+      "historical_case": "SG-PETROCHEMICALS-2019",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.42,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00171",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00171",
+      "historical_period": "2020",
+      "historical_case": "SG-PETROCHEMICALS-2020",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.42,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00172",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00172",
+      "historical_period": "2022",
+      "historical_case": "SG-PETROCHEMICALS-2022",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.52,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00173",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00173",
+      "historical_period": "2023",
+      "historical_case": "SG-PETROCHEMICALS-2023",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.52,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00174",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00174",
+      "historical_period": "2018",
+      "historical_case": "SG-PETROLEUM-2018",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.52,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00175",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00175",
+      "historical_period": "2019",
+      "historical_case": "SG-PETROLEUM-2019",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.52,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00176",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00176",
+      "historical_period": "2020",
+      "historical_case": "SG-PETROLEUM-2020",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.143,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.263,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00177",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00177",
+      "historical_period": "2021",
+      "historical_case": "SG-PETROLEUM-2021",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.52,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00178",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00178",
+      "historical_period": "2022",
+      "historical_case": "SG-PETROLEUM-2022",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.52,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00179",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00179",
+      "historical_period": "2020",
+      "historical_case": "SG-PHARMACEUTICALS-2020",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.52,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00180",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00180",
+      "historical_period": "2021",
+      "historical_case": "SG-PHARMACEUTICALS-2021",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.52,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00181",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00181",
+      "historical_period": "2022",
+      "historical_case": "SG-PHARMACEUTICALS-2022",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.52,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00182",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00182",
+      "historical_period": "2018",
+      "historical_case": "SG-PRECISION-ENGINEERING-2018",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.571,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.598,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00183",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00183",
+      "historical_period": "2019",
+      "historical_case": "SG-PRECISION-ENGINEERING-2019",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.571,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.598,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00184",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00184",
+      "historical_period": "2020",
+      "historical_case": "SG-PRECISION-ENGINEERING-2020",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.42,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00185",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00185",
+      "historical_period": "2021",
+      "historical_case": "SG-PRECISION-ENGINEERING-2021",
+      "outcome_direction": "supports",
+      "outcome_mechanism_fit_score": 0.714,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.777,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00186",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00186",
+      "historical_period": "2022",
+      "historical_case": "SG-PRECISION-ENGINEERING-2022",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.52,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00187",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00187",
+      "historical_period": "2023",
+      "historical_case": "SG-PRECISION-ENGINEERING-2023",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.714,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.677,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00188",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00188",
+      "historical_period": "2020",
+      "historical_case": "SG-PRODUCTIVITY-SOLUTIONS-GRANT",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.143,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.363,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00189",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00189",
+      "historical_period": "2020",
+      "historical_case": "SG-REFINING-2020",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.52,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00190",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00190",
+      "historical_period": "2021",
+      "historical_case": "SG-REFINING-2021",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.52,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00191",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00191",
+      "historical_period": "2018",
+      "historical_case": "SG-SEMICONDUCTOR-2018",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.857,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.755,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00192",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00192",
+      "historical_period": "2019",
+      "historical_case": "SG-SEMICONDUCTOR-2019",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.857,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.755,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00193",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00193",
+      "historical_period": "2022",
+      "historical_case": "SG-SEMICONDUCTOR-2022",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.857,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.755,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00194",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00194",
+      "historical_period": "2023",
+      "historical_case": "SG-SEMICONDUCTOR-2023",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.857,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.755,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00195",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00195",
+      "historical_period": "2021",
+      "historical_case": "SG-SEMICONDUCTOR-RECOVERY-2021",
+      "outcome_direction": "supports",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.62,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00196",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00196",
+      "historical_period": "2020",
+      "historical_case": "SG-TOTAL-MANUFACTURING-2020",
+      "outcome_direction": "contradicts",
+      "outcome_mechanism_fit_score": 0.429,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.42,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00197",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00197",
+      "historical_period": "2018",
+      "historical_case": "SG-TRANSPORT-ENGINEERING-2018",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.286,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.441,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00198",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00198",
+      "historical_period": "2019",
+      "historical_case": "SG-TRANSPORT-ENGINEERING-2019",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.286,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.441,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00199",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00199",
+      "historical_period": "2020",
+      "historical_case": "SG-TRANSPORT-ENGINEERING-2020",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.286,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.441,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00200",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00200",
+      "historical_period": "2021",
+      "historical_case": "SG-TRANSPORT-ENGINEERING-2021",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.286,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.441,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00201",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00201",
+      "historical_period": "2022",
+      "historical_case": "SG-TRANSPORT-ENGINEERING-2022",
+      "outcome_direction": "supports",
+      "outcome_mechanism_fit_score": 0.286,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.541,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "matrix_id": "RME_00202",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "historical_outcome_id": "OUTCOME_00202",
+      "historical_period": "2023",
+      "historical_case": "SG-TRANSPORT-ENGINEERING-2023",
+      "outcome_direction": "neutral",
+      "outcome_mechanism_fit_score": 0.286,
+      "current_average_link_strength": 0.736,
+      "replay_support_score": 0.441,
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    }
+  ]
+}

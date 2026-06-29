@@ -1,0 +1,93 @@
+{
+  "plan_version": "dataset-state-cleanup-plan-v0.1",
+  "generated_at": "2026-06-25T09:32:58.307Z",
+  "purpose": "Creates a read-only cleanup plan to enforce verified-dataset-registry as the source of truth for mutable dataset governance state.",
+  "mutation_allowed": false,
+  "source_of_truth": {
+    "dataset_lifecycle_state": "data/intelligence/verified-dataset-registry-v0.1.json",
+    "parsed_datasets": "Immutable/semi-immutable dataset payload, values, source metadata, and load metadata only."
+  },
+  "dataset_count": 7,
+  "action_count": 7,
+  "cleanup_plan": [
+    {
+      "dataset_id": "SG_CHEMICALS_OUTPUT_INDEX",
+      "parsed_file": "data/intelligence/parsed-datasets/SG_CHEMICALS_OUTPUT_INDEX.json",
+      "registry_verification_status": "verified",
+      "parsed_verification_status": "loaded_pending_review",
+      "mutable_governance_fields_found": [
+        "verification_status",
+        "reviewed_at"
+      ],
+      "recommended_action": "remove_mutable_governance_fields_from_parsed_dataset"
+    },
+    {
+      "dataset_id": "SG_PETROLEUM_OUTPUT_INDEX",
+      "parsed_file": "data/intelligence/parsed-datasets/SG_PETROLEUM_OUTPUT_INDEX.json",
+      "registry_verification_status": "verified",
+      "parsed_verification_status": "loaded_pending_review",
+      "mutable_governance_fields_found": [
+        "verification_status",
+        "reviewed_at"
+      ],
+      "recommended_action": "remove_mutable_governance_fields_from_parsed_dataset"
+    },
+    {
+      "dataset_id": "SG_PRECISION_ENGINEERING_OUTPUT_INDEX",
+      "parsed_file": "data/intelligence/parsed-datasets/SG_PRECISION_ENGINEERING_OUTPUT_INDEX.json",
+      "registry_verification_status": "verified",
+      "parsed_verification_status": "loaded_pending_review",
+      "mutable_governance_fields_found": [
+        "verification_status",
+        "reviewed_at"
+      ],
+      "recommended_action": "remove_mutable_governance_fields_from_parsed_dataset"
+    },
+    {
+      "dataset_id": "SG_SEMICONDUCTOR_OUTPUT_INDEX",
+      "parsed_file": "data/intelligence/parsed-datasets/SG_SEMICONDUCTOR_OUTPUT_INDEX.json",
+      "registry_verification_status": "verified",
+      "parsed_verification_status": "loaded_pending_review",
+      "mutable_governance_fields_found": [
+        "verification_status"
+      ],
+      "recommended_action": "remove_mutable_governance_fields_from_parsed_dataset"
+    },
+    {
+      "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+      "parsed_file": "data/intelligence/parsed-datasets/SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.json",
+      "registry_verification_status": "verified",
+      "parsed_verification_status": "loaded_pending_review",
+      "mutable_governance_fields_found": [
+        "verification_status",
+        "reviewed_at"
+      ],
+      "recommended_action": "remove_mutable_governance_fields_from_parsed_dataset"
+    },
+    {
+      "dataset_id": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX",
+      "parsed_file": "data/intelligence/parsed-datasets/SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.json",
+      "registry_verification_status": "verified",
+      "parsed_verification_status": "loaded_pending_review",
+      "mutable_governance_fields_found": [
+        "verification_status",
+        "reviewed_at"
+      ],
+      "recommended_action": "remove_mutable_governance_fields_from_parsed_dataset"
+    },
+    {
+      "dataset_id": "SG_BIOMEDICAL_OUTPUT_INDEX",
+      "parsed_file": "data/intelligence/parsed-datasets/SG_BIOMEDICAL_OUTPUT_INDEX.json",
+      "registry_verification_status": "verified",
+      "parsed_verification_status": "loaded_pending_review",
+      "mutable_governance_fields_found": [
+        "verification_status"
+      ],
+      "recommended_action": "remove_mutable_governance_fields_from_parsed_dataset"
+    }
+  ],
+  "governance": {
+    "human_review_required": true,
+    "next_step": "Review this plan. If approved, run a separate cleanup executor that removes mutable governance fields from parsed dataset files."
+  }
+}

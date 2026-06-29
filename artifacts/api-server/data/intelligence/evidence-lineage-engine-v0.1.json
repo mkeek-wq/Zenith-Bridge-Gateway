@@ -1,0 +1,63 @@
+{
+  "registry_version": "evidence-lineage-engine-v0.1",
+  "created_at": "2026-06-09T07:35:21.950Z",
+  "doctrine": {
+    "every_staged_record_requires_lineage": true,
+    "lineage_does_not_authorize_production": true,
+    "human_review_required_for_promotion": true
+  },
+  "inputs": {
+    "staged_records": 1,
+    "latest_manifest_found": true
+  },
+  "summary": {
+    "lineage_items_created": 1,
+    "complete_lineage_items": 1,
+    "incomplete_lineage_items": 0,
+    "approved_for_production": 0
+  },
+  "lineage_items": [
+    {
+      "lineage_id": "LINEAGE_00001",
+      "staged_evidence_id": "STAGED_c62fad1d432441ec050e4a8b",
+      "batch_id": "INGEST_BATCH_2026-06-08T13-20-48-942Z",
+      "metric_name": "TEST_SERVICES_ACTIVITY_INDEX",
+      "period": "2026-Q2",
+      "value": 7.2,
+      "source_title": "Controlled Test Source",
+      "source_file": "data/ingestion/pending/test-bulk-ingestion-v0.1.json",
+      "candidate_record_id": "CAND_000001",
+      "lineage_chain": [
+        {
+          "step": "batch_manifest_created",
+          "batch_id": "INGEST_BATCH_2026-06-08T13-20-48-942Z",
+          "status": "found"
+        },
+        {
+          "step": "dry_run_validation",
+          "status": "passed",
+          "candidate_record_id": "CAND_000001"
+        },
+        {
+          "step": "duplicate_detection",
+          "status": "new_record_candidate"
+        },
+        {
+          "step": "controlled_executor",
+          "status": "staged_not_promoted",
+          "staged_evidence_id": "STAGED_c62fad1d432441ec050e4a8b"
+        }
+      ],
+      "review_state": {
+        "human_reviewed": false,
+        "approved_for_production": false,
+        "rejection_reason": null
+      },
+      "governance": {
+        "lineage_complete": true,
+        "production_promotion_allowed": false,
+        "human_review_required": true
+      }
+    }
+  ]
+}

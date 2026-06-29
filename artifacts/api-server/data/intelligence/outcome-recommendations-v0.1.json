@@ -1,0 +1,179 @@
+{
+  "recommendation_version": "outcome-recommendation-v0.2",
+  "generated_at": "2026-06-03T08:00:45.232Z",
+  "source_files": {
+    "similarity": "data/intelligence/case-similarity-v0.1.json",
+    "historical_outcomes": "data/intelligence/historical-outcomes-v0.1.json",
+    "governance": "config/similarity-governance-v0.1.json"
+  },
+  "governance": {
+    "version": "similarity-governance-v0.1",
+    "minimum_similarity_percent": 60,
+    "recommendation_strength": {
+      "weak": {
+        "min_similarity_percent": 60,
+        "min_supporting_cases": 1,
+        "min_support_ratio": 0
+      },
+      "moderate": {
+        "min_similarity_percent": 75,
+        "min_supporting_cases": 2,
+        "min_support_ratio": 0.5
+      },
+      "strong": {
+        "min_similarity_percent": 85,
+        "min_supporting_cases": 3,
+        "min_support_ratio": 0.6
+      }
+    }
+  },
+  "recommendations": [
+    {
+      "case_id": "SG-M355381-1_1-2026-apr",
+      "recommendation_available": true,
+      "recommended_outcome": {
+        "primary_driver": "MKT_001",
+        "primary_driver_name": "Global Demand Surge",
+        "recommendation_strength": "weak",
+        "supporting_cases": 1,
+        "support_ratio": 1,
+        "max_similarity_percent": 63.64,
+        "average_similarity_percent": 63.64,
+        "supporting_case_ids": [
+          "SG-M355381-1_1_3-2026-apr"
+        ]
+      },
+      "no_recommendation_reason": null,
+      "eligible_similar_cases": 1,
+      "governance_applied": "similarity-governance-v0.1",
+      "candidate_outcomes": [
+        {
+          "primary_driver": "MKT_001",
+          "primary_driver_name": "Global Demand Surge",
+          "recommendation_strength": "weak",
+          "supporting_cases": 1,
+          "support_ratio": 1,
+          "max_similarity_percent": 63.64,
+          "average_similarity_percent": 63.64,
+          "supporting_case_ids": [
+            "SG-M355381-1_1_3-2026-apr"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_1_1-2026-apr",
+      "recommendation_available": true,
+      "recommended_outcome": {
+        "primary_driver": "MKT_001",
+        "primary_driver_name": "Global Demand Surge",
+        "recommendation_strength": "weak",
+        "supporting_cases": 1,
+        "support_ratio": 1,
+        "max_similarity_percent": 63.64,
+        "average_similarity_percent": 63.64,
+        "supporting_case_ids": [
+          "SG-M355381-1_1_3-2026-apr"
+        ]
+      },
+      "no_recommendation_reason": null,
+      "eligible_similar_cases": 1,
+      "governance_applied": "similarity-governance-v0.1",
+      "candidate_outcomes": [
+        {
+          "primary_driver": "MKT_001",
+          "primary_driver_name": "Global Demand Surge",
+          "recommendation_strength": "weak",
+          "supporting_cases": 1,
+          "support_ratio": 1,
+          "max_similarity_percent": 63.64,
+          "average_similarity_percent": 63.64,
+          "supporting_case_ids": [
+            "SG-M355381-1_1_3-2026-apr"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_1_3-2026-apr",
+      "recommendation_available": false,
+      "recommended_outcome": null,
+      "no_recommendation_reason": "no_similar_closed_cases_above_threshold",
+      "eligible_similar_cases": 0,
+      "governance_applied": "similarity-governance-v0.1",
+      "candidate_outcomes": []
+    },
+    {
+      "case_id": "SG-M355381-1_2_1-2026-apr",
+      "recommendation_available": false,
+      "recommended_outcome": null,
+      "no_recommendation_reason": "no_similar_closed_cases_above_threshold",
+      "eligible_similar_cases": 0,
+      "governance_applied": "similarity-governance-v0.1",
+      "candidate_outcomes": []
+    },
+    {
+      "case_id": "SG-M355381-1_2_2-2026-apr",
+      "recommendation_available": false,
+      "recommended_outcome": null,
+      "no_recommendation_reason": "no_similar_closed_cases_above_threshold",
+      "eligible_similar_cases": 0,
+      "governance_applied": "similarity-governance-v0.1",
+      "candidate_outcomes": []
+    },
+    {
+      "case_id": "SG-M355381-1_2_4-2026-apr",
+      "recommendation_available": false,
+      "recommended_outcome": null,
+      "no_recommendation_reason": "no_similar_closed_cases_above_threshold",
+      "eligible_similar_cases": 0,
+      "governance_applied": "similarity-governance-v0.1",
+      "candidate_outcomes": []
+    },
+    {
+      "case_id": "SG-M355381-1_3-2026-apr",
+      "recommendation_available": false,
+      "recommended_outcome": null,
+      "no_recommendation_reason": "no_similar_closed_cases_above_threshold",
+      "eligible_similar_cases": 0,
+      "governance_applied": "similarity-governance-v0.1",
+      "candidate_outcomes": []
+    },
+    {
+      "case_id": "SG-M355381-1_3_1-2026-apr",
+      "recommendation_available": false,
+      "recommended_outcome": null,
+      "no_recommendation_reason": "no_similar_closed_cases_above_threshold",
+      "eligible_similar_cases": 0,
+      "governance_applied": "similarity-governance-v0.1",
+      "candidate_outcomes": []
+    },
+    {
+      "case_id": "SG-M355381-1_3_2-2026-apr",
+      "recommendation_available": false,
+      "recommended_outcome": null,
+      "no_recommendation_reason": "no_similar_closed_cases_above_threshold",
+      "eligible_similar_cases": 0,
+      "governance_applied": "similarity-governance-v0.1",
+      "candidate_outcomes": []
+    },
+    {
+      "case_id": "SG-M355381-1_5_2-2026-apr",
+      "recommendation_available": false,
+      "recommended_outcome": null,
+      "no_recommendation_reason": "no_similar_closed_cases_above_threshold",
+      "eligible_similar_cases": 0,
+      "governance_applied": "similarity-governance-v0.1",
+      "candidate_outcomes": []
+    },
+    {
+      "case_id": "SG-M355381-1_5_3-2026-apr",
+      "recommendation_available": false,
+      "recommended_outcome": null,
+      "no_recommendation_reason": "no_similar_closed_cases_above_threshold",
+      "eligible_similar_cases": 0,
+      "governance_applied": "similarity-governance-v0.1",
+      "candidate_outcomes": []
+    }
+  ]
+}

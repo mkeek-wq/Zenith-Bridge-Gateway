@@ -1,0 +1,12 @@
+{
+  "historical_evidence_pilot_version": "historical-evidence-pilot-v0.1",
+  "case_id": "SG-BIOMEDICAL-2021",
+  "period": "2021",
+  "series_name": "Biomedical Manufacturing",
+  "evidence_items": [
+    "Vaccine production increased pharmaceutical output.",
+    "Global healthcare demand supported manufacturing activity.",
+    "Pharmaceutical exports rose during the pandemic.",
+    "Medical product demand remained elevated."
+  ]
+}

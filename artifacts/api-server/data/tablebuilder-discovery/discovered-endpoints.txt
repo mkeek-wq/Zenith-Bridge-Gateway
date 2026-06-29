@@ -1,0 +1,11 @@
+/api/doswebcontent/1/SubjectGrouping/tree-data?tableCode=M355381
+
+/api/doswebcontent/1/TitleChartTypes/FunctionsAndChartTypeDetails/M355381
+
+/api/doswebcontent/1/RelatedGroup/RelatedInformationDetails/M355381
+
+Table:
+M355381
+
+Title:
+Index Of Industrial Production By Industry Cluster (2025=100)

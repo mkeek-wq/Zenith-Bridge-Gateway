@@ -1,0 +1,139 @@
+{
+  "validated_mechanism_registry_version": "validated-mechanism-registry-v0.1",
+  "generated_at": "2026-06-07T15:17:26.192Z",
+  "source_confidence_framework": "data/intelligence/confidence-framework-v0.1.json",
+  "source_counter_evidence_registry": "data/intelligence/counter-evidence-registry-v0.1.json",
+  "source_hypothesis_registry": "data/intelligence/hypothesis-registry-v0.1.json",
+  "policy": {
+    "principle": "Validated mechanism registry v0.1 replaces approved-principle language with confidence-based, challengeable mechanisms.",
+    "production_mutation_allowed": false,
+    "human_validation_required": true,
+    "mechanism_is_not_truth": true,
+    "mechanism_must_not_override_evidence": true,
+    "historical_similarity_does_not_guarantee_future_outcomes": true
+  },
+  "summary": {
+    "mechanism_candidates_created": 3,
+    "validated_mechanisms_count": 0,
+    "pending_counter_evidence_review": 3,
+    "driver_ids": [
+      "MKT_006",
+      "MKT_010",
+      "MKT_002"
+    ]
+  },
+  "mechanism_candidates": [
+    {
+      "mechanism_candidate_id": "VMC_001",
+      "mechanism_candidate_version": "validated-mechanism-candidate-v0.1",
+      "hypothesis_id": "HYP_001",
+      "counter_evidence_review_id": "CER_001",
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "mechanism_statement": "Policy and regulatory changes affect industrial outcomes through cost, incentive, compliance, or capacity-support channels.",
+      "mechanism_type": "policy_transmission_mechanism",
+      "expected_direction": "Policy measures change firm behaviour by altering costs, incentives, constraints, or available support.",
+      "confidence_score": 0.65,
+      "confidence_band": "moderate",
+      "confidence_label": "Moderate confidence",
+      "validation_status": "pending_counter_evidence_review",
+      "validated_mechanism": false,
+      "validated_mechanism_id": null,
+      "validation_requirements": [
+        "Counter-evidence search completed.",
+        "Pro evidence reviewed.",
+        "Contra evidence reviewed.",
+        "Ambiguous evidence recorded.",
+        "Scope and limitations defined.",
+        "Human validation decision recorded."
+      ],
+      "usage_constraints": {
+        "may_inform_confidence_adjustment": false,
+        "may_override_current_evidence": false,
+        "may_drive_primary_assessment": false,
+        "evidence_remains_primary": true
+      },
+      "governance": {
+        "mechanism_not_validated_yet": true,
+        "human_review_required": true,
+        "production_mutation_allowed": false,
+        "note": "This is a mechanism candidate only. It may not influence evidence assessment until validated, and even then may only adjust confidence."
+      }
+    },
+    {
+      "mechanism_candidate_id": "VMC_002",
+      "mechanism_candidate_version": "validated-mechanism-candidate-v0.1",
+      "hypothesis_id": "HYP_002",
+      "counter_evidence_review_id": "CER_002",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "mechanism_statement": "External demand shocks propagate through export-sensitive sectors before appearing in broader manufacturing outcomes.",
+      "mechanism_type": "external_demand_transmission_mechanism",
+      "expected_direction": "Demand-sensitive sectors weaken first during external downturns and may recover earlier when demand conditions improve.",
+      "confidence_score": 0.7,
+      "confidence_band": "moderate",
+      "confidence_label": "Moderate confidence",
+      "validation_status": "pending_counter_evidence_review",
+      "validated_mechanism": false,
+      "validated_mechanism_id": null,
+      "validation_requirements": [
+        "Counter-evidence search completed.",
+        "Pro evidence reviewed.",
+        "Contra evidence reviewed.",
+        "Ambiguous evidence recorded.",
+        "Scope and limitations defined.",
+        "Human validation decision recorded."
+      ],
+      "usage_constraints": {
+        "may_inform_confidence_adjustment": false,
+        "may_override_current_evidence": false,
+        "may_drive_primary_assessment": false,
+        "evidence_remains_primary": true
+      },
+      "governance": {
+        "mechanism_not_validated_yet": true,
+        "human_review_required": true,
+        "production_mutation_allowed": false,
+        "note": "This is a mechanism candidate only. It may not influence evidence assessment until validated, and even then may only adjust confidence."
+      }
+    },
+    {
+      "mechanism_candidate_id": "VMC_003",
+      "mechanism_candidate_version": "validated-mechanism-candidate-v0.1",
+      "hypothesis_id": "HYP_003",
+      "counter_evidence_review_id": "CER_003",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "mechanism_statement": "Inventory adjustments amplify manufacturing downturns and recoveries by causing production changes that exceed the underlying change in demand.",
+      "mechanism_type": "amplification_mechanism",
+      "expected_direction": "Inventory drawdowns deepen production cuts; restocking supports production recovery.",
+      "confidence_score": 0.75,
+      "confidence_band": "strong",
+      "confidence_label": "Strong confidence",
+      "validation_status": "pending_counter_evidence_review",
+      "validated_mechanism": false,
+      "validated_mechanism_id": null,
+      "validation_requirements": [
+        "Counter-evidence search completed.",
+        "Pro evidence reviewed.",
+        "Contra evidence reviewed.",
+        "Ambiguous evidence recorded.",
+        "Scope and limitations defined.",
+        "Human validation decision recorded."
+      ],
+      "usage_constraints": {
+        "may_inform_confidence_adjustment": false,
+        "may_override_current_evidence": false,
+        "may_drive_primary_assessment": false,
+        "evidence_remains_primary": true
+      },
+      "governance": {
+        "mechanism_not_validated_yet": true,
+        "human_review_required": true,
+        "production_mutation_allowed": false,
+        "note": "This is a mechanism candidate only. It may not influence evidence assessment until validated, and even then may only adjust confidence."
+      }
+    }
+  ],
+  "validated_mechanisms": []
+}

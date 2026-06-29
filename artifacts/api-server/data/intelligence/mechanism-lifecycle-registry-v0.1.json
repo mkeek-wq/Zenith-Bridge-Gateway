@@ -1,0 +1,180 @@
+{
+  "mechanism_lifecycle_registry_version": "mechanism-lifecycle-registry-v0.1",
+  "generated_at": "2026-06-08T01:24:33.220Z",
+  "source_mechanism_validation_registry": "data/intelligence/mechanism-validation-registry-v0.1.json",
+  "policy": {
+    "principle": "Mechanism lifecycle registry v0.1 ensures mechanisms are challengeable over time and can be strengthened, weakened, or retired.",
+    "production_mutation_allowed": false,
+    "human_review_required_for_state_change": true,
+    "mechanisms_are_not_permanent_truths": true,
+    "past_results_do_not_guarantee_future_outcomes": true
+  },
+  "summary": {
+    "lifecycle_items_created": 3,
+    "validated": 0,
+    "candidate_not_validated": 3,
+    "retired": 0,
+    "under_challenge": 0
+  },
+  "lifecycle_items": [
+    {
+      "lifecycle_id": "MLC_001",
+      "lifecycle_version": "mechanism-lifecycle-v0.1",
+      "mechanism_validation_review_id": "MVR_001",
+      "mechanism_candidate_id": "VMC_001",
+      "hypothesis_id": "HYP_001",
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "mechanism_statement": "Policy and regulatory changes affect industrial outcomes through cost, incentive, compliance, or capacity-support channels.",
+      "mechanism_type": "policy_transmission_mechanism",
+      "lifecycle_status": "candidate_not_validated",
+      "validated_mechanism": false,
+      "confidence_score": 0.65,
+      "confidence_band": "moderate",
+      "lifecycle_events": [
+        {
+          "event_type": "candidate_created",
+          "event_date": "2026-06-08T01:24:33.219Z",
+          "note": "Mechanism candidate exists but is not validated."
+        },
+        {
+          "event_type": "validation_blocked",
+          "event_date": "2026-06-08T01:24:33.219Z",
+          "note": "Validation blocked pending falsification and counter-evidence review."
+        }
+      ],
+      "future_lifecycle_states": [
+        "validated",
+        "strengthened",
+        "weakened",
+        "under_challenge",
+        "retired"
+      ],
+      "challenge_rules": {
+        "new_counter_evidence_can_weaken": true,
+        "failed_prediction_can_weaken": true,
+        "strong_new_evidence_can_strengthen": true,
+        "repeated_failure_can_retire": true,
+        "periodic_review_required": true
+      },
+      "permitted_use": {
+        "current_use": "none",
+        "may_adjust_confidence": false,
+        "may_override_evidence": false,
+        "may_drive_primary_assessment": false
+      },
+      "governance": {
+        "mechanism_lifecycle_tracked": true,
+        "human_review_required_for_state_change": true,
+        "production_mutation_allowed": false,
+        "note": "This lifecycle entry ensures mechanisms can be strengthened, weakened, challenged, or retired over time."
+      }
+    },
+    {
+      "lifecycle_id": "MLC_002",
+      "lifecycle_version": "mechanism-lifecycle-v0.1",
+      "mechanism_validation_review_id": "MVR_002",
+      "mechanism_candidate_id": "VMC_002",
+      "hypothesis_id": "HYP_002",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "mechanism_statement": "External demand shocks propagate through export-sensitive sectors before appearing in broader manufacturing outcomes.",
+      "mechanism_type": "external_demand_transmission_mechanism",
+      "lifecycle_status": "candidate_not_validated",
+      "validated_mechanism": false,
+      "confidence_score": 0.7,
+      "confidence_band": "moderate",
+      "lifecycle_events": [
+        {
+          "event_type": "candidate_created",
+          "event_date": "2026-06-08T01:24:33.219Z",
+          "note": "Mechanism candidate exists but is not validated."
+        },
+        {
+          "event_type": "validation_blocked",
+          "event_date": "2026-06-08T01:24:33.219Z",
+          "note": "Validation blocked pending falsification and counter-evidence review."
+        }
+      ],
+      "future_lifecycle_states": [
+        "validated",
+        "strengthened",
+        "weakened",
+        "under_challenge",
+        "retired"
+      ],
+      "challenge_rules": {
+        "new_counter_evidence_can_weaken": true,
+        "failed_prediction_can_weaken": true,
+        "strong_new_evidence_can_strengthen": true,
+        "repeated_failure_can_retire": true,
+        "periodic_review_required": true
+      },
+      "permitted_use": {
+        "current_use": "none",
+        "may_adjust_confidence": false,
+        "may_override_evidence": false,
+        "may_drive_primary_assessment": false
+      },
+      "governance": {
+        "mechanism_lifecycle_tracked": true,
+        "human_review_required_for_state_change": true,
+        "production_mutation_allowed": false,
+        "note": "This lifecycle entry ensures mechanisms can be strengthened, weakened, challenged, or retired over time."
+      }
+    },
+    {
+      "lifecycle_id": "MLC_003",
+      "lifecycle_version": "mechanism-lifecycle-v0.1",
+      "mechanism_validation_review_id": "MVR_003",
+      "mechanism_candidate_id": "VMC_003",
+      "hypothesis_id": "HYP_003",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "mechanism_statement": "Inventory adjustments amplify manufacturing downturns and recoveries by causing production changes that exceed the underlying change in demand.",
+      "mechanism_type": "amplification_mechanism",
+      "lifecycle_status": "candidate_not_validated",
+      "validated_mechanism": false,
+      "confidence_score": 0.75,
+      "confidence_band": "strong",
+      "lifecycle_events": [
+        {
+          "event_type": "candidate_created",
+          "event_date": "2026-06-08T01:24:33.219Z",
+          "note": "Mechanism candidate exists but is not validated."
+        },
+        {
+          "event_type": "validation_blocked",
+          "event_date": "2026-06-08T01:24:33.219Z",
+          "note": "Validation blocked pending falsification and counter-evidence review."
+        }
+      ],
+      "future_lifecycle_states": [
+        "validated",
+        "strengthened",
+        "weakened",
+        "under_challenge",
+        "retired"
+      ],
+      "challenge_rules": {
+        "new_counter_evidence_can_weaken": true,
+        "failed_prediction_can_weaken": true,
+        "strong_new_evidence_can_strengthen": true,
+        "repeated_failure_can_retire": true,
+        "periodic_review_required": true
+      },
+      "permitted_use": {
+        "current_use": "none",
+        "may_adjust_confidence": false,
+        "may_override_evidence": false,
+        "may_drive_primary_assessment": false
+      },
+      "governance": {
+        "mechanism_lifecycle_tracked": true,
+        "human_review_required_for_state_change": true,
+        "production_mutation_allowed": false,
+        "note": "This lifecycle entry ensures mechanisms can be strengthened, weakened, challenged, or retired over time."
+      }
+    }
+  ]
+}

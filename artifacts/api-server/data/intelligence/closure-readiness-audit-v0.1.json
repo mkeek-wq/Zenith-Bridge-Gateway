@@ -1,0 +1,401 @@
+{
+  "closure_readiness_audit_version": "closure-readiness-audit-v0.1",
+  "generated_at": "2026-06-03T11:07:21.416Z",
+  "policy": {
+    "principle": "Cases should only become historical experience when evidence and attribution are strong enough to support closure.",
+    "production_mutation_allowed": false
+  },
+  "summary": {
+    "total_cases": 13,
+    "by_status": {
+      "NEEDS_MORE_EVIDENCE": 11,
+      "OUTCOME_REVIEW_REQUIRED": 1,
+      "NEEDS_ATTRIBUTION_REVIEW": 1
+    }
+  },
+  "audits": [
+    {
+      "case_id": "SG-M355381-1_1-2026-apr",
+      "file_path": "data/cases/case-SG-M355381-1_1-2026-apr.json",
+      "case_status": "investigating",
+      "conclusion_status": "no_conclusion_yet",
+      "series_no": "1.1",
+      "series_name": "Electronics Cluster",
+      "period": "2026 Apr",
+      "has_outcome": false,
+      "current_outcome": {
+        "primary_driver": null,
+        "primary_driver_name": null,
+        "confidence": null,
+        "closed_at": null
+      },
+      "evidence_quality": "poor",
+      "relevant_evidence_count": 0,
+      "attribution_scores": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 10
+      },
+      "known_effect_max": 0,
+      "unknown_dominant": true,
+      "readiness_status": "NEEDS_MORE_EVIDENCE",
+      "reasons": [
+        "No relevant evidence strong enough to support closure."
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_1_1-2026-apr",
+      "file_path": "data/cases/case-SG-M355381-1_1_1-2026-apr.json",
+      "case_status": "investigating",
+      "conclusion_status": "no_conclusion_yet",
+      "series_no": "1.1.1",
+      "series_name": "Semiconductors",
+      "period": "2026 Apr",
+      "has_outcome": false,
+      "current_outcome": {
+        "primary_driver": null,
+        "primary_driver_name": null,
+        "confidence": null,
+        "closed_at": null
+      },
+      "evidence_quality": "poor",
+      "relevant_evidence_count": 0,
+      "attribution_scores": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 10
+      },
+      "known_effect_max": 0,
+      "unknown_dominant": true,
+      "readiness_status": "NEEDS_MORE_EVIDENCE",
+      "reasons": [
+        "No relevant evidence strong enough to support closure."
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_1_3-2026-apr",
+      "file_path": "data/cases/case-SG-M355381-1_1_3-2026-apr.json",
+      "case_status": "closed",
+      "conclusion_status": "attributed",
+      "series_no": "1.1.3",
+      "series_name": "Infocomms & Consumer Electronics",
+      "period": "2026 Apr",
+      "has_outcome": true,
+      "current_outcome": {
+        "primary_driver": "MKT_001",
+        "primary_driver_name": "Global Demand Surge",
+        "confidence": "high",
+        "closed_at": "2026-06-03T08:09:11.553Z",
+        "revision_number": 2,
+        "closure_note": "Reclosed after governed manual review test"
+      },
+      "evidence_quality": "poor",
+      "relevant_evidence_count": 0,
+      "attribution_scores": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 10
+      },
+      "known_effect_max": 0,
+      "unknown_dominant": true,
+      "readiness_status": "OUTCOME_REVIEW_REQUIRED",
+      "reasons": [
+        "Case already has an outcome. Use outcome justification audit."
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_2_1-2026-apr",
+      "file_path": "data/cases/case-SG-M355381-1_2_1-2026-apr.json",
+      "case_status": "investigating",
+      "conclusion_status": "no_conclusion_yet",
+      "series_no": "1.2.1",
+      "series_name": "Petroleum",
+      "period": "2026 Apr",
+      "has_outcome": false,
+      "current_outcome": {
+        "primary_driver": null,
+        "primary_driver_name": null,
+        "confidence": null,
+        "closed_at": null
+      },
+      "evidence_quality": "poor",
+      "relevant_evidence_count": 0,
+      "attribution_scores": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 10
+      },
+      "known_effect_max": 0,
+      "unknown_dominant": true,
+      "readiness_status": "NEEDS_MORE_EVIDENCE",
+      "reasons": [
+        "No relevant evidence strong enough to support closure."
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_2_2-2026-apr",
+      "file_path": "data/cases/case-SG-M355381-1_2_2-2026-apr.json",
+      "case_status": "investigating",
+      "conclusion_status": "no_conclusion_yet",
+      "series_no": "1.2.2",
+      "series_name": "Petrochemicals",
+      "period": "2026 Apr",
+      "has_outcome": false,
+      "current_outcome": {
+        "primary_driver": null,
+        "primary_driver_name": null,
+        "confidence": null,
+        "closed_at": null
+      },
+      "evidence_quality": "poor",
+      "relevant_evidence_count": 0,
+      "attribution_scores": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 10
+      },
+      "known_effect_max": 0,
+      "unknown_dominant": true,
+      "readiness_status": "NEEDS_MORE_EVIDENCE",
+      "reasons": [
+        "No relevant evidence strong enough to support closure."
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_2_4-2026-apr",
+      "file_path": "data/cases/case-SG-M355381-1_2_4-2026-apr.json",
+      "case_status": "investigating",
+      "conclusion_status": "no_conclusion_yet",
+      "series_no": "1.2.4",
+      "series_name": "Other Chemical Products",
+      "period": "2026 Apr",
+      "has_outcome": false,
+      "current_outcome": {
+        "primary_driver": null,
+        "primary_driver_name": null,
+        "confidence": null,
+        "closed_at": null
+      },
+      "evidence_quality": "poor",
+      "relevant_evidence_count": 0,
+      "attribution_scores": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 10
+      },
+      "known_effect_max": 0,
+      "unknown_dominant": true,
+      "readiness_status": "NEEDS_MORE_EVIDENCE",
+      "reasons": [
+        "No relevant evidence strong enough to support closure."
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_3-2026-apr",
+      "file_path": "data/cases/case-SG-M355381-1_3-2026-apr.json",
+      "case_status": "investigating",
+      "conclusion_status": "no_conclusion_yet",
+      "series_no": "1.3",
+      "series_name": "Biomedical Manufacturing Cluster",
+      "period": "2026 Apr",
+      "has_outcome": false,
+      "current_outcome": {
+        "primary_driver": null,
+        "primary_driver_name": null,
+        "confidence": null,
+        "closed_at": null
+      },
+      "evidence_quality": "limited",
+      "relevant_evidence_count": 1,
+      "attribution_scores": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 10
+      },
+      "known_effect_max": 0,
+      "unknown_dominant": true,
+      "readiness_status": "NEEDS_ATTRIBUTION_REVIEW",
+      "reasons": [
+        "Relevant evidence exists, but unknown effect still dominates attribution scores."
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_3_1-2026-apr",
+      "file_path": "data/cases/case-SG-M355381-1_3_1-2026-apr.json",
+      "case_status": "investigating",
+      "conclusion_status": "no_conclusion_yet",
+      "series_no": "1.3.1",
+      "series_name": "Pharmaceuticals",
+      "period": "2026 Apr",
+      "has_outcome": false,
+      "current_outcome": {
+        "primary_driver": null,
+        "primary_driver_name": null,
+        "confidence": null,
+        "closed_at": null
+      },
+      "evidence_quality": "poor",
+      "relevant_evidence_count": 0,
+      "attribution_scores": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 10
+      },
+      "known_effect_max": 0,
+      "unknown_dominant": true,
+      "readiness_status": "NEEDS_MORE_EVIDENCE",
+      "reasons": [
+        "No relevant evidence strong enough to support closure."
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_3_2-2026-apr",
+      "file_path": "data/cases/case-SG-M355381-1_3_2-2026-apr.json",
+      "case_status": "investigating",
+      "conclusion_status": "no_conclusion_yet",
+      "series_no": "1.3.2",
+      "series_name": "Medical Technology",
+      "period": "2026 Apr",
+      "has_outcome": false,
+      "current_outcome": {
+        "primary_driver": null,
+        "primary_driver_name": null,
+        "confidence": null,
+        "closed_at": null
+      },
+      "evidence_quality": "poor",
+      "relevant_evidence_count": 0,
+      "attribution_scores": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 10
+      },
+      "known_effect_max": 0,
+      "unknown_dominant": true,
+      "readiness_status": "NEEDS_MORE_EVIDENCE",
+      "reasons": [
+        "No relevant evidence strong enough to support closure."
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_5_2-2026-apr",
+      "file_path": "data/cases/case-SG-M355381-1_5_2-2026-apr.json",
+      "case_status": "investigating",
+      "conclusion_status": "no_conclusion_yet",
+      "series_no": "1.5.2",
+      "series_name": "Aerospace",
+      "period": "2026 Apr",
+      "has_outcome": false,
+      "current_outcome": {
+        "primary_driver": null,
+        "primary_driver_name": null,
+        "confidence": null,
+        "closed_at": null
+      },
+      "evidence_quality": "poor",
+      "relevant_evidence_count": 0,
+      "attribution_scores": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 10
+      },
+      "known_effect_max": 0,
+      "unknown_dominant": true,
+      "readiness_status": "NEEDS_MORE_EVIDENCE",
+      "reasons": [
+        "No relevant evidence strong enough to support closure."
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_5_3-2026-apr",
+      "file_path": "data/cases/case-SG-M355381-1_5_3-2026-apr.json",
+      "case_status": "investigating",
+      "conclusion_status": "no_conclusion_yet",
+      "series_no": "1.5.3",
+      "series_name": "Land",
+      "period": "2026 Apr",
+      "has_outcome": false,
+      "current_outcome": {
+        "primary_driver": null,
+        "primary_driver_name": null,
+        "confidence": null,
+        "closed_at": null
+      },
+      "evidence_quality": "poor",
+      "relevant_evidence_count": 0,
+      "attribution_scores": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 10
+      },
+      "known_effect_max": 0,
+      "unknown_dominant": true,
+      "readiness_status": "NEEDS_MORE_EVIDENCE",
+      "reasons": [
+        "No relevant evidence strong enough to support closure."
+      ]
+    },
+    {
+      "file_path": "data/cases/case-index-v0.1.json",
+      "has_outcome": false,
+      "current_outcome": null,
+      "evidence_quality": "unknown",
+      "relevant_evidence_count": 0,
+      "attribution_scores": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 0
+      },
+      "known_effect_max": 0,
+      "unknown_dominant": false,
+      "readiness_status": "NEEDS_MORE_EVIDENCE",
+      "reasons": [
+        "No relevant evidence strong enough to support closure."
+      ]
+    },
+    {
+      "file_path": "data/cases/investigation-queue-v0.1.json",
+      "has_outcome": false,
+      "current_outcome": null,
+      "evidence_quality": "unknown",
+      "relevant_evidence_count": 0,
+      "attribution_scores": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 0
+      },
+      "known_effect_max": 0,
+      "unknown_dominant": false,
+      "readiness_status": "NEEDS_MORE_EVIDENCE",
+      "reasons": [
+        "No relevant evidence strong enough to support closure."
+      ]
+    }
+  ]
+}

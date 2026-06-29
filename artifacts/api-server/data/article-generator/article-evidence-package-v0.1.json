@@ -1,0 +1,95 @@
+{
+  "package_version": "article-evidence-package-v0.1",
+  "generated_at": "2026-06-10T13:50:35.495Z",
+  "scope": {
+    "country_anchor": "Singapore",
+    "macro_role": "supporting_context_only",
+    "smurf_integration": "lightweight_manual_seed"
+  },
+  "article_candidate": {
+    "title": "Why Singapore Became One of the World's Most Important Energy Trading Hubs",
+    "status": "draft_ready_pending_verified_figures"
+  },
+  "evidence_summary": {
+    "total_items": 4,
+    "high": 2,
+    "moderate": 2,
+    "developing": 0,
+    "low": 0,
+    "graph_ready": 1
+  },
+  "evidence": [
+    {
+      "claim": "Singapore is a significant global maritime and bunkering hub.",
+      "country": "Singapore",
+      "domain": "energy_trade",
+      "source_name": "Maritime and Port Authority of Singapore",
+      "source_type": "official",
+      "metric": "Bunkering / maritime fuel activity",
+      "value": "pending verified figure",
+      "period": "latest available",
+      "source_confidence": 0.95,
+      "freshness_confidence": 0.75,
+      "evidence_strength": 0.85,
+      "mechanism_confidence": 0.8,
+      "graph_ready": false,
+      "recommended_use": "article_only",
+      "notes": "Use for narrative now; upgrade to article_and_graph after MPA figure is validated.",
+      "article_readiness": "high"
+    },
+    {
+      "claim": "Jurong Island is a major refining, petrochemical, and energy infrastructure cluster.",
+      "country": "Singapore",
+      "domain": "industrial_ecosystem",
+      "source_name": "Singapore Economic Development Board",
+      "source_type": "official",
+      "metric": "Energy and chemicals cluster",
+      "value": "pending verified figure",
+      "period": "latest available",
+      "source_confidence": 0.95,
+      "freshness_confidence": 0.7,
+      "evidence_strength": 0.8,
+      "mechanism_confidence": 0.9,
+      "graph_ready": false,
+      "recommended_use": "article_only",
+      "notes": "Strong mechanism evidence; needs quantified EDB/SingStat figures before graphing.",
+      "article_readiness": "high"
+    },
+    {
+      "claim": "Singapore's energy role is supported by shipping, storage, refining, trading, petrochemicals, and financial services.",
+      "country": "Singapore",
+      "domain": "ecosystem_mechanism",
+      "source_name": "ZNBW / SMURF internal mechanism interpretation",
+      "source_type": "internal_smurf",
+      "metric": "Ecosystem relationship",
+      "value": "qualitative",
+      "period": "current",
+      "source_confidence": 0.65,
+      "freshness_confidence": 0.65,
+      "evidence_strength": 0.7,
+      "mechanism_confidence": 0.85,
+      "graph_ready": true,
+      "recommended_use": "context_only",
+      "notes": "Suitable for ecosystem diagram, not numerical chart.",
+      "article_readiness": "moderate"
+    },
+    {
+      "claim": "Global and regional energy demand trends provide context for Singapore's hub role.",
+      "country": "Singapore",
+      "domain": "macro_context",
+      "source_name": "International Energy Agency",
+      "source_type": "multilateral",
+      "metric": "Energy demand outlook",
+      "value": "pending verified figure",
+      "period": "latest available",
+      "source_confidence": 0.9,
+      "freshness_confidence": 0.7,
+      "evidence_strength": 0.65,
+      "mechanism_confidence": 0.7,
+      "graph_ready": false,
+      "recommended_use": "context_only",
+      "notes": "Use as macro support only; Singapore remains article anchor.",
+      "article_readiness": "moderate"
+    }
+  ]
+}

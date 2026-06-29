@@ -1,0 +1,261 @@
+{
+  "package_version": "article-brief-package-v0.3",
+  "generated_at": "2026-06-11T01:36:39.124Z",
+  "input_package": "article-insight-package-v0.2",
+  "input_seed": "smurf-article-seed-from-opportunity-v0.1",
+  "article_identity": {
+    "title": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles",
+    "slug": "what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+    "country": "Singapore",
+    "category": "Energy | Manufacturing | Trade & Logistics",
+    "article_type": "flagship",
+    "status": "draft_ready_pending_quantification",
+    "source_opportunity_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles"
+  },
+  "editorial_brief": {
+    "core_question": "What explains What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles?",
+    "opening_surprise": "Explain how petroleum-related manufacturing movements reflect fuel demand, travel recovery, refining margins, and operational factors.",
+    "angle": "Explain how petroleum-related manufacturing movements reflect fuel demand, travel recovery, refining margins, and operational factors.",
+    "target_reader": "Business leaders, investors, consultants, policymakers, and professionals trying to understand Singapore's economic position in Asia.",
+    "tone": "Calm, factual, structured, business-oriented. Avoid hype. Explain mechanisms.",
+    "article_goal": "Singapore's petroleum-related manufacturing movements appear linked to energy demand and refining-cycle conditions, suggesting exposure to global fuel demand, travel activity, and refinery operations.",
+    "why_it_matters": "For businesses, energy-cycle exposure matters because petroleum and refining movements can signal changes in trade, logistics, travel, and industrial demand conditions."
+  },
+  "excerpt": "Singapore's petroleum-related manufacturing movements appear linked to energy demand and refining-cycle conditions, suggesting exposure to global fuel demand, travel activity, and refinery operations.",
+  "key_takeaways": [
+    "Singapore's petroleum-related manufacturing movements appear linked to energy demand and refining-cycle conditions, suggesting exposure to global fuel demand, travel activity, and refinery operations.",
+    "For businesses, energy-cycle exposure matters because petroleum and refining movements can signal changes in trade, logistics, travel, and industrial demand conditions.",
+    "Primary driver: Energy Demand / Refining Cycle.",
+    "Historical cases assessed: 6.",
+    "Precise figures and charts should remain blocked until verified metrics are added."
+  ],
+  "recommended_structure": [
+    {
+      "section": "What happened?",
+      "purpose": "Address: What happened?"
+    },
+    {
+      "section": "Why did it happen?",
+      "purpose": "Address: Why did it happen?"
+    },
+    {
+      "section": "What does the historical evidence show?",
+      "purpose": "Address: What does the historical evidence show?"
+    },
+    {
+      "section": "Why does it matter for businesses?",
+      "purpose": "Address: Why does it matter for businesses?"
+    },
+    {
+      "section": "What should operators watch next?",
+      "purpose": "Address: What should operators watch next?"
+    }
+  ],
+  "smurf_evidence": {
+    "source_driver": {
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "attribution_bucket": "market_effect"
+    },
+    "signal": {
+      "signal_strength": "medium",
+      "case_count": 6,
+      "weighted_case_count": 5.6,
+      "maturity_stage": "developing_cluster",
+      "confidence_score": 0.933,
+      "experience_strength": 0.606,
+      "recurrence_score": 0.833,
+      "persistence_score": 0.5,
+      "volatility_score": 0.553,
+      "confidence_tier": "emerging_pattern",
+      "stability_assessment": "volatile_pattern",
+      "recurrence_assessment": "recurring_across_periods",
+      "bias_warnings": [],
+      "score_volatility": 11.18,
+      "average_evidence_count": 4,
+      "average_driver_score": 43,
+      "weighted_average_driver_score": 44.786
+    },
+    "source_cases": [
+      {
+        "case_id": "SG-PETROLEUM-2018",
+        "period": "2018",
+        "series_name": "Petroleum",
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 48,
+        "evidence_count": 4
+      },
+      {
+        "case_id": "SG-PETROLEUM-2019",
+        "period": "2019",
+        "series_name": "Petroleum",
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 48,
+        "evidence_count": 4
+      },
+      {
+        "case_id": "SG-PETROLEUM-2020",
+        "period": "2020",
+        "series_name": "Petroleum",
+        "confidence": "medium",
+        "confidence_weight": 0.6,
+        "driver_score": 18,
+        "evidence_count": 4
+      },
+      {
+        "case_id": "SG-PETROLEUM-2021",
+        "period": "2021",
+        "series_name": "Petroleum",
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 48,
+        "evidence_count": 4
+      },
+      {
+        "case_id": "SG-PETROLEUM-2022",
+        "period": "2022",
+        "series_name": "Petroleum",
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 48,
+        "evidence_count": 4
+      },
+      {
+        "case_id": "SG-REFINING-2021",
+        "period": "2021",
+        "series_name": "Refining",
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 48,
+        "evidence_count": 4
+      }
+    ],
+    "evidence_patterns": [
+      {
+        "phrase": "fuel demand",
+        "count": 6
+      },
+      {
+        "phrase": "jet fuel demand",
+        "count": 6
+      },
+      {
+        "phrase": "refinery maintenance",
+        "count": 6
+      },
+      {
+        "phrase": "oil demand",
+        "count": 5
+      },
+      {
+        "phrase": "petroleum demand",
+        "count": 5
+      },
+      {
+        "phrase": "travel demand",
+        "count": 5
+      },
+      {
+        "phrase": "refining margin",
+        "count": 5
+      },
+      {
+        "phrase": "crude oil",
+        "count": 5
+      }
+    ],
+    "affected_sectors": [
+      "Petroleum",
+      "Refining",
+      "Energy",
+      "Logistics"
+    ]
+  },
+  "evidence_table": {
+    "include_in_article": true,
+    "title": "Evidence Confidence Snapshot",
+    "rows": [
+      {
+        "claim": "Petroleum pattern observed in 2018",
+        "source": "SG-PETROLEUM-2018",
+        "confidence": "high",
+        "use": "Driver score 48; evidence count 4"
+      },
+      {
+        "claim": "Petroleum pattern observed in 2019",
+        "source": "SG-PETROLEUM-2019",
+        "confidence": "high",
+        "use": "Driver score 48; evidence count 4"
+      },
+      {
+        "claim": "Petroleum pattern observed in 2020",
+        "source": "SG-PETROLEUM-2020",
+        "confidence": "medium",
+        "use": "Driver score 18; evidence count 4"
+      },
+      {
+        "claim": "Petroleum pattern observed in 2021",
+        "source": "SG-PETROLEUM-2021",
+        "confidence": "high",
+        "use": "Driver score 48; evidence count 4"
+      },
+      {
+        "claim": "Petroleum pattern observed in 2022",
+        "source": "SG-PETROLEUM-2022",
+        "confidence": "high",
+        "use": "Driver score 48; evidence count 4"
+      },
+      {
+        "claim": "Refining pattern observed in 2021",
+        "source": "SG-REFINING-2021",
+        "confidence": "high",
+        "use": "Driver score 48; evidence count 4"
+      }
+    ]
+  },
+  "visual_brief": [
+    {
+      "visual_id": "VIS_001",
+      "title": "Singapore petroleum output trend",
+      "visual_type": "line_chart",
+      "evidence_type": "quantitative",
+      "graph_ready": false,
+      "confidence": "developing",
+      "message": "Show the relevant Singapore sector or output trend once verified metrics are available.",
+      "publish_guidance": "Blocked until verified metric values are added to the verified metrics registry."
+    },
+    {
+      "visual_id": "VIS_002",
+      "title": "Energy demand and refining-cycle signal timeline",
+      "visual_type": "timeline",
+      "evidence_type": "mixed",
+      "graph_ready": true,
+      "confidence": "moderate",
+      "message": "Show recurring SMURF cases, evidence patterns, and driver signals across periods.",
+      "publish_guidance": "Can be used as a SMURF evidence timeline; quantitative values require metric validation."
+    }
+  ],
+  "generation_guardrails": [
+    "Do not use exact percentages unless the value is verified.",
+    "Do not claim a global ranking unless the source explicitly supports it.",
+    "Keep Singapore as the article anchor.",
+    "Use macro data only as supporting context.",
+    "Separate article-ready claims from graph-ready figures.",
+    "Public article should reflect the selected SMURF opportunity title and angle."
+  ],
+  "next_data_needed": [
+    "Singapore petroleum output trend",
+    "Energy demand and refining-cycle signal timeline",
+    "Verified Singapore sector/output trend from SingStat or official source.",
+    "Verified macro context from relevant official or multilateral source."
+  ],
+  "generator_decision": {
+    "generate_full_article_now": true,
+    "allow_exact_figures": false,
+    "allow_conceptual_visuals": true,
+    "allow_quantitative_graphs": false,
+    "reason": "Article can be generated as a SMURF-assisted narrative draft, but precise figures and charts require verified metrics."
+  }
+}

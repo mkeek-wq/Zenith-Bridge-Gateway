@@ -1,0 +1,22 @@
+{
+  "archive_version": "document-archive-v0.1",
+  "archived_at": "2026-05-29T13:40:25.736Z",
+  "document_id": "SG_SINGSTAT_monthly-manufacturing-performance-apr2026",
+  "institution_id": "SG_SINGSTAT",
+  "feed_id": "SINGSTAT_RELEASES",
+  "title": "Monthly Manufacturing Performance, Apr 2026",
+  "slug": "monthly-manufacturing-performance-apr2026",
+  "url": "https://www.singstat.gov.sg/news/monthly-manufacturing-performance-apr2026",
+  "publication_date": "2026-05-26",
+  "resource_type": "Press Releases",
+  "summary": "Manufacturing output increased 5.8% in Apr 2026 on a seasonally adjusted month-on-month basis.",
+  "http_status": 200,
+  "content_length": 129868,
+  "content_hash": "501a6c0a2e2e28be806992c5f84ac8dba3b7aee399f1941264c24b60aa917735",
+  "files": {
+    "latest_metadata": "metadata.json",
+    "latest_document_html": "document.html",
+    "timestamp_metadata": "2026-05-29T13-40-25-736Z-metadata.json",
+    "timestamp_document_html": "2026-05-29T13-40-25-736Z-document.html"
+  }
+}

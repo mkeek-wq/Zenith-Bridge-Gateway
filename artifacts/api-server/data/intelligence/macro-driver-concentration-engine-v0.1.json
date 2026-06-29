@@ -1,0 +1,108 @@
+{
+  "engine_version": "macro-driver-concentration-engine-v0.1",
+  "generated_at": "2026-06-10T02:11:10.633Z",
+  "source_path": "data/intelligence/macro-attribution-engine-v0.2.json",
+  "cases_assessed": 4,
+  "drivers_assessed": 8,
+  "dominant_driver_count": 2,
+  "high_concentration_driver_count": 1,
+  "governance_note": "High concentration does not invalidate a macro driver. It flags drivers that may be too generic or over-attributed across replay cases.",
+  "concentration": [
+    {
+      "driver_id": "SINGAPORE_NODX",
+      "cases_explained": 4,
+      "case_share": 1,
+      "domains_touched": [
+        "biomedical",
+        "manufacturing",
+        "petroleum",
+        "semiconductors"
+      ],
+      "domain_count": 4,
+      "concentration_band": "dominant",
+      "warning": "SINGAPORE_NODX appears in nearly all cases. Review for 'explains everything' risk."
+    },
+    {
+      "driver_id": "GLOBAL_PMI",
+      "cases_explained": 4,
+      "case_share": 1,
+      "domains_touched": [
+        "biomedical",
+        "manufacturing",
+        "petroleum",
+        "semiconductors"
+      ],
+      "domain_count": 4,
+      "concentration_band": "dominant",
+      "warning": "GLOBAL_PMI appears in nearly all cases. Review for 'explains everything' risk."
+    },
+    {
+      "driver_id": "GLOBAL_TRADE_VOLUME",
+      "cases_explained": 3,
+      "case_share": 0.75,
+      "domains_touched": [
+        "biomedical",
+        "manufacturing",
+        "petroleum"
+      ],
+      "domain_count": 3,
+      "concentration_band": "high",
+      "warning": "GLOBAL_TRADE_VOLUME has high replay concentration. Check whether it is too generic."
+    },
+    {
+      "driver_id": "SINGAPORE_MANUFACTURING",
+      "cases_explained": 1,
+      "case_share": 0.25,
+      "domains_touched": [
+        "manufacturing"
+      ],
+      "domain_count": 1,
+      "concentration_band": "low",
+      "warning": null
+    },
+    {
+      "driver_id": "BRENT_CRUDE",
+      "cases_explained": 1,
+      "case_share": 0.25,
+      "domains_touched": [
+        "petroleum"
+      ],
+      "domain_count": 1,
+      "concentration_band": "low",
+      "warning": null
+    },
+    {
+      "driver_id": "GLOBAL_SEMICONDUCTOR_SALES",
+      "cases_explained": 1,
+      "case_share": 0.25,
+      "domains_touched": [
+        "semiconductors"
+      ],
+      "domain_count": 1,
+      "concentration_band": "low",
+      "warning": null
+    },
+    {
+      "driver_id": "CHINA_EXPORT_GROWTH",
+      "cases_explained": 1,
+      "case_share": 0.25,
+      "domains_touched": [
+        "semiconductors"
+      ],
+      "domain_count": 1,
+      "concentration_band": "low",
+      "warning": null
+    },
+    {
+      "driver_id": "FED_FUNDS_RATE",
+      "cases_explained": 1,
+      "case_share": 0.25,
+      "domains_touched": [
+        "biomedical"
+      ],
+      "domain_count": 1,
+      "concentration_band": "low",
+      "warning": null
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "replay_prediction_version": "replay-prediction-v0.1",
+  "generated_at": "2026-06-03T09:08:36.351Z",
+  "source_replay_plan": "data/replay-sandbox/replay-plan-2026-05-27T00-00-00.000Z.json",
+  "replay_plan_version": "replay-sandbox-plan-v0.2",
+  "replay_date": "2026-05-27T00:00:00.000Z",
+  "prediction_policy": {
+    "principle": "Replay prediction v0.1 only uses outcomes visible at the replay date. No future outcomes may be used.",
+    "method": "baseline most-common visible prior outcome; not similarity-aware yet.",
+    "limitations": [
+      "Does not yet use case similarity.",
+      "Does not yet compare against future actual outcomes.",
+      "Only produces predictions when at least one prior visible outcome exists."
+    ]
+  },
+  "visible_prior_outcomes": [],
+  "ranked_visible_drivers": [],
+  "summary": {
+    "total_cases": 11,
+    "visible_prior_outcomes": 0,
+    "prediction_targets": 11,
+    "predictions_available": 0,
+    "no_prior_visible_outcomes": 11,
+    "outcome_already_visible": 0,
+    "case_not_visible": 0
+  },
+  "predictions": [
+    {
+      "case_id": "SG-M355381-1_1-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "no_prior_visible_outcomes",
+      "predicted_outcome": null,
+      "prediction_note": "No prior visible outcomes were available at replay date."
+    },
+    {
+      "case_id": "SG-M355381-1_1_1-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "no_prior_visible_outcomes",
+      "predicted_outcome": null,
+      "prediction_note": "No prior visible outcomes were available at replay date."
+    },
+    {
+      "case_id": "SG-M355381-1_1_3-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "no_prior_visible_outcomes",
+      "predicted_outcome": null,
+      "prediction_note": "No prior visible outcomes were available at replay date."
+    },
+    {
+      "case_id": "SG-M355381-1_2_1-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "no_prior_visible_outcomes",
+      "predicted_outcome": null,
+      "prediction_note": "No prior visible outcomes were available at replay date."
+    },
+    {
+      "case_id": "SG-M355381-1_2_2-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "no_prior_visible_outcomes",
+      "predicted_outcome": null,
+      "prediction_note": "No prior visible outcomes were available at replay date."
+    },
+    {
+      "case_id": "SG-M355381-1_2_4-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "no_prior_visible_outcomes",
+      "predicted_outcome": null,
+      "prediction_note": "No prior visible outcomes were available at replay date."
+    },
+    {
+      "case_id": "SG-M355381-1_3-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "no_prior_visible_outcomes",
+      "predicted_outcome": null,
+      "prediction_note": "No prior visible outcomes were available at replay date."
+    },
+    {
+      "case_id": "SG-M355381-1_3_1-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "no_prior_visible_outcomes",
+      "predicted_outcome": null,
+      "prediction_note": "No prior visible outcomes were available at replay date."
+    },
+    {
+      "case_id": "SG-M355381-1_3_2-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "no_prior_visible_outcomes",
+      "predicted_outcome": null,
+      "prediction_note": "No prior visible outcomes were available at replay date."
+    },
+    {
+      "case_id": "SG-M355381-1_5_2-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "no_prior_visible_outcomes",
+      "predicted_outcome": null,
+      "prediction_note": "No prior visible outcomes were available at replay date."
+    },
+    {
+      "case_id": "SG-M355381-1_5_3-2026-apr",
+      "prediction_available": false,
+      "prediction_status": "no_prior_visible_outcomes",
+      "predicted_outcome": null,
+      "prediction_note": "No prior visible outcomes were available at replay date."
+    }
+  ]
+}

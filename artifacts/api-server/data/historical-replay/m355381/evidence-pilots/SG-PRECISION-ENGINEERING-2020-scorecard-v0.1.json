@@ -1,0 +1,144 @@
+{
+  "historical_evidence_scorecard_version": "historical-evidence-scorecard-v0.1",
+  "generated_at": "2026-06-04T10:30:56.191Z",
+  "source_taxonomy": "data/intelligence-driver-library/driver-evidence-taxonomy-v0.1.json",
+  "source_evidence": "data/historical-replay/m355381/evidence-pilots/SG-PRECISION-ENGINEERING-2020-evidence-v0.1.json",
+  "case_id": "SG-PRECISION-ENGINEERING-2020",
+  "period": "2020",
+  "series_name": "Precision Engineering",
+  "governance": {
+    "sandbox_only": true,
+    "recommendation_only": true,
+    "auto_close_case": false,
+    "requires_human_review": true,
+    "production_mutation_allowed": false
+  },
+  "evidence_metadata": {
+    "evidence_origin": "synthetic",
+    "template_generated": true,
+    "attribution_discovery_ready": true,
+    "requires_human_review": true
+  },
+  "evidence_items": [
+    "Singapore precision engineering output in 2020 was affected by machinery demand and industrial equipment demand.",
+    "Capital equipment demand and equipment orders weakened as manufacturers delayed investment demand.",
+    "Automation equipment and semiconductor equipment demand influenced engineering output.",
+    "Capex cycle and capital spending decisions shaped precision engineering activity."
+  ],
+  "evidence_matches": [
+    {
+      "evidence_text": "Singapore precision engineering output in 2020 was affected by machinery demand and industrial equipment demand.",
+      "matches": [
+        {
+          "driver_id": "MKT_012",
+          "driver_name": "Precision Engineering / Capital Equipment Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "precision engineering",
+            "machinery demand",
+            "industrial equipment demand",
+            "engineering output"
+          ],
+          "match_score": 24
+        }
+      ]
+    },
+    {
+      "evidence_text": "Capital equipment demand and equipment orders weakened as manufacturers delayed investment demand.",
+      "matches": [
+        {
+          "driver_id": "MKT_012",
+          "driver_name": "Precision Engineering / Capital Equipment Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "capital equipment demand",
+            "equipment orders",
+            "investment demand"
+          ],
+          "match_score": 18
+        }
+      ]
+    },
+    {
+      "evidence_text": "Automation equipment and semiconductor equipment demand influenced engineering output.",
+      "matches": [
+        {
+          "driver_id": "MKT_012",
+          "driver_name": "Precision Engineering / Capital Equipment Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "automation equipment",
+            "semiconductor equipment",
+            "engineering output"
+          ],
+          "match_score": 18
+        }
+      ]
+    },
+    {
+      "evidence_text": "Capex cycle and capital spending decisions shaped precision engineering activity.",
+      "matches": [
+        {
+          "driver_id": "MKT_012",
+          "driver_name": "Precision Engineering / Capital Equipment Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "precision engineering",
+            "capital spending",
+            "capex cycle"
+          ],
+          "match_score": 18
+        }
+      ]
+    }
+  ],
+  "ranked_drivers": [
+    {
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "attribution_bucket": "market_effect",
+      "total_score": 78,
+      "evidence_count": 4,
+      "matched_phrases": [
+        "precision engineering",
+        "machinery demand",
+        "industrial equipment demand",
+        "engineering output",
+        "capital equipment demand",
+        "equipment orders",
+        "investment demand",
+        "automation equipment",
+        "semiconductor equipment",
+        "engineering output",
+        "precision engineering",
+        "capital spending",
+        "capex cycle"
+      ],
+      "supporting_evidence": [
+        "Singapore precision engineering output in 2020 was affected by machinery demand and industrial equipment demand.",
+        "Capital equipment demand and equipment orders weakened as manufacturers delayed investment demand.",
+        "Automation equipment and semiconductor equipment demand influenced engineering output.",
+        "Capex cycle and capital spending decisions shaped precision engineering activity."
+      ]
+    }
+  ],
+  "bucket_scores": [
+    {
+      "attribution_bucket": "market_effect",
+      "total_score": 78
+    }
+  ],
+  "recommended_outcome": {
+    "primary_driver": "MKT_012",
+    "primary_driver_name": "Precision Engineering / Capital Equipment Cycle",
+    "attribution_bucket": "market_effect",
+    "confidence": "high",
+    "total_score": 78,
+    "second_score": 0,
+    "score_gap": 78
+  }
+}

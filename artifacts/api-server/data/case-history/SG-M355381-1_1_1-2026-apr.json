@@ -1,0 +1,168 @@
+{
+  "case_history_version": "case-history-v0.1",
+  "case_id": "SG-M355381-1_1_1-2026-apr",
+  "country": "Singapore",
+  "table_id": "M355381",
+  "period": "2026 Apr",
+  "series_no": "1.1.1",
+  "series_name": "Semiconductors",
+  "created_at": "2026-06-01T06:25:45.552Z",
+  "last_updated_at": "2026-06-02T14:47:44.598Z",
+  "timeline": [
+    {
+      "timestamp": "2026-06-01T06:25:45.552Z",
+      "event_type": "case_snapshot",
+      "case_status": "investigating",
+      "conclusion_status": "no_conclusion_yet",
+      "confidence": "unknown",
+      "evidence_quality": "poor",
+      "next_action": "collect_external_evidence",
+      "publication_status": "not_published",
+      "observation": {
+        "latest_value": 129.526,
+        "month_on_month_change_pct": 18.753839242328404,
+        "year_on_year_change_pct": 42.59010546247167
+      },
+      "attribution_snapshot": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 10
+      },
+      "note": "Case history snapshot recorded from current persistent case file."
+    },
+    {
+      "timestamp": "2026-06-01T06:54:44.471Z",
+      "event_type": "case_snapshot",
+      "case_status": "investigating",
+      "conclusion_status": "no_conclusion_yet",
+      "confidence": "unknown",
+      "confidence_reason": {
+        "rule_applied": "UNKNOWN_V1",
+        "relevant_evidence_count": 0,
+        "evidence_quality": "poor",
+        "unknown_effect": 10,
+        "conclusion_status": "no_conclusion_yet"
+      },
+      "evidence_quality": "poor",
+      "next_action": "collect_external_evidence",
+      "publication_status": "not_published",
+      "observation": {
+        "latest_value": 129.526,
+        "month_on_month_change_pct": 18.753839242328404,
+        "year_on_year_change_pct": 42.59010546247167
+      },
+      "attribution_snapshot": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 10
+      },
+      "note": "Case history snapshot recorded from current persistent case file."
+    },
+    {
+      "timestamp": "2026-06-02T14:16:07.721Z",
+      "event_type": "case_snapshot",
+      "case_status": "investigating",
+      "conclusion_status": "no_conclusion_yet",
+      "confidence": "unknown",
+      "confidence_reason": {
+        "rule_applied": "UNKNOWN_V1",
+        "relevant_evidence_count": 0,
+        "evidence_quality": "poor",
+        "unknown_effect": 10,
+        "conclusion_status": "no_conclusion_yet"
+      },
+      "outcome": {
+        "primary_driver": null,
+        "primary_driver_name": null,
+        "confidence": null,
+        "closed_at": null
+      },
+      "evidence_quality": "poor",
+      "next_action": "collect_external_evidence",
+      "publication_status": "not_published",
+      "observation": {
+        "latest_value": 129.526,
+        "month_on_month_change_pct": 18.753839242328404,
+        "year_on_year_change_pct": 42.59010546247167
+      },
+      "attribution_snapshot": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 10
+      },
+      "note": "Case history snapshot recorded from current persistent case file."
+    },
+    {
+      "timestamp": "2026-06-02T14:38:56.363Z",
+      "event_type": "case_snapshot",
+      "case_status": "investigating",
+      "conclusion_status": "no_conclusion_yet",
+      "confidence": "unknown",
+      "confidence_reason": {
+        "rule_applied": "UNKNOWN_V1",
+        "relevant_evidence_count": 0,
+        "evidence_quality": "poor",
+        "unknown_effect": 10,
+        "conclusion_status": "no_conclusion_yet"
+      },
+      "evidence_quality": "poor",
+      "next_action": "collect_external_evidence",
+      "publication_status": "not_published",
+      "observation": {
+        "latest_value": 129.526,
+        "month_on_month_change_pct": 18.753839242328404,
+        "year_on_year_change_pct": 42.59010546247167
+      },
+      "attribution_snapshot": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 10
+      },
+      "note": "Case history snapshot recorded from current persistent case file."
+    },
+    {
+      "timestamp": "2026-06-02T14:47:44.598Z",
+      "event_type": "case_snapshot",
+      "case_status": "investigating",
+      "conclusion_status": "no_conclusion_yet",
+      "confidence": "unknown",
+      "confidence_reason": {
+        "rule_applied": "UNKNOWN_V1",
+        "relevant_evidence_count": 0,
+        "evidence_quality": "poor",
+        "unknown_effect": 10,
+        "conclusion_status": "no_conclusion_yet"
+      },
+      "outcome": {
+        "primary_driver": null,
+        "primary_driver_name": null,
+        "confidence": null,
+        "closed_at": null
+      },
+      "evidence_quality": "poor",
+      "next_action": "collect_external_evidence",
+      "publication_status": "not_published",
+      "observation": {
+        "latest_value": 129.526,
+        "month_on_month_change_pct": 18.753839242328404,
+        "year_on_year_change_pct": 42.59010546247167
+      },
+      "attribution_snapshot": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 10
+      },
+      "note": "Case history snapshot recorded from current persistent case file."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "evidence_package_version": "historical-evidence-package-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-EXPORT-WEAKNESS-2008",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_investigation_package": "data/historical-replay/m355381/investigation-packages/sg-export-weakness-2008-investigation-package-v0.1.json",
+  "case_summary": {
+    "period": "2008",
+    "series_no": "EXPORT-WEAKNESS-2008",
+    "series_name": "Export Demand Weakness",
+    "priority": "critical",
+    "direction": "negative"
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "EXPORT_2008_001",
+      "source_type": "derived_from_existing_replay",
+      "source_name": "SG-MANUFACTURING-2008",
+      "evidence_summary": "Existing replay evidence identifies weak external demand, trade slowdown, export decline, and lower orders as channels affecting 2008 manufacturing activity.",
+      "supports_drivers": ["MKT_003"],
+      "evidence_strength": "high"
+    },
+    {
+      "evidence_id": "EXPORT_2008_002",
+      "source_type": "context",
+      "source_name": "Global Financial Crisis Context",
+      "evidence_summary": "The 2008 export weakness emerged during the early phase of the global financial crisis, when external demand and trade conditions deteriorated.",
+      "supports_drivers": ["MKT_010", "MKT_003"],
+      "evidence_strength": "high"
+    },
+    {
+      "evidence_id": "EXPORT_2008_003",
+      "source_type": "sector_context",
+      "source_name": "Electronics Export Context",
+      "evidence_summary": "Electronics and trade-linked export sectors were exposed to weakening global demand and order declines.",
+      "supports_drivers": ["MKT_008", "MKT_003"],
+      "evidence_strength": "medium"
+    },
+    {
+      "evidence_id": "EXPORT_2008_004",
+      "source_type": "transmission_mechanism",
+      "source_name": "Export-to-Manufacturing Transmission",
+      "evidence_summary": "Weaker export orders and trade demand transmitted into manufacturing output through reduced foreign demand.",
+      "supports_drivers": ["MKT_003"],
+      "evidence_strength": "high"
+    }
+  ],
+  "driver_evidence_summary": [
+    {
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness",
+      "evidence_count": 4,
+      "evidence_strength": "high"
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "evidence_count": 1,
+      "evidence_strength": "high"
+    },
+    {
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "evidence_count": 1,
+      "evidence_strength": "medium"
+    }
+  ],
+  "mechanism_assessment": {
+    "primary_mechanism": "Export demand weakened as global financial crisis conditions reduced foreign orders and trade-linked activity.",
+    "secondary_mechanisms": [
+      "global demand deteriorated",
+      "trade and export orders slowed",
+      "electronics and export-oriented sectors were exposed",
+      "manufacturing output weakened through export transmission"
+    ]
+  },
+  "evidence_assessment": {
+    "evidence_collected": true,
+    "attribution_ready": true,
+    "outcome_ready": false,
+    "confidence": "high"
+  }
+}

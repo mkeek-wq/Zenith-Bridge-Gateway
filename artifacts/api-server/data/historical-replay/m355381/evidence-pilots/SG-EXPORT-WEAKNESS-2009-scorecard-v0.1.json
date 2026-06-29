@@ -1,0 +1,71 @@
+{
+  "scorecard_version": "historical-evidence-scorecard-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-EXPORT-WEAKNESS-2009",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_evidence_package": "data/historical-replay/m355381/evidence-pilots/SG-EXPORT-WEAKNESS-2009-evidence-v0.1.json",
+  "case_summary": {
+    "period": "2009",
+    "series_no": "EXPORT-WEAKNESS-2009",
+    "series_name": "Export Demand Weakness",
+    "priority": "critical",
+    "direction": "negative"
+  },
+  "driver_scores": [
+    {
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness",
+      "score": 32,
+      "rank": 1,
+      "evidence_basis": "The replay case is export-native: export decline, lower exports, order slowdown and trade slowdown are the central mechanism being investigated."
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "score": 24,
+      "rank": 2,
+      "evidence_basis": "The export weakness occurred during the global financial crisis and was supported by broader global recession conditions."
+    },
+    {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "score": 8,
+      "rank": 3,
+      "evidence_basis": "Export weakness transmitted into manufacturing output, but operational disruption is downstream rather than primary."
+    }
+  ],
+  "final_attribution": {
+    "primary_driver": {
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness",
+      "score": 32
+    },
+    "secondary_driver": {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "score": 24
+    },
+    "tertiary_driver": {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "score": 8
+    },
+    "confidence": "high",
+    "summary": "SG-EXPORT-WEAKNESS-2009 is classified as an export-native replay case. The primary attribution is MKT_003 because the case is framed around export decline, lower exports, order slowdown and trade slowdown as the central transmission mechanism."
+  },
+  "mechanism_summary": {
+    "dominant_mechanism": "Export demand weakness reduced foreign orders and trade-linked production activity.",
+    "supporting_mechanisms": [
+      "global recession reduced external demand",
+      "exports and trade activity weakened",
+      "manufacturing output was affected through export-order transmission",
+      "MKT_010 acted as the macro backdrop while MKT_003 was the specific replay mechanism"
+    ]
+  },
+  "scorecard_status": {
+    "attribution_scored": true,
+    "outcome_ready": true,
+    "human_review_required": true
+  }
+}

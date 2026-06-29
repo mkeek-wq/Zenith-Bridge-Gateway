@@ -1,0 +1,186 @@
+{
+  "historical_evidence_scorecard_version": "historical-evidence-scorecard-v0.1",
+  "generated_at": "2026-06-04T10:30:56.197Z",
+  "source_taxonomy": "data/intelligence-driver-library/driver-evidence-taxonomy-v0.1.json",
+  "source_evidence": "data/historical-replay/m355381/evidence-pilots/SG-TRANSPORT-ENGINEERING-2020-evidence-v0.1.json",
+  "case_id": "SG-TRANSPORT-ENGINEERING-2020",
+  "period": "2020",
+  "series_name": "Transport Engineering",
+  "governance": {
+    "sandbox_only": true,
+    "recommendation_only": true,
+    "auto_close_case": false,
+    "requires_human_review": true,
+    "production_mutation_allowed": false
+  },
+  "evidence_metadata": {
+    "evidence_origin": "synthetic",
+    "template_generated": true,
+    "attribution_discovery_ready": true,
+    "requires_human_review": true
+  },
+  "evidence_items": [
+    "Singapore transport engineering output in 2020 was affected by weak aerospace demand and reduced aircraft maintenance activity.",
+    "Aircraft repair and MRO demand were constrained by lower travel demand and reduced fleet maintenance needs.",
+    "Marine engineering and ship repair activity reflected offshore engineering and regional industrial conditions.",
+    "Aviation recovery had not yet started, limiting transport engineering production."
+  ],
+  "evidence_matches": [
+    {
+      "evidence_text": "Singapore transport engineering output in 2020 was affected by weak aerospace demand and reduced aircraft maintenance activity.",
+      "matches": [
+        {
+          "driver_id": "MKT_013",
+          "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "transport engineering",
+            "aerospace demand",
+            "aircraft maintenance"
+          ],
+          "match_score": 18
+        },
+        {
+          "driver_id": "MKT_012",
+          "driver_name": "Precision Engineering / Capital Equipment Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "engineering output"
+          ],
+          "match_score": 6
+        }
+      ]
+    },
+    {
+      "evidence_text": "Aircraft repair and MRO demand were constrained by lower travel demand and reduced fleet maintenance needs.",
+      "matches": [
+        {
+          "driver_id": "MKT_013",
+          "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "aircraft repair",
+            "mro demand",
+            "fleet maintenance"
+          ],
+          "match_score": 18
+        },
+        {
+          "driver_id": "MKT_007",
+          "driver_name": "Energy Demand / Refining Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "travel demand"
+          ],
+          "match_score": 6
+        }
+      ]
+    },
+    {
+      "evidence_text": "Marine engineering and ship repair activity reflected offshore engineering and regional industrial conditions.",
+      "matches": [
+        {
+          "driver_id": "MKT_013",
+          "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "marine engineering",
+            "ship repair",
+            "offshore engineering"
+          ],
+          "match_score": 18
+        }
+      ]
+    },
+    {
+      "evidence_text": "Aviation recovery had not yet started, limiting transport engineering production.",
+      "matches": [
+        {
+          "driver_id": "MKT_013",
+          "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "transport engineering",
+            "aviation recovery"
+          ],
+          "match_score": 12
+        }
+      ]
+    }
+  ],
+  "ranked_drivers": [
+    {
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "attribution_bucket": "market_effect",
+      "total_score": 66,
+      "evidence_count": 4,
+      "matched_phrases": [
+        "transport engineering",
+        "aerospace demand",
+        "aircraft maintenance",
+        "aircraft repair",
+        "mro demand",
+        "fleet maintenance",
+        "marine engineering",
+        "ship repair",
+        "offshore engineering",
+        "transport engineering",
+        "aviation recovery"
+      ],
+      "supporting_evidence": [
+        "Singapore transport engineering output in 2020 was affected by weak aerospace demand and reduced aircraft maintenance activity.",
+        "Aircraft repair and MRO demand were constrained by lower travel demand and reduced fleet maintenance needs.",
+        "Marine engineering and ship repair activity reflected offshore engineering and regional industrial conditions.",
+        "Aviation recovery had not yet started, limiting transport engineering production."
+      ]
+    },
+    {
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "attribution_bucket": "market_effect",
+      "total_score": 6,
+      "evidence_count": 1,
+      "matched_phrases": [
+        "engineering output"
+      ],
+      "supporting_evidence": [
+        "Singapore transport engineering output in 2020 was affected by weak aerospace demand and reduced aircraft maintenance activity."
+      ]
+    },
+    {
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "attribution_bucket": "market_effect",
+      "total_score": 6,
+      "evidence_count": 1,
+      "matched_phrases": [
+        "travel demand"
+      ],
+      "supporting_evidence": [
+        "Aircraft repair and MRO demand were constrained by lower travel demand and reduced fleet maintenance needs."
+      ]
+    }
+  ],
+  "bucket_scores": [
+    {
+      "attribution_bucket": "market_effect",
+      "total_score": 78
+    }
+  ],
+  "recommended_outcome": {
+    "primary_driver": "MKT_013",
+    "primary_driver_name": "Transport Engineering / Aerospace Marine Cycle",
+    "attribution_bucket": "market_effect",
+    "confidence": "high",
+    "total_score": 66,
+    "second_score": 6,
+    "score_gap": 60
+  }
+}

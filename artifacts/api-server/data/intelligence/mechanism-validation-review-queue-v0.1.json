@@ -1,0 +1,22 @@
+{
+  "queue_version": "mechanism-validation-review-queue-v0.1",
+  "generated_at": "2026-06-10T04:06:43.536Z",
+  "source_confidence_engine": "data/intelligence/learning-confidence-engine-v0.1.json",
+  "mechanisms_reviewed": 1,
+  "ready_for_validation_review": 0,
+  "not_ready_for_validation_review": 1,
+  "queue": [
+    {
+      "mechanism_id": "MKT_010",
+      "experience_count": 1,
+      "positive_alignment_ratio": 1,
+      "learning_confidence_score": 0.64,
+      "learning_confidence_band": "strong",
+      "validation_review_status": "not_ready_for_validation_review",
+      "missing_requirements": [
+        "minimum_3_replay_experiences"
+      ],
+      "governance_note": "Validation review queue does not validate mechanisms. It only determines whether a mechanism is ready for human/engine validation review."
+    }
+  ]
+}

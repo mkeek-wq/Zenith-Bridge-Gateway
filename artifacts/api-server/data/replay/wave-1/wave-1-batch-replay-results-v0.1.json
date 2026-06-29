@@ -1,0 +1,95 @@
+{
+  "batch_replay_version": "wave-1-batch-replay-runner-v0.1",
+  "generated_at": "2026-06-10T04:13:12.148Z",
+  "cases_executed": 3,
+  "results": [
+    {
+      "replay_result_version": "wave-1-batch-replay-runner-v0.1",
+      "generated_at": "2026-06-10T04:13:12.147Z",
+      "case_id": "SG-GOODS-EXPORTS-2020",
+      "domain": "trade",
+      "period": "2020",
+      "replay_decision_date": "2020-12-31",
+      "governance_status": "REPLAY_EXECUTED_WITH_VALIDATED_EVIDENCE",
+      "evidence_records_used": 3,
+      "signals_observed": [
+        "GOODS_EXPORTS",
+        "GLOBAL_TRADE_VOLUME",
+        "GLOBAL_PMI"
+      ],
+      "triggered_mechanisms": [
+        "MKT_010"
+      ],
+      "replay_interpretation": "Goods export weakness is consistent with external demand pressure during the 2020 global trade shock.",
+      "replay_confidence_score": 0.66,
+      "replay_confidence_band": "moderate",
+      "experience_candidate": {
+        "candidate_created": true,
+        "mechanism_ids": [
+          "MKT_010"
+        ],
+        "candidate_note": "Experience candidate requires outcome comparison before promotion."
+      }
+    },
+    {
+      "replay_result_version": "wave-1-batch-replay-runner-v0.1",
+      "generated_at": "2026-06-10T04:13:12.148Z",
+      "case_id": "SG-LABOUR-MARKET-2020",
+      "domain": "employment",
+      "period": "2020",
+      "replay_decision_date": "2020-12-31",
+      "governance_status": "REPLAY_EXECUTED_WITH_VALIDATED_EVIDENCE",
+      "evidence_records_used": 3,
+      "signals_observed": [
+        "UNEMPLOYMENT_RATE",
+        "RETRENCHMENTS",
+        "POLICY_SUPPORT"
+      ],
+      "triggered_mechanisms": [
+        "MKT_005",
+        "MKT_006"
+      ],
+      "replay_interpretation": "Labour market deterioration is consistent with employment shock and policy support mechanisms during the 2020 downturn.",
+      "replay_confidence_score": 0.72,
+      "replay_confidence_band": "high",
+      "experience_candidate": {
+        "candidate_created": true,
+        "mechanism_ids": [
+          "MKT_005",
+          "MKT_006"
+        ],
+        "candidate_note": "Experience candidate requires outcome comparison before promotion."
+      }
+    },
+    {
+      "replay_result_version": "wave-1-batch-replay-runner-v0.1",
+      "generated_at": "2026-06-10T04:13:12.148Z",
+      "case_id": "SG-FINANCE-2020",
+      "domain": "finance",
+      "period": "2020",
+      "replay_decision_date": "2020-12-31",
+      "governance_status": "REPLAY_EXECUTED_WITH_VALIDATED_EVIDENCE",
+      "evidence_records_used": 3,
+      "signals_observed": [
+        "MARKET_VOLATILITY",
+        "CREDIT_CONDITIONS",
+        "INTEREST_RATES"
+      ],
+      "triggered_mechanisms": [
+        "MKT_007",
+        "MKT_010"
+      ],
+      "replay_interpretation": "Finance-sector conditions reflected market volatility, credit conditions, and macro-financial stress during the 2020 shock.",
+      "replay_confidence_score": 0.72,
+      "replay_confidence_band": "high",
+      "experience_candidate": {
+        "candidate_created": true,
+        "mechanism_ids": [
+          "MKT_007",
+          "MKT_010"
+        ],
+        "candidate_note": "Experience candidate requires outcome comparison before promotion."
+      }
+    }
+  ]
+}

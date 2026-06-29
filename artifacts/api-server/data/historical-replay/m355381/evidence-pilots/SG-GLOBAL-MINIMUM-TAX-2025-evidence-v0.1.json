@@ -1,0 +1,89 @@
+{
+  "evidence_package_version": "historical-evidence-package-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-GLOBAL-MINIMUM-TAX-2025",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_investigation_package": "data/historical-replay/m355381/investigation-packages/sg-global-minimum-tax-2025-investigation-package-v0.1.json",
+  "case_summary": {
+    "period": "2025",
+    "series_no": "POLICY-MOF-GLOBAL-MINIMUM-TAX",
+    "series_name": "Global Minimum Tax",
+    "priority": "critical",
+    "direction": "mixed",
+    "latest_value": null,
+    "month_on_month_change_pct": null,
+    "year_on_year_change_pct": null
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "SG_GLOBAL_MINIMUM_TAX_2025_EVIDENCE_001",
+      "source_type": "policy_event",
+      "source_name": "SG-GLOBAL-MINIMUM-TAX-2025",
+      "evidence_summary": "Singapore's implementation of global minimum tax rules represents a tax-policy and regulatory change affecting multinational enterprise incentives.",
+      "supports_drivers": [
+        "MKT_006"
+      ],
+      "evidence_strength": "high"
+    },
+    {
+      "evidence_id": "SG_GLOBAL_MINIMUM_TAX_2025_EVIDENCE_002",
+      "source_type": "mechanism_context",
+      "source_name": "SG-GLOBAL-MINIMUM-TAX-2025",
+      "evidence_summary": "The policy may influence investment, headquarters, and capacity-location decisions through changes in effective tax treatment.",
+      "supports_drivers": [
+        "MKT_006",
+        "MKT_004"
+      ],
+      "evidence_strength": "high"
+    },
+    {
+      "evidence_id": "SG_GLOBAL_MINIMUM_TAX_2025_EVIDENCE_003",
+      "source_type": "mechanism_context",
+      "source_name": "SG-GLOBAL-MINIMUM-TAX-2025",
+      "evidence_summary": "Capacity-expansion incentives and location strategy may be affected as firms reassess tax and substance requirements.",
+      "supports_drivers": [
+        "MKT_006",
+        "MKT_004"
+      ],
+      "evidence_strength": "medium"
+    },
+    {
+      "evidence_id": "SG_GLOBAL_MINIMUM_TAX_2025_EVIDENCE_004",
+      "source_type": "mechanism_context",
+      "source_name": "SG-GLOBAL-MINIMUM-TAX-2025",
+      "evidence_summary": "External global tax coordination provides the international policy backdrop.",
+      "supports_drivers": [
+        "MKT_006",
+        "MKT_004"
+      ],
+      "evidence_strength": "medium"
+    }
+  ],
+  "driver_evidence_summary": [
+    {
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "evidence_count": 4,
+      "evidence_strength": "high"
+    },
+    {
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "evidence_count": 2,
+      "evidence_strength": "medium"
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "evidence_count": 1,
+      "evidence_strength": "medium"
+    }
+  ],
+  "evidence_assessment": {
+    "evidence_collected": true,
+    "attribution_ready": true,
+    "outcome_ready": false,
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "staging_version": "hungry-smurf-controlled-staging-item-v0.1",
+  "generated_at": "2026-06-25T13:45:03.611Z",
+  "dataset_id": "SG_PETROLEUM_OUTPUT_INDEX",
+  "source_scan_status": "ready",
+  "source_config": {
+    "exists": true,
+    "path": "data/intelligence/source-download-config/SG_PETROLEUM_OUTPUT_INDEX.json",
+    "source_name": "SingStat Table Builder",
+    "table_id": "M354851",
+    "series_match": "Refined Petroleum Products",
+    "source_url": null,
+    "file_type": "singstat_table"
+  },
+  "raw_files": [
+    {
+      "path": "data/intelligence/raw-downloads/SG_PETROLEUM_OUTPUT_INDEX.csv",
+      "exists": true,
+      "size_bytes": 138,
+      "modified_at": "2026-06-14T09:39:09.244Z",
+      "sha256": "ba67101fa0179209d5dec65467edb20d6378b9e636d1ecb417f7998c808ea6a5"
+    },
+    {
+      "path": "data/intelligence/raw-downloads/SG_PETROLEUM_OUTPUT_INDEX.json",
+      "exists": false,
+      "size_bytes": null,
+      "modified_at": null,
+      "sha256": null
+    },
+    {
+      "path": "data/intelligence/raw-downloads/SG_PETROLEUM_OUTPUT_INDEX.singstat.json",
+      "exists": true,
+      "size_bytes": 87787,
+      "modified_at": "2026-06-14T09:39:09.244Z",
+      "sha256": "b49e925de0429f5326a9377db51a7272adff08c0105d1ea852a014a7739e502b"
+    }
+  ],
+  "parsed_file": {
+    "path": "data/intelligence/parsed-datasets/SG_PETROLEUM_OUTPUT_INDEX.json",
+    "exists": true,
+    "size_bytes": 2611,
+    "modified_at": "2026-06-25T09:34:59.560Z",
+    "sha256": "f8432ebbffd8517bbf59a34620b08577fed0cf34ea8847d9b0771200aceb3d08"
+  },
+  "values_count": 10,
+  "coverage_start": "2016",
+  "coverage_end": "2025",
+  "staging_status": "staged_for_human_review",
+  "production_mutation_allowed": false,
+  "recommended_next_step": "Review staged item before promotion."
+}

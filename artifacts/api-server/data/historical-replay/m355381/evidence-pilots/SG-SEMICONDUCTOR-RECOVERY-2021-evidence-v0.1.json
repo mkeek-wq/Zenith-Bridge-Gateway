@@ -1,0 +1,12 @@
+{
+  "historical_evidence_pilot_version": "historical-evidence-pilot-v0.1",
+  "case_id": "SG-SEMICONDUCTOR-RECOVERY-2021",
+  "period": "2021",
+  "series_name": "Semiconductors",
+  "evidence_items": [
+    "Global chip shortages supported semiconductor demand.",
+    "Consumer electronics demand remained strong.",
+    "Data center investment increased chip demand.",
+    "Technology sector growth supported production."
+  ]
+}

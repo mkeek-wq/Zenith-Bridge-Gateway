@@ -1,0 +1,80 @@
+{
+  "registry_version": "historical-replay-attribution-engine-v0.1",
+  "created_at": "2026-06-08T07:01:15.714Z",
+  "doctrine": {
+    "historical_replay_supports_memory_not_certainty": true,
+    "historical_similarity_may_influence_confidence": true,
+    "historical_similarity_must_never_override_current_evidence": true,
+    "past_results_do_not_guarantee_future_outcomes": true
+  },
+  "inputs": {
+    "mechanism_confidence_items": 3,
+    "mechanism_summaries": 3,
+    "experience_items": 0,
+    "historical_outcome_items": 88
+  },
+  "summary": {
+    "mechanisms_processed": 3,
+    "strong_historical_attribution": 3,
+    "moderate_historical_attribution": 0,
+    "weak_historical_attribution": 0,
+    "insufficient_historical_attribution": 0,
+    "average_replay_attribution_score": 0.862
+  },
+  "replay_attribution_items": [
+    {
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "adjusted_confidence_score": 0.455,
+      "historical_support_score": 1,
+      "replay_coverage_score": 1,
+      "current_link_strength": 0.57,
+      "replay_attribution_score": 0.838,
+      "replay_attribution_band": "strong_historical_attribution",
+      "interpretation": "Historical replay contains enough related signal to support monitoring and review, but not automatic validation.",
+      "governance": {
+        "historical_replay_is_supportive_not_deterministic": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true,
+        "human_review_required_for_validation": true
+      }
+    },
+    {
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "adjusted_confidence_score": 0.536,
+      "historical_support_score": 1,
+      "replay_coverage_score": 1,
+      "current_link_strength": 0.677,
+      "replay_attribution_score": 0.873,
+      "replay_attribution_band": "strong_historical_attribution",
+      "interpretation": "Historical replay contains enough related signal to support monitoring and review, but not automatic validation.",
+      "governance": {
+        "historical_replay_is_supportive_not_deterministic": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true,
+        "human_review_required_for_validation": true
+      }
+    },
+    {
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "adjusted_confidence_score": 0.414,
+      "historical_support_score": 1,
+      "replay_coverage_score": 1,
+      "current_link_strength": 0.736,
+      "replay_attribution_score": 0.875,
+      "replay_attribution_band": "strong_historical_attribution",
+      "interpretation": "Historical replay contains enough related signal to support monitoring and review, but not automatic validation.",
+      "governance": {
+        "historical_replay_is_supportive_not_deterministic": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "past_results_do_not_guarantee_future_outcomes": true,
+        "human_review_required_for_validation": true
+      }
+    }
+  ]
+}

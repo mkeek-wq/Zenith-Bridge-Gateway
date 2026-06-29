@@ -1,0 +1,24 @@
+{
+  "historical_evidence_pilot_version": "historical-evidence-pilot-v0.1",
+  "case_id": "SG-PRECISION-ENGINEERING-2018",
+  "period": "2018",
+  "series_name": "Precision Engineering",
+  "source_context": "Bulk sandbox historical replay evidence pilot v0.2. Synthetic seed evidence for attribution-learning pipeline testing; not production evidence.",
+  "governance": {
+    "sandbox_only": true,
+    "bulk_seed": true,
+    "synthetic_seed_evidence": true,
+    "manual_review_required": true,
+    "production_mutation_allowed": false
+  },
+  "replay_metadata": {
+    "theme": "precision",
+    "direction": "growth"
+  },
+  "evidence_items": [
+    "Singapore Precision Engineering output in 2018 was shaped by machinery demand, capital equipment demand, and industrial equipment demand.",
+    "Equipment orders, automation equipment, and semiconductor equipment demand affected engineering output.",
+    "Capital spending, investment demand, and the capex cycle influenced precision engineering activity.",
+    "Manufacturing customers adjusted orders as global demand and production cycles changed."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "registry_version": "intelligence-brief-generator-v0.1",
+  "created_at": "2026-06-08T08:34:19.654Z",
+  "doctrine": {
+    "brief_is_monitoring_assessment_not_prediction": true,
+    "evidence_remains_primary": true,
+    "mechanisms_are_challengeable": true,
+    "human_review_required_for_action": true
+  },
+  "inputs": {
+    "case_available": true,
+    "triggers": 11,
+    "contradictions": 5,
+    "discoveries": 3,
+    "mechanisms": 3,
+    "top_evidence": 12
+  },
+  "brief": {
+    "title": "SMURF Intelligence Brief v0.1",
+    "case_id": "SMURF_CASE_001",
+    "generated_at": "2026-06-08T08:34:19.654Z",
+    "case_confidence_score": 0.481,
+    "recommended_posture": "focused_monitoring",
+    "leading_mechanism": "Demand Shock / External Downturn",
+    "top_contradiction": "external_trade",
+    "candidate_discoveries": [
+      "Household Balance Sheet Transmission",
+      "Services Receipts Momentum"
+    ],
+    "markdown": "# SMURF Intelligence Brief v0.1\n\nGenerated: 2026-06-08T08:34:19.653Z\n\n## Current Assessment\n\nEvidence base contains strong signals and mechanism-linked evidence. Because mechanisms remain candidate_not_validated, decision support should escalate monitoring but avoid firm conclusions.\n\n- Case confidence: 0.481 (low)\n- Recommended posture: focused_monitoring\n- Case status: monitoring_case\n\n## Leading Mechanism\n\n- Demand Shock / External Downturn\n- Confidence: 0.536\n- Replay support: 0.349\n- Promotion status: watch_for_promotion\n- Lifecycle status: candidate_not_validated\n\n## Top Evidence Signals\n\n- NODX_CHANGE_YOY (2026-04): positive, score 0.801, status strong_evidence\n- NODX_CHANGE_YOY (2025-11): positive, score 0.801, status strong_evidence\n- NODX_CHANGE_YOY (2025-10): positive, score 0.801, status strong_evidence\n- DIRECT_INVESTMENT_ABROAD_CHANGE_YOY (2026-03-03): mixed_or_neutral, score 0.797, status strong_evidence\n- DIRECT_INVESTMENT_ABROAD_CHANGE_YOY (2025-03-04): mixed_or_neutral, score 0.797, status strong_evidence\n- GDP_GROWTH_YOY (2026-Q1): positive, score 0.789, status strong_evidence\n- NODX_CHANGE_YOY (2026-04): positive, score 0.786, status strong_evidence\n- NODX_CHANGE_YOY (2026-03): positive, score 0.786, status strong_evidence\n\n## Contradictions\n\n- Total contradictions found: 5\n- Strong contradictions: 1\n- Highest contradiction: external_trade, strength 0.761, band strong_contradiction\n\n## Candidate Discoveries\n\n- Household Balance Sheet Transmission: discovery score 0.708, matched evidence 23\n- Services Receipts Momentum: discovery score 0.705, matched evidence 78\n\n## Priority Monitoring Triggers\n\n- DIRECT_INVESTMENT_ABROAD_CHANGE_YOY | metric_monitoring | high_priority | weekly\n- GDP_GROWTH_YOY | metric_monitoring | high_priority | weekly\n- NODX_CHANGE_YOY | metric_monitoring | high_priority | weekly\n- external_trade | contradiction_monitoring | high_priority | weekly\n- manufacturing | contradiction_monitoring | medium_priority | biweekly\n- macro_growth | contradiction_monitoring | medium_priority | biweekly\n- Household Balance Sheet Transmission | discovery_watch | medium_priority | monthly\n- investment | contradiction_monitoring | medium_priority | biweekly\n- Services Receipts Momentum | discovery_watch | medium_priority | monthly\n- other | contradiction_monitoring | medium_priority | biweekly\n\n## Case Evolution\n\n- No previous snapshot found. Current case is baseline.\n\n## Governance Note\n\nThis brief is a monitoring assessment. It is not a prediction, not investment advice, not an automated validation decision, and not a lifecycle mutation instruction. Evidence remains primary; mechanisms remain challengeable."
+  }
+}

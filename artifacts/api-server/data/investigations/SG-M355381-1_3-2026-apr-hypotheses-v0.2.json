@@ -1,0 +1,71 @@
+{
+  "hypothesis_version": "hypothesis-engine-v0.2",
+  "generated_at": "2026-06-02T15:01:30.778Z",
+  "source_hypothesis_file": "data/investigations/SG-M355381-1_3-2026-apr-hypotheses-v0.1.json",
+  "source_similarity_file": "data/intelligence/case-similarity-v0.1.json",
+  "case_id": "SG-M355381-1_3-2026-apr",
+  "observation": {
+    "latest_value": 72.54,
+    "month_on_month_change_pct": -18.889907641389172,
+    "year_on_year_change_pct": -16.07857655197945
+  },
+  "confidence": "low",
+  "similar_cases": [
+    {
+      "case_id": "SG-M355381-1_3_2-2026-apr",
+      "similarity_score": 90,
+      "similarity_percent": 81.82,
+      "reasons": [
+        "same_sector",
+        "same_yoy_band",
+        "same_mom_band",
+        "same_priority"
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_5_2-2026-apr",
+      "similarity_score": 55,
+      "similarity_percent": 50,
+      "reasons": [
+        "same_yoy_band",
+        "same_mom_band",
+        "same_priority"
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_3_1-2026-apr",
+      "similarity_score": 35,
+      "similarity_percent": 31.82,
+      "reasons": [
+        "same_sector"
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_1_1-2026-apr",
+      "similarity_score": 30,
+      "similarity_percent": 27.27,
+      "reasons": [
+        "same_mom_band",
+        "same_priority"
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_1-2026-apr",
+      "similarity_score": 30,
+      "similarity_percent": 27.27,
+      "reasons": [
+        "same_mom_band",
+        "same_priority"
+      ]
+    }
+  ],
+  "hypotheses": [
+    {
+      "hypothesis_id": "PORT_001",
+      "name": "Industry Mix Shift",
+      "bucket": "portfolio_effect",
+      "status": "candidate",
+      "reason": "Generated from manufacturing driver library based on YoY movement (16.08%)."
+    }
+  ]
+}

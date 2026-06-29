@@ -1,0 +1,105 @@
+{
+  "investigation_package_version": "historical-investigation-package-v0.1",
+  "generated_at": "2026-06-03T11:48:34.259Z",
+  "case_id": "SG-M355381-1_1_1-2020-dec",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_candidate_file": "data/historical-replay/m355381/historical-case-candidates-v0.1.json",
+  "case_summary": {
+    "period": "2020 Dec",
+    "series_no": "1.1.1",
+    "series_name": "Semiconductors",
+    "priority": "critical",
+    "direction": "increase",
+    "latest_value": 90.675,
+    "month_on_month_change_pct": 11.17036928056496,
+    "year_on_year_change_pct": 55.949023115024765
+  },
+  "search_queries": {
+    "official_queries": [
+      "Singapore Semiconductors manufacturing output 2020 Dec",
+      "Singapore Monthly Manufacturing Performance 2020 Dec",
+      "Singapore EDB Semiconductors output 2020 Dec",
+      "Singapore industrial production Semiconductors 2020 Dec"
+    ],
+    "industry_queries": [
+      "Semiconductors increase growth surge 2020 Singapore",
+      "Semiconductors manufacturing increase growth surge 2020",
+      "Semiconductors output driver 2020"
+    ],
+    "context_queries": [
+      "Singapore manufacturing 2020 COVID supply chain semiconductor petroleum biomedical",
+      "global Semiconductors demand 2020",
+      "Semiconductors market cycle 2020"
+    ]
+  },
+  "hypotheses": [
+    {
+      "hypothesis_id": "HYP_MARKET_DEMAND",
+      "hypothesis": "The movement may reflect stronger global or regional demand.",
+      "attribution_bucket": "market_effect"
+    },
+    {
+      "hypothesis_id": "HYP_INVENTORY_CYCLE",
+      "hypothesis": "The movement may reflect inventory correction, stockpiling, or restocking.",
+      "attribution_bucket": "portfolio_effect"
+    },
+    {
+      "hypothesis_id": "HYP_OPERATIONAL",
+      "hypothesis": "The movement may reflect operational disruption, plant maintenance, shutdowns, production ramp-up, or capacity changes.",
+      "attribution_bucket": "operational_effect"
+    },
+    {
+      "hypothesis_id": "HYP_POLICY",
+      "hypothesis": "The movement may reflect policy, regulatory, trade, tax, or incentive changes.",
+      "attribution_bucket": "policy_effect"
+    },
+    {
+      "hypothesis_id": "HYP_UNKNOWN",
+      "hypothesis": "The movement is statistically significant but currently lacks sufficient explanatory evidence.",
+      "attribution_bucket": "unknown_effect"
+    }
+  ],
+  "driver_candidates": [
+    {
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "applies_when": "Electronics output changes due to semiconductor demand, chip shortages, data-center demand, consumer electronics demand, or inventory cycle."
+    },
+    {
+      "driver_id": "MKT_001",
+      "driver_name": "Global Demand Surge",
+      "applies_when": "Output rises due to stronger global or regional end-demand."
+    },
+    {
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "applies_when": "Output rises or falls due to inventory correction, stockpiling, or restocking."
+    },
+    {
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness",
+      "applies_when": "Output falls due to weak external demand or export-market slowdown."
+    },
+    {
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "applies_when": "Output rises due to new capacity, plant ramp-up, or production expansion."
+    },
+    {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "applies_when": "Output falls due to maintenance, shutdowns, supply constraints, plant disruptions, or COVID restrictions."
+    },
+    {
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "applies_when": "Output changes due to regulation, tax, trade restrictions, incentives, or government policy."
+    }
+  ],
+  "investigation_status": {
+    "evidence_collected": false,
+    "attribution_scored": false,
+    "outcome_ready": false
+  }
+}

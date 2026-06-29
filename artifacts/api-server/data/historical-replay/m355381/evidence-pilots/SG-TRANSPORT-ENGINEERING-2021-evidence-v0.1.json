@@ -1,0 +1,18 @@
+{
+  "historical_evidence_pilot_version": "historical-evidence-pilot-v0.1",
+  "case_id": "SG-TRANSPORT-ENGINEERING-2021",
+  "period": "2021",
+  "series_name": "Transport Engineering",
+  "source_context": "Sandbox historical replay evidence pilot for Singapore transport engineering manufacturing movements.",
+  "governance": {
+    "sandbox_only": true,
+    "manual_review_required": true,
+    "production_mutation_allowed": false
+  },
+  "evidence_items": [
+    "Singapore transport engineering output in 2021 was affected by aviation recovery and changing aerospace demand as travel activity gradually resumed.",
+    "Aircraft maintenance and aircraft repair activity supported parts of the transport engineering sector as fleet maintenance requirements returned.",
+    "Marine engineering and ship repair activity reflected offshore engineering conditions and recovery in regional industrial activity.",
+    "MRO demand, travel recovery, and fleet maintenance shaped the transport engineering production cycle during the year."
+  ]
+}

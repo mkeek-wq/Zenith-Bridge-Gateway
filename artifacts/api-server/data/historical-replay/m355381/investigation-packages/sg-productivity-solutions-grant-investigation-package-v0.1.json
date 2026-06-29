@@ -1,0 +1,43 @@
+{
+  "investigation_package_version": "historical-investigation-package-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-PRODUCTIVITY-SOLUTIONS-GRANT",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_candidate_file": "policy-cluster-seed-v0.1",
+  "case_summary": {
+    "period": "2020",
+    "series_no": "POLICY-ENTERPRISESG-PSG",
+    "series_name": "Productivity Solutions Grant",
+    "priority": "critical",
+    "direction": "positive",
+    "latest_value": null,
+    "month_on_month_change_pct": null,
+    "year_on_year_change_pct": null
+  },
+  "driver_candidates": [
+    {
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact"
+    },
+    {
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion"
+    },
+    {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption"
+    }
+  ],
+  "expected_mechanisms": [
+    "The Productivity Solutions Grant is a government support scheme encouraging firms to adopt productivity and digital solutions.",
+    "Policy support reduced adoption barriers for business capability upgrading.",
+    "The grant may support capacity and productivity expansion through technology adoption.",
+    "Operational improvements and process changes are secondary transmission channels."
+  ],
+  "investigation_status": {
+    "evidence_collected": false,
+    "attribution_scored": false,
+    "outcome_ready": false
+  }
+}

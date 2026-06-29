@@ -1,0 +1,43 @@
+{
+  "investigation_package_version": "historical-investigation-package-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-GLOBAL-MINIMUM-TAX-2025",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_candidate_file": "policy-cluster-seed-v0.1",
+  "case_summary": {
+    "period": "2025",
+    "series_no": "POLICY-MOF-GLOBAL-MINIMUM-TAX",
+    "series_name": "Global Minimum Tax",
+    "priority": "critical",
+    "direction": "mixed",
+    "latest_value": null,
+    "month_on_month_change_pct": null,
+    "year_on_year_change_pct": null
+  },
+  "driver_candidates": [
+    {
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact"
+    },
+    {
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion"
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn"
+    }
+  ],
+  "expected_mechanisms": [
+    "Singapore's implementation of global minimum tax rules represents a tax-policy and regulatory change affecting multinational enterprise incentives.",
+    "The policy may influence investment, headquarters, and capacity-location decisions through changes in effective tax treatment.",
+    "Capacity-expansion incentives and location strategy may be affected as firms reassess tax and substance requirements.",
+    "External global tax coordination provides the international policy backdrop."
+  ],
+  "investigation_status": {
+    "evidence_collected": false,
+    "attribution_scored": false,
+    "outcome_ready": false
+  }
+}

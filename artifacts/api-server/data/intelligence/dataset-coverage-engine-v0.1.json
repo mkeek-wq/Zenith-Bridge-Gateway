@@ -1,0 +1,395 @@
+{
+  "engine_version": "dataset-coverage-engine-v0.1",
+  "generated_at": "2026-06-26T05:50:16.798Z",
+  "purpose": "Measures whether each article candidate has sufficient verified datasets for richer graphs and publication-grade analysis.",
+  "candidate_count": 10,
+  "strong_data_coverage": 3,
+  "partial_data_coverage": 1,
+  "thin_data_coverage": 6,
+  "no_verified_data": 0,
+  "coverage": [
+    {
+      "candidate_id": "ART-what-precision-engineering-reveals-about-singapore-s-capital-equipment-cycle",
+      "candidate_title": "What Precision Engineering Reveals About Singapore's Capital Equipment Cycle",
+      "required_dataset_count": 2,
+      "verified_dataset_count": 2,
+      "missing_dataset_count": 0,
+      "coverage_score": 1,
+      "readiness": "strong_data_coverage",
+      "graph_readiness": "graph_package_possible",
+      "datasets": [
+        {
+          "dataset_id": "SG_PRECISION_ENGINEERING_OUTPUT_INDEX",
+          "name": "Singapore precision engineering output index",
+          "importance": "critical",
+          "required": true,
+          "verification_status": "verified",
+          "values_count": 10,
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "available_for_graphs": true
+        },
+        {
+          "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "name": "Singapore total manufacturing output index",
+          "importance": "high",
+          "required": true,
+          "verification_status": "verified",
+          "values_count": 10,
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "available_for_graphs": true
+        }
+      ],
+      "generated_at": "2026-06-26T05:50:16.797Z"
+    },
+    {
+      "candidate_id": "ART-what-transport-engineering-reveals-about-singapore-s-aviation-and-marine-recovery",
+      "candidate_title": "What Transport Engineering Reveals About Singapore's Aviation and Marine Recovery",
+      "required_dataset_count": 2,
+      "verified_dataset_count": 2,
+      "missing_dataset_count": 0,
+      "coverage_score": 1,
+      "readiness": "strong_data_coverage",
+      "graph_readiness": "graph_package_possible",
+      "datasets": [
+        {
+          "dataset_id": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX",
+          "name": "Singapore transport engineering output index",
+          "importance": "critical",
+          "required": true,
+          "verification_status": "verified",
+          "values_count": 10,
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "available_for_graphs": true
+        },
+        {
+          "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "name": "Singapore total manufacturing output index",
+          "importance": "high",
+          "required": true,
+          "verification_status": "verified",
+          "values_count": 10,
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "available_for_graphs": true
+        }
+      ],
+      "generated_at": "2026-06-26T05:50:16.798Z"
+    },
+    {
+      "candidate_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+      "candidate_title": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles",
+      "required_dataset_count": 4,
+      "verified_dataset_count": 4,
+      "missing_dataset_count": 0,
+      "coverage_score": 1,
+      "readiness": "strong_data_coverage",
+      "graph_readiness": "graph_package_possible",
+      "datasets": [
+        {
+          "dataset_id": "SG_PETROLEUM_OUTPUT_INDEX",
+          "name": "Singapore petroleum output index",
+          "importance": "critical",
+          "required": true,
+          "verification_status": "verified",
+          "values_count": 10,
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "available_for_graphs": true
+        },
+        {
+          "dataset_id": "SG_CHEMICALS_OUTPUT_INDEX",
+          "name": "Singapore chemicals output index",
+          "importance": "high",
+          "required": true,
+          "verification_status": "verified",
+          "values_count": 10,
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "available_for_graphs": true
+        },
+        {
+          "dataset_id": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX",
+          "name": "Singapore transport engineering output index",
+          "importance": "medium",
+          "required": true,
+          "verification_status": "verified",
+          "values_count": 10,
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "available_for_graphs": true
+        },
+        {
+          "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "name": "Singapore total manufacturing output index",
+          "importance": "high",
+          "required": true,
+          "verification_status": "verified",
+          "values_count": 10,
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "available_for_graphs": true
+        }
+      ],
+      "generated_at": "2026-06-26T05:50:16.798Z"
+    },
+    {
+      "candidate_id": "ART-how-chemicals-and-petrochemicals-reflect-singapore-s-industrial-cycle",
+      "candidate_title": "How Chemicals and Petrochemicals Reflect Singapore's Industrial Cycle",
+      "required_dataset_count": 2,
+      "verified_dataset_count": 1,
+      "missing_dataset_count": 1,
+      "coverage_score": 0.4,
+      "readiness": "thin_data_coverage",
+      "graph_readiness": "graph_package_not_ready",
+      "datasets": [
+        {
+          "dataset_id": "SG_HOW_CHEMICALS_AND_PETROCHEMICALS_REFLECT_SINGAPORE_S_INDUSTRIAL_CYCLE_PRIMARY_SERIES",
+          "name": "Primary time series for How Chemicals and Petrochemicals Reflect Singapore's Industrial Cycle",
+          "importance": "critical",
+          "required": true,
+          "verification_status": "requested_not_loaded",
+          "values_count": 0,
+          "coverage_start": null,
+          "coverage_end": null,
+          "available_for_graphs": false
+        },
+        {
+          "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "name": "Singapore total manufacturing output index",
+          "importance": "high",
+          "required": true,
+          "verification_status": "verified",
+          "values_count": 10,
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "available_for_graphs": true
+        }
+      ],
+      "generated_at": "2026-06-26T05:50:16.798Z"
+    },
+    {
+      "candidate_id": "ART-understanding-biomedical-pharmaceutical-production-cycle-in-singapore-s-manufacturing-data",
+      "candidate_title": "Understanding Biomedical / Pharmaceutical Production Cycle in Singapore's Manufacturing Data",
+      "required_dataset_count": 2,
+      "verified_dataset_count": 1,
+      "missing_dataset_count": 1,
+      "coverage_score": 0.4,
+      "readiness": "thin_data_coverage",
+      "graph_readiness": "graph_package_not_ready",
+      "datasets": [
+        {
+          "dataset_id": "SG_UNDERSTANDING_BIOMEDICAL_PHARMACEUTICAL_PRODUCTION_CYCLE_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES",
+          "name": "Primary time series for Understanding Biomedical / Pharmaceutical Production Cycle in Singapore's Manufacturing Data",
+          "importance": "critical",
+          "required": true,
+          "verification_status": "requested_not_loaded",
+          "values_count": 0,
+          "coverage_start": null,
+          "coverage_end": null,
+          "available_for_graphs": false
+        },
+        {
+          "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "name": "Singapore total manufacturing output index",
+          "importance": "high",
+          "required": true,
+          "verification_status": "verified",
+          "values_count": 10,
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "available_for_graphs": true
+        }
+      ],
+      "generated_at": "2026-06-26T05:50:16.798Z"
+    },
+    {
+      "candidate_id": "ART-how-global-demand-shocks-move-through-singapore-s-industrial-base",
+      "candidate_title": "How Global Demand Shocks Move Through Singapore's Industrial Base",
+      "required_dataset_count": 2,
+      "verified_dataset_count": 1,
+      "missing_dataset_count": 1,
+      "coverage_score": 0.4,
+      "readiness": "thin_data_coverage",
+      "graph_readiness": "graph_package_not_ready",
+      "datasets": [
+        {
+          "dataset_id": "SG_HOW_GLOBAL_DEMAND_SHOCKS_MOVE_THROUGH_SINGAPORE_S_INDUSTRIAL_BASE_PRIMARY_SERIES",
+          "name": "Primary time series for How Global Demand Shocks Move Through Singapore's Industrial Base",
+          "importance": "critical",
+          "required": true,
+          "verification_status": "requested_not_loaded",
+          "values_count": 0,
+          "coverage_start": null,
+          "coverage_end": null,
+          "available_for_graphs": false
+        },
+        {
+          "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "name": "Singapore total manufacturing output index",
+          "importance": "high",
+          "required": true,
+          "verification_status": "verified",
+          "values_count": 10,
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "available_for_graphs": true
+        }
+      ],
+      "generated_at": "2026-06-26T05:50:16.798Z"
+    },
+    {
+      "candidate_id": "ART-how-semiconductor-cycles-shape-singapore-s-manufacturing-advantage",
+      "candidate_title": "How Semiconductor Cycles Shape Singapore's Manufacturing Advantage",
+      "required_dataset_count": 3,
+      "verified_dataset_count": 2,
+      "missing_dataset_count": 1,
+      "coverage_score": 0.714,
+      "readiness": "partial_data_coverage",
+      "graph_readiness": "graph_package_possible",
+      "datasets": [
+        {
+          "dataset_id": "SG_SEMICONDUCTOR_OUTPUT_INDEX",
+          "name": "Singapore semiconductor output index",
+          "importance": "critical",
+          "required": true,
+          "verification_status": "verified",
+          "values_count": 10,
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "available_for_graphs": true
+        },
+        {
+          "dataset_id": "SG_ELECTRONICS_OUTPUT_INDEX",
+          "name": "Singapore electronics output index",
+          "importance": "high",
+          "required": true,
+          "verification_status": "requested_not_loaded",
+          "values_count": 0,
+          "coverage_start": null,
+          "coverage_end": null,
+          "available_for_graphs": false
+        },
+        {
+          "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "name": "Singapore total manufacturing output index",
+          "importance": "high",
+          "required": true,
+          "verification_status": "verified",
+          "values_count": 10,
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "available_for_graphs": true
+        }
+      ],
+      "generated_at": "2026-06-26T05:50:16.798Z"
+    },
+    {
+      "candidate_id": "ART-understanding-inventory-cycle-restocking-in-singapore-s-manufacturing-data",
+      "candidate_title": "Understanding Inventory Cycle / Restocking in Singapore's Manufacturing Data",
+      "required_dataset_count": 2,
+      "verified_dataset_count": 1,
+      "missing_dataset_count": 1,
+      "coverage_score": 0.4,
+      "readiness": "thin_data_coverage",
+      "graph_readiness": "graph_package_not_ready",
+      "datasets": [
+        {
+          "dataset_id": "SG_UNDERSTANDING_INVENTORY_CYCLE_RESTOCKING_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES",
+          "name": "Primary time series for Understanding Inventory Cycle / Restocking in Singapore's Manufacturing Data",
+          "importance": "critical",
+          "required": true,
+          "verification_status": "requested_not_loaded",
+          "values_count": 0,
+          "coverage_start": null,
+          "coverage_end": null,
+          "available_for_graphs": false
+        },
+        {
+          "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "name": "Singapore total manufacturing output index",
+          "importance": "high",
+          "required": true,
+          "verification_status": "verified",
+          "values_count": 10,
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "available_for_graphs": true
+        }
+      ],
+      "generated_at": "2026-06-26T05:50:16.798Z"
+    },
+    {
+      "candidate_id": "ART-understanding-operational-disruption-in-singapore-s-manufacturing-data",
+      "candidate_title": "Understanding Operational Disruption in Singapore's Manufacturing Data",
+      "required_dataset_count": 2,
+      "verified_dataset_count": 1,
+      "missing_dataset_count": 1,
+      "coverage_score": 0.4,
+      "readiness": "thin_data_coverage",
+      "graph_readiness": "graph_package_not_ready",
+      "datasets": [
+        {
+          "dataset_id": "SG_UNDERSTANDING_OPERATIONAL_DISRUPTION_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES",
+          "name": "Primary time series for Understanding Operational Disruption in Singapore's Manufacturing Data",
+          "importance": "critical",
+          "required": true,
+          "verification_status": "requested_not_loaded",
+          "values_count": 0,
+          "coverage_start": null,
+          "coverage_end": null,
+          "available_for_graphs": false
+        },
+        {
+          "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "name": "Singapore total manufacturing output index",
+          "importance": "high",
+          "required": true,
+          "verification_status": "verified",
+          "values_count": 10,
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "available_for_graphs": true
+        }
+      ],
+      "generated_at": "2026-06-26T05:50:16.798Z"
+    },
+    {
+      "candidate_id": "ART-understanding-capacity-expansion-in-singapore-s-manufacturing-data",
+      "candidate_title": "Understanding Capacity Expansion in Singapore's Manufacturing Data",
+      "required_dataset_count": 2,
+      "verified_dataset_count": 1,
+      "missing_dataset_count": 1,
+      "coverage_score": 0.4,
+      "readiness": "thin_data_coverage",
+      "graph_readiness": "graph_package_not_ready",
+      "datasets": [
+        {
+          "dataset_id": "SG_UNDERSTANDING_CAPACITY_EXPANSION_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES",
+          "name": "Primary time series for Understanding Capacity Expansion in Singapore's Manufacturing Data",
+          "importance": "critical",
+          "required": true,
+          "verification_status": "requested_not_loaded",
+          "values_count": 0,
+          "coverage_start": null,
+          "coverage_end": null,
+          "available_for_graphs": false
+        },
+        {
+          "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "name": "Singapore total manufacturing output index",
+          "importance": "high",
+          "required": true,
+          "verification_status": "verified",
+          "values_count": 10,
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "available_for_graphs": true
+        }
+      ],
+      "generated_at": "2026-06-26T05:50:16.798Z"
+    }
+  ]
+}

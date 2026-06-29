@@ -1,0 +1,82 @@
+{
+  "case_version": "case-file-v0.1",
+  "case_id": "SG-M355381-1_3-2026-apr",
+  "country": "Singapore",
+  "institution": "Economic Development Board",
+  "source_system": "SingStat TableBuilder",
+  "table_id": "M355381",
+  "period": "2026 Apr",
+  "series_no": "1.3",
+  "series_name": "Biomedical Manufacturing Cluster",
+  "case_status": "investigating",
+  "priority": "medium",
+  "confidence": "low",
+  "conclusion_status": "no_conclusion_yet",
+  "opened_at": "2026-06-02T14:38:49.900Z",
+  "last_updated_at": "2026-06-02T15:01:21.974Z",
+  "observation": {
+    "latest_value": 72.54,
+    "month_on_month_change_pct": -18.889907641389172,
+    "year_on_year_change_pct": -16.07857655197945
+  },
+  "evidence_status": {
+    "internal_evidence_count": 1,
+    "relevant_evidence_count": 1,
+    "evidence_quality": "limited",
+    "external_search_required": true,
+    "relevant_evidence": [
+      {
+        "publication_date": "2026-05-26",
+        "title": "Monthly Manufacturing Performance, Apr 2026",
+        "score": 1,
+        "relevance_score": 2
+      }
+    ]
+  },
+  "attribution": {
+    "market_effect": {
+      "score": 0,
+      "evidence": [],
+      "note": "External or global market movement, demand cycle, regional industry trend."
+    },
+    "portfolio_effect": {
+      "score": 0,
+      "evidence": [],
+      "note": "Composition effect within Singapore manufacturing or sub-sector mix."
+    },
+    "operational_effect": {
+      "score": 0,
+      "evidence": [],
+      "note": "Maintenance, shutdown, disruption, capacity change, plant-level event."
+    },
+    "policy_effect": {
+      "score": 0,
+      "evidence": [],
+      "note": "Regulatory, tax, incentive, trade restriction, or government policy driver."
+    },
+    "unknown_effect": {
+      "score": 10,
+      "evidence": [],
+      "note": "Default bucket. Movement is confirmed but not yet explained by evidence."
+    }
+  },
+  "workflow": {
+    "next_action": "collect_additional_evidence",
+    "publication_status": "not_published",
+    "state_last_evaluated_at": "2026-06-02T15:01:21.974Z"
+  },
+  "analyst_note": "Persistent case file created from attribution investigation. Case remains open until evidence supports attribution or formal closure.",
+  "outcome": {
+    "primary_driver": null,
+    "primary_driver_name": null,
+    "confidence": null,
+    "closed_at": null
+  },
+  "confidence_reason": {
+    "rule_applied": "LOW_V1",
+    "relevant_evidence_count": 1,
+    "evidence_quality": "limited",
+    "unknown_effect": 10,
+    "conclusion_status": "no_conclusion_yet"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "historical_evidence_scorecard_version": "historical-evidence-scorecard-v0.1",
+  "generated_at": "2026-06-06T09:38:10.082Z",
+  "source_taxonomy": "data/intelligence-driver-library/driver-evidence-taxonomy-v0.1.json",
+  "source_evidence": "data/historical-replay/m355381/evidence-pilots/SG-BIOMEDICAL-2021-evidence-v0.1.json",
+  "case_id": "SG-BIOMEDICAL-2021",
+  "period": "2021",
+  "series_name": "Biomedical Manufacturing",
+  "governance": {
+    "sandbox_only": true,
+    "recommendation_only": true,
+    "auto_close_case": false,
+    "requires_human_review": true,
+    "production_mutation_allowed": false
+  },
+  "evidence_metadata": {
+    "evidence_origin": "synthetic",
+    "template_generated": true,
+    "attribution_discovery_ready": true,
+    "requires_human_review": true
+  },
+  "evidence_items": [
+    "Vaccine production increased pharmaceutical output.",
+    "Global healthcare demand supported manufacturing activity.",
+    "Pharmaceutical exports rose during the pandemic.",
+    "Medical product demand remained elevated."
+  ],
+  "evidence_matches": [
+    {
+      "evidence_text": "Vaccine production increased pharmaceutical output.",
+      "matches": [
+        {
+          "driver_id": "MKT_009",
+          "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+          "attribution_bucket": "operational_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "vaccine production"
+          ],
+          "match_score": 6
+        }
+      ]
+    },
+    {
+      "evidence_text": "Global healthcare demand supported manufacturing activity.",
+      "matches": [
+        {
+          "driver_id": "MKT_009",
+          "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+          "attribution_bucket": "operational_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "healthcare demand"
+          ],
+          "match_score": 6
+        }
+      ]
+    },
+    {
+      "evidence_text": "Pharmaceutical exports rose during the pandemic.",
+      "matches": []
+    },
+    {
+      "evidence_text": "Medical product demand remained elevated.",
+      "matches": []
+    }
+  ],
+  "ranked_drivers": [
+    {
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "attribution_bucket": "operational_effect",
+      "total_score": 12,
+      "evidence_count": 2,
+      "matched_phrases": [
+        "vaccine production",
+        "healthcare demand"
+      ],
+      "supporting_evidence": [
+        "Vaccine production increased pharmaceutical output.",
+        "Global healthcare demand supported manufacturing activity."
+      ]
+    }
+  ],
+  "bucket_scores": [
+    {
+      "attribution_bucket": "operational_effect",
+      "total_score": 12
+    }
+  ],
+  "recommended_outcome": {
+    "primary_driver": "MKT_009",
+    "primary_driver_name": "Biomedical / Pharmaceutical Production Cycle",
+    "attribution_bucket": "operational_effect",
+    "confidence": "medium",
+    "total_score": 12,
+    "second_score": 0,
+    "score_gap": 12
+  }
+}

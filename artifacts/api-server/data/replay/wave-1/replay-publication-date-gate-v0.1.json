@@ -1,0 +1,39 @@
+{
+  "gate_version": "replay-publication-date-gate-v0.1",
+  "generated_at": "2026-06-10T03:42:32.006Z",
+  "source_plan": "data/replay/wave-1/replay-evidence-population-plan-v0.1.json",
+  "cases_checked": 4,
+  "passed": 0,
+  "blocked": 4,
+  "governance_status": "AWAITING_EVIDENCE_POPULATION_BEFORE_REPLAY",
+  "checks": [
+    {
+      "case_id": "SG-GOODS-EXPORTS-2020",
+      "publication_date_validation_required": true,
+      "future_leakage_scan_required": true,
+      "lineage_validation_required": true,
+      "gate_status": "awaiting_evidence_population"
+    },
+    {
+      "case_id": "SG-NODX-2023",
+      "publication_date_validation_required": true,
+      "future_leakage_scan_required": true,
+      "lineage_validation_required": true,
+      "gate_status": "awaiting_evidence_population"
+    },
+    {
+      "case_id": "SG-FINANCE-2020",
+      "publication_date_validation_required": true,
+      "future_leakage_scan_required": true,
+      "lineage_validation_required": true,
+      "gate_status": "awaiting_evidence_population"
+    },
+    {
+      "case_id": "SG-LABOUR-MARKET-2020",
+      "publication_date_validation_required": true,
+      "future_leakage_scan_required": true,
+      "lineage_validation_required": true,
+      "gate_status": "awaiting_evidence_population"
+    }
+  ]
+}

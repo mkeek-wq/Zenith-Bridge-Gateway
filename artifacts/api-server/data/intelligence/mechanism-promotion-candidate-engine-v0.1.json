@@ -1,0 +1,92 @@
+{
+  "registry_version": "mechanism-promotion-candidate-engine-v0.1",
+  "created_at": "2026-06-08T07:07:57.327Z",
+  "doctrine": {
+    "promotion_is_not_validation": true,
+    "promotion_only_creates_review_queue_candidates": true,
+    "automatic_lifecycle_change_allowed": false,
+    "evidence_remains_primary": true,
+    "human_review_required": true
+  },
+  "inputs": {
+    "confidence_items": 3,
+    "replay_support_items": 3,
+    "readiness_items": 3,
+    "lifecycle_items": 3
+  },
+  "summary": {
+    "mechanisms_processed": 3,
+    "promote_to_human_review_queue": 0,
+    "watch_for_promotion": 1,
+    "do_not_promote": 2,
+    "average_promotion_score": 0.481
+  },
+  "promotion_candidate_items": [
+    {
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "promotion_score": 0.45,
+      "promotion_band": "low_promotion_candidate",
+      "promotion_status": "do_not_promote",
+      "components": {
+        "adjusted_confidence_score": 0.455,
+        "replay_support_score": 0.288,
+        "validation_readiness_score": 0.512,
+        "evidence_link_support": 0.567
+      },
+      "recommendation": "Do not promote. Support is not yet sufficient.",
+      "governance": {
+        "promotion_is_not_validation": true,
+        "automatic_lifecycle_change_allowed": false,
+        "human_review_required": true,
+        "evidence_remains_primary": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "promotion_score": 0.56,
+      "promotion_band": "moderate_promotion_candidate",
+      "promotion_status": "watch_for_promotion",
+      "components": {
+        "adjusted_confidence_score": 0.536,
+        "replay_support_score": 0.349,
+        "validation_readiness_score": 0.608,
+        "evidence_link_support": 0.799
+      },
+      "recommendation": "Continue monitoring; candidate may become review-worthy with additional evidence.",
+      "governance": {
+        "promotion_is_not_validation": true,
+        "automatic_lifecycle_change_allowed": false,
+        "human_review_required": true,
+        "evidence_remains_primary": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    },
+    {
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "promotion_score": 0.433,
+      "promotion_band": "low_promotion_candidate",
+      "promotion_status": "do_not_promote",
+      "components": {
+        "adjusted_confidence_score": 0.414,
+        "replay_support_score": 0.383,
+        "validation_readiness_score": 0.482,
+        "evidence_link_support": 0.465
+      },
+      "recommendation": "Do not promote. Support is not yet sufficient.",
+      "governance": {
+        "promotion_is_not_validation": true,
+        "automatic_lifecycle_change_allowed": false,
+        "human_review_required": true,
+        "evidence_remains_primary": true,
+        "past_results_do_not_guarantee_future_outcomes": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "evidence_package_version": "historical-evidence-package-v0.1",
+  "case_id": "SG-FOREIGN-WORKER-CONSTRAINTS-2021",
+  "period": "2021",
+  "series_name": "Foreign Worker Constraints",
+  "evidence_status": "manual_policy_evidence_seed",
+  "evidence_items": [
+    {
+      "evidence_id": "EVD-SG-FW-2021-001",
+      "source_type": "institutional_statement",
+      "source_institution": "Ministry of Manpower",
+      "source_title": "MOM parliamentary / public statements on migrant worker inflow and border restrictions",
+      "evidence_text": "Border restrictions reduced the inflow of migrant workers into Singapore and made it difficult to replace worker outflows.",
+      "mechanism_tags": [
+        "border restrictions",
+        "foreign worker inflow",
+        "worker replacement constraint",
+        "manpower shortage"
+      ],
+      "supports_drivers": [
+        "MKT_006",
+        "MKT_005"
+      ],
+      "evidence_strength": "high"
+    },
+    {
+      "evidence_id": "EVD-SG-FW-2021-002",
+      "source_type": "institutional_statement",
+      "source_institution": "Ministry of Manpower",
+      "source_title": "MOM comments on sectors affected by reduced migrant worker availability",
+      "evidence_text": "Construction, marine and process sectors were among the sectors most affected by reduced availability of migrant workers.",
+      "mechanism_tags": [
+        "construction sector",
+        "marine sector",
+        "process sector",
+        "sector manpower constraint"
+      ],
+      "supports_drivers": [
+        "MKT_006",
+        "MKT_005"
+      ],
+      "evidence_strength": "high"
+    },
+    {
+      "evidence_id": "EVD-SG-FW-2021-003",
+      "source_type": "industry_context",
+      "source_institution": "Singapore Business Federation",
+      "source_title": "SBF manpower policy paper on foreign workforce constraints",
+      "evidence_text": "Foreign workforce numbers declined during the pandemic period as border restrictions limited replacement inflows, contributing to manpower constraints for firms.",
+      "mechanism_tags": [
+        "foreign workforce decline",
+        "replacement inflow constraint",
+        "firm manpower constraint"
+      ],
+      "supports_drivers": [
+        "MKT_006",
+        "MKT_005"
+      ],
+      "evidence_strength": "medium"
+    },
+    {
+      "evidence_id": "EVD-SG-FW-2021-004",
+      "source_type": "mechanism_assessment",
+      "source_institution": "ZNBW Historical Replay",
+      "source_title": "Policy-to-operations mechanism assessment",
+      "evidence_text": "The observed mechanism is policy-driven labor availability constraint transmitting into operational disruption through reduced manpower availability, project delays, and capacity constraints.",
+      "mechanism_tags": [
+        "policy transmission mechanism",
+        "labor availability",
+        "operational disruption",
+        "capacity constraint"
+      ],
+      "supports_drivers": [
+        "MKT_006",
+        "MKT_005"
+      ],
+      "evidence_strength": "medium"
+    }
+  ],
+  "governance": {
+    "sandbox_only": true,
+    "manual_seed_evidence": true,
+    "requires_source_url_hardening": true,
+    "production_mutation_allowed": false,
+    "human_review_required_before_production": true
+  }
+}

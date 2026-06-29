@@ -1,0 +1,2872 @@
+{
+  "observation_memory_registry_version": "observation-memory-registry-v0.1",
+  "generated_at": "2026-06-06T07:13:14.346Z",
+  "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+  "policy": {
+    "principle": "Observation memory preserves factual historical details for recall, comparison, and later abstraction without replacing experience memory.",
+    "observation_memory_is_not_experience_memory": true,
+    "facts_are_retained_separately_from_principles": true,
+    "archive_is_preferred_over_deletion": true,
+    "production_mutation_allowed": false
+  },
+  "summary": {
+    "observations_created": 68,
+    "tier_counts": {
+      "hot_anchor": 20,
+      "hot_active": 48
+    }
+  },
+  "observations": [
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-TRANSPORT-ENGINEERING-2018",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "case_id": "SG-TRANSPORT-ENGINEERING-2018",
+      "period": "2018",
+      "series_name": "Transport Engineering",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Transport Engineering in 2018 was associated with driver MKT_013 (Transport Engineering / Aerospace Marine Cycle).",
+      "memory_tier": "hot_anchor",
+      "retrieval_priority": 1,
+      "memory_score": 0.863,
+      "memory_action": "retain_anchor",
+      "retention_reason": "First known memory for this driver must be retained.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 72,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "POSSIBLE_TEMPLATE_CONCENTRATION"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.865,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.811,
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-TRANSPORT-ENGINEERING-2019",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "case_id": "SG-TRANSPORT-ENGINEERING-2019",
+      "period": "2019",
+      "series_name": "Transport Engineering",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Transport Engineering in 2019 was associated with driver MKT_013 (Transport Engineering / Aerospace Marine Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 2,
+      "memory_score": 0.863,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 72,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "POSSIBLE_TEMPLATE_CONCENTRATION"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.865,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.811,
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-AEROSPACE-2020",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "case_id": "SG-AEROSPACE-2020",
+      "period": "2020",
+      "series_name": "Aerospace",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Aerospace in 2020 was associated with driver MKT_013 (Transport Engineering / Aerospace Marine Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 2,
+      "memory_score": 0.863,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 72,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "POSSIBLE_TEMPLATE_CONCENTRATION"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.865,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.811,
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-TRANSPORT-ENGINEERING-2020",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "case_id": "SG-TRANSPORT-ENGINEERING-2020",
+      "period": "2020",
+      "series_name": "Transport Engineering",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Transport Engineering in 2020 was associated with driver MKT_013 (Transport Engineering / Aerospace Marine Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 2,
+      "memory_score": 0.852,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 66,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "POSSIBLE_TEMPLATE_CONCENTRATION"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.865,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.811,
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-AEROSPACE-2021",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "case_id": "SG-AEROSPACE-2021",
+      "period": "2021",
+      "series_name": "Aerospace",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Aerospace in 2021 was associated with driver MKT_013 (Transport Engineering / Aerospace Marine Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 2,
+      "memory_score": 0.863,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 72,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "POSSIBLE_TEMPLATE_CONCENTRATION"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.865,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.811,
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-TRANSPORT-ENGINEERING-2021",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "case_id": "SG-TRANSPORT-ENGINEERING-2021",
+      "period": "2021",
+      "series_name": "Transport Engineering",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Transport Engineering in 2021 was associated with driver MKT_013 (Transport Engineering / Aerospace Marine Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 2,
+      "memory_score": 0.887,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 84,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "POSSIBLE_TEMPLATE_CONCENTRATION"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.865,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.811,
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-AEROSPACE-2022",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "case_id": "SG-AEROSPACE-2022",
+      "period": "2022",
+      "series_name": "Aerospace",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Aerospace in 2022 was associated with driver MKT_013 (Transport Engineering / Aerospace Marine Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 2,
+      "memory_score": 0.863,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 72,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "POSSIBLE_TEMPLATE_CONCENTRATION"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.865,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.811,
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-TRANSPORT-ENGINEERING-2022",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "case_id": "SG-TRANSPORT-ENGINEERING-2022",
+      "period": "2022",
+      "series_name": "Transport Engineering",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Transport Engineering in 2022 was associated with driver MKT_013 (Transport Engineering / Aerospace Marine Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 2,
+      "memory_score": 0.876,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 78,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "POSSIBLE_TEMPLATE_CONCENTRATION"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.865,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.811,
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-TRANSPORT-ENGINEERING-2023",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "case_id": "SG-TRANSPORT-ENGINEERING-2023",
+      "period": "2023",
+      "series_name": "Transport Engineering",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Transport Engineering in 2023 was associated with driver MKT_013 (Transport Engineering / Aerospace Marine Cycle).",
+      "memory_tier": "hot_anchor",
+      "retrieval_priority": 1,
+      "memory_score": 0.863,
+      "memory_action": "retain_anchor",
+      "retention_reason": "Most recent memory for this driver must be retained.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 72,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "POSSIBLE_TEMPLATE_CONCENTRATION"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.865,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.811,
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-PRECISION-ENGINEERING-2018",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "case_id": "SG-PRECISION-ENGINEERING-2018",
+      "period": "2018",
+      "series_name": "Precision Engineering",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Precision Engineering in 2018 was associated with driver MKT_012 (Precision Engineering / Capital Equipment Cycle).",
+      "memory_tier": "hot_anchor",
+      "retrieval_priority": 1,
+      "memory_score": 0.862,
+      "memory_action": "retain_anchor",
+      "retention_reason": "First known memory for this driver must be retained.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 78,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.819,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.768,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-PRECISION-ENGINEERING-2019",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "case_id": "SG-PRECISION-ENGINEERING-2019",
+      "period": "2019",
+      "series_name": "Precision Engineering",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Precision Engineering in 2019 was associated with driver MKT_012 (Precision Engineering / Capital Equipment Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 2,
+      "memory_score": 0.862,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 78,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.819,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.768,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-MACHINERY-2020",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "case_id": "SG-MACHINERY-2020",
+      "period": "2020",
+      "series_name": "Machinery",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Machinery in 2020 was associated with driver MKT_012 (Precision Engineering / Capital Equipment Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 3,
+      "memory_score": 0.838,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 66,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.819,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.768,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-PRECISION-ENGINEERING-2020",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "case_id": "SG-PRECISION-ENGINEERING-2020",
+      "period": "2020",
+      "series_name": "Precision Engineering",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Precision Engineering in 2020 was associated with driver MKT_012 (Precision Engineering / Capital Equipment Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 2,
+      "memory_score": 0.862,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 78,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.819,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.768,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-MACHINERY-2021",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "case_id": "SG-MACHINERY-2021",
+      "period": "2021",
+      "series_name": "Machinery",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Machinery in 2021 was associated with driver MKT_012 (Precision Engineering / Capital Equipment Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 3,
+      "memory_score": 0.838,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 66,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.819,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.768,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-PRECISION-ENGINEERING-2021",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "case_id": "SG-PRECISION-ENGINEERING-2021",
+      "period": "2021",
+      "series_name": "Precision Engineering",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Precision Engineering in 2021 was associated with driver MKT_012 (Precision Engineering / Capital Equipment Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 2,
+      "memory_score": 0.862,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 78,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.819,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.768,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-MACHINERY-2022",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "case_id": "SG-MACHINERY-2022",
+      "period": "2022",
+      "series_name": "Machinery",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Machinery in 2022 was associated with driver MKT_012 (Precision Engineering / Capital Equipment Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 3,
+      "memory_score": 0.838,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 66,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.819,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.768,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-PRECISION-ENGINEERING-2022",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "case_id": "SG-PRECISION-ENGINEERING-2022",
+      "period": "2022",
+      "series_name": "Precision Engineering",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Precision Engineering in 2022 was associated with driver MKT_012 (Precision Engineering / Capital Equipment Cycle).",
+      "memory_tier": "hot_anchor",
+      "retrieval_priority": 1,
+      "memory_score": 0.862,
+      "memory_action": "retain_anchor",
+      "retention_reason": "Most recent memory for this driver must be retained.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 78,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.819,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.768,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-CHEMICALS-2018",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "case_id": "SG-CHEMICALS-2018",
+      "period": "2018",
+      "series_name": "Chemicals",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Chemicals in 2018 was associated with driver MKT_011 (Chemicals / Petrochemicals Cycle).",
+      "memory_tier": "hot_anchor",
+      "retrieval_priority": 1,
+      "memory_score": 0.819,
+      "memory_action": "retain_anchor",
+      "retention_reason": "First known memory for this driver must be retained.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 60,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.797,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.856,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-PETROCHEMICALS-2018",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "case_id": "SG-PETROCHEMICALS-2018",
+      "period": "2018",
+      "series_name": "Petrochemicals",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Petrochemicals in 2018 was associated with driver MKT_011 (Chemicals / Petrochemicals Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 3,
+      "memory_score": 0.819,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 60,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.797,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.856,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-CHEMICALS-2020",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "case_id": "SG-CHEMICALS-2020",
+      "period": "2020",
+      "series_name": "Chemicals",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Chemicals in 2020 was associated with driver MKT_011 (Chemicals / Petrochemicals Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 3,
+      "memory_score": 0.807,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 54,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.797,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.856,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-CHEMICALS-2021",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "case_id": "SG-CHEMICALS-2021",
+      "period": "2021",
+      "series_name": "Chemicals",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Chemicals in 2021 was associated with driver MKT_011 (Chemicals / Petrochemicals Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 3,
+      "memory_score": 0.831,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 66,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.797,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.856,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-CHEMICALS-2022",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "case_id": "SG-CHEMICALS-2022",
+      "period": "2022",
+      "series_name": "Chemicals",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Chemicals in 2022 was associated with driver MKT_011 (Chemicals / Petrochemicals Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 3,
+      "memory_score": 0.819,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 60,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.797,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.856,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-PETROCHEMICALS-2022",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "case_id": "SG-PETROCHEMICALS-2022",
+      "period": "2022",
+      "series_name": "Petrochemicals",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Petrochemicals in 2022 was associated with driver MKT_011 (Chemicals / Petrochemicals Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 3,
+      "memory_score": 0.819,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 60,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.797,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.856,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-CHEMICALS-2023",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "case_id": "SG-CHEMICALS-2023",
+      "period": "2023",
+      "series_name": "Chemicals",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Chemicals in 2023 was associated with driver MKT_011 (Chemicals / Petrochemicals Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 3,
+      "memory_score": 0.807,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 54,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.797,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.856,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-PETROCHEMICALS-2023",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "case_id": "SG-PETROCHEMICALS-2023",
+      "period": "2023",
+      "series_name": "Petrochemicals",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Petrochemicals in 2023 was associated with driver MKT_011 (Chemicals / Petrochemicals Cycle).",
+      "memory_tier": "hot_anchor",
+      "retrieval_priority": 1,
+      "memory_score": 0.819,
+      "memory_action": "retain_anchor",
+      "retention_reason": "Most recent memory for this driver must be retained.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 60,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.797,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.856,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-BIOMEDICAL-2018",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "case_id": "SG-BIOMEDICAL-2018",
+      "period": "2018",
+      "series_name": "Biomedical Manufacturing",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Biomedical Manufacturing in 2018 was associated with driver MKT_009 (Biomedical / Pharmaceutical Production Cycle).",
+      "memory_tier": "hot_anchor",
+      "retrieval_priority": 1,
+      "memory_score": 0.788,
+      "memory_action": "retain_anchor",
+      "retention_reason": "First known memory for this driver must be retained.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 54,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.732,
+        "driver_confidence_score": 0.956,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.476,
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-BIOMEDICAL-2019",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "case_id": "SG-BIOMEDICAL-2019",
+      "period": "2019",
+      "series_name": "Biomedical Manufacturing",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Biomedical Manufacturing in 2019 was associated with driver MKT_009 (Biomedical / Pharmaceutical Production Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 3,
+      "memory_score": 0.788,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 54,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.732,
+        "driver_confidence_score": 0.956,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.476,
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-BIOMEDICAL-2020",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "case_id": "SG-BIOMEDICAL-2020",
+      "period": "2020",
+      "series_name": "Biomedical Manufacturing",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Biomedical Manufacturing in 2020 was associated with driver MKT_009 (Biomedical / Pharmaceutical Production Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 3,
+      "memory_score": 0.788,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 54,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.732,
+        "driver_confidence_score": 0.956,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.476,
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-PHARMACEUTICALS-2020",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "case_id": "SG-PHARMACEUTICALS-2020",
+      "period": "2020",
+      "series_name": "Pharmaceuticals",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Pharmaceuticals in 2020 was associated with driver MKT_009 (Biomedical / Pharmaceutical Production Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 3,
+      "memory_score": 0.788,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 54,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.732,
+        "driver_confidence_score": 0.956,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.476,
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-BIOMEDICAL-2021",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "case_id": "SG-BIOMEDICAL-2021",
+      "period": "2021",
+      "series_name": "Biomedical Manufacturing",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Biomedical Manufacturing in 2021 was associated with driver MKT_009 (Biomedical / Pharmaceutical Production Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 5,
+      "memory_score": 0.584,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "medium",
+        "confidence_weight": 0.6,
+        "driver_score": 12,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.732,
+        "driver_confidence_score": 0.956,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.476,
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-PHARMACEUTICALS-2021",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "case_id": "SG-PHARMACEUTICALS-2021",
+      "period": "2021",
+      "series_name": "Pharmaceuticals",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Pharmaceuticals in 2021 was associated with driver MKT_009 (Biomedical / Pharmaceutical Production Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 3,
+      "memory_score": 0.788,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 54,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.732,
+        "driver_confidence_score": 0.956,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.476,
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-BIOMEDICAL-2022",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "case_id": "SG-BIOMEDICAL-2022",
+      "period": "2022",
+      "series_name": "Biomedical Manufacturing",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Biomedical Manufacturing in 2022 was associated with driver MKT_009 (Biomedical / Pharmaceutical Production Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 3,
+      "memory_score": 0.776,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 48,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.732,
+        "driver_confidence_score": 0.956,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.476,
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-PHARMACEUTICALS-2022",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "case_id": "SG-PHARMACEUTICALS-2022",
+      "period": "2022",
+      "series_name": "Pharmaceuticals",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Pharmaceuticals in 2022 was associated with driver MKT_009 (Biomedical / Pharmaceutical Production Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 3,
+      "memory_score": 0.788,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 54,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.732,
+        "driver_confidence_score": 0.956,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.476,
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-BIOMEDICAL-2023",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "case_id": "SG-BIOMEDICAL-2023",
+      "period": "2023",
+      "series_name": "Biomedical Manufacturing",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Biomedical Manufacturing in 2023 was associated with driver MKT_009 (Biomedical / Pharmaceutical Production Cycle).",
+      "memory_tier": "hot_anchor",
+      "retrieval_priority": 1,
+      "memory_score": 0.788,
+      "memory_action": "retain_anchor",
+      "retention_reason": "Most recent memory for this driver must be retained.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 54,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.732,
+        "driver_confidence_score": 0.956,
+        "recurrence_score": 0.667,
+        "persistence_score": 0.6,
+        "volatility_score": 0.476,
+        "cluster_case_count": 9
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-ELECTRONICS-2018",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "case_id": "SG-ELECTRONICS-2018",
+      "period": "2018",
+      "series_name": "Electronics",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Electronics in 2018 was associated with driver MKT_008 (Semiconductor / Electronics Cycle).",
+      "memory_tier": "hot_anchor",
+      "retrieval_priority": 1,
+      "memory_score": 0.815,
+      "memory_action": "retain_anchor",
+      "retention_reason": "First known memory for this driver must be retained.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 70,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "HIGH_VOLATILITY"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.715,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.352,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-SEMICONDUCTOR-2018",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "case_id": "SG-SEMICONDUCTOR-2018",
+      "period": "2018",
+      "series_name": "Semiconductors",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Semiconductors in 2018 was associated with driver MKT_008 (Semiconductor / Electronics Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 3,
+      "memory_score": 0.815,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 70,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "HIGH_VOLATILITY"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.715,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.352,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-ELECTRONICS-2020",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "case_id": "SG-ELECTRONICS-2020",
+      "period": "2020",
+      "series_name": "Electronics",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Electronics in 2020 was associated with driver MKT_008 (Semiconductor / Electronics Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 3,
+      "memory_score": 0.787,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 56,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "HIGH_VOLATILITY"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.715,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.352,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-M355381-1_1_1-2020-aug",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "case_id": "SG-M355381-1_1_1-2020-aug",
+      "period": "2020 Aug",
+      "series_name": "Semiconductors",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Semiconductors in 2020 Aug was associated with driver MKT_008 (Semiconductor / Electronics Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 4,
+      "memory_score": 0.745,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 35,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "HIGH_VOLATILITY"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.715,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.352,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-ELECTRONICS-2021",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "case_id": "SG-ELECTRONICS-2021",
+      "period": "2021",
+      "series_name": "Electronics",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Electronics in 2021 was associated with driver MKT_008 (Semiconductor / Electronics Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 3,
+      "memory_score": 0.829,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 77,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "HIGH_VOLATILITY"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.715,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.352,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-SEMICONDUCTOR-RECOVERY-2021",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "case_id": "SG-SEMICONDUCTOR-RECOVERY-2021",
+      "period": "2021",
+      "series_name": "Semiconductors",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Semiconductors in 2021 was associated with driver MKT_008 (Semiconductor / Electronics Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 4,
+      "memory_score": 0.745,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 35,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "HIGH_VOLATILITY"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.715,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.352,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-ELECTRONICS-2022",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "case_id": "SG-ELECTRONICS-2022",
+      "period": "2022",
+      "series_name": "Electronics",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Electronics in 2022 was associated with driver MKT_008 (Semiconductor / Electronics Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 3,
+      "memory_score": 0.759,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 42,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "HIGH_VOLATILITY"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.715,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.352,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-SEMICONDUCTOR-2022",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "case_id": "SG-SEMICONDUCTOR-2022",
+      "period": "2022",
+      "series_name": "Semiconductors",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Semiconductors in 2022 was associated with driver MKT_008 (Semiconductor / Electronics Cycle).",
+      "memory_tier": "hot_anchor",
+      "retrieval_priority": 1,
+      "memory_score": 0.815,
+      "memory_action": "retain_anchor",
+      "retention_reason": "Most recent memory for this driver must be retained.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 70,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "HIGH_VOLATILITY"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.715,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.352,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-MANUFACTURING-2001",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "case_id": "SG-MANUFACTURING-2001",
+      "period": "2001",
+      "series_name": "Total Manufacturing",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Total Manufacturing in 2001 was associated with driver MKT_010 (Demand Shock / External Downturn).",
+      "memory_tier": "hot_anchor",
+      "retrieval_priority": 1,
+      "memory_score": 0.711,
+      "memory_action": "retain_anchor",
+      "retention_reason": "First known memory for this driver must be retained.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 28,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.651,
+        "driver_confidence_score": 0.912,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.722,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-MANUFACTURING-2008",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "case_id": "SG-MANUFACTURING-2008",
+      "period": "2008",
+      "series_name": "Total Manufacturing",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Total Manufacturing in 2008 was associated with driver MKT_010 (Demand Shock / External Downturn).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 4,
+      "memory_score": 0.711,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 28,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.651,
+        "driver_confidence_score": 0.912,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.722,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-MANUFACTURING-2009",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "case_id": "SG-MANUFACTURING-2009",
+      "period": "2009",
+      "series_name": "Total Manufacturing",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Total Manufacturing in 2009 was associated with driver MKT_010 (Demand Shock / External Downturn).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 4,
+      "memory_score": 0.711,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 28,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.651,
+        "driver_confidence_score": 0.912,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.722,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-CHEMICALS-2019",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "case_id": "SG-CHEMICALS-2019",
+      "period": "2019",
+      "series_name": "Chemicals",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Chemicals in 2019 was associated with driver MKT_010 (Demand Shock / External Downturn).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 4,
+      "memory_score": 0.711,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 28,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.651,
+        "driver_confidence_score": 0.912,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.722,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-PETROCHEMICALS-2019",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "case_id": "SG-PETROCHEMICALS-2019",
+      "period": "2019",
+      "series_name": "Petrochemicals",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Petrochemicals in 2019 was associated with driver MKT_010 (Demand Shock / External Downturn).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 4,
+      "memory_score": 0.711,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 28,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.651,
+        "driver_confidence_score": 0.912,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.722,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-MANUFACTURING-2020-SHOCK",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "case_id": "SG-MANUFACTURING-2020-SHOCK",
+      "period": "2020",
+      "series_name": "Total Manufacturing",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Total Manufacturing in 2020 was associated with driver MKT_010 (Demand Shock / External Downturn).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 4,
+      "memory_score": 0.711,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 28,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.651,
+        "driver_confidence_score": 0.912,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.722,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-PETROCHEMICALS-2020",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "case_id": "SG-PETROCHEMICALS-2020",
+      "period": "2020",
+      "series_name": "Petrochemicals",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Petrochemicals in 2020 was associated with driver MKT_010 (Demand Shock / External Downturn).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 4,
+      "memory_score": 0.711,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 28,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.651,
+        "driver_confidence_score": 0.912,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.722,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-TOTAL-MANUFACTURING-2020",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "case_id": "SG-TOTAL-MANUFACTURING-2020",
+      "period": "2020",
+      "series_name": "Total Manufacturing",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Total Manufacturing in 2020 was associated with driver MKT_010 (Demand Shock / External Downturn).",
+      "memory_tier": "hot_anchor",
+      "retrieval_priority": 1,
+      "memory_score": 0.459,
+      "memory_action": "retain_anchor",
+      "retention_reason": "Most recent memory for this driver must be retained.",
+      "factual_detail_fields": {
+        "confidence": "low",
+        "confidence_weight": 0.3,
+        "driver_score": 7,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.651,
+        "driver_confidence_score": 0.912,
+        "recurrence_score": 0.625,
+        "persistence_score": 0.5,
+        "volatility_score": 0.722,
+        "cluster_case_count": 8
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-ELECTRONICS-2019",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "case_id": "SG-ELECTRONICS-2019",
+      "period": "2019",
+      "series_name": "Electronics",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Electronics in 2019 was associated with driver MKT_002 (Inventory Cycle / Restocking).",
+      "memory_tier": "hot_anchor",
+      "retrieval_priority": 1,
+      "memory_score": 0.721,
+      "memory_action": "retain_anchor",
+      "retention_reason": "First known memory for this driver must be retained.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 35,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "LOW_PERSISTENCE",
+          "LOW_RECURRENCE"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.638,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.4,
+        "persistence_score": 0.2,
+        "volatility_score": 1,
+        "cluster_case_count": 5
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-SEMICONDUCTOR-2019",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "case_id": "SG-SEMICONDUCTOR-2019",
+      "period": "2019",
+      "series_name": "Semiconductors",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Semiconductors in 2019 was associated with driver MKT_002 (Inventory Cycle / Restocking).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 4,
+      "memory_score": 0.721,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 35,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "LOW_PERSISTENCE",
+          "LOW_RECURRENCE"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.638,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.4,
+        "persistence_score": 0.2,
+        "volatility_score": 1,
+        "cluster_case_count": 5
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-ELECTRONICS-2023",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "case_id": "SG-ELECTRONICS-2023",
+      "period": "2023",
+      "series_name": "Electronics",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Electronics in 2023 was associated with driver MKT_002 (Inventory Cycle / Restocking).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 4,
+      "memory_score": 0.721,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 35,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "LOW_PERSISTENCE",
+          "LOW_RECURRENCE"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.638,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.4,
+        "persistence_score": 0.2,
+        "volatility_score": 1,
+        "cluster_case_count": 5
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-PRECISION-ENGINEERING-2023",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "case_id": "SG-PRECISION-ENGINEERING-2023",
+      "period": "2023",
+      "series_name": "Precision Engineering",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Precision Engineering in 2023 was associated with driver MKT_002 (Inventory Cycle / Restocking).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 4,
+      "memory_score": 0.721,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 35,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "LOW_PERSISTENCE",
+          "LOW_RECURRENCE"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.638,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.4,
+        "persistence_score": 0.2,
+        "volatility_score": 1,
+        "cluster_case_count": 5
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-SEMICONDUCTOR-2023",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "case_id": "SG-SEMICONDUCTOR-2023",
+      "period": "2023",
+      "series_name": "Semiconductors",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Semiconductors in 2023 was associated with driver MKT_002 (Inventory Cycle / Restocking).",
+      "memory_tier": "hot_anchor",
+      "retrieval_priority": 1,
+      "memory_score": 0.721,
+      "memory_action": "retain_anchor",
+      "retention_reason": "Most recent memory for this driver must be retained.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 35,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": [
+          "LOW_PERSISTENCE",
+          "LOW_RECURRENCE"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.638,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.4,
+        "persistence_score": 0.2,
+        "volatility_score": 1,
+        "cluster_case_count": 5
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-OPERATIONS-2020-COVID",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "case_id": "SG-OPERATIONS-2020-COVID",
+      "period": "2020",
+      "series_name": "Manufacturing Operations",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Manufacturing Operations in 2020 was associated with driver MKT_005 (Operational Disruption).",
+      "memory_tier": "hot_anchor",
+      "retrieval_priority": 1,
+      "memory_score": 0.748,
+      "memory_action": "retain_anchor",
+      "retention_reason": "First known memory for this driver must be retained.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 49,
+        "evidence_count": 4,
+        "maturity_stage": "early_cluster",
+        "bias_warnings": [
+          "LOW_SAMPLE_SIZE"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.633,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.75,
+        "persistence_score": 0.3,
+        "volatility_score": 1,
+        "cluster_case_count": 4
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-REFINING-2020",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "case_id": "SG-REFINING-2020",
+      "period": "2020",
+      "series_name": "Refining",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Refining in 2020 was associated with driver MKT_005 (Operational Disruption).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 4,
+      "memory_score": 0.748,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 49,
+        "evidence_count": 4,
+        "maturity_stage": "early_cluster",
+        "bias_warnings": [
+          "LOW_SAMPLE_SIZE"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.633,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.75,
+        "persistence_score": 0.3,
+        "volatility_score": 1,
+        "cluster_case_count": 4
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-OPERATIONS-2021-SUPPLY",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "case_id": "SG-OPERATIONS-2021-SUPPLY",
+      "period": "2021",
+      "series_name": "Manufacturing Operations",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Manufacturing Operations in 2021 was associated with driver MKT_005 (Operational Disruption).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 4,
+      "memory_score": 0.748,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 49,
+        "evidence_count": 4,
+        "maturity_stage": "early_cluster",
+        "bias_warnings": [
+          "LOW_SAMPLE_SIZE"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.633,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.75,
+        "persistence_score": 0.3,
+        "volatility_score": 1,
+        "cluster_case_count": 4
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-OPERATIONS-2022-SUPPLY",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "case_id": "SG-OPERATIONS-2022-SUPPLY",
+      "period": "2022",
+      "series_name": "Manufacturing Operations",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Manufacturing Operations in 2022 was associated with driver MKT_005 (Operational Disruption).",
+      "memory_tier": "hot_anchor",
+      "retrieval_priority": 1,
+      "memory_score": 0.748,
+      "memory_action": "retain_anchor",
+      "retention_reason": "Most recent memory for this driver must be retained.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 49,
+        "evidence_count": 4,
+        "maturity_stage": "early_cluster",
+        "bias_warnings": [
+          "LOW_SAMPLE_SIZE"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.633,
+        "driver_confidence_score": 1,
+        "recurrence_score": 0.75,
+        "persistence_score": 0.3,
+        "volatility_score": 1,
+        "cluster_case_count": 4
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-PETROLEUM-2018",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "case_id": "SG-PETROLEUM-2018",
+      "period": "2018",
+      "series_name": "Petroleum",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Petroleum in 2018 was associated with driver MKT_007 (Energy Demand / Refining Cycle).",
+      "memory_tier": "hot_anchor",
+      "retrieval_priority": 1,
+      "memory_score": 0.738,
+      "memory_action": "retain_anchor",
+      "retention_reason": "First known memory for this driver must be retained.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 48,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.606,
+        "driver_confidence_score": 0.933,
+        "recurrence_score": 0.833,
+        "persistence_score": 0.5,
+        "volatility_score": 0.553,
+        "cluster_case_count": 6
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-PETROLEUM-2019",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "case_id": "SG-PETROLEUM-2019",
+      "period": "2019",
+      "series_name": "Petroleum",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Petroleum in 2019 was associated with driver MKT_007 (Energy Demand / Refining Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 4,
+      "memory_score": 0.738,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 48,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.606,
+        "driver_confidence_score": 0.933,
+        "recurrence_score": 0.833,
+        "persistence_score": 0.5,
+        "volatility_score": 0.553,
+        "cluster_case_count": 6
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-PETROLEUM-2020",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "case_id": "SG-PETROLEUM-2020",
+      "period": "2020",
+      "series_name": "Petroleum",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Petroleum in 2020 was associated with driver MKT_007 (Energy Demand / Refining Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 5,
+      "memory_score": 0.558,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "medium",
+        "confidence_weight": 0.6,
+        "driver_score": 18,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.606,
+        "driver_confidence_score": 0.933,
+        "recurrence_score": 0.833,
+        "persistence_score": 0.5,
+        "volatility_score": 0.553,
+        "cluster_case_count": 6
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-PETROLEUM-2021",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "case_id": "SG-PETROLEUM-2021",
+      "period": "2021",
+      "series_name": "Petroleum",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Petroleum in 2021 was associated with driver MKT_007 (Energy Demand / Refining Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 4,
+      "memory_score": 0.738,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 48,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.606,
+        "driver_confidence_score": 0.933,
+        "recurrence_score": 0.833,
+        "persistence_score": 0.5,
+        "volatility_score": 0.553,
+        "cluster_case_count": 6
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-REFINING-2021",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "case_id": "SG-REFINING-2021",
+      "period": "2021",
+      "series_name": "Refining",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Refining in 2021 was associated with driver MKT_007 (Energy Demand / Refining Cycle).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 4,
+      "memory_score": 0.738,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 48,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.606,
+        "driver_confidence_score": 0.933,
+        "recurrence_score": 0.833,
+        "persistence_score": 0.5,
+        "volatility_score": 0.553,
+        "cluster_case_count": 6
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-PETROLEUM-2022",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "case_id": "SG-PETROLEUM-2022",
+      "period": "2022",
+      "series_name": "Petroleum",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Petroleum in 2022 was associated with driver MKT_007 (Energy Demand / Refining Cycle).",
+      "memory_tier": "hot_anchor",
+      "retrieval_priority": 1,
+      "memory_score": 0.738,
+      "memory_action": "retain_anchor",
+      "retention_reason": "Most recent memory for this driver must be retained.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 48,
+        "evidence_count": 4,
+        "maturity_stage": "developing_cluster",
+        "bias_warnings": []
+      },
+      "abstraction_links": {
+        "experience_strength": 0.606,
+        "driver_confidence_score": 0.933,
+        "recurrence_score": 0.833,
+        "persistence_score": 0.5,
+        "volatility_score": 0.553,
+        "cluster_case_count": 6
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-CAPACITY-EXPANSION-2018",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "case_id": "SG-CAPACITY-EXPANSION-2018",
+      "period": "2018",
+      "series_name": "Manufacturing Capacity",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Manufacturing Capacity in 2018 was associated with driver MKT_004 (Capacity Expansion).",
+      "memory_tier": "hot_anchor",
+      "retrieval_priority": 1,
+      "memory_score": 0.717,
+      "memory_action": "retain_anchor",
+      "retention_reason": "First known memory for this driver must be retained.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 42,
+        "evidence_count": 4,
+        "maturity_stage": "early_cluster",
+        "bias_warnings": [
+          "LOW_SAMPLE_SIZE"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.575,
+        "driver_confidence_score": 1,
+        "recurrence_score": 1,
+        "persistence_score": 0.3,
+        "volatility_score": 1,
+        "cluster_case_count": 3
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-CAPACITY-EXPANSION-2021",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "case_id": "SG-CAPACITY-EXPANSION-2021",
+      "period": "2021",
+      "series_name": "Manufacturing Capacity",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Manufacturing Capacity in 2021 was associated with driver MKT_004 (Capacity Expansion).",
+      "memory_tier": "hot_active",
+      "retrieval_priority": 4,
+      "memory_score": 0.717,
+      "memory_action": "retain_active",
+      "retention_reason": "High enough memory score for active retention.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 42,
+        "evidence_count": 4,
+        "maturity_stage": "early_cluster",
+        "bias_warnings": [
+          "LOW_SAMPLE_SIZE"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.575,
+        "driver_confidence_score": 1,
+        "recurrence_score": 1,
+        "persistence_score": 0.3,
+        "volatility_score": 1,
+        "cluster_case_count": 3
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observation_memory_version": "observation-memory-v0.1",
+      "observation_id": "OBS-SG-CAPACITY-EXPANSION-2022",
+      "source_memory_grading_registry": "data/intelligence/memory-grading-registry-v0.1.json",
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "case_id": "SG-CAPACITY-EXPANSION-2022",
+      "period": "2022",
+      "series_name": "Manufacturing Capacity",
+      "observation_type": "historical_driver_case",
+      "factual_summary": "Manufacturing Capacity in 2022 was associated with driver MKT_004 (Capacity Expansion).",
+      "memory_tier": "hot_anchor",
+      "retrieval_priority": 1,
+      "memory_score": 0.717,
+      "memory_action": "retain_anchor",
+      "retention_reason": "Most recent memory for this driver must be retained.",
+      "factual_detail_fields": {
+        "confidence": "high",
+        "confidence_weight": 1,
+        "driver_score": 42,
+        "evidence_count": 4,
+        "maturity_stage": "early_cluster",
+        "bias_warnings": [
+          "LOW_SAMPLE_SIZE"
+        ]
+      },
+      "abstraction_links": {
+        "experience_strength": 0.575,
+        "driver_confidence_score": 1,
+        "recurrence_score": 1,
+        "persistence_score": 0.3,
+        "volatility_score": 1,
+        "cluster_case_count": 3
+      },
+      "governance": {
+        "observation_is_fact_memory_not_principle": true,
+        "can_support_future_recall": true,
+        "can_support_principle_extraction": true,
+        "delete_allowed": false,
+        "archive_only": true,
+        "production_mutation_allowed": false
+      }
+    }
+  ]
+}

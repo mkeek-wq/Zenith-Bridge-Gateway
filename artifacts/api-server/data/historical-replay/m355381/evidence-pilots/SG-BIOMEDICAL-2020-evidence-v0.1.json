@@ -1,0 +1,19 @@
+{
+  "historical_evidence_pilot_version": "historical-evidence-pilot-v0.1",
+  "case_id": "SG-BIOMEDICAL-2020",
+  "period": "2020",
+  "series_name": "Biomedical Manufacturing",
+  "source_context": "Bulk sandbox historical replay evidence pilot. Synthetic seed evidence for attribution-learning pipeline testing; not production evidence.",
+  "governance": {
+    "sandbox_only": true,
+    "bulk_seed": true,
+    "manual_review_required": true,
+    "production_mutation_allowed": false
+  },
+  "evidence_items": [
+    "Singapore biomedical manufacturing output in 2020 was influenced by drug production and healthcare demand.",
+    "Pharmaceutical batch production and biologics production shaped output movements.",
+    "Plant schedule effects and medical technology demand affected biomedical manufacturing.",
+    "Vaccine production and healthcare demand supported selected biomedical activities."
+  ]
+}

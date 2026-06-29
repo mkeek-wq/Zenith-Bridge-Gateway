@@ -1,0 +1,123 @@
+{
+  "historical_evidence_scorecard_version": "historical-evidence-scorecard-v0.1",
+  "generated_at": "2026-06-04T10:30:56.193Z",
+  "source_taxonomy": "data/intelligence-driver-library/driver-evidence-taxonomy-v0.1.json",
+  "source_evidence": "data/historical-replay/m355381/evidence-pilots/SG-REFINING-2021-evidence-v0.1.json",
+  "case_id": "SG-REFINING-2021",
+  "period": "2021",
+  "series_name": "Refining",
+  "governance": {
+    "sandbox_only": true,
+    "recommendation_only": true,
+    "auto_close_case": false,
+    "requires_human_review": true,
+    "production_mutation_allowed": false
+  },
+  "evidence_metadata": {
+    "evidence_origin": "synthetic",
+    "template_generated": true,
+    "attribution_discovery_ready": true,
+    "requires_human_review": true
+  },
+  "evidence_items": [
+    "Singapore Refining output in 2021 was influenced by oil demand, fuel demand, jet fuel demand, and petroleum demand.",
+    "Refining margin, crude oil conditions, and travel demand affected refining-cycle activity.",
+    "Refinery maintenance and operational factors shaped petroleum-related output patterns.",
+    "Energy demand and logistics activity influenced manufacturing movements during the year."
+  ],
+  "evidence_matches": [
+    {
+      "evidence_text": "Singapore Refining output in 2021 was influenced by oil demand, fuel demand, jet fuel demand, and petroleum demand.",
+      "matches": [
+        {
+          "driver_id": "MKT_007",
+          "driver_name": "Energy Demand / Refining Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "oil demand",
+            "fuel demand",
+            "jet fuel demand",
+            "petroleum demand"
+          ],
+          "match_score": 24
+        }
+      ]
+    },
+    {
+      "evidence_text": "Refining margin, crude oil conditions, and travel demand affected refining-cycle activity.",
+      "matches": [
+        {
+          "driver_id": "MKT_007",
+          "driver_name": "Energy Demand / Refining Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "travel demand",
+            "refining margin",
+            "crude oil"
+          ],
+          "match_score": 18
+        }
+      ]
+    },
+    {
+      "evidence_text": "Refinery maintenance and operational factors shaped petroleum-related output patterns.",
+      "matches": [
+        {
+          "driver_id": "MKT_007",
+          "driver_name": "Energy Demand / Refining Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "refinery maintenance"
+          ],
+          "match_score": 6
+        }
+      ]
+    },
+    {
+      "evidence_text": "Energy demand and logistics activity influenced manufacturing movements during the year.",
+      "matches": []
+    }
+  ],
+  "ranked_drivers": [
+    {
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "attribution_bucket": "market_effect",
+      "total_score": 48,
+      "evidence_count": 3,
+      "matched_phrases": [
+        "oil demand",
+        "fuel demand",
+        "jet fuel demand",
+        "petroleum demand",
+        "travel demand",
+        "refining margin",
+        "crude oil",
+        "refinery maintenance"
+      ],
+      "supporting_evidence": [
+        "Singapore Refining output in 2021 was influenced by oil demand, fuel demand, jet fuel demand, and petroleum demand.",
+        "Refining margin, crude oil conditions, and travel demand affected refining-cycle activity.",
+        "Refinery maintenance and operational factors shaped petroleum-related output patterns."
+      ]
+    }
+  ],
+  "bucket_scores": [
+    {
+      "attribution_bucket": "market_effect",
+      "total_score": 48
+    }
+  ],
+  "recommended_outcome": {
+    "primary_driver": "MKT_007",
+    "primary_driver_name": "Energy Demand / Refining Cycle",
+    "attribution_bucket": "market_effect",
+    "confidence": "high",
+    "total_score": 48,
+    "second_score": 0,
+    "score_gap": 48
+  }
+}

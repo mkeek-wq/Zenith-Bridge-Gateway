@@ -1,0 +1,24 @@
+{
+  "historical_evidence_pilot_version": "historical-evidence-pilot-v0.1",
+  "case_id": "SG-PHARMACEUTICALS-2022",
+  "period": "2022",
+  "series_name": "Pharmaceuticals",
+  "source_context": "Bulk sandbox historical replay evidence pilot v0.2. Synthetic seed evidence for attribution-learning pipeline testing; not production evidence.",
+  "governance": {
+    "sandbox_only": true,
+    "bulk_seed": true,
+    "synthetic_seed_evidence": true,
+    "manual_review_required": true,
+    "production_mutation_allowed": false
+  },
+  "replay_metadata": {
+    "theme": "biomedical",
+    "direction": "mixed"
+  },
+  "evidence_items": [
+    "Singapore Pharmaceuticals output in 2022 was influenced by pharmaceutical batch production, drug production, and biologics production.",
+    "Healthcare demand, medical technology demand, and vaccine production shaped selected biomedical activities.",
+    "Plant schedule effects and batch production cycles affected output movements during the year.",
+    "Biomedical manufacturing reflected product mix, production timing, and healthcare-related demand."
+  ]
+}

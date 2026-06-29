@@ -1,0 +1,110 @@
+{
+  "historical_evidence_scorecard_version": "historical-evidence-scorecard-v0.1",
+  "generated_at": "2026-06-04T10:30:56.183Z",
+  "source_taxonomy": "data/intelligence-driver-library/driver-evidence-taxonomy-v0.1.json",
+  "source_evidence": "data/historical-replay/m355381/evidence-pilots/SG-OPERATIONS-2022-SUPPLY-evidence-v0.1.json",
+  "case_id": "SG-OPERATIONS-2022-SUPPLY",
+  "period": "2022",
+  "series_name": "Manufacturing Operations",
+  "governance": {
+    "sandbox_only": true,
+    "recommendation_only": true,
+    "auto_close_case": false,
+    "requires_human_review": true,
+    "production_mutation_allowed": false
+  },
+  "evidence_metadata": {
+    "evidence_origin": "synthetic",
+    "template_generated": true,
+    "attribution_discovery_ready": true,
+    "requires_human_review": true
+  },
+  "evidence_items": [
+    "Singapore Manufacturing Operations output in 2022 was affected by maintenance shutdown, plant shutdown, and production disruption.",
+    "Supply disruption, factory closure, covid restrictions, and supply constraints affected production.",
+    "Operational disruption rather than demand alone shaped output movements.",
+    "Plant-level constraints and supply conditions affected manufacturing performance."
+  ],
+  "evidence_matches": [
+    {
+      "evidence_text": "Singapore Manufacturing Operations output in 2022 was affected by maintenance shutdown, plant shutdown, and production disruption.",
+      "matches": [
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "attribution_bucket": "operational_effect",
+          "default_score": 7,
+          "matched_phrases": [
+            "maintenance shutdown",
+            "plant shutdown",
+            "production disruption"
+          ],
+          "match_score": 21
+        }
+      ]
+    },
+    {
+      "evidence_text": "Supply disruption, factory closure, covid restrictions, and supply constraints affected production.",
+      "matches": [
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "attribution_bucket": "operational_effect",
+          "default_score": 7,
+          "matched_phrases": [
+            "supply disruption",
+            "factory closure",
+            "covid restrictions",
+            "supply constraints"
+          ],
+          "match_score": 28
+        }
+      ]
+    },
+    {
+      "evidence_text": "Operational disruption rather than demand alone shaped output movements.",
+      "matches": []
+    },
+    {
+      "evidence_text": "Plant-level constraints and supply conditions affected manufacturing performance.",
+      "matches": []
+    }
+  ],
+  "ranked_drivers": [
+    {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "attribution_bucket": "operational_effect",
+      "total_score": 49,
+      "evidence_count": 2,
+      "matched_phrases": [
+        "maintenance shutdown",
+        "plant shutdown",
+        "production disruption",
+        "supply disruption",
+        "factory closure",
+        "covid restrictions",
+        "supply constraints"
+      ],
+      "supporting_evidence": [
+        "Singapore Manufacturing Operations output in 2022 was affected by maintenance shutdown, plant shutdown, and production disruption.",
+        "Supply disruption, factory closure, covid restrictions, and supply constraints affected production."
+      ]
+    }
+  ],
+  "bucket_scores": [
+    {
+      "attribution_bucket": "operational_effect",
+      "total_score": 49
+    }
+  ],
+  "recommended_outcome": {
+    "primary_driver": "MKT_005",
+    "primary_driver_name": "Operational Disruption",
+    "attribution_bucket": "operational_effect",
+    "confidence": "high",
+    "total_score": 49,
+    "second_score": 0,
+    "score_gap": 49
+  }
+}

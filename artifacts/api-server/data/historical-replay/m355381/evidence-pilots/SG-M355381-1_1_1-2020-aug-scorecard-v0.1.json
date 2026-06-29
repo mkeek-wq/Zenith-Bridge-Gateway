@@ -1,0 +1,153 @@
+{
+  "historical_evidence_scorecard_version": "historical-evidence-scorecard-v0.1",
+  "generated_at": "2026-06-04T10:30:56.180Z",
+  "source_taxonomy": "data/intelligence-driver-library/driver-evidence-taxonomy-v0.1.json",
+  "source_evidence": "data/historical-replay/m355381/evidence-pilots/SG-M355381-1_1_1-2020-aug-evidence-v0.1.json",
+  "case_id": "SG-M355381-1_1_1-2020-aug",
+  "period": "2020 Aug",
+  "series_name": "Semiconductors",
+  "governance": {
+    "sandbox_only": true,
+    "recommendation_only": true,
+    "auto_close_case": false,
+    "requires_human_review": true,
+    "production_mutation_allowed": false
+  },
+  "evidence_metadata": {
+    "evidence_origin": "synthetic",
+    "template_generated": true,
+    "attribution_discovery_ready": true,
+    "requires_human_review": true
+  },
+  "evidence_items": [
+    "Global chip shortage increased demand for foundry capacity.",
+    "Data center demand and consumer electronics demand supported semiconductor output.",
+    "Work-from-home demand lifted electronics orders.",
+    "Semiconductor demand remained resilient during the pandemic period."
+  ],
+  "evidence_matches": [
+    {
+      "evidence_text": "Global chip shortage increased demand for foundry capacity.",
+      "matches": [
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 7,
+          "matched_phrases": [
+            "chip shortage",
+            "global chip shortage"
+          ],
+          "match_score": 14
+        }
+      ]
+    },
+    {
+      "evidence_text": "Data center demand and consumer electronics demand supported semiconductor output.",
+      "matches": [
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 7,
+          "matched_phrases": [
+            "electronics demand",
+            "consumer electronics"
+          ],
+          "match_score": 14
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "attribution_bucket": "market_effect",
+          "default_score": 5,
+          "matched_phrases": [
+            "data center demand"
+          ],
+          "match_score": 5
+        }
+      ]
+    },
+    {
+      "evidence_text": "Work-from-home demand lifted electronics orders.",
+      "matches": [
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "attribution_bucket": "market_effect",
+          "default_score": 5,
+          "matched_phrases": [
+            "work-from-home demand"
+          ],
+          "match_score": 5
+        }
+      ]
+    },
+    {
+      "evidence_text": "Semiconductor demand remained resilient during the pandemic period.",
+      "matches": [
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 7,
+          "matched_phrases": [
+            "semiconductor demand"
+          ],
+          "match_score": 7
+        }
+      ]
+    }
+  ],
+  "ranked_drivers": [
+    {
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "attribution_bucket": "market_effect",
+      "total_score": 35,
+      "evidence_count": 3,
+      "matched_phrases": [
+        "chip shortage",
+        "global chip shortage",
+        "electronics demand",
+        "consumer electronics",
+        "semiconductor demand"
+      ],
+      "supporting_evidence": [
+        "Global chip shortage increased demand for foundry capacity.",
+        "Data center demand and consumer electronics demand supported semiconductor output.",
+        "Semiconductor demand remained resilient during the pandemic period."
+      ]
+    },
+    {
+      "driver_id": "MKT_001",
+      "driver_name": "Global Demand Surge",
+      "attribution_bucket": "market_effect",
+      "total_score": 10,
+      "evidence_count": 2,
+      "matched_phrases": [
+        "data center demand",
+        "work-from-home demand"
+      ],
+      "supporting_evidence": [
+        "Data center demand and consumer electronics demand supported semiconductor output.",
+        "Work-from-home demand lifted electronics orders."
+      ]
+    }
+  ],
+  "bucket_scores": [
+    {
+      "attribution_bucket": "market_effect",
+      "total_score": 45
+    }
+  ],
+  "recommended_outcome": {
+    "primary_driver": "MKT_008",
+    "primary_driver_name": "Semiconductor / Electronics Cycle",
+    "attribution_bucket": "market_effect",
+    "confidence": "high",
+    "total_score": 35,
+    "second_score": 10,
+    "score_gap": 25
+  }
+}

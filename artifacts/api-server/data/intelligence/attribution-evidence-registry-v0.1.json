@@ -1,0 +1,495 @@
+{
+  "attribution_evidence_registry_version": "attribution-evidence-registry-v0.1",
+  "generated_at": "2026-06-06T05:17:34.572Z",
+  "policy": {
+    "principle": "Maps attribution drivers to preferred evidence sources, mechanisms, and search phrases. This registry guides evidence discovery but does not perform automated ingestion.",
+    "auto_ingestion_allowed": false,
+    "human_review_required": true,
+    "production_mutation_allowed": false
+  },
+  "summary": {
+    "drivers_mapped": 13,
+    "evidence_domains_used": [
+      "commodity_market_data",
+      "company_disclosure",
+      "government_announcement",
+      "government_investment_announcement",
+      "healthcare_industry_report",
+      "industry_association",
+      "industry_report",
+      "legal_update",
+      "multilateral_report",
+      "news_archive",
+      "official_policy",
+      "official_statistics",
+      "regulatory_notice",
+      "trade_publication"
+    ]
+  },
+  "registry": [
+    {
+      "driver_id": "MKT_001",
+      "driver_name": "Global Demand Surge",
+      "evidence_domains": [
+        "official_statistics",
+        "trade_publication",
+        "industry_association",
+        "company_disclosure"
+      ],
+      "preferred_sources": [
+        "SingStat",
+        "MTI Singapore",
+        "EDB Singapore",
+        "WTO",
+        "IMF",
+        "company earnings releases",
+        "sector trade publications"
+      ],
+      "mechanisms": [
+        "export demand",
+        "regional demand recovery",
+        "consumer demand",
+        "industrial demand",
+        "order growth"
+      ],
+      "search_phrases": [
+        "strong global demand",
+        "export demand recovery",
+        "order growth",
+        "regional manufacturing demand",
+        "consumer demand recovery"
+      ]
+    },
+    {
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "evidence_domains": [
+        "company_disclosure",
+        "trade_publication",
+        "industry_association",
+        "official_statistics"
+      ],
+      "preferred_sources": [
+        "company earnings releases",
+        "Purchasing Managers Index reports",
+        "electronics industry publications",
+        "SEMI",
+        "S&P Global PMI",
+        "SingStat"
+      ],
+      "mechanisms": [
+        "inventory restocking",
+        "inventory correction",
+        "channel inventory",
+        "customer inventory",
+        "order normalization"
+      ],
+      "search_phrases": [
+        "inventory restocking",
+        "inventory correction",
+        "channel inventory",
+        "customer inventory",
+        "destocking",
+        "restocking cycle"
+      ]
+    },
+    {
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness",
+      "evidence_domains": [
+        "official_statistics",
+        "trade_publication",
+        "industry_association",
+        "multilateral_report"
+      ],
+      "preferred_sources": [
+        "SingStat",
+        "MTI Singapore",
+        "WTO",
+        "IMF",
+        "World Bank",
+        "S&P Global PMI",
+        "trade publications"
+      ],
+      "mechanisms": [
+        "weak external demand",
+        "export decline",
+        "trade slowdown",
+        "order slowdown",
+        "regional demand weakness"
+      ],
+      "search_phrases": [
+        "weak external demand",
+        "export decline",
+        "lower exports",
+        "trade slowdown",
+        "order slowdown",
+        "soft global demand"
+      ]
+    },
+    {
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "evidence_domains": [
+        "company_disclosure",
+        "government_investment_announcement",
+        "industry_association",
+        "trade_publication"
+      ],
+      "preferred_sources": [
+        "EDB Singapore",
+        "company press releases",
+        "company annual reports",
+        "factory opening announcements",
+        "industrial park announcements",
+        "sector trade publications"
+      ],
+      "mechanisms": [
+        "new plant",
+        "capacity expansion",
+        "production ramp-up",
+        "new facility",
+        "capex investment"
+      ],
+      "search_phrases": [
+        "capacity expansion",
+        "new plant",
+        "production ramp-up",
+        "new facility",
+        "factory opening",
+        "manufacturing investment"
+      ]
+    },
+    {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "evidence_domains": [
+        "company_disclosure",
+        "trade_publication",
+        "regulatory_notice",
+        "news_archive"
+      ],
+      "preferred_sources": [
+        "company announcements",
+        "maintenance notices",
+        "plant shutdown notices",
+        "Reuters",
+        "industry trade publications",
+        "regulatory filings"
+      ],
+      "mechanisms": [
+        "maintenance shutdown",
+        "plant shutdown",
+        "supply disruption",
+        "factory closure",
+        "covid restrictions",
+        "logistics disruption"
+      ],
+      "search_phrases": [
+        "maintenance shutdown",
+        "plant shutdown",
+        "production disruption",
+        "supply disruption",
+        "factory closure",
+        "scheduled maintenance"
+      ]
+    },
+    {
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "evidence_domains": [
+        "official_policy",
+        "regulatory_notice",
+        "government_announcement",
+        "legal_update"
+      ],
+      "preferred_sources": [
+        "MTI Singapore",
+        "EDB Singapore",
+        "MAS",
+        "IRAS",
+        "Enterprise Singapore",
+        "government gazettes",
+        "regulatory agencies"
+      ],
+      "mechanisms": [
+        "policy change",
+        "regulatory change",
+        "tax incentive",
+        "trade restriction",
+        "export restriction",
+        "sanctions"
+      ],
+      "search_phrases": [
+        "policy change",
+        "regulatory change",
+        "tax incentive",
+        "government incentive",
+        "export restriction",
+        "trade restriction"
+      ]
+    },
+    {
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "evidence_domains": [
+        "industry_report",
+        "commodity_market_data",
+        "company_disclosure",
+        "trade_publication"
+      ],
+      "preferred_sources": [
+        "IEA",
+        "EIA",
+        "OPEC",
+        "S&P Global Commodity Insights",
+        "Argus Media",
+        "ICIS",
+        "Shell",
+        "ExxonMobil",
+        "refinery maintenance reports"
+      ],
+      "mechanisms": [
+        "oil demand",
+        "fuel demand",
+        "jet fuel demand",
+        "refining margin",
+        "refinery maintenance",
+        "travel recovery"
+      ],
+      "search_phrases": [
+        "oil demand",
+        "fuel demand",
+        "jet fuel demand",
+        "refining margin",
+        "refinery maintenance",
+        "travel recovery",
+        "crude oil demand"
+      ]
+    },
+    {
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "evidence_domains": [
+        "industry_association",
+        "company_disclosure",
+        "trade_publication",
+        "official_statistics"
+      ],
+      "preferred_sources": [
+        "SEMI",
+        "WSTS",
+        "SIA",
+        "TSMC investor relations",
+        "UMC investor relations",
+        "GlobalFoundries investor relations",
+        "ASEAN electronics trade publications",
+        "SingStat",
+        "EDB Singapore"
+      ],
+      "mechanisms": [
+        "semiconductor demand",
+        "chip shortage",
+        "fab utilization",
+        "wafer demand",
+        "electronics exports",
+        "inventory correction",
+        "equipment orders"
+      ],
+      "search_phrases": [
+        "semiconductor demand",
+        "chip shortage",
+        "global chip shortage",
+        "electronics demand",
+        "wafer demand",
+        "foundry demand",
+        "inventory correction",
+        "semiconductor equipment orders"
+      ]
+    },
+    {
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "evidence_domains": [
+        "company_disclosure",
+        "healthcare_industry_report",
+        "official_statistics",
+        "trade_publication"
+      ],
+      "preferred_sources": [
+        "EDB Singapore",
+        "SingStat",
+        "pharmaceutical company reports",
+        "biologics company announcements",
+        "Fierce Pharma",
+        "BioPharma Dive",
+        "healthcare industry publications"
+      ],
+      "mechanisms": [
+        "pharmaceutical batch production",
+        "biologics production",
+        "vaccine production",
+        "plant schedule",
+        "healthcare demand",
+        "drug production cycle"
+      ],
+      "search_phrases": [
+        "pharmaceutical batch",
+        "batch production",
+        "biologics production",
+        "vaccine production",
+        "drug production",
+        "plant schedule",
+        "medical technology demand"
+      ]
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "evidence_domains": [
+        "official_statistics",
+        "multilateral_report",
+        "news_archive",
+        "trade_publication"
+      ],
+      "preferred_sources": [
+        "MTI Singapore",
+        "SingStat",
+        "IMF",
+        "World Bank",
+        "WTO",
+        "S&P Global PMI",
+        "Reuters",
+        "Bloomberg"
+      ],
+      "mechanisms": [
+        "global recession",
+        "external downturn",
+        "pandemic disruption",
+        "demand shock",
+        "trade contraction",
+        "sharp demand fall"
+      ],
+      "search_phrases": [
+        "global recession",
+        "external downturn",
+        "demand shock",
+        "pandemic disruption",
+        "collapse in demand",
+        "sharp demand fall",
+        "trade contraction"
+      ]
+    },
+    {
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "evidence_domains": [
+        "commodity_market_data",
+        "industry_report",
+        "company_disclosure",
+        "trade_publication"
+      ],
+      "preferred_sources": [
+        "ICIS",
+        "Argus Media",
+        "S&P Global Commodity Insights",
+        "Shell",
+        "ExxonMobil",
+        "BASF",
+        "chemical industry publications",
+        "SingStat"
+      ],
+      "mechanisms": [
+        "chemical demand",
+        "petrochemical demand",
+        "feedstock prices",
+        "naphtha prices",
+        "plant utilisation",
+        "downstream industrial demand"
+      ],
+      "search_phrases": [
+        "chemical demand",
+        "petrochemical demand",
+        "specialty chemicals",
+        "basic chemicals",
+        "feedstock prices",
+        "naphtha prices",
+        "petrochemical plant utilisation"
+      ]
+    },
+    {
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "evidence_domains": [
+        "industry_association",
+        "company_disclosure",
+        "trade_publication",
+        "official_statistics"
+      ],
+      "preferred_sources": [
+        "EDB Singapore",
+        "SingStat",
+        "SEMI equipment reports",
+        "machinery industry publications",
+        "automation industry publications",
+        "company earnings releases"
+      ],
+      "mechanisms": [
+        "machinery demand",
+        "capital equipment demand",
+        "automation investment",
+        "semiconductor equipment",
+        "equipment orders",
+        "capex cycle"
+      ],
+      "search_phrases": [
+        "precision engineering",
+        "machinery demand",
+        "capital equipment demand",
+        "automation equipment",
+        "semiconductor equipment",
+        "equipment orders",
+        "capex cycle"
+      ]
+    },
+    {
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "evidence_domains": [
+        "industry_report",
+        "company_disclosure",
+        "trade_publication",
+        "official_statistics"
+      ],
+      "preferred_sources": [
+        "IATA",
+        "ICAO",
+        "aircraft MRO publications",
+        "marine engineering publications",
+        "ship repair industry publications",
+        "offshore engineering reports",
+        "SingStat",
+        "EDB Singapore"
+      ],
+      "mechanisms": [
+        "aviation recovery",
+        "aircraft maintenance",
+        "MRO demand",
+        "fleet maintenance",
+        "ship repair",
+        "marine engineering",
+        "offshore engineering"
+      ],
+      "search_phrases": [
+        "transport engineering",
+        "aerospace demand",
+        "aircraft maintenance",
+        "MRO demand",
+        "fleet maintenance",
+        "ship repair",
+        "marine engineering",
+        "offshore engineering"
+      ]
+    }
+  ]
+}

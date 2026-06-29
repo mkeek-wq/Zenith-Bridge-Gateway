@@ -1,0 +1,51 @@
+{
+  "staging_version": "hungry-smurf-controlled-staging-item-v0.1",
+  "generated_at": "2026-06-25T13:45:03.631Z",
+  "dataset_id": "SG_BIOMEDICAL_OUTPUT_INDEX",
+  "source_scan_status": "ready",
+  "source_config": {
+    "exists": true,
+    "path": "data/intelligence/source-download-config/SG_BIOMEDICAL_OUTPUT_INDEX.json",
+    "source_name": "SingStat Table Builder",
+    "table_id": "M354851",
+    "series_match": "Pharmaceutical & Biological Products",
+    "source_url": null,
+    "file_type": "singstat_table"
+  },
+  "raw_files": [
+    {
+      "path": "data/intelligence/raw-downloads/SG_BIOMEDICAL_OUTPUT_INDEX.csv",
+      "exists": true,
+      "size_bytes": 139,
+      "modified_at": "2026-06-14T09:39:17.752Z",
+      "sha256": "905d10458d51698dd26fd414568a574385f70c5fede12571b8c5392a948be451"
+    },
+    {
+      "path": "data/intelligence/raw-downloads/SG_BIOMEDICAL_OUTPUT_INDEX.json",
+      "exists": false,
+      "size_bytes": null,
+      "modified_at": null,
+      "sha256": null
+    },
+    {
+      "path": "data/intelligence/raw-downloads/SG_BIOMEDICAL_OUTPUT_INDEX.singstat.json",
+      "exists": true,
+      "size_bytes": 87787,
+      "modified_at": "2026-06-14T09:39:17.752Z",
+      "sha256": "b49e925de0429f5326a9377db51a7272adff08c0105d1ea852a014a7739e502b"
+    }
+  ],
+  "parsed_file": {
+    "path": "data/intelligence/parsed-datasets/SG_BIOMEDICAL_OUTPUT_INDEX.json",
+    "exists": true,
+    "size_bytes": 2474,
+    "modified_at": "2026-06-25T09:34:59.564Z",
+    "sha256": "5bf0cea2178dafda6bdfd03385fadc597c1100bc49e8bfb155444b9b7fff1416"
+  },
+  "values_count": 10,
+  "coverage_start": "2016",
+  "coverage_end": "2025",
+  "staging_status": "staged_for_human_review",
+  "production_mutation_allowed": false,
+  "recommended_next_step": "Review staged item before promotion."
+}

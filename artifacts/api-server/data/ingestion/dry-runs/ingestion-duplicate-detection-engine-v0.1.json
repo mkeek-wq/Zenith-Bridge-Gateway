@@ -1,0 +1,35 @@
+{
+  "registry_version": "ingestion-duplicate-detection-engine-v0.1",
+  "created_at": "2026-06-09T07:18:54.191Z",
+  "doctrine": {
+    "duplicate_detection_does_not_ingest": true,
+    "possible_duplicates_require_human_review": true,
+    "production_mutation_allowed": false
+  },
+  "inputs": {
+    "current_evidence_items": 552,
+    "candidate_records": 1
+  },
+  "summary": {
+    "exact_duplicates": 0,
+    "possible_duplicates": 0,
+    "new_record_candidates": 1,
+    "duplicate_status": "no_duplicates_detected"
+  },
+  "exact_duplicates": [],
+  "possible_duplicates": [],
+  "new_record_candidates": [
+    {
+      "candidate_record_id": "CAND_000001",
+      "source_file": "data/ingestion/pending/test-bulk-ingestion-v0.1.json",
+      "metric_name": "TEST_SERVICES_ACTIVITY_INDEX",
+      "period": "2026-Q2",
+      "value": 7.2,
+      "source_title": "Controlled Test Source",
+      "exact_key": "f765abc3bb10fd512f89be03529a9e14c9af8485cdba3aad73578b7336eca2db",
+      "loose_key": "test_services_activity_index::2026-q2",
+      "duplicate_type": "new_record_candidate",
+      "recommendation": "eligible_for_ingestion_after_review"
+    }
+  ]
+}

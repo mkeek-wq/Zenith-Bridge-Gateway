@@ -1,0 +1,27 @@
+{
+  "report_version": "replay-fleet-learning-report-v0.1",
+  "generated_at": "2026-06-10T03:58:30.276Z",
+  "replay_cases_with_outcome_comparison": 1,
+  "approved_experience_candidates": 1,
+  "blocked_experience_candidates": 0,
+  "mechanism_learning_summary": {
+    "MKT_010": {
+      "cases_observed": 1,
+      "strong_alignment": 1,
+      "moderate_alignment": 0
+    }
+  },
+  "learning_items": [
+    {
+      "case_id": "SG-NODX-2023",
+      "mechanism_ids": [
+        "MKT_010"
+      ],
+      "alignment_score": 0.78,
+      "alignment_band": "strong_alignment",
+      "promotion_status": "approved_as_experience_candidate",
+      "gate_decision": "GO_FOR_EXPERIENCE_CANDIDATE_REGISTRATION"
+    }
+  ],
+  "governance_note": "Learning report summarizes replay outcome comparison and promotion status. It does not validate mechanisms automatically."
+}

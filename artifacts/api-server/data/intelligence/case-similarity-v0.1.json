@@ -1,0 +1,1285 @@
+{
+  "similarity_version": "case-similarity-v0.1",
+  "generated_at": "2026-06-02T15:01:27.928Z",
+  "source_file": "data/intelligence/case-fingerprints-v0.1.json",
+  "scoring_model": {
+    "max_score": 110,
+    "weights": {
+      "same_sector": 35,
+      "same_yoy_band": 25,
+      "same_mom_band": 15,
+      "same_priority": 15,
+      "same_evidence_quality": 10,
+      "same_confidence": 10
+    }
+  },
+  "cases_compared": 11,
+  "similarities": [
+    {
+      "case_id": "SG-M355381-1_1-2026-apr",
+      "fingerprint": {
+        "case_id": "SG-M355381-1_1-2026-apr",
+        "sector": "electronics",
+        "priority": "medium",
+        "confidence": "unknown",
+        "evidence_quality": "poor",
+        "yoy_band": "25_TO_50",
+        "mom_band": "10_TO_20"
+      },
+      "similar_cases": [
+        {
+          "case_id": "SG-M355381-1_1_1-2026-apr",
+          "similarity_score": 110,
+          "similarity_percent": 100,
+          "reasons": [
+            "same_sector",
+            "same_yoy_band",
+            "same_mom_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_2_1-2026-apr",
+          "similarity_score": 75,
+          "similarity_percent": 68.18,
+          "reasons": [
+            "same_yoy_band",
+            "same_mom_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_1_3-2026-apr",
+          "similarity_score": 70,
+          "similarity_percent": 63.64,
+          "reasons": [
+            "same_sector",
+            "same_mom_band",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_2_2-2026-apr",
+          "similarity_score": 60,
+          "similarity_percent": 54.55,
+          "reasons": [
+            "same_yoy_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_3_2-2026-apr",
+          "similarity_score": 50,
+          "similarity_percent": 45.45,
+          "reasons": [
+            "same_mom_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_5_2-2026-apr",
+          "similarity_score": 50,
+          "similarity_percent": 45.45,
+          "reasons": [
+            "same_mom_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_3_1-2026-apr",
+          "similarity_score": 45,
+          "similarity_percent": 40.91,
+          "reasons": [
+            "same_yoy_band",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_3-2026-apr",
+          "similarity_score": 30,
+          "similarity_percent": 27.27,
+          "reasons": [
+            "same_mom_band",
+            "same_priority"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_2_4-2026-apr",
+          "similarity_score": 20,
+          "similarity_percent": 18.18,
+          "reasons": [
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_5_3-2026-apr",
+          "similarity_score": 20,
+          "similarity_percent": 18.18,
+          "reasons": [
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_1_1-2026-apr",
+      "fingerprint": {
+        "case_id": "SG-M355381-1_1_1-2026-apr",
+        "sector": "electronics",
+        "priority": "medium",
+        "confidence": "unknown",
+        "evidence_quality": "poor",
+        "yoy_band": "25_TO_50",
+        "mom_band": "10_TO_20"
+      },
+      "similar_cases": [
+        {
+          "case_id": "SG-M355381-1_1-2026-apr",
+          "similarity_score": 110,
+          "similarity_percent": 100,
+          "reasons": [
+            "same_sector",
+            "same_yoy_band",
+            "same_mom_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_2_1-2026-apr",
+          "similarity_score": 75,
+          "similarity_percent": 68.18,
+          "reasons": [
+            "same_yoy_band",
+            "same_mom_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_1_3-2026-apr",
+          "similarity_score": 70,
+          "similarity_percent": 63.64,
+          "reasons": [
+            "same_sector",
+            "same_mom_band",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_2_2-2026-apr",
+          "similarity_score": 60,
+          "similarity_percent": 54.55,
+          "reasons": [
+            "same_yoy_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_3_2-2026-apr",
+          "similarity_score": 50,
+          "similarity_percent": 45.45,
+          "reasons": [
+            "same_mom_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_5_2-2026-apr",
+          "similarity_score": 50,
+          "similarity_percent": 45.45,
+          "reasons": [
+            "same_mom_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_3_1-2026-apr",
+          "similarity_score": 45,
+          "similarity_percent": 40.91,
+          "reasons": [
+            "same_yoy_band",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_3-2026-apr",
+          "similarity_score": 30,
+          "similarity_percent": 27.27,
+          "reasons": [
+            "same_mom_band",
+            "same_priority"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_2_4-2026-apr",
+          "similarity_score": 20,
+          "similarity_percent": 18.18,
+          "reasons": [
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_5_3-2026-apr",
+          "similarity_score": 20,
+          "similarity_percent": 18.18,
+          "reasons": [
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_1_3-2026-apr",
+      "fingerprint": {
+        "case_id": "SG-M355381-1_1_3-2026-apr",
+        "sector": "electronics",
+        "priority": "critical",
+        "confidence": "unknown",
+        "evidence_quality": "poor",
+        "yoy_band": "GT_100",
+        "mom_band": "10_TO_20"
+      },
+      "similar_cases": [
+        {
+          "case_id": "SG-M355381-1_1_1-2026-apr",
+          "similarity_score": 70,
+          "similarity_percent": 63.64,
+          "reasons": [
+            "same_sector",
+            "same_mom_band",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_1-2026-apr",
+          "similarity_score": 70,
+          "similarity_percent": 63.64,
+          "reasons": [
+            "same_sector",
+            "same_mom_band",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_2_1-2026-apr",
+          "similarity_score": 35,
+          "similarity_percent": 31.82,
+          "reasons": [
+            "same_mom_band",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_2_4-2026-apr",
+          "similarity_score": 35,
+          "similarity_percent": 31.82,
+          "reasons": [
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_3_1-2026-apr",
+          "similarity_score": 35,
+          "similarity_percent": 31.82,
+          "reasons": [
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_3_2-2026-apr",
+          "similarity_score": 35,
+          "similarity_percent": 31.82,
+          "reasons": [
+            "same_mom_band",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_5_2-2026-apr",
+          "similarity_score": 35,
+          "similarity_percent": 31.82,
+          "reasons": [
+            "same_mom_band",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_5_3-2026-apr",
+          "similarity_score": 35,
+          "similarity_percent": 31.82,
+          "reasons": [
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_2_2-2026-apr",
+          "similarity_score": 20,
+          "similarity_percent": 18.18,
+          "reasons": [
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_3-2026-apr",
+          "similarity_score": 15,
+          "similarity_percent": 13.64,
+          "reasons": [
+            "same_mom_band"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_2_1-2026-apr",
+      "fingerprint": {
+        "case_id": "SG-M355381-1_2_1-2026-apr",
+        "sector": "chemicals",
+        "priority": "medium",
+        "confidence": "unknown",
+        "evidence_quality": "poor",
+        "yoy_band": "25_TO_50",
+        "mom_band": "10_TO_20"
+      },
+      "similar_cases": [
+        {
+          "case_id": "SG-M355381-1_2_2-2026-apr",
+          "similarity_score": 95,
+          "similarity_percent": 86.36,
+          "reasons": [
+            "same_sector",
+            "same_yoy_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_1_1-2026-apr",
+          "similarity_score": 75,
+          "similarity_percent": 68.18,
+          "reasons": [
+            "same_yoy_band",
+            "same_mom_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_1-2026-apr",
+          "similarity_score": 75,
+          "similarity_percent": 68.18,
+          "reasons": [
+            "same_yoy_band",
+            "same_mom_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_2_4-2026-apr",
+          "similarity_score": 55,
+          "similarity_percent": 50,
+          "reasons": [
+            "same_sector",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_3_2-2026-apr",
+          "similarity_score": 50,
+          "similarity_percent": 45.45,
+          "reasons": [
+            "same_mom_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_5_2-2026-apr",
+          "similarity_score": 50,
+          "similarity_percent": 45.45,
+          "reasons": [
+            "same_mom_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_3_1-2026-apr",
+          "similarity_score": 45,
+          "similarity_percent": 40.91,
+          "reasons": [
+            "same_yoy_band",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_1_3-2026-apr",
+          "similarity_score": 35,
+          "similarity_percent": 31.82,
+          "reasons": [
+            "same_mom_band",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_3-2026-apr",
+          "similarity_score": 30,
+          "similarity_percent": 27.27,
+          "reasons": [
+            "same_mom_band",
+            "same_priority"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_5_3-2026-apr",
+          "similarity_score": 20,
+          "similarity_percent": 18.18,
+          "reasons": [
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_2_2-2026-apr",
+      "fingerprint": {
+        "case_id": "SG-M355381-1_2_2-2026-apr",
+        "sector": "chemicals",
+        "priority": "medium",
+        "confidence": "unknown",
+        "evidence_quality": "poor",
+        "yoy_band": "25_TO_50",
+        "mom_band": "5_TO_10"
+      },
+      "similar_cases": [
+        {
+          "case_id": "SG-M355381-1_2_1-2026-apr",
+          "similarity_score": 95,
+          "similarity_percent": 86.36,
+          "reasons": [
+            "same_sector",
+            "same_yoy_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_1_1-2026-apr",
+          "similarity_score": 60,
+          "similarity_percent": 54.55,
+          "reasons": [
+            "same_yoy_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_1-2026-apr",
+          "similarity_score": 60,
+          "similarity_percent": 54.55,
+          "reasons": [
+            "same_yoy_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_2_4-2026-apr",
+          "similarity_score": 55,
+          "similarity_percent": 50,
+          "reasons": [
+            "same_sector",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_3_1-2026-apr",
+          "similarity_score": 45,
+          "similarity_percent": 40.91,
+          "reasons": [
+            "same_yoy_band",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_3_2-2026-apr",
+          "similarity_score": 35,
+          "similarity_percent": 31.82,
+          "reasons": [
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_5_2-2026-apr",
+          "similarity_score": 35,
+          "similarity_percent": 31.82,
+          "reasons": [
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_1_3-2026-apr",
+          "similarity_score": 20,
+          "similarity_percent": 18.18,
+          "reasons": [
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_5_3-2026-apr",
+          "similarity_score": 20,
+          "similarity_percent": 18.18,
+          "reasons": [
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_3-2026-apr",
+          "similarity_score": 15,
+          "similarity_percent": 13.64,
+          "reasons": [
+            "same_priority"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_2_4-2026-apr",
+      "fingerprint": {
+        "case_id": "SG-M355381-1_2_4-2026-apr",
+        "sector": "chemicals",
+        "priority": "critical",
+        "confidence": "unknown",
+        "evidence_quality": "poor",
+        "yoy_band": "LT_25",
+        "mom_band": "GT_20"
+      },
+      "similar_cases": [
+        {
+          "case_id": "SG-M355381-1_5_3-2026-apr",
+          "similarity_score": 75,
+          "similarity_percent": 68.18,
+          "reasons": [
+            "same_yoy_band",
+            "same_mom_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_2_1-2026-apr",
+          "similarity_score": 55,
+          "similarity_percent": 50,
+          "reasons": [
+            "same_sector",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_2_2-2026-apr",
+          "similarity_score": 55,
+          "similarity_percent": 50,
+          "reasons": [
+            "same_sector",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_3_1-2026-apr",
+          "similarity_score": 50,
+          "similarity_percent": 45.45,
+          "reasons": [
+            "same_mom_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_3_2-2026-apr",
+          "similarity_score": 45,
+          "similarity_percent": 40.91,
+          "reasons": [
+            "same_yoy_band",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_5_2-2026-apr",
+          "similarity_score": 45,
+          "similarity_percent": 40.91,
+          "reasons": [
+            "same_yoy_band",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_1_3-2026-apr",
+          "similarity_score": 35,
+          "similarity_percent": 31.82,
+          "reasons": [
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_3-2026-apr",
+          "similarity_score": 25,
+          "similarity_percent": 22.73,
+          "reasons": [
+            "same_yoy_band"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_1_1-2026-apr",
+          "similarity_score": 20,
+          "similarity_percent": 18.18,
+          "reasons": [
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_1-2026-apr",
+          "similarity_score": 20,
+          "similarity_percent": 18.18,
+          "reasons": [
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_3-2026-apr",
+      "fingerprint": {
+        "case_id": "SG-M355381-1_3-2026-apr",
+        "sector": "biomedical",
+        "priority": "medium",
+        "confidence": "low",
+        "evidence_quality": "limited",
+        "yoy_band": "LT_25",
+        "mom_band": "10_TO_20"
+      },
+      "similar_cases": [
+        {
+          "case_id": "SG-M355381-1_3_2-2026-apr",
+          "similarity_score": 90,
+          "similarity_percent": 81.82,
+          "reasons": [
+            "same_sector",
+            "same_yoy_band",
+            "same_mom_band",
+            "same_priority"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_5_2-2026-apr",
+          "similarity_score": 55,
+          "similarity_percent": 50,
+          "reasons": [
+            "same_yoy_band",
+            "same_mom_band",
+            "same_priority"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_3_1-2026-apr",
+          "similarity_score": 35,
+          "similarity_percent": 31.82,
+          "reasons": [
+            "same_sector"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_1_1-2026-apr",
+          "similarity_score": 30,
+          "similarity_percent": 27.27,
+          "reasons": [
+            "same_mom_band",
+            "same_priority"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_1-2026-apr",
+          "similarity_score": 30,
+          "similarity_percent": 27.27,
+          "reasons": [
+            "same_mom_band",
+            "same_priority"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_2_1-2026-apr",
+          "similarity_score": 30,
+          "similarity_percent": 27.27,
+          "reasons": [
+            "same_mom_band",
+            "same_priority"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_2_4-2026-apr",
+          "similarity_score": 25,
+          "similarity_percent": 22.73,
+          "reasons": [
+            "same_yoy_band"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_5_3-2026-apr",
+          "similarity_score": 25,
+          "similarity_percent": 22.73,
+          "reasons": [
+            "same_yoy_band"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_1_3-2026-apr",
+          "similarity_score": 15,
+          "similarity_percent": 13.64,
+          "reasons": [
+            "same_mom_band"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_2_2-2026-apr",
+          "similarity_score": 15,
+          "similarity_percent": 13.64,
+          "reasons": [
+            "same_priority"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_3_1-2026-apr",
+      "fingerprint": {
+        "case_id": "SG-M355381-1_3_1-2026-apr",
+        "sector": "biomedical",
+        "priority": "critical",
+        "confidence": "unknown",
+        "evidence_quality": "poor",
+        "yoy_band": "25_TO_50",
+        "mom_band": "GT_20"
+      },
+      "similar_cases": [
+        {
+          "case_id": "SG-M355381-1_3_2-2026-apr",
+          "similarity_score": 55,
+          "similarity_percent": 50,
+          "reasons": [
+            "same_sector",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_2_4-2026-apr",
+          "similarity_score": 50,
+          "similarity_percent": 45.45,
+          "reasons": [
+            "same_mom_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_5_3-2026-apr",
+          "similarity_score": 50,
+          "similarity_percent": 45.45,
+          "reasons": [
+            "same_mom_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_1_1-2026-apr",
+          "similarity_score": 45,
+          "similarity_percent": 40.91,
+          "reasons": [
+            "same_yoy_band",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_1-2026-apr",
+          "similarity_score": 45,
+          "similarity_percent": 40.91,
+          "reasons": [
+            "same_yoy_band",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_2_1-2026-apr",
+          "similarity_score": 45,
+          "similarity_percent": 40.91,
+          "reasons": [
+            "same_yoy_band",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_2_2-2026-apr",
+          "similarity_score": 45,
+          "similarity_percent": 40.91,
+          "reasons": [
+            "same_yoy_band",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_1_3-2026-apr",
+          "similarity_score": 35,
+          "similarity_percent": 31.82,
+          "reasons": [
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_3-2026-apr",
+          "similarity_score": 35,
+          "similarity_percent": 31.82,
+          "reasons": [
+            "same_sector"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_5_2-2026-apr",
+          "similarity_score": 20,
+          "similarity_percent": 18.18,
+          "reasons": [
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_3_2-2026-apr",
+      "fingerprint": {
+        "case_id": "SG-M355381-1_3_2-2026-apr",
+        "sector": "biomedical",
+        "priority": "medium",
+        "confidence": "unknown",
+        "evidence_quality": "poor",
+        "yoy_band": "LT_25",
+        "mom_band": "10_TO_20"
+      },
+      "similar_cases": [
+        {
+          "case_id": "SG-M355381-1_3-2026-apr",
+          "similarity_score": 90,
+          "similarity_percent": 81.82,
+          "reasons": [
+            "same_sector",
+            "same_yoy_band",
+            "same_mom_band",
+            "same_priority"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_5_2-2026-apr",
+          "similarity_score": 75,
+          "similarity_percent": 68.18,
+          "reasons": [
+            "same_yoy_band",
+            "same_mom_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_3_1-2026-apr",
+          "similarity_score": 55,
+          "similarity_percent": 50,
+          "reasons": [
+            "same_sector",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_1_1-2026-apr",
+          "similarity_score": 50,
+          "similarity_percent": 45.45,
+          "reasons": [
+            "same_mom_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_1-2026-apr",
+          "similarity_score": 50,
+          "similarity_percent": 45.45,
+          "reasons": [
+            "same_mom_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_2_1-2026-apr",
+          "similarity_score": 50,
+          "similarity_percent": 45.45,
+          "reasons": [
+            "same_mom_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_2_4-2026-apr",
+          "similarity_score": 45,
+          "similarity_percent": 40.91,
+          "reasons": [
+            "same_yoy_band",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_5_3-2026-apr",
+          "similarity_score": 45,
+          "similarity_percent": 40.91,
+          "reasons": [
+            "same_yoy_band",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_1_3-2026-apr",
+          "similarity_score": 35,
+          "similarity_percent": 31.82,
+          "reasons": [
+            "same_mom_band",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_2_2-2026-apr",
+          "similarity_score": 35,
+          "similarity_percent": 31.82,
+          "reasons": [
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_5_2-2026-apr",
+      "fingerprint": {
+        "case_id": "SG-M355381-1_5_2-2026-apr",
+        "sector": "transport",
+        "priority": "medium",
+        "confidence": "unknown",
+        "evidence_quality": "poor",
+        "yoy_band": "LT_25",
+        "mom_band": "10_TO_20"
+      },
+      "similar_cases": [
+        {
+          "case_id": "SG-M355381-1_5_3-2026-apr",
+          "similarity_score": 80,
+          "similarity_percent": 72.73,
+          "reasons": [
+            "same_sector",
+            "same_yoy_band",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_3_2-2026-apr",
+          "similarity_score": 75,
+          "similarity_percent": 68.18,
+          "reasons": [
+            "same_yoy_band",
+            "same_mom_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_3-2026-apr",
+          "similarity_score": 55,
+          "similarity_percent": 50,
+          "reasons": [
+            "same_yoy_band",
+            "same_mom_band",
+            "same_priority"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_1_1-2026-apr",
+          "similarity_score": 50,
+          "similarity_percent": 45.45,
+          "reasons": [
+            "same_mom_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_1-2026-apr",
+          "similarity_score": 50,
+          "similarity_percent": 45.45,
+          "reasons": [
+            "same_mom_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_2_1-2026-apr",
+          "similarity_score": 50,
+          "similarity_percent": 45.45,
+          "reasons": [
+            "same_mom_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_2_4-2026-apr",
+          "similarity_score": 45,
+          "similarity_percent": 40.91,
+          "reasons": [
+            "same_yoy_band",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_1_3-2026-apr",
+          "similarity_score": 35,
+          "similarity_percent": 31.82,
+          "reasons": [
+            "same_mom_band",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_2_2-2026-apr",
+          "similarity_score": 35,
+          "similarity_percent": 31.82,
+          "reasons": [
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_3_1-2026-apr",
+          "similarity_score": 20,
+          "similarity_percent": 18.18,
+          "reasons": [
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_5_3-2026-apr",
+      "fingerprint": {
+        "case_id": "SG-M355381-1_5_3-2026-apr",
+        "sector": "transport",
+        "priority": "critical",
+        "confidence": "unknown",
+        "evidence_quality": "poor",
+        "yoy_band": "LT_25",
+        "mom_band": "GT_20"
+      },
+      "similar_cases": [
+        {
+          "case_id": "SG-M355381-1_5_2-2026-apr",
+          "similarity_score": 80,
+          "similarity_percent": 72.73,
+          "reasons": [
+            "same_sector",
+            "same_yoy_band",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_2_4-2026-apr",
+          "similarity_score": 75,
+          "similarity_percent": 68.18,
+          "reasons": [
+            "same_yoy_band",
+            "same_mom_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_3_1-2026-apr",
+          "similarity_score": 50,
+          "similarity_percent": 45.45,
+          "reasons": [
+            "same_mom_band",
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_3_2-2026-apr",
+          "similarity_score": 45,
+          "similarity_percent": 40.91,
+          "reasons": [
+            "same_yoy_band",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_1_3-2026-apr",
+          "similarity_score": 35,
+          "similarity_percent": 31.82,
+          "reasons": [
+            "same_priority",
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_3-2026-apr",
+          "similarity_score": 25,
+          "similarity_percent": 22.73,
+          "reasons": [
+            "same_yoy_band"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_1_1-2026-apr",
+          "similarity_score": 20,
+          "similarity_percent": 18.18,
+          "reasons": [
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_1-2026-apr",
+          "similarity_score": 20,
+          "similarity_percent": 18.18,
+          "reasons": [
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_2_1-2026-apr",
+          "similarity_score": 20,
+          "similarity_percent": 18.18,
+          "reasons": [
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        },
+        {
+          "case_id": "SG-M355381-1_2_2-2026-apr",
+          "similarity_score": 20,
+          "similarity_percent": 18.18,
+          "reasons": [
+            "same_evidence_quality",
+            "same_confidence"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "outcome_justification_audit_version": "outcome-justification-audit-v0.1",
+  "generated_at": "2026-06-03T11:04:44.190Z",
+  "policy": {
+    "principle": "Closed outcomes should be auditable. High confidence requires supporting evidence and should not rely primarily on unknown attribution.",
+    "production_mutation_allowed": false
+  },
+  "summary": {
+    "total_cases": 13,
+    "cases_with_outcome": 1,
+    "justified_outcomes": 0,
+    "outcomes_needing_review": 1,
+    "cases_without_outcome": 12
+  },
+  "audits": [
+    {
+      "case_id": "SG-M355381-1_1-2026-apr",
+      "file_path": "data/cases/case-SG-M355381-1_1-2026-apr.json",
+      "case_status": "investigating",
+      "conclusion_status": "no_conclusion_yet",
+      "is_closed_or_attributed": false,
+      "has_outcome": false,
+      "primary_driver": null,
+      "primary_driver_name": null,
+      "outcome_confidence": null,
+      "evidence_quality": "poor",
+      "relevant_evidence_count": 0,
+      "relevant_evidence_sample_count": 0,
+      "attribution_scores": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 10
+      },
+      "confidence_reason": {
+        "rule_applied": "UNKNOWN_V1",
+        "relevant_evidence_count": 0,
+        "evidence_quality": "poor",
+        "unknown_effect": 10,
+        "conclusion_status": "no_conclusion_yet"
+      },
+      "audit_status": "no_outcome",
+      "warnings": []
+    },
+    {
+      "case_id": "SG-M355381-1_1_1-2026-apr",
+      "file_path": "data/cases/case-SG-M355381-1_1_1-2026-apr.json",
+      "case_status": "investigating",
+      "conclusion_status": "no_conclusion_yet",
+      "is_closed_or_attributed": false,
+      "has_outcome": false,
+      "primary_driver": null,
+      "primary_driver_name": null,
+      "outcome_confidence": null,
+      "evidence_quality": "poor",
+      "relevant_evidence_count": 0,
+      "relevant_evidence_sample_count": 0,
+      "attribution_scores": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 10
+      },
+      "confidence_reason": {
+        "rule_applied": "UNKNOWN_V1",
+        "relevant_evidence_count": 0,
+        "evidence_quality": "poor",
+        "unknown_effect": 10,
+        "conclusion_status": "no_conclusion_yet"
+      },
+      "audit_status": "no_outcome",
+      "warnings": []
+    },
+    {
+      "case_id": "SG-M355381-1_1_3-2026-apr",
+      "file_path": "data/cases/case-SG-M355381-1_1_3-2026-apr.json",
+      "case_status": "closed",
+      "conclusion_status": "attributed",
+      "is_closed_or_attributed": true,
+      "has_outcome": true,
+      "primary_driver": "MKT_001",
+      "primary_driver_name": "Global Demand Surge",
+      "outcome_confidence": "high",
+      "evidence_quality": "poor",
+      "relevant_evidence_count": 0,
+      "relevant_evidence_sample_count": 0,
+      "attribution_scores": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 10
+      },
+      "confidence_reason": {
+        "rule_applied": "UNKNOWN_V1",
+        "relevant_evidence_count": 0,
+        "evidence_quality": "poor",
+        "unknown_effect": 10,
+        "conclusion_status": "attributed"
+      },
+      "audit_status": "needs_review",
+      "warnings": [
+        "Outcome exists but relevant_evidence_count is zero.",
+        "Outcome exists but evidence_quality is poor.",
+        "Unknown effect score is higher than all known attribution effect scores.",
+        "High-confidence outcome has no relevant evidence.",
+        "High-confidence outcome has poor evidence quality."
+      ]
+    },
+    {
+      "case_id": "SG-M355381-1_2_1-2026-apr",
+      "file_path": "data/cases/case-SG-M355381-1_2_1-2026-apr.json",
+      "case_status": "investigating",
+      "conclusion_status": "no_conclusion_yet",
+      "is_closed_or_attributed": false,
+      "has_outcome": false,
+      "primary_driver": null,
+      "primary_driver_name": null,
+      "outcome_confidence": null,
+      "evidence_quality": "poor",
+      "relevant_evidence_count": 0,
+      "relevant_evidence_sample_count": 0,
+      "attribution_scores": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 10
+      },
+      "confidence_reason": {
+        "rule_applied": "UNKNOWN_V1",
+        "relevant_evidence_count": 0,
+        "evidence_quality": "poor",
+        "unknown_effect": 10,
+        "conclusion_status": "no_conclusion_yet"
+      },
+      "audit_status": "no_outcome",
+      "warnings": []
+    },
+    {
+      "case_id": "SG-M355381-1_2_2-2026-apr",
+      "file_path": "data/cases/case-SG-M355381-1_2_2-2026-apr.json",
+      "case_status": "investigating",
+      "conclusion_status": "no_conclusion_yet",
+      "is_closed_or_attributed": false,
+      "has_outcome": false,
+      "primary_driver": null,
+      "primary_driver_name": null,
+      "outcome_confidence": null,
+      "evidence_quality": "poor",
+      "relevant_evidence_count": 0,
+      "relevant_evidence_sample_count": 0,
+      "attribution_scores": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 10
+      },
+      "confidence_reason": {
+        "rule_applied": "UNKNOWN_V1",
+        "relevant_evidence_count": 0,
+        "evidence_quality": "poor",
+        "unknown_effect": 10,
+        "conclusion_status": "no_conclusion_yet"
+      },
+      "audit_status": "no_outcome",
+      "warnings": []
+    },
+    {
+      "case_id": "SG-M355381-1_2_4-2026-apr",
+      "file_path": "data/cases/case-SG-M355381-1_2_4-2026-apr.json",
+      "case_status": "investigating",
+      "conclusion_status": "no_conclusion_yet",
+      "is_closed_or_attributed": false,
+      "has_outcome": false,
+      "primary_driver": null,
+      "primary_driver_name": null,
+      "outcome_confidence": null,
+      "evidence_quality": "poor",
+      "relevant_evidence_count": 0,
+      "relevant_evidence_sample_count": 0,
+      "attribution_scores": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 10
+      },
+      "confidence_reason": {
+        "rule_applied": "UNKNOWN_V1",
+        "relevant_evidence_count": 0,
+        "evidence_quality": "poor",
+        "unknown_effect": 10,
+        "conclusion_status": "no_conclusion_yet"
+      },
+      "audit_status": "no_outcome",
+      "warnings": []
+    },
+    {
+      "case_id": "SG-M355381-1_3-2026-apr",
+      "file_path": "data/cases/case-SG-M355381-1_3-2026-apr.json",
+      "case_status": "investigating",
+      "conclusion_status": "no_conclusion_yet",
+      "is_closed_or_attributed": false,
+      "has_outcome": false,
+      "primary_driver": null,
+      "primary_driver_name": null,
+      "outcome_confidence": null,
+      "evidence_quality": "limited",
+      "relevant_evidence_count": 1,
+      "relevant_evidence_sample_count": 1,
+      "attribution_scores": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 10
+      },
+      "confidence_reason": {
+        "rule_applied": "LOW_V1",
+        "relevant_evidence_count": 1,
+        "evidence_quality": "limited",
+        "unknown_effect": 10,
+        "conclusion_status": "no_conclusion_yet"
+      },
+      "audit_status": "no_outcome",
+      "warnings": []
+    },
+    {
+      "case_id": "SG-M355381-1_3_1-2026-apr",
+      "file_path": "data/cases/case-SG-M355381-1_3_1-2026-apr.json",
+      "case_status": "investigating",
+      "conclusion_status": "no_conclusion_yet",
+      "is_closed_or_attributed": false,
+      "has_outcome": false,
+      "primary_driver": null,
+      "primary_driver_name": null,
+      "outcome_confidence": null,
+      "evidence_quality": "poor",
+      "relevant_evidence_count": 0,
+      "relevant_evidence_sample_count": 0,
+      "attribution_scores": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 10
+      },
+      "confidence_reason": {
+        "rule_applied": "UNKNOWN_V1",
+        "relevant_evidence_count": 0,
+        "evidence_quality": "poor",
+        "unknown_effect": 10,
+        "conclusion_status": "no_conclusion_yet"
+      },
+      "audit_status": "no_outcome",
+      "warnings": []
+    },
+    {
+      "case_id": "SG-M355381-1_3_2-2026-apr",
+      "file_path": "data/cases/case-SG-M355381-1_3_2-2026-apr.json",
+      "case_status": "investigating",
+      "conclusion_status": "no_conclusion_yet",
+      "is_closed_or_attributed": false,
+      "has_outcome": false,
+      "primary_driver": null,
+      "primary_driver_name": null,
+      "outcome_confidence": null,
+      "evidence_quality": "poor",
+      "relevant_evidence_count": 0,
+      "relevant_evidence_sample_count": 0,
+      "attribution_scores": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 10
+      },
+      "confidence_reason": {
+        "rule_applied": "UNKNOWN_V1",
+        "relevant_evidence_count": 0,
+        "evidence_quality": "poor",
+        "unknown_effect": 10,
+        "conclusion_status": "no_conclusion_yet"
+      },
+      "audit_status": "no_outcome",
+      "warnings": []
+    },
+    {
+      "case_id": "SG-M355381-1_5_2-2026-apr",
+      "file_path": "data/cases/case-SG-M355381-1_5_2-2026-apr.json",
+      "case_status": "investigating",
+      "conclusion_status": "no_conclusion_yet",
+      "is_closed_or_attributed": false,
+      "has_outcome": false,
+      "primary_driver": null,
+      "primary_driver_name": null,
+      "outcome_confidence": null,
+      "evidence_quality": "poor",
+      "relevant_evidence_count": 0,
+      "relevant_evidence_sample_count": 0,
+      "attribution_scores": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 10
+      },
+      "confidence_reason": {
+        "rule_applied": "UNKNOWN_V1",
+        "relevant_evidence_count": 0,
+        "evidence_quality": "poor",
+        "unknown_effect": 10,
+        "conclusion_status": "no_conclusion_yet"
+      },
+      "audit_status": "no_outcome",
+      "warnings": []
+    },
+    {
+      "case_id": "SG-M355381-1_5_3-2026-apr",
+      "file_path": "data/cases/case-SG-M355381-1_5_3-2026-apr.json",
+      "case_status": "investigating",
+      "conclusion_status": "no_conclusion_yet",
+      "is_closed_or_attributed": false,
+      "has_outcome": false,
+      "primary_driver": null,
+      "primary_driver_name": null,
+      "outcome_confidence": null,
+      "evidence_quality": "poor",
+      "relevant_evidence_count": 0,
+      "relevant_evidence_sample_count": 0,
+      "attribution_scores": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 10
+      },
+      "confidence_reason": {
+        "rule_applied": "UNKNOWN_V1",
+        "relevant_evidence_count": 0,
+        "evidence_quality": "poor",
+        "unknown_effect": 10,
+        "conclusion_status": "no_conclusion_yet"
+      },
+      "audit_status": "no_outcome",
+      "warnings": []
+    },
+    {
+      "file_path": "data/cases/case-index-v0.1.json",
+      "is_closed_or_attributed": false,
+      "has_outcome": false,
+      "primary_driver": null,
+      "primary_driver_name": null,
+      "outcome_confidence": null,
+      "evidence_quality": "unknown",
+      "relevant_evidence_count": 0,
+      "relevant_evidence_sample_count": 0,
+      "attribution_scores": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 0
+      },
+      "confidence_reason": {},
+      "audit_status": "no_outcome",
+      "warnings": []
+    },
+    {
+      "file_path": "data/cases/investigation-queue-v0.1.json",
+      "is_closed_or_attributed": false,
+      "has_outcome": false,
+      "primary_driver": null,
+      "primary_driver_name": null,
+      "outcome_confidence": null,
+      "evidence_quality": "unknown",
+      "relevant_evidence_count": 0,
+      "relevant_evidence_sample_count": 0,
+      "attribution_scores": {
+        "market_effect": 0,
+        "portfolio_effect": 0,
+        "operational_effect": 0,
+        "policy_effect": 0,
+        "unknown_effect": 0
+      },
+      "confidence_reason": {},
+      "audit_status": "no_outcome",
+      "warnings": []
+    }
+  ]
+}

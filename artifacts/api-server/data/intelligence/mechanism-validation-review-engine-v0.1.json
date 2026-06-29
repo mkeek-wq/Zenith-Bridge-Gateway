@@ -1,0 +1,42 @@
+{
+  "engine_version": "mechanism-validation-review-engine-v0.1",
+  "generated_at": "2026-06-10T09:30:47.469Z",
+  "source_queue": "data/intelligence/mechanism-validation-review-queue-v0.2.json",
+  "mechanisms_ready_for_review": 1,
+  "reviews": [
+    {
+      "mechanism_id": "MKT_010",
+      "review_status": "under_validation_review",
+      "experience_count": 3,
+      "positive_alignment_ratio": 1,
+      "learning_confidence_score": 0.77,
+      "learning_confidence_band": "strong",
+      "supporting_cases": [
+        {
+          "case_id": "SG-NODX-2023",
+          "alignment_score": 0.78,
+          "alignment_band": "strong_alignment"
+        },
+        {
+          "case_id": "SG-GOODS-EXPORTS-2020",
+          "alignment_score": 0.74,
+          "alignment_band": "moderate_alignment"
+        },
+        {
+          "case_id": "SG-FINANCE-2020",
+          "alignment_score": 0.76,
+          "alignment_band": "strong_alignment"
+        }
+      ],
+      "review_rationale": "Mechanism reached minimum replay experience threshold with positive alignment and sufficient learning confidence.",
+      "required_review_checks": [
+        "supporting_case_review",
+        "counter_evidence_review",
+        "domain_diversity_review",
+        "mechanism_specificity_review",
+        "human_governance_review"
+      ],
+      "governance_note": "Validation review does not validate the mechanism. It opens the review process."
+    }
+  ]
+}

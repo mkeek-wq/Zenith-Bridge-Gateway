@@ -1,0 +1,55 @@
+{
+  "protocol_version": "znbw-editorial-protocol-v1",
+  "article_type": "ZNBW Institutional Intelligence Article",
+  "mandatory_order": [
+    "title",
+    "introduction",
+    "key_takeaways",
+    "content_sections",
+    "why_it_matters_to_business",
+    "transparency_panel",
+    "sources"
+  ],
+  "rules": {
+    "title": "Use a clear business-intelligence title. Do not use hype.",
+    "introduction": "Start with 1-2 calm framing paragraphs before key takeaways.",
+    "key_takeaways": {
+      "required": true,
+      "count": "3-5",
+      "format": "Each key takeaway must link to a later article section using markdown anchor links.",
+      "style": "Strategic, business-facing, concise."
+    },
+    "content_sections": {
+      "required": true,
+      "description": "Use clear analytical sections. Explain what happened, what the data shows, and the underlying mechanism.",
+      "preferred_sections": [
+        "What happened",
+        "What the data shows",
+        "What explains the movement"
+      ]
+    },
+    "why_it_matters_to_business": {
+      "required": true,
+      "description": "Explain practical relevance for operators, investors, planners, and decision makers."
+    },
+    "transparency_panel": {
+      "required": true,
+      "description": "Include confidence, evidence base, data coverage, primary mechanism, limitations, and source notes."
+    },
+    "sources": {
+      "required": true,
+      "description": "List source names, tables, rows, dates, and URLs where available."
+    }
+  },
+  "forbidden": [
+    "Executive Summary",
+    "SMURF",
+    "What SMURF Found",
+    "internal engine references",
+    "hidden mechanisms",
+    "replay analysis",
+    "placeholder values",
+    "invented sources"
+  ],
+  "tone": "Calm, factual, structured, business-oriented, institutional. Avoid hype."
+}

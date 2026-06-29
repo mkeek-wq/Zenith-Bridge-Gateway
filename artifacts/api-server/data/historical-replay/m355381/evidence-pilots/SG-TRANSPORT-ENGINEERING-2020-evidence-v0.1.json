@@ -1,0 +1,19 @@
+{
+  "historical_evidence_pilot_version": "historical-evidence-pilot-v0.1",
+  "case_id": "SG-TRANSPORT-ENGINEERING-2020",
+  "period": "2020",
+  "series_name": "Transport Engineering",
+  "source_context": "Bulk sandbox historical replay evidence pilot. Synthetic seed evidence for attribution-learning pipeline testing; not production evidence.",
+  "governance": {
+    "sandbox_only": true,
+    "bulk_seed": true,
+    "manual_review_required": true,
+    "production_mutation_allowed": false
+  },
+  "evidence_items": [
+    "Singapore transport engineering output in 2020 was affected by weak aerospace demand and reduced aircraft maintenance activity.",
+    "Aircraft repair and MRO demand were constrained by lower travel demand and reduced fleet maintenance needs.",
+    "Marine engineering and ship repair activity reflected offshore engineering and regional industrial conditions.",
+    "Aviation recovery had not yet started, limiting transport engineering production."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "dataset_id": "SG_BIOMEDICAL_OUTPUT_INDEX",
+  "name": "Singapore pharmaceutical and biological products output",
+  "country": "Singapore",
+  "metric_type": "manufacturing_output_value",
+  "frequency": "annual",
+  "source_name": "SingStat Table Builder",
+  "table_id": "M354851",
+  "series_match": "Pharmaceutical & Biological Products",
+  "file_type": "singstat_table",
+  "unit": "Million Dollars",
+  "verification_status_after_load": "loaded_pending_review",
+  "notes": "Loaded from SingStat Table Builder API table M354851. Series: Pharmaceutical & Biological Products."
+}

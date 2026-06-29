@@ -1,0 +1,84 @@
+{
+  "executor_version": "dataset-state-cleanup-executor-v0.1",
+  "generated_at": "2026-06-25T09:34:59.567Z",
+  "source_plan": "data/intelligence/dataset-state-cleanup-plan-v0.1.json",
+  "mutation_performed": true,
+  "backup_directory": "data/intelligence/parsed-datasets-backups/state-cleanup-v0.1",
+  "result_count": 7,
+  "cleaned_count": 7,
+  "results": [
+    {
+      "dataset_id": "SG_CHEMICALS_OUTPUT_INDEX",
+      "status": "cleaned",
+      "parsed_file": "data/intelligence/parsed-datasets/SG_CHEMICALS_OUTPUT_INDEX.json",
+      "backup_file": "data/intelligence/parsed-datasets-backups/state-cleanup-v0.1/SG_CHEMICALS_OUTPUT_INDEX.json",
+      "removed_fields": [
+        "verification_status",
+        "reviewed_at"
+      ]
+    },
+    {
+      "dataset_id": "SG_PETROLEUM_OUTPUT_INDEX",
+      "status": "cleaned",
+      "parsed_file": "data/intelligence/parsed-datasets/SG_PETROLEUM_OUTPUT_INDEX.json",
+      "backup_file": "data/intelligence/parsed-datasets-backups/state-cleanup-v0.1/SG_PETROLEUM_OUTPUT_INDEX.json",
+      "removed_fields": [
+        "verification_status",
+        "reviewed_at"
+      ]
+    },
+    {
+      "dataset_id": "SG_PRECISION_ENGINEERING_OUTPUT_INDEX",
+      "status": "cleaned",
+      "parsed_file": "data/intelligence/parsed-datasets/SG_PRECISION_ENGINEERING_OUTPUT_INDEX.json",
+      "backup_file": "data/intelligence/parsed-datasets-backups/state-cleanup-v0.1/SG_PRECISION_ENGINEERING_OUTPUT_INDEX.json",
+      "removed_fields": [
+        "verification_status",
+        "reviewed_at"
+      ]
+    },
+    {
+      "dataset_id": "SG_SEMICONDUCTOR_OUTPUT_INDEX",
+      "status": "cleaned",
+      "parsed_file": "data/intelligence/parsed-datasets/SG_SEMICONDUCTOR_OUTPUT_INDEX.json",
+      "backup_file": "data/intelligence/parsed-datasets-backups/state-cleanup-v0.1/SG_SEMICONDUCTOR_OUTPUT_INDEX.json",
+      "removed_fields": [
+        "verification_status"
+      ]
+    },
+    {
+      "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+      "status": "cleaned",
+      "parsed_file": "data/intelligence/parsed-datasets/SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.json",
+      "backup_file": "data/intelligence/parsed-datasets-backups/state-cleanup-v0.1/SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.json",
+      "removed_fields": [
+        "verification_status",
+        "reviewed_at"
+      ]
+    },
+    {
+      "dataset_id": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX",
+      "status": "cleaned",
+      "parsed_file": "data/intelligence/parsed-datasets/SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.json",
+      "backup_file": "data/intelligence/parsed-datasets-backups/state-cleanup-v0.1/SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.json",
+      "removed_fields": [
+        "verification_status",
+        "reviewed_at"
+      ]
+    },
+    {
+      "dataset_id": "SG_BIOMEDICAL_OUTPUT_INDEX",
+      "status": "cleaned",
+      "parsed_file": "data/intelligence/parsed-datasets/SG_BIOMEDICAL_OUTPUT_INDEX.json",
+      "backup_file": "data/intelligence/parsed-datasets-backups/state-cleanup-v0.1/SG_BIOMEDICAL_OUTPUT_INDEX.json",
+      "removed_fields": [
+        "verification_status"
+      ]
+    }
+  ],
+  "governance": {
+    "dataset_lifecycle_state_source_of_truth": "data/intelligence/verified-dataset-registry-v0.1.json",
+    "parsed_datasets_mutable_governance_fields_removed": true,
+    "rollback_available": true
+  }
+}

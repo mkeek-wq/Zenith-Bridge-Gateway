@@ -1,0 +1,129 @@
+{
+  "investigation_version": "investigation-layer-v0.1",
+  "generated_at": "2026-06-01T03:25:07.751Z",
+  "table_id": "M355381",
+  "period": "2026 Apr",
+  "candidates": [
+    {
+      "status": "investigation_required",
+      "series_no": "1.1",
+      "series_name": "Electronics Cluster",
+      "latest_value": 131.206,
+      "month_on_month_change_pct": 16.284387407827563,
+      "year_on_year_change_pct": 44.00359992536739,
+      "evidence_found": [],
+      "hypotheses": [],
+      "confidence": "unknown"
+    },
+    {
+      "status": "investigation_required",
+      "series_no": "1.1.1",
+      "series_name": "Semiconductors",
+      "latest_value": 129.526,
+      "month_on_month_change_pct": 18.753839242328404,
+      "year_on_year_change_pct": 42.59010546247167,
+      "evidence_found": [],
+      "hypotheses": [],
+      "confidence": "unknown"
+    },
+    {
+      "status": "investigation_required",
+      "series_no": "1.1.3",
+      "series_name": "Infocomms & Consumer Electronics",
+      "latest_value": 173.489,
+      "month_on_month_change_pct": 13.259737037955846,
+      "year_on_year_change_pct": 129.60428798305983,
+      "evidence_found": [],
+      "hypotheses": [],
+      "confidence": "unknown"
+    },
+    {
+      "status": "investigation_required",
+      "series_no": "1.2.1",
+      "series_name": "Petroleum",
+      "latest_value": 68.566,
+      "month_on_month_change_pct": -15.277400222414435,
+      "year_on_year_change_pct": -29.667241096340057,
+      "evidence_found": [],
+      "hypotheses": [],
+      "confidence": "unknown"
+    },
+    {
+      "status": "investigation_required",
+      "series_no": "1.2.2",
+      "series_name": "Petrochemicals",
+      "latest_value": 60.362,
+      "month_on_month_change_pct": -8.890297651391647,
+      "year_on_year_change_pct": -41.62113020687254,
+      "evidence_found": [],
+      "hypotheses": [],
+      "confidence": "unknown"
+    },
+    {
+      "status": "investigation_required",
+      "series_no": "1.2.4",
+      "series_name": "Other Chemical Products",
+      "latest_value": 110.958,
+      "month_on_month_change_pct": 34.33497179108453,
+      "year_on_year_change_pct": 8.75996118446202,
+      "evidence_found": [],
+      "hypotheses": [],
+      "confidence": "unknown"
+    },
+    {
+      "status": "investigation_required",
+      "series_no": "1.3",
+      "series_name": "Biomedical Manufacturing Cluster",
+      "latest_value": 72.54,
+      "month_on_month_change_pct": -18.889907641389172,
+      "year_on_year_change_pct": -16.07857655197945,
+      "evidence_found": [],
+      "hypotheses": [],
+      "confidence": "unknown"
+    },
+    {
+      "status": "investigation_required",
+      "series_no": "1.3.1",
+      "series_name": "Pharmaceuticals",
+      "latest_value": 44.089,
+      "month_on_month_change_pct": -39.33736017281471,
+      "year_on_year_change_pct": -32.602115690350985,
+      "evidence_found": [],
+      "hypotheses": [],
+      "confidence": "unknown"
+    },
+    {
+      "status": "investigation_required",
+      "series_no": "1.3.2",
+      "series_name": "Medical Technology",
+      "latest_value": 86.245,
+      "month_on_month_change_pct": -11.547218575648179,
+      "year_on_year_change_pct": -10.6852521151994,
+      "evidence_found": [],
+      "hypotheses": [],
+      "confidence": "unknown"
+    },
+    {
+      "status": "investigation_required",
+      "series_no": "1.5.2",
+      "series_name": "Aerospace",
+      "latest_value": 116.73,
+      "month_on_month_change_pct": 10.890505956339178,
+      "year_on_year_change_pct": 16.08341537635371,
+      "evidence_found": [],
+      "hypotheses": [],
+      "confidence": "unknown"
+    },
+    {
+      "status": "investigation_required",
+      "series_no": "1.5.3",
+      "series_name": "Land",
+      "latest_value": 87.503,
+      "month_on_month_change_pct": -39.443452504532935,
+      "year_on_year_change_pct": -8.87192518381205,
+      "evidence_found": [],
+      "hypotheses": [],
+      "confidence": "unknown"
+    }
+  ]
+}

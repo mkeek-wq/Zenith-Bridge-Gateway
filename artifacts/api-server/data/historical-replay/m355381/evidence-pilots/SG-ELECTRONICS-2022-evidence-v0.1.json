@@ -1,0 +1,19 @@
+{
+  "historical_evidence_pilot_version": "historical-evidence-pilot-v0.1",
+  "case_id": "SG-ELECTRONICS-2022",
+  "period": "2022",
+  "series_name": "Electronics",
+  "source_context": "Bulk sandbox historical replay evidence pilot. Synthetic seed evidence for attribution-learning pipeline testing; not production evidence.",
+  "governance": {
+    "sandbox_only": true,
+    "bulk_seed": true,
+    "manual_review_required": true,
+    "production_mutation_allowed": false
+  },
+  "evidence_items": [
+    "Singapore electronics output in 2022 reflected semiconductor demand, electronics demand, and shifts in consumer electronics orders.",
+    "Memory demand, logic chip demand, and foundry demand affected semiconductor-related electronics activity.",
+    "Customer inventory and channel inventory conditions influenced electronics production cycles.",
+    "Export demand and order growth shaped electronics manufacturing performance."
+  ]
+}

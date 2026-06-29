@@ -1,0 +1,186 @@
+{
+  "historical_evidence_scorecard_version": "historical-evidence-scorecard-v0.1",
+  "generated_at": "2026-06-06T09:38:10.088Z",
+  "source_taxonomy": "data/intelligence-driver-library/driver-evidence-taxonomy-v0.1.json",
+  "source_evidence": "data/historical-replay/m355381/evidence-pilots/SG-ELECTRONICS-2020-evidence-v0.1.json",
+  "case_id": "SG-ELECTRONICS-2020",
+  "period": "2020",
+  "series_name": "Electronics",
+  "governance": {
+    "sandbox_only": true,
+    "recommendation_only": true,
+    "auto_close_case": false,
+    "requires_human_review": true,
+    "production_mutation_allowed": false
+  },
+  "evidence_metadata": {
+    "evidence_origin": "synthetic",
+    "template_generated": true,
+    "attribution_discovery_ready": true,
+    "requires_human_review": true
+  },
+  "evidence_items": [
+    "Singapore electronics output in 2020 was influenced by electronics demand, semiconductor demand, and work-from-home demand.",
+    "Global chip shortage conditions and consumer electronics demand affected electronics production patterns.",
+    "Data center chips and wafer demand supported parts of the electronics manufacturing base.",
+    "Supply constraints and changing export demand shaped electronics output during the year."
+  ],
+  "evidence_matches": [
+    {
+      "evidence_text": "Singapore electronics output in 2020 was influenced by electronics demand, semiconductor demand, and work-from-home demand.",
+      "matches": [
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 7,
+          "matched_phrases": [
+            "semiconductor demand",
+            "electronics demand"
+          ],
+          "match_score": 14
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "attribution_bucket": "market_effect",
+          "default_score": 5,
+          "matched_phrases": [
+            "work-from-home demand"
+          ],
+          "match_score": 5
+        }
+      ]
+    },
+    {
+      "evidence_text": "Global chip shortage conditions and consumer electronics demand affected electronics production patterns.",
+      "matches": [
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 7,
+          "matched_phrases": [
+            "chip shortage",
+            "global chip shortage",
+            "electronics demand",
+            "consumer electronics"
+          ],
+          "match_score": 28
+        }
+      ]
+    },
+    {
+      "evidence_text": "Data center chips and wafer demand supported parts of the electronics manufacturing base.",
+      "matches": [
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 7,
+          "matched_phrases": [
+            "wafer demand",
+            "data center chips"
+          ],
+          "match_score": 14
+        }
+      ]
+    },
+    {
+      "evidence_text": "Supply constraints and changing export demand shaped electronics output during the year.",
+      "matches": [
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "attribution_bucket": "operational_effect",
+          "default_score": 7,
+          "matched_phrases": [
+            "supply constraints"
+          ],
+          "match_score": 7
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "attribution_bucket": "market_effect",
+          "default_score": 5,
+          "matched_phrases": [
+            "export demand"
+          ],
+          "match_score": 5
+        }
+      ]
+    }
+  ],
+  "ranked_drivers": [
+    {
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "attribution_bucket": "market_effect",
+      "total_score": 56,
+      "evidence_count": 3,
+      "matched_phrases": [
+        "semiconductor demand",
+        "electronics demand",
+        "chip shortage",
+        "global chip shortage",
+        "electronics demand",
+        "consumer electronics",
+        "wafer demand",
+        "data center chips"
+      ],
+      "supporting_evidence": [
+        "Singapore electronics output in 2020 was influenced by electronics demand, semiconductor demand, and work-from-home demand.",
+        "Global chip shortage conditions and consumer electronics demand affected electronics production patterns.",
+        "Data center chips and wafer demand supported parts of the electronics manufacturing base."
+      ]
+    },
+    {
+      "driver_id": "MKT_001",
+      "driver_name": "Global Demand Surge",
+      "attribution_bucket": "market_effect",
+      "total_score": 10,
+      "evidence_count": 2,
+      "matched_phrases": [
+        "work-from-home demand",
+        "export demand"
+      ],
+      "supporting_evidence": [
+        "Singapore electronics output in 2020 was influenced by electronics demand, semiconductor demand, and work-from-home demand.",
+        "Supply constraints and changing export demand shaped electronics output during the year."
+      ]
+    },
+    {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "attribution_bucket": "operational_effect",
+      "total_score": 7,
+      "evidence_count": 1,
+      "matched_phrases": [
+        "supply constraints"
+      ],
+      "supporting_evidence": [
+        "Supply constraints and changing export demand shaped electronics output during the year."
+      ]
+    }
+  ],
+  "bucket_scores": [
+    {
+      "attribution_bucket": "market_effect",
+      "total_score": 66
+    },
+    {
+      "attribution_bucket": "operational_effect",
+      "total_score": 7
+    }
+  ],
+  "recommended_outcome": {
+    "primary_driver": "MKT_008",
+    "primary_driver_name": "Semiconductor / Electronics Cycle",
+    "attribution_bucket": "market_effect",
+    "confidence": "high",
+    "total_score": 56,
+    "second_score": 10,
+    "score_gap": 46
+  }
+}

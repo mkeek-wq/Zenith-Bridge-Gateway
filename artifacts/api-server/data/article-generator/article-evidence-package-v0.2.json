@@ -1,0 +1,82 @@
+{
+  "package_version": "article-evidence-package-v0.2",
+  "generated_at": "2026-06-11T01:36:36.322Z",
+  "input_seed": "smurf-article-seed-from-opportunity-v0.1",
+  "seed_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+  "scope": {
+    "country_anchor": "Singapore",
+    "macro_role": "supporting_context_only",
+    "smurf_integration": "seed_adapter_v0.1"
+  },
+  "article_candidate": {
+    "title": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles",
+    "status": "draft_ready_pending_verified_figures"
+  },
+  "evidence_summary": {
+    "total_items": 3,
+    "high": 0,
+    "moderate": 3,
+    "developing": 0,
+    "low": 0,
+    "graph_ready": 0
+  },
+  "evidence": [
+    {
+      "request_id": "REQ_001",
+      "claim": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles can be supported by Singapore-specific evidence.",
+      "country": "Singapore",
+      "domain": "article_context",
+      "source_name": "Singapore Department of Statistics",
+      "source_type": "other",
+      "metric": "Evidence claim",
+      "value": "pending verified figure",
+      "period": "latest available",
+      "source_confidence": 0.5,
+      "freshness_confidence": 0.72,
+      "evidence_strength": 0.78,
+      "mechanism_confidence": 0.72,
+      "graph_ready": false,
+      "recommended_use": "article_only",
+      "notes": "High-priority evidence request from SMURF article seed. Requires verified figure before quantitative graphing.",
+      "article_readiness": "moderate"
+    },
+    {
+      "request_id": "REQ_002",
+      "claim": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles may require sector or agency evidence.",
+      "country": "Singapore",
+      "domain": "article_context",
+      "source_name": "Relevant Singapore official agency",
+      "source_type": "other",
+      "metric": "Evidence claim",
+      "value": "pending verified figure",
+      "period": "latest available",
+      "source_confidence": 0.5,
+      "freshness_confidence": 0.72,
+      "evidence_strength": 0.78,
+      "mechanism_confidence": 0.72,
+      "graph_ready": false,
+      "recommended_use": "article_only",
+      "notes": "High-priority evidence request from SMURF article seed. Requires verified figure before quantitative graphing.",
+      "article_readiness": "moderate"
+    },
+    {
+      "request_id": "REQ_003",
+      "claim": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles may benefit from light macro comparison.",
+      "country": "Singapore",
+      "domain": "macro_context",
+      "source_name": "World Bank / IEA / WTO / IMF where relevant",
+      "source_type": "multilateral",
+      "metric": "Evidence claim",
+      "value": "pending verified figure",
+      "period": "latest available",
+      "source_confidence": 0.9,
+      "freshness_confidence": 0.65,
+      "evidence_strength": 0.65,
+      "mechanism_confidence": 0.72,
+      "graph_ready": false,
+      "recommended_use": "article_only",
+      "notes": "Supporting context request from SMURF article seed.",
+      "article_readiness": "moderate"
+    }
+  ]
+}

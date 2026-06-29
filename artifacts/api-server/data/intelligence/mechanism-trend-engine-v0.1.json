@@ -1,0 +1,105 @@
+{
+  "registry_version": "mechanism-trend-engine-v0.1",
+  "created_at": "2026-06-08T08:46:39.835Z",
+  "doctrine": {
+    "trend_is_change_tracking_not_validation": true,
+    "mechanisms_remain_challengeable": true,
+    "evidence_remains_primary": true
+  },
+  "inputs": {
+    "timeline_items": 1,
+    "mechanisms_detected": 3
+  },
+  "summary": {
+    "mechanism_trends_created": 3,
+    "strengthening": 0,
+    "weakening": 0,
+    "stable": 3
+  },
+  "mechanism_trends": [
+    {
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "observations": 1,
+      "first_observation_at": "2026-06-08T08:34:16.202Z",
+      "latest_observation_at": "2026-06-08T08:34:16.202Z",
+      "latest_confidence_score": 0.455,
+      "confidence_delta_since_first": 0,
+      "latest_replay_support_score": 0.288,
+      "latest_promotion_score": 0.45,
+      "promotion_delta_since_first": 0,
+      "latest_promotion_status": "do_not_promote",
+      "latest_lifecycle_status": "candidate_not_validated",
+      "trend_status": "stable",
+      "observations_detail": [
+        {
+          "snapshot_id": "CASE_SNAPSHOT_2026-06-08T08-34-16-202Z",
+          "created_at": "2026-06-08T08:34:16.202Z",
+          "mechanism_id": "MKT_006",
+          "mechanism_name": "Policy / Regulatory Impact",
+          "confidence_score": 0.455,
+          "replay_support_score": 0.288,
+          "promotion_score": 0.45,
+          "promotion_status": "do_not_promote",
+          "lifecycle_status": "candidate_not_validated"
+        }
+      ]
+    },
+    {
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "observations": 1,
+      "first_observation_at": "2026-06-08T08:34:16.202Z",
+      "latest_observation_at": "2026-06-08T08:34:16.202Z",
+      "latest_confidence_score": 0.536,
+      "confidence_delta_since_first": 0,
+      "latest_replay_support_score": 0.349,
+      "latest_promotion_score": 0.56,
+      "promotion_delta_since_first": 0,
+      "latest_promotion_status": "watch_for_promotion",
+      "latest_lifecycle_status": "candidate_not_validated",
+      "trend_status": "stable",
+      "observations_detail": [
+        {
+          "snapshot_id": "CASE_SNAPSHOT_2026-06-08T08-34-16-202Z",
+          "created_at": "2026-06-08T08:34:16.202Z",
+          "mechanism_id": "MKT_010",
+          "mechanism_name": "Demand Shock / External Downturn",
+          "confidence_score": 0.536,
+          "replay_support_score": 0.349,
+          "promotion_score": 0.56,
+          "promotion_status": "watch_for_promotion",
+          "lifecycle_status": "candidate_not_validated"
+        }
+      ]
+    },
+    {
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "observations": 1,
+      "first_observation_at": "2026-06-08T08:34:16.202Z",
+      "latest_observation_at": "2026-06-08T08:34:16.202Z",
+      "latest_confidence_score": 0.414,
+      "confidence_delta_since_first": 0,
+      "latest_replay_support_score": 0.383,
+      "latest_promotion_score": 0.433,
+      "promotion_delta_since_first": 0,
+      "latest_promotion_status": "do_not_promote",
+      "latest_lifecycle_status": "candidate_not_validated",
+      "trend_status": "stable",
+      "observations_detail": [
+        {
+          "snapshot_id": "CASE_SNAPSHOT_2026-06-08T08-34-16-202Z",
+          "created_at": "2026-06-08T08:34:16.202Z",
+          "mechanism_id": "MKT_002",
+          "mechanism_name": "Inventory Cycle / Restocking",
+          "confidence_score": 0.414,
+          "replay_support_score": 0.383,
+          "promotion_score": 0.433,
+          "promotion_status": "do_not_promote",
+          "lifecycle_status": "candidate_not_validated"
+        }
+      ]
+    }
+  ]
+}

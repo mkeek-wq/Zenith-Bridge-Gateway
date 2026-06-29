@@ -1,0 +1,31 @@
+{
+  "engine_version": "learning-confidence-engine-v0.1",
+  "generated_at": "2026-06-10T04:06:42.100Z",
+  "source_accumulator": "data/intelligence/replay-experience-accumulator-v0.1.json",
+  "mechanisms_assessed": 1,
+  "experimental": 0,
+  "emerging": 0,
+  "strong": 1,
+  "mature": 0,
+  "confidence": [
+    {
+      "mechanism_id": "MKT_010",
+      "experience_count": 1,
+      "strong_alignment": 1,
+      "moderate_alignment": 0,
+      "weak_alignment": 0,
+      "contradictory": 0,
+      "positive_alignment_ratio": 1,
+      "strong_alignment_ratio": 1,
+      "learning_confidence_score": 0.64,
+      "learning_confidence_band": "strong",
+      "confidence_components": {
+        "experience_score": 0.07,
+        "alignment_score": 0.4,
+        "strong_score": 0.15,
+        "diversity_score": 0.02
+      },
+      "governance_note": "Learning confidence summarizes replay-supported experience. It does not validate a mechanism."
+    }
+  ]
+}
