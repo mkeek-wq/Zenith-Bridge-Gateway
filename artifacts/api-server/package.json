@@ -13,7 +13,10 @@
     "replay:case-completeness": "tsx src/scripts/case-completeness-engine-v0.1.ts",
     "replay:proposals": "tsx src/scripts/replay-improvement-proposal-engine-v0.1.ts",
     "replay:proposal-registry": "tsx src/scripts/replay-proposal-registry-v0.1.ts",
-    "replay:proposal-cycle": "pnpm replay:case-completeness && pnpm replay:proposals && pnpm replay:proposal-registry"
+    "replay:proposal-cycle": "pnpm replay:case-completeness && pnpm replay:proposals && pnpm replay:proposal-registry",
+    "replay:proposal-dashboard": "tsx src/scripts/build-replay-proposal-dashboard-v0.1.ts",
+    "replay:approve": "tsx src/scripts/approve-replay-proposal-v0.1.ts",
+    "replay:shadow": "tsx src/scripts/build-replay-shadow-execution-v0.1.ts"
   },
   "dependencies": {
     "@tiptap/react": "^3.22.5",

@@ -1,0 +1,129 @@
+{
+  "dashboard_version": "replay-proposal-dashboard-v0.1",
+  "generated_at": "2026-06-29T01:53:10.937Z",
+  "source_registry": "data/replay/replay-proposal-registry-v0.1.json",
+  "proposal_count": 25,
+  "priority_summary": {
+    "high": 25,
+    "medium": 0,
+    "low": 0
+  },
+  "approval_summary": {
+    "awaiting_papa_approval": 24,
+    "approved": 1,
+    "rejected": 0
+  },
+  "implementation_summary": {
+    "not_started": 25,
+    "shadow_ready": 1
+  },
+  "audit_summary": {
+    "not_audited": 25
+  },
+  "production_summary": {
+    "not_promoted": 25
+  },
+  "doctrine": "Dashboard is read-only. Approval, shadow execution, audit, and production promotion remain separate governed steps.",
+  "top_proposals": [
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-MFG-RECOVERY-2021",
+      "type": "case_enrichment",
+      "priority": "high",
+      "title": "Singapore manufacturing recovery 2021",
+      "target_case_id": "HIST-SG-MFG-RECOVERY-2021",
+      "approval_status": "approved",
+      "implementation_status": "not_started",
+      "recommended_action": "Enrich case HIST-SG-MFG-RECOVERY-2021 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes."
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-NODX-RECOVERY-2021",
+      "type": "case_enrichment",
+      "priority": "high",
+      "title": "Singapore NODX recovery 2021",
+      "target_case_id": "HIST-SG-NODX-RECOVERY-2021",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "recommended_action": "Enrich case HIST-SG-NODX-RECOVERY-2021 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes."
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-GLOBAL-COVID-LOGISTICS-2020",
+      "type": "case_enrichment",
+      "priority": "high",
+      "title": "COVID logistics shock 2020",
+      "target_case_id": "HIST-GLOBAL-COVID-LOGISTICS-2020",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "recommended_action": "Enrich case HIST-GLOBAL-COVID-LOGISTICS-2020 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes."
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-CHINA-SLOWDOWN-2015",
+      "type": "case_enrichment",
+      "priority": "high",
+      "title": "China slowdown 2015",
+      "target_case_id": "HIST-CHINA-SLOWDOWN-2015",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "recommended_action": "Enrich case HIST-CHINA-SLOWDOWN-2015 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes."
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-GLOBAL-ENERGY-CRISIS-2022",
+      "type": "case_enrichment",
+      "priority": "high",
+      "title": "2022 energy crisis",
+      "target_case_id": "HIST-GLOBAL-ENERGY-CRISIS-2022",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "recommended_action": "Enrich case HIST-GLOBAL-ENERGY-CRISIS-2022 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes."
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-SARS-2003",
+      "type": "case_enrichment",
+      "priority": "high",
+      "title": "Singapore SARS shock",
+      "target_case_id": "HIST-SG-SARS-2003",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "recommended_action": "Enrich case HIST-SG-SARS-2003 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes."
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-TOURISM-COVID-2020",
+      "type": "case_enrichment",
+      "priority": "high",
+      "title": "Singapore tourism collapse during COVID",
+      "target_case_id": "HIST-SG-TOURISM-COVID-2020",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "recommended_action": "Enrich case HIST-SG-TOURISM-COVID-2020 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes."
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-ASIAN-FINANCIAL-CRISIS-1997",
+      "type": "case_enrichment",
+      "priority": "high",
+      "title": "Asian Financial Crisis",
+      "target_case_id": "HIST-ASIAN-FINANCIAL-CRISIS-1997",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "recommended_action": "Enrich case HIST-ASIAN-FINANCIAL-CRISIS-1997 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes."
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-GFC-2008",
+      "type": "case_enrichment",
+      "priority": "high",
+      "title": "Global Financial Crisis",
+      "target_case_id": "HIST-GFC-2008",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "recommended_action": "Enrich case HIST-GFC-2008 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes."
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-ELECTRONICS-DOWNTURN-2023",
+      "type": "case_enrichment",
+      "priority": "high",
+      "title": "Singapore electronics export downturn",
+      "target_case_id": "HIST-SG-ELECTRONICS-DOWNTURN-2023",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "recommended_action": "Enrich case HIST-SG-ELECTRONICS-DOWNTURN-2023 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes."
+    }
+  ]
+}
