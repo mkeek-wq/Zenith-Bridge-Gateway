@@ -1,7 +1,7 @@
 import { PublicLayout } from "@/components/layout/PublicLayout";
 import { useEffect, useState } from "react";
 import { useParams, Link } from "wouter";
-import { apiFetch } from "@/api/client";
+import { customFetch } from "../../../../../lib/api-client-react/src/custom-fetch";
 import { format } from "date-fns";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -91,11 +91,11 @@ export default function EditorialDetail() {
     setError(null);
     setRelatedArticles([]);
 
-    apiFetch(`/api/v1/articles/${id}`)
+    customFetch(`/api/v1/articles/${id}`)
       .then((res: Article) => {
         setArticle(res);
 
-        return apiFetch("/api/v1/articles/public?limit=12")
+        return customFetch("/api/v1/articles/public?limit=12")
           .then((relatedRes: ArticlesResponse) => {
             const filtered = (relatedRes.articles ?? [])
               .filter((item) => {
@@ -114,7 +114,7 @@ export default function EditorialDetail() {
             setRelatedArticles([]);
           });
       })
-      .catch((err) => {
+      .catch((err: unknown) => {
         console.error(err);
         setError("Failed to load article");
       })
