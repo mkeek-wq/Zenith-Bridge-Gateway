@@ -16,3 +16,14 @@ Future target command:
 
 ```bash
 pnpm replay:full-cycle
+
+## Similarity Blocker Finding
+
+The similarity and analogue layer is implemented but not yet ready for inclusion in the safe full-cycle orchestrator.
+
+### Step 11 - Similarity Engine v0.2
+
+Script:
+
+```text
+artifacts/api-server/src/scripts/run-replay-similarity-engine-v0.2.ts
