@@ -6,7 +6,7 @@ console.log("=================================");
 console.log("Replay Full Cycle v0.1");
 console.log("=================================");
 console.log("");
-console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-20");
+console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-22");
 console.log("");
 
 const commands = [
@@ -109,6 +109,16 @@ const commands = [
     step: "Step 20 - Improvement proposal engine",
     command:
       "cd artifacts/api-server && pnpm tsx src/scripts/replay-improvement-proposal-engine-v0.1.ts",
+  },
+  {
+    step: "Step 21 - Proposal registry",
+    command:
+      "cd artifacts/api-server && pnpm tsx src/scripts/replay-proposal-registry-v0.1.ts",
+  },
+  {
+    step: "Step 22 - Proposal dashboard",
+    command:
+      "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-proposal-dashboard-v0.1.ts",
   },
 ];
 
