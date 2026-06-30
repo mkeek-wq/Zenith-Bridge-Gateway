@@ -6,7 +6,7 @@ console.log("=================================");
 console.log("Replay Full Cycle v0.1");
 console.log("=================================");
 console.log("");
-console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-12");
+console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-13");
 console.log("");
 
 const commands = [
@@ -69,6 +69,11 @@ const commands = [
     step: "Step 12 - Analogue summary",
     command:
       "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-analogue-summary-v0.1.ts",
+  },
+  {
+    step: "Step 13 - Explanation summary",
+    command:
+      "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-explanation-summary-v0.1.ts",
   },
 ];
 

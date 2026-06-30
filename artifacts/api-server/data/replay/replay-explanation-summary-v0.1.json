@@ -1,63 +1,8 @@
 {
   "version": "replay-explanation-summary-v0.1",
-  "generated_at": "2026-06-28T09:02:13.284Z",
-  "source_similarity_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/replay/similarity/replay-similarity-results-2026-06-28T09-02-10-863Z.json",
-  "replay_record_count": 3,
+  "generated_at": "2026-06-30T04:40:40.615Z",
+  "source_similarity_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/replay/similarity/replay-similarity-results-2026-06-30T04-40-37-830Z.json",
+  "replay_record_count": 0,
   "taxonomy_aware": true,
-  "explanations": [
-    {
-      "replay_record_id": "REPLAY_REC_00001",
-      "source_record_id": "RPLAY_SG_MFG_2020_001",
-      "metric_name": "MANUFACTURING_OUTPUT_CHANGE_YOY",
-      "period": "2020-Q2",
-      "top_analogue": {
-        "case_id": "HIST-SG-MFG-RECOVERY-2021",
-        "title": "Singapore manufacturing recovery 2021",
-        "similarity_score": 0.75,
-        "mechanism_similarity": 1,
-        "confidence_band": "strong",
-        "explanation": [
-          "Exact mechanism match detected.",
-          "High overall similarity score.",
-          "Matched mechanisms: MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY."
-        ]
-      }
-    },
-    {
-      "replay_record_id": "REPLAY_REC_00002",
-      "source_record_id": "RPLAY_SG_MFG_2021_001",
-      "metric_name": "MANUFACTURING_OUTPUT_CHANGE_YOY",
-      "period": "2021-Q1",
-      "top_analogue": {
-        "case_id": "HIST-SG-MFG-RECOVERY-2021",
-        "title": "Singapore manufacturing recovery 2021",
-        "similarity_score": 0.8,
-        "mechanism_similarity": 1,
-        "confidence_band": "strong",
-        "explanation": [
-          "Exact mechanism match detected.",
-          "High overall similarity score.",
-          "Matched mechanisms: MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY."
-        ]
-      }
-    },
-    {
-      "replay_record_id": "REPLAY_REC_00003",
-      "source_record_id": "RPLAY_SG_NODX_2021_001",
-      "metric_name": "NODX_CHANGE_YOY",
-      "period": "2021-Q1",
-      "top_analogue": {
-        "case_id": "HIST-SG-NODX-RECOVERY-2021",
-        "title": "Singapore NODX recovery 2021",
-        "similarity_score": 0.7,
-        "mechanism_similarity": 1,
-        "confidence_band": "moderate",
-        "explanation": [
-          "Exact mechanism match detected.",
-          "Moderate overall similarity score.",
-          "Matched mechanisms: MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY."
-        ]
-      }
-    }
-  ]
+  "explanations": []
 }
