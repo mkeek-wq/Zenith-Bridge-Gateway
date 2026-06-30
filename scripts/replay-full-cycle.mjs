@@ -6,7 +6,7 @@ console.log("=================================");
 console.log("Replay Full Cycle v0.1");
 console.log("=================================");
 console.log("");
-console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-9");
+console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-10");
 console.log("");
 
 const commands = [
@@ -54,6 +54,11 @@ const commands = [
     step: "Step 9 - Case depth audit",
     command:
       "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-case-depth-audit-v0.1.ts",
+  },
+  {
+    step: "Step 10 - Quality summary",
+    command:
+      "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-quality-summary-v0.1.ts",
   },
 ];
 
