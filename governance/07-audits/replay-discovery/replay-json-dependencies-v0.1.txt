@@ -1,0 +1,83 @@
+artifacts/api-server/src/scripts/run-replay-similarity-engine-v0.1.ts:39:  "data/replay/cases/replay-historical-case-registry-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-improvement-history-v0.1.ts:13:  "data/replay/replay-quality-summary-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-improvement-history-v0.1.ts:17:  "data/replay/replay-confidence-engine-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-improvement-history-v0.1.ts:22:  "data/replay/history/replay-improvement-history-v0.1.json"
+artifacts/api-server/src/scripts/case-completeness-engine-v0.1.ts:8:  "data/replay/cases/replay-historical-case-registry-v0.1.json"
+artifacts/api-server/src/scripts/case-completeness-engine-v0.1.ts:13:  "data/replay/case-completeness-report-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-mechanism-coverage-v0.1.ts:13:  "data/replay/cases/replay-historical-case-registry-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-depth-enrichment-queue-v0.1.ts:10:const audit = readJson("data/replay/depth/replay-case-depth-audit-v0.1.json");
+artifacts/api-server/src/scripts/build-replay-depth-enrichment-queue-v0.1.ts:11:const brainy = readJson("data/replay/replay-brainy-diagnosis-v0.1.json");
+artifacts/api-server/src/scripts/build-replay-depth-enrichment-queue-v0.1.ts:47:const outputPath = path.join(apiRoot, "data/replay/depth/replay-depth-enrichment-queue-v0.1.json");
+artifacts/api-server/src/scripts/promote-replay-proposal-v0.1.ts:8:  "data/replay/replay-proposal-registry-v0.1.json"
+artifacts/api-server/src/scripts/promote-replay-proposal-v0.1.ts:13:  "data/replay/replay-audit-report-v0.1.json"
+artifacts/api-server/src/scripts/promote-replay-proposal-v0.1.ts:18:  "data/replay/replay-production-promotion-report-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-audit-engine-v0.1.ts:8:  "data/replay/replay-shadow-execution-report-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-audit-engine-v0.1.ts:13:  "data/replay/replay-audit-report-v0.1.json"
+artifacts/api-server/src/scripts/merge-replay-historical-cases-v0.1.ts:7:  "data/replay/cases/replay-historical-case-registry-v0.1.json";
+artifacts/api-server/src/scripts/build-replay-quality-summary-v0.1.ts:8:  "data/replay/cases/replay-historical-case-registry-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-quality-summary-v0.1.ts:13:  "data/replay/coverage/replay-mechanism-coverage-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-quality-summary-v0.1.ts:36:  "data/replay/replay-quality-summary-v0.1.json"
+artifacts/api-server/src/scripts/approve-replay-proposal-v0.1.ts:8:  "data/replay/replay-proposal-registry-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-forecast-envelope-v0.1.ts:10:const dashboard = readJson("data/replay/papa-replay-dashboard-package-v0.1.json");
+artifacts/api-server/src/scripts/build-replay-forecast-envelope-v0.1.ts:58:  source_dashboard_package: "data/replay/papa-replay-dashboard-package-v0.1.json",
+artifacts/api-server/src/scripts/build-replay-forecast-envelope-v0.1.ts:68:const outputPath = path.join(apiRoot, "data/replay/replay-forecast-envelope-v0.1.json");
+artifacts/api-server/src/scripts/build-replay-confidence-engine-v0.1.ts:10:const quality = readJson("data/replay/replay-quality-summary-v0.1.json");
+artifacts/api-server/src/scripts/build-replay-confidence-engine-v0.1.ts:11:const dashboard = readJson("data/replay/papa-replay-dashboard-package-v0.1.json");
+artifacts/api-server/src/scripts/build-replay-confidence-engine-v0.1.ts:12:const envelope = readJson("data/replay/replay-forecast-envelope-v0.1.json");
+artifacts/api-server/src/scripts/build-replay-confidence-engine-v0.1.ts:57:const outputPath = path.join(apiRoot, "data/replay/replay-confidence-engine-v0.1.json");
+artifacts/api-server/src/scripts/build-replay-analogue-summary-v0.1.ts:48:  "data/replay/replay-analogue-summary-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-mechanism-taxonomy-coverage-v0.1.ts:8:  "data/replay/cases/replay-historical-case-registry-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-mechanism-taxonomy-coverage-v0.1.ts:13:  "data/replay/taxonomy/replay-mechanism-taxonomy-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-governance-history-v0.1.ts:8:  "data/replay/replay-proposal-registry-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-governance-history-v0.1.ts:13:  "data/replay/replay-proposal-dashboard-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-governance-history-v0.1.ts:18:  "data/replay/replay-shadow-execution-report-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-governance-history-v0.1.ts:23:  "data/replay/replay-audit-report-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-governance-history-v0.1.ts:28:  "data/replay/replay-production-promotion-report-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-governance-history-v0.1.ts:33:  "data/replay/replay-governance-history-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-governance-history-v0.1.ts:123:    registry: "data/replay/replay-proposal-registry-v0.1.json",
+artifacts/api-server/src/scripts/build-replay-governance-history-v0.1.ts:125:      ? "data/replay/replay-proposal-dashboard-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-governance-history-v0.1.ts:128:      ? "data/replay/replay-shadow-execution-report-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-governance-history-v0.1.ts:131:      ? "data/replay/replay-audit-report-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-governance-history-v0.1.ts:134:      ? "data/replay/replay-production-promotion-report-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-historian-snapshot-v0.1.ts:10:const quality = readJson("data/replay/replay-quality-summary-v0.1.json");
+artifacts/api-server/src/scripts/build-replay-historian-snapshot-v0.1.ts:11:const confidence = readJson("data/replay/replay-confidence-engine-v0.1.json");
+artifacts/api-server/src/scripts/build-replay-historian-snapshot-v0.1.ts:12:const envelope = readJson("data/replay/replay-forecast-envelope-v0.1.json");
+artifacts/api-server/src/scripts/build-replay-historian-snapshot-v0.1.ts:28:const outputPath = path.join(apiRoot, "data/replay/replay-historian-snapshot-v0.1.json");
+artifacts/api-server/src/scripts/build-replay-case-depth-audit-v0.1.ts:10:const registry = readJson("data/replay/cases/replay-historical-case-registry-v0.1.json");
+artifacts/api-server/src/scripts/build-replay-case-depth-audit-v0.1.ts:11:const schema = readJson("data/replay/depth/replay-depth-schema-v0.1.json");
+artifacts/api-server/src/scripts/build-replay-case-depth-audit-v0.1.ts:61:const outputPath = path.join(apiRoot, "data/replay/depth/replay-case-depth-audit-v0.1.json");
+artifacts/api-server/src/scripts/build-replay-brainy-diagnosis-v0.1.ts:13:  "data/replay/replay-confidence-engine-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-brainy-diagnosis-v0.1.ts:17:  "data/replay/replay-mechanism-gap-report-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-brainy-diagnosis-v0.1.ts:53:  "data/replay/replay-brainy-diagnosis-v0.1.json"
+artifacts/api-server/src/scripts/reject-replay-proposal-v0.1.ts:8:  "data/replay/replay-proposal-registry-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-confidence-history-v0.1.ts:8:  "data/replay/replay-confidence-engine-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-confidence-history-v0.1.ts:13:  "data/replay/replay-confidence-history-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-audit-summary-v0.1.ts:8:  "data/replay/audit/replay-case-audit-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-audit-summary-v0.1.ts:45:  "data/replay/audit/replay-audit-summary-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-proposal-dashboard-v0.1.ts:8:  "data/replay/replay-proposal-registry-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-proposal-dashboard-v0.1.ts:13:  "data/replay/replay-proposal-dashboard-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-proposal-dashboard-v0.1.ts:56:  source_registry: "data/replay/replay-proposal-registry-v0.1.json",
+artifacts/api-server/src/scripts/replay-improvement-proposal-engine-v0.1.ts:8:  "data/replay/case-completeness-report-v0.1.json"
+artifacts/api-server/src/scripts/replay-improvement-proposal-engine-v0.1.ts:13:  "data/replay/replay-improvement-proposals-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-mechanism-gap-report-v0.1.ts:8:  "data/replay/coverage/replay-mechanism-coverage-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-mechanism-gap-report-v0.1.ts:60:  "data/replay/replay-mechanism-gap-report-v0.1.json"
+artifacts/api-server/src/scripts/build-papa-replay-dashboard-package-v0.1.ts:10:const quality = readJson("data/replay/replay-quality-summary-v0.1.json");
+artifacts/api-server/src/scripts/build-papa-replay-dashboard-package-v0.1.ts:11:const analogue = readJson("data/replay/replay-analogue-summary-v0.1.json");
+artifacts/api-server/src/scripts/build-papa-replay-dashboard-package-v0.1.ts:12:const explanation = readJson("data/replay/replay-explanation-summary-v0.1.json");
+artifacts/api-server/src/scripts/build-papa-replay-dashboard-package-v0.1.ts:31:  "data/replay/papa-replay-dashboard-package-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-explanation-summary-v0.1.ts:86:  "data/replay/replay-explanation-summary-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-case-audit-v0.1.ts:10:const registry = readJson("data/replay/cases/replay-historical-case-registry-v0.1.json");
+artifacts/api-server/src/scripts/build-replay-case-audit-v0.1.ts:11:const schema = readJson("data/replay/depth/replay-depth-schema-v0.1.json");
+artifacts/api-server/src/scripts/build-replay-case-audit-v0.1.ts:12:const taxonomy = readJson("data/replay/taxonomy/replay-mechanism-taxonomy-v0.1.json");
+artifacts/api-server/src/scripts/build-replay-case-audit-v0.1.ts:138:const outputPath = path.join(apiRoot, "data/replay/audit/replay-case-audit-v0.1.json");
+artifacts/api-server/src/scripts/run-replay-similarity-engine-v0.2.ts:39:  "data/replay/cases/replay-historical-case-registry-v0.1.json"
+artifacts/api-server/src/scripts/run-replay-similarity-engine-v0.2.ts:44:  "data/replay/taxonomy/replay-mechanism-taxonomy-v0.1.json"
+artifacts/api-server/src/scripts/replay-proposal-registry-v0.1.ts:8:  "data/replay/replay-improvement-proposals-v0.1.json"
+artifacts/api-server/src/scripts/replay-proposal-registry-v0.1.ts:13:  "data/replay/replay-proposal-registry-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-case-acquisition-queue-v0.1.ts:8:  "data/replay/replay-mechanism-gap-report-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-case-acquisition-queue-v0.1.ts:13:  "data/replay/replay-case-acquisition-queue-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-improvement-report-v0.1.ts:8:  "data/replay/history/replay-improvement-history-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-improvement-report-v0.1.ts:47:  "data/replay/replay-improvement-report-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-shadow-execution-v0.1.ts:8:  "data/replay/replay-proposal-registry-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-shadow-execution-v0.1.ts:13:  "data/replay/replay-shadow-execution-report-v0.1.json"
+artifacts/api-server/src/scripts/build-replay-shadow-execution-v0.1.ts:52:  source_registry: "data/replay/replay-proposal-registry-v0.1.json",
