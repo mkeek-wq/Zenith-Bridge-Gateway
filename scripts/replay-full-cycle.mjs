@@ -6,7 +6,7 @@ console.log("=================================");
 console.log("Replay Full Cycle v0.1");
 console.log("=================================");
 console.log("");
-console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-22");
+console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-23");
 console.log("");
 
 const commands = [
@@ -119,6 +119,11 @@ const commands = [
     step: "Step 22 - Proposal dashboard",
     command:
       "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-proposal-dashboard-v0.1.ts",
+  },
+  {
+    step: "Step 23 - Shadow execution",
+    command:
+      "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-shadow-execution-v0.1.ts",
   },
 ];
 

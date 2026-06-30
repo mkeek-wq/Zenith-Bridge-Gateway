@@ -1,29 +1,9 @@
 {
   "report_version": "replay-shadow-execution-report-v0.1",
-  "generated_at": "2026-06-29T01:54:18.941Z",
+  "generated_at": "2026-06-30T13:47:41.962Z",
   "doctrine": "Shadow execution is dry-run only. No production data is modified. Audit is required before promotion.",
   "source_registry": "data/replay/replay-proposal-registry-v0.1.json",
-  "shadow_ready_count": 1,
-  "shadow_run_count": 1,
-  "shadow_runs": [
-    {
-      "shadow_run_id": "REPLAY_SHADOW_001",
-      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-MFG-RECOVERY-2021",
-      "proposal_type": "case_enrichment",
-      "target_case_id": "HIST-SG-MFG-RECOVERY-2021",
-      "priority": "high",
-      "status": "shadow_completed",
-      "mode": "dry_run_only",
-      "production_write": false,
-      "recommended_action": "Enrich case HIST-SG-MFG-RECOVERY-2021 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes.",
-      "simulated_actions": [
-        "Would execute proposal REPLAY_PROP_CASE_HIST-SG-MFG-RECOVERY-2021 in shadow mode.",
-        "Would enrich case HIST-SG-MFG-RECOVERY-2021.",
-        "Would produce audit evidence before any production promotion."
-      ],
-      "go_no_go_recommendation": "go_for_audit",
-      "audit_required": true,
-      "production_promotion_allowed": false
-    }
-  ]
+  "shadow_ready_count": 0,
+  "shadow_run_count": 0,
+  "shadow_runs": []
 }
