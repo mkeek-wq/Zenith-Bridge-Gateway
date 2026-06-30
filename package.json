@@ -16,7 +16,8 @@
     "validate:api": "pnpm run typecheck",
     "dev": "concurrently \"pnpm --filter zenith-api-server dev\" \"pnpm --filter @workspace/znbw-website dev\"",
     "dev:api": "pnpm --filter zenith-api-server dev",
-    "dev:web": "pnpm --filter @workspace/znbw-website dev"
+    "dev:web": "pnpm --filter @workspace/znbw-website dev",
+    "replay:full-cycle": "node scripts/replay-full-cycle.mjs"
   },
   "pnpm": {
     "overrides": {
