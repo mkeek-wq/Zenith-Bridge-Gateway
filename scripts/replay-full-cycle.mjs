@@ -6,7 +6,7 @@ console.log("=================================");
 console.log("Replay Full Cycle v0.1");
 console.log("=================================");
 console.log("");
-console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-4");
+console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-5");
 console.log("");
 
 const commands = [
@@ -29,6 +29,11 @@ const commands = [
     step: "Step 4 - Mechanism gap report",
     command:
       "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-mechanism-gap-report-v0.1.ts",
+  },
+  {
+    step: "Step 5 - Case acquisition queue",
+    command:
+      "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-case-acquisition-queue-v0.1.ts",
   },
 ];
 
