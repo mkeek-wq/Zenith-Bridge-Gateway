@@ -1,8 +1,8 @@
 {
   "version": "replay-depth-enrichment-queue-v0.1",
-  "generated_at": "2026-06-28T13:55:48.612Z",
-  "brainy_mode": "depth",
-  "brainy_recommendation": "Deepen existing historical cases.",
+  "generated_at": "2026-06-30T09:16:19.513Z",
+  "brainy_mode": "breadth",
+  "brainy_recommendation": "Acquire additional historical cases.",
   "queue_count": 25,
   "queue": [
     {
