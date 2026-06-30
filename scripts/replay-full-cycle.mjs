@@ -6,7 +6,7 @@ console.log("=================================");
 console.log("Replay Full Cycle v0.1");
 console.log("=================================");
 console.log("");
-console.log("Mode: STEP 1 EXECUTION ONLY");
+console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-2");
 console.log("");
 
 const commands = [
@@ -14,6 +14,11 @@ const commands = [
     step: "Step 1 - Historical case registry",
     command:
       "cd artifacts/api-server && pnpm tsx src/scripts/merge-replay-historical-cases-v0.1.ts",
+  },
+  {
+    step: "Step 2 - Mechanism coverage",
+    command:
+      "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-mechanism-coverage-v0.1.ts",
   },
 ];
 
