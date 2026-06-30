@@ -6,7 +6,7 @@ console.log("=================================");
 console.log("Replay Full Cycle v0.1");
 console.log("=================================");
 console.log("");
-console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-14");
+console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-15");
 console.log("");
 
 const commands = [
@@ -79,6 +79,11 @@ const commands = [
     step: "Step 14 - Papa replay dashboard package",
     command:
       "cd artifacts/api-server && pnpm tsx src/scripts/build-papa-replay-dashboard-package-v0.1.ts",
+  },
+  {
+    step: "Step 15 - Forecast envelope",
+    command:
+      "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-forecast-envelope-v0.1.ts",
   },
 ];
 
