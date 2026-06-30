@@ -1,8 +1,8 @@
 {
   "version": "replay-brainy-diagnosis-v0.1",
-  "generated_at": "2026-06-28T13:20:53.292Z",
-  "mode": "depth",
-  "confidence_score": 0.888,
+  "generated_at": "2026-06-30T09:06:01.165Z",
+  "mode": "breadth",
+  "confidence_score": 0.55,
   "gap_count": 38,
   "top_gap_mechanisms": [
     "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY",
@@ -16,5 +16,5 @@
     "INVENTORY_STRESS",
     "SECTOR_SPECIFIC_DEMAND_SURGE"
   ],
-  "recommendation": "Deepen existing historical cases."
+  "recommendation": "Acquire additional historical cases."
 }
