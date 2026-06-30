@@ -6,7 +6,7 @@ console.log("=================================");
 console.log("Replay Full Cycle v0.1");
 console.log("=================================");
 console.log("");
-console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-18");
+console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-19");
 console.log("");
 
 const commands = [
@@ -99,6 +99,11 @@ const commands = [
     step: "Step 18 - Brainy diagnosis",
     command:
       "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-brainy-diagnosis-v0.1.ts",
+  },
+  {
+    step: "Step 19 - Depth enrichment queue",
+    command:
+      "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-depth-enrichment-queue-v0.1.ts",
   },
 ];
 
