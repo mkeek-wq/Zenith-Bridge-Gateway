@@ -1,17 +1,17 @@
 {
   "version": "replay-confidence-engine-v0.1",
-  "generated_at": "2026-06-28T09:04:09.641Z",
-  "confidence_score": 0.888,
-  "confidence_band": "strong",
+  "generated_at": "2026-06-30T05:00:19.910Z",
+  "confidence_score": 0.55,
+  "confidence_band": "moderate",
   "drivers": {
-    "average_analogue_score": 0.75,
+    "average_analogue_score": 0,
     "historical_case_count": 25,
     "case_depth_score": 1,
     "unique_mechanism_count": 38,
     "mechanism_depth_score": 1,
     "taxonomy_aware": true,
     "taxonomy_score": 1,
-    "envelope_count": 3
+    "envelope_count": 0
   },
   "interpretation": "Replay confidence is an internal quality indicator, not a prediction accuracy claim."
 }
