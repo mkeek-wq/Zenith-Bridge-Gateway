@@ -6,7 +6,7 @@ console.log("=================================");
 console.log("Replay Full Cycle v0.1");
 console.log("=================================");
 console.log("");
-console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-7");
+console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-8");
 console.log("");
 
 const commands = [
@@ -44,6 +44,11 @@ const commands = [
     step: "Step 7 - Case audit",
     command:
       "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-case-audit-v0.1.ts",
+  },
+  {
+    step: "Step 8 - Audit summary",
+    command:
+      "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-audit-summary-v0.1.ts",
   },
 ];
 
