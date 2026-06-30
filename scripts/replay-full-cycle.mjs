@@ -6,7 +6,7 @@ console.log("=================================");
 console.log("Replay Full Cycle v0.1");
 console.log("=================================");
 console.log("");
-console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-10");
+console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-12");
 console.log("");
 
 const commands = [
@@ -59,6 +59,16 @@ const commands = [
     step: "Step 10 - Quality summary",
     command:
       "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-quality-summary-v0.1.ts",
+  },
+  {
+    step: "Step 11 - Similarity engine",
+    command:
+      "cd artifacts/api-server && pnpm tsx src/scripts/run-replay-similarity-engine-v0.2.ts data/replay/inputs/canonical-replay-input-v0.1.json",
+  },
+  {
+    step: "Step 12 - Analogue summary",
+    command:
+      "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-analogue-summary-v0.1.ts",
   },
 ];
 
