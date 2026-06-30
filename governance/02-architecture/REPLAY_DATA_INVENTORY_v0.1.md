@@ -202,3 +202,20 @@ data/replay/replay-proposal-registry-v0.1.json
 ├─ build-replay-shadow-execution-v0.1.ts
 ├─ promote-replay-proposal-v0.1.ts
 └─ build-replay-governance-history-v0.1.ts
+
+## Self-Improvement Loop Finding
+
+The self-improvement architecture is partially implemented, but not yet fully unified.
+
+### Confirmed Proposal Governance Track
+
+```text
+replay-improvement-proposal-engine-v0.1.ts
+↓
+data/replay/replay-improvement-proposals-v0.1.json
+↓
+replay-proposal-registry-v0.1.ts
+↓
+data/replay/replay-proposal-registry-v0.1.json
+↓
+shadow execution / audit / promotion / governance history
