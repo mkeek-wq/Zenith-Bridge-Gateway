@@ -14,7 +14,7 @@ Replay framework has reached an important maturity milestone.
 - Forecast envelopes: Operational
 - Historian snapshot: Operational
 - Audit-Smurf: Operational
-- Brainy diagnosis: Operational
+- Brainy diagnosis: Observer / Improvement Layer, not operational runtime
 - Self-improvement reports: Operational
 
 ## Components Added

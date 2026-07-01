@@ -48,6 +48,18 @@ Emerging:
 
 ---
 
+## Brainy Operational Boundary
+
+Brainy is not an operational Smurf.
+
+Brainy may observe, diagnose, consult Glass-Orb-AI for suggestions, and propose improvements, but Brainy must not act as a runtime dependency for operational or client-facing outputs.
+
+The canonical boundary doctrine is documented in:
+
+- governance/02-architecture/BRAINY_OPERATIONAL_BOUNDARY_v1.md
+
+---
+
 # Major Registries
 
 * Case Registry
