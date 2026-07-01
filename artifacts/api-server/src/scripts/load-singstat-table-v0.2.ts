@@ -87,7 +87,7 @@ function extractValues(row: any) {
     : Object.entries(row);
 
   for (const [key, value] of entries) {
-    if (/^\d{4}$/.test(String(key))) {
+    if (/^\d{4}$/.test(String(key)) || /^\d{4}\s[A-Za-z]{3}$/.test(String(key))) {
       const raw = value as any;
 
       values.push({
