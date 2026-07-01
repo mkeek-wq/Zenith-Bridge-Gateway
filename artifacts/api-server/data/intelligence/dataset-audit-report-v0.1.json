@@ -1,14 +1,14 @@
 {
   "version": "dataset-audit-report-v0.1",
-  "generated_at": "2026-07-01T07:46:39.668Z",
+  "generated_at": "2026-07-01T07:53:53.081Z",
   "doctrine": "Dataset audit checks ingestion quality and abnormality flags. It does not certify that source-published data is objectively true.",
   "safety_mode": "GOVERNANCE_GATE",
   "production_write_allowed": false,
   "source_files": {
     "verified_dataset_registry": "data/intelligence/verified-dataset-registry-v0.1.json"
   },
-  "dataset_count": 2,
-  "pass_count": 2,
+  "dataset_count": 3,
+  "pass_count": 3,
   "questionable_count": 0,
   "fail_count": 0,
   "audits": [
@@ -36,6 +36,27 @@
     {
       "dataset_id": "sg_industrial_production_index_monthly",
       "name": "Singapore Industrial Production Index Monthly",
+      "data_source": "SingStat / EDB",
+      "content_source": "ECONOMIC DEVELOPMENT BOARD",
+      "verification_status": "loaded_pending_review",
+      "coverage_start": "2025 Aug",
+      "coverage_end": "2026 May",
+      "values_count": 10,
+      "numeric_value_count": 10,
+      "audit_status": "PASS",
+      "papa_gate": "eligible_for_papa_review",
+      "blockers": [],
+      "warnings": [],
+      "observations": [
+        "dataset_loaded_but_not_papa_reviewed"
+      ],
+      "large_jumps": [],
+      "znbw_truth_claim": "ZNBW does not certify source truth. ZNBW records source attribution and audits ingestion quality, structure, metadata, and abnormality flags.",
+      "production_write_allowed": false
+    },
+    {
+      "dataset_id": "sg_refined_petroleum_products_ipi_monthly",
+      "name": "Singapore Refined Petroleum Products Industrial Production Index Monthly",
       "data_source": "SingStat / EDB",
       "content_source": "ECONOMIC DEVELOPMENT BOARD",
       "verification_status": "loaded_pending_review",

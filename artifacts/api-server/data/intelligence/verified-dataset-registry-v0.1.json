@@ -1,7 +1,7 @@
 {
   "version": "verified-dataset-registry-v0.1",
-  "generated_at": "2026-07-01T07:46:38.352Z",
-  "dataset_count": 2,
+  "generated_at": "2026-07-01T07:53:51.923Z",
+  "dataset_count": 3,
   "datasets": [
     {
       "dataset_id": "sg_total_manufacturing_output_annual",
@@ -148,6 +148,79 @@
       "used_by_candidates": [],
       "created_at": "2026-07-01T07:33:32.117Z",
       "updated_at": "2026-07-01T07:46:38.351Z"
+    },
+    {
+      "dataset_id": "sg_refined_petroleum_products_ipi_monthly",
+      "name": "Singapore Refined Petroleum Products Industrial Production Index Monthly",
+      "country": "Singapore",
+      "metric_type": "industrial_production_index_refined_petroleum_products",
+      "frequency": "monthly",
+      "preferred_sources": [
+        "SingStat / EDB"
+      ],
+      "verification_status": "loaded_pending_review",
+      "coverage_start": "2025 Aug",
+      "coverage_end": "2026 May",
+      "values_count": 10,
+      "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M355351",
+      "local_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/raw-downloads/sg_refined_petroleum_products_ipi_monthly.csv",
+      "raw_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/raw-downloads/sg_refined_petroleum_products_ipi_monthly.singstat.json",
+      "unit": "Index",
+      "notes": "Monthly index of industrial production for refined petroleum products. Source table adapted from SingStat Table Builder M355351.",
+      "values": [
+        {
+          "period": "2025 Aug",
+          "value": 104.23
+        },
+        {
+          "period": "2025 Sep",
+          "value": 94.915
+        },
+        {
+          "period": "2025 Oct",
+          "value": 96.55
+        },
+        {
+          "period": "2025 Nov",
+          "value": 99.023
+        },
+        {
+          "period": "2025 Dec",
+          "value": 107.584
+        },
+        {
+          "period": "2026 Jan",
+          "value": 106.468
+        },
+        {
+          "period": "2026 Feb",
+          "value": 93.154
+        },
+        {
+          "period": "2026 Mar",
+          "value": 80.93
+        },
+        {
+          "period": "2026 Apr",
+          "value": 68.498
+        },
+        {
+          "period": "2026 May",
+          "value": 90.612
+        }
+      ],
+      "source_metadata": {
+        "table_id": "M355351",
+        "table_title": "Index Of Industrial Production (2025 = 100), Monthly",
+        "row_text": "Refined Petroleum Products",
+        "datasource": "ECONOMIC DEVELOPMENT BOARD",
+        "data_last_updated": "26/06/2026",
+        "date_generated": "01/07/2026",
+        "footnote": "The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2025."
+      },
+      "used_by_candidates": [],
+      "created_at": "2026-07-01T07:53:51.922Z",
+      "updated_at": "2026-07-01T07:53:51.923Z"
     }
   ]
 }
