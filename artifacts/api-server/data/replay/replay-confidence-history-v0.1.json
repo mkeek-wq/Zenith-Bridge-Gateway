@@ -64,8 +64,17 @@
       "unique_mechanism_count": 38,
       "average_analogue_score": 0,
       "taxonomy_aware": true
+    },
+    {
+      "recorded_at": "2026-07-01T02:42:22.708Z",
+      "confidence_score": 0.55,
+      "confidence_band": "moderate",
+      "historical_case_count": 25,
+      "unique_mechanism_count": 38,
+      "average_analogue_score": 0,
+      "taxonomy_aware": true
     }
   ],
-  "updated_at": "2026-07-01T02:20:58.342Z",
-  "entry_count": 7
+  "updated_at": "2026-07-01T02:42:22.708Z",
+  "entry_count": 8
 }
