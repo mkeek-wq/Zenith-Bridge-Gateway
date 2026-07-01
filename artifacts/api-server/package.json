@@ -24,6 +24,7 @@
     "replay:governance-history": "tsx src/scripts/build-replay-governance-history-v0.1.ts",
     "replay:confidence-history": "tsx src/scripts/build-replay-confidence-history-v0.1.ts",
     "replay:improvement-report": "tsx src/scripts/build-replay-improvement-report-v0.1.ts",
+    "replay:macro-source-attachments": "tsx src/scripts/build-replay-macro-source-attachment-builder-v0.1.ts",
     "replay:governance-cycle": "pnpm replay:proposal-cycle && pnpm replay:proposal-dashboard && pnpm replay:shadow && pnpm replay:audit && pnpm replay:improvement-history && pnpm replay:governance-history && pnpm replay:confidence-history && pnpm replay:improvement-report"
   },
   "dependencies": {

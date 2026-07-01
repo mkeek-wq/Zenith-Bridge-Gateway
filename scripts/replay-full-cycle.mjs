@@ -6,7 +6,7 @@ console.log("=================================");
 console.log("Replay Full Cycle v0.1");
 console.log("=================================");
 console.log("");
-console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-39");
+console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-40");
 console.log("");
 
 const commands = [
@@ -204,6 +204,11 @@ const commands = [
     step: "Step 39 - Macro source checklist",
     command:
       "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-macro-source-checklist-v0.1.ts",
+  },
+  {
+    step: "Step 40 - Macro source attachment drafts",
+    command:
+      "cd artifacts/api-server && pnpm replay:macro-source-attachments",
   },
 ];
 
