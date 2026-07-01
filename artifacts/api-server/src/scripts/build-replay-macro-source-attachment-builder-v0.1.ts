@@ -29,34 +29,57 @@ function normalized(value: unknown) {
 }
 
 function datasetMatchesMacroDraft(dataset: any, draft: any) {
-  const haystack = [
+  const datasetText = [
     dataset.dataset_id,
     dataset.name,
     dataset.metric_type,
     dataset.notes,
     dataset.source_metadata?.table_title,
-    dataset.source_metadata?.row_text,
-    draft.label,
-    draft.event_type,
+    dataset.source_metadata?.row_text
   ]
     .map(normalized)
     .join(" ");
 
+const isBroadManufacturing =
+  datasetText.includes("total manufacturing") ||
+  datasetText.includes("manufacturing_output") ||
+  dataset.dataset_id === "sg_total_manufacturing_output_annual" ||
+  dataset.dataset_id === "sg_industrial_production_index_monthly";
+
+  const isElectronics =
+    datasetText.includes("electronic") ||
+    datasetText.includes("computer") ||
+    datasetText.includes("semiconductor");
+
+  const isPetroleum =
+    datasetText.includes("petroleum") ||
+    datasetText.includes("oil") ||
+    datasetText.includes("energy");
+
+  const isTrade =
+    datasetText.includes("trade") ||
+    datasetText.includes("export") ||
+    datasetText.includes("import");
+
   if (draft.event_type === "electronics_cycle") {
-    return (
-      haystack.includes("manufacturing") ||
-      haystack.includes("electronic") ||
-      haystack.includes("computer") ||
-      haystack.includes("semiconductor")
-    );
+    return isElectronics || isBroadManufacturing;
   }
 
   if (draft.event_type === "supply_chain_disruption") {
-    return haystack.includes("manufacturing") || haystack.includes("trade");
+    return isTrade || isBroadManufacturing;
   }
 
   if (draft.event_type === "general_macro_shock") {
-    return haystack.includes("manufacturing") || haystack.includes("output");
+    return isBroadManufacturing;
+  }
+
+  if (
+    draft.event_type === "oil_price_shock" ||
+    draft.event_type === "energy_shock" ||
+    normalized(draft.label).includes("oil") ||
+    normalized(draft.label).includes("petroleum")
+  ) {
+    return isPetroleum || isBroadManufacturing;
   }
 
   return false;
