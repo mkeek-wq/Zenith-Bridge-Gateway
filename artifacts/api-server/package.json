@@ -26,7 +26,8 @@
     "replay:improvement-report": "tsx src/scripts/build-replay-improvement-report-v0.1.ts",
     "replay:macro-source-attachments": "tsx src/scripts/build-replay-macro-source-attachment-builder-v0.1.ts",
     "replay:governance-cycle": "pnpm replay:proposal-cycle && pnpm replay:proposal-dashboard && pnpm replay:shadow && pnpm replay:audit && pnpm replay:improvement-history && pnpm replay:governance-history && pnpm replay:confidence-history && pnpm replay:improvement-report",
-    "data:singstat": "tsx src/scripts/load-singstat-table-v0.2.ts"
+    "data:singstat": "tsx src/scripts/load-singstat-table-v0.2.ts",
+    "data:audit": "tsx src/scripts/build-dataset-audit-report-v0.1.ts"
   },
   "dependencies": {
     "@tiptap/react": "^3.22.5",
