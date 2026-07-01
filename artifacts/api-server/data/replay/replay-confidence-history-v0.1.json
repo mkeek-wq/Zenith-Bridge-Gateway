@@ -37,8 +37,35 @@
       "unique_mechanism_count": 38,
       "average_analogue_score": 0,
       "taxonomy_aware": true
+    },
+    {
+      "recorded_at": "2026-07-01T01:44:32.709Z",
+      "confidence_score": 0.55,
+      "confidence_band": "moderate",
+      "historical_case_count": 25,
+      "unique_mechanism_count": 38,
+      "average_analogue_score": 0,
+      "taxonomy_aware": true
+    },
+    {
+      "recorded_at": "2026-07-01T02:01:42.727Z",
+      "confidence_score": 0.55,
+      "confidence_band": "moderate",
+      "historical_case_count": 25,
+      "unique_mechanism_count": 38,
+      "average_analogue_score": 0,
+      "taxonomy_aware": true
+    },
+    {
+      "recorded_at": "2026-07-01T02:20:58.342Z",
+      "confidence_score": 0.55,
+      "confidence_band": "moderate",
+      "historical_case_count": 25,
+      "unique_mechanism_count": 38,
+      "average_analogue_score": 0,
+      "taxonomy_aware": true
     }
   ],
-  "updated_at": "2026-07-01T01:37:54.702Z",
-  "entry_count": 4
+  "updated_at": "2026-07-01T02:20:58.342Z",
+  "entry_count": 7
 }

@@ -6,7 +6,7 @@ console.log("=================================");
 console.log("Replay Full Cycle v0.1");
 console.log("=================================");
 console.log("");
-console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-33");
+console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-37");
 console.log("");
 
 const commands = [
@@ -174,6 +174,26 @@ const commands = [
     step: "Step 33 - Forecast range Smurf",
     command:
       "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-forecast-range-smurf-v0.1.ts",
+  },
+  {
+    step: "Step 34 - Macro event anchor registry",
+    command:
+      "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-macro-event-registry-v0.1.ts",
+  },
+  {
+    step: "Step 35 - Macro event coverage map",
+    command:
+      "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-macro-event-coverage-map-v0.1.ts",
+  },
+  {
+    step: "Step 36 - Macro anchor expansion queue",
+    command:
+      "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-macro-anchor-expansion-queue-v0.1.ts",
+  },
+  {
+    step: "Step 37 - Macro acquisition queue",
+    command:
+      "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-macro-acquisition-queue-v0.1.ts",
   },
 ];
 
