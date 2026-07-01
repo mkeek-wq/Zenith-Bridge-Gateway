@@ -6,7 +6,7 @@ console.log("=================================");
 console.log("Replay Full Cycle v0.1");
 console.log("=================================");
 console.log("");
-console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-28");
+console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-33");
 console.log("");
 
 const commands = [
@@ -149,6 +149,31 @@ const commands = [
     step: "Step 28 - Self-improvement orchestrator",
     command:
       "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-self-improvement-orchestrator-v0.1.ts",
+  },
+  {
+    step: "Step 29 - Landscape cartographer",
+    command:
+      "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-landscape-cartographer-v0.1.ts",
+  },
+  {
+    step: "Step 30 - Scenario library",
+    command:
+      "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-scenario-library-v0.1.ts",
+  },
+  {
+    step: "Step 31 - Decision support layer",
+    command:
+      "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-decision-support-layer-v0.1.ts",
+  },
+  {
+    step: "Step 32 - Client impact assessment",
+    command:
+      "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-client-impact-assessment-v0.1.ts",
+  },
+  {
+    step: "Step 33 - Forecast range Smurf",
+    command:
+      "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-forecast-range-smurf-v0.1.ts",
   },
 ];
 
