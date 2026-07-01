@@ -1,0 +1,13 @@
+{
+  "dataset_id": "sg_industrial_production_index_monthly",
+  "name": "Singapore Industrial Production Index Monthly",
+  "country": "Singapore",
+  "metric_type": "industrial_production_index",
+  "frequency": "monthly",
+  "table_id": "M355351",
+  "series_match": "Total",
+  "source_name": "SingStat / EDB",
+  "unit": "Index",
+  "verification_status_after_load": "loaded_pending_review",
+  "notes": "Monthly index of industrial production. Source table adapted from SingStat Table Builder M355351."
+}

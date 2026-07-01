@@ -100,9 +100,34 @@ function extractValues(row: any) {
     }
   }
 
+  const monthOrder: Record<string, number> = {
+    Jan: 1,
+    Feb: 2,
+    Mar: 3,
+    Apr: 4,
+    May: 5,
+    Jun: 6,
+    Jul: 7,
+    Aug: 8,
+    Sep: 9,
+    Oct: 10,
+    Nov: 11,
+    Dec: 12,
+  };
+
+  function periodSortKey(period: string) {
+    const annual = period.match(/^(\d{4})$/);
+    if (annual) return Number(annual[1]) * 100;
+
+    const monthly = period.match(/^(\d{4})\s([A-Za-z]{3})$/);
+    if (monthly) return Number(monthly[1]) * 100 + (monthOrder[monthly[2]] || 0);
+
+    return Number.MAX_SAFE_INTEGER;
+  }
+
   return values
     .filter((item) => !Number.isNaN(item.value as any))
-    .sort((a, b) => a.period.localeCompare(b.period));
+    .sort((a, b) => periodSortKey(a.period) - periodSortKey(b.period));
 }
 
 const configPath = path.join(

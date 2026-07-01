@@ -1,0 +1,153 @@
+{
+  "version": "verified-dataset-registry-v0.1",
+  "generated_at": "2026-07-01T07:46:38.352Z",
+  "dataset_count": 2,
+  "datasets": [
+    {
+      "dataset_id": "sg_total_manufacturing_output_annual",
+      "name": "Singapore Total Manufacturing Output Annual",
+      "country": "Singapore",
+      "metric_type": "manufacturing_output",
+      "frequency": "annual",
+      "preferred_sources": [
+        "SingStat / EDB"
+      ],
+      "verification_status": "loaded_pending_review",
+      "coverage_start": "2016",
+      "coverage_end": "2025",
+      "values_count": 10,
+      "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354891",
+      "local_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/raw-downloads/sg_total_manufacturing_output_annual.csv",
+      "raw_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/raw-downloads/sg_total_manufacturing_output_annual.singstat.json",
+      "unit": "Million Dollars",
+      "notes": "Annual total manufacturing output by industry. Source table adapted from SingStat Table Builder M354891.",
+      "values": [
+        {
+          "period": "2016",
+          "value": 272797.5
+        },
+        {
+          "period": "2017",
+          "value": 321473.1
+        },
+        {
+          "period": "2018",
+          "value": 364280.1
+        },
+        {
+          "period": "2019",
+          "value": 337268
+        },
+        {
+          "period": "2020",
+          "value": 312980.1
+        },
+        {
+          "period": "2021",
+          "value": 394111.5
+        },
+        {
+          "period": "2022",
+          "value": 461714.4
+        },
+        {
+          "period": "2023",
+          "value": 410871
+        },
+        {
+          "period": "2024",
+          "value": 429583.8
+        },
+        {
+          "period": "2025",
+          "value": 479057.1
+        }
+      ],
+      "source_metadata": {
+        "table_id": "M354891",
+        "table_title": "Total Output In Manufacturing By Industry, Annual",
+        "row_text": "Total Manufacturing",
+        "datasource": "ECONOMIC DEVELOPMENT BOARD",
+        "data_last_updated": "11/05/2026",
+        "date_generated": "01/07/2026",
+        "footnote": "From 2002, figures include establishments with less than 10 workers.  Prior to 2002, figures refer to establishments engaging 10 or more workers.  Data include all manufacturing establishments.  The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2025.  Total manufacturing output refers to the total value of goods and services derived from a production process and ancillary activities such as management or marketing.  As such, it includes manufacturing output and other operating income.  Valuation of output has been changed to basic price.  Historical total output has been revised accordingly from 1980.  Refers to manufacturing output and other operating income.  Year 2025 data are preliminary estimates."
+      },
+      "used_by_candidates": [],
+      "created_at": "2026-07-01T03:47:09.736Z",
+      "updated_at": "2026-07-01T03:47:09.737Z"
+    },
+    {
+      "dataset_id": "sg_industrial_production_index_monthly",
+      "name": "Singapore Industrial Production Index Monthly",
+      "country": "Singapore",
+      "metric_type": "industrial_production_index",
+      "frequency": "monthly",
+      "preferred_sources": [
+        "SingStat / EDB"
+      ],
+      "verification_status": "loaded_pending_review",
+      "coverage_start": "2025 Aug",
+      "coverage_end": "2026 May",
+      "values_count": 10,
+      "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M355351",
+      "local_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/raw-downloads/sg_industrial_production_index_monthly.csv",
+      "raw_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/raw-downloads/sg_industrial_production_index_monthly.singstat.json",
+      "unit": "Index",
+      "notes": "Monthly index of industrial production. Source table adapted from SingStat Table Builder M355351.",
+      "values": [
+        {
+          "period": "2025 Aug",
+          "value": 93.053
+        },
+        {
+          "period": "2025 Sep",
+          "value": 107.134
+        },
+        {
+          "period": "2025 Oct",
+          "value": 113.605
+        },
+        {
+          "period": "2025 Nov",
+          "value": 104.179
+        },
+        {
+          "period": "2025 Dec",
+          "value": 109.45
+        },
+        {
+          "period": "2026 Jan",
+          "value": 107.73
+        },
+        {
+          "period": "2026 Feb",
+          "value": 91.788
+        },
+        {
+          "period": "2026 Mar",
+          "value": 104.358
+        },
+        {
+          "period": "2026 Apr",
+          "value": 110.297
+        },
+        {
+          "period": "2026 May",
+          "value": 104.125
+        }
+      ],
+      "source_metadata": {
+        "table_id": "M355351",
+        "table_title": "Index Of Industrial Production (2025 = 100), Monthly",
+        "row_text": "Total",
+        "datasource": "ECONOMIC DEVELOPMENT BOARD",
+        "data_last_updated": "26/06/2026",
+        "date_generated": "01/07/2026",
+        "footnote": "The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2025."
+      },
+      "used_by_candidates": [],
+      "created_at": "2026-07-01T07:33:32.117Z",
+      "updated_at": "2026-07-01T07:46:38.351Z"
+    }
+  ]
+}
