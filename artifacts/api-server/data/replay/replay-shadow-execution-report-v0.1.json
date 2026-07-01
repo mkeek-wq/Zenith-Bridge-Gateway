@@ -1,6 +1,6 @@
 {
   "report_version": "replay-shadow-execution-report-v0.1",
-  "generated_at": "2026-06-30T13:47:41.962Z",
+  "generated_at": "2026-07-01T00:15:13.961Z",
   "doctrine": "Shadow execution is dry-run only. No production data is modified. Audit is required before promotion.",
   "source_registry": "data/replay/replay-proposal-registry-v0.1.json",
   "shadow_ready_count": 0,

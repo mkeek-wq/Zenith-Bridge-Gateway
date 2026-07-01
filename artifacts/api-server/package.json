@@ -20,8 +20,11 @@
     "replay:audit": "tsx src/scripts/build-replay-audit-engine-v0.1.ts",
     "replay:promote": "tsx src/scripts/promote-replay-proposal-v0.1.ts",
     "replay:reject": "tsx src/scripts/reject-replay-proposal-v0.1.ts",
+    "replay:improvement-history": "tsx src/scripts/build-replay-improvement-history-v0.1.ts",
     "replay:governance-history": "tsx src/scripts/build-replay-governance-history-v0.1.ts",
-    "replay:governance-cycle": "pnpm replay:proposal-cycle && pnpm replay:proposal-dashboard && pnpm replay:shadow && pnpm replay:audit && pnpm replay:governance-history"
+    "replay:confidence-history": "tsx src/scripts/build-replay-confidence-history-v0.1.ts",
+    "replay:improvement-report": "tsx src/scripts/build-replay-improvement-report-v0.1.ts",
+    "replay:governance-cycle": "pnpm replay:proposal-cycle && pnpm replay:proposal-dashboard && pnpm replay:shadow && pnpm replay:audit && pnpm replay:improvement-history && pnpm replay:governance-history && pnpm replay:confidence-history && pnpm replay:improvement-report"
   },
   "dependencies": {
     "@tiptap/react": "^3.22.5",
