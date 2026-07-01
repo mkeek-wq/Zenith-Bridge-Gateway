@@ -1,6 +1,6 @@
 {
   "history_version": "replay-governance-history-v0.1",
-  "generated_at": "2026-07-01T00:15:17.833Z",
+  "generated_at": "2026-07-01T00:53:22.939Z",
   "doctrine": "Governance history records proposal, approval, rejection, shadow, audit, and promotion events.",
   "source_files": {
     "registry": "data/replay/replay-proposal-registry-v0.1.json",

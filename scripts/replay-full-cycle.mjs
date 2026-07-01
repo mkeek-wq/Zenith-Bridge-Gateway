@@ -6,7 +6,7 @@ console.log("=================================");
 console.log("Replay Full Cycle v0.1");
 console.log("=================================");
 console.log("");
-console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-23");
+console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-28");
 console.log("");
 
 const commands = [
@@ -124,6 +124,31 @@ const commands = [
     step: "Step 23 - Shadow execution",
     command:
       "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-shadow-execution-v0.1.ts",
+  },
+  {
+    step: "Step 24 - Audit engine",
+    command:
+      "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-audit-engine-v0.1.ts",
+  },
+  {
+    step: "Step 25 - Improvement history",
+    command:
+      "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-improvement-history-v0.1.ts",
+  },
+  {
+    step: "Step 26 - Governance history",
+    command:
+      "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-governance-history-v0.1.ts",
+  },
+  {
+    step: "Step 27 - Confidence history and improvement report",
+    command:
+      "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-confidence-history-v0.1.ts && pnpm tsx src/scripts/build-replay-improvement-report-v0.1.ts",
+  },
+  {
+    step: "Step 28 - Self-improvement orchestrator",
+    command:
+      "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-self-improvement-orchestrator-v0.1.ts",
   },
 ];
 
