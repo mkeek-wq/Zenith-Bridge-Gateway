@@ -1,16 +1,13 @@
-import { createRoot } from "react-dom/client";
-import App from "./App";
+
+
+
+import React from "react";
+import ReactDOM from "react-dom/client";
 import "./index.css";
+import App from "./App";
 
-
-const originalFetch = window.fetch;
-
-window.fetch = (input: any, init?: any) => {
-  if (typeof input === "string" && input.startsWith("/api")) {
-    input = "https://api.zenithnovabridgewave.com" + input;
-  }
-
-  return originalFetch(input, init);
-};
-
-createRoot(document.getElementById("root")!).render(<App />);
+ReactDOM.createRoot(document.getElementById("root")!).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);

@@ -1,57 +1,60 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { PublicLayout } from "@/components/layout/PublicLayout";
 import heroBg from "@/assets/hero-bg-clean.png";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 import { ArrowRight, Globe, Building2, TrendingUp } from "lucide-react";
-import { useGetFeaturedArticles } from "@workspace/api-client-react";
+import { apiFetch } from "@/api/client";
 
 type Article = {
   id: string;
+  slug?: string;
   title: string;
   excerpt?: string;
   category?: string;
   coverImage?: string;
 };
 
-
 export default function Home() {
-     
-  const { data, isLoading, error } = useGetFeaturedArticles();
+  const [featuredArticles, setFeaturedArticles] = useState<Article[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<unknown>(null);
 
+  useEffect(() => {
+    apiFetch("/api/v1/articles/featured")
+      .then((data) => {
+        setFeaturedArticles(data ?? []);
+        setIsLoading(false);
+      })
+      .catch((err) => {
+        setError(err);
+        setIsLoading(false);
+      });
+  }, []);
 
-const featuredArticles = data ?? [];
-
-
-if (process.env.NODE_ENV !== "production") {
-  console.log("[raw data]", data);
-  console.log("[normalized featuredArticles]", featuredArticles);
-}
-
-useEffect(() => {
-  if (error && process.env.NODE_ENV !== "production") {
-    console.warn("Featured articles failed to load:", error);
+  if (process.env.NODE_ENV !== "production") {
+    console.log("[featuredArticles]", featuredArticles);
+    if (error) console.warn("[featuredArticles error]", error);
   }
-}, [error]);
 
   return (
     <PublicLayout>
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img 
-            src={heroBg} 
-            alt="Singapore Skyline" 
+          <img
+            src={heroBg}
+            alt="Singapore Skyline"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-[#0d1f3c]/60" />
           <div className="absolute inset-0 bg-gradient-to-l from-[#0d1f3c]/35 to-transparent" />
           <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent" />
         </div>
-        
+
         <div className="container mx-auto px-4 md:px-8 relative z-10 pt-20">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
@@ -59,25 +62,28 @@ useEffect(() => {
           >
             <div className="inline-flex items-center gap-2 px-3 py-1 mb-6 rounded-full bg-secondary/10 border border-secondary/20 text-secondary text-sm font-medium">
               <span className="w-2 h-2 rounded-full bg-secondary animate-pulse" />
-              Embedded Local Partner
+              Southeast Asia Intelligence
             </div>
+
             <h1 className="text-5xl md:text-7xl font-serif text-white mb-6 leading-tight">
-             European expansion into <br />
-            <span className="text-secondary">Southeast Asia.</span>
+              Business intelligence across <br />
+              <span className="text-secondary">Southeast Asia.</span>
             </h1>
+
             <p className="text-xl text-white/80 mb-10 max-w-2xl font-light leading-relaxed">
-              We help European companies enter Southeast Asia through Singapore — combining local execution, regulatory clarity, and market intelligence.
-              Built for real expansion, not advisory theory.
-              </p>
+              Zenith Nova Bridge Wave provides analysis, editorial intelligence, and strategic insight focused on Singapore and the broader Southeast Asian region.
+            </p>
+
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
                 <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90 text-lg px-8 h-14 rounded-none">
-                  Schedule a Consultation
+                  Contact Zenith
                 </Button>
               </Link>
+
               <Link href="/about">
-                <Button size="lg" variant="outline" className="text-white border-white/30 hover:bg-white/10 text-lg px-8 h-14 rounded-none">
-                  Our Approach
+                <Button size="lg" variant="outline" className="bg-[#0d1f3c]/70 text-white border-white/40 hover:bg-[#0d1f3c]/90 hover:text-white text-lg px-8 h-14 rounded-none backdrop-blur">
+                  About Zenith
                 </Button>
               </Link>
             </div>
@@ -85,104 +91,88 @@ useEffect(() => {
         </div>
       </section>
 
-      {/* Value Prop Section */}
+      {/* Value Section */}
       <section className="py-24 bg-background">
         <div className="container mx-auto px-4 md:px-8">
-          <motion.div 
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="text-center max-w-2xl mx-auto mb-16"
-          >
-            <h2 className="text-3xl md:text-4xl font-serif mb-4">Embedded market entry execution</h2>
-            <p className="text-muted-foreground text-lg">We operate as an embedded extension of your team in Southeast Asia — focused on execution, access, and in-market decision-making.</p>
-          </motion.div>
+          <div className="text-center max-w-2xl mx-auto mb-16">
+            <h2 className="text-3xl md:text-4xl font-serif mb-4">
+              Regional insight with strategic perspective
+            </h2>
+            <p className="text-muted-foreground text-lg">
+              Analysis and editorial perspectives focused on Singapore and Southeast Asia.
+            </p>
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
                 icon: Globe,
-                title: "Global Mindset",
-                description: "European corporate standards aligned with Southeast Asian market realities — enabling faster, locally grounded decisions."
+                title: "Regional Intelligence",
+                description: "Business, regulatory, and geopolitical developments across Southeast Asia."
               },
               {
                 icon: Building2,
-                title: "Singapore Hub",
-                description: "Singapore as your operational base for structuring and executing Southeast Asia expansion strategies."
+                title: "Singapore Perspective",
+                description: "Insights from one of Asia’s leading financial and commercial hubs."
               },
               {
                 icon: TrendingUp,
-                title: "Embedded Partner",
-                description: "We integrate directly into your expansion process — connecting strategy, execution, and local networks to accelerate market entry."
+                title: "Strategic Analysis",
+                description: "Focused commentary on markets, regulation, technology, and regional developments."
               }
             ].map((feature, i) => (
-              <motion.div 
-                key={i}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: i * 0.2 }}
-                className="p-8 border border-border bg-card"
-              >
+              <div key={i} className="p-8 border border-border bg-card">
                 <div className="w-12 h-12 bg-secondary/10 flex items-center justify-center mb-6 text-secondary">
                   <feature.icon className="w-6 h-6" />
                 </div>
                 <h3 className="text-xl font-serif mb-3">{feature.title}</h3>
-                <p className="text-muted-foreground leading-relaxed">{feature.description}</p>
-              </motion.div>
+                <p className="text-muted-foreground">{feature.description}</p>
+              </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Featured Editorials */}
+      {/* Featured Articles */}
       <section className="py-24 bg-muted/30 border-t border-border">
         <div className="container mx-auto px-4 md:px-8">
-          <div className="flex justify-between items-end mb-12">
-            <div>
-              <h2 className="text-3xl font-serif mb-2">Latest Insights</h2>
-              <p className="text-muted-foreground">Market intelligence and on-the-ground insights from Southeast Asia.</p>
-            </div>
-            <Link href="/editorials" className="hidden md:flex items-center gap-2 text-primary font-medium hover:text-secondary transition-colors">
-              View All <ArrowRight className="w-4 h-4" />
-            </Link>
-          </div>
+          <h2 className="text-3xl font-serif mb-2">Latest Insights</h2>
+          <p className="text-muted-foreground mb-12">
+            Analysis and editorial perspectives on business, markets, regulation, and regional developments.
+          </p>
 
           {isLoading ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {[1, 2].map(i => (
+            <div className="grid md:grid-cols-2 gap-8">
+              {[1, 2].map((i) => (
                 <div key={i} className="h-80 bg-muted animate-pulse" />
               ))}
             </div>
           ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="grid md:grid-cols-2 gap-8">
               {featuredArticles.map((article) => (
-                  <Link key={article.id} href={`/editorials/${article.id}`}>
-                  <motion.div 
-                    initial={{ opacity: 0, scale: 0.95 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    viewport={{ once: true }}
-                    className="group cursor-pointer border border-border bg-card h-full flex flex-col hover:border-secondary/50 transition-colors"
-                  >
+                <Link key={article.id} href={`/editorials/${article.slug ?? article.id}`}>
+                  <div className="border bg-card hover:border-secondary transition cursor-pointer">
                     {article.coverImage && (
-                      <div className="h-48 overflow-hidden">
-                        <img 
-                          src={article.coverImage} 
-                          alt={article.title} 
-                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
-                        />
-                      </div>
+                      <img
+                        src={article.coverImage}
+                        className="h-48 w-full object-cover"
+                      />
                     )}
-                    <div className="p-8 flex-1 flex flex-col">
-                      <div className="text-xs font-medium text-secondary mb-3 uppercase tracking-wider">{article.category}</div>
-                      <h3 className="text-2xl font-serif mb-4 group-hover:text-secondary transition-colors">{article.title}</h3>
-                      <p className="text-muted-foreground line-clamp-3 mb-6 flex-1">{article.excerpt}</p>
-                      <div className="flex items-center text-sm font-medium mt-auto pt-6 border-t border-border">
-                        Read Article <ArrowRight className="w-4 h-4 ml-2" />
+                    <div className="p-6">
+                      <div className="text-xs text-secondary mb-2 uppercase">
+                        {article.category}
+                      </div>
+                      <h3 className="text-xl font-serif mb-2">
+                        {article.title}
+                      </h3>
+                      <p className="text-muted-foreground text-sm">
+                        {article.excerpt}
+                      </p>
+                      <div className="mt-4 text-sm flex items-center gap-2">
+                        Read More <ArrowRight className="w-4 h-4" />
                       </div>
                     </div>
-                  </motion.div>
+                  </div>
                 </Link>
               ))}
             </div>

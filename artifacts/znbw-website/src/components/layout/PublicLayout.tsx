@@ -1,41 +1,114 @@
-import { Navbar } from "./Navbar";
+import { ReactNode, useState } from "react";
+import { Link } from "wouter";
+import { Menu, X } from "lucide-react";
 
-export function PublicLayout({ children }: { children: React.ReactNode }) {
+export function PublicLayout({ children }: { children: ReactNode }) {
+  const [mobileOpen, setMobileOpen] = useState(false);
+
+  const closeMobileMenu = () => setMobileOpen(false);
+
   return (
-    <div className="flex min-h-screen flex-col">
-      <Navbar />
-      <main className="flex-1">
-        {children}
-      </main>
-      <footer className="border-t border-border bg-muted/50 py-12 md:py-16">
-        <div className="container mx-auto px-4 md:px-8 text-center md:text-left grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div className="md:col-span-2">
-            <span className="font-serif text-xl font-semibold tracking-tight text-primary block mb-4">Zenith Nova Bridge Wave</span>
-            <p className="text-muted-foreground text-sm max-w-sm mx-auto md:mx-0">
-              Premium market entry consultancy bridging European enterprise into South East Asia.
-            </p>
-          </div>
-          <div>
-            <h3 className="font-medium text-sm mb-4">Location</h3>
-            <p className="text-muted-foreground text-sm leading-relaxed">
-              Marina Bay Financial Centre<br />
-              Tower 1, Level 11<br />
-              8 Marina Boulevard<br />
-              Singapore 018981
-            </p>
-          </div>
-          <div>
-            <h3 className="font-medium text-sm mb-4">Legal</h3>
-            <ul className="text-muted-foreground text-sm space-y-2">
-              <li>Privacy Policy</li>
-              <li>Terms of Service</li>
-            </ul>
-          </div>
+    <div className="min-h-screen flex flex-col bg-background text-foreground">
+      <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur">
+        <div className="container mx-auto px-4 md:px-8 py-4 flex items-center justify-between gap-6">
+          <Link
+            href="/"
+            className="font-serif text-xl md:text-2xl tracking-wide"
+            onClick={closeMobileMenu}
+          >
+            Zenith Nova Bridge Wave
+          </Link>
+
+          <nav className="hidden md:flex items-center gap-8 text-sm font-medium">
+            <Link href="/" className="hover:text-secondary transition-colors">
+              Home
+            </Link>
+            <Link href="/editorials" className="hover:text-secondary transition-colors">
+              Editorials
+            </Link>
+            <Link href="/about" className="hover:text-secondary transition-colors">
+              About
+            </Link>
+            <Link href="/contact" className="hover:text-secondary transition-colors">
+              Contact
+            </Link>
+          </nav>
+
+          <button
+            type="button"
+            className="md:hidden inline-flex items-center justify-center w-10 h-10 border border-border rounded-sm hover:bg-muted transition-colors"
+            aria-label={mobileOpen ? "Close navigation menu" : "Open navigation menu"}
+            aria-expanded={mobileOpen}
+            onClick={() => setMobileOpen((open) => !open)}
+          >
+            {mobileOpen ? (
+              <X className="w-5 h-5" />
+            ) : (
+              <Menu className="w-5 h-5" />
+            )}
+          </button>
         </div>
-        <div className="container mx-auto px-4 md:px-8 mt-12 pt-8 border-t border-border/50 text-center text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} Zenith Nova Bridge Wave. All rights reserved.
-        </div>
-      </footer>
+
+        {mobileOpen && (
+          <nav className="md:hidden border-t border-border bg-background">
+            <div className="container mx-auto px-4 py-4 flex flex-col gap-4 text-sm font-medium">
+              <Link
+                href="/"
+                className="py-2 hover:text-secondary transition-colors"
+                onClick={closeMobileMenu}
+              >
+                Home
+              </Link>
+              <Link
+                href="/editorials"
+                className="py-2 hover:text-secondary transition-colors"
+                onClick={closeMobileMenu}
+              >
+                Editorials
+              </Link>
+              <Link
+                href="/about"
+                className="py-2 hover:text-secondary transition-colors"
+                onClick={closeMobileMenu}
+              >
+                About
+              </Link>
+              <Link
+                href="/contact"
+                className="py-2 hover:text-secondary transition-colors"
+                onClick={closeMobileMenu}
+              >
+                Contact
+              </Link>
+            </div>
+          </nav>
+        )}
+      </header>
+
+      <main className="flex-1">{children}</main>
+
+      <footer className="border-t border-border px-6 py-8 text-sm text-muted-foreground">
+  <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+    <p>
+      © {new Date().getFullYear()} Zenith Nova Bridge Wave
+    </p>
+
+    <nav className="flex items-center gap-5">
+      <Link href="/about" className="hover:text-secondary transition-colors">
+        About
+      </Link>
+      <Link href="/editorials" className="hover:text-secondary transition-colors">
+        Editorials
+      </Link>
+      <Link href="/contact" className="hover:text-secondary transition-colors">
+        Contact
+      </Link>
+      <Link href="/privacy" className="hover:text-secondary transition-colors">
+        Privacy
+      </Link>
+    </nav>
+  </div>
+</footer>
     </div>
   );
 }

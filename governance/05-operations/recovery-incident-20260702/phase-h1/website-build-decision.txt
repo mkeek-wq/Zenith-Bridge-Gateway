@@ -1,0 +1,15 @@
+Decision: Accept current znbw-website state as build-safe pending browser smoke test.
+
+Finding:
+znbw-website has modified pages/layouts and many deleted legacy UI components.
+
+Validation:
+pnpm --filter znbw-website build => PASS
+
+Interpretation:
+The deleted UI components are not required by the current production build.
+The current website source compiles successfully.
+
+Decision:
+Commit current website source state as a controlled recovery bucket.
+Future browser smoke test should verify homepage, editorials list, article detail, contact page, and admin redirects.
