@@ -1,0 +1,14 @@
+{
+  "dataset_id": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX",
+  "name": "Singapore other transport equipment output",
+  "country": "Singapore",
+  "metric_type": "manufacturing_output_value",
+  "frequency": "annual",
+  "source_name": "SingStat Table Builder",
+  "table_id": "M354851",
+  "series_match": "Other Transport Equipment",
+  "file_type": "singstat_table",
+  "unit": "Million Dollars",
+  "verification_status_after_load": "loaded_pending_review",
+  "notes": "Loaded from SingStat Table Builder API table M354851. Series: Other Transport Equipment."
+}

@@ -1,0 +1,89 @@
+{
+  "evidence_package_version": "historical-evidence-package-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-CAPACITY-EXPANSION-2019",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_investigation_package": "data/historical-replay/m355381/investigation-packages/sg-capacity-expansion-2019-investigation-package-v0.1.json",
+  "case_summary": {
+    "period": "2019",
+    "series_no": "CAPACITY-EXPANSION-2019",
+    "series_name": "Capacity Expansion",
+    "priority": "critical",
+    "direction": "positive",
+    "latest_value": null,
+    "month_on_month_change_pct": null,
+    "year_on_year_change_pct": null
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "SG_CAPACITY_EXPANSION_2019_EVIDENCE_001",
+      "source_type": "capacity_event",
+      "source_name": "SG-CAPACITY-EXPANSION-2019",
+      "evidence_summary": "Manufacturing capacity expansion was linked to new production capability, industrial investment, and facility expansion.",
+      "supports_drivers": [
+        "MKT_004"
+      ],
+      "evidence_strength": "high"
+    },
+    {
+      "evidence_id": "SG_CAPACITY_EXPANSION_2019_EVIDENCE_002",
+      "source_type": "mechanism_context",
+      "source_name": "SG-CAPACITY-EXPANSION-2019",
+      "evidence_summary": "Electronics and semiconductor-related investment provided a sector transmission channel.",
+      "supports_drivers": [
+        "MKT_004",
+        "MKT_008"
+      ],
+      "evidence_strength": "high"
+    },
+    {
+      "evidence_id": "SG_CAPACITY_EXPANSION_2019_EVIDENCE_003",
+      "source_type": "mechanism_context",
+      "source_name": "SG-CAPACITY-EXPANSION-2019",
+      "evidence_summary": "Capital equipment activity supported capacity additions and production-line expansion.",
+      "supports_drivers": [
+        "MKT_004",
+        "MKT_008"
+      ],
+      "evidence_strength": "medium"
+    },
+    {
+      "evidence_id": "SG_CAPACITY_EXPANSION_2019_EVIDENCE_004",
+      "source_type": "mechanism_context",
+      "source_name": "SG-CAPACITY-EXPANSION-2019",
+      "evidence_summary": "The dominant mechanism was capacity growth rather than short-term demand movement.",
+      "supports_drivers": [
+        "MKT_004",
+        "MKT_008"
+      ],
+      "evidence_strength": "medium"
+    }
+  ],
+  "driver_evidence_summary": [
+    {
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "evidence_count": 4,
+      "evidence_strength": "high"
+    },
+    {
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "evidence_count": 2,
+      "evidence_strength": "medium"
+    },
+    {
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "evidence_count": 1,
+      "evidence_strength": "medium"
+    }
+  ],
+  "evidence_assessment": {
+    "evidence_collected": true,
+    "attribution_ready": true,
+    "outcome_ready": false,
+    "confidence": "high"
+  }
+}

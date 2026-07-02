@@ -1,0 +1,115 @@
+{
+  "historical_evidence_scorecard_version": "historical-evidence-scorecard-v0.1",
+  "generated_at": "2026-06-04T10:30:56.196Z",
+  "source_taxonomy": "data/intelligence-driver-library/driver-evidence-taxonomy-v0.1.json",
+  "source_evidence": "data/historical-replay/m355381/evidence-pilots/SG-TOTAL-MANUFACTURING-2020-evidence-v0.1.json",
+  "case_id": "SG-TOTAL-MANUFACTURING-2020",
+  "period": "2020",
+  "series_name": "Total Manufacturing",
+  "governance": {
+    "sandbox_only": true,
+    "recommendation_only": true,
+    "auto_close_case": false,
+    "requires_human_review": true,
+    "production_mutation_allowed": false
+  },
+  "evidence_metadata": {
+    "evidence_origin": "synthetic",
+    "template_generated": true,
+    "attribution_discovery_ready": true,
+    "requires_human_review": true
+  },
+  "evidence_items": [
+    "Global recession reduced industrial demand.",
+    "COVID restrictions disrupted international trade.",
+    "Manufacturing output fell as external demand weakened.",
+    "Supply chain disruptions affected production activity."
+  ],
+  "evidence_matches": [
+    {
+      "evidence_text": "Global recession reduced industrial demand.",
+      "matches": [
+        {
+          "driver_id": "MKT_010",
+          "driver_name": "Demand Shock / External Downturn",
+          "attribution_bucket": "market_effect",
+          "default_score": 7,
+          "matched_phrases": [
+            "global recession"
+          ],
+          "match_score": 7
+        }
+      ]
+    },
+    {
+      "evidence_text": "COVID restrictions disrupted international trade.",
+      "matches": [
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "attribution_bucket": "operational_effect",
+          "default_score": 7,
+          "matched_phrases": [
+            "covid restrictions"
+          ],
+          "match_score": 7
+        }
+      ]
+    },
+    {
+      "evidence_text": "Manufacturing output fell as external demand weakened.",
+      "matches": []
+    },
+    {
+      "evidence_text": "Supply chain disruptions affected production activity.",
+      "matches": []
+    }
+  ],
+  "ranked_drivers": [
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "attribution_bucket": "market_effect",
+      "total_score": 7,
+      "evidence_count": 1,
+      "matched_phrases": [
+        "global recession"
+      ],
+      "supporting_evidence": [
+        "Global recession reduced industrial demand."
+      ]
+    },
+    {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "attribution_bucket": "operational_effect",
+      "total_score": 7,
+      "evidence_count": 1,
+      "matched_phrases": [
+        "covid restrictions"
+      ],
+      "supporting_evidence": [
+        "COVID restrictions disrupted international trade."
+      ]
+    }
+  ],
+  "bucket_scores": [
+    {
+      "attribution_bucket": "market_effect",
+      "total_score": 7
+    },
+    {
+      "attribution_bucket": "operational_effect",
+      "total_score": 7
+    }
+  ],
+  "recommended_outcome": {
+    "primary_driver": "MKT_010",
+    "primary_driver_name": "Demand Shock / External Downturn",
+    "attribution_bucket": "market_effect",
+    "confidence": "low",
+    "total_score": 7,
+    "second_score": 7,
+    "score_gap": 0
+  }
+}

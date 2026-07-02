@@ -1,0 +1,1420 @@
+{
+  "insight_generator_version": "insight-generator-v0.1",
+  "generated_at": "2026-06-06T04:33:46.287Z",
+  "source_experience_registry": "data/intelligence/experience-registry-v0.2.json",
+  "policy": {
+    "principle": "Insights translate driver experience into business implications and article opportunities. They are editorial inputs, not publish-ready articles.",
+    "production_mutation_allowed": false
+  },
+  "hardening_notes": {
+    "purpose": "Uses hardened experience registry fields including experience_strength, maturity_stage, confidence_score, weighted_case_count, recurrence_score, persistence_score, volatility_score, score_volatility, and bias_warnings."
+  },
+  "summary": {
+    "insights_generated": 10,
+    "high_priority_article_candidates": 2
+  },
+  "insights": [
+    {
+      "insight_version": "business-insight-v0.1",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "attribution_bucket": "market_effect",
+      "source_cases": [
+        {
+          "case_id": "SG-AEROSPACE-2020",
+          "period": "2020",
+          "series_name": "Aerospace",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 72,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-AEROSPACE-2021",
+          "period": "2021",
+          "series_name": "Aerospace",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 72,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-AEROSPACE-2022",
+          "period": "2022",
+          "series_name": "Aerospace",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 72,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-TRANSPORT-ENGINEERING-2018",
+          "period": "2018",
+          "series_name": "Transport Engineering",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 72,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-TRANSPORT-ENGINEERING-2019",
+          "period": "2019",
+          "series_name": "Transport Engineering",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 72,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-TRANSPORT-ENGINEERING-2020",
+          "period": "2020",
+          "series_name": "Transport Engineering",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 66,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-TRANSPORT-ENGINEERING-2021",
+          "period": "2021",
+          "series_name": "Transport Engineering",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 84,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-TRANSPORT-ENGINEERING-2022",
+          "period": "2022",
+          "series_name": "Transport Engineering",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 78,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-TRANSPORT-ENGINEERING-2023",
+          "period": "2023",
+          "series_name": "Transport Engineering",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 72,
+          "evidence_count": 4
+        }
+      ],
+      "evidence_patterns": [
+        {
+          "phrase": "transport engineering",
+          "count": 19
+        },
+        {
+          "phrase": "aviation recovery",
+          "count": 10
+        },
+        {
+          "phrase": "fleet maintenance",
+          "count": 10
+        },
+        {
+          "phrase": "aerospace demand",
+          "count": 9
+        },
+        {
+          "phrase": "aircraft maintenance",
+          "count": 9
+        },
+        {
+          "phrase": "aircraft repair",
+          "count": 9
+        },
+        {
+          "phrase": "mro demand",
+          "count": 9
+        },
+        {
+          "phrase": "marine engineering",
+          "count": 9
+        },
+        {
+          "phrase": "ship repair",
+          "count": 9
+        },
+        {
+          "phrase": "offshore engineering",
+          "count": 9
+        },
+        {
+          "phrase": "travel recovery",
+          "count": 8
+        }
+      ],
+      "case_count": 9,
+      "weighted_case_count": 9,
+      "maturity_stage": "developing_cluster",
+      "confidence_score": 1,
+      "experience_strength": 0.865,
+      "score_volatility": 4.714,
+      "recurrence_score": 0.667,
+      "persistence_score": 0.6,
+      "volatility_score": 0.811,
+      "bias_warnings": [
+        "POSSIBLE_TEMPLATE_CONCENTRATION"
+      ],
+      "confidence_tier": "established_pattern",
+      "stability_assessment": "stable_pattern",
+      "recurrence_assessment": "partially_recurring",
+      "average_evidence_count": 4,
+      "average_driver_score": 73.333,
+      "weighted_average_driver_score": 73.333,
+      "signal_strength": "high",
+      "business_implication": "Singapore's transport engineering movements appear linked to aviation recovery, aircraft maintenance, marine engineering, ship repair, and fleet maintenance cycles.",
+      "why_it_matters": "For businesses, transport engineering matters because aviation, marine, and maintenance cycles can reveal recovery patterns in travel, logistics, offshore activity, and regional industrial demand.",
+      "affected_sectors": [
+        "Aerospace",
+        "Marine Engineering",
+        "Transport Engineering",
+        "MRO"
+      ],
+      "article_candidate": {
+        "title": "What Transport Engineering Reveals About Singapore's Aviation and Marine Recovery",
+        "angle": "Explain how aviation recovery, aircraft maintenance, marine engineering, and ship repair activity shape Singapore's transport engineering sector.",
+        "priority": "high"
+      },
+      "governance": {
+        "sandbox_only": true,
+        "article_auto_publish_allowed": false,
+        "requires_editorial_review": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "insight_version": "business-insight-v0.1",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "attribution_bucket": "market_effect",
+      "source_cases": [
+        {
+          "case_id": "SG-MACHINERY-2020",
+          "period": "2020",
+          "series_name": "Machinery",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 66,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-MACHINERY-2021",
+          "period": "2021",
+          "series_name": "Machinery",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 66,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-MACHINERY-2022",
+          "period": "2022",
+          "series_name": "Machinery",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 66,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PRECISION-ENGINEERING-2018",
+          "period": "2018",
+          "series_name": "Precision Engineering",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 78,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PRECISION-ENGINEERING-2019",
+          "period": "2019",
+          "series_name": "Precision Engineering",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 78,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PRECISION-ENGINEERING-2020",
+          "period": "2020",
+          "series_name": "Precision Engineering",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 78,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PRECISION-ENGINEERING-2021",
+          "period": "2021",
+          "series_name": "Precision Engineering",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 78,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PRECISION-ENGINEERING-2022",
+          "period": "2022",
+          "series_name": "Precision Engineering",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 78,
+          "evidence_count": 4
+        }
+      ],
+      "evidence_patterns": [
+        {
+          "phrase": "engineering output",
+          "count": 13
+        },
+        {
+          "phrase": "precision engineering",
+          "count": 13
+        },
+        {
+          "phrase": "machinery demand",
+          "count": 8
+        },
+        {
+          "phrase": "capital equipment demand",
+          "count": 8
+        },
+        {
+          "phrase": "industrial equipment demand",
+          "count": 8
+        },
+        {
+          "phrase": "automation equipment",
+          "count": 8
+        },
+        {
+          "phrase": "semiconductor equipment",
+          "count": 8
+        },
+        {
+          "phrase": "equipment orders",
+          "count": 8
+        },
+        {
+          "phrase": "capital spending",
+          "count": 8
+        },
+        {
+          "phrase": "capex cycle",
+          "count": 8
+        },
+        {
+          "phrase": "investment demand",
+          "count": 8
+        }
+      ],
+      "case_count": 8,
+      "weighted_case_count": 8,
+      "maturity_stage": "developing_cluster",
+      "confidence_score": 1,
+      "experience_strength": 0.819,
+      "score_volatility": 5.809,
+      "recurrence_score": 0.625,
+      "persistence_score": 0.5,
+      "volatility_score": 0.768,
+      "bias_warnings": [],
+      "confidence_tier": "established_pattern",
+      "stability_assessment": "moderately_stable_pattern",
+      "recurrence_assessment": "partially_recurring",
+      "average_evidence_count": 4,
+      "average_driver_score": 73.5,
+      "weighted_average_driver_score": 73.5,
+      "signal_strength": "high",
+      "business_implication": "Singapore's precision engineering movements appear linked to capital equipment demand, machinery orders, automation investment, and manufacturing capex cycles.",
+      "why_it_matters": "For operators, precision engineering matters because it can indicate where capital spending, automation, and advanced manufacturing investment are strengthening or weakening.",
+      "affected_sectors": [
+        "Precision Engineering",
+        "Capital Equipment",
+        "Advanced Manufacturing"
+      ],
+      "article_candidate": {
+        "title": "What Precision Engineering Reveals About Singapore's Capital Equipment Cycle",
+        "angle": "Explain how machinery demand, automation investment, and capex cycles affect Singapore's precision engineering sector.",
+        "priority": "high"
+      },
+      "governance": {
+        "sandbox_only": true,
+        "article_auto_publish_allowed": false,
+        "requires_editorial_review": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "insight_version": "business-insight-v0.1",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "attribution_bucket": "market_effect",
+      "source_cases": [
+        {
+          "case_id": "SG-CHEMICALS-2018",
+          "period": "2018",
+          "series_name": "Chemicals",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 60,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-CHEMICALS-2020",
+          "period": "2020",
+          "series_name": "Chemicals",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 54,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-CHEMICALS-2021",
+          "period": "2021",
+          "series_name": "Chemicals",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 66,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-CHEMICALS-2022",
+          "period": "2022",
+          "series_name": "Chemicals",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 60,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-CHEMICALS-2023",
+          "period": "2023",
+          "series_name": "Chemicals",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 54,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PETROCHEMICALS-2018",
+          "period": "2018",
+          "series_name": "Petrochemicals",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 60,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PETROCHEMICALS-2022",
+          "period": "2022",
+          "series_name": "Petrochemicals",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 60,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PETROCHEMICALS-2023",
+          "period": "2023",
+          "series_name": "Petrochemicals",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 60,
+          "evidence_count": 4
+        }
+      ],
+      "evidence_patterns": [
+        {
+          "phrase": "chemical demand",
+          "count": 8
+        },
+        {
+          "phrase": "petrochemical demand",
+          "count": 8
+        },
+        {
+          "phrase": "specialty chemicals",
+          "count": 8
+        },
+        {
+          "phrase": "basic chemicals",
+          "count": 8
+        },
+        {
+          "phrase": "chemical production",
+          "count": 8
+        },
+        {
+          "phrase": "feedstock prices",
+          "count": 8
+        },
+        {
+          "phrase": "naphtha prices",
+          "count": 8
+        },
+        {
+          "phrase": "chemical plant",
+          "count": 8
+        },
+        {
+          "phrase": "petrochemical plant",
+          "count": 8
+        },
+        {
+          "phrase": "petrochemical production",
+          "count": 6
+        },
+        {
+          "phrase": "chemicals demand",
+          "count": 1
+        }
+      ],
+      "case_count": 8,
+      "weighted_case_count": 8,
+      "maturity_stage": "developing_cluster",
+      "confidence_score": 1,
+      "experience_strength": 0.797,
+      "score_volatility": 3.597,
+      "recurrence_score": 0.625,
+      "persistence_score": 0.5,
+      "volatility_score": 0.856,
+      "bias_warnings": [],
+      "confidence_tier": "developing_pattern",
+      "stability_assessment": "stable_pattern",
+      "recurrence_assessment": "partially_recurring",
+      "average_evidence_count": 4,
+      "average_driver_score": 59.25,
+      "weighted_average_driver_score": 59.25,
+      "signal_strength": "medium_high",
+      "business_implication": "Singapore's chemicals and petrochemicals output appears linked to regional industrial demand, downstream manufacturing activity, feedstock costs, and plant utilisation patterns.",
+      "why_it_matters": "For businesses, chemicals and petrochemicals matter because they sit across energy, manufacturing, logistics, and industrial supply chains, making them useful signals for regional demand and cost pressure.",
+      "affected_sectors": [
+        "Chemicals",
+        "Petrochemicals",
+        "Manufacturing",
+        "Logistics"
+      ],
+      "article_candidate": {
+        "title": "How Chemicals and Petrochemicals Reflect Singapore's Industrial Cycle",
+        "angle": "Use historical chemicals and petrochemicals cases to explain how feedstock costs, downstream demand, and plant utilisation shape Singapore's manufacturing base.",
+        "priority": "medium"
+      },
+      "governance": {
+        "sandbox_only": true,
+        "article_auto_publish_allowed": false,
+        "requires_editorial_review": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "insight_version": "business-insight-v0.1",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "attribution_bucket": "operational_effect",
+      "source_cases": [
+        {
+          "case_id": "SG-BIOMEDICAL-2018",
+          "period": "2018",
+          "series_name": "Biomedical Manufacturing",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 54,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-BIOMEDICAL-2019",
+          "period": "2019",
+          "series_name": "Biomedical Manufacturing",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 54,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-BIOMEDICAL-2020",
+          "period": "2020",
+          "series_name": "Biomedical Manufacturing",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 54,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-BIOMEDICAL-2021",
+          "period": "2021",
+          "series_name": "Biomedical Manufacturing",
+          "confidence": "medium",
+          "confidence_weight": 0.6,
+          "driver_score": 12,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-BIOMEDICAL-2022",
+          "period": "2022",
+          "series_name": "Biomedical Manufacturing",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 48,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-BIOMEDICAL-2023",
+          "period": "2023",
+          "series_name": "Biomedical Manufacturing",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 54,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PHARMACEUTICALS-2020",
+          "period": "2020",
+          "series_name": "Pharmaceuticals",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 54,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PHARMACEUTICALS-2021",
+          "period": "2021",
+          "series_name": "Pharmaceuticals",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 54,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PHARMACEUTICALS-2022",
+          "period": "2022",
+          "series_name": "Pharmaceuticals",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 54,
+          "evidence_count": 4
+        }
+      ],
+      "evidence_patterns": [
+        {
+          "phrase": "batch production",
+          "count": 14
+        },
+        {
+          "phrase": "healthcare demand",
+          "count": 10
+        },
+        {
+          "phrase": "vaccine production",
+          "count": 9
+        },
+        {
+          "phrase": "pharmaceutical batch",
+          "count": 8
+        },
+        {
+          "phrase": "biologics production",
+          "count": 8
+        },
+        {
+          "phrase": "drug production",
+          "count": 8
+        },
+        {
+          "phrase": "medical technology demand",
+          "count": 8
+        },
+        {
+          "phrase": "plant schedule",
+          "count": 8
+        }
+      ],
+      "case_count": 9,
+      "weighted_case_count": 8.6,
+      "maturity_stage": "developing_cluster",
+      "confidence_score": 0.956,
+      "experience_strength": 0.732,
+      "score_volatility": 13.098,
+      "recurrence_score": 0.667,
+      "persistence_score": 0.6,
+      "volatility_score": 0.476,
+      "bias_warnings": [],
+      "confidence_tier": "developing_pattern",
+      "stability_assessment": "volatile_pattern",
+      "recurrence_assessment": "partially_recurring",
+      "average_evidence_count": 4,
+      "average_driver_score": 48.667,
+      "weighted_average_driver_score": 50.372,
+      "signal_strength": "medium_high",
+      "business_implication": "The case pattern suggests that Biomedical / Pharmaceutical Production Cycle is a meaningful explanatory driver for selected Singapore manufacturing movements.",
+      "why_it_matters": "For business readers, this matters because recurring historical drivers can help interpret future economic signals more quickly.",
+      "affected_sectors": [
+        "Manufacturing"
+      ],
+      "article_candidate": {
+        "title": "Understanding Biomedical / Pharmaceutical Production Cycle in Singapore's Manufacturing Data",
+        "angle": "Translate historical industrial movements into practical business interpretation for investors and operators.",
+        "priority": "medium"
+      },
+      "governance": {
+        "sandbox_only": true,
+        "article_auto_publish_allowed": false,
+        "requires_editorial_review": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "insight_version": "business-insight-v0.1",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "attribution_bucket": "market_effect",
+      "source_cases": [
+        {
+          "case_id": "SG-ELECTRONICS-2018",
+          "period": "2018",
+          "series_name": "Electronics",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 70,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-ELECTRONICS-2020",
+          "period": "2020",
+          "series_name": "Electronics",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 56,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-ELECTRONICS-2021",
+          "period": "2021",
+          "series_name": "Electronics",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 77,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-ELECTRONICS-2022",
+          "period": "2022",
+          "series_name": "Electronics",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 42,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-M355381-1_1_1-2020-aug",
+          "period": "2020 Aug",
+          "series_name": "Semiconductors",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 35,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-SEMICONDUCTOR-2018",
+          "period": "2018",
+          "series_name": "Semiconductors",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 70,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-SEMICONDUCTOR-2022",
+          "period": "2022",
+          "series_name": "Semiconductors",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 70,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-SEMICONDUCTOR-RECOVERY-2021",
+          "period": "2021",
+          "series_name": "Semiconductors",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 35,
+          "evidence_count": 4
+        }
+      ],
+      "evidence_patterns": [
+        {
+          "phrase": "electronics demand",
+          "count": 13
+        },
+        {
+          "phrase": "semiconductor demand",
+          "count": 8
+        },
+        {
+          "phrase": "consumer electronics",
+          "count": 8
+        },
+        {
+          "phrase": "chip shortage",
+          "count": 7
+        },
+        {
+          "phrase": "wafer demand",
+          "count": 5
+        },
+        {
+          "phrase": "foundry demand",
+          "count": 5
+        },
+        {
+          "phrase": "memory demand",
+          "count": 5
+        },
+        {
+          "phrase": "logic chip demand",
+          "count": 5
+        },
+        {
+          "phrase": "data center chips",
+          "count": 5
+        },
+        {
+          "phrase": "global chip shortage",
+          "count": 4
+        }
+      ],
+      "case_count": 8,
+      "weighted_case_count": 8,
+      "maturity_stage": "developing_cluster",
+      "confidence_score": 1,
+      "experience_strength": 0.715,
+      "score_volatility": 16.205,
+      "recurrence_score": 0.625,
+      "persistence_score": 0.5,
+      "volatility_score": 0.352,
+      "bias_warnings": [
+        "HIGH_VOLATILITY"
+      ],
+      "confidence_tier": "developing_pattern",
+      "stability_assessment": "highly_volatile_pattern",
+      "recurrence_assessment": "partially_recurring",
+      "average_evidence_count": 4,
+      "average_driver_score": 56.875,
+      "weighted_average_driver_score": 56.875,
+      "signal_strength": "medium_high",
+      "business_implication": "Singapore's semiconductor manufacturing movements appear linked to global electronics and chip-cycle dynamics, suggesting that external technology demand can materially affect local industrial output.",
+      "why_it_matters": "For investors and operators, semiconductor-cycle exposure matters because Singapore can benefit from global technology demand but may also face volatility when chip demand, inventories, or electronics orders shift.",
+      "affected_sectors": [
+        "Semiconductors",
+        "Electronics",
+        "Advanced Manufacturing"
+      ],
+      "article_candidate": {
+        "title": "How Semiconductor Cycles Shape Singapore's Manufacturing Advantage",
+        "angle": "Use historical semiconductor output movements to explain why Singapore's manufacturing base is closely tied to global chip and electronics demand.",
+        "priority": "medium"
+      },
+      "governance": {
+        "sandbox_only": true,
+        "article_auto_publish_allowed": false,
+        "requires_editorial_review": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "insight_version": "business-insight-v0.1",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "attribution_bucket": "market_effect",
+      "source_cases": [
+        {
+          "case_id": "SG-CHEMICALS-2019",
+          "period": "2019",
+          "series_name": "Chemicals",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-MANUFACTURING-2001",
+          "period": "2001",
+          "series_name": "Total Manufacturing",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-MANUFACTURING-2008",
+          "period": "2008",
+          "series_name": "Total Manufacturing",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-MANUFACTURING-2009",
+          "period": "2009",
+          "series_name": "Total Manufacturing",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-MANUFACTURING-2020-SHOCK",
+          "period": "2020",
+          "series_name": "Total Manufacturing",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PETROCHEMICALS-2019",
+          "period": "2019",
+          "series_name": "Petrochemicals",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PETROCHEMICALS-2020",
+          "period": "2020",
+          "series_name": "Petrochemicals",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 28,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-TOTAL-MANUFACTURING-2020",
+          "period": "2020",
+          "series_name": "Total Manufacturing",
+          "confidence": "low",
+          "confidence_weight": 0.3,
+          "driver_score": 7,
+          "evidence_count": 4
+        }
+      ],
+      "evidence_patterns": [
+        {
+          "phrase": "global recession",
+          "count": 8
+        },
+        {
+          "phrase": "demand shock",
+          "count": 7
+        },
+        {
+          "phrase": "external downturn",
+          "count": 7
+        },
+        {
+          "phrase": "sharp demand fall",
+          "count": 7
+        }
+      ],
+      "case_count": 8,
+      "weighted_case_count": 7.3,
+      "maturity_stage": "developing_cluster",
+      "confidence_score": 0.912,
+      "experience_strength": 0.651,
+      "score_volatility": 6.945,
+      "recurrence_score": 0.625,
+      "persistence_score": 0.5,
+      "volatility_score": 0.722,
+      "bias_warnings": [],
+      "confidence_tier": "developing_pattern",
+      "stability_assessment": "moderately_stable_pattern",
+      "recurrence_assessment": "partially_recurring",
+      "average_evidence_count": 4,
+      "average_driver_score": 25.375,
+      "weighted_average_driver_score": 27.137,
+      "signal_strength": "medium_high",
+      "business_implication": "The case pattern suggests exposure to broad external demand shocks, where global disruptions can transmit quickly into Singapore's industrial production base.",
+      "why_it_matters": "For market-entry decisions, demand shocks matter because they reveal which sectors are resilient and which are vulnerable during global disruptions.",
+      "affected_sectors": [
+        "Manufacturing"
+      ],
+      "article_candidate": {
+        "title": "How Global Demand Shocks Move Through Singapore's Industrial Base",
+        "angle": "Use historical demand-shock episodes to show how external disruptions affect Singapore's manufacturing sectors.",
+        "priority": "medium"
+      },
+      "governance": {
+        "sandbox_only": true,
+        "article_auto_publish_allowed": false,
+        "requires_editorial_review": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "insight_version": "business-insight-v0.1",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "attribution_bucket": "portfolio_effect",
+      "source_cases": [
+        {
+          "case_id": "SG-ELECTRONICS-2019",
+          "period": "2019",
+          "series_name": "Electronics",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 35,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-ELECTRONICS-2023",
+          "period": "2023",
+          "series_name": "Electronics",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 35,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PRECISION-ENGINEERING-2023",
+          "period": "2023",
+          "series_name": "Precision Engineering",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 35,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-SEMICONDUCTOR-2019",
+          "period": "2019",
+          "series_name": "Semiconductors",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 35,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-SEMICONDUCTOR-2023",
+          "period": "2023",
+          "series_name": "Semiconductors",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 35,
+          "evidence_count": 4
+        }
+      ],
+      "evidence_patterns": [
+        {
+          "phrase": "inventory restocking",
+          "count": 5
+        },
+        {
+          "phrase": "restocking",
+          "count": 5
+        },
+        {
+          "phrase": "channel inventory",
+          "count": 5
+        },
+        {
+          "phrase": "customer inventory",
+          "count": 5
+        },
+        {
+          "phrase": "stockpiling",
+          "count": 5
+        },
+        {
+          "phrase": "inventory correction",
+          "count": 5
+        },
+        {
+          "phrase": "inventory drawdown",
+          "count": 5
+        }
+      ],
+      "case_count": 5,
+      "weighted_case_count": 5,
+      "maturity_stage": "developing_cluster",
+      "confidence_score": 1,
+      "experience_strength": 0.638,
+      "score_volatility": 0,
+      "recurrence_score": 0.4,
+      "persistence_score": 0.2,
+      "volatility_score": 1,
+      "bias_warnings": [
+        "LOW_PERSISTENCE",
+        "LOW_RECURRENCE"
+      ],
+      "confidence_tier": "emerging_pattern",
+      "stability_assessment": "stable_pattern",
+      "recurrence_assessment": "limited_recurrence",
+      "average_evidence_count": 4,
+      "average_driver_score": 35,
+      "weighted_average_driver_score": 35,
+      "signal_strength": "medium",
+      "business_implication": "The case pattern suggests that Inventory Cycle / Restocking is a meaningful explanatory driver for selected Singapore manufacturing movements.",
+      "why_it_matters": "For business readers, this matters because recurring historical drivers can help interpret future economic signals more quickly.",
+      "affected_sectors": [
+        "Manufacturing"
+      ],
+      "article_candidate": {
+        "title": "Understanding Inventory Cycle / Restocking in Singapore's Manufacturing Data",
+        "angle": "Translate historical industrial movements into practical business interpretation for investors and operators.",
+        "priority": "medium"
+      },
+      "governance": {
+        "sandbox_only": true,
+        "article_auto_publish_allowed": false,
+        "requires_editorial_review": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "insight_version": "business-insight-v0.1",
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "attribution_bucket": "operational_effect",
+      "source_cases": [
+        {
+          "case_id": "SG-OPERATIONS-2020-COVID",
+          "period": "2020",
+          "series_name": "Manufacturing Operations",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 49,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-OPERATIONS-2021-SUPPLY",
+          "period": "2021",
+          "series_name": "Manufacturing Operations",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 49,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-OPERATIONS-2022-SUPPLY",
+          "period": "2022",
+          "series_name": "Manufacturing Operations",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 49,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-REFINING-2020",
+          "period": "2020",
+          "series_name": "Refining",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 49,
+          "evidence_count": 4
+        }
+      ],
+      "evidence_patterns": [
+        {
+          "phrase": "maintenance shutdown",
+          "count": 4
+        },
+        {
+          "phrase": "plant shutdown",
+          "count": 4
+        },
+        {
+          "phrase": "production disruption",
+          "count": 4
+        },
+        {
+          "phrase": "supply disruption",
+          "count": 4
+        },
+        {
+          "phrase": "factory closure",
+          "count": 4
+        },
+        {
+          "phrase": "covid restrictions",
+          "count": 4
+        },
+        {
+          "phrase": "supply constraints",
+          "count": 4
+        }
+      ],
+      "case_count": 4,
+      "weighted_case_count": 4,
+      "maturity_stage": "early_cluster",
+      "confidence_score": 1,
+      "experience_strength": 0.633,
+      "score_volatility": 0,
+      "recurrence_score": 0.75,
+      "persistence_score": 0.3,
+      "volatility_score": 1,
+      "bias_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "confidence_tier": "emerging_pattern",
+      "stability_assessment": "stable_pattern",
+      "recurrence_assessment": "partially_recurring",
+      "average_evidence_count": 4,
+      "average_driver_score": 49,
+      "weighted_average_driver_score": 49,
+      "signal_strength": "early_signal",
+      "business_implication": "The case pattern suggests that Operational Disruption is a meaningful explanatory driver for selected Singapore manufacturing movements.",
+      "why_it_matters": "For business readers, this matters because recurring historical drivers can help interpret future economic signals more quickly.",
+      "affected_sectors": [
+        "Manufacturing"
+      ],
+      "article_candidate": {
+        "title": "Understanding Operational Disruption in Singapore's Manufacturing Data",
+        "angle": "Translate historical industrial movements into practical business interpretation for investors and operators.",
+        "priority": "medium"
+      },
+      "governance": {
+        "sandbox_only": true,
+        "article_auto_publish_allowed": false,
+        "requires_editorial_review": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "insight_version": "business-insight-v0.1",
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "attribution_bucket": "market_effect",
+      "source_cases": [
+        {
+          "case_id": "SG-PETROLEUM-2018",
+          "period": "2018",
+          "series_name": "Petroleum",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 48,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PETROLEUM-2019",
+          "period": "2019",
+          "series_name": "Petroleum",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 48,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PETROLEUM-2020",
+          "period": "2020",
+          "series_name": "Petroleum",
+          "confidence": "medium",
+          "confidence_weight": 0.6,
+          "driver_score": 18,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PETROLEUM-2021",
+          "period": "2021",
+          "series_name": "Petroleum",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 48,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-PETROLEUM-2022",
+          "period": "2022",
+          "series_name": "Petroleum",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 48,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-REFINING-2021",
+          "period": "2021",
+          "series_name": "Refining",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 48,
+          "evidence_count": 4
+        }
+      ],
+      "evidence_patterns": [
+        {
+          "phrase": "fuel demand",
+          "count": 6
+        },
+        {
+          "phrase": "jet fuel demand",
+          "count": 6
+        },
+        {
+          "phrase": "refinery maintenance",
+          "count": 6
+        },
+        {
+          "phrase": "oil demand",
+          "count": 5
+        },
+        {
+          "phrase": "petroleum demand",
+          "count": 5
+        },
+        {
+          "phrase": "travel demand",
+          "count": 5
+        },
+        {
+          "phrase": "refining margin",
+          "count": 5
+        },
+        {
+          "phrase": "crude oil",
+          "count": 5
+        }
+      ],
+      "case_count": 6,
+      "weighted_case_count": 5.6,
+      "maturity_stage": "developing_cluster",
+      "confidence_score": 0.933,
+      "experience_strength": 0.606,
+      "score_volatility": 11.18,
+      "recurrence_score": 0.833,
+      "persistence_score": 0.5,
+      "volatility_score": 0.553,
+      "bias_warnings": [],
+      "confidence_tier": "emerging_pattern",
+      "stability_assessment": "volatile_pattern",
+      "recurrence_assessment": "recurring_across_periods",
+      "average_evidence_count": 4,
+      "average_driver_score": 43,
+      "weighted_average_driver_score": 44.786,
+      "signal_strength": "medium",
+      "business_implication": "Singapore's petroleum-related manufacturing movements appear linked to energy demand and refining-cycle conditions, suggesting exposure to global fuel demand, travel activity, and refinery operations.",
+      "why_it_matters": "For businesses, energy-cycle exposure matters because petroleum and refining movements can signal changes in trade, logistics, travel, and industrial demand conditions.",
+      "affected_sectors": [
+        "Petroleum",
+        "Refining",
+        "Energy",
+        "Logistics"
+      ],
+      "article_candidate": {
+        "title": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles",
+        "angle": "Explain how petroleum-related manufacturing movements reflect fuel demand, travel recovery, refining margins, and operational factors.",
+        "priority": "medium"
+      },
+      "governance": {
+        "sandbox_only": true,
+        "article_auto_publish_allowed": false,
+        "requires_editorial_review": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "insight_version": "business-insight-v0.1",
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "attribution_bucket": "operational_effect",
+      "source_cases": [
+        {
+          "case_id": "SG-CAPACITY-EXPANSION-2018",
+          "period": "2018",
+          "series_name": "Manufacturing Capacity",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 42,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-CAPACITY-EXPANSION-2021",
+          "period": "2021",
+          "series_name": "Manufacturing Capacity",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 42,
+          "evidence_count": 4
+        },
+        {
+          "case_id": "SG-CAPACITY-EXPANSION-2022",
+          "period": "2022",
+          "series_name": "Manufacturing Capacity",
+          "confidence": "high",
+          "confidence_weight": 1,
+          "driver_score": 42,
+          "evidence_count": 4
+        }
+      ],
+      "evidence_patterns": [
+        {
+          "phrase": "capacity expansion",
+          "count": 3
+        },
+        {
+          "phrase": "production ramp-up",
+          "count": 3
+        },
+        {
+          "phrase": "new plant",
+          "count": 3
+        },
+        {
+          "phrase": "new facility",
+          "count": 3
+        },
+        {
+          "phrase": "higher capacity",
+          "count": 3
+        },
+        {
+          "phrase": "capacity addition",
+          "count": 3
+        },
+        {
+          "phrase": "ramp up",
+          "count": 3
+        }
+      ],
+      "case_count": 3,
+      "weighted_case_count": 3,
+      "maturity_stage": "early_cluster",
+      "confidence_score": 1,
+      "experience_strength": 0.575,
+      "score_volatility": 0,
+      "recurrence_score": 1,
+      "persistence_score": 0.3,
+      "volatility_score": 1,
+      "bias_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "confidence_tier": "emerging_pattern",
+      "stability_assessment": "stable_pattern",
+      "recurrence_assessment": "partially_recurring",
+      "average_evidence_count": 4,
+      "average_driver_score": 42,
+      "weighted_average_driver_score": 42,
+      "signal_strength": "early_signal",
+      "business_implication": "The case pattern suggests that capacity expansion and production ramp-up can create meaningful changes in output, making investment and plant-level activity important signals.",
+      "why_it_matters": "For business planners, capacity expansion matters because it can signal where production ecosystems, suppliers, and investment opportunities may deepen.",
+      "affected_sectors": [
+        "Manufacturing"
+      ],
+      "article_candidate": {
+        "title": "Understanding Capacity Expansion in Singapore's Manufacturing Data",
+        "angle": "Translate historical industrial movements into practical business interpretation for investors and operators.",
+        "priority": "medium"
+      },
+      "governance": {
+        "sandbox_only": true,
+        "article_auto_publish_allowed": false,
+        "requires_editorial_review": true,
+        "production_mutation_allowed": false
+      }
+    }
+  ]
+}

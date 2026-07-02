@@ -1,0 +1,23 @@
+{
+  "sandbox_overrides_version": "sandbox-overrides-v0.1",
+  "purpose": "Temporary sandbox-only ground truth records for testing replay accuracy without mutating production case files.",
+  "production_mutation_allowed": false,
+  "records": [
+    {
+      "case_id": "SG-M355381-1_1-2026-apr",
+      "primary_driver": "MKT_001",
+      "primary_driver_name": "Global Demand Surge",
+      "ground_truth_source": "sandbox_override",
+      "ground_truth_confidence": "test",
+      "sandbox_only": true
+    },
+    {
+      "case_id": "SG-M355381-1_1_1-2026-apr",
+      "primary_driver": "MKT_001",
+      "primary_driver_name": "Global Demand Surge",
+      "ground_truth_source": "sandbox_override",
+      "ground_truth_confidence": "test",
+      "sandbox_only": true
+    }
+  ]
+}

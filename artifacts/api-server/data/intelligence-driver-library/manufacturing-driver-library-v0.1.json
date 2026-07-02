@@ -1,0 +1,48 @@
+{
+  "library_version": "manufacturing-driver-library-v0.1",
+  "sector": "Manufacturing",
+
+  "drivers": [
+    {
+      "driver_id": "MKT_001",
+      "name": "Global Demand Surge",
+      "bucket": "market_effect",
+      "description": "Strong global demand increases production and exports."
+    },
+
+    {
+      "driver_id": "MKT_002",
+      "name": "Inventory Replenishment",
+      "bucket": "market_effect",
+      "description": "Customers rebuild depleted inventories."
+    },
+
+    {
+      "driver_id": "OPS_001",
+      "name": "Capacity Expansion",
+      "bucket": "operational_effect",
+      "description": "New production capacity becomes available."
+    },
+
+    {
+      "driver_id": "OPS_002",
+      "name": "Plant Restart",
+      "bucket": "operational_effect",
+      "description": "Production resumes after maintenance or shutdown."
+    },
+
+    {
+      "driver_id": "POL_001",
+      "name": "Government Incentive",
+      "bucket": "policy_effect",
+      "description": "Policy support stimulates activity."
+    },
+
+    {
+      "driver_id": "PORT_001",
+      "name": "Industry Mix Shift",
+      "bucket": "portfolio_effect",
+      "description": "Higher-weight industries drive aggregate growth."
+    }
+  ]
+}

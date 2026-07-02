@@ -1,0 +1,20 @@
+{
+  "hypothesis_version": "hypothesis-engine-v0.1",
+  "generated_at": "2026-06-02T15:01:29.205Z",
+  "case_id": "SG-M355381-1_2_4-2026-apr",
+  "observation": {
+    "latest_value": 110.958,
+    "month_on_month_change_pct": 34.33497179108453,
+    "year_on_year_change_pct": 8.75996118446202
+  },
+  "confidence": "unknown",
+  "hypotheses": [
+    {
+      "hypothesis_id": "PORT_001",
+      "name": "Industry Mix Shift",
+      "bucket": "portfolio_effect",
+      "status": "candidate",
+      "reason": "Generated from manufacturing driver library based on YoY movement (8.76%)."
+    }
+  ]
+}

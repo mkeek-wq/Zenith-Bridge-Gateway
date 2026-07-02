@@ -1,0 +1,17 @@
+{
+  "id": "cms_draft_1781411058350",
+  "source": "znbw_intelligence_engine",
+  "candidate_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+  "status": "draft",
+  "title": "Sanitize Test Draft 2",
+  "slug": "sanitize-test-draft-2",
+  "markdown": "# Test\n\nZNBW Intelligence Engine identified a pattern. ZNBW Intelligence Engine should not appear. ZNBW Intelligence Engine should not appear.",
+  "created_at": "2026-06-14T04:24:18.350Z",
+  "updated_at": "2026-06-14T04:24:18.350Z",
+  "governance": {
+    "publication_ready": false,
+    "requires_editorial_review": true,
+    "requires_source_review": true,
+    "generated_from_candidate": true
+  }
+}

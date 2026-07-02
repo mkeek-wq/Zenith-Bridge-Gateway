@@ -1,0 +1,19 @@
+{
+  "historical_evidence_pilot_version": "historical-evidence-pilot-v0.1",
+  "case_id": "SG-ELECTRONICS-2020",
+  "period": "2020",
+  "series_name": "Electronics",
+  "source_context": "Bulk sandbox historical replay evidence pilot. Synthetic seed evidence for attribution-learning pipeline testing; not production evidence.",
+  "governance": {
+    "sandbox_only": true,
+    "bulk_seed": true,
+    "manual_review_required": true,
+    "production_mutation_allowed": false
+  },
+  "evidence_items": [
+    "Singapore electronics output in 2020 was influenced by electronics demand, semiconductor demand, and work-from-home demand.",
+    "Global chip shortage conditions and consumer electronics demand affected electronics production patterns.",
+    "Data center chips and wafer demand supported parts of the electronics manufacturing base.",
+    "Supply constraints and changing export demand shaped electronics output during the year."
+  ]
+}

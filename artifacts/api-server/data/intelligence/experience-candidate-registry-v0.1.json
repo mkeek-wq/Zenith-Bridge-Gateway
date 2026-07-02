@@ -1,0 +1,29 @@
+{
+  "registry_version": "experience-candidate-registry-v0.1",
+  "generated_at": "2026-06-10T04:02:10.725Z",
+  "candidates_registered": 1,
+  "candidates": [
+    {
+      "experience_candidate_id": "SG-NODX-2023-EXP-CANDIDATE-v0.1",
+      "case_id": "SG-NODX-2023",
+      "mechanism_ids": [
+        "MKT_010"
+      ],
+      "source_comparison": "data/replay/wave-1/SG-NODX-2023-outcome-comparison-v0.1.json",
+      "source_gate": "data/replay/wave-1/SG-NODX-2023-experience-promotion-gate-v0.1.json",
+      "alignment_score": 0.78,
+      "alignment_band": "strong_alignment",
+      "promotion_status": "approved_as_experience_candidate",
+      "candidate_status": "registered_candidate",
+      "candidate_summary": "Replay outcome aligned with observed NODX contraction, supporting MKT_010 as an external demand/trade downturn explanation candidate.",
+      "observed_outcome": {
+        "outcome_id": "SG-NODX-2023-OUTCOME",
+        "observed_period": "2023",
+        "outcome_summary": "Singapore NODX experienced a trade downturn in 2023, consistent with weak external demand and softer global trade conditions.",
+        "outcome_direction": "contraction",
+        "source_status": "historical_outcome_recorded"
+      },
+      "governance_note": "Candidate registration does not validate the mechanism or permanently promote the experience."
+    }
+  ]
+}

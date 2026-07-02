@@ -1,0 +1,21 @@
+{
+  "registry_version": "intelligence-delta-brief-engine-v0.1",
+  "created_at": "2026-06-08T08:46:41.315Z",
+  "doctrine": {
+    "delta_brief_tracks_change_not_truth": true,
+    "case_memory_is_not_prediction": true,
+    "evidence_remains_primary": true,
+    "human_review_required_for_action": true
+  },
+  "inputs": {
+    "timeline_items": 1,
+    "mechanism_trends": 3,
+    "evolution_changes": 1
+  },
+  "brief": {
+    "title": "SMURF Intelligence Delta Brief v0.1",
+    "latest_case_id": "SMURF_CASE_001",
+    "previous_snapshot_available": false,
+    "markdown": "# SMURF Intelligence Delta Brief v0.1\n\nGenerated: 2026-06-08T08:46:41.315Z\n\n## Current Case State\n\n- Latest case: SMURF_CASE_001\n- Confidence: 0.481 (low)\n- Recommended posture: focused_monitoring\n- Contradictions: 5\n- Candidate discoveries: 2\n\n## Change Since Previous Snapshot\n\nNo previous snapshot available. Current case remains the baseline.\n\n## Mechanism Trends\n\n- **Policy / Regulatory Impact**: stable; latest confidence 0.455; promotion 0.45; status do_not_promote.\n- **Demand Shock / External Downturn**: stable; latest confidence 0.536; promotion 0.56; status watch_for_promotion.\n- **Inventory Cycle / Restocking**: stable; latest confidence 0.414; promotion 0.433; status do_not_promote.\n\n## Evolution Notes\n\n- first_case_snapshot: No prior case snapshot found. Current case becomes baseline.\n\n## Governance Note\n\nThis delta brief tracks change across SMURF case snapshots. It does not validate mechanisms, predict outcomes, or trigger lifecycle mutation. Human review remains required."
+  }
+}

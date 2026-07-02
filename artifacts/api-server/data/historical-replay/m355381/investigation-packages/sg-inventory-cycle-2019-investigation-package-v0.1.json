@@ -1,0 +1,43 @@
+{
+  "investigation_package_version": "historical-investigation-package-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-INVENTORY-CYCLE-2019",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_candidate_file": "inventory-cluster-seed-v0.1",
+  "case_summary": {
+    "period": "2019",
+    "series_no": "SG-INVENTORY-CYCLE-2019",
+    "series_name": "Inventory Cycle / Restocking",
+    "priority": "critical",
+    "direction": "mixed",
+    "latest_value": null,
+    "month_on_month_change_pct": null,
+    "year_on_year_change_pct": null
+  },
+  "driver_candidates": [
+    {
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking"
+    },
+    {
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle"
+    },
+    {
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness"
+    }
+  ],
+  "expected_mechanisms": [
+    "Inventory adjustment reflected electronics and semiconductor stock-cycle changes.",
+    "Firms adjusted production and orders as inventories normalized after prior demand conditions.",
+    "Export demand weakness acted as a secondary pressure on inventory management.",
+    "The primary mechanism was inventory cycle and restocking adjustment."
+  ],
+  "investigation_status": {
+    "evidence_collected": false,
+    "attribution_scored": false,
+    "outcome_ready": false
+  }
+}

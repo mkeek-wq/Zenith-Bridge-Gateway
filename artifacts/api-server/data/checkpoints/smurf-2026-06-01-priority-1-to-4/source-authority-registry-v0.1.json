@@ -1,0 +1,59 @@
+{
+  "registry_version": "source-authority-registry-v0.1",
+  "principle": "Authority tier outranks score. A lower numerical score in Tier A outranks a higher numerical score in Tier B.",
+  "tiers": {
+    "A": {
+      "label": "Primary / official sources",
+      "rank": 1
+    },
+    "B": {
+      "label": "Tier-1 professional / institutional media",
+      "rank": 2
+    },
+    "C": {
+      "label": "Industry / corporate / trade sources",
+      "rank": 3
+    },
+    "D": {
+      "label": "General commentary / blogs / low-authority sources",
+      "rank": 4
+    }
+  },
+  "sources": {
+    "SG_SINGSTAT": {
+      "name": "Singapore Department of Statistics",
+      "tier": "A",
+      "authority_score": 100
+    },
+    "SG_MAS": {
+      "name": "Monetary Authority of Singapore",
+      "tier": "A",
+      "authority_score": 100
+    },
+    "SG_MTI": {
+      "name": "Ministry of Trade and Industry Singapore",
+      "tier": "A",
+      "authority_score": 98
+    },
+    "SG_EDB": {
+      "name": "Singapore Economic Development Board",
+      "tier": "A",
+      "authority_score": 98
+    },
+    "REUTERS": {
+      "name": "Reuters",
+      "tier": "B",
+      "authority_score": 95
+    },
+    "BLOOMBERG": {
+      "name": "Bloomberg",
+      "tier": "B",
+      "authority_score": 94
+    },
+    "FINANCIAL_TIMES": {
+      "name": "Financial Times",
+      "tier": "B",
+      "authority_score": 92
+    }
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "registry_version": "metric-registry-v0.3",
+  "governance_principle": "Metric names must be stable, explicit, and conservative. Metric keywords identify what is being measured, not how it is compared. Comparison phrases such as year-on-year, month-on-month, previous month, and compared to belong in comparison_basis logic, not metric identity. If a metric cannot be classified confidently, use UNCLASSIFIED_PERCENTAGE rather than forcing a label.",
+  "naming_convention": {
+    "style": "UPPER_SNAKE_CASE",
+    "pattern": "DOMAIN_METRIC_MEASURE_BASIS",
+    "examples": [
+      "GDP_GROWTH_YOY",
+      "CPI_GROWTH_MOM",
+      "MANUFACTURING_OUTPUT_CHANGE_MOM",
+      "INDUSTRIAL_OCCUPANCY_RATE",
+      "CORPORATE_SECTOR_TOTAL_ASSETS_CHANGE_YOY"
+    ]
+  },
+  "fallback_metric": {
+    "metric_code": "UNCLASSIFIED_PERCENTAGE",
+    "metric_label": "Unclassified percentage",
+    "use_when": "A percentage is detected but the surrounding context does not match an approved metric definition with sufficient confidence."
+  },
+  "metrics": [
+    {
+      "metric_code": "GDP_GROWTH_YOY",
+      "metric_label": "GDP growth, year-on-year",
+      "domain": "economy",
+      "unit": "%",
+      "default_comparison_basis": "year_on_year",
+      "keywords": ["gdp", "economy", "gross domestic product"]
+    },
+    {
+      "metric_code": "CPI_GROWTH_YOY",
+      "metric_label": "Consumer Price Index growth, year-on-year",
+      "domain": "prices",
+      "unit": "%",
+      "default_comparison_basis": "year_on_year",
+      "keywords": ["consumer price index", "cpi"]
+    },
+    {
+      "metric_code": "CPI_GROWTH_MOM",
+      "metric_label": "Consumer Price Index growth, month-on-month",
+      "domain": "prices",
+      "unit": "%",
+      "default_comparison_basis": "month_on_month",
+      "keywords": ["consumer price index", "cpi"]
+    },
+    {
+      "metric_code": "CPI_FULL_YEAR_YOY",
+      "metric_label": "Consumer Price Index growth, full-year year-on-year",
+      "domain": "prices",
+      "unit": "%",
+      "default_comparison_basis": "year_on_year",
+      "keywords": ["consumer price index", "cpi"]
+    },
+    {
+      "metric_code": "MANUFACTURING_OUTPUT_CHANGE_MOM",
+      "metric_label": "Manufacturing output change, month-on-month",
+      "domain": "industry",
+      "unit": "%",
+      "default_comparison_basis": "month_on_month",
+      "keywords": ["manufacturing output", "seasonally adjusted"]
+    },
+    {
+      "metric_code": "BUSINESS_RECEIPTS_CHANGE_YOY",
+      "metric_label": "Business receipts change, year-on-year",
+      "domain": "services",
+      "unit": "%",
+      "default_comparison_basis": "year_on_year",
+      "keywords": ["business receipts", "services sector"]
+    },
+    {
+      "metric_code": "PERSONAL_DISPOSABLE_INCOME_CHANGE_YOY",
+      "metric_label": "Personal disposable income change, year-on-year",
+      "domain": "households",
+      "unit": "%",
+      "default_comparison_basis": "year_on_year",
+      "keywords": ["personal disposable income", "nominal terms"]
+    },
+    {
+      "metric_code": "PERSONAL_SAVING_RATE",
+      "metric_label": "Personal saving rate",
+      "domain": "households",
+      "unit": "%",
+      "default_comparison_basis": "level",
+      "keywords": ["personal saving rate", "saving rate"]
+    },
+    {
+      "metric_code": "HOUSEHOLD_NET_WORTH_CHANGE_YOY",
+      "metric_label": "Household net worth change, year-on-year",
+      "domain": "households",
+      "unit": "%",
+      "default_comparison_basis": "year_on_year",
+      "keywords": ["household net worth"]
+    },
+    {
+      "metric_code": "RETAIL_SALES_CHANGE_YOY",
+      "metric_label": "Retail sales change, year-on-year",
+      "domain": "services",
+      "unit": "%",
+      "default_comparison_basis": "year_on_year",
+      "keywords": ["retail sales", "retail trade"]
+    },
+    {
+      "metric_code": "FNB_SERVICES_CHANGE_YOY",
+      "metric_label": "Food and beverage services change, year-on-year",
+      "domain": "services",
+      "unit": "%",
+      "default_comparison_basis": "year_on_year",
+      "keywords": ["food & beverage", "food and beverage", "f&b services"]
+    },
+    {
+      "metric_code": "NODX_CHANGE_YOY",
+      "metric_label": "Non-oil domestic exports change, year-on-year",
+      "domain": "trade",
+      "unit": "%",
+      "default_comparison_basis": "year_on_year",
+      "keywords": ["non-oil domestic exports", "nodx"]
+    },
+    {
+      "metric_code": "DOMESTIC_WHOLESALE_SALES_CHANGE_YOY",
+      "metric_label": "Domestic wholesale sales change, year-on-year",
+      "domain": "trade",
+      "unit": "%",
+      "default_comparison_basis": "year_on_year",
+      "keywords": ["domestic wholesale sales"]
+    },
+    {
+      "metric_code": "FOREIGN_WHOLESALE_SALES_CHANGE_YOY",
+      "metric_label": "Foreign wholesale sales change, year-on-year",
+      "domain": "trade",
+      "unit": "%",
+      "default_comparison_basis": "year_on_year",
+      "keywords": ["foreign wholesale sales"]
+    },
+    {
+      "metric_code": "FDI_FLOW_CHANGE",
+      "metric_label": "Foreign direct investment flow change",
+      "domain": "trade_investment",
+      "unit": "%",
+      "default_comparison_basis": "contextual",
+      "keywords": ["foreign direct investment", "fdi", "flows"]
+    },
+    {
+      "metric_code": "PRIVATE_RESIDENTIAL_PRICE_INDEX_CHANGE_QOQ",
+      "metric_label": "Private residential property price index change, quarter-on-quarter",
+      "domain": "real_estate",
+      "unit": "%",
+      "default_comparison_basis": "quarter_on_quarter",
+      "keywords": ["private residential properties", "private residential property", "price index"]
+    },
+    {
+      "metric_code": "OFFICE_PRICE_INDEX_CHANGE_QOQ",
+      "metric_label": "Office price index change, quarter-on-quarter",
+      "domain": "real_estate",
+      "unit": "%",
+      "default_comparison_basis": "quarter_on_quarter",
+      "keywords": ["office price index", "office price", "office space price"]
+    },
+    {
+      "metric_code": "RETAIL_PROPERTY_PRICE_INDEX_CHANGE_QOQ",
+      "metric_label": "Retail property price index change, quarter-on-quarter",
+      "domain": "real_estate",
+      "unit": "%",
+      "default_comparison_basis": "quarter_on_quarter",
+      "keywords": ["retail property price index", "retail space price", "retail property"]
+    },
+    {
+      "metric_code": "INDUSTRIAL_OCCUPANCY_RATE",
+      "metric_label": "Industrial property occupancy rate",
+      "domain": "real_estate",
+      "unit": "%",
+      "default_comparison_basis": "level",
+      "keywords": ["overall occupancy rate", "industrial property market"]
+    },
+    {
+      "metric_code": "CORPORATE_SECTOR_TOTAL_ASSETS_CHANGE_YOY",
+      "metric_label": "Corporate sector total assets change, year-on-year",
+      "domain": "corporate_sector",
+      "unit": "%",
+      "default_comparison_basis": "year_on_year",
+      "keywords": ["total assets of singapore", "corporate sector increased", "corporate sector decreased", "corporate sector declined"]
+    },
+    {
+      "metric_code": "INDUSTRIAL_PRICE_INDEX_CHANGE_QOQ",
+      "metric_label": "Industrial property price index change, quarter-on-quarter",
+      "domain": "real_estate",
+      "unit": "%",
+      "default_comparison_basis": "quarter_on_quarter",
+      "keywords": ["industrial price index", "price indices of industrial space"]
+    },
+    {
+      "metric_code": "INDUSTRIAL_RENTAL_INDEX_CHANGE_QOQ",
+      "metric_label": "Industrial rental index change, quarter-on-quarter",
+      "domain": "real_estate",
+      "unit": "%",
+      "default_comparison_basis": "quarter_on_quarter",
+      "keywords": ["industrial rental index", "rental indices of industrial space"]
+    },
+    {
+      "metric_code": "HDB_RESALE_PRICE_INDEX_CHANGE_QOQ",
+      "metric_label": "HDB resale price index change, quarter-on-quarter",
+      "domain": "housing",
+      "unit": "%",
+      "default_comparison_basis": "quarter_on_quarter",
+      "keywords": ["hdb resale price index"]
+    },
+    {
+      "metric_code": "HDB_RESALE_TRANSACTION_CHANGE_QOQ",
+      "metric_label": "HDB resale transaction change, quarter-on-quarter",
+      "domain": "housing",
+      "unit": "%",
+      "default_comparison_basis": "quarter_on_quarter",
+      "keywords": ["resale transactions", "hdb resale transactions"]
+    },
+    {
+      "metric_code": "HDB_RENTED_FLATS_CHANGE_QOQ",
+      "metric_label": "HDB rented flats change, quarter-on-quarter",
+      "domain": "housing",
+      "unit": "%",
+      "default_comparison_basis": "quarter_on_quarter",
+      "keywords": ["hdb flats rented out", "rented out"]
+    },
+    {
+      "metric_code": "INTERNATIONAL_INVESTMENT_POSITION_CHANGE_QOQ",
+      "metric_label": "International investment position change, quarter-on-quarter",
+      "domain": "investment",
+      "unit": "%",
+      "default_comparison_basis": "quarter_on_quarter",
+      "keywords": ["international investment position", "net asset position"]
+    },
+    {
+      "metric_code": "DIRECT_INVESTMENT_ABROAD_CHANGE_YOY",
+      "metric_label": "Direct investment abroad change, year-on-year",
+      "domain": "investment",
+      "unit": "%",
+      "default_comparison_basis": "year_on_year",
+      "keywords": ["direct investment abroad", "dia", "stock of singapore"]
+    }
+  ]
+}

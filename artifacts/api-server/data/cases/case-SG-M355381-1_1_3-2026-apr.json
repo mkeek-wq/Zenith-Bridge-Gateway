@@ -1,0 +1,175 @@
+{
+  "case_version": "case-file-v0.1",
+  "case_id": "SG-M355381-1_1_3-2026-apr",
+  "country": "Singapore",
+  "institution": "Economic Development Board",
+  "source_system": "SingStat TableBuilder",
+  "table_id": "M355381",
+  "period": "2026 Apr",
+  "series_no": "1.1.3",
+  "series_name": "Infocomms & Consumer Electronics",
+  "case_status": "closed",
+  "priority": "critical",
+  "confidence": "unknown",
+  "conclusion_status": "attributed",
+  "opened_at": "2026-06-02T14:38:49.900Z",
+  "last_updated_at": "2026-06-03T08:09:11.553Z",
+  "observation": {
+    "latest_value": 173.489,
+    "month_on_month_change_pct": 13.259737037955846,
+    "year_on_year_change_pct": 129.60428798305983
+  },
+  "evidence_status": {
+    "internal_evidence_count": 10,
+    "relevant_evidence_count": 0,
+    "evidence_quality": "poor",
+    "external_search_required": false,
+    "relevant_evidence": []
+  },
+  "attribution": {
+    "market_effect": {
+      "score": 0,
+      "evidence": [],
+      "note": "External or global market movement, demand cycle, regional industry trend."
+    },
+    "portfolio_effect": {
+      "score": 0,
+      "evidence": [],
+      "note": "Composition effect within Singapore manufacturing or sub-sector mix."
+    },
+    "operational_effect": {
+      "score": 0,
+      "evidence": [],
+      "note": "Maintenance, shutdown, disruption, capacity change, plant-level event."
+    },
+    "policy_effect": {
+      "score": 0,
+      "evidence": [],
+      "note": "Regulatory, tax, incentive, trade restriction, or government policy driver."
+    },
+    "unknown_effect": {
+      "score": 10,
+      "evidence": [],
+      "note": "Default bucket. Movement is confirmed but not yet explained by evidence."
+    }
+  },
+  "workflow": {
+    "next_action": "none",
+    "publication_status": "not_published",
+    "state_last_evaluated_at": "2026-06-03T08:09:11.553Z"
+  },
+  "analyst_note": "Persistent case file created from attribution investigation. Case remains open until evidence supports attribution or formal closure.",
+  "outcome": {
+    "primary_driver": "MKT_001",
+    "primary_driver_name": "Global Demand Surge",
+    "confidence": "high",
+    "closed_at": "2026-06-03T08:09:11.553Z",
+    "revision_number": 2,
+    "closure_note": "Reclosed after governed manual review test"
+  },
+  "confidence_reason": {
+    "rule_applied": "UNKNOWN_V1",
+    "relevant_evidence_count": 0,
+    "evidence_quality": "poor",
+    "unknown_effect": 10,
+    "conclusion_status": "attributed"
+  },
+  "reopen_control": {
+    "version": "reopen-governance-v0.1",
+    "reopened_at": "2026-06-03T08:06:19.512Z",
+    "reopen_reason": "manual_review",
+    "reopen_note": "Testing governed reopen controls after outcome recommendation v0.2",
+    "previous_state": {
+      "case_status": "closed",
+      "conclusion_status": "attributed",
+      "confidence": "unknown",
+      "outcome": {
+        "primary_driver": "MKT_001",
+        "primary_driver_name": "Global Demand Surge",
+        "confidence": "high",
+        "closed_at": "2026-06-02T15:01:04.192Z"
+      },
+      "workflow": {
+        "next_action": "none",
+        "publication_status": "not_published",
+        "state_last_evaluated_at": "2026-06-02T15:01:21.972Z"
+      },
+      "last_updated_at": "2026-06-02T15:01:21.972Z"
+    }
+  },
+  "outcome_history": [
+    {
+      "archived_at": "2026-06-03T08:06:19.512Z",
+      "archive_reason": "case_reopened",
+      "outcome": {
+        "primary_driver": "MKT_001",
+        "primary_driver_name": "Global Demand Surge",
+        "confidence": "high",
+        "closed_at": "2026-06-02T15:01:04.192Z"
+      },
+      "previous_case_status": "closed",
+      "previous_conclusion_status": "attributed"
+    },
+    {
+      "archived_at": "2026-06-03T08:09:11.553Z",
+      "archive_reason": "case_closed_with_new_outcome",
+      "revision_number": 1,
+      "outcome": {
+        "primary_driver": "MKT_001",
+        "primary_driver_name": "Global Demand Surge",
+        "confidence": "high",
+        "closed_at": "2026-06-02T15:01:04.192Z"
+      },
+      "previous_case_status": "reopened",
+      "previous_conclusion_status": "under_review"
+    }
+  ],
+  "revision_number": 2,
+  "revision_control": {
+    "version": "case-closure-revision-v0.1",
+    "revised_at": "2026-06-03T08:09:11.553Z",
+    "revision_number": 2,
+    "previous_revision_number": 1,
+    "closure_note": "Reclosed after governed manual review test",
+    "previous_state": {
+      "case_status": "reopened",
+      "conclusion_status": "under_review",
+      "confidence": "unknown",
+      "outcome": {
+        "primary_driver": "MKT_001",
+        "primary_driver_name": "Global Demand Surge",
+        "confidence": "high",
+        "closed_at": "2026-06-02T15:01:04.192Z"
+      },
+      "workflow": {
+        "next_action": "review_new_evidence",
+        "publication_status": "not_published",
+        "state_last_evaluated_at": "2026-06-03T08:06:19.512Z"
+      },
+      "last_updated_at": "2026-06-03T08:06:19.512Z",
+      "reopen_control": {
+        "version": "reopen-governance-v0.1",
+        "reopened_at": "2026-06-03T08:06:19.512Z",
+        "reopen_reason": "manual_review",
+        "reopen_note": "Testing governed reopen controls after outcome recommendation v0.2",
+        "previous_state": {
+          "case_status": "closed",
+          "conclusion_status": "attributed",
+          "confidence": "unknown",
+          "outcome": {
+            "primary_driver": "MKT_001",
+            "primary_driver_name": "Global Demand Surge",
+            "confidence": "high",
+            "closed_at": "2026-06-02T15:01:04.192Z"
+          },
+          "workflow": {
+            "next_action": "none",
+            "publication_status": "not_published",
+            "state_last_evaluated_at": "2026-06-02T15:01:21.972Z"
+          },
+          "last_updated_at": "2026-06-02T15:01:21.972Z"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "engine_version": "learning-confidence-engine-v0.2",
+  "generated_at": "2026-06-10T09:22:26.798Z",
+  "source_accumulator": "data/intelligence/replay-experience-accumulator-v0.2.json",
+  "mechanisms_assessed": 4,
+  "confidence": [
+    {
+      "mechanism_id": "MKT_010",
+      "experience_count": 3,
+      "strong_alignment": 2,
+      "moderate_alignment": 1,
+      "weak_alignment": 0,
+      "contradictory": 0,
+      "positive_alignment_ratio": 1,
+      "strong_alignment_ratio": 0.667,
+      "learning_confidence_score": 0.77,
+      "learning_confidence_band": "strong",
+      "cases": [
+        {
+          "case_id": "SG-NODX-2023",
+          "alignment_score": 0.78,
+          "alignment_band": "strong_alignment"
+        },
+        {
+          "case_id": "SG-GOODS-EXPORTS-2020",
+          "alignment_score": 0.74,
+          "alignment_band": "moderate_alignment"
+        },
+        {
+          "case_id": "SG-FINANCE-2020",
+          "alignment_score": 0.76,
+          "alignment_band": "strong_alignment"
+        }
+      ],
+      "governance_note": "Learning confidence summarizes replay-supported experience. It does not validate a mechanism."
+    },
+    {
+      "mechanism_id": "MKT_005",
+      "experience_count": 1,
+      "strong_alignment": 1,
+      "moderate_alignment": 0,
+      "weak_alignment": 0,
+      "contradictory": 0,
+      "positive_alignment_ratio": 1,
+      "strong_alignment_ratio": 1,
+      "learning_confidence_score": 0.64,
+      "learning_confidence_band": "strong",
+      "cases": [
+        {
+          "case_id": "SG-LABOUR-MARKET-2020",
+          "alignment_score": 0.79,
+          "alignment_band": "strong_alignment"
+        }
+      ],
+      "governance_note": "Learning confidence summarizes replay-supported experience. It does not validate a mechanism."
+    },
+    {
+      "mechanism_id": "MKT_006",
+      "experience_count": 1,
+      "strong_alignment": 1,
+      "moderate_alignment": 0,
+      "weak_alignment": 0,
+      "contradictory": 0,
+      "positive_alignment_ratio": 1,
+      "strong_alignment_ratio": 1,
+      "learning_confidence_score": 0.64,
+      "learning_confidence_band": "strong",
+      "cases": [
+        {
+          "case_id": "SG-LABOUR-MARKET-2020",
+          "alignment_score": 0.79,
+          "alignment_band": "strong_alignment"
+        }
+      ],
+      "governance_note": "Learning confidence summarizes replay-supported experience. It does not validate a mechanism."
+    },
+    {
+      "mechanism_id": "MKT_007",
+      "experience_count": 1,
+      "strong_alignment": 1,
+      "moderate_alignment": 0,
+      "weak_alignment": 0,
+      "contradictory": 0,
+      "positive_alignment_ratio": 1,
+      "strong_alignment_ratio": 1,
+      "learning_confidence_score": 0.64,
+      "learning_confidence_band": "strong",
+      "cases": [
+        {
+          "case_id": "SG-FINANCE-2020",
+          "alignment_score": 0.76,
+          "alignment_band": "strong_alignment"
+        }
+      ],
+      "governance_note": "Learning confidence summarizes replay-supported experience. It does not validate a mechanism."
+    }
+  ]
+}

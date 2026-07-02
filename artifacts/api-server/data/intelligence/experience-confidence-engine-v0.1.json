@@ -1,0 +1,213 @@
+{
+  "registry_version": "experience-confidence-engine-v0.1",
+  "created_at": "2026-06-08T11:11:47.192Z",
+  "doctrine": {
+    "experience_confidence_measures_recurrence_not_truth": true,
+    "experience_cannot_override_current_evidence": true,
+    "accumulated_experience_is_not_validation": true,
+    "evidence_remains_primary": true
+  },
+  "inputs": {
+    "experience_patterns": 6,
+    "registry_items": 10
+  },
+  "summary": {
+    "confidence_items_created": 6,
+    "high_experience_confidence": 0,
+    "moderate_experience_confidence": 0,
+    "low_experience_confidence": 1,
+    "very_low_experience_confidence": 5
+  },
+  "experience_confidence_items": [
+    {
+      "experience_confidence_id": "EXP_CONF_0001",
+      "pattern_id": "EXP_PATTERN_0006",
+      "pattern_key": "contradiction_pattern",
+      "mechanism_id": null,
+      "mechanism_name": null,
+      "experience_confidence_score": 0.456,
+      "experience_confidence_band": "low_experience_confidence",
+      "components": {
+        "observation_depth": 0.25,
+        "pattern_strength": 0.609,
+        "average_confidence_score": 0.709,
+        "diversity_score": 0.333,
+        "repetition_score": 0
+      },
+      "related_registry_items": [
+        "REG_EXP_00006",
+        "REG_EXP_00007",
+        "REG_EXP_00008",
+        "REG_EXP_00009",
+        "REG_EXP_00010"
+      ],
+      "permitted_use": {
+        "may_inform_monitoring": true,
+        "may_inform_review_prioritization": false,
+        "may_drive_validation": false,
+        "may_override_current_evidence": false
+      },
+      "governance": {
+        "experience_confidence_is_not_truth": true,
+        "accumulated_experience_is_not_validation": true,
+        "evidence_remains_primary": true,
+        "human_review_required_for_lifecycle_change": true
+      }
+    },
+    {
+      "experience_confidence_id": "EXP_CONF_0002",
+      "pattern_id": "EXP_PATTERN_0004",
+      "pattern_key": "Household Balance Sheet Transmission",
+      "mechanism_id": null,
+      "mechanism_name": "Household Balance Sheet Transmission",
+      "experience_confidence_score": 0.327,
+      "experience_confidence_band": "very_low_experience_confidence",
+      "components": {
+        "observation_depth": 0.05,
+        "pattern_strength": 0.348,
+        "average_confidence_score": 0.708,
+        "diversity_score": 0.333,
+        "repetition_score": 0
+      },
+      "related_registry_items": [
+        "REG_EXP_00004"
+      ],
+      "permitted_use": {
+        "may_inform_monitoring": false,
+        "may_inform_review_prioritization": false,
+        "may_drive_validation": false,
+        "may_override_current_evidence": false
+      },
+      "governance": {
+        "experience_confidence_is_not_truth": true,
+        "accumulated_experience_is_not_validation": true,
+        "evidence_remains_primary": true,
+        "human_review_required_for_lifecycle_change": true
+      }
+    },
+    {
+      "experience_confidence_id": "EXP_CONF_0003",
+      "pattern_id": "EXP_PATTERN_0005",
+      "pattern_key": "Services Receipts Momentum",
+      "mechanism_id": null,
+      "mechanism_name": "Services Receipts Momentum",
+      "experience_confidence_score": 0.326,
+      "experience_confidence_band": "very_low_experience_confidence",
+      "components": {
+        "observation_depth": 0.05,
+        "pattern_strength": 0.347,
+        "average_confidence_score": 0.705,
+        "diversity_score": 0.333,
+        "repetition_score": 0
+      },
+      "related_registry_items": [
+        "REG_EXP_00005"
+      ],
+      "permitted_use": {
+        "may_inform_monitoring": false,
+        "may_inform_review_prioritization": false,
+        "may_drive_validation": false,
+        "may_override_current_evidence": false
+      },
+      "governance": {
+        "experience_confidence_is_not_truth": true,
+        "accumulated_experience_is_not_validation": true,
+        "evidence_remains_primary": true,
+        "human_review_required_for_lifecycle_change": true
+      }
+    },
+    {
+      "experience_confidence_id": "EXP_CONF_0004",
+      "pattern_id": "EXP_PATTERN_0001",
+      "pattern_key": "MKT_006",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "experience_confidence_score": 0.243,
+      "experience_confidence_band": "very_low_experience_confidence",
+      "components": {
+        "observation_depth": 0.05,
+        "pattern_strength": 0.257,
+        "average_confidence_score": 0.48,
+        "diversity_score": 0.333,
+        "repetition_score": 0
+      },
+      "related_registry_items": [
+        "REG_EXP_00001"
+      ],
+      "permitted_use": {
+        "may_inform_monitoring": false,
+        "may_inform_review_prioritization": false,
+        "may_drive_validation": false,
+        "may_override_current_evidence": false
+      },
+      "governance": {
+        "experience_confidence_is_not_truth": true,
+        "accumulated_experience_is_not_validation": true,
+        "evidence_remains_primary": true,
+        "human_review_required_for_lifecycle_change": true
+      }
+    },
+    {
+      "experience_confidence_id": "EXP_CONF_0005",
+      "pattern_id": "EXP_PATTERN_0002",
+      "pattern_key": "MKT_010",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "experience_confidence_score": 0.234,
+      "experience_confidence_band": "very_low_experience_confidence",
+      "components": {
+        "observation_depth": 0.05,
+        "pattern_strength": 0.247,
+        "average_confidence_score": 0.455,
+        "diversity_score": 0.333,
+        "repetition_score": 0
+      },
+      "related_registry_items": [
+        "REG_EXP_00002"
+      ],
+      "permitted_use": {
+        "may_inform_monitoring": false,
+        "may_inform_review_prioritization": false,
+        "may_drive_validation": false,
+        "may_override_current_evidence": false
+      },
+      "governance": {
+        "experience_confidence_is_not_truth": true,
+        "accumulated_experience_is_not_validation": true,
+        "evidence_remains_primary": true,
+        "human_review_required_for_lifecycle_change": true
+      }
+    },
+    {
+      "experience_confidence_id": "EXP_CONF_0006",
+      "pattern_id": "EXP_PATTERN_0003",
+      "pattern_key": "MKT_002",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "experience_confidence_score": 0.19,
+      "experience_confidence_band": "very_low_experience_confidence",
+      "components": {
+        "observation_depth": 0.05,
+        "pattern_strength": 0.199,
+        "average_confidence_score": 0.336,
+        "diversity_score": 0.333,
+        "repetition_score": 0
+      },
+      "related_registry_items": [
+        "REG_EXP_00003"
+      ],
+      "permitted_use": {
+        "may_inform_monitoring": false,
+        "may_inform_review_prioritization": false,
+        "may_drive_validation": false,
+        "may_override_current_evidence": false
+      },
+      "governance": {
+        "experience_confidence_is_not_truth": true,
+        "accumulated_experience_is_not_validation": true,
+        "evidence_remains_primary": true,
+        "human_review_required_for_lifecycle_change": true
+      }
+    }
+  ]
+}

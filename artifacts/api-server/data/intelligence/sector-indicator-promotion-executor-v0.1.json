@@ -1,0 +1,85 @@
+{
+  "executor_version": "sector-indicator-promotion-executor-v0.1",
+  "generated_at": "2026-06-10T02:48:20.446Z",
+  "decision_source": "data/intelligence/sector-manual-promotion-decision-v0.1.json",
+  "registry_updated": "data/intelligence/sector-macro-registry-v0.1.json",
+  "promoted_count": 6,
+  "not_promoted_count": 6,
+  "promoted": [
+    {
+      "indicator_id": "SG_MANUFACTURING_OUTPUT",
+      "indicator_name": "Singapore Manufacturing Output",
+      "domain": "manufacturing",
+      "ingestion_status": "promoted"
+    },
+    {
+      "indicator_id": "SG_ELECTRONICS_EXPORTS",
+      "indicator_name": "Singapore Electronics Exports",
+      "domain": "manufacturing",
+      "ingestion_status": "promoted"
+    },
+    {
+      "indicator_id": "BRENT_CRUDE",
+      "indicator_name": "Brent Crude Oil Price",
+      "domain": "petroleum",
+      "ingestion_status": "promoted"
+    },
+    {
+      "indicator_id": "GLOBAL_SEMICONDUCTOR_SALES",
+      "indicator_name": "Global Semiconductor Sales",
+      "domain": "semiconductors",
+      "ingestion_status": "promoted"
+    },
+    {
+      "indicator_id": "SG_PHARMACEUTICAL_OUTPUT",
+      "indicator_name": "Singapore Pharmaceutical Output",
+      "domain": "biomedical",
+      "ingestion_status": "promoted"
+    },
+    {
+      "indicator_id": "SG_BIOMEDICAL_EXPORTS",
+      "indicator_name": "Singapore Biomedical Exports",
+      "domain": "biomedical",
+      "ingestion_status": "promoted"
+    }
+  ],
+  "not_promoted": [
+    {
+      "indicator_id": "GLOBAL_INVENTORY_CYCLE",
+      "indicator_name": "Global Inventory Cycle Indicator",
+      "domain": "manufacturing",
+      "ingestion_status": "candidate_not_ingested"
+    },
+    {
+      "indicator_id": "REFINING_MARGINS",
+      "indicator_name": "Refining Margins",
+      "domain": "petroleum",
+      "ingestion_status": "candidate_not_ingested"
+    },
+    {
+      "indicator_id": "PETROCHEMICAL_SPREADS",
+      "indicator_name": "Petrochemical Spreads",
+      "domain": "petroleum",
+      "ingestion_status": "candidate_not_ingested"
+    },
+    {
+      "indicator_id": "WAFER_FAB_UTILIZATION",
+      "indicator_name": "Wafer Fab Utilization",
+      "domain": "semiconductors",
+      "ingestion_status": "candidate_not_ingested"
+    },
+    {
+      "indicator_id": "CHIP_DEMAND",
+      "indicator_name": "Chip Demand Indicator",
+      "domain": "semiconductors",
+      "ingestion_status": "candidate_not_ingested"
+    },
+    {
+      "indicator_id": "HEALTHCARE_DEMAND",
+      "indicator_name": "Healthcare Demand Indicator",
+      "domain": "biomedical",
+      "ingestion_status": "candidate_not_ingested"
+    }
+  ],
+  "governance_note": "Promotion executor only promotes indicators explicitly marked approve in the manual decision file."
+}

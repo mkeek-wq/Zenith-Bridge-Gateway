@@ -1,0 +1,2315 @@
+{
+  "prediction_validation_registry_version": "prediction-validation-registry-v0.1",
+  "generated_at": "2026-06-06T06:31:21.501Z",
+  "source_prediction_candidates": "data/intelligence/prediction-candidate-registry-v0.1.json",
+  "policy": {
+    "principle": "Prediction validation records track whether evidence-backed hypotheses were later supported, contradicted, or left unresolved.",
+    "human_review_required": true,
+    "auto_scoring_allowed": false,
+    "production_mutation_allowed": false
+  },
+  "summary": {
+    "validations_generated": 45,
+    "pending_validations": 45,
+    "observed_validations": 0,
+    "expired_validations": 0,
+    "scored_validations": 0
+  },
+  "validations": [
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_008-global-semiconductor-sales",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "indicator": "global semiconductor sales",
+      "hypothesis": "Semiconductor / Electronics Cycle may experience a meaningful directional shift if changes in 'global semiconductor sales' persist and are supported by future evidence review.",
+      "prediction_horizon": "6_to_12_months",
+      "confidence_level": "candidate",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 6,
+        "max_months": 12,
+        "earliest_review_at": "2026-12-06T06:10:25.748Z",
+        "final_review_due_at": "2027-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_008-chip-demand",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "indicator": "chip demand",
+      "hypothesis": "Semiconductor / Electronics Cycle may experience a meaningful directional shift if changes in 'chip demand' persist and are supported by future evidence review.",
+      "prediction_horizon": "6_to_12_months",
+      "confidence_level": "candidate",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 6,
+        "max_months": 12,
+        "earliest_review_at": "2026-12-06T06:10:25.748Z",
+        "final_review_due_at": "2027-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_008-electronics-exports",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "indicator": "electronics exports",
+      "hypothesis": "Semiconductor / Electronics Cycle may experience a meaningful directional shift if changes in 'electronics exports' persist and are supported by future evidence review.",
+      "prediction_horizon": "6_to_12_months",
+      "confidence_level": "candidate",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 6,
+        "max_months": 12,
+        "earliest_review_at": "2026-12-06T06:10:25.748Z",
+        "final_review_due_at": "2027-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_008-wafer-fab-utilization",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "indicator": "wafer fab utilization",
+      "hypothesis": "Semiconductor / Electronics Cycle may experience a meaningful directional shift if changes in 'wafer fab utilization' persist and are supported by future evidence review.",
+      "prediction_horizon": "6_to_12_months",
+      "confidence_level": "candidate",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 6,
+        "max_months": 12,
+        "earliest_review_at": "2026-12-06T06:10:25.748Z",
+        "final_review_due_at": "2027-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_010-global-pmi",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "indicator": "global PMI",
+      "hypothesis": "Demand Shock / External Downturn may experience a meaningful directional shift if changes in 'global PMI' persist and are supported by future evidence review.",
+      "prediction_horizon": "6_to_12_months",
+      "confidence_level": "candidate",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 6,
+        "max_months": 12,
+        "earliest_review_at": "2026-12-06T06:10:25.748Z",
+        "final_review_due_at": "2027-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_010-export-orders",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "indicator": "export orders",
+      "hypothesis": "Demand Shock / External Downturn may experience a meaningful directional shift if changes in 'export orders' persist and are supported by future evidence review.",
+      "prediction_horizon": "6_to_12_months",
+      "confidence_level": "candidate",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 6,
+        "max_months": 12,
+        "earliest_review_at": "2026-12-06T06:10:25.748Z",
+        "final_review_due_at": "2027-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_010-trade-volumes",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "indicator": "trade volumes",
+      "hypothesis": "Demand Shock / External Downturn may experience a meaningful directional shift if changes in 'trade volumes' persist and are supported by future evidence review.",
+      "prediction_horizon": "6_to_12_months",
+      "confidence_level": "candidate",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 6,
+        "max_months": 12,
+        "earliest_review_at": "2026-12-06T06:10:25.748Z",
+        "final_review_due_at": "2027-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_010-manufacturing-sentiment",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "indicator": "manufacturing sentiment",
+      "hypothesis": "Demand Shock / External Downturn may experience a meaningful directional shift if changes in 'manufacturing sentiment' persist and are supported by future evidence review.",
+      "prediction_horizon": "6_to_12_months",
+      "confidence_level": "candidate",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 6,
+        "max_months": 12,
+        "earliest_review_at": "2026-12-06T06:10:25.748Z",
+        "final_review_due_at": "2027-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_011-chemical-demand",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "indicator": "chemical demand",
+      "hypothesis": "Chemicals / Petrochemicals Cycle may experience a meaningful directional shift if changes in 'chemical demand' persist and are supported by future evidence review.",
+      "prediction_horizon": "6_to_12_months",
+      "confidence_level": "candidate",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 6,
+        "max_months": 12,
+        "earliest_review_at": "2026-12-06T06:10:25.748Z",
+        "final_review_due_at": "2027-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_011-feedstock-prices",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "indicator": "feedstock prices",
+      "hypothesis": "Chemicals / Petrochemicals Cycle may experience a meaningful directional shift if changes in 'feedstock prices' persist and are supported by future evidence review.",
+      "prediction_horizon": "6_to_12_months",
+      "confidence_level": "candidate",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 6,
+        "max_months": 12,
+        "earliest_review_at": "2026-12-06T06:10:25.748Z",
+        "final_review_due_at": "2027-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_011-petrochemical-margins",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "indicator": "petrochemical margins",
+      "hypothesis": "Chemicals / Petrochemicals Cycle may experience a meaningful directional shift if changes in 'petrochemical margins' persist and are supported by future evidence review.",
+      "prediction_horizon": "6_to_12_months",
+      "confidence_level": "candidate",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 6,
+        "max_months": 12,
+        "earliest_review_at": "2026-12-06T06:10:25.748Z",
+        "final_review_due_at": "2027-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_011-plant-utilization",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "indicator": "plant utilization",
+      "hypothesis": "Chemicals / Petrochemicals Cycle may experience a meaningful directional shift if changes in 'plant utilization' persist and are supported by future evidence review.",
+      "prediction_horizon": "6_to_12_months",
+      "confidence_level": "candidate",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 6,
+        "max_months": 12,
+        "earliest_review_at": "2026-12-06T06:10:25.748Z",
+        "final_review_due_at": "2027-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_009-pharmaceutical-production-schedules",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "indicator": "pharmaceutical production schedules",
+      "hypothesis": "Biomedical / Pharmaceutical Production Cycle may experience a meaningful directional shift if changes in 'pharmaceutical production schedules' persist and are supported by future evidence review.",
+      "prediction_horizon": "6_to_12_months",
+      "confidence_level": "candidate",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 6,
+        "max_months": 12,
+        "earliest_review_at": "2026-12-06T06:10:25.748Z",
+        "final_review_due_at": "2027-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_009-biologics-demand",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "indicator": "biologics demand",
+      "hypothesis": "Biomedical / Pharmaceutical Production Cycle may experience a meaningful directional shift if changes in 'biologics demand' persist and are supported by future evidence review.",
+      "prediction_horizon": "6_to_12_months",
+      "confidence_level": "candidate",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 6,
+        "max_months": 12,
+        "earliest_review_at": "2026-12-06T06:10:25.748Z",
+        "final_review_due_at": "2027-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_009-vaccine-manufacturing",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "indicator": "vaccine manufacturing",
+      "hypothesis": "Biomedical / Pharmaceutical Production Cycle may experience a meaningful directional shift if changes in 'vaccine manufacturing' persist and are supported by future evidence review.",
+      "prediction_horizon": "6_to_12_months",
+      "confidence_level": "candidate",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 6,
+        "max_months": 12,
+        "earliest_review_at": "2026-12-06T06:10:25.748Z",
+        "final_review_due_at": "2027-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_009-healthcare-demand",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "indicator": "healthcare demand",
+      "hypothesis": "Biomedical / Pharmaceutical Production Cycle may experience a meaningful directional shift if changes in 'healthcare demand' persist and are supported by future evidence review.",
+      "prediction_horizon": "6_to_12_months",
+      "confidence_level": "candidate",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 6,
+        "max_months": 12,
+        "earliest_review_at": "2026-12-06T06:10:25.748Z",
+        "final_review_due_at": "2027-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_013-iata-traffic",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "indicator": "IATA traffic",
+      "hypothesis": "Transport Engineering / Aerospace Marine Cycle may experience a meaningful directional shift if changes in 'IATA traffic' persist and are supported by future evidence review.",
+      "prediction_horizon": "3_to_6_months",
+      "confidence_level": "medium",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 3,
+        "max_months": 6,
+        "earliest_review_at": "2026-09-06T06:10:25.748Z",
+        "final_review_due_at": "2026-12-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_013-aircraft-utilization",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "indicator": "aircraft utilization",
+      "hypothesis": "Transport Engineering / Aerospace Marine Cycle may experience a meaningful directional shift if changes in 'aircraft utilization' persist and are supported by future evidence review.",
+      "prediction_horizon": "3_to_6_months",
+      "confidence_level": "medium",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 3,
+        "max_months": 6,
+        "earliest_review_at": "2026-09-06T06:10:25.748Z",
+        "final_review_due_at": "2026-12-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_013-mro-demand",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "indicator": "MRO demand",
+      "hypothesis": "Transport Engineering / Aerospace Marine Cycle may experience a meaningful directional shift if changes in 'MRO demand' persist and are supported by future evidence review.",
+      "prediction_horizon": "3_to_6_months",
+      "confidence_level": "medium",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 3,
+        "max_months": 6,
+        "earliest_review_at": "2026-09-06T06:10:25.748Z",
+        "final_review_due_at": "2026-12-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_013-fleet-expansion",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "indicator": "fleet expansion",
+      "hypothesis": "Transport Engineering / Aerospace Marine Cycle may experience a meaningful directional shift if changes in 'fleet expansion' persist and are supported by future evidence review.",
+      "prediction_horizon": "3_to_6_months",
+      "confidence_level": "medium",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 3,
+        "max_months": 6,
+        "earliest_review_at": "2026-09-06T06:10:25.748Z",
+        "final_review_due_at": "2026-12-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_012-capital-expenditure",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "indicator": "capital expenditure",
+      "hypothesis": "Precision Engineering / Capital Equipment Cycle may experience a meaningful directional shift if changes in 'capital expenditure' persist and are supported by future evidence review.",
+      "prediction_horizon": "3_to_6_months",
+      "confidence_level": "medium",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 3,
+        "max_months": 6,
+        "earliest_review_at": "2026-09-06T06:10:25.748Z",
+        "final_review_due_at": "2026-12-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_012-machinery-orders",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "indicator": "machinery orders",
+      "hypothesis": "Precision Engineering / Capital Equipment Cycle may experience a meaningful directional shift if changes in 'machinery orders' persist and are supported by future evidence review.",
+      "prediction_horizon": "3_to_6_months",
+      "confidence_level": "medium",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 3,
+        "max_months": 6,
+        "earliest_review_at": "2026-09-06T06:10:25.748Z",
+        "final_review_due_at": "2026-12-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_012-automation-investment",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "indicator": "automation investment",
+      "hypothesis": "Precision Engineering / Capital Equipment Cycle may experience a meaningful directional shift if changes in 'automation investment' persist and are supported by future evidence review.",
+      "prediction_horizon": "3_to_6_months",
+      "confidence_level": "medium",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 3,
+        "max_months": 6,
+        "earliest_review_at": "2026-09-06T06:10:25.748Z",
+        "final_review_due_at": "2026-12-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_012-equipment-demand",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "indicator": "equipment demand",
+      "hypothesis": "Precision Engineering / Capital Equipment Cycle may experience a meaningful directional shift if changes in 'equipment demand' persist and are supported by future evidence review.",
+      "prediction_horizon": "3_to_6_months",
+      "confidence_level": "medium",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 3,
+        "max_months": 6,
+        "earliest_review_at": "2026-09-06T06:10:25.748Z",
+        "final_review_due_at": "2026-12-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_007-industrial-production",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "indicator": "industrial production",
+      "hypothesis": "Energy Demand / Refining Cycle may experience a meaningful directional shift if changes in 'industrial production' persist and are supported by future evidence review.",
+      "prediction_horizon": "12_to_24_months",
+      "confidence_level": "early_hypothesis",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 12,
+        "max_months": 24,
+        "earliest_review_at": "2027-06-06T06:10:25.748Z",
+        "final_review_due_at": "2028-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_007-business-sentiment",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "indicator": "business sentiment",
+      "hypothesis": "Energy Demand / Refining Cycle may experience a meaningful directional shift if changes in 'business sentiment' persist and are supported by future evidence review.",
+      "prediction_horizon": "12_to_24_months",
+      "confidence_level": "early_hypothesis",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 12,
+        "max_months": 24,
+        "earliest_review_at": "2027-06-06T06:10:25.748Z",
+        "final_review_due_at": "2028-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_007-sector-demand",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "indicator": "sector demand",
+      "hypothesis": "Energy Demand / Refining Cycle may experience a meaningful directional shift if changes in 'sector demand' persist and are supported by future evidence review.",
+      "prediction_horizon": "12_to_24_months",
+      "confidence_level": "early_hypothesis",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 12,
+        "max_months": 24,
+        "earliest_review_at": "2027-06-06T06:10:25.748Z",
+        "final_review_due_at": "2028-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_002-industrial-production",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "indicator": "industrial production",
+      "hypothesis": "Inventory Cycle / Restocking may experience a meaningful directional shift if changes in 'industrial production' persist and are supported by future evidence review.",
+      "prediction_horizon": "12_to_24_months",
+      "confidence_level": "early_hypothesis",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 12,
+        "max_months": 24,
+        "earliest_review_at": "2027-06-06T06:10:25.748Z",
+        "final_review_due_at": "2028-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_002-business-sentiment",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "indicator": "business sentiment",
+      "hypothesis": "Inventory Cycle / Restocking may experience a meaningful directional shift if changes in 'business sentiment' persist and are supported by future evidence review.",
+      "prediction_horizon": "12_to_24_months",
+      "confidence_level": "early_hypothesis",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 12,
+        "max_months": 24,
+        "earliest_review_at": "2027-06-06T06:10:25.748Z",
+        "final_review_due_at": "2028-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_002-sector-demand",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "indicator": "sector demand",
+      "hypothesis": "Inventory Cycle / Restocking may experience a meaningful directional shift if changes in 'sector demand' persist and are supported by future evidence review.",
+      "prediction_horizon": "12_to_24_months",
+      "confidence_level": "early_hypothesis",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 12,
+        "max_months": 24,
+        "earliest_review_at": "2027-06-06T06:10:25.748Z",
+        "final_review_due_at": "2028-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_004-industrial-production",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "indicator": "industrial production",
+      "hypothesis": "Capacity Expansion may experience a meaningful directional shift if changes in 'industrial production' persist and are supported by future evidence review.",
+      "prediction_horizon": "24_plus_months",
+      "confidence_level": "early_hypothesis",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 24,
+        "max_months": 36,
+        "earliest_review_at": "2028-06-06T06:10:25.748Z",
+        "final_review_due_at": "2029-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_004-business-sentiment",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "indicator": "business sentiment",
+      "hypothesis": "Capacity Expansion may experience a meaningful directional shift if changes in 'business sentiment' persist and are supported by future evidence review.",
+      "prediction_horizon": "24_plus_months",
+      "confidence_level": "early_hypothesis",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 24,
+        "max_months": 36,
+        "earliest_review_at": "2028-06-06T06:10:25.748Z",
+        "final_review_due_at": "2029-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_004-sector-demand",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "indicator": "sector demand",
+      "hypothesis": "Capacity Expansion may experience a meaningful directional shift if changes in 'sector demand' persist and are supported by future evidence review.",
+      "prediction_horizon": "24_plus_months",
+      "confidence_level": "early_hypothesis",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 24,
+        "max_months": 36,
+        "earliest_review_at": "2028-06-06T06:10:25.748Z",
+        "final_review_due_at": "2029-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_001-industrial-production",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_001",
+      "driver_name": "Global Demand Surge",
+      "indicator": "industrial production",
+      "hypothesis": "Global Demand Surge may experience a meaningful directional shift if changes in 'industrial production' persist and are supported by future evidence review.",
+      "prediction_horizon": "24_plus_months",
+      "confidence_level": "early_hypothesis",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 24,
+        "max_months": 36,
+        "earliest_review_at": "2028-06-06T06:10:25.748Z",
+        "final_review_due_at": "2029-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_001-business-sentiment",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_001",
+      "driver_name": "Global Demand Surge",
+      "indicator": "business sentiment",
+      "hypothesis": "Global Demand Surge may experience a meaningful directional shift if changes in 'business sentiment' persist and are supported by future evidence review.",
+      "prediction_horizon": "24_plus_months",
+      "confidence_level": "early_hypothesis",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 24,
+        "max_months": 36,
+        "earliest_review_at": "2028-06-06T06:10:25.748Z",
+        "final_review_due_at": "2029-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_001-sector-demand",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_001",
+      "driver_name": "Global Demand Surge",
+      "indicator": "sector demand",
+      "hypothesis": "Global Demand Surge may experience a meaningful directional shift if changes in 'sector demand' persist and are supported by future evidence review.",
+      "prediction_horizon": "24_plus_months",
+      "confidence_level": "early_hypothesis",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 24,
+        "max_months": 36,
+        "earliest_review_at": "2028-06-06T06:10:25.748Z",
+        "final_review_due_at": "2029-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_003-industrial-production",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness",
+      "indicator": "industrial production",
+      "hypothesis": "Export Demand Weakness may experience a meaningful directional shift if changes in 'industrial production' persist and are supported by future evidence review.",
+      "prediction_horizon": "24_plus_months",
+      "confidence_level": "early_hypothesis",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 24,
+        "max_months": 36,
+        "earliest_review_at": "2028-06-06T06:10:25.748Z",
+        "final_review_due_at": "2029-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_003-business-sentiment",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness",
+      "indicator": "business sentiment",
+      "hypothesis": "Export Demand Weakness may experience a meaningful directional shift if changes in 'business sentiment' persist and are supported by future evidence review.",
+      "prediction_horizon": "24_plus_months",
+      "confidence_level": "early_hypothesis",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 24,
+        "max_months": 36,
+        "earliest_review_at": "2028-06-06T06:10:25.748Z",
+        "final_review_due_at": "2029-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_003-sector-demand",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness",
+      "indicator": "sector demand",
+      "hypothesis": "Export Demand Weakness may experience a meaningful directional shift if changes in 'sector demand' persist and are supported by future evidence review.",
+      "prediction_horizon": "24_plus_months",
+      "confidence_level": "early_hypothesis",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 24,
+        "max_months": 36,
+        "earliest_review_at": "2028-06-06T06:10:25.748Z",
+        "final_review_due_at": "2029-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_006-industrial-production",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "indicator": "industrial production",
+      "hypothesis": "Policy / Regulatory Impact may experience a meaningful directional shift if changes in 'industrial production' persist and are supported by future evidence review.",
+      "prediction_horizon": "24_plus_months",
+      "confidence_level": "early_hypothesis",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 24,
+        "max_months": 36,
+        "earliest_review_at": "2028-06-06T06:10:25.748Z",
+        "final_review_due_at": "2029-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_006-business-sentiment",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "indicator": "business sentiment",
+      "hypothesis": "Policy / Regulatory Impact may experience a meaningful directional shift if changes in 'business sentiment' persist and are supported by future evidence review.",
+      "prediction_horizon": "24_plus_months",
+      "confidence_level": "early_hypothesis",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 24,
+        "max_months": 36,
+        "earliest_review_at": "2028-06-06T06:10:25.748Z",
+        "final_review_due_at": "2029-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_006-sector-demand",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "indicator": "sector demand",
+      "hypothesis": "Policy / Regulatory Impact may experience a meaningful directional shift if changes in 'sector demand' persist and are supported by future evidence review.",
+      "prediction_horizon": "24_plus_months",
+      "confidence_level": "early_hypothesis",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 24,
+        "max_months": 36,
+        "earliest_review_at": "2028-06-06T06:10:25.748Z",
+        "final_review_due_at": "2029-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_005-industrial-production",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "indicator": "industrial production",
+      "hypothesis": "Operational Disruption may experience a meaningful directional shift if changes in 'industrial production' persist and are supported by future evidence review.",
+      "prediction_horizon": "24_plus_months",
+      "confidence_level": "early_hypothesis",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 24,
+        "max_months": 36,
+        "earliest_review_at": "2028-06-06T06:10:25.748Z",
+        "final_review_due_at": "2029-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_005-business-sentiment",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "indicator": "business sentiment",
+      "hypothesis": "Operational Disruption may experience a meaningful directional shift if changes in 'business sentiment' persist and are supported by future evidence review.",
+      "prediction_horizon": "24_plus_months",
+      "confidence_level": "early_hypothesis",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 24,
+        "max_months": 36,
+        "earliest_review_at": "2028-06-06T06:10:25.748Z",
+        "final_review_due_at": "2029-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "prediction_validation_version": "prediction-validation-v0.1",
+      "prediction_id": "PRED-EWS-MKT_005-sector-demand",
+      "source_prediction_registry": "data/intelligence/prediction-candidate-registry-v0.1.json",
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "indicator": "sector demand",
+      "hypothesis": "Operational Disruption may experience a meaningful directional shift if changes in 'sector demand' persist and are supported by future evidence review.",
+      "prediction_horizon": "24_plus_months",
+      "confidence_level": "early_hypothesis",
+      "evidence_basis": [
+        "historical_replay",
+        "experience_registry",
+        "driver_observatory",
+        "signal_watchlist",
+        "early_warning_signal"
+      ],
+      "prediction_created_at": "2026-06-06T06:10:25.748Z",
+      "validation_window": {
+        "min_months": 24,
+        "max_months": 36,
+        "earliest_review_at": "2028-06-06T06:10:25.748Z",
+        "final_review_due_at": "2029-06-06T06:10:25.748Z"
+      },
+      "validation_status": "pending",
+      "outcome_observed": false,
+      "outcome_observed_at": null,
+      "outcome_summary": null,
+      "correctness": null,
+      "accuracy_score": null,
+      "validation_evidence": {
+        "supporting_evidence": [],
+        "contradicting_evidence": [],
+        "neutral_evidence": [],
+        "evidence_gap_notes": []
+      },
+      "analyst_review": {
+        "analyst_assessment": "",
+        "review_notes": "",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "governance": {
+        "prediction_is_not_fact": true,
+        "validation_is_required_before_learning": true,
+        "human_review_required": true,
+        "auto_scoring_allowed": false,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    }
+  ]
+}

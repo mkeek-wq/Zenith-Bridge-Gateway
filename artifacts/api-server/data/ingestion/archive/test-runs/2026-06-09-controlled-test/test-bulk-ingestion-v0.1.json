@@ -1,0 +1,9 @@
+[
+  {
+    "metric_name": "TEST_SERVICES_ACTIVITY_INDEX",
+    "period": "2026-Q2",
+    "value": 7.2,
+    "source_title": "Controlled Test Source",
+    "evidence_window": "Test new candidate: services activity increased 7.2% year-on-year in 2026-Q2."
+  }
+]

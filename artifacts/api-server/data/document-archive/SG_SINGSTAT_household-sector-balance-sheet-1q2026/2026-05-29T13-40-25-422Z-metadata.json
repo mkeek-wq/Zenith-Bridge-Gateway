@@ -1,0 +1,22 @@
+{
+  "archive_version": "document-archive-v0.1",
+  "archived_at": "2026-05-29T13:40:25.422Z",
+  "document_id": "SG_SINGSTAT_household-sector-balance-sheet-1q2026",
+  "institution_id": "SG_SINGSTAT",
+  "feed_id": "SINGSTAT_RELEASES",
+  "title": "Household Sector Balance Sheet, 1Q 2026",
+  "slug": "household-sector-balance-sheet-1q2026",
+  "url": "https://www.singstat.gov.sg/news/household-sector-balance-sheet-1q2026",
+  "publication_date": "2026-05-26",
+  "resource_type": "Press Releases",
+  "summary": "In 1Q 2026, household net worth increased 6.7% on a year-on-year basis. Growth in assets moderated from 4Q 2025, while growth in liabilities increased.",
+  "http_status": 200,
+  "content_length": 140608,
+  "content_hash": "8b5af3cbf46906c40e2789162d5197cbab78df6e726cca80c41bd5f67be4b457",
+  "files": {
+    "latest_metadata": "metadata.json",
+    "latest_document_html": "document.html",
+    "timestamp_metadata": "2026-05-29T13-40-25-422Z-metadata.json",
+    "timestamp_document_html": "2026-05-29T13-40-25-422Z-document.html"
+  }
+}

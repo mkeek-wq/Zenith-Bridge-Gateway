@@ -1,0 +1,9 @@
+Decision: Keep recovered api-server/data directories.
+
+Reason:
+These directories contain recovered business, replay, evidence, ingestion, intelligence, CMS, document, monitoring, and tablebuilder assets.
+They are data assets, not bootstrap/runtime package-layer changes.
+They do not affect API startup except where intentionally read by scripts or admin features.
+
+Decision:
+Recover and commit api-server/data as business/intelligence assets.

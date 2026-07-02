@@ -1,0 +1,22 @@
+{
+  "archive_version": "document-archive-v0.1",
+  "archived_at": "2026-05-29T13:40:25.947Z",
+  "document_id": "SG_SINGSTAT_personal-disposable-income-and-saving-1q2026",
+  "institution_id": "SG_SINGSTAT",
+  "feed_id": "SINGSTAT_RELEASES",
+  "title": "Personal Disposable Income and Saving 1Q 2026",
+  "slug": "personal-disposable-income-and-saving-1q2026",
+  "url": "https://www.singstat.gov.sg/news/personal-disposable-income-and-saving-1q2026",
+  "publication_date": "2026-05-26",
+  "resource_type": "Press Releases",
+  "summary": "In 1Q 2026, personal disposable income grew by 5.2% in nominal terms, expanding from the 1.0% growth in 4Q 2025. Personal saving rate rose to 39.2% from 36.4%.",
+  "http_status": 200,
+  "content_length": 140850,
+  "content_hash": "3e9e4a07aec302024b888b1234d41be64d2780ef7591cbbecd72c8cab3856dfb",
+  "files": {
+    "latest_metadata": "metadata.json",
+    "latest_document_html": "document.html",
+    "timestamp_metadata": "2026-05-29T13-40-25-947Z-metadata.json",
+    "timestamp_document_html": "2026-05-29T13-40-25-947Z-document.html"
+  }
+}

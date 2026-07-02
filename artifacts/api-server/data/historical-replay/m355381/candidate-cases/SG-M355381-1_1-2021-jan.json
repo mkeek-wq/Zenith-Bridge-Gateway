@@ -1,0 +1,65 @@
+{
+  "case_version": "historical-case-candidate-v0.1",
+  "case_id": "SG-M355381-1_1-2021-jan",
+  "country": "Singapore",
+  "institution": "Economic Development Board",
+  "source_system": "SingStat TableBuilder",
+  "table_id": "M355381",
+  "period": "2021 Jan",
+  "series_no": "1.1",
+  "series_name": "Electronics Cluster",
+  "case_status": "candidate",
+  "conclusion_status": "not_started",
+  "priority": "medium",
+  "direction": "increase",
+  "observation": {
+    "latest_value": 87.54,
+    "month_on_month_change_pct": -0.007995705164072773,
+    "year_on_year_change_pct": 21.85920904269388
+  },
+  "candidate_reason": {
+    "rule": "large_movement_detection_v0.1",
+    "min_abs_yoy_change_pct": 20,
+    "min_abs_mom_change_pct": 15,
+    "explanation": "Candidate generated because monthly or year-on-year movement exceeded historical replay threshold."
+  },
+  "evidence_status": {
+    "internal_evidence_count": 0,
+    "relevant_evidence_count": 0,
+    "evidence_quality": "unknown",
+    "external_search_required": true,
+    "relevant_evidence": []
+  },
+  "attribution": {
+    "market_effect": {
+      "score": 0,
+      "evidence": []
+    },
+    "portfolio_effect": {
+      "score": 0,
+      "evidence": []
+    },
+    "operational_effect": {
+      "score": 0,
+      "evidence": []
+    },
+    "policy_effect": {
+      "score": 0,
+      "evidence": []
+    },
+    "unknown_effect": {
+      "score": 10,
+      "evidence": []
+    }
+  },
+  "outcome": {
+    "primary_driver": null,
+    "primary_driver_name": null,
+    "confidence": null,
+    "closed_at": null
+  },
+  "replay_policy": {
+    "sandbox_only": true,
+    "production_mutation_allowed": false
+  }
+}

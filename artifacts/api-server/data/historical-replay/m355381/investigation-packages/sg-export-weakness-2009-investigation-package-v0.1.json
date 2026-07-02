@@ -1,0 +1,87 @@
+{
+  "investigation_package_version": "historical-investigation-package-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-EXPORT-WEAKNESS-2009",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_candidate_file": "replay-coverage-gap-remediation",
+  "case_summary": {
+    "period": "2009",
+    "series_no": "EXPORT-WEAKNESS-2009",
+    "series_name": "Export Demand Weakness",
+    "priority": "critical",
+    "direction": "negative",
+    "latest_value": null,
+    "month_on_month_change_pct": null,
+    "year_on_year_change_pct": null
+  },
+  "search_queries": {
+    "official_queries": [
+      "Singapore exports 2009 decline",
+      "Singapore non oil domestic exports 2009",
+      "Singapore trade contraction 2009",
+      "Singapore export demand weakness 2009"
+    ],
+    "industry_queries": [
+      "Singapore manufacturing exports 2009",
+      "Singapore export orders decline 2009",
+      "Singapore trade slowdown manufacturing 2009"
+    ],
+    "context_queries": [
+      "Global financial crisis exports 2009",
+      "Global trade contraction 2009",
+      "Export demand collapse 2009"
+    ]
+  },
+  "hypotheses": [
+    {
+      "hypothesis_id": "HYP_EXPORT_WEAKNESS",
+      "hypothesis": "The movement may primarily reflect weaker external export demand and reduced international trade activity.",
+      "attribution_bucket": "market_effect"
+    },
+    {
+      "hypothesis_id": "HYP_GLOBAL_DEMAND_SHOCK",
+      "hypothesis": "The export weakness may have been driven by broader global recession conditions.",
+      "attribution_bucket": "market_effect"
+    },
+    {
+      "hypothesis_id": "HYP_INDUSTRIAL_TRANSMISSION",
+      "hypothesis": "Export weakness may have transmitted into manufacturing and industrial output declines.",
+      "attribution_bucket": "operational_effect"
+    },
+    {
+      "hypothesis_id": "HYP_UNKNOWN",
+      "hypothesis": "Evidence remains insufficient to determine the dominant mechanism.",
+      "attribution_bucket": "unknown_effect"
+    }
+  ],
+  "driver_candidates": [
+    {
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness",
+      "applies_when": "Exports, trade volumes, foreign orders, or international demand decline."
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "applies_when": "Broader recessionary or demand-shock conditions affect economic activity."
+    },
+    {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "applies_when": "Business activity is affected through downstream transmission effects."
+    }
+  ],
+  "expected_mechanisms": [
+    "global demand weakened",
+    "export orders declined",
+    "trade activity contracted",
+    "manufacturing exports weakened",
+    "industrial output deteriorated through export transmission channels"
+  ],
+  "investigation_status": {
+    "evidence_collected": false,
+    "attribution_scored": false,
+    "outcome_ready": false
+  }
+}

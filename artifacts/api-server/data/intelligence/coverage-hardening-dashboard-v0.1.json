@@ -1,0 +1,243 @@
+{
+  "coverage_hardening_dashboard_version": "coverage-hardening-dashboard-v0.1",
+  "generated_at": "2026-06-06T14:52:35.751Z",
+  "sources": {
+    "coverage_assessment": "data/intelligence/replay-coverage-assessment-registry-v0.1.json",
+    "experience_registry": "data/intelligence/experience-registry-v0.2.json"
+  },
+  "policy": {
+    "diagnostic_only": true,
+    "production_mutation_allowed": false,
+    "purpose": "Summarize replay coverage, experience maturity, and hardening priorities without mutating memory."
+  },
+  "summary": {
+    "drivers_assessed": 13,
+    "well_covered": 10,
+    "moderately_covered": 2,
+    "thin_or_missing": 1,
+    "critical_priority": 1,
+    "low_priority": 10
+  },
+  "parked_items": [
+    {
+      "driver_id": "MKT_001",
+      "reason": "No primary cases observed; appears to behave as a supporting mechanism rather than standalone driver.",
+      "status": "parked_for_taxonomy_review",
+      "action": "Do not force replay cases until taxonomy review determines whether driver should remain primary."
+    }
+  ],
+  "hardening_queue": [
+    {
+      "driver_id": "MKT_003",
+      "driver_label": "MKT_003 Export Demand Weakness",
+      "coverage_score": 0.715,
+      "coverage_status": "moderately_covered",
+      "recommended_priority": "medium",
+      "case_count": 5,
+      "period_count": 5,
+      "experience_strength": 0.628,
+      "maturity_stage": "developing_cluster",
+      "confidence_score": 1,
+      "intelligence_confidence_status": "insufficient",
+      "recommended_action": "add_targeted_cases_to_improve_period_depth"
+    },
+    {
+      "driver_id": "MKT_007",
+      "driver_label": "MKT_007 Energy Demand / Refining Cycle",
+      "coverage_score": 0.726,
+      "coverage_status": "moderately_covered",
+      "recommended_priority": "medium",
+      "case_count": 6,
+      "period_count": 5,
+      "experience_strength": 0.606,
+      "maturity_stage": "developing_cluster",
+      "confidence_score": 0.933,
+      "intelligence_confidence_status": "moderate",
+      "recommended_action": "add_targeted_cases_to_improve_period_depth"
+    }
+  ],
+  "full_driver_table": [
+    {
+      "driver_id": "MKT_001",
+      "driver_label": "MKT_001 Global Demand Surge",
+      "coverage_score": 0,
+      "coverage_status": "thin_or_missing",
+      "recommended_priority": "critical",
+      "case_count": 0,
+      "period_count": 0,
+      "experience_strength": null,
+      "maturity_stage": "none",
+      "confidence_score": null,
+      "intelligence_confidence_status": "insufficient",
+      "recommended_action": "build_foundational_replay_cases"
+    },
+    {
+      "driver_id": "MKT_003",
+      "driver_label": "MKT_003 Export Demand Weakness",
+      "coverage_score": 0.715,
+      "coverage_status": "moderately_covered",
+      "recommended_priority": "medium",
+      "case_count": 5,
+      "period_count": 5,
+      "experience_strength": 0.628,
+      "maturity_stage": "developing_cluster",
+      "confidence_score": 1,
+      "intelligence_confidence_status": "insufficient",
+      "recommended_action": "add_targeted_cases_to_improve_period_depth"
+    },
+    {
+      "driver_id": "MKT_007",
+      "driver_label": "MKT_007 Energy Demand / Refining Cycle",
+      "coverage_score": 0.726,
+      "coverage_status": "moderately_covered",
+      "recommended_priority": "medium",
+      "case_count": 6,
+      "period_count": 5,
+      "experience_strength": 0.606,
+      "maturity_stage": "developing_cluster",
+      "confidence_score": 0.933,
+      "intelligence_confidence_status": "moderate",
+      "recommended_action": "add_targeted_cases_to_improve_period_depth"
+    },
+    {
+      "driver_id": "MKT_006",
+      "driver_label": "MKT_006 Policy / Regulatory Impact",
+      "coverage_score": 0.755,
+      "coverage_status": "well_covered",
+      "recommended_priority": "low",
+      "case_count": 6,
+      "period_count": 5,
+      "experience_strength": 0.666,
+      "maturity_stage": "developing_cluster",
+      "confidence_score": 1,
+      "intelligence_confidence_status": "insufficient",
+      "recommended_action": "defer_new_cases_unless_high_value_event"
+    },
+    {
+      "driver_id": "MKT_005",
+      "driver_label": "MKT_005 Operational Disruption",
+      "coverage_score": 0.764,
+      "coverage_status": "well_covered",
+      "recommended_priority": "low",
+      "case_count": 7,
+      "period_count": 4,
+      "experience_strength": 0.748,
+      "maturity_stage": "developing_cluster",
+      "confidence_score": 1,
+      "intelligence_confidence_status": "moderate",
+      "recommended_action": "defer_new_cases_unless_high_value_event"
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_label": "MKT_010 Demand Shock / External Downturn",
+      "coverage_score": 0.793,
+      "coverage_status": "well_covered",
+      "recommended_priority": "low",
+      "case_count": 8,
+      "period_count": 5,
+      "experience_strength": 0.651,
+      "maturity_stage": "developing_cluster",
+      "confidence_score": 0.912,
+      "intelligence_confidence_status": "moderate",
+      "recommended_action": "defer_new_cases_unless_high_value_event"
+    },
+    {
+      "driver_id": "MKT_002",
+      "driver_label": "MKT_002 Inventory Cycle / Restocking",
+      "coverage_score": 0.795,
+      "coverage_status": "well_covered",
+      "recommended_priority": "low",
+      "case_count": 8,
+      "period_count": 4,
+      "experience_strength": 0.752,
+      "maturity_stage": "developing_cluster",
+      "confidence_score": 1,
+      "intelligence_confidence_status": "moderate",
+      "recommended_action": "defer_new_cases_unless_high_value_event"
+    },
+    {
+      "driver_id": "MKT_004",
+      "driver_label": "MKT_004 Capacity Expansion",
+      "coverage_score": 0.803,
+      "coverage_status": "well_covered",
+      "recommended_priority": "low",
+      "case_count": 6,
+      "period_count": 6,
+      "experience_strength": 0.691,
+      "maturity_stage": "developing_cluster",
+      "confidence_score": 1,
+      "intelligence_confidence_status": "moderate",
+      "recommended_action": "defer_new_cases_unless_high_value_event"
+    },
+    {
+      "driver_id": "MKT_008",
+      "driver_label": "MKT_008 Semiconductor / Electronics Cycle",
+      "coverage_score": 0.827,
+      "coverage_status": "well_covered",
+      "recommended_priority": "low",
+      "case_count": 8,
+      "period_count": 5,
+      "experience_strength": 0.715,
+      "maturity_stage": "developing_cluster",
+      "confidence_score": 1,
+      "intelligence_confidence_status": "high",
+      "recommended_action": "defer_new_cases_unless_high_value_event"
+    },
+    {
+      "driver_id": "MKT_011",
+      "driver_label": "MKT_011 Chemicals / Petrochemicals Cycle",
+      "coverage_score": 0.848,
+      "coverage_status": "well_covered",
+      "recommended_priority": "low",
+      "case_count": 8,
+      "period_count": 5,
+      "experience_strength": 0.797,
+      "maturity_stage": "developing_cluster",
+      "confidence_score": 1,
+      "intelligence_confidence_status": "high",
+      "recommended_action": "defer_new_cases_unless_high_value_event"
+    },
+    {
+      "driver_id": "MKT_012",
+      "driver_label": "MKT_012 Precision Engineering / Capital Equipment Cycle",
+      "coverage_score": 0.853,
+      "coverage_status": "well_covered",
+      "recommended_priority": "low",
+      "case_count": 8,
+      "period_count": 5,
+      "experience_strength": 0.819,
+      "maturity_stage": "developing_cluster",
+      "confidence_score": 1,
+      "intelligence_confidence_status": "high",
+      "recommended_action": "defer_new_cases_unless_high_value_event"
+    },
+    {
+      "driver_id": "MKT_009",
+      "driver_label": "MKT_009 Biomedical / Pharmaceutical Production Cycle",
+      "coverage_score": 0.894,
+      "coverage_status": "well_covered",
+      "recommended_priority": "low",
+      "case_count": 9,
+      "period_count": 6,
+      "experience_strength": 0.732,
+      "maturity_stage": "developing_cluster",
+      "confidence_score": 0.956,
+      "intelligence_confidence_status": "moderate",
+      "recommended_action": "defer_new_cases_unless_high_value_event"
+    },
+    {
+      "driver_id": "MKT_013",
+      "driver_label": "MKT_013 Transport Engineering / Aerospace Marine Cycle",
+      "coverage_score": 0.936,
+      "coverage_status": "well_covered",
+      "recommended_priority": "low",
+      "case_count": 9,
+      "period_count": 6,
+      "experience_strength": 0.865,
+      "maturity_stage": "developing_cluster",
+      "confidence_score": 1,
+      "intelligence_confidence_status": "high",
+      "recommended_action": "defer_new_cases_unless_high_value_event"
+    }
+  ]
+}

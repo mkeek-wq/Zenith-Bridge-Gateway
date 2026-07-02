@@ -1,0 +1,20 @@
+{
+  "historical_outcomes_version": "historical-outcomes-v0.1",
+  "generated_at": "2026-06-02T15:01:35.025Z",
+  "outcome_count": 1,
+  "outcomes": [
+    {
+      "primary_driver": "MKT_001",
+      "primary_driver_name": "Global Demand Surge",
+      "cases": 1,
+      "confidence_distribution": {
+        "low": 0,
+        "medium": 0,
+        "high": 1
+      },
+      "case_ids": [
+        "SG-M355381-1_1_3-2026-apr"
+      ]
+    }
+  ]
+}

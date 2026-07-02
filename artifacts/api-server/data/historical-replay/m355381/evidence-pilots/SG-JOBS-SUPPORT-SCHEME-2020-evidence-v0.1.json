@@ -1,0 +1,142 @@
+{
+  "evidence_package_version": "historical-evidence-package-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-JOBS-SUPPORT-SCHEME-2020",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_investigation_package": "data/historical-replay/m355381/investigation-packages/sg-jobs-support-scheme-2020-investigation-package-v0.1.json",
+  "case_summary": {
+    "period": "2020",
+    "series_no": "POLICY-MOF-JOBS-SUPPORT-SCHEME",
+    "series_name": "Jobs Support Scheme",
+    "priority": "critical",
+    "direction": "positive"
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "JSS_2020_EVIDENCE_001",
+      "source_type": "official",
+      "source_name": "Ministry of Finance Singapore",
+      "source_title": "Jobs Support Scheme",
+      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/jobssupportscheme/",
+      "evidence_summary": "MOF described the Jobs Support Scheme as wage support for employers, with payouts automatically computed based on CPF contribution data.",
+      "supports_hypotheses": [
+        "HYP_POLICY_SUPPORT"
+      ],
+      "supports_drivers": [
+        "MKT_006"
+      ],
+      "evidence_strength": "high"
+    },
+    {
+      "evidence_id": "JSS_2020_EVIDENCE_002",
+      "source_type": "official",
+      "source_name": "Ministry of Finance Singapore",
+      "source_title": "Enhanced Jobs Support Scheme",
+      "source_url": "https://www.mof.gov.sg",
+      "evidence_summary": "The Jobs Support Scheme was introduced in Budget 2020 to help enterprises retain local employees during the COVID-19 period of economic uncertainty.",
+      "supports_hypotheses": [
+        "HYP_POLICY_SUPPORT"
+      ],
+      "supports_drivers": [
+        "MKT_006"
+      ],
+      "evidence_strength": "high"
+    },
+    {
+      "evidence_id": "JSS_2020_EVIDENCE_003",
+      "source_type": "official",
+      "source_name": "Singapore Government / Civil Service College",
+      "source_title": "Supporting Jobs and Livelihoods during the Pandemic",
+      "source_url": "https://knowledge.csc.gov.sg/ethos-issue-22/supporting-jobs-and-livelihoods-during-the-pandemic/",
+      "evidence_summary": "JSS was introduced in the Unity Budget on 18 February 2020, initially providing wage support during a period of economic uncertainty.",
+      "supports_hypotheses": [
+        "HYP_POLICY_SUPPORT",
+        "HYP_DEMAND_SHOCK"
+      ],
+      "supports_drivers": [
+        "MKT_006",
+        "MKT_010"
+      ],
+      "evidence_strength": "high"
+    },
+    {
+      "evidence_id": "JSS_2020_EVIDENCE_004",
+      "source_type": "official_analysis",
+      "source_name": "Singapore Government / Annual Economic Survey 2021",
+      "source_title": "Impact of the Jobs Support Scheme on Labour Market Outcomes",
+      "source_url": "https://isomer-user-content.by.gov.sg/166/e950c915-e5aa-49ee-ba7a-731280dd3596/FA_AES2021.pdf",
+      "evidence_summary": "Government analysis found that higher effective JSS wage subsidies were associated with better local wage outcomes, indicating labour market stabilization effects.",
+      "supports_hypotheses": [
+        "HYP_POLICY_SUPPORT"
+      ],
+      "supports_drivers": [
+        "MKT_006"
+      ],
+      "evidence_strength": "high"
+    },
+    {
+      "evidence_id": "JSS_2020_EVIDENCE_005",
+      "source_type": "context",
+      "source_name": "Singapore COVID-19 Policy Context",
+      "source_title": "COVID-19 Economic Shock and Circuit Breaker Context",
+      "source_url": null,
+      "evidence_summary": "The scheme operated during the COVID-19 downturn and circuit breaker period, meaning observed employment or business outcomes may also reflect demand shock and operational disruption.",
+      "supports_hypotheses": [
+        "HYP_DEMAND_SHOCK",
+        "HYP_OPERATIONAL_DISRUPTION"
+      ],
+      "supports_drivers": [
+        "MKT_010",
+        "MKT_005"
+      ],
+      "evidence_strength": "medium"
+    }
+  ],
+  "mechanism_assessment": {
+    "primary_mechanism": "Government wage subsidies reduced employer labour cost pressure and supported worker retention during the COVID-19 downturn.",
+    "secondary_mechanisms": [
+      "automatic payout design reduced application friction",
+      "CPF contribution data enabled targeted employer support",
+      "sectoral and broad-based support helped cushion labour market stress",
+      "policy support interacted with demand collapse and operational restrictions"
+    ],
+    "transmission_chain": [
+      "COVID-19 shock reduced business revenue and activity",
+      "government introduced wage support through JSS",
+      "employers received wage subsidies",
+      "labour cost pressure was reduced",
+      "employment and wage outcomes were partly stabilized"
+    ]
+  },
+  "driver_evidence_summary": [
+    {
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "evidence_count": 4,
+      "evidence_strength": "high",
+      "summary": "The case is directly policy-native: JSS was a government wage support intervention designed to preserve jobs and business continuity."
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "evidence_count": 2,
+      "evidence_strength": "medium",
+      "summary": "The policy response was triggered by the COVID-19 economic downturn, so demand shock remains an important contextual driver."
+    },
+    {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "evidence_count": 1,
+      "evidence_strength": "medium",
+      "summary": "Operational restrictions during the COVID period affected business activity, but this appears secondary to the policy-support mechanism."
+    }
+  ],
+  "evidence_assessment": {
+    "evidence_collected": true,
+    "attribution_ready": true,
+    "outcome_ready": false,
+    "confidence": "high",
+    "notes": "This evidence package supports classification of SG-JOBS-SUPPORT-SCHEME-2020 as a policy-native replay case with MKT_006 as the expected primary driver."
+  }
+}

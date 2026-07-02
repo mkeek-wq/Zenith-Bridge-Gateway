@@ -1,0 +1,62 @@
+{
+  "scorecard_version": "historical-evidence-scorecard-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-GLOBAL-MINIMUM-TAX-2025",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_evidence_package": "data/historical-replay/m355381/evidence-pilots/SG-GLOBAL-MINIMUM-TAX-2025-evidence-v0.1.json",
+  "case_summary": {
+    "period": "2025",
+    "series_no": "POLICY-MOF-GLOBAL-MINIMUM-TAX",
+    "series_name": "Global Minimum Tax",
+    "priority": "critical",
+    "direction": "mixed",
+    "latest_value": null,
+    "month_on_month_change_pct": null,
+    "year_on_year_change_pct": null
+  },
+  "driver_scores": [
+    {
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "score": 36,
+      "rank": 1
+    },
+    {
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "score": 12,
+      "rank": 2
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "score": 8,
+      "rank": 3
+    }
+  ],
+  "final_attribution": {
+    "primary_driver": {
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "score": 36
+    },
+    "secondary_driver": {
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "score": 12
+    },
+    "tertiary_driver": {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "score": 8
+    },
+    "confidence": "high",
+    "summary": "SG-GLOBAL-MINIMUM-TAX-2025 is classified as a policy-native replay case with MKT_006 as the primary driver."
+  },
+  "scorecard_status": {
+    "attribution_scored": true,
+    "outcome_ready": true,
+    "human_review_required": true
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "driver_evidence_taxonomy_version": "driver-evidence-taxonomy-v0.1",
+  "generated_at": "2026-06-03T11:59:51.433Z",
+  "policy": {
+    "principle": "Evidence phrases should map to drivers, attribution buckets, and scoring hints. This taxonomy supports attribution but does not automatically close cases.",
+    "production_mutation_allowed": false
+  },
+  "attribution_buckets": [
+    "market_effect",
+    "portfolio_effect",
+    "operational_effect",
+    "policy_effect",
+    "unknown_effect"
+  ],
+  "drivers": [
+    {
+      "driver_id": "MKT_001",
+      "driver_name": "Global Demand Surge",
+      "attribution_bucket": "market_effect",
+      "evidence_phrases": [
+        "strong global demand",
+        "demand surge",
+        "higher end-demand",
+        "consumer demand",
+        "data center demand",
+        "work-from-home demand",
+        "export demand",
+        "order growth"
+      ],
+      "default_score": 5
+    },
+    {
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "attribution_bucket": "portfolio_effect",
+      "evidence_phrases": [
+        "inventory restocking",
+        "restocking",
+        "stockpiling",
+        "inventory correction",
+        "inventory drawdown",
+        "channel inventory",
+        "customer inventory"
+      ],
+      "default_score": 5
+    },
+    {
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness",
+      "attribution_bucket": "market_effect",
+      "evidence_phrases": [
+        "weak external demand",
+        "export decline",
+        "lower exports",
+        "soft global demand",
+        "demand weakness",
+        "order slowdown",
+        "trade slowdown"
+      ],
+      "default_score": 5
+    },
+    {
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "attribution_bucket": "operational_effect",
+      "evidence_phrases": [
+        "capacity expansion",
+        "new plant",
+        "production ramp-up",
+        "ramp up",
+        "new facility",
+        "higher capacity",
+        "capacity addition"
+      ],
+      "default_score": 6
+    },
+    {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "attribution_bucket": "operational_effect",
+      "evidence_phrases": [
+        "maintenance shutdown",
+        "plant shutdown",
+        "production disruption",
+        "supply disruption",
+        "factory closure",
+        "covid restrictions",
+        "lockdown",
+        "supply constraints"
+      ],
+      "default_score": 7
+    },
+    {
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "attribution_bucket": "policy_effect",
+      "evidence_phrases": [
+        "policy change",
+        "regulatory change",
+        "tax incentive",
+        "government incentive",
+        "export restriction",
+        "trade restriction",
+        "tariff",
+        "sanctions"
+      ],
+      "default_score": 7
+    },
+    {
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "attribution_bucket": "market_effect",
+      "evidence_phrases": [
+        "oil demand",
+        "fuel demand",
+        "jet fuel demand",
+        "travel demand",
+        "refining margin",
+        "refinery maintenance",
+        "petroleum demand",
+        "crude oil"
+      ],
+      "default_score": 6
+    },
+    {
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "attribution_bucket": "market_effect",
+      "evidence_phrases": [
+        "semiconductor demand",
+        "chip shortage",
+        "global chip shortage",
+        "electronics demand",
+        "wafer demand",
+        "foundry demand",
+        "memory demand",
+        "logic chip demand",
+        "data center chips",
+        "consumer electronics"
+      ],
+      "default_score": 7
+    },
+    {
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "attribution_bucket": "operational_effect",
+      "evidence_phrases": [
+        "pharmaceutical batch",
+        "batch production",
+        "biologics production",
+        "medical technology demand",
+        "drug production",
+        "plant schedule",
+        "healthcare demand",
+        "vaccine production"
+      ],
+      "default_score": 6
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "attribution_bucket": "market_effect",
+      "evidence_phrases": [
+        "demand shock",
+        "external downturn",
+        "covid shock",
+        "pandemic disruption",
+        "global recession",
+        "sharp demand fall",
+        "collapse in demand",
+        "lockdown demand shock"
+      ],
+      "default_score": 7
+    },
+{
+  "driver_id": "MKT_011",
+  "driver_name": "Chemicals / Petrochemicals Cycle",
+  "attribution_bucket": "market_effect",
+  "evidence_phrases": [
+    "chemical demand",
+    "chemicals demand",
+    "petrochemical demand",
+    "petrochemicals demand",
+    "specialty chemicals",
+    "basic chemicals",
+    "ethylene demand",
+    "aromatics demand",
+    "chemical output",
+    "petrochemical output",
+    "chemical production",
+    "petrochemical production",
+    "chemical plant",
+    "petrochemical plant",
+    "feedstock prices",
+    "naphtha prices"
+  ],
+  "default_score": 6
+},
+{
+  "driver_id": "MKT_012",
+  "driver_name": "Precision Engineering / Capital Equipment Cycle",
+  "attribution_bucket": "market_effect",
+  "evidence_phrases": [
+    "precision engineering",
+    "machinery demand",
+    "capital equipment demand",
+    "industrial equipment demand",
+    "machine tools",
+    "automation equipment",
+    "semiconductor equipment",
+    "engineering output",
+    "equipment orders",
+    "capital spending",
+    "capex cycle",
+    "investment demand"
+  ],
+  "default_score": 6
+},
+{
+  "driver_id": "MKT_013",
+  "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+  "attribution_bucket": "market_effect",
+  "evidence_phrases": [
+    "transport engineering",
+    "aerospace demand",
+    "aircraft maintenance",
+    "aircraft repair",
+    "mro demand",
+    "marine engineering",
+    "ship repair",
+    "offshore engineering",
+    "rig building",
+    "travel recovery",
+    "aviation recovery",
+    "fleet maintenance"
+  ],
+  "default_score": 6
+}
+  ]
+}

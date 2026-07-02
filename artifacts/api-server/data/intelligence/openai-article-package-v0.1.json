@@ -1,0 +1,938 @@
+{
+  "package_version": "openai-article-package-v0.1",
+  "generated_at": "2026-06-15T07:19:34.252Z",
+  "package_count": 3,
+  "packages": [
+    {
+      "candidate_id": "ART-what-precision-engineering-reveals-about-singapore-s-capital-equipment-cycle",
+      "title": "What Precision Engineering Reveals About Singapore's Capital Equipment Cycle",
+      "article_context": {
+        "title": "What Precision Engineering Reveals About Singapore's Capital Equipment Cycle",
+        "excerpt": "Explain how machinery demand, automation investment, and capex cycles affect Singapore's precision engineering sector.",
+        "business_implication": "Singapore's precision engineering movements appear linked to capital equipment demand, machinery orders, automation investment, and manufacturing capex cycles.",
+        "why_it_matters": "For operators, precision engineering matters because it can indicate where capital spending, automation, and advanced manufacturing investment are strengthening or weakening.",
+        "affected_sectors": [
+          "Precision Engineering",
+          "Capital Equipment",
+          "Advanced Manufacturing"
+        ],
+        "confidence": {
+          "signal_strength": "high",
+          "case_count": 8,
+          "weighted_case_count": 8,
+          "maturity_stage": "developing_cluster",
+          "confidence_score": 1,
+          "experience_strength": 0.819,
+          "recurrence_score": 0.625,
+          "persistence_score": 0.5,
+          "volatility_score": 0.768,
+          "confidence_tier": "established_pattern",
+          "stability_assessment": "moderately_stable_pattern",
+          "recurrence_assessment": "partially_recurring",
+          "bias_warnings": [],
+          "score_volatility": 5.809,
+          "average_evidence_count": 4,
+          "average_driver_score": 73.5,
+          "weighted_average_driver_score": 73.5
+        },
+        "source_driver": {
+          "driver_id": "MKT_012",
+          "driver_name": "Precision Engineering / Capital Equipment Cycle",
+          "attribution_bucket": "market_effect"
+        },
+        "editorial_guidance": {
+          "suggested_sections": [
+            "What happened?",
+            "Why did it happen?",
+            "What does the historical evidence show?",
+            "Why does it matter for businesses?",
+            "What should operators watch next?"
+          ],
+          "required_graphs": [
+            "Singapore precision engineering output trend",
+            "Capital equipment / capex signal timeline"
+          ],
+          "tone": "Calm, factual, structured, business-oriented. Avoid hype. Explain mechanisms."
+        }
+      },
+      "graph_packages": [
+        {
+          "graph_package_id": "GDPKG_SG_PRECISION_ENGINEERING_OUTPUT_INDEX",
+          "dataset_id": "SG_PRECISION_ENGINEERING_OUTPUT_INDEX",
+          "title": "Singapore machinery and equipment output",
+          "country": "Singapore",
+          "unit": "Million Dollars",
+          "frequency": "annual",
+          "source_name": "SingStat Table Builder",
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "values_count": 10,
+          "latest_period": "2025",
+          "latest_value": 48081,
+          "previous_period": "2024",
+          "previous_value": 42285.2,
+          "latest_yoy_percent": 13.71,
+          "ten_year_change_percent": 114.13,
+          "trend_direction": "rising",
+          "recommended_graphs": [
+            "10y_line_chart",
+            "latest_yoy_bar",
+            "indexed_trend_chart"
+          ],
+          "values": [
+            {
+              "period": "2016",
+              "value": 22454.4
+            },
+            {
+              "period": "2017",
+              "value": 26117.5
+            },
+            {
+              "period": "2018",
+              "value": 30780.7
+            },
+            {
+              "period": "2019",
+              "value": 27281.8
+            },
+            {
+              "period": "2020",
+              "value": 26858.4
+            },
+            {
+              "period": "2021",
+              "value": 34906.5
+            },
+            {
+              "period": "2022",
+              "value": 40995.6
+            },
+            {
+              "period": "2023",
+              "value": 39495.4
+            },
+            {
+              "period": "2024",
+              "value": 42285.2
+            },
+            {
+              "period": "2025",
+              "value": 48081
+            }
+          ],
+          "source_metadata": {
+            "table_id": "M354851",
+            "table_title": "Manufacturing Output In Manufacturing By Industry, Annual",
+            "row_text": "Machinery & Equipment",
+            "datasource": "ECONOMIC DEVELOPMENT BOARD",
+            "data_last_updated": "11/05/2026",
+            "date_generated": "14/06/2026",
+            "footnote": "From 2002, figures include establishments with less than 10 workers.  Prior to 2002, figures refer to establishments engaging 10 or more workers.  Data include all manufacturing establishments.  The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2025.  Valuation of output has been changed to basic price.  Historical data on manufacturing output has been revised accordingly from 1980.  Year 2025 data are preliminary estimates."
+          }
+        },
+        {
+          "graph_package_id": "GDPKG_SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "title": "Singapore total manufacturing output",
+          "country": "Singapore",
+          "unit": "Million Dollars",
+          "frequency": "annual",
+          "source_name": "SingStat Table Builder",
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "values_count": 10,
+          "latest_period": "2025",
+          "latest_value": 459504.1,
+          "previous_period": "2024",
+          "previous_value": 413042.6,
+          "latest_yoy_percent": 11.25,
+          "ten_year_change_percent": 77.56,
+          "trend_direction": "rising",
+          "recommended_graphs": [
+            "10y_line_chart",
+            "latest_yoy_bar",
+            "indexed_trend_chart"
+          ],
+          "values": [
+            {
+              "period": "2016",
+              "value": 258788.4
+            },
+            {
+              "period": "2017",
+              "value": 305118
+            },
+            {
+              "period": "2018",
+              "value": 343841.5
+            },
+            {
+              "period": "2019",
+              "value": 324431.9
+            },
+            {
+              "period": "2020",
+              "value": 300128.3
+            },
+            {
+              "period": "2021",
+              "value": 379845.2
+            },
+            {
+              "period": "2022",
+              "value": 444025.5
+            },
+            {
+              "period": "2023",
+              "value": 392206.2
+            },
+            {
+              "period": "2024",
+              "value": 413042.6
+            },
+            {
+              "period": "2025",
+              "value": 459504.1
+            }
+          ],
+          "source_metadata": {
+            "table_id": "M354851",
+            "table_title": "Manufacturing Output In Manufacturing By Industry, Annual",
+            "row_text": "Total Manufacturing",
+            "datasource": "ECONOMIC DEVELOPMENT BOARD",
+            "data_last_updated": "11/05/2026",
+            "date_generated": "14/06/2026",
+            "footnote": "From 2002, figures include establishments with less than 10 workers.  Prior to 2002, figures refer to establishments engaging 10 or more workers.  Data include all manufacturing establishments.  The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2025.  Valuation of output has been changed to basic price.  Historical data on manufacturing output has been revised accordingly from 1980.  Year 2025 data are preliminary estimates."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "dataset_id": "SG_PRECISION_ENGINEERING_OUTPUT_INDEX",
+          "name": "Singapore machinery and equipment output",
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+          "preferred_sources": [
+            "SingStat Table Builder"
+          ],
+          "source_metadata": {
+            "table_id": "M354851",
+            "table_title": "Manufacturing Output In Manufacturing By Industry, Annual",
+            "row_text": "Machinery & Equipment",
+            "datasource": "ECONOMIC DEVELOPMENT BOARD",
+            "data_last_updated": "11/05/2026",
+            "date_generated": "14/06/2026",
+            "footnote": "From 2002, figures include establishments with less than 10 workers.  Prior to 2002, figures refer to establishments engaging 10 or more workers.  Data include all manufacturing establishments.  The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2025.  Valuation of output has been changed to basic price.  Historical data on manufacturing output has been revised accordingly from 1980.  Year 2025 data are preliminary estimates."
+          }
+        },
+        {
+          "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "name": "Singapore total manufacturing output",
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+          "preferred_sources": [
+            "SingStat Table Builder"
+          ],
+          "source_metadata": {
+            "table_id": "M354851",
+            "table_title": "Manufacturing Output In Manufacturing By Industry, Annual",
+            "row_text": "Total Manufacturing",
+            "datasource": "ECONOMIC DEVELOPMENT BOARD",
+            "data_last_updated": "11/05/2026",
+            "date_generated": "14/06/2026",
+            "footnote": "From 2002, figures include establishments with less than 10 workers.  Prior to 2002, figures refer to establishments engaging 10 or more workers.  Data include all manufacturing establishments.  The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2025.  Valuation of output has been changed to basic price.  Historical data on manufacturing output has been revised accordingly from 1980.  Year 2025 data are preliminary estimates."
+          }
+        }
+      ],
+      "governance": {
+        "publication_allowed": false,
+        "human_review_required": true
+      }
+    },
+    {
+      "candidate_id": "ART-what-transport-engineering-reveals-about-singapore-s-aviation-and-marine-recovery",
+      "title": "What Transport Engineering Reveals About Singapore's Aviation and Marine Recovery",
+      "article_context": {
+        "title": "What Transport Engineering Reveals About Singapore's Aviation and Marine Recovery",
+        "excerpt": "Explain how aviation recovery, aircraft maintenance, marine engineering, and ship repair activity shape Singapore's transport engineering sector.",
+        "business_implication": "Singapore's transport engineering movements appear linked to aviation recovery, aircraft maintenance, marine engineering, ship repair, and fleet maintenance cycles.",
+        "why_it_matters": "For businesses, transport engineering matters because aviation, marine, and maintenance cycles can reveal recovery patterns in travel, logistics, offshore activity, and regional industrial demand.",
+        "affected_sectors": [
+          "Aerospace",
+          "Marine Engineering",
+          "Transport Engineering",
+          "MRO"
+        ],
+        "confidence": {
+          "signal_strength": "high",
+          "case_count": 9,
+          "weighted_case_count": 9,
+          "maturity_stage": "developing_cluster",
+          "confidence_score": 1,
+          "experience_strength": 0.865,
+          "recurrence_score": 0.667,
+          "persistence_score": 0.6,
+          "volatility_score": 0.811,
+          "confidence_tier": "established_pattern",
+          "stability_assessment": "stable_pattern",
+          "recurrence_assessment": "partially_recurring",
+          "bias_warnings": [
+            "POSSIBLE_TEMPLATE_CONCENTRATION"
+          ],
+          "score_volatility": 4.714,
+          "average_evidence_count": 4,
+          "average_driver_score": 73.333,
+          "weighted_average_driver_score": 73.333
+        },
+        "source_driver": {
+          "driver_id": "MKT_013",
+          "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+          "attribution_bucket": "market_effect"
+        },
+        "editorial_guidance": {
+          "suggested_sections": [
+            "What happened?",
+            "Why did it happen?",
+            "What does the historical evidence show?",
+            "Why does it matter for businesses?",
+            "What should operators watch next?"
+          ],
+          "required_graphs": [
+            "Singapore transport engineering output trend",
+            "Aviation and marine recovery signal timeline"
+          ],
+          "tone": "Calm, factual, structured, business-oriented. Avoid hype. Explain mechanisms."
+        }
+      },
+      "graph_packages": [
+        {
+          "graph_package_id": "GDPKG_SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX",
+          "dataset_id": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX",
+          "title": "Singapore other transport equipment output",
+          "country": "Singapore",
+          "unit": "Million Dollars",
+          "frequency": "annual",
+          "source_name": "SingStat Table Builder",
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "values_count": 10,
+          "latest_period": "2025",
+          "latest_value": 33614.4,
+          "previous_period": "2024",
+          "previous_value": 25563.6,
+          "latest_yoy_percent": 31.49,
+          "ten_year_change_percent": 113.54,
+          "trend_direction": "rising",
+          "recommended_graphs": [
+            "10y_line_chart",
+            "latest_yoy_bar",
+            "indexed_trend_chart"
+          ],
+          "values": [
+            {
+              "period": "2016",
+              "value": 15741.5
+            },
+            {
+              "period": "2017",
+              "value": 15360.4
+            },
+            {
+              "period": "2018",
+              "value": 14532.4
+            },
+            {
+              "period": "2019",
+              "value": 16690.5
+            },
+            {
+              "period": "2020",
+              "value": 13592.3
+            },
+            {
+              "period": "2021",
+              "value": 14812.2
+            },
+            {
+              "period": "2022",
+              "value": 18147.8
+            },
+            {
+              "period": "2023",
+              "value": 21571
+            },
+            {
+              "period": "2024",
+              "value": 25563.6
+            },
+            {
+              "period": "2025",
+              "value": 33614.4
+            }
+          ],
+          "source_metadata": {
+            "table_id": "M354851",
+            "table_title": "Manufacturing Output In Manufacturing By Industry, Annual",
+            "row_text": "Other Transport Equipment",
+            "datasource": "ECONOMIC DEVELOPMENT BOARD",
+            "data_last_updated": "11/05/2026",
+            "date_generated": "14/06/2026",
+            "footnote": "From 2002, figures include establishments with less than 10 workers.  Prior to 2002, figures refer to establishments engaging 10 or more workers.  Data include all manufacturing establishments.  The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2025.  Valuation of output has been changed to basic price.  Historical data on manufacturing output has been revised accordingly from 1980.  Year 2025 data are preliminary estimates."
+          }
+        },
+        {
+          "graph_package_id": "GDPKG_SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "title": "Singapore total manufacturing output",
+          "country": "Singapore",
+          "unit": "Million Dollars",
+          "frequency": "annual",
+          "source_name": "SingStat Table Builder",
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "values_count": 10,
+          "latest_period": "2025",
+          "latest_value": 459504.1,
+          "previous_period": "2024",
+          "previous_value": 413042.6,
+          "latest_yoy_percent": 11.25,
+          "ten_year_change_percent": 77.56,
+          "trend_direction": "rising",
+          "recommended_graphs": [
+            "10y_line_chart",
+            "latest_yoy_bar",
+            "indexed_trend_chart"
+          ],
+          "values": [
+            {
+              "period": "2016",
+              "value": 258788.4
+            },
+            {
+              "period": "2017",
+              "value": 305118
+            },
+            {
+              "period": "2018",
+              "value": 343841.5
+            },
+            {
+              "period": "2019",
+              "value": 324431.9
+            },
+            {
+              "period": "2020",
+              "value": 300128.3
+            },
+            {
+              "period": "2021",
+              "value": 379845.2
+            },
+            {
+              "period": "2022",
+              "value": 444025.5
+            },
+            {
+              "period": "2023",
+              "value": 392206.2
+            },
+            {
+              "period": "2024",
+              "value": 413042.6
+            },
+            {
+              "period": "2025",
+              "value": 459504.1
+            }
+          ],
+          "source_metadata": {
+            "table_id": "M354851",
+            "table_title": "Manufacturing Output In Manufacturing By Industry, Annual",
+            "row_text": "Total Manufacturing",
+            "datasource": "ECONOMIC DEVELOPMENT BOARD",
+            "data_last_updated": "11/05/2026",
+            "date_generated": "14/06/2026",
+            "footnote": "From 2002, figures include establishments with less than 10 workers.  Prior to 2002, figures refer to establishments engaging 10 or more workers.  Data include all manufacturing establishments.  The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2025.  Valuation of output has been changed to basic price.  Historical data on manufacturing output has been revised accordingly from 1980.  Year 2025 data are preliminary estimates."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "dataset_id": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX",
+          "name": "Singapore other transport equipment output",
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+          "preferred_sources": [
+            "SingStat Table Builder"
+          ],
+          "source_metadata": {
+            "table_id": "M354851",
+            "table_title": "Manufacturing Output In Manufacturing By Industry, Annual",
+            "row_text": "Other Transport Equipment",
+            "datasource": "ECONOMIC DEVELOPMENT BOARD",
+            "data_last_updated": "11/05/2026",
+            "date_generated": "14/06/2026",
+            "footnote": "From 2002, figures include establishments with less than 10 workers.  Prior to 2002, figures refer to establishments engaging 10 or more workers.  Data include all manufacturing establishments.  The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2025.  Valuation of output has been changed to basic price.  Historical data on manufacturing output has been revised accordingly from 1980.  Year 2025 data are preliminary estimates."
+          }
+        },
+        {
+          "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "name": "Singapore total manufacturing output",
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+          "preferred_sources": [
+            "SingStat Table Builder"
+          ],
+          "source_metadata": {
+            "table_id": "M354851",
+            "table_title": "Manufacturing Output In Manufacturing By Industry, Annual",
+            "row_text": "Total Manufacturing",
+            "datasource": "ECONOMIC DEVELOPMENT BOARD",
+            "data_last_updated": "11/05/2026",
+            "date_generated": "14/06/2026",
+            "footnote": "From 2002, figures include establishments with less than 10 workers.  Prior to 2002, figures refer to establishments engaging 10 or more workers.  Data include all manufacturing establishments.  The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2025.  Valuation of output has been changed to basic price.  Historical data on manufacturing output has been revised accordingly from 1980.  Year 2025 data are preliminary estimates."
+          }
+        }
+      ],
+      "governance": {
+        "publication_allowed": false,
+        "human_review_required": true
+      }
+    },
+    {
+      "candidate_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+      "title": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles",
+      "article_context": {
+        "title": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles",
+        "excerpt": "Explain how petroleum-related manufacturing movements reflect fuel demand, travel recovery, refining margins, and operational factors.",
+        "business_implication": "Singapore's petroleum-related manufacturing movements appear linked to energy demand and refining-cycle conditions, suggesting exposure to global fuel demand, travel activity, and refinery operations.",
+        "why_it_matters": "For businesses, energy-cycle exposure matters because petroleum and refining movements can signal changes in trade, logistics, travel, and industrial demand conditions.",
+        "affected_sectors": [
+          "Petroleum",
+          "Refining",
+          "Energy",
+          "Logistics"
+        ],
+        "confidence": {
+          "signal_strength": "medium",
+          "case_count": 6,
+          "weighted_case_count": 5.6,
+          "maturity_stage": "developing_cluster",
+          "confidence_score": 0.933,
+          "experience_strength": 0.606,
+          "recurrence_score": 0.833,
+          "persistence_score": 0.5,
+          "volatility_score": 0.553,
+          "confidence_tier": "emerging_pattern",
+          "stability_assessment": "volatile_pattern",
+          "recurrence_assessment": "recurring_across_periods",
+          "bias_warnings": [],
+          "score_volatility": 11.18,
+          "average_evidence_count": 4,
+          "average_driver_score": 43,
+          "weighted_average_driver_score": 44.786
+        },
+        "source_driver": {
+          "driver_id": "MKT_007",
+          "driver_name": "Energy Demand / Refining Cycle",
+          "attribution_bucket": "market_effect"
+        },
+        "editorial_guidance": {
+          "suggested_sections": [
+            "What happened?",
+            "Why did it happen?",
+            "What does the historical evidence show?",
+            "Why does it matter for businesses?",
+            "What should operators watch next?"
+          ],
+          "required_graphs": [
+            "Singapore petroleum output trend",
+            "Energy demand and refining-cycle signal timeline"
+          ],
+          "tone": "Calm, factual, structured, business-oriented. Avoid hype. Explain mechanisms."
+        }
+      },
+      "graph_packages": [
+        {
+          "graph_package_id": "GDPKG_SG_PETROLEUM_OUTPUT_INDEX",
+          "dataset_id": "SG_PETROLEUM_OUTPUT_INDEX",
+          "title": "Singapore refined petroleum products output",
+          "country": "Singapore",
+          "unit": "Million Dollars",
+          "frequency": "annual",
+          "source_name": "SingStat Table Builder",
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "values_count": 10,
+          "latest_period": "2025",
+          "latest_value": 38344,
+          "previous_period": "2024",
+          "previous_value": 42144.2,
+          "latest_yoy_percent": -9.02,
+          "ten_year_change_percent": 43.11,
+          "trend_direction": "rising",
+          "recommended_graphs": [
+            "10y_line_chart",
+            "latest_yoy_bar",
+            "indexed_trend_chart"
+          ],
+          "values": [
+            {
+              "period": "2016",
+              "value": 26793.8
+            },
+            {
+              "period": "2017",
+              "value": 35725.1
+            },
+            {
+              "period": "2018",
+              "value": 43705.1
+            },
+            {
+              "period": "2019",
+              "value": 38202.9
+            },
+            {
+              "period": "2020",
+              "value": 21753
+            },
+            {
+              "period": "2021",
+              "value": 34873.8
+            },
+            {
+              "period": "2022",
+              "value": 52611.9
+            },
+            {
+              "period": "2023",
+              "value": 42690.9
+            },
+            {
+              "period": "2024",
+              "value": 42144.2
+            },
+            {
+              "period": "2025",
+              "value": 38344
+            }
+          ],
+          "source_metadata": {
+            "table_id": "M354851",
+            "table_title": "Manufacturing Output In Manufacturing By Industry, Annual",
+            "row_text": "Refined Petroleum Products",
+            "datasource": "ECONOMIC DEVELOPMENT BOARD",
+            "data_last_updated": "11/05/2026",
+            "date_generated": "14/06/2026",
+            "footnote": "From 2002, figures include establishments with less than 10 workers.  Prior to 2002, figures refer to establishments engaging 10 or more workers.  Data include all manufacturing establishments.  The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2025.  Valuation of output has been changed to basic price.  Historical data on manufacturing output has been revised accordingly from 1980.  Year 2025 data are preliminary estimates."
+          }
+        },
+        {
+          "graph_package_id": "GDPKG_SG_CHEMICALS_OUTPUT_INDEX",
+          "dataset_id": "SG_CHEMICALS_OUTPUT_INDEX",
+          "title": "Singapore chemicals and chemical products output",
+          "country": "Singapore",
+          "unit": "Million Dollars",
+          "frequency": "annual",
+          "source_name": "SingStat Table Builder",
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "values_count": 10,
+          "latest_period": "2025",
+          "latest_value": 46718.4,
+          "previous_period": "2024",
+          "previous_value": 49406.1,
+          "latest_yoy_percent": -5.44,
+          "ten_year_change_percent": 19.46,
+          "trend_direction": "rising",
+          "recommended_graphs": [
+            "10y_line_chart",
+            "latest_yoy_bar",
+            "indexed_trend_chart"
+          ],
+          "values": [
+            {
+              "period": "2016",
+              "value": 39109.6
+            },
+            {
+              "period": "2017",
+              "value": 45481.7
+            },
+            {
+              "period": "2018",
+              "value": 51141.8
+            },
+            {
+              "period": "2019",
+              "value": 44938.3
+            },
+            {
+              "period": "2020",
+              "value": 38353.2
+            },
+            {
+              "period": "2021",
+              "value": 56048
+            },
+            {
+              "period": "2022",
+              "value": 60538.7
+            },
+            {
+              "period": "2023",
+              "value": 47775.1
+            },
+            {
+              "period": "2024",
+              "value": 49406.1
+            },
+            {
+              "period": "2025",
+              "value": 46718.4
+            }
+          ],
+          "source_metadata": {
+            "table_id": "M354851",
+            "table_title": "Manufacturing Output In Manufacturing By Industry, Annual",
+            "row_text": "Chemicals & Chemical Products",
+            "datasource": "ECONOMIC DEVELOPMENT BOARD",
+            "data_last_updated": "11/05/2026",
+            "date_generated": "14/06/2026",
+            "footnote": "From 2002, figures include establishments with less than 10 workers.  Prior to 2002, figures refer to establishments engaging 10 or more workers.  Data include all manufacturing establishments.  The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2025.  Valuation of output has been changed to basic price.  Historical data on manufacturing output has been revised accordingly from 1980.  Year 2025 data are preliminary estimates."
+          }
+        },
+        {
+          "graph_package_id": "GDPKG_SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX",
+          "dataset_id": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX",
+          "title": "Singapore other transport equipment output",
+          "country": "Singapore",
+          "unit": "Million Dollars",
+          "frequency": "annual",
+          "source_name": "SingStat Table Builder",
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "values_count": 10,
+          "latest_period": "2025",
+          "latest_value": 33614.4,
+          "previous_period": "2024",
+          "previous_value": 25563.6,
+          "latest_yoy_percent": 31.49,
+          "ten_year_change_percent": 113.54,
+          "trend_direction": "rising",
+          "recommended_graphs": [
+            "10y_line_chart",
+            "latest_yoy_bar",
+            "indexed_trend_chart"
+          ],
+          "values": [
+            {
+              "period": "2016",
+              "value": 15741.5
+            },
+            {
+              "period": "2017",
+              "value": 15360.4
+            },
+            {
+              "period": "2018",
+              "value": 14532.4
+            },
+            {
+              "period": "2019",
+              "value": 16690.5
+            },
+            {
+              "period": "2020",
+              "value": 13592.3
+            },
+            {
+              "period": "2021",
+              "value": 14812.2
+            },
+            {
+              "period": "2022",
+              "value": 18147.8
+            },
+            {
+              "period": "2023",
+              "value": 21571
+            },
+            {
+              "period": "2024",
+              "value": 25563.6
+            },
+            {
+              "period": "2025",
+              "value": 33614.4
+            }
+          ],
+          "source_metadata": {
+            "table_id": "M354851",
+            "table_title": "Manufacturing Output In Manufacturing By Industry, Annual",
+            "row_text": "Other Transport Equipment",
+            "datasource": "ECONOMIC DEVELOPMENT BOARD",
+            "data_last_updated": "11/05/2026",
+            "date_generated": "14/06/2026",
+            "footnote": "From 2002, figures include establishments with less than 10 workers.  Prior to 2002, figures refer to establishments engaging 10 or more workers.  Data include all manufacturing establishments.  The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2025.  Valuation of output has been changed to basic price.  Historical data on manufacturing output has been revised accordingly from 1980.  Year 2025 data are preliminary estimates."
+          }
+        },
+        {
+          "graph_package_id": "GDPKG_SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "title": "Singapore total manufacturing output",
+          "country": "Singapore",
+          "unit": "Million Dollars",
+          "frequency": "annual",
+          "source_name": "SingStat Table Builder",
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "values_count": 10,
+          "latest_period": "2025",
+          "latest_value": 459504.1,
+          "previous_period": "2024",
+          "previous_value": 413042.6,
+          "latest_yoy_percent": 11.25,
+          "ten_year_change_percent": 77.56,
+          "trend_direction": "rising",
+          "recommended_graphs": [
+            "10y_line_chart",
+            "latest_yoy_bar",
+            "indexed_trend_chart"
+          ],
+          "values": [
+            {
+              "period": "2016",
+              "value": 258788.4
+            },
+            {
+              "period": "2017",
+              "value": 305118
+            },
+            {
+              "period": "2018",
+              "value": 343841.5
+            },
+            {
+              "period": "2019",
+              "value": 324431.9
+            },
+            {
+              "period": "2020",
+              "value": 300128.3
+            },
+            {
+              "period": "2021",
+              "value": 379845.2
+            },
+            {
+              "period": "2022",
+              "value": 444025.5
+            },
+            {
+              "period": "2023",
+              "value": 392206.2
+            },
+            {
+              "period": "2024",
+              "value": 413042.6
+            },
+            {
+              "period": "2025",
+              "value": 459504.1
+            }
+          ],
+          "source_metadata": {
+            "table_id": "M354851",
+            "table_title": "Manufacturing Output In Manufacturing By Industry, Annual",
+            "row_text": "Total Manufacturing",
+            "datasource": "ECONOMIC DEVELOPMENT BOARD",
+            "data_last_updated": "11/05/2026",
+            "date_generated": "14/06/2026",
+            "footnote": "From 2002, figures include establishments with less than 10 workers.  Prior to 2002, figures refer to establishments engaging 10 or more workers.  Data include all manufacturing establishments.  The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2025.  Valuation of output has been changed to basic price.  Historical data on manufacturing output has been revised accordingly from 1980.  Year 2025 data are preliminary estimates."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "dataset_id": "SG_PETROLEUM_OUTPUT_INDEX",
+          "name": "Singapore refined petroleum products output",
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+          "preferred_sources": [
+            "SingStat Table Builder"
+          ],
+          "source_metadata": {
+            "table_id": "M354851",
+            "table_title": "Manufacturing Output In Manufacturing By Industry, Annual",
+            "row_text": "Refined Petroleum Products",
+            "datasource": "ECONOMIC DEVELOPMENT BOARD",
+            "data_last_updated": "11/05/2026",
+            "date_generated": "14/06/2026",
+            "footnote": "From 2002, figures include establishments with less than 10 workers.  Prior to 2002, figures refer to establishments engaging 10 or more workers.  Data include all manufacturing establishments.  The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2025.  Valuation of output has been changed to basic price.  Historical data on manufacturing output has been revised accordingly from 1980.  Year 2025 data are preliminary estimates."
+          }
+        },
+        {
+          "dataset_id": "SG_CHEMICALS_OUTPUT_INDEX",
+          "name": "Singapore chemicals and chemical products output",
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+          "preferred_sources": [
+            "SingStat Table Builder"
+          ],
+          "source_metadata": {
+            "table_id": "M354851",
+            "table_title": "Manufacturing Output In Manufacturing By Industry, Annual",
+            "row_text": "Chemicals & Chemical Products",
+            "datasource": "ECONOMIC DEVELOPMENT BOARD",
+            "data_last_updated": "11/05/2026",
+            "date_generated": "14/06/2026",
+            "footnote": "From 2002, figures include establishments with less than 10 workers.  Prior to 2002, figures refer to establishments engaging 10 or more workers.  Data include all manufacturing establishments.  The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2025.  Valuation of output has been changed to basic price.  Historical data on manufacturing output has been revised accordingly from 1980.  Year 2025 data are preliminary estimates."
+          }
+        },
+        {
+          "dataset_id": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX",
+          "name": "Singapore other transport equipment output",
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+          "preferred_sources": [
+            "SingStat Table Builder"
+          ],
+          "source_metadata": {
+            "table_id": "M354851",
+            "table_title": "Manufacturing Output In Manufacturing By Industry, Annual",
+            "row_text": "Other Transport Equipment",
+            "datasource": "ECONOMIC DEVELOPMENT BOARD",
+            "data_last_updated": "11/05/2026",
+            "date_generated": "14/06/2026",
+            "footnote": "From 2002, figures include establishments with less than 10 workers.  Prior to 2002, figures refer to establishments engaging 10 or more workers.  Data include all manufacturing establishments.  The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2025.  Valuation of output has been changed to basic price.  Historical data on manufacturing output has been revised accordingly from 1980.  Year 2025 data are preliminary estimates."
+          }
+        },
+        {
+          "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+          "name": "Singapore total manufacturing output",
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+          "preferred_sources": [
+            "SingStat Table Builder"
+          ],
+          "source_metadata": {
+            "table_id": "M354851",
+            "table_title": "Manufacturing Output In Manufacturing By Industry, Annual",
+            "row_text": "Total Manufacturing",
+            "datasource": "ECONOMIC DEVELOPMENT BOARD",
+            "data_last_updated": "11/05/2026",
+            "date_generated": "14/06/2026",
+            "footnote": "From 2002, figures include establishments with less than 10 workers.  Prior to 2002, figures refer to establishments engaging 10 or more workers.  Data include all manufacturing establishments.  The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2025.  Valuation of output has been changed to basic price.  Historical data on manufacturing output has been revised accordingly from 1980.  Year 2025 data are preliminary estimates."
+          }
+        }
+      ],
+      "governance": {
+        "publication_allowed": false,
+        "human_review_required": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "registry_version": "module-registry-v0.1",
+  "created_at": "2026-06-09T08:52:01.477Z",
+  "doctrine": {
+    "modules_are_versioned": true,
+    "core_engines_should_be_stable": true,
+    "source_adapters_should_be_replaceable": true,
+    "maintenance_requires_dependency_visibility": true
+  },
+  "summary": {
+    "modules_registered": 12,
+    "active_modules": 12,
+    "missing_modules": 0,
+    "critical_modules": 6
+  },
+  "modules": [
+    {
+      "module_id": "CORE_EVIDENCE_V5",
+      "module_name": "Evidence Store v5",
+      "module_type": "core_data_store",
+      "version": "v5",
+      "status": "active",
+      "risk_level": "critical",
+      "output_path": "data/evidence-v5/latest.json",
+      "dependencies": []
+    },
+    {
+      "module_id": "EVIDENCE_ASSESSMENT_V02",
+      "module_name": "Evidence Assessment Engine",
+      "module_type": "intelligence_engine",
+      "version": "v0.2",
+      "status": "active",
+      "risk_level": "critical",
+      "output_path": "data/intelligence/evidence-assessment-engine-v0.2.json",
+      "dependencies": [
+        "CORE_EVIDENCE_V5"
+      ]
+    },
+    {
+      "module_id": "MECHANISM_LINKER_V01",
+      "module_name": "Mechanism Evidence Linker",
+      "module_type": "intelligence_engine",
+      "version": "v0.1",
+      "status": "active",
+      "risk_level": "high",
+      "output_path": "data/intelligence/mechanism-evidence-linker-v0.1.json",
+      "dependencies": [
+        "EVIDENCE_ASSESSMENT_V02"
+      ]
+    },
+    {
+      "module_id": "MECHANISM_CONFIDENCE_V02",
+      "module_name": "Mechanism Confidence Engine",
+      "module_type": "intelligence_engine",
+      "version": "v0.2",
+      "status": "active",
+      "risk_level": "high",
+      "output_path": "data/intelligence/mechanism-confidence-engine-v0.2.json",
+      "dependencies": [
+        "MECHANISM_LINKER_V01"
+      ]
+    },
+    {
+      "module_id": "CASE_CONSTRUCTION_V01",
+      "module_name": "Case Construction Engine",
+      "module_type": "intelligence_engine",
+      "version": "v0.1",
+      "status": "active",
+      "risk_level": "high",
+      "output_path": "data/intelligence/case-construction-engine-v0.1.json",
+      "dependencies": [
+        "EVIDENCE_ASSESSMENT_V02",
+        "MECHANISM_CONFIDENCE_V02"
+      ]
+    },
+    {
+      "module_id": "INTELLIGENCE_BRIEF_V02",
+      "module_name": "Intelligence Brief Generator",
+      "module_type": "reporting_engine",
+      "version": "v0.2",
+      "status": "active",
+      "risk_level": "medium",
+      "output_path": "data/intelligence/intelligence-brief-generator-v0.2.json",
+      "dependencies": [
+        "CASE_CONSTRUCTION_V01"
+      ]
+    },
+    {
+      "module_id": "EXPERIENCE_REGISTRY_V01",
+      "module_name": "Experience Registry Engine",
+      "module_type": "learning_engine",
+      "version": "v0.1",
+      "status": "active",
+      "risk_level": "high",
+      "output_path": "data/intelligence/experience-registry-engine-v0.1.json",
+      "dependencies": [
+        "CASE_CONSTRUCTION_V01"
+      ]
+    },
+    {
+      "module_id": "EXPERIENCE_CONFIDENCE_V01",
+      "module_name": "Experience Confidence Engine",
+      "module_type": "learning_engine",
+      "version": "v0.1",
+      "status": "active",
+      "risk_level": "high",
+      "output_path": "data/intelligence/experience-confidence-engine-v0.1.json",
+      "dependencies": [
+        "EXPERIENCE_REGISTRY_V01"
+      ]
+    },
+    {
+      "module_id": "BULK_READINESS_V01",
+      "module_name": "Bulk Ingestion Readiness Check",
+      "module_type": "ingestion_governance",
+      "version": "v0.1",
+      "status": "active",
+      "risk_level": "critical",
+      "output_path": "data/intelligence/bulk-ingestion-readiness-check-v0.1.json",
+      "dependencies": [
+        "CORE_EVIDENCE_V5"
+      ]
+    },
+    {
+      "module_id": "CONTROLLED_INGESTION_EXECUTOR_V01",
+      "module_name": "Controlled Ingestion Executor",
+      "module_type": "ingestion_governance",
+      "version": "v0.1",
+      "status": "active",
+      "risk_level": "critical",
+      "output_path": "data/ingestion/staged-ingestion/controlled-ingestion-executor-v0.1.json",
+      "dependencies": [
+        "BULK_READINESS_V01"
+      ]
+    },
+    {
+      "module_id": "EVIDENCE_LINEAGE_V01",
+      "module_name": "Evidence Lineage Engine",
+      "module_type": "governance_engine",
+      "version": "v0.1",
+      "status": "active",
+      "risk_level": "critical",
+      "output_path": "data/intelligence/evidence-lineage-engine-v0.1.json",
+      "dependencies": [
+        "CONTROLLED_INGESTION_EXECUTOR_V01"
+      ]
+    },
+    {
+      "module_id": "PRODUCTION_PROMOTION_GATE_V01",
+      "module_name": "Production Promotion Gate",
+      "module_type": "governance_engine",
+      "version": "v0.1",
+      "status": "active",
+      "risk_level": "critical",
+      "output_path": "data/ingestion/promotion-gates/production-promotion-gate-v0.1.json",
+      "dependencies": [
+        "EVIDENCE_LINEAGE_V01"
+      ]
+    },
+    {
+      "module_id": "macro-driver-concentration-engine-v0.1",
+      "module_type": "diagnostic_engine",
+      "layer": "macro_governance",
+      "path": "src/scripts/build-macro-driver-concentration-engine-v0.1.ts",
+      "output": "data/intelligence/macro-driver-concentration-engine-v0.1.json",
+      "status": "operational",
+      "governance_role": "Detects macro drivers that appear across too many replay cases."
+    },
+    {
+      "module_id": "macro-driver-concentration-report-v0.1",
+      "module_type": "report_generator",
+      "layer": "macro_governance",
+      "path": "src/scripts/build-macro-driver-concentration-report-v0.1.ts",
+      "output": "exports/macro-reports/macro-driver-concentration-report-v0.1.md",
+      "status": "operational",
+      "governance_role": "Summarizes concentration risks in broad macro drivers."
+    },
+    {
+      "module_id": "driver-diversity-engine-v0.1",
+      "module_type": "diagnostic_engine",
+      "layer": "macro_governance",
+      "path": "src/scripts/build-driver-diversity-engine-v0.1.ts",
+      "output": "data/intelligence/driver-diversity-engine-v0.1.json",
+      "status": "operational",
+      "governance_role": "Checks whether replay cases rely on sufficiently diverse macro drivers."
+    },
+    {
+      "module_id": "driver-diversity-report-v0.1",
+      "module_type": "report_generator",
+      "layer": "macro_governance",
+      "path": "src/scripts/build-driver-diversity-report-v0.1.ts",
+      "output": "exports/macro-reports/driver-diversity-report-v0.1.md",
+      "status": "operational",
+      "governance_role": "Summarizes driver diversity weaknesses and replay hardening needs."
+    },
+    {
+      "module_id": "macro-specificity-hardening-queue-v0.1",
+      "module_type": "hardening_queue",
+      "layer": "macro_governance",
+      "path": "src/scripts/build-macro-specificity-hardening-queue-v0.1.ts",
+      "output": "data/intelligence/macro-specificity-hardening-queue-v0.1.json",
+      "status": "operational",
+      "governance_role": "Converts driver diversity weaknesses into actionable hardening tasks."
+    },
+    {
+      "module_id": "macro-specificity-hardening-report-v0.1",
+      "module_type": "report_generator",
+      "layer": "macro_governance",
+      "path": "src/scripts/build-macro-specificity-hardening-report-v0.1.ts",
+      "output": "exports/macro-reports/macro-specificity-hardening-report-v0.1.md",
+      "status": "operational",
+      "governance_role": "Produces a readable hardening report for macro specificity improvements."
+    }
+  ],
+  "updated_at": "2026-06-10T02:21:13.553Z",
+  "modules_registered": 18
+}

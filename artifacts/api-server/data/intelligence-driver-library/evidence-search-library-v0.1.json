@@ -1,0 +1,54 @@
+{
+  "library_version": "evidence-search-library-v0.1",
+  "description": "Maps investigation hypotheses to recommended evidence search targets.",
+
+  "hypothesis_searches": {
+    "MKT_001": [
+      "global semiconductor demand",
+      "electronics exports",
+      "global chip shipments",
+      "manufacturing PMI",
+      "electronics industry outlook"
+    ],
+
+    "MKT_002": [
+      "inventory replenishment cycle",
+      "electronics inventory levels",
+      "supply chain restocking",
+      "inventory drawdown",
+      "inventory rebuilding"
+    ],
+
+    "OPS_001": [
+      "capacity expansion",
+      "factory expansion",
+      "new production line",
+      "manufacturing investment",
+      "EDB investment announcement"
+    ],
+
+    "OPS_002": [
+      "plant restart",
+      "maintenance completed",
+      "production resumed",
+      "factory shutdown ended",
+      "manufacturing operations resumed"
+    ],
+
+    "POL_001": [
+      "government incentive",
+      "tax incentive",
+      "manufacturing support scheme",
+      "industrial policy",
+      "investment incentive"
+    ],
+
+    "PORT_001": [
+      "industry composition shift",
+      "sub-sector growth",
+      "manufacturing mix change",
+      "sector contribution change",
+      "portfolio composition effect"
+    ]
+  }
+}

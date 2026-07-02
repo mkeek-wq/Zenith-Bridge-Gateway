@@ -1,0 +1,134 @@
+{
+  "historical_evidence_scorecard_version": "historical-evidence-scorecard-v0.1",
+  "generated_at": "2026-06-04T10:30:56.185Z",
+  "source_taxonomy": "data/intelligence-driver-library/driver-evidence-taxonomy-v0.1.json",
+  "source_evidence": "data/historical-replay/m355381/evidence-pilots/SG-PETROCHEMICALS-2020-evidence-v0.1.json",
+  "case_id": "SG-PETROCHEMICALS-2020",
+  "period": "2020",
+  "series_name": "Petrochemicals",
+  "governance": {
+    "sandbox_only": true,
+    "recommendation_only": true,
+    "auto_close_case": false,
+    "requires_human_review": true,
+    "production_mutation_allowed": false
+  },
+  "evidence_metadata": {
+    "evidence_origin": "synthetic",
+    "template_generated": true,
+    "attribution_discovery_ready": true,
+    "requires_human_review": true
+  },
+  "evidence_items": [
+    "Singapore Petrochemicals output in 2020 was affected by a demand shock, external downturn, and weak global demand conditions.",
+    "Export decline, lower exports, order slowdown, and trade slowdown weighed on production activity.",
+    "A sharp demand fall and global recession conditions transmitted into Singapore's industrial base.",
+    "Manufacturing output reflected weaker external demand and disruption to regional activity."
+  ],
+  "evidence_matches": [
+    {
+      "evidence_text": "Singapore Petrochemicals output in 2020 was affected by a demand shock, external downturn, and weak global demand conditions.",
+      "matches": [
+        {
+          "driver_id": "MKT_010",
+          "driver_name": "Demand Shock / External Downturn",
+          "attribution_bucket": "market_effect",
+          "default_score": 7,
+          "matched_phrases": [
+            "demand shock",
+            "external downturn"
+          ],
+          "match_score": 14
+        }
+      ]
+    },
+    {
+      "evidence_text": "Export decline, lower exports, order slowdown, and trade slowdown weighed on production activity.",
+      "matches": [
+        {
+          "driver_id": "MKT_003",
+          "driver_name": "Export Demand Weakness",
+          "attribution_bucket": "market_effect",
+          "default_score": 5,
+          "matched_phrases": [
+            "export decline",
+            "lower exports",
+            "order slowdown",
+            "trade slowdown"
+          ],
+          "match_score": 20
+        }
+      ]
+    },
+    {
+      "evidence_text": "A sharp demand fall and global recession conditions transmitted into Singapore's industrial base.",
+      "matches": [
+        {
+          "driver_id": "MKT_010",
+          "driver_name": "Demand Shock / External Downturn",
+          "attribution_bucket": "market_effect",
+          "default_score": 7,
+          "matched_phrases": [
+            "global recession",
+            "sharp demand fall"
+          ],
+          "match_score": 14
+        }
+      ]
+    },
+    {
+      "evidence_text": "Manufacturing output reflected weaker external demand and disruption to regional activity.",
+      "matches": []
+    }
+  ],
+  "ranked_drivers": [
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "attribution_bucket": "market_effect",
+      "total_score": 28,
+      "evidence_count": 2,
+      "matched_phrases": [
+        "demand shock",
+        "external downturn",
+        "global recession",
+        "sharp demand fall"
+      ],
+      "supporting_evidence": [
+        "Singapore Petrochemicals output in 2020 was affected by a demand shock, external downturn, and weak global demand conditions.",
+        "A sharp demand fall and global recession conditions transmitted into Singapore's industrial base."
+      ]
+    },
+    {
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness",
+      "attribution_bucket": "market_effect",
+      "total_score": 20,
+      "evidence_count": 1,
+      "matched_phrases": [
+        "export decline",
+        "lower exports",
+        "order slowdown",
+        "trade slowdown"
+      ],
+      "supporting_evidence": [
+        "Export decline, lower exports, order slowdown, and trade slowdown weighed on production activity."
+      ]
+    }
+  ],
+  "bucket_scores": [
+    {
+      "attribution_bucket": "market_effect",
+      "total_score": 48
+    }
+  ],
+  "recommended_outcome": {
+    "primary_driver": "MKT_010",
+    "primary_driver_name": "Demand Shock / External Downturn",
+    "attribution_bucket": "market_effect",
+    "confidence": "high",
+    "total_score": 28,
+    "second_score": 20,
+    "score_gap": 8
+  }
+}

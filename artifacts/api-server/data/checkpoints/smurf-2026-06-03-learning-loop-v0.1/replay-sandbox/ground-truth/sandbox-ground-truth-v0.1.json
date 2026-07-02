@@ -1,0 +1,43 @@
+{
+  "sandbox_ground_truth_version": "sandbox-ground-truth-v0.2",
+  "generated_at": "2026-06-03T10:02:17.267Z",
+  "source_historical_outcomes_file": "data/intelligence/historical-outcomes-v0.1.json",
+  "source_sandbox_overrides_file": "data/replay-sandbox/ground-truth/sandbox-overrides-v0.1.json",
+  "policy": {
+    "principle": "Sandbox ground truth may be used for replay accuracy testing without mutating production case files.",
+    "production_mutation_allowed": false,
+    "sandbox_only_records_allowed": true,
+    "override_policy": "Sandbox overrides may supersede historical records inside sandbox output only."
+  },
+  "summary": {
+    "records": 3,
+    "production_historical_records": 1,
+    "sandbox_only_records": 2
+  },
+  "records": [
+    {
+      "case_id": "SG-M355381-1_1_1-2026-apr",
+      "primary_driver": "MKT_001",
+      "primary_driver_name": "Global Demand Surge",
+      "ground_truth_source": "sandbox_override",
+      "ground_truth_confidence": "test",
+      "sandbox_only": true
+    },
+    {
+      "case_id": "SG-M355381-1_1_3-2026-apr",
+      "primary_driver": "MKT_001",
+      "primary_driver_name": "Global Demand Surge",
+      "ground_truth_source": "historical_outcomes",
+      "ground_truth_confidence": "high",
+      "sandbox_only": false
+    },
+    {
+      "case_id": "SG-M355381-1_1-2026-apr",
+      "primary_driver": "MKT_001",
+      "primary_driver_name": "Global Demand Surge",
+      "ground_truth_source": "sandbox_override",
+      "ground_truth_confidence": "test",
+      "sandbox_only": true
+    }
+  ]
+}

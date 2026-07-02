@@ -1,0 +1,96 @@
+{
+  "registry_version": "replay-support-engine-v0.2",
+  "created_at": "2026-06-08T07:07:56.170Z",
+  "doctrine": {
+    "replay_support_is_probabilistic_not_deterministic": true,
+    "replay_support_is_not_validation": true,
+    "historical_similarity_must_never_override_current_evidence": true,
+    "past_results_do_not_guarantee_future_outcomes": true
+  },
+  "inputs": {
+    "matrix_summaries": 3,
+    "confidence_items": 3
+  },
+  "summary": {
+    "mechanisms_processed": 3,
+    "strong_replay_support": 0,
+    "moderate_replay_support": 0,
+    "weak_replay_support": 1,
+    "insufficient_replay_support": 2,
+    "average_replay_support_score": 0.34
+  },
+  "replay_support_items": [
+    {
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "replay_support_score": 0.288,
+      "replay_support_band": "insufficient_replay_support",
+      "components": {
+        "historical_rows": 32,
+        "supporting_cases": 5,
+        "contradicting_cases": 16,
+        "neutral_cases": 11,
+        "support_ratio": 0.156,
+        "average_replay_support_score": 0.3,
+        "coverage_score": 1,
+        "contradiction_penalty": 0.5,
+        "current_confidence_score": 0.455
+      },
+      "interpretation": "Replay support is limited or mixed. Mechanism should remain cautious.",
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "human_review_required_for_lifecycle_change": true
+      }
+    },
+    {
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "replay_support_score": 0.349,
+      "replay_support_band": "insufficient_replay_support",
+      "components": {
+        "historical_rows": 82,
+        "supporting_cases": 7,
+        "contradicting_cases": 25,
+        "neutral_cases": 50,
+        "support_ratio": 0.085,
+        "average_replay_support_score": 0.382,
+        "coverage_score": 1,
+        "contradiction_penalty": 0.305,
+        "current_confidence_score": 0.536
+      },
+      "interpretation": "Replay support is limited or mixed. Mechanism should remain cautious.",
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "human_review_required_for_lifecycle_change": true
+      }
+    },
+    {
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "replay_support_score": 0.383,
+      "replay_support_band": "weak_replay_support",
+      "components": {
+        "historical_rows": 88,
+        "supporting_cases": 10,
+        "contradicting_cases": 25,
+        "neutral_cases": 53,
+        "support_ratio": 0.114,
+        "average_replay_support_score": 0.508,
+        "coverage_score": 1,
+        "contradiction_penalty": 0.284,
+        "current_confidence_score": 0.414
+      },
+      "interpretation": "Replay support is limited or mixed. Mechanism should remain cautious.",
+      "governance": {
+        "replay_support_is_not_validation": true,
+        "historical_similarity_must_never_override_current_evidence": true,
+        "human_review_required_for_lifecycle_change": true
+      }
+    }
+  ]
+}

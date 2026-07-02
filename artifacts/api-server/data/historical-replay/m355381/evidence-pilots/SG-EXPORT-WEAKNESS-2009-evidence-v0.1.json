@@ -1,0 +1,84 @@
+{
+  "evidence_package_version": "historical-evidence-package-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-EXPORT-WEAKNESS-2009",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_investigation_package": "data/historical-replay/m355381/investigation-packages/sg-export-weakness-2009-investigation-package-v0.1.json",
+  "case_summary": {
+    "period": "2009",
+    "series_no": "EXPORT-WEAKNESS-2009",
+    "series_name": "Export Demand Weakness",
+    "priority": "critical",
+    "direction": "negative"
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "EXPORT_2009_001",
+      "source_type": "derived_from_existing_replay",
+      "source_name": "SG-MANUFACTURING-2009",
+      "evidence_summary": "Existing manufacturing replay evidence states that export decline, lower exports, order slowdown, and trade slowdown weighed on production activity.",
+      "supports_drivers": ["MKT_003"],
+      "evidence_strength": "high"
+    },
+    {
+      "evidence_id": "EXPORT_2009_002",
+      "source_type": "derived_from_existing_replay",
+      "source_name": "SG-MANUFACTURING-2009",
+      "evidence_summary": "The 2009 manufacturing replay identified weaker external demand as a transmission channel affecting Singapore's industrial base.",
+      "supports_drivers": ["MKT_003", "MKT_010"],
+      "evidence_strength": "high"
+    },
+    {
+      "evidence_id": "EXPORT_2009_003",
+      "source_type": "context",
+      "source_name": "Global Financial Crisis Context",
+      "evidence_summary": "The 2009 export weakness occurred during the global financial crisis and global trade contraction.",
+      "supports_drivers": ["MKT_010"],
+      "evidence_strength": "high"
+    },
+    {
+      "evidence_id": "EXPORT_2009_004",
+      "source_type": "transmission_mechanism",
+      "source_name": "Export-to-Manufacturing Transmission",
+      "evidence_summary": "Weak external orders and reduced trade demand transmitted into Singapore manufacturing output.",
+      "supports_drivers": ["MKT_003", "MKT_005"],
+      "evidence_strength": "medium"
+    }
+  ],
+  "driver_evidence_summary": [
+    {
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness",
+      "evidence_count": 3,
+      "evidence_strength": "high"
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "evidence_count": 2,
+      "evidence_strength": "high"
+    },
+    {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "evidence_count": 1,
+      "evidence_strength": "medium"
+    }
+  ],
+  "mechanism_assessment": {
+    "primary_mechanism": "External export demand weakened sharply, reducing orders and trade-linked production activity.",
+    "secondary_mechanisms": [
+      "global recession reduced demand",
+      "trade activity contracted",
+      "manufacturing output was affected through export-order transmission",
+      "industrial weakness followed the export channel"
+    ]
+  },
+  "evidence_assessment": {
+    "evidence_collected": true,
+    "attribution_ready": true,
+    "outcome_ready": false,
+    "confidence": "high"
+  }
+}

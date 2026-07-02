@@ -1,0 +1,325 @@
+{
+  "generated_at": "2026-06-01T03:42:54.258Z",
+  "source": "data/investigations/m355381-investigation-candidates-v0.1.json",
+  "packages": [
+    {
+      "investigation_version": "evidence-search-v0.1",
+      "status": "awaiting_evidence",
+      "series_no": "1.1",
+      "series_name": "Electronics Cluster",
+      "latest_value": 131.206,
+      "month_on_month_change_pct": 16.284387407827563,
+      "year_on_year_change_pct": 44.00359992536739,
+      "institution_queries": [
+        "Singapore Electronics Cluster April 2026",
+        "EDB Electronics Cluster April 2026",
+        "SingStat Electronics Cluster April 2026",
+        "MTI Electronics Cluster April 2026"
+      ],
+      "industry_queries": [
+        "Electronics Cluster industry April 2026",
+        "Electronics Cluster production April 2026",
+        "Electronics Cluster demand April 2026"
+      ],
+      "operational_queries": [
+        "Electronics Cluster maintenance April 2026",
+        "Electronics Cluster outage April 2026",
+        "Electronics Cluster disruption April 2026"
+      ],
+      "global_queries": [
+        "global Electronics Cluster market April 2026",
+        "Electronics Cluster global demand April 2026"
+      ]
+    },
+    {
+      "investigation_version": "evidence-search-v0.1",
+      "status": "awaiting_evidence",
+      "series_no": "1.1.1",
+      "series_name": "Semiconductors",
+      "latest_value": 129.526,
+      "month_on_month_change_pct": 18.753839242328404,
+      "year_on_year_change_pct": 42.59010546247167,
+      "institution_queries": [
+        "Singapore Semiconductors April 2026",
+        "EDB Semiconductors April 2026",
+        "SingStat Semiconductors April 2026",
+        "MTI Semiconductors April 2026"
+      ],
+      "industry_queries": [
+        "Semiconductors industry April 2026",
+        "Semiconductors production April 2026",
+        "Semiconductors demand April 2026"
+      ],
+      "operational_queries": [
+        "Semiconductors maintenance April 2026",
+        "Semiconductors outage April 2026",
+        "Semiconductors disruption April 2026"
+      ],
+      "global_queries": [
+        "global Semiconductors market April 2026",
+        "Semiconductors global demand April 2026"
+      ]
+    },
+    {
+      "investigation_version": "evidence-search-v0.1",
+      "status": "awaiting_evidence",
+      "series_no": "1.1.3",
+      "series_name": "Infocomms & Consumer Electronics",
+      "latest_value": 173.489,
+      "month_on_month_change_pct": 13.259737037955846,
+      "year_on_year_change_pct": 129.60428798305983,
+      "institution_queries": [
+        "Singapore Infocomms & Consumer Electronics April 2026",
+        "EDB Infocomms & Consumer Electronics April 2026",
+        "SingStat Infocomms & Consumer Electronics April 2026",
+        "MTI Infocomms & Consumer Electronics April 2026"
+      ],
+      "industry_queries": [
+        "Infocomms & Consumer Electronics industry April 2026",
+        "Infocomms & Consumer Electronics production April 2026",
+        "Infocomms & Consumer Electronics demand April 2026"
+      ],
+      "operational_queries": [
+        "Infocomms & Consumer Electronics maintenance April 2026",
+        "Infocomms & Consumer Electronics outage April 2026",
+        "Infocomms & Consumer Electronics disruption April 2026"
+      ],
+      "global_queries": [
+        "global Infocomms & Consumer Electronics market April 2026",
+        "Infocomms & Consumer Electronics global demand April 2026"
+      ]
+    },
+    {
+      "investigation_version": "evidence-search-v0.1",
+      "status": "awaiting_evidence",
+      "series_no": "1.2.1",
+      "series_name": "Petroleum",
+      "latest_value": 68.566,
+      "month_on_month_change_pct": -15.277400222414435,
+      "year_on_year_change_pct": -29.667241096340057,
+      "institution_queries": [
+        "Singapore Petroleum April 2026",
+        "EDB Petroleum April 2026",
+        "SingStat Petroleum April 2026",
+        "MTI Petroleum April 2026"
+      ],
+      "industry_queries": [
+        "Petroleum industry April 2026",
+        "Petroleum production April 2026",
+        "Petroleum demand April 2026"
+      ],
+      "operational_queries": [
+        "Petroleum maintenance April 2026",
+        "Petroleum outage April 2026",
+        "Petroleum disruption April 2026"
+      ],
+      "global_queries": [
+        "global Petroleum market April 2026",
+        "Petroleum global demand April 2026"
+      ]
+    },
+    {
+      "investigation_version": "evidence-search-v0.1",
+      "status": "awaiting_evidence",
+      "series_no": "1.2.2",
+      "series_name": "Petrochemicals",
+      "latest_value": 60.362,
+      "month_on_month_change_pct": -8.890297651391647,
+      "year_on_year_change_pct": -41.62113020687254,
+      "institution_queries": [
+        "Singapore Petrochemicals April 2026",
+        "EDB Petrochemicals April 2026",
+        "SingStat Petrochemicals April 2026",
+        "MTI Petrochemicals April 2026"
+      ],
+      "industry_queries": [
+        "Petrochemicals industry April 2026",
+        "Petrochemicals production April 2026",
+        "Petrochemicals demand April 2026"
+      ],
+      "operational_queries": [
+        "Petrochemicals maintenance April 2026",
+        "Petrochemicals outage April 2026",
+        "Petrochemicals disruption April 2026"
+      ],
+      "global_queries": [
+        "global Petrochemicals market April 2026",
+        "Petrochemicals global demand April 2026"
+      ]
+    },
+    {
+      "investigation_version": "evidence-search-v0.1",
+      "status": "awaiting_evidence",
+      "series_no": "1.2.4",
+      "series_name": "Other Chemical Products",
+      "latest_value": 110.958,
+      "month_on_month_change_pct": 34.33497179108453,
+      "year_on_year_change_pct": 8.75996118446202,
+      "institution_queries": [
+        "Singapore Other Chemical Products April 2026",
+        "EDB Other Chemical Products April 2026",
+        "SingStat Other Chemical Products April 2026",
+        "MTI Other Chemical Products April 2026"
+      ],
+      "industry_queries": [
+        "Other Chemical Products industry April 2026",
+        "Other Chemical Products production April 2026",
+        "Other Chemical Products demand April 2026"
+      ],
+      "operational_queries": [
+        "Other Chemical Products maintenance April 2026",
+        "Other Chemical Products outage April 2026",
+        "Other Chemical Products disruption April 2026"
+      ],
+      "global_queries": [
+        "global Other Chemical Products market April 2026",
+        "Other Chemical Products global demand April 2026"
+      ]
+    },
+    {
+      "investigation_version": "evidence-search-v0.1",
+      "status": "awaiting_evidence",
+      "series_no": "1.3",
+      "series_name": "Biomedical Manufacturing Cluster",
+      "latest_value": 72.54,
+      "month_on_month_change_pct": -18.889907641389172,
+      "year_on_year_change_pct": -16.07857655197945,
+      "institution_queries": [
+        "Singapore Biomedical Manufacturing Cluster April 2026",
+        "EDB Biomedical Manufacturing Cluster April 2026",
+        "SingStat Biomedical Manufacturing Cluster April 2026",
+        "MTI Biomedical Manufacturing Cluster April 2026"
+      ],
+      "industry_queries": [
+        "Biomedical Manufacturing Cluster industry April 2026",
+        "Biomedical Manufacturing Cluster production April 2026",
+        "Biomedical Manufacturing Cluster demand April 2026"
+      ],
+      "operational_queries": [
+        "Biomedical Manufacturing Cluster maintenance April 2026",
+        "Biomedical Manufacturing Cluster outage April 2026",
+        "Biomedical Manufacturing Cluster disruption April 2026"
+      ],
+      "global_queries": [
+        "global Biomedical Manufacturing Cluster market April 2026",
+        "Biomedical Manufacturing Cluster global demand April 2026"
+      ]
+    },
+    {
+      "investigation_version": "evidence-search-v0.1",
+      "status": "awaiting_evidence",
+      "series_no": "1.3.1",
+      "series_name": "Pharmaceuticals",
+      "latest_value": 44.089,
+      "month_on_month_change_pct": -39.33736017281471,
+      "year_on_year_change_pct": -32.602115690350985,
+      "institution_queries": [
+        "Singapore Pharmaceuticals April 2026",
+        "EDB Pharmaceuticals April 2026",
+        "SingStat Pharmaceuticals April 2026",
+        "MTI Pharmaceuticals April 2026"
+      ],
+      "industry_queries": [
+        "Pharmaceuticals industry April 2026",
+        "Pharmaceuticals production April 2026",
+        "Pharmaceuticals demand April 2026"
+      ],
+      "operational_queries": [
+        "Pharmaceuticals maintenance April 2026",
+        "Pharmaceuticals outage April 2026",
+        "Pharmaceuticals disruption April 2026"
+      ],
+      "global_queries": [
+        "global Pharmaceuticals market April 2026",
+        "Pharmaceuticals global demand April 2026"
+      ]
+    },
+    {
+      "investigation_version": "evidence-search-v0.1",
+      "status": "awaiting_evidence",
+      "series_no": "1.3.2",
+      "series_name": "Medical Technology",
+      "latest_value": 86.245,
+      "month_on_month_change_pct": -11.547218575648179,
+      "year_on_year_change_pct": -10.6852521151994,
+      "institution_queries": [
+        "Singapore Medical Technology April 2026",
+        "EDB Medical Technology April 2026",
+        "SingStat Medical Technology April 2026",
+        "MTI Medical Technology April 2026"
+      ],
+      "industry_queries": [
+        "Medical Technology industry April 2026",
+        "Medical Technology production April 2026",
+        "Medical Technology demand April 2026"
+      ],
+      "operational_queries": [
+        "Medical Technology maintenance April 2026",
+        "Medical Technology outage April 2026",
+        "Medical Technology disruption April 2026"
+      ],
+      "global_queries": [
+        "global Medical Technology market April 2026",
+        "Medical Technology global demand April 2026"
+      ]
+    },
+    {
+      "investigation_version": "evidence-search-v0.1",
+      "status": "awaiting_evidence",
+      "series_no": "1.5.2",
+      "series_name": "Aerospace",
+      "latest_value": 116.73,
+      "month_on_month_change_pct": 10.890505956339178,
+      "year_on_year_change_pct": 16.08341537635371,
+      "institution_queries": [
+        "Singapore Aerospace April 2026",
+        "EDB Aerospace April 2026",
+        "SingStat Aerospace April 2026",
+        "MTI Aerospace April 2026"
+      ],
+      "industry_queries": [
+        "Aerospace industry April 2026",
+        "Aerospace production April 2026",
+        "Aerospace demand April 2026"
+      ],
+      "operational_queries": [
+        "Aerospace maintenance April 2026",
+        "Aerospace outage April 2026",
+        "Aerospace disruption April 2026"
+      ],
+      "global_queries": [
+        "global Aerospace market April 2026",
+        "Aerospace global demand April 2026"
+      ]
+    },
+    {
+      "investigation_version": "evidence-search-v0.1",
+      "status": "awaiting_evidence",
+      "series_no": "1.5.3",
+      "series_name": "Land",
+      "latest_value": 87.503,
+      "month_on_month_change_pct": -39.443452504532935,
+      "year_on_year_change_pct": -8.87192518381205,
+      "institution_queries": [
+        "Singapore Land April 2026",
+        "EDB Land April 2026",
+        "SingStat Land April 2026",
+        "MTI Land April 2026"
+      ],
+      "industry_queries": [
+        "Land industry April 2026",
+        "Land production April 2026",
+        "Land demand April 2026"
+      ],
+      "operational_queries": [
+        "Land maintenance April 2026",
+        "Land outage April 2026",
+        "Land disruption April 2026"
+      ],
+      "global_queries": [
+        "global Land market April 2026",
+        "Land global demand April 2026"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "evidence_search_package_version": "evidence-search-package-v0.2",
+  "generated_at": "2026-06-02T15:01:32.371Z",
+  "case_id": "SG-M355381-1_1-2026-apr",
+  "confidence": "unknown",
+  "search_packages": [
+    {
+      "hypothesis_id": "PORT_001",
+      "hypothesis_name": "Industry Mix Shift",
+      "recommended_searches": [
+        "industry composition shift",
+        "sub-sector growth",
+        "manufacturing mix change",
+        "sector contribution change",
+        "portfolio composition effect"
+      ]
+    }
+  ]
+}

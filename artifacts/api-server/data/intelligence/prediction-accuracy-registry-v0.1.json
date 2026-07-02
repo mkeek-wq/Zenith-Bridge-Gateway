@@ -1,0 +1,892 @@
+{
+  "prediction_accuracy_registry_version": "prediction-accuracy-registry-v0.1",
+  "generated_at": "2026-06-06T06:44:26.801Z",
+  "source_prediction_validations": "data/intelligence/prediction-validation-registry-v0.1.json",
+  "policy": {
+    "principle": "Prediction accuracy is calculated only from validated and scored prediction records.",
+    "pending_predictions_do_not_affect_accuracy": true,
+    "human_review_required_for_scoring": true,
+    "auto_learning_allowed": false,
+    "production_mutation_allowed": false
+  },
+  "summary": {
+    "total_predictions": 45,
+    "pending_predictions": 45,
+    "observed_predictions": 0,
+    "expired_predictions": 0,
+    "scored_predictions": 0,
+    "correct_predictions": 0,
+    "incorrect_predictions": 0,
+    "overall_accuracy_rate": null
+  },
+  "aggregates": {
+    "by_driver": [
+      {
+        "group_key": "MKT_001",
+        "group_label": "MKT_001 Global Demand Surge",
+        "total_predictions": 3,
+        "pending_predictions": 3,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_001-industrial-production",
+          "PRED-EWS-MKT_001-business-sentiment",
+          "PRED-EWS-MKT_001-sector-demand"
+        ]
+      },
+      {
+        "group_key": "MKT_002",
+        "group_label": "MKT_002 Inventory Cycle / Restocking",
+        "total_predictions": 3,
+        "pending_predictions": 3,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_002-industrial-production",
+          "PRED-EWS-MKT_002-business-sentiment",
+          "PRED-EWS-MKT_002-sector-demand"
+        ]
+      },
+      {
+        "group_key": "MKT_003",
+        "group_label": "MKT_003 Export Demand Weakness",
+        "total_predictions": 3,
+        "pending_predictions": 3,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_003-industrial-production",
+          "PRED-EWS-MKT_003-business-sentiment",
+          "PRED-EWS-MKT_003-sector-demand"
+        ]
+      },
+      {
+        "group_key": "MKT_004",
+        "group_label": "MKT_004 Capacity Expansion",
+        "total_predictions": 3,
+        "pending_predictions": 3,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_004-industrial-production",
+          "PRED-EWS-MKT_004-business-sentiment",
+          "PRED-EWS-MKT_004-sector-demand"
+        ]
+      },
+      {
+        "group_key": "MKT_005",
+        "group_label": "MKT_005 Operational Disruption",
+        "total_predictions": 3,
+        "pending_predictions": 3,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_005-industrial-production",
+          "PRED-EWS-MKT_005-business-sentiment",
+          "PRED-EWS-MKT_005-sector-demand"
+        ]
+      },
+      {
+        "group_key": "MKT_006",
+        "group_label": "MKT_006 Policy / Regulatory Impact",
+        "total_predictions": 3,
+        "pending_predictions": 3,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_006-industrial-production",
+          "PRED-EWS-MKT_006-business-sentiment",
+          "PRED-EWS-MKT_006-sector-demand"
+        ]
+      },
+      {
+        "group_key": "MKT_007",
+        "group_label": "MKT_007 Energy Demand / Refining Cycle",
+        "total_predictions": 3,
+        "pending_predictions": 3,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_007-industrial-production",
+          "PRED-EWS-MKT_007-business-sentiment",
+          "PRED-EWS-MKT_007-sector-demand"
+        ]
+      },
+      {
+        "group_key": "MKT_008",
+        "group_label": "MKT_008 Semiconductor / Electronics Cycle",
+        "total_predictions": 4,
+        "pending_predictions": 4,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_008-global-semiconductor-sales",
+          "PRED-EWS-MKT_008-chip-demand",
+          "PRED-EWS-MKT_008-electronics-exports",
+          "PRED-EWS-MKT_008-wafer-fab-utilization"
+        ]
+      },
+      {
+        "group_key": "MKT_009",
+        "group_label": "MKT_009 Biomedical / Pharmaceutical Production Cycle",
+        "total_predictions": 4,
+        "pending_predictions": 4,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_009-pharmaceutical-production-schedules",
+          "PRED-EWS-MKT_009-biologics-demand",
+          "PRED-EWS-MKT_009-vaccine-manufacturing",
+          "PRED-EWS-MKT_009-healthcare-demand"
+        ]
+      },
+      {
+        "group_key": "MKT_010",
+        "group_label": "MKT_010 Demand Shock / External Downturn",
+        "total_predictions": 4,
+        "pending_predictions": 4,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_010-global-pmi",
+          "PRED-EWS-MKT_010-export-orders",
+          "PRED-EWS-MKT_010-trade-volumes",
+          "PRED-EWS-MKT_010-manufacturing-sentiment"
+        ]
+      },
+      {
+        "group_key": "MKT_011",
+        "group_label": "MKT_011 Chemicals / Petrochemicals Cycle",
+        "total_predictions": 4,
+        "pending_predictions": 4,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_011-chemical-demand",
+          "PRED-EWS-MKT_011-feedstock-prices",
+          "PRED-EWS-MKT_011-petrochemical-margins",
+          "PRED-EWS-MKT_011-plant-utilization"
+        ]
+      },
+      {
+        "group_key": "MKT_012",
+        "group_label": "MKT_012 Precision Engineering / Capital Equipment Cycle",
+        "total_predictions": 4,
+        "pending_predictions": 4,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_012-capital-expenditure",
+          "PRED-EWS-MKT_012-machinery-orders",
+          "PRED-EWS-MKT_012-automation-investment",
+          "PRED-EWS-MKT_012-equipment-demand"
+        ]
+      },
+      {
+        "group_key": "MKT_013",
+        "group_label": "MKT_013 Transport Engineering / Aerospace Marine Cycle",
+        "total_predictions": 4,
+        "pending_predictions": 4,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_013-iata-traffic",
+          "PRED-EWS-MKT_013-aircraft-utilization",
+          "PRED-EWS-MKT_013-mro-demand",
+          "PRED-EWS-MKT_013-fleet-expansion"
+        ]
+      }
+    ],
+    "by_indicator": [
+      {
+        "group_key": "aircraft utilization",
+        "group_label": "aircraft utilization",
+        "total_predictions": 1,
+        "pending_predictions": 1,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_013-aircraft-utilization"
+        ]
+      },
+      {
+        "group_key": "automation investment",
+        "group_label": "automation investment",
+        "total_predictions": 1,
+        "pending_predictions": 1,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_012-automation-investment"
+        ]
+      },
+      {
+        "group_key": "biologics demand",
+        "group_label": "biologics demand",
+        "total_predictions": 1,
+        "pending_predictions": 1,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_009-biologics-demand"
+        ]
+      },
+      {
+        "group_key": "business sentiment",
+        "group_label": "business sentiment",
+        "total_predictions": 7,
+        "pending_predictions": 7,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_007-business-sentiment",
+          "PRED-EWS-MKT_002-business-sentiment",
+          "PRED-EWS-MKT_004-business-sentiment",
+          "PRED-EWS-MKT_001-business-sentiment",
+          "PRED-EWS-MKT_003-business-sentiment",
+          "PRED-EWS-MKT_006-business-sentiment",
+          "PRED-EWS-MKT_005-business-sentiment"
+        ]
+      },
+      {
+        "group_key": "capital expenditure",
+        "group_label": "capital expenditure",
+        "total_predictions": 1,
+        "pending_predictions": 1,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_012-capital-expenditure"
+        ]
+      },
+      {
+        "group_key": "chemical demand",
+        "group_label": "chemical demand",
+        "total_predictions": 1,
+        "pending_predictions": 1,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_011-chemical-demand"
+        ]
+      },
+      {
+        "group_key": "chip demand",
+        "group_label": "chip demand",
+        "total_predictions": 1,
+        "pending_predictions": 1,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_008-chip-demand"
+        ]
+      },
+      {
+        "group_key": "electronics exports",
+        "group_label": "electronics exports",
+        "total_predictions": 1,
+        "pending_predictions": 1,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_008-electronics-exports"
+        ]
+      },
+      {
+        "group_key": "equipment demand",
+        "group_label": "equipment demand",
+        "total_predictions": 1,
+        "pending_predictions": 1,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_012-equipment-demand"
+        ]
+      },
+      {
+        "group_key": "export orders",
+        "group_label": "export orders",
+        "total_predictions": 1,
+        "pending_predictions": 1,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_010-export-orders"
+        ]
+      },
+      {
+        "group_key": "feedstock prices",
+        "group_label": "feedstock prices",
+        "total_predictions": 1,
+        "pending_predictions": 1,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_011-feedstock-prices"
+        ]
+      },
+      {
+        "group_key": "fleet expansion",
+        "group_label": "fleet expansion",
+        "total_predictions": 1,
+        "pending_predictions": 1,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_013-fleet-expansion"
+        ]
+      },
+      {
+        "group_key": "global PMI",
+        "group_label": "global PMI",
+        "total_predictions": 1,
+        "pending_predictions": 1,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_010-global-pmi"
+        ]
+      },
+      {
+        "group_key": "global semiconductor sales",
+        "group_label": "global semiconductor sales",
+        "total_predictions": 1,
+        "pending_predictions": 1,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_008-global-semiconductor-sales"
+        ]
+      },
+      {
+        "group_key": "healthcare demand",
+        "group_label": "healthcare demand",
+        "total_predictions": 1,
+        "pending_predictions": 1,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_009-healthcare-demand"
+        ]
+      },
+      {
+        "group_key": "IATA traffic",
+        "group_label": "IATA traffic",
+        "total_predictions": 1,
+        "pending_predictions": 1,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_013-iata-traffic"
+        ]
+      },
+      {
+        "group_key": "industrial production",
+        "group_label": "industrial production",
+        "total_predictions": 7,
+        "pending_predictions": 7,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_007-industrial-production",
+          "PRED-EWS-MKT_002-industrial-production",
+          "PRED-EWS-MKT_004-industrial-production",
+          "PRED-EWS-MKT_001-industrial-production",
+          "PRED-EWS-MKT_003-industrial-production",
+          "PRED-EWS-MKT_006-industrial-production",
+          "PRED-EWS-MKT_005-industrial-production"
+        ]
+      },
+      {
+        "group_key": "machinery orders",
+        "group_label": "machinery orders",
+        "total_predictions": 1,
+        "pending_predictions": 1,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_012-machinery-orders"
+        ]
+      },
+      {
+        "group_key": "manufacturing sentiment",
+        "group_label": "manufacturing sentiment",
+        "total_predictions": 1,
+        "pending_predictions": 1,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_010-manufacturing-sentiment"
+        ]
+      },
+      {
+        "group_key": "MRO demand",
+        "group_label": "MRO demand",
+        "total_predictions": 1,
+        "pending_predictions": 1,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_013-mro-demand"
+        ]
+      },
+      {
+        "group_key": "petrochemical margins",
+        "group_label": "petrochemical margins",
+        "total_predictions": 1,
+        "pending_predictions": 1,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_011-petrochemical-margins"
+        ]
+      },
+      {
+        "group_key": "pharmaceutical production schedules",
+        "group_label": "pharmaceutical production schedules",
+        "total_predictions": 1,
+        "pending_predictions": 1,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_009-pharmaceutical-production-schedules"
+        ]
+      },
+      {
+        "group_key": "plant utilization",
+        "group_label": "plant utilization",
+        "total_predictions": 1,
+        "pending_predictions": 1,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_011-plant-utilization"
+        ]
+      },
+      {
+        "group_key": "sector demand",
+        "group_label": "sector demand",
+        "total_predictions": 7,
+        "pending_predictions": 7,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_007-sector-demand",
+          "PRED-EWS-MKT_002-sector-demand",
+          "PRED-EWS-MKT_004-sector-demand",
+          "PRED-EWS-MKT_001-sector-demand",
+          "PRED-EWS-MKT_003-sector-demand",
+          "PRED-EWS-MKT_006-sector-demand",
+          "PRED-EWS-MKT_005-sector-demand"
+        ]
+      },
+      {
+        "group_key": "trade volumes",
+        "group_label": "trade volumes",
+        "total_predictions": 1,
+        "pending_predictions": 1,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_010-trade-volumes"
+        ]
+      },
+      {
+        "group_key": "vaccine manufacturing",
+        "group_label": "vaccine manufacturing",
+        "total_predictions": 1,
+        "pending_predictions": 1,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_009-vaccine-manufacturing"
+        ]
+      },
+      {
+        "group_key": "wafer fab utilization",
+        "group_label": "wafer fab utilization",
+        "total_predictions": 1,
+        "pending_predictions": 1,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_008-wafer-fab-utilization"
+        ]
+      }
+    ],
+    "by_prediction_horizon": [
+      {
+        "group_key": "12_to_24_months",
+        "group_label": "12_to_24_months",
+        "total_predictions": 6,
+        "pending_predictions": 6,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_007-industrial-production",
+          "PRED-EWS-MKT_007-business-sentiment",
+          "PRED-EWS-MKT_007-sector-demand",
+          "PRED-EWS-MKT_002-industrial-production",
+          "PRED-EWS-MKT_002-business-sentiment",
+          "PRED-EWS-MKT_002-sector-demand"
+        ]
+      },
+      {
+        "group_key": "24_plus_months",
+        "group_label": "24_plus_months",
+        "total_predictions": 15,
+        "pending_predictions": 15,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_004-industrial-production",
+          "PRED-EWS-MKT_004-business-sentiment",
+          "PRED-EWS-MKT_004-sector-demand",
+          "PRED-EWS-MKT_001-industrial-production",
+          "PRED-EWS-MKT_001-business-sentiment",
+          "PRED-EWS-MKT_001-sector-demand",
+          "PRED-EWS-MKT_003-industrial-production",
+          "PRED-EWS-MKT_003-business-sentiment",
+          "PRED-EWS-MKT_003-sector-demand",
+          "PRED-EWS-MKT_006-industrial-production",
+          "PRED-EWS-MKT_006-business-sentiment",
+          "PRED-EWS-MKT_006-sector-demand",
+          "PRED-EWS-MKT_005-industrial-production",
+          "PRED-EWS-MKT_005-business-sentiment",
+          "PRED-EWS-MKT_005-sector-demand"
+        ]
+      },
+      {
+        "group_key": "3_to_6_months",
+        "group_label": "3_to_6_months",
+        "total_predictions": 8,
+        "pending_predictions": 8,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_013-iata-traffic",
+          "PRED-EWS-MKT_013-aircraft-utilization",
+          "PRED-EWS-MKT_013-mro-demand",
+          "PRED-EWS-MKT_013-fleet-expansion",
+          "PRED-EWS-MKT_012-capital-expenditure",
+          "PRED-EWS-MKT_012-machinery-orders",
+          "PRED-EWS-MKT_012-automation-investment",
+          "PRED-EWS-MKT_012-equipment-demand"
+        ]
+      },
+      {
+        "group_key": "6_to_12_months",
+        "group_label": "6_to_12_months",
+        "total_predictions": 16,
+        "pending_predictions": 16,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_008-global-semiconductor-sales",
+          "PRED-EWS-MKT_008-chip-demand",
+          "PRED-EWS-MKT_008-electronics-exports",
+          "PRED-EWS-MKT_008-wafer-fab-utilization",
+          "PRED-EWS-MKT_010-global-pmi",
+          "PRED-EWS-MKT_010-export-orders",
+          "PRED-EWS-MKT_010-trade-volumes",
+          "PRED-EWS-MKT_010-manufacturing-sentiment",
+          "PRED-EWS-MKT_011-chemical-demand",
+          "PRED-EWS-MKT_011-feedstock-prices",
+          "PRED-EWS-MKT_011-petrochemical-margins",
+          "PRED-EWS-MKT_011-plant-utilization",
+          "PRED-EWS-MKT_009-pharmaceutical-production-schedules",
+          "PRED-EWS-MKT_009-biologics-demand",
+          "PRED-EWS-MKT_009-vaccine-manufacturing",
+          "PRED-EWS-MKT_009-healthcare-demand"
+        ]
+      }
+    ],
+    "by_validation_status": [
+      {
+        "group_key": "pending",
+        "group_label": "pending",
+        "total_predictions": 45,
+        "pending_predictions": 45,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_008-global-semiconductor-sales",
+          "PRED-EWS-MKT_008-chip-demand",
+          "PRED-EWS-MKT_008-electronics-exports",
+          "PRED-EWS-MKT_008-wafer-fab-utilization",
+          "PRED-EWS-MKT_010-global-pmi",
+          "PRED-EWS-MKT_010-export-orders",
+          "PRED-EWS-MKT_010-trade-volumes",
+          "PRED-EWS-MKT_010-manufacturing-sentiment",
+          "PRED-EWS-MKT_011-chemical-demand",
+          "PRED-EWS-MKT_011-feedstock-prices",
+          "PRED-EWS-MKT_011-petrochemical-margins",
+          "PRED-EWS-MKT_011-plant-utilization",
+          "PRED-EWS-MKT_009-pharmaceutical-production-schedules",
+          "PRED-EWS-MKT_009-biologics-demand",
+          "PRED-EWS-MKT_009-vaccine-manufacturing",
+          "PRED-EWS-MKT_009-healthcare-demand",
+          "PRED-EWS-MKT_013-iata-traffic",
+          "PRED-EWS-MKT_013-aircraft-utilization",
+          "PRED-EWS-MKT_013-mro-demand",
+          "PRED-EWS-MKT_013-fleet-expansion",
+          "PRED-EWS-MKT_012-capital-expenditure",
+          "PRED-EWS-MKT_012-machinery-orders",
+          "PRED-EWS-MKT_012-automation-investment",
+          "PRED-EWS-MKT_012-equipment-demand",
+          "PRED-EWS-MKT_007-industrial-production",
+          "PRED-EWS-MKT_007-business-sentiment",
+          "PRED-EWS-MKT_007-sector-demand",
+          "PRED-EWS-MKT_002-industrial-production",
+          "PRED-EWS-MKT_002-business-sentiment",
+          "PRED-EWS-MKT_002-sector-demand",
+          "PRED-EWS-MKT_004-industrial-production",
+          "PRED-EWS-MKT_004-business-sentiment",
+          "PRED-EWS-MKT_004-sector-demand",
+          "PRED-EWS-MKT_001-industrial-production",
+          "PRED-EWS-MKT_001-business-sentiment",
+          "PRED-EWS-MKT_001-sector-demand",
+          "PRED-EWS-MKT_003-industrial-production",
+          "PRED-EWS-MKT_003-business-sentiment",
+          "PRED-EWS-MKT_003-sector-demand",
+          "PRED-EWS-MKT_006-industrial-production",
+          "PRED-EWS-MKT_006-business-sentiment",
+          "PRED-EWS-MKT_006-sector-demand",
+          "PRED-EWS-MKT_005-industrial-production",
+          "PRED-EWS-MKT_005-business-sentiment",
+          "PRED-EWS-MKT_005-sector-demand"
+        ]
+      }
+    ]
+  },
+  "governance": {
+    "accuracy_is_not_available_until_predictions_are_scored": true,
+    "validation_registry_is_source_of_truth": true,
+    "experience_feedback_requires_accuracy_registry": true
+  }
+}

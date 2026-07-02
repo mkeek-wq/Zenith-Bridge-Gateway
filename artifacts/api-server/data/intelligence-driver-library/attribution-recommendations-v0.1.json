@@ -1,0 +1,137 @@
+{
+  "attribution_recommendations_version": "attribution-recommendations-v0.1",
+  "generated_at": "2026-06-03T12:13:00.621Z",
+  "source_scorecards": "data/intelligence-driver-library/attribution-scorecard-test-v0.1.json",
+  "recommendation_count": 3,
+  "recommendations": [
+    {
+      "recommendation_version": "attribution-recommendation-v0.1",
+      "case_id": "TEST-SEMICONDUCTOR-DEMAND-2020",
+      "recommended_driver": "MKT_008",
+      "recommended_driver_name": "Semiconductor / Electronics Cycle",
+      "recommended_bucket": "market_effect",
+      "confidence": "high",
+      "driver_score": 28,
+      "supporting_driver_count": 2,
+      "supporting_evidence_count": 3,
+      "bucket_scores": [
+        {
+          "attribution_bucket": "market_effect",
+          "total_score": 38
+        }
+      ],
+      "supporting_drivers": [
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "attribution_bucket": "market_effect",
+          "total_score": 28,
+          "evidence_count": 2
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "attribution_bucket": "market_effect",
+          "total_score": 10,
+          "evidence_count": 2
+        }
+      ],
+      "governance": {
+        "recommendation_only": true,
+        "auto_close_case": false,
+        "requires_human_review": true
+      }
+    },
+    {
+      "recommendation_version": "attribution-recommendation-v0.1",
+      "case_id": "TEST-PETROLEUM-COVID-2020",
+      "recommended_driver": "MKT_007",
+      "recommended_driver_name": "Energy Demand / Refining Cycle",
+      "recommended_bucket": "market_effect",
+      "confidence": "medium",
+      "driver_score": 18,
+      "supporting_driver_count": 3,
+      "supporting_evidence_count": 3,
+      "bucket_scores": [
+        {
+          "attribution_bucket": "market_effect",
+          "total_score": 25
+        },
+        {
+          "attribution_bucket": "operational_effect",
+          "total_score": 7
+        }
+      ],
+      "supporting_drivers": [
+        {
+          "driver_id": "MKT_007",
+          "driver_name": "Energy Demand / Refining Cycle",
+          "attribution_bucket": "market_effect",
+          "total_score": 18,
+          "evidence_count": 2
+        },
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "attribution_bucket": "operational_effect",
+          "total_score": 7,
+          "evidence_count": 1
+        },
+        {
+          "driver_id": "MKT_010",
+          "driver_name": "Demand Shock / External Downturn",
+          "attribution_bucket": "market_effect",
+          "total_score": 7,
+          "evidence_count": 1
+        }
+      ],
+      "governance": {
+        "recommendation_only": true,
+        "auto_close_case": false,
+        "requires_human_review": true
+      }
+    },
+    {
+      "recommendation_version": "attribution-recommendation-v0.1",
+      "case_id": "TEST-POLICY-CAPACITY",
+      "recommended_driver": "MKT_004",
+      "recommended_driver_name": "Capacity Expansion",
+      "recommended_bucket": "operational_effect",
+      "confidence": "high",
+      "driver_score": 24,
+      "supporting_driver_count": 2,
+      "supporting_evidence_count": 3,
+      "bucket_scores": [
+        {
+          "attribution_bucket": "operational_effect",
+          "total_score": 24
+        },
+        {
+          "attribution_bucket": "policy_effect",
+          "total_score": 7
+        }
+      ],
+      "supporting_drivers": [
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "attribution_bucket": "operational_effect",
+          "total_score": 24,
+          "evidence_count": 3
+        },
+        {
+          "driver_id": "MKT_006",
+          "driver_name": "Policy / Regulatory Impact",
+          "attribution_bucket": "policy_effect",
+          "total_score": 7,
+          "evidence_count": 1
+        }
+      ],
+      "governance": {
+        "recommendation_only": true,
+        "auto_close_case": false,
+        "requires_human_review": true
+      }
+    }
+  ]
+}

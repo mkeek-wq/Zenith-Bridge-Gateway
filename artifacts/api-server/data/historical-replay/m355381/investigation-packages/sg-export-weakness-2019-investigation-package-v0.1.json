@@ -1,0 +1,43 @@
+{
+  "investigation_package_version": "historical-investigation-package-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-EXPORT-WEAKNESS-2019",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_candidate_file": "replay-cluster-seed-v0.2",
+  "case_summary": {
+    "period": "2019",
+    "series_no": "EXPORT-WEAKNESS-2019",
+    "series_name": "Export Demand Weakness",
+    "priority": "critical",
+    "direction": "negative",
+    "latest_value": null,
+    "month_on_month_change_pct": null,
+    "year_on_year_change_pct": null
+  },
+  "driver_candidates": [
+    {
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness"
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn"
+    },
+    {
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle"
+    }
+  ],
+  "expected_mechanisms": [
+    "Export weakness and trade slowdown affected Singapore trade-linked manufacturing activity in 2019.",
+    "The case reflects weaker external orders and reduced demand from overseas markets.",
+    "Chemicals and petrochemical activity provided a sector-specific transmission channel.",
+    "Broader external downturn conditions formed the macro backdrop."
+  ],
+  "investigation_status": {
+    "evidence_collected": false,
+    "attribution_scored": false,
+    "outcome_ready": false
+  }
+}

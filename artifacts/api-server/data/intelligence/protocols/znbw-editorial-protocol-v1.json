@@ -1,0 +1,134 @@
+{
+  "protocol_version": "znbw-editorial-protocol-v1.1",
+  "article_type": "ZNBW Institutional Intelligence Article",
+  "mandatory_order": [
+    "title",
+    "introduction",
+    "key_takeaways",
+    "content_sections",
+    "why_it_matters_to_business",
+    "transparency_panel",
+    "sources"
+  ],
+  "rules": {
+    "title": {
+      "required": true,
+      "description": "Use a clear business-intelligence title. Do not use hype."
+    },
+    "introduction": {
+      "required": true,
+      "description": "Start with 1-2 calm framing paragraphs before key takeaways.",
+      "required_pattern": [
+        "Start with the ZNBW assessment, not the statistic.",
+        "Explain the business signal in plain language.",
+        "Mention the strongest verified data point only after the interpretation is clear."
+      ],
+      "avoid": [
+        "Opening with raw numbers only",
+        "Generic phrases such as 'continued to rise'",
+        "Overexplaining before the reader knows why it matters"
+      ]
+    },
+    "key_takeaways": {
+      "required": true,
+      "count": "3-5",
+      "format": "Each key takeaway must link to a later article section using markdown anchor links.",
+      "must_link_to_sections": true,
+      "style": "Strategic, business-facing, concise. Each takeaway should be decision-useful, not merely descriptive.",
+      "example_pattern": [
+        "Signal takeaway",
+        "Data takeaway",
+        "Business implication takeaway",
+        "Risk or watch item takeaway"
+      ]
+    },
+    "content_sections": {
+      "required": true,
+      "description": "Use clear analytical sections. Explain what happened, what the data shows, and the underlying mechanism.",
+      "preferred_sections": [
+        "What happened",
+        "What the data shows",
+        "What explains the movement",
+        "What the historical evidence shows",
+        "What operators should watch next"
+      ]
+    },
+    "znbw_assessment": {
+      "required": true,
+      "placement": "After Key Takeaways or as the first content section.",
+      "purpose": "State the central interpretation of the article in one short paragraph.",
+      "must_include": [
+        "Primary mechanism",
+        "Confidence level",
+        "Business relevance",
+        "Main limitation"
+      ]
+    },
+    "why_it_matters_to_business": {
+      "required": true,
+      "description": "Explain practical relevance for operators, investors, planners, and decision makers. This section should translate the data into commercial or strategic relevance."
+    },
+    "graph_rules": {
+      "required": true,
+      "placement": "Inside relevant article sections, not grouped at the end.",
+      "minimum": 1,
+      "preferred": "1-3",
+      "rules": [
+        "Every graph placeholder must support a nearby paragraph.",
+        "Do not request unsupported graphs.",
+        "Prefer indexed comparisons when comparing sectors.",
+        "Use multi-series graphs where the supplied graph packages support comparison.",
+        "Forecast placeholders may only be used when forecast data exists or when clearly labelled as a future requirement.",
+        "Executive diagrams, country maps, and institutional explainers are allowed only when they directly support the article."
+      ]
+    },
+    "transparency_panel": {
+      "required": true,
+      "placement": "Before Sources.",
+      "description": "Include confidence, evidence base, data coverage, primary mechanism, limitations, and source notes.",
+      "must_include": [
+        "Confidence",
+        "Evidence base",
+        "Data coverage",
+        "Primary mechanism",
+        "Known limitations",
+        "Source notes",
+        "Human review status"
+      ],
+      "style": "Compact table."
+    },
+    "sources": {
+      "required": true,
+      "description": "List source names, tables, rows, dates, and URLs where available. Keep sources factual and directly traceable to the supplied package."
+    }
+  },
+  "style_rules": {
+    "voice": "Institutional, calm, analytical, business-facing.",
+    "preferred_phrasing": [
+      "suggests",
+      "points to",
+      "is consistent with",
+      "should be interpreted as",
+      "the available evidence indicates"
+    ],
+    "avoid_phrasing": [
+      "proves",
+      "clearly shows",
+      "boom",
+      "game changer",
+      "unprecedented unless mathematically verified",
+      "surge unless supported by context"
+    ]
+  },
+  "forbidden": [
+    "Executive Summary",
+    "SMURF",
+    "What SMURF Found",
+    "internal engine references",
+    "hidden mechanisms",
+    "replay analysis",
+    "placeholder values",
+    "invented sources"
+  ],
+  "tone": "Calm, factual, structured, business-oriented, institutional. Avoid hype."
+}

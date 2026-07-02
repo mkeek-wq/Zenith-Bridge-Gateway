@@ -1,0 +1,721 @@
+{
+  "experience_diversity_registry_version": "experience-diversity-registry-v0.1",
+  "generated_at": "2026-06-06T15:03:09.348Z",
+  "source_historical_outcomes": "data/intelligence/historical-outcomes-v0.2.json",
+  "source_experience_registry": "data/intelligence/experience-registry-v0.2.json",
+  "policy": {
+    "principle": "Experience diversity registry v0.1 evaluates whether driver experience is sufficiently diverse before principle extraction. It does not mutate production memory.",
+    "production_mutation_allowed": false,
+    "human_review_required_before_principle_extraction": true
+  },
+  "scoring_notes": {
+    "purpose": "Measures temporal, replay-family, sector, attribution, and concentration diversity to detect overfitting risk in experience memory.",
+    "weights": {
+      "temporal": 0.25,
+      "replay_family": 0.25,
+      "sector": 0.2,
+      "attribution": 0.15,
+      "concentration": 0.15
+    },
+    "status_bands": {
+      "strong": ">= 0.80",
+      "developing": ">= 0.60",
+      "limited": ">= 0.40",
+      "weak": "< 0.40"
+    }
+  },
+  "summary": {
+    "drivers_processed": 12,
+    "strong": 3,
+    "developing": 2,
+    "limited": 7,
+    "weak": 0,
+    "drivers_with_warnings": 4
+  },
+  "drivers": [
+    {
+      "diversity_version": "driver-experience-diversity-v0.1",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "attribution_bucket": "market_effect",
+      "case_count": 9,
+      "temporal": {
+        "oldest_year": 2018,
+        "newest_year": 2023,
+        "time_span_years": 6,
+        "decades_represented": [
+          "2010s",
+          "2020s"
+        ],
+        "decade_count": 2,
+        "score": 0.608
+      },
+      "replay_family": {
+        "families_represented": [
+          "AEROSPACE",
+          "TRANSPORT-ENGINEERING"
+        ],
+        "family_count": 2,
+        "family_counts": {
+          "AEROSPACE": 3,
+          "TRANSPORT-ENGINEERING": 6
+        },
+        "largest_family_count": 6,
+        "concentration_ratio": 0.667,
+        "score": 0.5
+      },
+      "sector": {
+        "sectors_represented": [
+          "Aerospace",
+          "Transport Engineering"
+        ],
+        "sector_count": 2,
+        "score": 0.5
+      },
+      "attribution": {
+        "primary_appearances": 9,
+        "secondary_appearances": 0,
+        "total_appearances": 9,
+        "score": 0.45
+      },
+      "concentration": {
+        "largest_family_count": 6,
+        "concentration_ratio": 0.667,
+        "concentration_diversity_score": 0.333
+      },
+      "experience_diversity_score": 0.494,
+      "diversity_status": "limited",
+      "warnings": []
+    },
+    {
+      "diversity_version": "driver-experience-diversity-v0.1",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "attribution_bucket": "market_effect",
+      "case_count": 8,
+      "temporal": {
+        "oldest_year": 2018,
+        "newest_year": 2022,
+        "time_span_years": 5,
+        "decades_represented": [
+          "2010s",
+          "2020s"
+        ],
+        "decade_count": 2,
+        "score": 0.579
+      },
+      "replay_family": {
+        "families_represented": [
+          "MACHINERY",
+          "PRECISION-ENGINEERING"
+        ],
+        "family_count": 2,
+        "family_counts": {
+          "MACHINERY": 3,
+          "PRECISION-ENGINEERING": 5
+        },
+        "largest_family_count": 5,
+        "concentration_ratio": 0.625,
+        "score": 0.5
+      },
+      "sector": {
+        "sectors_represented": [
+          "Machinery",
+          "Precision Engineering"
+        ],
+        "sector_count": 2,
+        "score": 0.5
+      },
+      "attribution": {
+        "primary_appearances": 8,
+        "secondary_appearances": 12,
+        "total_appearances": 20,
+        "score": 1
+      },
+      "concentration": {
+        "largest_family_count": 5,
+        "concentration_ratio": 0.625,
+        "concentration_diversity_score": 0.375
+      },
+      "experience_diversity_score": 0.576,
+      "diversity_status": "limited",
+      "warnings": []
+    },
+    {
+      "diversity_version": "driver-experience-diversity-v0.1",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "attribution_bucket": "market_effect",
+      "case_count": 8,
+      "temporal": {
+        "oldest_year": 2018,
+        "newest_year": 2023,
+        "time_span_years": 6,
+        "decades_represented": [
+          "2010s",
+          "2020s"
+        ],
+        "decade_count": 2,
+        "score": 0.608
+      },
+      "replay_family": {
+        "families_represented": [
+          "CHEMICALS",
+          "PETROCHEMICALS"
+        ],
+        "family_count": 2,
+        "family_counts": {
+          "CHEMICALS": 5,
+          "PETROCHEMICALS": 3
+        },
+        "largest_family_count": 5,
+        "concentration_ratio": 0.625,
+        "score": 0.5
+      },
+      "sector": {
+        "sectors_represented": [
+          "Chemicals",
+          "Petrochemicals"
+        ],
+        "sector_count": 2,
+        "score": 0.5
+      },
+      "attribution": {
+        "primary_appearances": 8,
+        "secondary_appearances": 1,
+        "total_appearances": 9,
+        "score": 1
+      },
+      "concentration": {
+        "largest_family_count": 5,
+        "concentration_ratio": 0.625,
+        "concentration_diversity_score": 0.375
+      },
+      "experience_diversity_score": 0.583,
+      "diversity_status": "limited",
+      "warnings": []
+    },
+    {
+      "diversity_version": "driver-experience-diversity-v0.1",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "attribution_bucket": "portfolio_effect",
+      "case_count": 8,
+      "temporal": {
+        "oldest_year": 2001,
+        "newest_year": 2023,
+        "time_span_years": 23,
+        "decades_represented": [
+          "2000s",
+          "2010s",
+          "2020s"
+        ],
+        "decade_count": 3,
+        "score": 1
+      },
+      "replay_family": {
+        "families_represented": [
+          "ELECTRONICS",
+          "INVENTORY-CYCLE",
+          "PRECISION-ENGINEERING",
+          "SEMICONDUCTOR"
+        ],
+        "family_count": 4,
+        "family_counts": {
+          "ELECTRONICS": 2,
+          "INVENTORY-CYCLE": 3,
+          "PRECISION-ENGINEERING": 1,
+          "SEMICONDUCTOR": 2
+        },
+        "largest_family_count": 3,
+        "concentration_ratio": 0.375,
+        "score": 1
+      },
+      "sector": {
+        "sectors_represented": [
+          "Electronics",
+          "Inventory Cycle / Restocking",
+          "Precision Engineering",
+          "Semiconductors"
+        ],
+        "sector_count": 4,
+        "score": 1
+      },
+      "attribution": {
+        "primary_appearances": 8,
+        "secondary_appearances": 4,
+        "total_appearances": 12,
+        "score": 1
+      },
+      "concentration": {
+        "largest_family_count": 3,
+        "concentration_ratio": 0.375,
+        "concentration_diversity_score": 0.625
+      },
+      "experience_diversity_score": 0.944,
+      "diversity_status": "strong",
+      "warnings": []
+    },
+    {
+      "diversity_version": "driver-experience-diversity-v0.1",
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "attribution_bucket": "policy_effect",
+      "case_count": 7,
+      "temporal": {
+        "oldest_year": 2020,
+        "newest_year": 2022,
+        "time_span_years": 3,
+        "decades_represented": [
+          "2020s"
+        ],
+        "decade_count": 1,
+        "score": 0.304
+      },
+      "replay_family": {
+        "families_represented": [
+          "OPERATIONAL-DISRUPTION",
+          "OPERATIONS",
+          "REFINING"
+        ],
+        "family_count": 3,
+        "family_counts": {
+          "OPERATIONAL-DISRUPTION": 3,
+          "OPERATIONS": 3,
+          "REFINING": 1
+        },
+        "largest_family_count": 3,
+        "concentration_ratio": 0.429,
+        "score": 0.75
+      },
+      "sector": {
+        "sectors_represented": [
+          "Manufacturing Operations",
+          "Refining",
+          "UNKNOWN"
+        ],
+        "sector_count": 3,
+        "score": 0.75
+      },
+      "attribution": {
+        "primary_appearances": 7,
+        "secondary_appearances": 10,
+        "total_appearances": 17,
+        "score": 1
+      },
+      "concentration": {
+        "largest_family_count": 3,
+        "concentration_ratio": 0.429,
+        "concentration_diversity_score": 0.571
+      },
+      "experience_diversity_score": 0.649,
+      "diversity_status": "developing",
+      "warnings": [
+        "TEMPORAL_CONCENTRATION"
+      ]
+    },
+    {
+      "diversity_version": "driver-experience-diversity-v0.1",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "attribution_bucket": "operational_effect",
+      "case_count": 9,
+      "temporal": {
+        "oldest_year": 2018,
+        "newest_year": 2023,
+        "time_span_years": 6,
+        "decades_represented": [
+          "2010s",
+          "2020s"
+        ],
+        "decade_count": 2,
+        "score": 0.608
+      },
+      "replay_family": {
+        "families_represented": [
+          "BIOMEDICAL",
+          "PHARMACEUTICALS"
+        ],
+        "family_count": 2,
+        "family_counts": {
+          "BIOMEDICAL": 6,
+          "PHARMACEUTICALS": 3
+        },
+        "largest_family_count": 6,
+        "concentration_ratio": 0.667,
+        "score": 0.5
+      },
+      "sector": {
+        "sectors_represented": [
+          "Biomedical Manufacturing",
+          "Pharmaceuticals"
+        ],
+        "sector_count": 2,
+        "score": 0.5
+      },
+      "attribution": {
+        "primary_appearances": 9,
+        "secondary_appearances": 0,
+        "total_appearances": 9,
+        "score": 0.45
+      },
+      "concentration": {
+        "largest_family_count": 6,
+        "concentration_ratio": 0.667,
+        "concentration_diversity_score": 0.333
+      },
+      "experience_diversity_score": 0.494,
+      "diversity_status": "limited",
+      "warnings": []
+    },
+    {
+      "diversity_version": "driver-experience-diversity-v0.1",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "attribution_bucket": "market_effect",
+      "case_count": 8,
+      "temporal": {
+        "oldest_year": 2018,
+        "newest_year": 2022,
+        "time_span_years": 5,
+        "decades_represented": [
+          "2010s",
+          "2020s"
+        ],
+        "decade_count": 2,
+        "score": 0.579
+      },
+      "replay_family": {
+        "families_represented": [
+          "ELECTRONICS",
+          "M355381-1_1_1",
+          "SEMICONDUCTOR",
+          "SEMICONDUCTOR-RECOVERY"
+        ],
+        "family_count": 4,
+        "family_counts": {
+          "ELECTRONICS": 4,
+          "M355381-1_1_1": 1,
+          "SEMICONDUCTOR": 2,
+          "SEMICONDUCTOR-RECOVERY": 1
+        },
+        "largest_family_count": 4,
+        "concentration_ratio": 0.5,
+        "score": 1
+      },
+      "sector": {
+        "sectors_represented": [
+          "Electronics",
+          "Semiconductors"
+        ],
+        "sector_count": 2,
+        "score": 0.5
+      },
+      "attribution": {
+        "primary_appearances": 8,
+        "secondary_appearances": 5,
+        "total_appearances": 13,
+        "score": 1
+      },
+      "concentration": {
+        "largest_family_count": 4,
+        "concentration_ratio": 0.5,
+        "concentration_diversity_score": 0.5
+      },
+      "experience_diversity_score": 0.72,
+      "diversity_status": "developing",
+      "warnings": []
+    },
+    {
+      "diversity_version": "driver-experience-diversity-v0.1",
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "attribution_bucket": "policy_effect",
+      "case_count": 6,
+      "temporal": {
+        "oldest_year": 2010,
+        "newest_year": 2023,
+        "time_span_years": 14,
+        "decades_represented": [
+          "2010s",
+          "2020s"
+        ],
+        "decade_count": 2,
+        "score": 0.783
+      },
+      "replay_family": {
+        "families_represented": [
+          "CAPACITY-EXPANSION"
+        ],
+        "family_count": 1,
+        "family_counts": {
+          "CAPACITY-EXPANSION": 6
+        },
+        "largest_family_count": 6,
+        "concentration_ratio": 1,
+        "score": 0.25
+      },
+      "sector": {
+        "sectors_represented": [
+          "Capacity Expansion",
+          "Manufacturing Capacity"
+        ],
+        "sector_count": 2,
+        "score": 0.5
+      },
+      "attribution": {
+        "primary_appearances": 6,
+        "secondary_appearances": 2,
+        "total_appearances": 8,
+        "score": 1
+      },
+      "concentration": {
+        "largest_family_count": 6,
+        "concentration_ratio": 1,
+        "concentration_diversity_score": 0
+      },
+      "experience_diversity_score": 0.508,
+      "diversity_status": "limited",
+      "warnings": [
+        "HIGH_REPLAY_FAMILY_CONCENTRATION"
+      ]
+    },
+    {
+      "diversity_version": "driver-experience-diversity-v0.1",
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "attribution_bucket": "policy_effect",
+      "case_count": 6,
+      "temporal": {
+        "oldest_year": 2019,
+        "newest_year": 2025,
+        "time_span_years": 7,
+        "decades_represented": [
+          "2010s",
+          "2020s"
+        ],
+        "decade_count": 2,
+        "score": 0.638
+      },
+      "replay_family": {
+        "families_represented": [
+          "CARBON-TAX",
+          "FOREIGN-WORKER-CONSTRAINTS",
+          "GLOBAL-MINIMUM-TAX",
+          "GST-INCREASE",
+          "JOBS-SUPPORT-SCHEME",
+          "PRODUCTIVITY-SOLUTIONS-GRANT"
+        ],
+        "family_count": 6,
+        "family_counts": {
+          "CARBON-TAX": 1,
+          "FOREIGN-WORKER-CONSTRAINTS": 1,
+          "GLOBAL-MINIMUM-TAX": 1,
+          "GST-INCREASE": 1,
+          "JOBS-SUPPORT-SCHEME": 1,
+          "PRODUCTIVITY-SOLUTIONS-GRANT": 1
+        },
+        "largest_family_count": 1,
+        "concentration_ratio": 0.167,
+        "score": 1
+      },
+      "sector": {
+        "sectors_represented": [
+          "Carbon Tax",
+          "Foreign Worker Constraints",
+          "GST Increase",
+          "Global Minimum Tax",
+          "Jobs Support Scheme",
+          "Productivity Solutions Grant"
+        ],
+        "sector_count": 6,
+        "score": 1
+      },
+      "attribution": {
+        "primary_appearances": 6,
+        "secondary_appearances": 2,
+        "total_appearances": 8,
+        "score": 1
+      },
+      "concentration": {
+        "largest_family_count": 1,
+        "concentration_ratio": 0.167,
+        "concentration_diversity_score": 0.833
+      },
+      "experience_diversity_score": 0.884,
+      "diversity_status": "strong",
+      "warnings": []
+    },
+    {
+      "diversity_version": "driver-experience-diversity-v0.1",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "attribution_bucket": "market_effect",
+      "case_count": 8,
+      "temporal": {
+        "oldest_year": 2001,
+        "newest_year": 2020,
+        "time_span_years": 20,
+        "decades_represented": [
+          "2000s",
+          "2010s",
+          "2020s"
+        ],
+        "decade_count": 3,
+        "score": 1
+      },
+      "replay_family": {
+        "families_represented": [
+          "CHEMICALS",
+          "MANUFACTURING",
+          "PETROCHEMICALS",
+          "TOTAL-MANUFACTURING"
+        ],
+        "family_count": 4,
+        "family_counts": {
+          "CHEMICALS": 1,
+          "MANUFACTURING": 4,
+          "PETROCHEMICALS": 2,
+          "TOTAL-MANUFACTURING": 1
+        },
+        "largest_family_count": 4,
+        "concentration_ratio": 0.5,
+        "score": 1
+      },
+      "sector": {
+        "sectors_represented": [
+          "Chemicals",
+          "Petrochemicals",
+          "Total Manufacturing"
+        ],
+        "sector_count": 3,
+        "score": 0.75
+      },
+      "attribution": {
+        "primary_appearances": 8,
+        "secondary_appearances": 16,
+        "total_appearances": 24,
+        "score": 1
+      },
+      "concentration": {
+        "largest_family_count": 4,
+        "concentration_ratio": 0.5,
+        "concentration_diversity_score": 0.5
+      },
+      "experience_diversity_score": 0.875,
+      "diversity_status": "strong",
+      "warnings": []
+    },
+    {
+      "diversity_version": "driver-experience-diversity-v0.1",
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness",
+      "attribution_bucket": "policy_effect",
+      "case_count": 5,
+      "temporal": {
+        "oldest_year": 2001,
+        "newest_year": 2020,
+        "time_span_years": 20,
+        "decades_represented": [
+          "2000s",
+          "2010s",
+          "2020s"
+        ],
+        "decade_count": 3,
+        "score": 1
+      },
+      "replay_family": {
+        "families_represented": [
+          "EXPORT-WEAKNESS"
+        ],
+        "family_count": 1,
+        "family_counts": {
+          "EXPORT-WEAKNESS": 5
+        },
+        "largest_family_count": 5,
+        "concentration_ratio": 1,
+        "score": 0.25
+      },
+      "sector": {
+        "sectors_represented": [
+          "Export Demand Weakness"
+        ],
+        "sector_count": 1,
+        "score": 0.25
+      },
+      "attribution": {
+        "primary_appearances": 5,
+        "secondary_appearances": 11,
+        "total_appearances": 16,
+        "score": 1
+      },
+      "concentration": {
+        "largest_family_count": 5,
+        "concentration_ratio": 1,
+        "concentration_diversity_score": 0
+      },
+      "experience_diversity_score": 0.513,
+      "diversity_status": "limited",
+      "warnings": [
+        "HIGH_REPLAY_FAMILY_CONCENTRATION",
+        "SECTOR_CONCENTRATION"
+      ]
+    },
+    {
+      "diversity_version": "driver-experience-diversity-v0.1",
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "attribution_bucket": "market_effect",
+      "case_count": 6,
+      "temporal": {
+        "oldest_year": 2018,
+        "newest_year": 2022,
+        "time_span_years": 5,
+        "decades_represented": [
+          "2010s",
+          "2020s"
+        ],
+        "decade_count": 2,
+        "score": 0.579
+      },
+      "replay_family": {
+        "families_represented": [
+          "PETROLEUM",
+          "REFINING"
+        ],
+        "family_count": 2,
+        "family_counts": {
+          "PETROLEUM": 5,
+          "REFINING": 1
+        },
+        "largest_family_count": 5,
+        "concentration_ratio": 0.833,
+        "score": 0.5
+      },
+      "sector": {
+        "sectors_represented": [
+          "Petroleum",
+          "Refining"
+        ],
+        "sector_count": 2,
+        "score": 0.5
+      },
+      "attribution": {
+        "primary_appearances": 6,
+        "secondary_appearances": 3,
+        "total_appearances": 9,
+        "score": 1
+      },
+      "concentration": {
+        "largest_family_count": 5,
+        "concentration_ratio": 0.833,
+        "concentration_diversity_score": 0.167
+      },
+      "experience_diversity_score": 0.545,
+      "diversity_status": "limited",
+      "warnings": [
+        "HIGH_REPLAY_FAMILY_CONCENTRATION"
+      ]
+    }
+  ]
+}

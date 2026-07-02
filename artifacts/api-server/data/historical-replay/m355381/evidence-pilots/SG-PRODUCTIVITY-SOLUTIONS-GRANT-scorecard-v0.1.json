@@ -1,0 +1,62 @@
+{
+  "scorecard_version": "historical-evidence-scorecard-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-PRODUCTIVITY-SOLUTIONS-GRANT",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_evidence_package": "data/historical-replay/m355381/evidence-pilots/SG-PRODUCTIVITY-SOLUTIONS-GRANT-evidence-v0.1.json",
+  "case_summary": {
+    "period": "2020",
+    "series_no": "POLICY-ENTERPRISESG-PSG",
+    "series_name": "Productivity Solutions Grant",
+    "priority": "critical",
+    "direction": "positive",
+    "latest_value": null,
+    "month_on_month_change_pct": null,
+    "year_on_year_change_pct": null
+  },
+  "driver_scores": [
+    {
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "score": 32,
+      "rank": 1
+    },
+    {
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "score": 15,
+      "rank": 2
+    },
+    {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "score": 8,
+      "rank": 3
+    }
+  ],
+  "final_attribution": {
+    "primary_driver": {
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "score": 32
+    },
+    "secondary_driver": {
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "score": 15
+    },
+    "tertiary_driver": {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "score": 8
+    },
+    "confidence": "high",
+    "summary": "SG-PRODUCTIVITY-SOLUTIONS-GRANT is classified as a policy-native replay case with MKT_006 as the primary driver."
+  },
+  "scorecard_status": {
+    "attribution_scored": true,
+    "outcome_ready": true,
+    "human_review_required": true
+  }
+}

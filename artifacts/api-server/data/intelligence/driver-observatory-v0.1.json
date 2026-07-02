@@ -1,0 +1,560 @@
+{
+  "driver_observatory_version": "driver-observatory-v0.1",
+  "generated_at": "2026-06-06T05:58:13.019Z",
+  "source_investigation_pack_registry": "data/intelligence/investigation-pack-registry-v0.1.json",
+  "summary": {
+    "drivers": 13
+  },
+  "observatory": [
+    {
+      "observatory_version": "driver-observatory-v0.1",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "monitoring_priority": "top_review",
+      "signal_strength": "medium_high",
+      "leading_indicators": [
+        "global semiconductor sales",
+        "chip demand",
+        "electronics exports",
+        "wafer fab utilization"
+      ],
+      "evidence_sources": [
+        "SingStat",
+        "EDB Singapore",
+        "SEMI",
+        "WSTS",
+        "SIA",
+        "TSMC investor relations",
+        "UMC investor relations",
+        "GlobalFoundries investor relations",
+        "ASEAN electronics trade publications"
+      ],
+      "expected_events": [
+        "chip cycle recovery",
+        "electronics demand surge",
+        "fab expansion"
+      ],
+      "search_phrases": [
+        "semiconductor demand",
+        "chip shortage",
+        "global chip shortage",
+        "electronics demand",
+        "wafer demand",
+        "foundry demand",
+        "inventory correction",
+        "semiconductor equipment orders"
+      ],
+      "monitoring_status": "watchlist",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_attribution_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observatory_version": "driver-observatory-v0.1",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "monitoring_priority": "top_review",
+      "signal_strength": "medium_high",
+      "leading_indicators": [
+        "global PMI",
+        "export orders",
+        "trade volumes",
+        "manufacturing sentiment"
+      ],
+      "evidence_sources": [
+        "MTI Singapore",
+        "SingStat",
+        "IMF",
+        "World Bank",
+        "WTO",
+        "S&P Global PMI",
+        "Reuters",
+        "Bloomberg"
+      ],
+      "expected_events": [
+        "demand shift",
+        "capacity change",
+        "sector cycle change"
+      ],
+      "search_phrases": [
+        "global recession",
+        "external downturn",
+        "demand shock",
+        "pandemic disruption",
+        "collapse in demand",
+        "sharp demand fall",
+        "trade contraction"
+      ],
+      "monitoring_status": "watchlist",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_attribution_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observatory_version": "driver-observatory-v0.1",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "monitoring_priority": "top_review",
+      "signal_strength": "medium_high",
+      "leading_indicators": [
+        "chemical demand",
+        "feedstock prices",
+        "petrochemical margins",
+        "plant utilization"
+      ],
+      "evidence_sources": [
+        "SingStat",
+        "ICIS",
+        "Argus Media",
+        "S&P Global Commodity Insights",
+        "Shell",
+        "ExxonMobil",
+        "BASF",
+        "chemical industry publications"
+      ],
+      "expected_events": [
+        "petrochemical turnaround",
+        "feedstock shock",
+        "chemical demand surge"
+      ],
+      "search_phrases": [
+        "chemical demand",
+        "petrochemical demand",
+        "specialty chemicals",
+        "basic chemicals",
+        "feedstock prices",
+        "naphtha prices",
+        "petrochemical plant utilisation"
+      ],
+      "monitoring_status": "watchlist",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_attribution_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observatory_version": "driver-observatory-v0.1",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "monitoring_priority": "top_review",
+      "signal_strength": "medium_high",
+      "leading_indicators": [
+        "pharmaceutical production schedules",
+        "biologics demand",
+        "vaccine manufacturing",
+        "healthcare demand"
+      ],
+      "evidence_sources": [
+        "EDB Singapore",
+        "SingStat",
+        "pharmaceutical company reports",
+        "biologics company announcements",
+        "Fierce Pharma",
+        "BioPharma Dive",
+        "healthcare industry publications"
+      ],
+      "expected_events": [
+        "major batch production",
+        "drug launch",
+        "plant expansion"
+      ],
+      "search_phrases": [
+        "pharmaceutical batch",
+        "batch production",
+        "biologics production",
+        "vaccine production",
+        "drug production",
+        "plant schedule",
+        "medical technology demand"
+      ],
+      "monitoring_status": "watchlist",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_attribution_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observatory_version": "driver-observatory-v0.1",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "monitoring_priority": "top_review",
+      "signal_strength": "high",
+      "leading_indicators": [
+        "IATA traffic",
+        "aircraft utilization",
+        "MRO demand",
+        "fleet expansion"
+      ],
+      "evidence_sources": [
+        "SingStat",
+        "EDB Singapore",
+        "IATA",
+        "ICAO",
+        "aircraft MRO publications",
+        "marine engineering publications",
+        "ship repair industry publications",
+        "offshore engineering reports"
+      ],
+      "expected_events": [
+        "aviation recovery",
+        "fleet maintenance cycle",
+        "MRO expansion"
+      ],
+      "search_phrases": [
+        "transport engineering",
+        "aerospace demand",
+        "aircraft maintenance",
+        "MRO demand",
+        "fleet maintenance",
+        "ship repair",
+        "marine engineering",
+        "offshore engineering"
+      ],
+      "monitoring_status": "watchlist",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_attribution_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observatory_version": "driver-observatory-v0.1",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "monitoring_priority": "top_review",
+      "signal_strength": "high",
+      "leading_indicators": [
+        "capital expenditure",
+        "machinery orders",
+        "automation investment",
+        "equipment demand"
+      ],
+      "evidence_sources": [
+        "EDB Singapore",
+        "SingStat",
+        "SEMI equipment reports",
+        "company earnings releases",
+        "machinery industry publications",
+        "automation industry publications"
+      ],
+      "expected_events": [
+        "demand shift",
+        "capacity change",
+        "sector cycle change"
+      ],
+      "search_phrases": [
+        "precision engineering",
+        "machinery demand",
+        "capital equipment demand",
+        "automation equipment",
+        "semiconductor equipment",
+        "equipment orders",
+        "capex cycle"
+      ],
+      "monitoring_status": "watchlist",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_attribution_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observatory_version": "driver-observatory-v0.1",
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "monitoring_priority": "high_review",
+      "signal_strength": "medium",
+      "leading_indicators": [
+        "industrial production",
+        "business sentiment",
+        "sector demand"
+      ],
+      "evidence_sources": [
+        "IEA",
+        "EIA",
+        "OPEC",
+        "S&P Global Commodity Insights",
+        "Argus Media",
+        "ICIS",
+        "Shell",
+        "ExxonMobil",
+        "refinery maintenance reports"
+      ],
+      "expected_events": [
+        "demand shift",
+        "capacity change",
+        "sector cycle change"
+      ],
+      "search_phrases": [
+        "oil demand",
+        "fuel demand",
+        "jet fuel demand",
+        "refining margin",
+        "refinery maintenance",
+        "travel recovery",
+        "crude oil demand"
+      ],
+      "monitoring_status": "watchlist",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_attribution_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observatory_version": "driver-observatory-v0.1",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "monitoring_priority": "high_review",
+      "signal_strength": "medium",
+      "leading_indicators": [
+        "industrial production",
+        "business sentiment",
+        "sector demand"
+      ],
+      "evidence_sources": [
+        "SingStat",
+        "SEMI",
+        "company earnings releases",
+        "Purchasing Managers Index reports",
+        "electronics industry publications",
+        "S&P Global PMI"
+      ],
+      "expected_events": [
+        "demand shift",
+        "capacity change",
+        "sector cycle change"
+      ],
+      "search_phrases": [
+        "inventory restocking",
+        "inventory correction",
+        "channel inventory",
+        "customer inventory",
+        "destocking",
+        "restocking cycle"
+      ],
+      "monitoring_status": "watchlist",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_attribution_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observatory_version": "driver-observatory-v0.1",
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "monitoring_priority": "high_review",
+      "signal_strength": "early_signal",
+      "leading_indicators": [
+        "industrial production",
+        "business sentiment",
+        "sector demand"
+      ],
+      "evidence_sources": [
+        "EDB Singapore",
+        "company press releases",
+        "company annual reports",
+        "factory opening announcements",
+        "industrial park announcements",
+        "sector trade publications"
+      ],
+      "expected_events": [
+        "demand shift",
+        "capacity change",
+        "sector cycle change"
+      ],
+      "search_phrases": [
+        "capacity expansion",
+        "new plant",
+        "production ramp-up",
+        "new facility",
+        "factory opening",
+        "manufacturing investment"
+      ],
+      "monitoring_status": "watchlist",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_attribution_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observatory_version": "driver-observatory-v0.1",
+      "driver_id": "MKT_001",
+      "driver_name": "Global Demand Surge",
+      "monitoring_priority": "medium_review",
+      "signal_strength": "unknown",
+      "leading_indicators": [
+        "industrial production",
+        "business sentiment",
+        "sector demand"
+      ],
+      "evidence_sources": [
+        "SingStat",
+        "MTI Singapore",
+        "EDB Singapore",
+        "WTO",
+        "IMF",
+        "company earnings releases",
+        "sector trade publications"
+      ],
+      "expected_events": [
+        "demand shift",
+        "capacity change",
+        "sector cycle change"
+      ],
+      "search_phrases": [
+        "strong global demand",
+        "export demand recovery",
+        "order growth",
+        "regional manufacturing demand",
+        "consumer demand recovery"
+      ],
+      "monitoring_status": "watchlist",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_attribution_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observatory_version": "driver-observatory-v0.1",
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness",
+      "monitoring_priority": "medium_review",
+      "signal_strength": "unknown",
+      "leading_indicators": [
+        "industrial production",
+        "business sentiment",
+        "sector demand"
+      ],
+      "evidence_sources": [
+        "SingStat",
+        "MTI Singapore",
+        "WTO",
+        "IMF",
+        "World Bank",
+        "S&P Global PMI",
+        "trade publications"
+      ],
+      "expected_events": [
+        "demand shift",
+        "capacity change",
+        "sector cycle change"
+      ],
+      "search_phrases": [
+        "weak external demand",
+        "export decline",
+        "lower exports",
+        "trade slowdown",
+        "order slowdown",
+        "soft global demand"
+      ],
+      "monitoring_status": "watchlist",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_attribution_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observatory_version": "driver-observatory-v0.1",
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "monitoring_priority": "medium_review",
+      "signal_strength": "unknown",
+      "leading_indicators": [
+        "industrial production",
+        "business sentiment",
+        "sector demand"
+      ],
+      "evidence_sources": [
+        "MTI Singapore",
+        "EDB Singapore",
+        "MAS",
+        "IRAS",
+        "Enterprise Singapore",
+        "government gazettes",
+        "regulatory agencies"
+      ],
+      "expected_events": [
+        "demand shift",
+        "capacity change",
+        "sector cycle change"
+      ],
+      "search_phrases": [
+        "policy change",
+        "regulatory change",
+        "tax incentive",
+        "government incentive",
+        "export restriction",
+        "trade restriction"
+      ],
+      "monitoring_status": "watchlist",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_attribution_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "observatory_version": "driver-observatory-v0.1",
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "monitoring_priority": "medium_review",
+      "signal_strength": "early_signal",
+      "leading_indicators": [
+        "industrial production",
+        "business sentiment",
+        "sector demand"
+      ],
+      "evidence_sources": [
+        "company announcements",
+        "maintenance notices",
+        "plant shutdown notices",
+        "Reuters",
+        "industry trade publications",
+        "regulatory filings"
+      ],
+      "expected_events": [
+        "demand shift",
+        "capacity change",
+        "sector cycle change"
+      ],
+      "search_phrases": [
+        "maintenance shutdown",
+        "plant shutdown",
+        "production disruption",
+        "supply disruption",
+        "factory closure",
+        "scheduled maintenance"
+      ],
+      "monitoring_status": "watchlist",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_attribution_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,2705 @@
+{
+  "historical_investigation_packages_version": "historical-investigation-packages-v0.1",
+  "generated_at": "2026-06-03T11:48:34.262Z",
+  "policy": {
+    "principle": "Historical investigation packages turn candidate cases into auditable search plans, hypotheses, and driver candidates. They do not mutate production cases.",
+    "production_mutation_allowed": false
+  },
+  "source_candidate_file": "data/historical-replay/m355381/historical-case-candidates-v0.1.json",
+  "summary": {
+    "candidate_cases_available": 150,
+    "packages_generated": 25,
+    "max_cases": 25,
+    "selected_priorities": [
+      "critical",
+      "high"
+    ]
+  },
+  "packages": [
+    {
+      "investigation_package_version": "historical-investigation-package-v0.1",
+      "generated_at": "2026-06-03T11:48:34.256Z",
+      "case_id": "SG-M355381-1_1-2020-apr",
+      "sandbox_only": true,
+      "production_mutation_allowed": false,
+      "source_candidate_file": "data/historical-replay/m355381/historical-case-candidates-v0.1.json",
+      "case_summary": {
+        "period": "2020 Apr",
+        "series_no": "1.1",
+        "series_name": "Electronics Cluster",
+        "priority": "high",
+        "direction": "increase",
+        "latest_value": 76.044,
+        "month_on_month_change_pct": 25.483077836999385,
+        "year_on_year_change_pct": 1.8673811118553132
+      },
+      "search_queries": {
+        "official_queries": [
+          "Singapore Electronics Cluster manufacturing output 2020 Apr",
+          "Singapore Monthly Manufacturing Performance 2020 Apr",
+          "Singapore EDB Electronics Cluster output 2020 Apr",
+          "Singapore industrial production Electronics Cluster 2020 Apr"
+        ],
+        "industry_queries": [
+          "Electronics Cluster increase growth surge 2020 Singapore",
+          "Electronics Cluster manufacturing increase growth surge 2020",
+          "Electronics Cluster output driver 2020"
+        ],
+        "context_queries": [
+          "Singapore manufacturing 2020 COVID supply chain semiconductor petroleum biomedical",
+          "global Electronics Cluster demand 2020",
+          "Electronics Cluster market cycle 2020"
+        ]
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "HYP_MARKET_DEMAND",
+          "hypothesis": "The movement may reflect stronger global or regional demand.",
+          "attribution_bucket": "market_effect"
+        },
+        {
+          "hypothesis_id": "HYP_INVENTORY_CYCLE",
+          "hypothesis": "The movement may reflect inventory correction, stockpiling, or restocking.",
+          "attribution_bucket": "portfolio_effect"
+        },
+        {
+          "hypothesis_id": "HYP_OPERATIONAL",
+          "hypothesis": "The movement may reflect operational disruption, plant maintenance, shutdowns, production ramp-up, or capacity changes.",
+          "attribution_bucket": "operational_effect"
+        },
+        {
+          "hypothesis_id": "HYP_POLICY",
+          "hypothesis": "The movement may reflect policy, regulatory, trade, tax, or incentive changes.",
+          "attribution_bucket": "policy_effect"
+        },
+        {
+          "hypothesis_id": "HYP_UNKNOWN",
+          "hypothesis": "The movement is statistically significant but currently lacks sufficient explanatory evidence.",
+          "attribution_bucket": "unknown_effect"
+        }
+      ],
+      "driver_candidates": [
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "applies_when": "Electronics output changes due to semiconductor demand, chip shortages, data-center demand, consumer electronics demand, or inventory cycle."
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "applies_when": "Output rises due to stronger global or regional end-demand."
+        },
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "applies_when": "Output rises or falls due to inventory correction, stockpiling, or restocking."
+        },
+        {
+          "driver_id": "MKT_003",
+          "driver_name": "Export Demand Weakness",
+          "applies_when": "Output falls due to weak external demand or export-market slowdown."
+        },
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "applies_when": "Output rises due to new capacity, plant ramp-up, or production expansion."
+        },
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "applies_when": "Output falls due to maintenance, shutdowns, supply constraints, plant disruptions, or COVID restrictions."
+        },
+        {
+          "driver_id": "MKT_006",
+          "driver_name": "Policy / Regulatory Impact",
+          "applies_when": "Output changes due to regulation, tax, trade restrictions, incentives, or government policy."
+        }
+      ],
+      "investigation_status": {
+        "evidence_collected": false,
+        "attribution_scored": false,
+        "outcome_ready": false
+      },
+      "package_file": "data/historical-replay/m355381/investigation-packages/sg-m355381-1-1-2020-apr-investigation-package-v0.1.json"
+    },
+    {
+      "investigation_package_version": "historical-investigation-package-v0.1",
+      "generated_at": "2026-06-03T11:48:34.257Z",
+      "case_id": "SG-M355381-1_1_1-2020-apr",
+      "sandbox_only": true,
+      "production_mutation_allowed": false,
+      "source_candidate_file": "data/historical-replay/m355381/historical-case-candidates-v0.1.json",
+      "case_summary": {
+        "period": "2020 Apr",
+        "series_no": "1.1.1",
+        "series_name": "Semiconductors",
+        "priority": "critical",
+        "direction": "increase",
+        "latest_value": 80.836,
+        "month_on_month_change_pct": 33.690564789547665,
+        "year_on_year_change_pct": 4.0039112757964
+      },
+      "search_queries": {
+        "official_queries": [
+          "Singapore Semiconductors manufacturing output 2020 Apr",
+          "Singapore Monthly Manufacturing Performance 2020 Apr",
+          "Singapore EDB Semiconductors output 2020 Apr",
+          "Singapore industrial production Semiconductors 2020 Apr"
+        ],
+        "industry_queries": [
+          "Semiconductors increase growth surge 2020 Singapore",
+          "Semiconductors manufacturing increase growth surge 2020",
+          "Semiconductors output driver 2020"
+        ],
+        "context_queries": [
+          "Singapore manufacturing 2020 COVID supply chain semiconductor petroleum biomedical",
+          "global Semiconductors demand 2020",
+          "Semiconductors market cycle 2020"
+        ]
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "HYP_MARKET_DEMAND",
+          "hypothesis": "The movement may reflect stronger global or regional demand.",
+          "attribution_bucket": "market_effect"
+        },
+        {
+          "hypothesis_id": "HYP_INVENTORY_CYCLE",
+          "hypothesis": "The movement may reflect inventory correction, stockpiling, or restocking.",
+          "attribution_bucket": "portfolio_effect"
+        },
+        {
+          "hypothesis_id": "HYP_OPERATIONAL",
+          "hypothesis": "The movement may reflect operational disruption, plant maintenance, shutdowns, production ramp-up, or capacity changes.",
+          "attribution_bucket": "operational_effect"
+        },
+        {
+          "hypothesis_id": "HYP_POLICY",
+          "hypothesis": "The movement may reflect policy, regulatory, trade, tax, or incentive changes.",
+          "attribution_bucket": "policy_effect"
+        },
+        {
+          "hypothesis_id": "HYP_UNKNOWN",
+          "hypothesis": "The movement is statistically significant but currently lacks sufficient explanatory evidence.",
+          "attribution_bucket": "unknown_effect"
+        }
+      ],
+      "driver_candidates": [
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "applies_when": "Electronics output changes due to semiconductor demand, chip shortages, data-center demand, consumer electronics demand, or inventory cycle."
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "applies_when": "Output rises due to stronger global or regional end-demand."
+        },
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "applies_when": "Output rises or falls due to inventory correction, stockpiling, or restocking."
+        },
+        {
+          "driver_id": "MKT_003",
+          "driver_name": "Export Demand Weakness",
+          "applies_when": "Output falls due to weak external demand or export-market slowdown."
+        },
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "applies_when": "Output rises due to new capacity, plant ramp-up, or production expansion."
+        },
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "applies_when": "Output falls due to maintenance, shutdowns, supply constraints, plant disruptions, or COVID restrictions."
+        },
+        {
+          "driver_id": "MKT_006",
+          "driver_name": "Policy / Regulatory Impact",
+          "applies_when": "Output changes due to regulation, tax, trade restrictions, incentives, or government policy."
+        }
+      ],
+      "investigation_status": {
+        "evidence_collected": false,
+        "attribution_scored": false,
+        "outcome_ready": false
+      },
+      "package_file": "data/historical-replay/m355381/investigation-packages/sg-m355381-1-1-1-2020-apr-investigation-package-v0.1.json"
+    },
+    {
+      "investigation_package_version": "historical-investigation-package-v0.1",
+      "generated_at": "2026-06-03T11:48:34.258Z",
+      "case_id": "SG-M355381-1_1_3-2020-apr",
+      "sandbox_only": true,
+      "production_mutation_allowed": false,
+      "source_candidate_file": "data/historical-replay/m355381/historical-case-candidates-v0.1.json",
+      "case_summary": {
+        "period": "2020 Apr",
+        "series_no": "1.1.3",
+        "series_name": "Infocomms & Consumer Electronics",
+        "priority": "high",
+        "direction": "decrease",
+        "latest_value": 44.383,
+        "month_on_month_change_pct": -22.17331836992354,
+        "year_on_year_change_pct": -4.423197019617967
+      },
+      "search_queries": {
+        "official_queries": [
+          "Singapore Infocomms & Consumer Electronics manufacturing output 2020 Apr",
+          "Singapore Monthly Manufacturing Performance 2020 Apr",
+          "Singapore EDB Infocomms & Consumer Electronics output 2020 Apr",
+          "Singapore industrial production Infocomms & Consumer Electronics 2020 Apr"
+        ],
+        "industry_queries": [
+          "Infocomms & Consumer Electronics decline fall contraction 2020 Singapore",
+          "Infocomms & Consumer Electronics manufacturing decline fall contraction 2020",
+          "Infocomms & Consumer Electronics output driver 2020"
+        ],
+        "context_queries": [
+          "Singapore manufacturing 2020 COVID supply chain semiconductor petroleum biomedical",
+          "global Infocomms & Consumer Electronics demand 2020",
+          "Infocomms & Consumer Electronics market cycle 2020"
+        ]
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "HYP_MARKET_DEMAND",
+          "hypothesis": "The movement may reflect weaker global or regional demand.",
+          "attribution_bucket": "market_effect"
+        },
+        {
+          "hypothesis_id": "HYP_INVENTORY_CYCLE",
+          "hypothesis": "The movement may reflect inventory correction, stockpiling, or restocking.",
+          "attribution_bucket": "portfolio_effect"
+        },
+        {
+          "hypothesis_id": "HYP_OPERATIONAL",
+          "hypothesis": "The movement may reflect operational disruption, plant maintenance, shutdowns, production ramp-up, or capacity changes.",
+          "attribution_bucket": "operational_effect"
+        },
+        {
+          "hypothesis_id": "HYP_POLICY",
+          "hypothesis": "The movement may reflect policy, regulatory, trade, tax, or incentive changes.",
+          "attribution_bucket": "policy_effect"
+        },
+        {
+          "hypothesis_id": "HYP_UNKNOWN",
+          "hypothesis": "The movement is statistically significant but currently lacks sufficient explanatory evidence.",
+          "attribution_bucket": "unknown_effect"
+        }
+      ],
+      "driver_candidates": [
+        {
+          "driver_id": "MKT_010",
+          "driver_name": "Demand Shock / External Downturn",
+          "applies_when": "Output falls sharply due to broad demand shock, recession, pandemic disruption, or external downturn."
+        },
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "applies_when": "Electronics output changes due to semiconductor demand, chip shortages, data-center demand, consumer electronics demand, or inventory cycle."
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "applies_when": "Output rises due to stronger global or regional end-demand."
+        },
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "applies_when": "Output rises or falls due to inventory correction, stockpiling, or restocking."
+        },
+        {
+          "driver_id": "MKT_003",
+          "driver_name": "Export Demand Weakness",
+          "applies_when": "Output falls due to weak external demand or export-market slowdown."
+        },
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "applies_when": "Output rises due to new capacity, plant ramp-up, or production expansion."
+        },
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "applies_when": "Output falls due to maintenance, shutdowns, supply constraints, plant disruptions, or COVID restrictions."
+        },
+        {
+          "driver_id": "MKT_006",
+          "driver_name": "Policy / Regulatory Impact",
+          "applies_when": "Output changes due to regulation, tax, trade restrictions, incentives, or government policy."
+        }
+      ],
+      "investigation_status": {
+        "evidence_collected": false,
+        "attribution_scored": false,
+        "outcome_ready": false
+      },
+      "package_file": "data/historical-replay/m355381/investigation-packages/sg-m355381-1-1-3-2020-apr-investigation-package-v0.1.json"
+    },
+    {
+      "investigation_package_version": "historical-investigation-package-v0.1",
+      "generated_at": "2026-06-03T11:48:34.258Z",
+      "case_id": "SG-M355381-1_1_4-2020-apr",
+      "sandbox_only": true,
+      "production_mutation_allowed": false,
+      "source_candidate_file": "data/historical-replay/m355381/historical-case-candidates-v0.1.json",
+      "case_summary": {
+        "period": "2020 Apr",
+        "series_no": "1.1.4",
+        "series_name": "Other Electronic Modules & Components",
+        "priority": "high",
+        "direction": "decrease",
+        "latest_value": 68.136,
+        "month_on_month_change_pct": -27.09452374328576,
+        "year_on_year_change_pct": -15.146080848838087
+      },
+      "search_queries": {
+        "official_queries": [
+          "Singapore Other Electronic Modules & Components manufacturing output 2020 Apr",
+          "Singapore Monthly Manufacturing Performance 2020 Apr",
+          "Singapore EDB Other Electronic Modules & Components output 2020 Apr",
+          "Singapore industrial production Other Electronic Modules & Components 2020 Apr"
+        ],
+        "industry_queries": [
+          "Other Electronic Modules & Components decline fall contraction 2020 Singapore",
+          "Other Electronic Modules & Components manufacturing decline fall contraction 2020",
+          "Other Electronic Modules & Components output driver 2020"
+        ],
+        "context_queries": [
+          "Singapore manufacturing 2020 COVID supply chain semiconductor petroleum biomedical",
+          "global Other Electronic Modules & Components demand 2020",
+          "Other Electronic Modules & Components market cycle 2020"
+        ]
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "HYP_MARKET_DEMAND",
+          "hypothesis": "The movement may reflect weaker global or regional demand.",
+          "attribution_bucket": "market_effect"
+        },
+        {
+          "hypothesis_id": "HYP_INVENTORY_CYCLE",
+          "hypothesis": "The movement may reflect inventory correction, stockpiling, or restocking.",
+          "attribution_bucket": "portfolio_effect"
+        },
+        {
+          "hypothesis_id": "HYP_OPERATIONAL",
+          "hypothesis": "The movement may reflect operational disruption, plant maintenance, shutdowns, production ramp-up, or capacity changes.",
+          "attribution_bucket": "operational_effect"
+        },
+        {
+          "hypothesis_id": "HYP_POLICY",
+          "hypothesis": "The movement may reflect policy, regulatory, trade, tax, or incentive changes.",
+          "attribution_bucket": "policy_effect"
+        },
+        {
+          "hypothesis_id": "HYP_UNKNOWN",
+          "hypothesis": "The movement is statistically significant but currently lacks sufficient explanatory evidence.",
+          "attribution_bucket": "unknown_effect"
+        }
+      ],
+      "driver_candidates": [
+        {
+          "driver_id": "MKT_010",
+          "driver_name": "Demand Shock / External Downturn",
+          "applies_when": "Output falls sharply due to broad demand shock, recession, pandemic disruption, or external downturn."
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "applies_when": "Output rises due to stronger global or regional end-demand."
+        },
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "applies_when": "Output rises or falls due to inventory correction, stockpiling, or restocking."
+        },
+        {
+          "driver_id": "MKT_003",
+          "driver_name": "Export Demand Weakness",
+          "applies_when": "Output falls due to weak external demand or export-market slowdown."
+        },
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "applies_when": "Output rises due to new capacity, plant ramp-up, or production expansion."
+        },
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "applies_when": "Output falls due to maintenance, shutdowns, supply constraints, plant disruptions, or COVID restrictions."
+        },
+        {
+          "driver_id": "MKT_006",
+          "driver_name": "Policy / Regulatory Impact",
+          "applies_when": "Output changes due to regulation, tax, trade restrictions, incentives, or government policy."
+        }
+      ],
+      "investigation_status": {
+        "evidence_collected": false,
+        "attribution_scored": false,
+        "outcome_ready": false
+      },
+      "package_file": "data/historical-replay/m355381/investigation-packages/sg-m355381-1-1-4-2020-apr-investigation-package-v0.1.json"
+    },
+    {
+      "investigation_package_version": "historical-investigation-package-v0.1",
+      "generated_at": "2026-06-03T11:48:34.258Z",
+      "case_id": "SG-M355381-1_1-2020-aug",
+      "sandbox_only": true,
+      "production_mutation_allowed": false,
+      "source_candidate_file": "data/historical-replay/m355381/historical-case-candidates-v0.1.json",
+      "case_summary": {
+        "period": "2020 Aug",
+        "series_no": "1.1",
+        "series_name": "Electronics Cluster",
+        "priority": "high",
+        "direction": "increase",
+        "latest_value": 77.641,
+        "month_on_month_change_pct": -4.967013060135366,
+        "year_on_year_change_pct": 48.29436931774773
+      },
+      "search_queries": {
+        "official_queries": [
+          "Singapore Electronics Cluster manufacturing output 2020 Aug",
+          "Singapore Monthly Manufacturing Performance 2020 Aug",
+          "Singapore EDB Electronics Cluster output 2020 Aug",
+          "Singapore industrial production Electronics Cluster 2020 Aug"
+        ],
+        "industry_queries": [
+          "Electronics Cluster increase growth surge 2020 Singapore",
+          "Electronics Cluster manufacturing increase growth surge 2020",
+          "Electronics Cluster output driver 2020"
+        ],
+        "context_queries": [
+          "Singapore manufacturing 2020 COVID supply chain semiconductor petroleum biomedical",
+          "global Electronics Cluster demand 2020",
+          "Electronics Cluster market cycle 2020"
+        ]
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "HYP_MARKET_DEMAND",
+          "hypothesis": "The movement may reflect stronger global or regional demand.",
+          "attribution_bucket": "market_effect"
+        },
+        {
+          "hypothesis_id": "HYP_INVENTORY_CYCLE",
+          "hypothesis": "The movement may reflect inventory correction, stockpiling, or restocking.",
+          "attribution_bucket": "portfolio_effect"
+        },
+        {
+          "hypothesis_id": "HYP_OPERATIONAL",
+          "hypothesis": "The movement may reflect operational disruption, plant maintenance, shutdowns, production ramp-up, or capacity changes.",
+          "attribution_bucket": "operational_effect"
+        },
+        {
+          "hypothesis_id": "HYP_POLICY",
+          "hypothesis": "The movement may reflect policy, regulatory, trade, tax, or incentive changes.",
+          "attribution_bucket": "policy_effect"
+        },
+        {
+          "hypothesis_id": "HYP_UNKNOWN",
+          "hypothesis": "The movement is statistically significant but currently lacks sufficient explanatory evidence.",
+          "attribution_bucket": "unknown_effect"
+        }
+      ],
+      "driver_candidates": [
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "applies_when": "Electronics output changes due to semiconductor demand, chip shortages, data-center demand, consumer electronics demand, or inventory cycle."
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "applies_when": "Output rises due to stronger global or regional end-demand."
+        },
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "applies_when": "Output rises or falls due to inventory correction, stockpiling, or restocking."
+        },
+        {
+          "driver_id": "MKT_003",
+          "driver_name": "Export Demand Weakness",
+          "applies_when": "Output falls due to weak external demand or export-market slowdown."
+        },
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "applies_when": "Output rises due to new capacity, plant ramp-up, or production expansion."
+        },
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "applies_when": "Output falls due to maintenance, shutdowns, supply constraints, plant disruptions, or COVID restrictions."
+        },
+        {
+          "driver_id": "MKT_006",
+          "driver_name": "Policy / Regulatory Impact",
+          "applies_when": "Output changes due to regulation, tax, trade restrictions, incentives, or government policy."
+        }
+      ],
+      "investigation_status": {
+        "evidence_collected": false,
+        "attribution_scored": false,
+        "outcome_ready": false
+      },
+      "package_file": "data/historical-replay/m355381/investigation-packages/sg-m355381-1-1-2020-aug-investigation-package-v0.1.json"
+    },
+    {
+      "investigation_package_version": "historical-investigation-package-v0.1",
+      "generated_at": "2026-06-03T11:48:34.258Z",
+      "case_id": "SG-M355381-1_1_1-2020-aug",
+      "sandbox_only": true,
+      "production_mutation_allowed": false,
+      "source_candidate_file": "data/historical-replay/m355381/historical-case-candidates-v0.1.json",
+      "case_summary": {
+        "period": "2020 Aug",
+        "series_no": "1.1.1",
+        "series_name": "Semiconductors",
+        "priority": "critical",
+        "direction": "increase",
+        "latest_value": 81.207,
+        "month_on_month_change_pct": -6.93780726785162,
+        "year_on_year_change_pct": 59.673994258523734
+      },
+      "search_queries": {
+        "official_queries": [
+          "Singapore Semiconductors manufacturing output 2020 Aug",
+          "Singapore Monthly Manufacturing Performance 2020 Aug",
+          "Singapore EDB Semiconductors output 2020 Aug",
+          "Singapore industrial production Semiconductors 2020 Aug"
+        ],
+        "industry_queries": [
+          "Semiconductors increase growth surge 2020 Singapore",
+          "Semiconductors manufacturing increase growth surge 2020",
+          "Semiconductors output driver 2020"
+        ],
+        "context_queries": [
+          "Singapore manufacturing 2020 COVID supply chain semiconductor petroleum biomedical",
+          "global Semiconductors demand 2020",
+          "Semiconductors market cycle 2020"
+        ]
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "HYP_MARKET_DEMAND",
+          "hypothesis": "The movement may reflect stronger global or regional demand.",
+          "attribution_bucket": "market_effect"
+        },
+        {
+          "hypothesis_id": "HYP_INVENTORY_CYCLE",
+          "hypothesis": "The movement may reflect inventory correction, stockpiling, or restocking.",
+          "attribution_bucket": "portfolio_effect"
+        },
+        {
+          "hypothesis_id": "HYP_OPERATIONAL",
+          "hypothesis": "The movement may reflect operational disruption, plant maintenance, shutdowns, production ramp-up, or capacity changes.",
+          "attribution_bucket": "operational_effect"
+        },
+        {
+          "hypothesis_id": "HYP_POLICY",
+          "hypothesis": "The movement may reflect policy, regulatory, trade, tax, or incentive changes.",
+          "attribution_bucket": "policy_effect"
+        },
+        {
+          "hypothesis_id": "HYP_UNKNOWN",
+          "hypothesis": "The movement is statistically significant but currently lacks sufficient explanatory evidence.",
+          "attribution_bucket": "unknown_effect"
+        }
+      ],
+      "driver_candidates": [
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "applies_when": "Electronics output changes due to semiconductor demand, chip shortages, data-center demand, consumer electronics demand, or inventory cycle."
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "applies_when": "Output rises due to stronger global or regional end-demand."
+        },
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "applies_when": "Output rises or falls due to inventory correction, stockpiling, or restocking."
+        },
+        {
+          "driver_id": "MKT_003",
+          "driver_name": "Export Demand Weakness",
+          "applies_when": "Output falls due to weak external demand or export-market slowdown."
+        },
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "applies_when": "Output rises due to new capacity, plant ramp-up, or production expansion."
+        },
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "applies_when": "Output falls due to maintenance, shutdowns, supply constraints, plant disruptions, or COVID restrictions."
+        },
+        {
+          "driver_id": "MKT_006",
+          "driver_name": "Policy / Regulatory Impact",
+          "applies_when": "Output changes due to regulation, tax, trade restrictions, incentives, or government policy."
+        }
+      ],
+      "investigation_status": {
+        "evidence_collected": false,
+        "attribution_scored": false,
+        "outcome_ready": false
+      },
+      "package_file": "data/historical-replay/m355381/investigation-packages/sg-m355381-1-1-1-2020-aug-investigation-package-v0.1.json"
+    },
+    {
+      "investigation_package_version": "historical-investigation-package-v0.1",
+      "generated_at": "2026-06-03T11:48:34.258Z",
+      "case_id": "SG-M355381-1_1_2-2020-aug",
+      "sandbox_only": true,
+      "production_mutation_allowed": false,
+      "source_candidate_file": "data/historical-replay/m355381/historical-case-candidates-v0.1.json",
+      "case_summary": {
+        "period": "2020 Aug",
+        "series_no": "1.1.2",
+        "series_name": "Computer Peripherals & Data Storage",
+        "priority": "high",
+        "direction": "decrease",
+        "latest_value": 102.925,
+        "month_on_month_change_pct": 24.296548559283142,
+        "year_on_year_change_pct": -1.204645805336926
+      },
+      "search_queries": {
+        "official_queries": [
+          "Singapore Computer Peripherals & Data Storage manufacturing output 2020 Aug",
+          "Singapore Monthly Manufacturing Performance 2020 Aug",
+          "Singapore EDB Computer Peripherals & Data Storage output 2020 Aug",
+          "Singapore industrial production Computer Peripherals & Data Storage 2020 Aug"
+        ],
+        "industry_queries": [
+          "Computer Peripherals & Data Storage decline fall contraction 2020 Singapore",
+          "Computer Peripherals & Data Storage manufacturing decline fall contraction 2020",
+          "Computer Peripherals & Data Storage output driver 2020"
+        ],
+        "context_queries": [
+          "Singapore manufacturing 2020 COVID supply chain semiconductor petroleum biomedical",
+          "global Computer Peripherals & Data Storage demand 2020",
+          "Computer Peripherals & Data Storage market cycle 2020"
+        ]
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "HYP_MARKET_DEMAND",
+          "hypothesis": "The movement may reflect weaker global or regional demand.",
+          "attribution_bucket": "market_effect"
+        },
+        {
+          "hypothesis_id": "HYP_INVENTORY_CYCLE",
+          "hypothesis": "The movement may reflect inventory correction, stockpiling, or restocking.",
+          "attribution_bucket": "portfolio_effect"
+        },
+        {
+          "hypothesis_id": "HYP_OPERATIONAL",
+          "hypothesis": "The movement may reflect operational disruption, plant maintenance, shutdowns, production ramp-up, or capacity changes.",
+          "attribution_bucket": "operational_effect"
+        },
+        {
+          "hypothesis_id": "HYP_POLICY",
+          "hypothesis": "The movement may reflect policy, regulatory, trade, tax, or incentive changes.",
+          "attribution_bucket": "policy_effect"
+        },
+        {
+          "hypothesis_id": "HYP_UNKNOWN",
+          "hypothesis": "The movement is statistically significant but currently lacks sufficient explanatory evidence.",
+          "attribution_bucket": "unknown_effect"
+        }
+      ],
+      "driver_candidates": [
+        {
+          "driver_id": "MKT_010",
+          "driver_name": "Demand Shock / External Downturn",
+          "applies_when": "Output falls sharply due to broad demand shock, recession, pandemic disruption, or external downturn."
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "applies_when": "Output rises due to stronger global or regional end-demand."
+        },
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "applies_when": "Output rises or falls due to inventory correction, stockpiling, or restocking."
+        },
+        {
+          "driver_id": "MKT_003",
+          "driver_name": "Export Demand Weakness",
+          "applies_when": "Output falls due to weak external demand or export-market slowdown."
+        },
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "applies_when": "Output rises due to new capacity, plant ramp-up, or production expansion."
+        },
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "applies_when": "Output falls due to maintenance, shutdowns, supply constraints, plant disruptions, or COVID restrictions."
+        },
+        {
+          "driver_id": "MKT_006",
+          "driver_name": "Policy / Regulatory Impact",
+          "applies_when": "Output changes due to regulation, tax, trade restrictions, incentives, or government policy."
+        }
+      ],
+      "investigation_status": {
+        "evidence_collected": false,
+        "attribution_scored": false,
+        "outcome_ready": false
+      },
+      "package_file": "data/historical-replay/m355381/investigation-packages/sg-m355381-1-1-2-2020-aug-investigation-package-v0.1.json"
+    },
+    {
+      "investigation_package_version": "historical-investigation-package-v0.1",
+      "generated_at": "2026-06-03T11:48:34.259Z",
+      "case_id": "SG-M355381-1_1-2020-dec",
+      "sandbox_only": true,
+      "production_mutation_allowed": false,
+      "source_candidate_file": "data/historical-replay/m355381/historical-case-candidates-v0.1.json",
+      "case_summary": {
+        "period": "2020 Dec",
+        "series_no": "1.1",
+        "series_name": "Electronics Cluster",
+        "priority": "high",
+        "direction": "increase",
+        "latest_value": 87.547,
+        "month_on_month_change_pct": 13.020745923755179,
+        "year_on_year_change_pct": 46.34337963659462
+      },
+      "search_queries": {
+        "official_queries": [
+          "Singapore Electronics Cluster manufacturing output 2020 Dec",
+          "Singapore Monthly Manufacturing Performance 2020 Dec",
+          "Singapore EDB Electronics Cluster output 2020 Dec",
+          "Singapore industrial production Electronics Cluster 2020 Dec"
+        ],
+        "industry_queries": [
+          "Electronics Cluster increase growth surge 2020 Singapore",
+          "Electronics Cluster manufacturing increase growth surge 2020",
+          "Electronics Cluster output driver 2020"
+        ],
+        "context_queries": [
+          "Singapore manufacturing 2020 COVID supply chain semiconductor petroleum biomedical",
+          "global Electronics Cluster demand 2020",
+          "Electronics Cluster market cycle 2020"
+        ]
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "HYP_MARKET_DEMAND",
+          "hypothesis": "The movement may reflect stronger global or regional demand.",
+          "attribution_bucket": "market_effect"
+        },
+        {
+          "hypothesis_id": "HYP_INVENTORY_CYCLE",
+          "hypothesis": "The movement may reflect inventory correction, stockpiling, or restocking.",
+          "attribution_bucket": "portfolio_effect"
+        },
+        {
+          "hypothesis_id": "HYP_OPERATIONAL",
+          "hypothesis": "The movement may reflect operational disruption, plant maintenance, shutdowns, production ramp-up, or capacity changes.",
+          "attribution_bucket": "operational_effect"
+        },
+        {
+          "hypothesis_id": "HYP_POLICY",
+          "hypothesis": "The movement may reflect policy, regulatory, trade, tax, or incentive changes.",
+          "attribution_bucket": "policy_effect"
+        },
+        {
+          "hypothesis_id": "HYP_UNKNOWN",
+          "hypothesis": "The movement is statistically significant but currently lacks sufficient explanatory evidence.",
+          "attribution_bucket": "unknown_effect"
+        }
+      ],
+      "driver_candidates": [
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "applies_when": "Electronics output changes due to semiconductor demand, chip shortages, data-center demand, consumer electronics demand, or inventory cycle."
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "applies_when": "Output rises due to stronger global or regional end-demand."
+        },
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "applies_when": "Output rises or falls due to inventory correction, stockpiling, or restocking."
+        },
+        {
+          "driver_id": "MKT_003",
+          "driver_name": "Export Demand Weakness",
+          "applies_when": "Output falls due to weak external demand or export-market slowdown."
+        },
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "applies_when": "Output rises due to new capacity, plant ramp-up, or production expansion."
+        },
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "applies_when": "Output falls due to maintenance, shutdowns, supply constraints, plant disruptions, or COVID restrictions."
+        },
+        {
+          "driver_id": "MKT_006",
+          "driver_name": "Policy / Regulatory Impact",
+          "applies_when": "Output changes due to regulation, tax, trade restrictions, incentives, or government policy."
+        }
+      ],
+      "investigation_status": {
+        "evidence_collected": false,
+        "attribution_scored": false,
+        "outcome_ready": false
+      },
+      "package_file": "data/historical-replay/m355381/investigation-packages/sg-m355381-1-1-2020-dec-investigation-package-v0.1.json"
+    },
+    {
+      "investigation_package_version": "historical-investigation-package-v0.1",
+      "generated_at": "2026-06-03T11:48:34.259Z",
+      "case_id": "SG-M355381-1_1_1-2020-dec",
+      "sandbox_only": true,
+      "production_mutation_allowed": false,
+      "source_candidate_file": "data/historical-replay/m355381/historical-case-candidates-v0.1.json",
+      "case_summary": {
+        "period": "2020 Dec",
+        "series_no": "1.1.1",
+        "series_name": "Semiconductors",
+        "priority": "critical",
+        "direction": "increase",
+        "latest_value": 90.675,
+        "month_on_month_change_pct": 11.17036928056496,
+        "year_on_year_change_pct": 55.949023115024765
+      },
+      "search_queries": {
+        "official_queries": [
+          "Singapore Semiconductors manufacturing output 2020 Dec",
+          "Singapore Monthly Manufacturing Performance 2020 Dec",
+          "Singapore EDB Semiconductors output 2020 Dec",
+          "Singapore industrial production Semiconductors 2020 Dec"
+        ],
+        "industry_queries": [
+          "Semiconductors increase growth surge 2020 Singapore",
+          "Semiconductors manufacturing increase growth surge 2020",
+          "Semiconductors output driver 2020"
+        ],
+        "context_queries": [
+          "Singapore manufacturing 2020 COVID supply chain semiconductor petroleum biomedical",
+          "global Semiconductors demand 2020",
+          "Semiconductors market cycle 2020"
+        ]
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "HYP_MARKET_DEMAND",
+          "hypothesis": "The movement may reflect stronger global or regional demand.",
+          "attribution_bucket": "market_effect"
+        },
+        {
+          "hypothesis_id": "HYP_INVENTORY_CYCLE",
+          "hypothesis": "The movement may reflect inventory correction, stockpiling, or restocking.",
+          "attribution_bucket": "portfolio_effect"
+        },
+        {
+          "hypothesis_id": "HYP_OPERATIONAL",
+          "hypothesis": "The movement may reflect operational disruption, plant maintenance, shutdowns, production ramp-up, or capacity changes.",
+          "attribution_bucket": "operational_effect"
+        },
+        {
+          "hypothesis_id": "HYP_POLICY",
+          "hypothesis": "The movement may reflect policy, regulatory, trade, tax, or incentive changes.",
+          "attribution_bucket": "policy_effect"
+        },
+        {
+          "hypothesis_id": "HYP_UNKNOWN",
+          "hypothesis": "The movement is statistically significant but currently lacks sufficient explanatory evidence.",
+          "attribution_bucket": "unknown_effect"
+        }
+      ],
+      "driver_candidates": [
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "applies_when": "Electronics output changes due to semiconductor demand, chip shortages, data-center demand, consumer electronics demand, or inventory cycle."
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "applies_when": "Output rises due to stronger global or regional end-demand."
+        },
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "applies_when": "Output rises or falls due to inventory correction, stockpiling, or restocking."
+        },
+        {
+          "driver_id": "MKT_003",
+          "driver_name": "Export Demand Weakness",
+          "applies_when": "Output falls due to weak external demand or export-market slowdown."
+        },
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "applies_when": "Output rises due to new capacity, plant ramp-up, or production expansion."
+        },
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "applies_when": "Output falls due to maintenance, shutdowns, supply constraints, plant disruptions, or COVID restrictions."
+        },
+        {
+          "driver_id": "MKT_006",
+          "driver_name": "Policy / Regulatory Impact",
+          "applies_when": "Output changes due to regulation, tax, trade restrictions, incentives, or government policy."
+        }
+      ],
+      "investigation_status": {
+        "evidence_collected": false,
+        "attribution_scored": false,
+        "outcome_ready": false
+      },
+      "package_file": "data/historical-replay/m355381/investigation-packages/sg-m355381-1-1-1-2020-dec-investigation-package-v0.1.json"
+    },
+    {
+      "investigation_package_version": "historical-investigation-package-v0.1",
+      "generated_at": "2026-06-03T11:48:34.259Z",
+      "case_id": "SG-M355381-1_1_3-2020-dec",
+      "sandbox_only": true,
+      "production_mutation_allowed": false,
+      "source_candidate_file": "data/historical-replay/m355381/historical-case-candidates-v0.1.json",
+      "case_summary": {
+        "period": "2020 Dec",
+        "series_no": "1.1.3",
+        "series_name": "Infocomms & Consumer Electronics",
+        "priority": "critical",
+        "direction": "decrease",
+        "latest_value": 68.052,
+        "month_on_month_change_pct": 59.73522991338639,
+        "year_on_year_change_pct": -5.790821623866536
+      },
+      "search_queries": {
+        "official_queries": [
+          "Singapore Infocomms & Consumer Electronics manufacturing output 2020 Dec",
+          "Singapore Monthly Manufacturing Performance 2020 Dec",
+          "Singapore EDB Infocomms & Consumer Electronics output 2020 Dec",
+          "Singapore industrial production Infocomms & Consumer Electronics 2020 Dec"
+        ],
+        "industry_queries": [
+          "Infocomms & Consumer Electronics decline fall contraction 2020 Singapore",
+          "Infocomms & Consumer Electronics manufacturing decline fall contraction 2020",
+          "Infocomms & Consumer Electronics output driver 2020"
+        ],
+        "context_queries": [
+          "Singapore manufacturing 2020 COVID supply chain semiconductor petroleum biomedical",
+          "global Infocomms & Consumer Electronics demand 2020",
+          "Infocomms & Consumer Electronics market cycle 2020"
+        ]
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "HYP_MARKET_DEMAND",
+          "hypothesis": "The movement may reflect weaker global or regional demand.",
+          "attribution_bucket": "market_effect"
+        },
+        {
+          "hypothesis_id": "HYP_INVENTORY_CYCLE",
+          "hypothesis": "The movement may reflect inventory correction, stockpiling, or restocking.",
+          "attribution_bucket": "portfolio_effect"
+        },
+        {
+          "hypothesis_id": "HYP_OPERATIONAL",
+          "hypothesis": "The movement may reflect operational disruption, plant maintenance, shutdowns, production ramp-up, or capacity changes.",
+          "attribution_bucket": "operational_effect"
+        },
+        {
+          "hypothesis_id": "HYP_POLICY",
+          "hypothesis": "The movement may reflect policy, regulatory, trade, tax, or incentive changes.",
+          "attribution_bucket": "policy_effect"
+        },
+        {
+          "hypothesis_id": "HYP_UNKNOWN",
+          "hypothesis": "The movement is statistically significant but currently lacks sufficient explanatory evidence.",
+          "attribution_bucket": "unknown_effect"
+        }
+      ],
+      "driver_candidates": [
+        {
+          "driver_id": "MKT_010",
+          "driver_name": "Demand Shock / External Downturn",
+          "applies_when": "Output falls sharply due to broad demand shock, recession, pandemic disruption, or external downturn."
+        },
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "applies_when": "Electronics output changes due to semiconductor demand, chip shortages, data-center demand, consumer electronics demand, or inventory cycle."
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "applies_when": "Output rises due to stronger global or regional end-demand."
+        },
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "applies_when": "Output rises or falls due to inventory correction, stockpiling, or restocking."
+        },
+        {
+          "driver_id": "MKT_003",
+          "driver_name": "Export Demand Weakness",
+          "applies_when": "Output falls due to weak external demand or export-market slowdown."
+        },
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "applies_when": "Output rises due to new capacity, plant ramp-up, or production expansion."
+        },
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "applies_when": "Output falls due to maintenance, shutdowns, supply constraints, plant disruptions, or COVID restrictions."
+        },
+        {
+          "driver_id": "MKT_006",
+          "driver_name": "Policy / Regulatory Impact",
+          "applies_when": "Output changes due to regulation, tax, trade restrictions, incentives, or government policy."
+        }
+      ],
+      "investigation_status": {
+        "evidence_collected": false,
+        "attribution_scored": false,
+        "outcome_ready": false
+      },
+      "package_file": "data/historical-replay/m355381/investigation-packages/sg-m355381-1-1-3-2020-dec-investigation-package-v0.1.json"
+    },
+    {
+      "investigation_package_version": "historical-investigation-package-v0.1",
+      "generated_at": "2026-06-03T11:48:34.259Z",
+      "case_id": "SG-M355381-1_1_4-2020-dec",
+      "sandbox_only": true,
+      "production_mutation_allowed": false,
+      "source_candidate_file": "data/historical-replay/m355381/historical-case-candidates-v0.1.json",
+      "case_summary": {
+        "period": "2020 Dec",
+        "series_no": "1.1.4",
+        "series_name": "Other Electronic Modules & Components",
+        "priority": "high",
+        "direction": "increase",
+        "latest_value": 102.094,
+        "month_on_month_change_pct": 26.760283582274862,
+        "year_on_year_change_pct": 0.5000689071328682
+      },
+      "search_queries": {
+        "official_queries": [
+          "Singapore Other Electronic Modules & Components manufacturing output 2020 Dec",
+          "Singapore Monthly Manufacturing Performance 2020 Dec",
+          "Singapore EDB Other Electronic Modules & Components output 2020 Dec",
+          "Singapore industrial production Other Electronic Modules & Components 2020 Dec"
+        ],
+        "industry_queries": [
+          "Other Electronic Modules & Components increase growth surge 2020 Singapore",
+          "Other Electronic Modules & Components manufacturing increase growth surge 2020",
+          "Other Electronic Modules & Components output driver 2020"
+        ],
+        "context_queries": [
+          "Singapore manufacturing 2020 COVID supply chain semiconductor petroleum biomedical",
+          "global Other Electronic Modules & Components demand 2020",
+          "Other Electronic Modules & Components market cycle 2020"
+        ]
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "HYP_MARKET_DEMAND",
+          "hypothesis": "The movement may reflect stronger global or regional demand.",
+          "attribution_bucket": "market_effect"
+        },
+        {
+          "hypothesis_id": "HYP_INVENTORY_CYCLE",
+          "hypothesis": "The movement may reflect inventory correction, stockpiling, or restocking.",
+          "attribution_bucket": "portfolio_effect"
+        },
+        {
+          "hypothesis_id": "HYP_OPERATIONAL",
+          "hypothesis": "The movement may reflect operational disruption, plant maintenance, shutdowns, production ramp-up, or capacity changes.",
+          "attribution_bucket": "operational_effect"
+        },
+        {
+          "hypothesis_id": "HYP_POLICY",
+          "hypothesis": "The movement may reflect policy, regulatory, trade, tax, or incentive changes.",
+          "attribution_bucket": "policy_effect"
+        },
+        {
+          "hypothesis_id": "HYP_UNKNOWN",
+          "hypothesis": "The movement is statistically significant but currently lacks sufficient explanatory evidence.",
+          "attribution_bucket": "unknown_effect"
+        }
+      ],
+      "driver_candidates": [
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "applies_when": "Output rises due to stronger global or regional end-demand."
+        },
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "applies_when": "Output rises or falls due to inventory correction, stockpiling, or restocking."
+        },
+        {
+          "driver_id": "MKT_003",
+          "driver_name": "Export Demand Weakness",
+          "applies_when": "Output falls due to weak external demand or export-market slowdown."
+        },
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "applies_when": "Output rises due to new capacity, plant ramp-up, or production expansion."
+        },
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "applies_when": "Output falls due to maintenance, shutdowns, supply constraints, plant disruptions, or COVID restrictions."
+        },
+        {
+          "driver_id": "MKT_006",
+          "driver_name": "Policy / Regulatory Impact",
+          "applies_when": "Output changes due to regulation, tax, trade restrictions, incentives, or government policy."
+        }
+      ],
+      "investigation_status": {
+        "evidence_collected": false,
+        "attribution_scored": false,
+        "outcome_ready": false
+      },
+      "package_file": "data/historical-replay/m355381/investigation-packages/sg-m355381-1-1-4-2020-dec-investigation-package-v0.1.json"
+    },
+    {
+      "investigation_package_version": "historical-investigation-package-v0.1",
+      "generated_at": "2026-06-03T11:48:34.259Z",
+      "case_id": "SG-M355381-1-2020-feb",
+      "sandbox_only": true,
+      "production_mutation_allowed": false,
+      "source_candidate_file": "data/historical-replay/m355381/historical-case-candidates-v0.1.json",
+      "case_summary": {
+        "period": "2020 Feb",
+        "series_no": "1",
+        "series_name": "Total",
+        "priority": "high",
+        "direction": "decrease",
+        "latest_value": 65.164,
+        "month_on_month_change_pct": -20.519106687645596,
+        "year_on_year_change_pct": -0.5251267020821795
+      },
+      "search_queries": {
+        "official_queries": [
+          "Singapore Total manufacturing output 2020 Feb",
+          "Singapore Monthly Manufacturing Performance 2020 Feb",
+          "Singapore EDB Total output 2020 Feb",
+          "Singapore industrial production Total 2020 Feb"
+        ],
+        "industry_queries": [
+          "Total decline fall contraction 2020 Singapore",
+          "Total manufacturing decline fall contraction 2020",
+          "Total output driver 2020"
+        ],
+        "context_queries": [
+          "Singapore manufacturing 2020 COVID supply chain semiconductor petroleum biomedical",
+          "global Total demand 2020",
+          "Total market cycle 2020"
+        ]
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "HYP_MARKET_DEMAND",
+          "hypothesis": "The movement may reflect weaker global or regional demand.",
+          "attribution_bucket": "market_effect"
+        },
+        {
+          "hypothesis_id": "HYP_INVENTORY_CYCLE",
+          "hypothesis": "The movement may reflect inventory correction, stockpiling, or restocking.",
+          "attribution_bucket": "portfolio_effect"
+        },
+        {
+          "hypothesis_id": "HYP_OPERATIONAL",
+          "hypothesis": "The movement may reflect operational disruption, plant maintenance, shutdowns, production ramp-up, or capacity changes.",
+          "attribution_bucket": "operational_effect"
+        },
+        {
+          "hypothesis_id": "HYP_POLICY",
+          "hypothesis": "The movement may reflect policy, regulatory, trade, tax, or incentive changes.",
+          "attribution_bucket": "policy_effect"
+        },
+        {
+          "hypothesis_id": "HYP_UNKNOWN",
+          "hypothesis": "The movement is statistically significant but currently lacks sufficient explanatory evidence.",
+          "attribution_bucket": "unknown_effect"
+        }
+      ],
+      "driver_candidates": [
+        {
+          "driver_id": "MKT_010",
+          "driver_name": "Demand Shock / External Downturn",
+          "applies_when": "Output falls sharply due to broad demand shock, recession, pandemic disruption, or external downturn."
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "applies_when": "Output rises due to stronger global or regional end-demand."
+        },
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "applies_when": "Output rises or falls due to inventory correction, stockpiling, or restocking."
+        },
+        {
+          "driver_id": "MKT_003",
+          "driver_name": "Export Demand Weakness",
+          "applies_when": "Output falls due to weak external demand or export-market slowdown."
+        },
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "applies_when": "Output rises due to new capacity, plant ramp-up, or production expansion."
+        },
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "applies_when": "Output falls due to maintenance, shutdowns, supply constraints, plant disruptions, or COVID restrictions."
+        },
+        {
+          "driver_id": "MKT_006",
+          "driver_name": "Policy / Regulatory Impact",
+          "applies_when": "Output changes due to regulation, tax, trade restrictions, incentives, or government policy."
+        }
+      ],
+      "investigation_status": {
+        "evidence_collected": false,
+        "attribution_scored": false,
+        "outcome_ready": false
+      },
+      "package_file": "data/historical-replay/m355381/investigation-packages/sg-m355381-1-2020-feb-investigation-package-v0.1.json"
+    },
+    {
+      "investigation_package_version": "historical-investigation-package-v0.1",
+      "generated_at": "2026-06-03T11:48:34.260Z",
+      "case_id": "SG-M355381-1_1-2020-feb",
+      "sandbox_only": true,
+      "production_mutation_allowed": false,
+      "source_candidate_file": "data/historical-replay/m355381/historical-case-candidates-v0.1.json",
+      "case_summary": {
+        "period": "2020 Feb",
+        "series_no": "1.1",
+        "series_name": "Electronics Cluster",
+        "priority": "high",
+        "direction": "decrease",
+        "latest_value": 53.789,
+        "month_on_month_change_pct": -25.123543577822016,
+        "year_on_year_change_pct": -15.988817043076242
+      },
+      "search_queries": {
+        "official_queries": [
+          "Singapore Electronics Cluster manufacturing output 2020 Feb",
+          "Singapore Monthly Manufacturing Performance 2020 Feb",
+          "Singapore EDB Electronics Cluster output 2020 Feb",
+          "Singapore industrial production Electronics Cluster 2020 Feb"
+        ],
+        "industry_queries": [
+          "Electronics Cluster decline fall contraction 2020 Singapore",
+          "Electronics Cluster manufacturing decline fall contraction 2020",
+          "Electronics Cluster output driver 2020"
+        ],
+        "context_queries": [
+          "Singapore manufacturing 2020 COVID supply chain semiconductor petroleum biomedical",
+          "global Electronics Cluster demand 2020",
+          "Electronics Cluster market cycle 2020"
+        ]
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "HYP_MARKET_DEMAND",
+          "hypothesis": "The movement may reflect weaker global or regional demand.",
+          "attribution_bucket": "market_effect"
+        },
+        {
+          "hypothesis_id": "HYP_INVENTORY_CYCLE",
+          "hypothesis": "The movement may reflect inventory correction, stockpiling, or restocking.",
+          "attribution_bucket": "portfolio_effect"
+        },
+        {
+          "hypothesis_id": "HYP_OPERATIONAL",
+          "hypothesis": "The movement may reflect operational disruption, plant maintenance, shutdowns, production ramp-up, or capacity changes.",
+          "attribution_bucket": "operational_effect"
+        },
+        {
+          "hypothesis_id": "HYP_POLICY",
+          "hypothesis": "The movement may reflect policy, regulatory, trade, tax, or incentive changes.",
+          "attribution_bucket": "policy_effect"
+        },
+        {
+          "hypothesis_id": "HYP_UNKNOWN",
+          "hypothesis": "The movement is statistically significant but currently lacks sufficient explanatory evidence.",
+          "attribution_bucket": "unknown_effect"
+        }
+      ],
+      "driver_candidates": [
+        {
+          "driver_id": "MKT_010",
+          "driver_name": "Demand Shock / External Downturn",
+          "applies_when": "Output falls sharply due to broad demand shock, recession, pandemic disruption, or external downturn."
+        },
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "applies_when": "Electronics output changes due to semiconductor demand, chip shortages, data-center demand, consumer electronics demand, or inventory cycle."
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "applies_when": "Output rises due to stronger global or regional end-demand."
+        },
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "applies_when": "Output rises or falls due to inventory correction, stockpiling, or restocking."
+        },
+        {
+          "driver_id": "MKT_003",
+          "driver_name": "Export Demand Weakness",
+          "applies_when": "Output falls due to weak external demand or export-market slowdown."
+        },
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "applies_when": "Output rises due to new capacity, plant ramp-up, or production expansion."
+        },
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "applies_when": "Output falls due to maintenance, shutdowns, supply constraints, plant disruptions, or COVID restrictions."
+        },
+        {
+          "driver_id": "MKT_006",
+          "driver_name": "Policy / Regulatory Impact",
+          "applies_when": "Output changes due to regulation, tax, trade restrictions, incentives, or government policy."
+        }
+      ],
+      "investigation_status": {
+        "evidence_collected": false,
+        "attribution_scored": false,
+        "outcome_ready": false
+      },
+      "package_file": "data/historical-replay/m355381/investigation-packages/sg-m355381-1-1-2020-feb-investigation-package-v0.1.json"
+    },
+    {
+      "investigation_package_version": "historical-investigation-package-v0.1",
+      "generated_at": "2026-06-03T11:48:34.260Z",
+      "case_id": "SG-M355381-1_1_1-2020-feb",
+      "sandbox_only": true,
+      "production_mutation_allowed": false,
+      "source_candidate_file": "data/historical-replay/m355381/historical-case-candidates-v0.1.json",
+      "case_summary": {
+        "period": "2020 Feb",
+        "series_no": "1.1.1",
+        "series_name": "Semiconductors",
+        "priority": "high",
+        "direction": "decrease",
+        "latest_value": 54.343,
+        "month_on_month_change_pct": -27.646855195185598,
+        "year_on_year_change_pct": -18.21971407072987
+      },
+      "search_queries": {
+        "official_queries": [
+          "Singapore Semiconductors manufacturing output 2020 Feb",
+          "Singapore Monthly Manufacturing Performance 2020 Feb",
+          "Singapore EDB Semiconductors output 2020 Feb",
+          "Singapore industrial production Semiconductors 2020 Feb"
+        ],
+        "industry_queries": [
+          "Semiconductors decline fall contraction 2020 Singapore",
+          "Semiconductors manufacturing decline fall contraction 2020",
+          "Semiconductors output driver 2020"
+        ],
+        "context_queries": [
+          "Singapore manufacturing 2020 COVID supply chain semiconductor petroleum biomedical",
+          "global Semiconductors demand 2020",
+          "Semiconductors market cycle 2020"
+        ]
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "HYP_MARKET_DEMAND",
+          "hypothesis": "The movement may reflect weaker global or regional demand.",
+          "attribution_bucket": "market_effect"
+        },
+        {
+          "hypothesis_id": "HYP_INVENTORY_CYCLE",
+          "hypothesis": "The movement may reflect inventory correction, stockpiling, or restocking.",
+          "attribution_bucket": "portfolio_effect"
+        },
+        {
+          "hypothesis_id": "HYP_OPERATIONAL",
+          "hypothesis": "The movement may reflect operational disruption, plant maintenance, shutdowns, production ramp-up, or capacity changes.",
+          "attribution_bucket": "operational_effect"
+        },
+        {
+          "hypothesis_id": "HYP_POLICY",
+          "hypothesis": "The movement may reflect policy, regulatory, trade, tax, or incentive changes.",
+          "attribution_bucket": "policy_effect"
+        },
+        {
+          "hypothesis_id": "HYP_UNKNOWN",
+          "hypothesis": "The movement is statistically significant but currently lacks sufficient explanatory evidence.",
+          "attribution_bucket": "unknown_effect"
+        }
+      ],
+      "driver_candidates": [
+        {
+          "driver_id": "MKT_010",
+          "driver_name": "Demand Shock / External Downturn",
+          "applies_when": "Output falls sharply due to broad demand shock, recession, pandemic disruption, or external downturn."
+        },
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "applies_when": "Electronics output changes due to semiconductor demand, chip shortages, data-center demand, consumer electronics demand, or inventory cycle."
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "applies_when": "Output rises due to stronger global or regional end-demand."
+        },
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "applies_when": "Output rises or falls due to inventory correction, stockpiling, or restocking."
+        },
+        {
+          "driver_id": "MKT_003",
+          "driver_name": "Export Demand Weakness",
+          "applies_when": "Output falls due to weak external demand or export-market slowdown."
+        },
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "applies_when": "Output rises due to new capacity, plant ramp-up, or production expansion."
+        },
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "applies_when": "Output falls due to maintenance, shutdowns, supply constraints, plant disruptions, or COVID restrictions."
+        },
+        {
+          "driver_id": "MKT_006",
+          "driver_name": "Policy / Regulatory Impact",
+          "applies_when": "Output changes due to regulation, tax, trade restrictions, incentives, or government policy."
+        }
+      ],
+      "investigation_status": {
+        "evidence_collected": false,
+        "attribution_scored": false,
+        "outcome_ready": false
+      },
+      "package_file": "data/historical-replay/m355381/investigation-packages/sg-m355381-1-1-1-2020-feb-investigation-package-v0.1.json"
+    },
+    {
+      "investigation_package_version": "historical-investigation-package-v0.1",
+      "generated_at": "2026-06-03T11:48:34.260Z",
+      "case_id": "SG-M355381-1_1_3-2020-feb",
+      "sandbox_only": true,
+      "production_mutation_allowed": false,
+      "source_candidate_file": "data/historical-replay/m355381/historical-case-candidates-v0.1.json",
+      "case_summary": {
+        "period": "2020 Feb",
+        "series_no": "1.1.3",
+        "series_name": "Infocomms & Consumer Electronics",
+        "priority": "high",
+        "direction": "decrease",
+        "latest_value": 35.038,
+        "month_on_month_change_pct": -25.07484389701481,
+        "year_on_year_change_pct": -6.252842809364558
+      },
+      "search_queries": {
+        "official_queries": [
+          "Singapore Infocomms & Consumer Electronics manufacturing output 2020 Feb",
+          "Singapore Monthly Manufacturing Performance 2020 Feb",
+          "Singapore EDB Infocomms & Consumer Electronics output 2020 Feb",
+          "Singapore industrial production Infocomms & Consumer Electronics 2020 Feb"
+        ],
+        "industry_queries": [
+          "Infocomms & Consumer Electronics decline fall contraction 2020 Singapore",
+          "Infocomms & Consumer Electronics manufacturing decline fall contraction 2020",
+          "Infocomms & Consumer Electronics output driver 2020"
+        ],
+        "context_queries": [
+          "Singapore manufacturing 2020 COVID supply chain semiconductor petroleum biomedical",
+          "global Infocomms & Consumer Electronics demand 2020",
+          "Infocomms & Consumer Electronics market cycle 2020"
+        ]
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "HYP_MARKET_DEMAND",
+          "hypothesis": "The movement may reflect weaker global or regional demand.",
+          "attribution_bucket": "market_effect"
+        },
+        {
+          "hypothesis_id": "HYP_INVENTORY_CYCLE",
+          "hypothesis": "The movement may reflect inventory correction, stockpiling, or restocking.",
+          "attribution_bucket": "portfolio_effect"
+        },
+        {
+          "hypothesis_id": "HYP_OPERATIONAL",
+          "hypothesis": "The movement may reflect operational disruption, plant maintenance, shutdowns, production ramp-up, or capacity changes.",
+          "attribution_bucket": "operational_effect"
+        },
+        {
+          "hypothesis_id": "HYP_POLICY",
+          "hypothesis": "The movement may reflect policy, regulatory, trade, tax, or incentive changes.",
+          "attribution_bucket": "policy_effect"
+        },
+        {
+          "hypothesis_id": "HYP_UNKNOWN",
+          "hypothesis": "The movement is statistically significant but currently lacks sufficient explanatory evidence.",
+          "attribution_bucket": "unknown_effect"
+        }
+      ],
+      "driver_candidates": [
+        {
+          "driver_id": "MKT_010",
+          "driver_name": "Demand Shock / External Downturn",
+          "applies_when": "Output falls sharply due to broad demand shock, recession, pandemic disruption, or external downturn."
+        },
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "applies_when": "Electronics output changes due to semiconductor demand, chip shortages, data-center demand, consumer electronics demand, or inventory cycle."
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "applies_when": "Output rises due to stronger global or regional end-demand."
+        },
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "applies_when": "Output rises or falls due to inventory correction, stockpiling, or restocking."
+        },
+        {
+          "driver_id": "MKT_003",
+          "driver_name": "Export Demand Weakness",
+          "applies_when": "Output falls due to weak external demand or export-market slowdown."
+        },
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "applies_when": "Output rises due to new capacity, plant ramp-up, or production expansion."
+        },
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "applies_when": "Output falls due to maintenance, shutdowns, supply constraints, plant disruptions, or COVID restrictions."
+        },
+        {
+          "driver_id": "MKT_006",
+          "driver_name": "Policy / Regulatory Impact",
+          "applies_when": "Output changes due to regulation, tax, trade restrictions, incentives, or government policy."
+        }
+      ],
+      "investigation_status": {
+        "evidence_collected": false,
+        "attribution_scored": false,
+        "outcome_ready": false
+      },
+      "package_file": "data/historical-replay/m355381/investigation-packages/sg-m355381-1-1-3-2020-feb-investigation-package-v0.1.json"
+    },
+    {
+      "investigation_package_version": "historical-investigation-package-v0.1",
+      "generated_at": "2026-06-03T11:48:34.260Z",
+      "case_id": "SG-M355381-1_1-2020-jan",
+      "sandbox_only": true,
+      "production_mutation_allowed": false,
+      "source_candidate_file": "data/historical-replay/m355381/historical-case-candidates-v0.1.json",
+      "case_summary": {
+        "period": "2020 Jan",
+        "series_no": "1.1",
+        "series_name": "Electronics Cluster",
+        "priority": "high",
+        "direction": "decrease",
+        "latest_value": 71.837,
+        "month_on_month_change_pct": 20.08257693529245,
+        "year_on_year_change_pct": -5.619202774785192
+      },
+      "search_queries": {
+        "official_queries": [
+          "Singapore Electronics Cluster manufacturing output 2020 Jan",
+          "Singapore Monthly Manufacturing Performance 2020 Jan",
+          "Singapore EDB Electronics Cluster output 2020 Jan",
+          "Singapore industrial production Electronics Cluster 2020 Jan"
+        ],
+        "industry_queries": [
+          "Electronics Cluster decline fall contraction 2020 Singapore",
+          "Electronics Cluster manufacturing decline fall contraction 2020",
+          "Electronics Cluster output driver 2020"
+        ],
+        "context_queries": [
+          "Singapore manufacturing 2020 COVID supply chain semiconductor petroleum biomedical",
+          "global Electronics Cluster demand 2020",
+          "Electronics Cluster market cycle 2020"
+        ]
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "HYP_MARKET_DEMAND",
+          "hypothesis": "The movement may reflect weaker global or regional demand.",
+          "attribution_bucket": "market_effect"
+        },
+        {
+          "hypothesis_id": "HYP_INVENTORY_CYCLE",
+          "hypothesis": "The movement may reflect inventory correction, stockpiling, or restocking.",
+          "attribution_bucket": "portfolio_effect"
+        },
+        {
+          "hypothesis_id": "HYP_OPERATIONAL",
+          "hypothesis": "The movement may reflect operational disruption, plant maintenance, shutdowns, production ramp-up, or capacity changes.",
+          "attribution_bucket": "operational_effect"
+        },
+        {
+          "hypothesis_id": "HYP_POLICY",
+          "hypothesis": "The movement may reflect policy, regulatory, trade, tax, or incentive changes.",
+          "attribution_bucket": "policy_effect"
+        },
+        {
+          "hypothesis_id": "HYP_UNKNOWN",
+          "hypothesis": "The movement is statistically significant but currently lacks sufficient explanatory evidence.",
+          "attribution_bucket": "unknown_effect"
+        }
+      ],
+      "driver_candidates": [
+        {
+          "driver_id": "MKT_010",
+          "driver_name": "Demand Shock / External Downturn",
+          "applies_when": "Output falls sharply due to broad demand shock, recession, pandemic disruption, or external downturn."
+        },
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "applies_when": "Electronics output changes due to semiconductor demand, chip shortages, data-center demand, consumer electronics demand, or inventory cycle."
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "applies_when": "Output rises due to stronger global or regional end-demand."
+        },
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "applies_when": "Output rises or falls due to inventory correction, stockpiling, or restocking."
+        },
+        {
+          "driver_id": "MKT_003",
+          "driver_name": "Export Demand Weakness",
+          "applies_when": "Output falls due to weak external demand or export-market slowdown."
+        },
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "applies_when": "Output rises due to new capacity, plant ramp-up, or production expansion."
+        },
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "applies_when": "Output falls due to maintenance, shutdowns, supply constraints, plant disruptions, or COVID restrictions."
+        },
+        {
+          "driver_id": "MKT_006",
+          "driver_name": "Policy / Regulatory Impact",
+          "applies_when": "Output changes due to regulation, tax, trade restrictions, incentives, or government policy."
+        }
+      ],
+      "investigation_status": {
+        "evidence_collected": false,
+        "attribution_scored": false,
+        "outcome_ready": false
+      },
+      "package_file": "data/historical-replay/m355381/investigation-packages/sg-m355381-1-1-2020-jan-investigation-package-v0.1.json"
+    },
+    {
+      "investigation_package_version": "historical-investigation-package-v0.1",
+      "generated_at": "2026-06-03T11:48:34.260Z",
+      "case_id": "SG-M355381-1_1_1-2020-jan",
+      "sandbox_only": true,
+      "production_mutation_allowed": false,
+      "source_candidate_file": "data/historical-replay/m355381/historical-case-candidates-v0.1.json",
+      "case_summary": {
+        "period": "2020 Jan",
+        "series_no": "1.1.1",
+        "series_name": "Semiconductors",
+        "priority": "high",
+        "direction": "decrease",
+        "latest_value": 75.108,
+        "month_on_month_change_pct": 29.17583929554211,
+        "year_on_year_change_pct": -6.414473684210521
+      },
+      "search_queries": {
+        "official_queries": [
+          "Singapore Semiconductors manufacturing output 2020 Jan",
+          "Singapore Monthly Manufacturing Performance 2020 Jan",
+          "Singapore EDB Semiconductors output 2020 Jan",
+          "Singapore industrial production Semiconductors 2020 Jan"
+        ],
+        "industry_queries": [
+          "Semiconductors decline fall contraction 2020 Singapore",
+          "Semiconductors manufacturing decline fall contraction 2020",
+          "Semiconductors output driver 2020"
+        ],
+        "context_queries": [
+          "Singapore manufacturing 2020 COVID supply chain semiconductor petroleum biomedical",
+          "global Semiconductors demand 2020",
+          "Semiconductors market cycle 2020"
+        ]
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "HYP_MARKET_DEMAND",
+          "hypothesis": "The movement may reflect weaker global or regional demand.",
+          "attribution_bucket": "market_effect"
+        },
+        {
+          "hypothesis_id": "HYP_INVENTORY_CYCLE",
+          "hypothesis": "The movement may reflect inventory correction, stockpiling, or restocking.",
+          "attribution_bucket": "portfolio_effect"
+        },
+        {
+          "hypothesis_id": "HYP_OPERATIONAL",
+          "hypothesis": "The movement may reflect operational disruption, plant maintenance, shutdowns, production ramp-up, or capacity changes.",
+          "attribution_bucket": "operational_effect"
+        },
+        {
+          "hypothesis_id": "HYP_POLICY",
+          "hypothesis": "The movement may reflect policy, regulatory, trade, tax, or incentive changes.",
+          "attribution_bucket": "policy_effect"
+        },
+        {
+          "hypothesis_id": "HYP_UNKNOWN",
+          "hypothesis": "The movement is statistically significant but currently lacks sufficient explanatory evidence.",
+          "attribution_bucket": "unknown_effect"
+        }
+      ],
+      "driver_candidates": [
+        {
+          "driver_id": "MKT_010",
+          "driver_name": "Demand Shock / External Downturn",
+          "applies_when": "Output falls sharply due to broad demand shock, recession, pandemic disruption, or external downturn."
+        },
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "applies_when": "Electronics output changes due to semiconductor demand, chip shortages, data-center demand, consumer electronics demand, or inventory cycle."
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "applies_when": "Output rises due to stronger global or regional end-demand."
+        },
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "applies_when": "Output rises or falls due to inventory correction, stockpiling, or restocking."
+        },
+        {
+          "driver_id": "MKT_003",
+          "driver_name": "Export Demand Weakness",
+          "applies_when": "Output falls due to weak external demand or export-market slowdown."
+        },
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "applies_when": "Output rises due to new capacity, plant ramp-up, or production expansion."
+        },
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "applies_when": "Output falls due to maintenance, shutdowns, supply constraints, plant disruptions, or COVID restrictions."
+        },
+        {
+          "driver_id": "MKT_006",
+          "driver_name": "Policy / Regulatory Impact",
+          "applies_when": "Output changes due to regulation, tax, trade restrictions, incentives, or government policy."
+        }
+      ],
+      "investigation_status": {
+        "evidence_collected": false,
+        "attribution_scored": false,
+        "outcome_ready": false
+      },
+      "package_file": "data/historical-replay/m355381/investigation-packages/sg-m355381-1-1-1-2020-jan-investigation-package-v0.1.json"
+    },
+    {
+      "investigation_package_version": "historical-investigation-package-v0.1",
+      "generated_at": "2026-06-03T11:48:34.261Z",
+      "case_id": "SG-M355381-1_1_3-2020-jan",
+      "sandbox_only": true,
+      "production_mutation_allowed": false,
+      "source_candidate_file": "data/historical-replay/m355381/historical-case-candidates-v0.1.json",
+      "case_summary": {
+        "period": "2020 Jan",
+        "series_no": "1.1.3",
+        "series_name": "Infocomms & Consumer Electronics",
+        "priority": "critical",
+        "direction": "increase",
+        "latest_value": 46.764,
+        "month_on_month_change_pct": -35.26129992385962,
+        "year_on_year_change_pct": 16.14633782877581
+      },
+      "search_queries": {
+        "official_queries": [
+          "Singapore Infocomms & Consumer Electronics manufacturing output 2020 Jan",
+          "Singapore Monthly Manufacturing Performance 2020 Jan",
+          "Singapore EDB Infocomms & Consumer Electronics output 2020 Jan",
+          "Singapore industrial production Infocomms & Consumer Electronics 2020 Jan"
+        ],
+        "industry_queries": [
+          "Infocomms & Consumer Electronics increase growth surge 2020 Singapore",
+          "Infocomms & Consumer Electronics manufacturing increase growth surge 2020",
+          "Infocomms & Consumer Electronics output driver 2020"
+        ],
+        "context_queries": [
+          "Singapore manufacturing 2020 COVID supply chain semiconductor petroleum biomedical",
+          "global Infocomms & Consumer Electronics demand 2020",
+          "Infocomms & Consumer Electronics market cycle 2020"
+        ]
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "HYP_MARKET_DEMAND",
+          "hypothesis": "The movement may reflect stronger global or regional demand.",
+          "attribution_bucket": "market_effect"
+        },
+        {
+          "hypothesis_id": "HYP_INVENTORY_CYCLE",
+          "hypothesis": "The movement may reflect inventory correction, stockpiling, or restocking.",
+          "attribution_bucket": "portfolio_effect"
+        },
+        {
+          "hypothesis_id": "HYP_OPERATIONAL",
+          "hypothesis": "The movement may reflect operational disruption, plant maintenance, shutdowns, production ramp-up, or capacity changes.",
+          "attribution_bucket": "operational_effect"
+        },
+        {
+          "hypothesis_id": "HYP_POLICY",
+          "hypothesis": "The movement may reflect policy, regulatory, trade, tax, or incentive changes.",
+          "attribution_bucket": "policy_effect"
+        },
+        {
+          "hypothesis_id": "HYP_UNKNOWN",
+          "hypothesis": "The movement is statistically significant but currently lacks sufficient explanatory evidence.",
+          "attribution_bucket": "unknown_effect"
+        }
+      ],
+      "driver_candidates": [
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "applies_when": "Electronics output changes due to semiconductor demand, chip shortages, data-center demand, consumer electronics demand, or inventory cycle."
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "applies_when": "Output rises due to stronger global or regional end-demand."
+        },
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "applies_when": "Output rises or falls due to inventory correction, stockpiling, or restocking."
+        },
+        {
+          "driver_id": "MKT_003",
+          "driver_name": "Export Demand Weakness",
+          "applies_when": "Output falls due to weak external demand or export-market slowdown."
+        },
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "applies_when": "Output rises due to new capacity, plant ramp-up, or production expansion."
+        },
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "applies_when": "Output falls due to maintenance, shutdowns, supply constraints, plant disruptions, or COVID restrictions."
+        },
+        {
+          "driver_id": "MKT_006",
+          "driver_name": "Policy / Regulatory Impact",
+          "applies_when": "Output changes due to regulation, tax, trade restrictions, incentives, or government policy."
+        }
+      ],
+      "investigation_status": {
+        "evidence_collected": false,
+        "attribution_scored": false,
+        "outcome_ready": false
+      },
+      "package_file": "data/historical-replay/m355381/investigation-packages/sg-m355381-1-1-3-2020-jan-investigation-package-v0.1.json"
+    },
+    {
+      "investigation_package_version": "historical-investigation-package-v0.1",
+      "generated_at": "2026-06-03T11:48:34.261Z",
+      "case_id": "SG-M355381-1_1_4-2020-jan",
+      "sandbox_only": true,
+      "production_mutation_allowed": false,
+      "source_candidate_file": "data/historical-replay/m355381/historical-case-candidates-v0.1.json",
+      "case_summary": {
+        "period": "2020 Jan",
+        "series_no": "1.1.4",
+        "series_name": "Other Electronic Modules & Components",
+        "priority": "high",
+        "direction": "decrease",
+        "latest_value": 75.183,
+        "month_on_month_change_pct": -25.990786131947306,
+        "year_on_year_change_pct": -6.043564653394816
+      },
+      "search_queries": {
+        "official_queries": [
+          "Singapore Other Electronic Modules & Components manufacturing output 2020 Jan",
+          "Singapore Monthly Manufacturing Performance 2020 Jan",
+          "Singapore EDB Other Electronic Modules & Components output 2020 Jan",
+          "Singapore industrial production Other Electronic Modules & Components 2020 Jan"
+        ],
+        "industry_queries": [
+          "Other Electronic Modules & Components decline fall contraction 2020 Singapore",
+          "Other Electronic Modules & Components manufacturing decline fall contraction 2020",
+          "Other Electronic Modules & Components output driver 2020"
+        ],
+        "context_queries": [
+          "Singapore manufacturing 2020 COVID supply chain semiconductor petroleum biomedical",
+          "global Other Electronic Modules & Components demand 2020",
+          "Other Electronic Modules & Components market cycle 2020"
+        ]
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "HYP_MARKET_DEMAND",
+          "hypothesis": "The movement may reflect weaker global or regional demand.",
+          "attribution_bucket": "market_effect"
+        },
+        {
+          "hypothesis_id": "HYP_INVENTORY_CYCLE",
+          "hypothesis": "The movement may reflect inventory correction, stockpiling, or restocking.",
+          "attribution_bucket": "portfolio_effect"
+        },
+        {
+          "hypothesis_id": "HYP_OPERATIONAL",
+          "hypothesis": "The movement may reflect operational disruption, plant maintenance, shutdowns, production ramp-up, or capacity changes.",
+          "attribution_bucket": "operational_effect"
+        },
+        {
+          "hypothesis_id": "HYP_POLICY",
+          "hypothesis": "The movement may reflect policy, regulatory, trade, tax, or incentive changes.",
+          "attribution_bucket": "policy_effect"
+        },
+        {
+          "hypothesis_id": "HYP_UNKNOWN",
+          "hypothesis": "The movement is statistically significant but currently lacks sufficient explanatory evidence.",
+          "attribution_bucket": "unknown_effect"
+        }
+      ],
+      "driver_candidates": [
+        {
+          "driver_id": "MKT_010",
+          "driver_name": "Demand Shock / External Downturn",
+          "applies_when": "Output falls sharply due to broad demand shock, recession, pandemic disruption, or external downturn."
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "applies_when": "Output rises due to stronger global or regional end-demand."
+        },
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "applies_when": "Output rises or falls due to inventory correction, stockpiling, or restocking."
+        },
+        {
+          "driver_id": "MKT_003",
+          "driver_name": "Export Demand Weakness",
+          "applies_when": "Output falls due to weak external demand or export-market slowdown."
+        },
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "applies_when": "Output rises due to new capacity, plant ramp-up, or production expansion."
+        },
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "applies_when": "Output falls due to maintenance, shutdowns, supply constraints, plant disruptions, or COVID restrictions."
+        },
+        {
+          "driver_id": "MKT_006",
+          "driver_name": "Policy / Regulatory Impact",
+          "applies_when": "Output changes due to regulation, tax, trade restrictions, incentives, or government policy."
+        }
+      ],
+      "investigation_status": {
+        "evidence_collected": false,
+        "attribution_scored": false,
+        "outcome_ready": false
+      },
+      "package_file": "data/historical-replay/m355381/investigation-packages/sg-m355381-1-1-4-2020-jan-investigation-package-v0.1.json"
+    },
+    {
+      "investigation_package_version": "historical-investigation-package-v0.1",
+      "generated_at": "2026-06-03T11:48:34.261Z",
+      "case_id": "SG-M355381-1_1-2020-jul",
+      "sandbox_only": true,
+      "production_mutation_allowed": false,
+      "source_candidate_file": "data/historical-replay/m355381/historical-case-candidates-v0.1.json",
+      "case_summary": {
+        "period": "2020 Jul",
+        "series_no": "1.1",
+        "series_name": "Electronics Cluster",
+        "priority": "high",
+        "direction": "increase",
+        "latest_value": 81.699,
+        "month_on_month_change_pct": 25.989266878450472,
+        "year_on_year_change_pct": 0.7572300672134235
+      },
+      "search_queries": {
+        "official_queries": [
+          "Singapore Electronics Cluster manufacturing output 2020 Jul",
+          "Singapore Monthly Manufacturing Performance 2020 Jul",
+          "Singapore EDB Electronics Cluster output 2020 Jul",
+          "Singapore industrial production Electronics Cluster 2020 Jul"
+        ],
+        "industry_queries": [
+          "Electronics Cluster increase growth surge 2020 Singapore",
+          "Electronics Cluster manufacturing increase growth surge 2020",
+          "Electronics Cluster output driver 2020"
+        ],
+        "context_queries": [
+          "Singapore manufacturing 2020 COVID supply chain semiconductor petroleum biomedical",
+          "global Electronics Cluster demand 2020",
+          "Electronics Cluster market cycle 2020"
+        ]
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "HYP_MARKET_DEMAND",
+          "hypothesis": "The movement may reflect stronger global or regional demand.",
+          "attribution_bucket": "market_effect"
+        },
+        {
+          "hypothesis_id": "HYP_INVENTORY_CYCLE",
+          "hypothesis": "The movement may reflect inventory correction, stockpiling, or restocking.",
+          "attribution_bucket": "portfolio_effect"
+        },
+        {
+          "hypothesis_id": "HYP_OPERATIONAL",
+          "hypothesis": "The movement may reflect operational disruption, plant maintenance, shutdowns, production ramp-up, or capacity changes.",
+          "attribution_bucket": "operational_effect"
+        },
+        {
+          "hypothesis_id": "HYP_POLICY",
+          "hypothesis": "The movement may reflect policy, regulatory, trade, tax, or incentive changes.",
+          "attribution_bucket": "policy_effect"
+        },
+        {
+          "hypothesis_id": "HYP_UNKNOWN",
+          "hypothesis": "The movement is statistically significant but currently lacks sufficient explanatory evidence.",
+          "attribution_bucket": "unknown_effect"
+        }
+      ],
+      "driver_candidates": [
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "applies_when": "Electronics output changes due to semiconductor demand, chip shortages, data-center demand, consumer electronics demand, or inventory cycle."
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "applies_when": "Output rises due to stronger global or regional end-demand."
+        },
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "applies_when": "Output rises or falls due to inventory correction, stockpiling, or restocking."
+        },
+        {
+          "driver_id": "MKT_003",
+          "driver_name": "Export Demand Weakness",
+          "applies_when": "Output falls due to weak external demand or export-market slowdown."
+        },
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "applies_when": "Output rises due to new capacity, plant ramp-up, or production expansion."
+        },
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "applies_when": "Output falls due to maintenance, shutdowns, supply constraints, plant disruptions, or COVID restrictions."
+        },
+        {
+          "driver_id": "MKT_006",
+          "driver_name": "Policy / Regulatory Impact",
+          "applies_when": "Output changes due to regulation, tax, trade restrictions, incentives, or government policy."
+        }
+      ],
+      "investigation_status": {
+        "evidence_collected": false,
+        "attribution_scored": false,
+        "outcome_ready": false
+      },
+      "package_file": "data/historical-replay/m355381/investigation-packages/sg-m355381-1-1-2020-jul-investigation-package-v0.1.json"
+    },
+    {
+      "investigation_package_version": "historical-investigation-package-v0.1",
+      "generated_at": "2026-06-03T11:48:34.261Z",
+      "case_id": "SG-M355381-1_1_1-2020-jul",
+      "sandbox_only": true,
+      "production_mutation_allowed": false,
+      "source_candidate_file": "data/historical-replay/m355381/historical-case-candidates-v0.1.json",
+      "case_summary": {
+        "period": "2020 Jul",
+        "series_no": "1.1.1",
+        "series_name": "Semiconductors",
+        "priority": "critical",
+        "direction": "increase",
+        "latest_value": 87.261,
+        "month_on_month_change_pct": 33.504176738777886,
+        "year_on_year_change_pct": 1.9344664447170046
+      },
+      "search_queries": {
+        "official_queries": [
+          "Singapore Semiconductors manufacturing output 2020 Jul",
+          "Singapore Monthly Manufacturing Performance 2020 Jul",
+          "Singapore EDB Semiconductors output 2020 Jul",
+          "Singapore industrial production Semiconductors 2020 Jul"
+        ],
+        "industry_queries": [
+          "Semiconductors increase growth surge 2020 Singapore",
+          "Semiconductors manufacturing increase growth surge 2020",
+          "Semiconductors output driver 2020"
+        ],
+        "context_queries": [
+          "Singapore manufacturing 2020 COVID supply chain semiconductor petroleum biomedical",
+          "global Semiconductors demand 2020",
+          "Semiconductors market cycle 2020"
+        ]
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "HYP_MARKET_DEMAND",
+          "hypothesis": "The movement may reflect stronger global or regional demand.",
+          "attribution_bucket": "market_effect"
+        },
+        {
+          "hypothesis_id": "HYP_INVENTORY_CYCLE",
+          "hypothesis": "The movement may reflect inventory correction, stockpiling, or restocking.",
+          "attribution_bucket": "portfolio_effect"
+        },
+        {
+          "hypothesis_id": "HYP_OPERATIONAL",
+          "hypothesis": "The movement may reflect operational disruption, plant maintenance, shutdowns, production ramp-up, or capacity changes.",
+          "attribution_bucket": "operational_effect"
+        },
+        {
+          "hypothesis_id": "HYP_POLICY",
+          "hypothesis": "The movement may reflect policy, regulatory, trade, tax, or incentive changes.",
+          "attribution_bucket": "policy_effect"
+        },
+        {
+          "hypothesis_id": "HYP_UNKNOWN",
+          "hypothesis": "The movement is statistically significant but currently lacks sufficient explanatory evidence.",
+          "attribution_bucket": "unknown_effect"
+        }
+      ],
+      "driver_candidates": [
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "applies_when": "Electronics output changes due to semiconductor demand, chip shortages, data-center demand, consumer electronics demand, or inventory cycle."
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "applies_when": "Output rises due to stronger global or regional end-demand."
+        },
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "applies_when": "Output rises or falls due to inventory correction, stockpiling, or restocking."
+        },
+        {
+          "driver_id": "MKT_003",
+          "driver_name": "Export Demand Weakness",
+          "applies_when": "Output falls due to weak external demand or export-market slowdown."
+        },
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "applies_when": "Output rises due to new capacity, plant ramp-up, or production expansion."
+        },
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "applies_when": "Output falls due to maintenance, shutdowns, supply constraints, plant disruptions, or COVID restrictions."
+        },
+        {
+          "driver_id": "MKT_006",
+          "driver_name": "Policy / Regulatory Impact",
+          "applies_when": "Output changes due to regulation, tax, trade restrictions, incentives, or government policy."
+        }
+      ],
+      "investigation_status": {
+        "evidence_collected": false,
+        "attribution_scored": false,
+        "outcome_ready": false
+      },
+      "package_file": "data/historical-replay/m355381/investigation-packages/sg-m355381-1-1-1-2020-jul-investigation-package-v0.1.json"
+    },
+    {
+      "investigation_package_version": "historical-investigation-package-v0.1",
+      "generated_at": "2026-06-03T11:48:34.261Z",
+      "case_id": "SG-M355381-1_1_3-2020-jul",
+      "sandbox_only": true,
+      "production_mutation_allowed": false,
+      "source_candidate_file": "data/historical-replay/m355381/historical-case-candidates-v0.1.json",
+      "case_summary": {
+        "period": "2020 Jul",
+        "series_no": "1.1.3",
+        "series_name": "Infocomms & Consumer Electronics",
+        "priority": "critical",
+        "direction": "decrease",
+        "latest_value": 40.692,
+        "month_on_month_change_pct": -40.9816093287695,
+        "year_on_year_change_pct": -16.98390354366853
+      },
+      "search_queries": {
+        "official_queries": [
+          "Singapore Infocomms & Consumer Electronics manufacturing output 2020 Jul",
+          "Singapore Monthly Manufacturing Performance 2020 Jul",
+          "Singapore EDB Infocomms & Consumer Electronics output 2020 Jul",
+          "Singapore industrial production Infocomms & Consumer Electronics 2020 Jul"
+        ],
+        "industry_queries": [
+          "Infocomms & Consumer Electronics decline fall contraction 2020 Singapore",
+          "Infocomms & Consumer Electronics manufacturing decline fall contraction 2020",
+          "Infocomms & Consumer Electronics output driver 2020"
+        ],
+        "context_queries": [
+          "Singapore manufacturing 2020 COVID supply chain semiconductor petroleum biomedical",
+          "global Infocomms & Consumer Electronics demand 2020",
+          "Infocomms & Consumer Electronics market cycle 2020"
+        ]
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "HYP_MARKET_DEMAND",
+          "hypothesis": "The movement may reflect weaker global or regional demand.",
+          "attribution_bucket": "market_effect"
+        },
+        {
+          "hypothesis_id": "HYP_INVENTORY_CYCLE",
+          "hypothesis": "The movement may reflect inventory correction, stockpiling, or restocking.",
+          "attribution_bucket": "portfolio_effect"
+        },
+        {
+          "hypothesis_id": "HYP_OPERATIONAL",
+          "hypothesis": "The movement may reflect operational disruption, plant maintenance, shutdowns, production ramp-up, or capacity changes.",
+          "attribution_bucket": "operational_effect"
+        },
+        {
+          "hypothesis_id": "HYP_POLICY",
+          "hypothesis": "The movement may reflect policy, regulatory, trade, tax, or incentive changes.",
+          "attribution_bucket": "policy_effect"
+        },
+        {
+          "hypothesis_id": "HYP_UNKNOWN",
+          "hypothesis": "The movement is statistically significant but currently lacks sufficient explanatory evidence.",
+          "attribution_bucket": "unknown_effect"
+        }
+      ],
+      "driver_candidates": [
+        {
+          "driver_id": "MKT_010",
+          "driver_name": "Demand Shock / External Downturn",
+          "applies_when": "Output falls sharply due to broad demand shock, recession, pandemic disruption, or external downturn."
+        },
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "applies_when": "Electronics output changes due to semiconductor demand, chip shortages, data-center demand, consumer electronics demand, or inventory cycle."
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "applies_when": "Output rises due to stronger global or regional end-demand."
+        },
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "applies_when": "Output rises or falls due to inventory correction, stockpiling, or restocking."
+        },
+        {
+          "driver_id": "MKT_003",
+          "driver_name": "Export Demand Weakness",
+          "applies_when": "Output falls due to weak external demand or export-market slowdown."
+        },
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "applies_when": "Output rises due to new capacity, plant ramp-up, or production expansion."
+        },
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "applies_when": "Output falls due to maintenance, shutdowns, supply constraints, plant disruptions, or COVID restrictions."
+        },
+        {
+          "driver_id": "MKT_006",
+          "driver_name": "Policy / Regulatory Impact",
+          "applies_when": "Output changes due to regulation, tax, trade restrictions, incentives, or government policy."
+        }
+      ],
+      "investigation_status": {
+        "evidence_collected": false,
+        "attribution_scored": false,
+        "outcome_ready": false
+      },
+      "package_file": "data/historical-replay/m355381/investigation-packages/sg-m355381-1-1-3-2020-jul-investigation-package-v0.1.json"
+    },
+    {
+      "investigation_package_version": "historical-investigation-package-v0.1",
+      "generated_at": "2026-06-03T11:48:34.261Z",
+      "case_id": "SG-M355381-1_2_3-2020-jul",
+      "sandbox_only": true,
+      "production_mutation_allowed": false,
+      "source_candidate_file": "data/historical-replay/m355381/historical-case-candidates-v0.1.json",
+      "case_summary": {
+        "period": "2020 Jul",
+        "series_no": "1.2.3",
+        "series_name": "Specialties",
+        "priority": "high",
+        "direction": "decrease",
+        "latest_value": 81.179,
+        "month_on_month_change_pct": 21.906864290970265,
+        "year_on_year_change_pct": -16.000289729103283
+      },
+      "search_queries": {
+        "official_queries": [
+          "Singapore Specialties manufacturing output 2020 Jul",
+          "Singapore Monthly Manufacturing Performance 2020 Jul",
+          "Singapore EDB Specialties output 2020 Jul",
+          "Singapore industrial production Specialties 2020 Jul"
+        ],
+        "industry_queries": [
+          "Specialties decline fall contraction 2020 Singapore",
+          "Specialties manufacturing decline fall contraction 2020",
+          "Specialties output driver 2020"
+        ],
+        "context_queries": [
+          "Singapore manufacturing 2020 COVID supply chain semiconductor petroleum biomedical",
+          "global Specialties demand 2020",
+          "Specialties market cycle 2020"
+        ]
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "HYP_MARKET_DEMAND",
+          "hypothesis": "The movement may reflect weaker global or regional demand.",
+          "attribution_bucket": "market_effect"
+        },
+        {
+          "hypothesis_id": "HYP_INVENTORY_CYCLE",
+          "hypothesis": "The movement may reflect inventory correction, stockpiling, or restocking.",
+          "attribution_bucket": "portfolio_effect"
+        },
+        {
+          "hypothesis_id": "HYP_OPERATIONAL",
+          "hypothesis": "The movement may reflect operational disruption, plant maintenance, shutdowns, production ramp-up, or capacity changes.",
+          "attribution_bucket": "operational_effect"
+        },
+        {
+          "hypothesis_id": "HYP_POLICY",
+          "hypothesis": "The movement may reflect policy, regulatory, trade, tax, or incentive changes.",
+          "attribution_bucket": "policy_effect"
+        },
+        {
+          "hypothesis_id": "HYP_UNKNOWN",
+          "hypothesis": "The movement is statistically significant but currently lacks sufficient explanatory evidence.",
+          "attribution_bucket": "unknown_effect"
+        }
+      ],
+      "driver_candidates": [
+        {
+          "driver_id": "MKT_010",
+          "driver_name": "Demand Shock / External Downturn",
+          "applies_when": "Output falls sharply due to broad demand shock, recession, pandemic disruption, or external downturn."
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "applies_when": "Output rises due to stronger global or regional end-demand."
+        },
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "applies_when": "Output rises or falls due to inventory correction, stockpiling, or restocking."
+        },
+        {
+          "driver_id": "MKT_003",
+          "driver_name": "Export Demand Weakness",
+          "applies_when": "Output falls due to weak external demand or export-market slowdown."
+        },
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "applies_when": "Output rises due to new capacity, plant ramp-up, or production expansion."
+        },
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "applies_when": "Output falls due to maintenance, shutdowns, supply constraints, plant disruptions, or COVID restrictions."
+        },
+        {
+          "driver_id": "MKT_006",
+          "driver_name": "Policy / Regulatory Impact",
+          "applies_when": "Output changes due to regulation, tax, trade restrictions, incentives, or government policy."
+        }
+      ],
+      "investigation_status": {
+        "evidence_collected": false,
+        "attribution_scored": false,
+        "outcome_ready": false
+      },
+      "package_file": "data/historical-replay/m355381/investigation-packages/sg-m355381-1-2-3-2020-jul-investigation-package-v0.1.json"
+    },
+    {
+      "investigation_package_version": "historical-investigation-package-v0.1",
+      "generated_at": "2026-06-03T11:48:34.261Z",
+      "case_id": "SG-M355381-1_2_4-2020-jul",
+      "sandbox_only": true,
+      "production_mutation_allowed": false,
+      "source_candidate_file": "data/historical-replay/m355381/historical-case-candidates-v0.1.json",
+      "case_summary": {
+        "period": "2020 Jul",
+        "series_no": "1.2.4",
+        "series_name": "Other Chemical Products",
+        "priority": "high",
+        "direction": "decrease",
+        "latest_value": 105.892,
+        "month_on_month_change_pct": 27.393469839513003,
+        "year_on_year_change_pct": -15.215859595183195
+      },
+      "search_queries": {
+        "official_queries": [
+          "Singapore Other Chemical Products manufacturing output 2020 Jul",
+          "Singapore Monthly Manufacturing Performance 2020 Jul",
+          "Singapore EDB Other Chemical Products output 2020 Jul",
+          "Singapore industrial production Other Chemical Products 2020 Jul"
+        ],
+        "industry_queries": [
+          "Other Chemical Products decline fall contraction 2020 Singapore",
+          "Other Chemical Products manufacturing decline fall contraction 2020",
+          "Other Chemical Products output driver 2020"
+        ],
+        "context_queries": [
+          "Singapore manufacturing 2020 COVID supply chain semiconductor petroleum biomedical",
+          "global Other Chemical Products demand 2020",
+          "Other Chemical Products market cycle 2020"
+        ]
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "HYP_MARKET_DEMAND",
+          "hypothesis": "The movement may reflect weaker global or regional demand.",
+          "attribution_bucket": "market_effect"
+        },
+        {
+          "hypothesis_id": "HYP_INVENTORY_CYCLE",
+          "hypothesis": "The movement may reflect inventory correction, stockpiling, or restocking.",
+          "attribution_bucket": "portfolio_effect"
+        },
+        {
+          "hypothesis_id": "HYP_OPERATIONAL",
+          "hypothesis": "The movement may reflect operational disruption, plant maintenance, shutdowns, production ramp-up, or capacity changes.",
+          "attribution_bucket": "operational_effect"
+        },
+        {
+          "hypothesis_id": "HYP_POLICY",
+          "hypothesis": "The movement may reflect policy, regulatory, trade, tax, or incentive changes.",
+          "attribution_bucket": "policy_effect"
+        },
+        {
+          "hypothesis_id": "HYP_UNKNOWN",
+          "hypothesis": "The movement is statistically significant but currently lacks sufficient explanatory evidence.",
+          "attribution_bucket": "unknown_effect"
+        }
+      ],
+      "driver_candidates": [
+        {
+          "driver_id": "MKT_010",
+          "driver_name": "Demand Shock / External Downturn",
+          "applies_when": "Output falls sharply due to broad demand shock, recession, pandemic disruption, or external downturn."
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "applies_when": "Output rises due to stronger global or regional end-demand."
+        },
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "applies_when": "Output rises or falls due to inventory correction, stockpiling, or restocking."
+        },
+        {
+          "driver_id": "MKT_003",
+          "driver_name": "Export Demand Weakness",
+          "applies_when": "Output falls due to weak external demand or export-market slowdown."
+        },
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "applies_when": "Output rises due to new capacity, plant ramp-up, or production expansion."
+        },
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "applies_when": "Output falls due to maintenance, shutdowns, supply constraints, plant disruptions, or COVID restrictions."
+        },
+        {
+          "driver_id": "MKT_006",
+          "driver_name": "Policy / Regulatory Impact",
+          "applies_when": "Output changes due to regulation, tax, trade restrictions, incentives, or government policy."
+        }
+      ],
+      "investigation_status": {
+        "evidence_collected": false,
+        "attribution_scored": false,
+        "outcome_ready": false
+      },
+      "package_file": "data/historical-replay/m355381/investigation-packages/sg-m355381-1-2-4-2020-jul-investigation-package-v0.1.json"
+    },
+    {
+      "investigation_package_version": "historical-investigation-package-v0.1",
+      "generated_at": "2026-06-03T11:48:34.261Z",
+      "case_id": "SG-M355381-1_1_3-2020-jun",
+      "sandbox_only": true,
+      "production_mutation_allowed": false,
+      "source_candidate_file": "data/historical-replay/m355381/historical-case-candidates-v0.1.json",
+      "case_summary": {
+        "period": "2020 Jun",
+        "series_no": "1.1.3",
+        "series_name": "Infocomms & Consumer Electronics",
+        "priority": "critical",
+        "direction": "increase",
+        "latest_value": 68.948,
+        "month_on_month_change_pct": 65.8560053883717,
+        "year_on_year_change_pct": 10.80790061552801
+      },
+      "search_queries": {
+        "official_queries": [
+          "Singapore Infocomms & Consumer Electronics manufacturing output 2020 Jun",
+          "Singapore Monthly Manufacturing Performance 2020 Jun",
+          "Singapore EDB Infocomms & Consumer Electronics output 2020 Jun",
+          "Singapore industrial production Infocomms & Consumer Electronics 2020 Jun"
+        ],
+        "industry_queries": [
+          "Infocomms & Consumer Electronics increase growth surge 2020 Singapore",
+          "Infocomms & Consumer Electronics manufacturing increase growth surge 2020",
+          "Infocomms & Consumer Electronics output driver 2020"
+        ],
+        "context_queries": [
+          "Singapore manufacturing 2020 COVID supply chain semiconductor petroleum biomedical",
+          "global Infocomms & Consumer Electronics demand 2020",
+          "Infocomms & Consumer Electronics market cycle 2020"
+        ]
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "HYP_MARKET_DEMAND",
+          "hypothesis": "The movement may reflect stronger global or regional demand.",
+          "attribution_bucket": "market_effect"
+        },
+        {
+          "hypothesis_id": "HYP_INVENTORY_CYCLE",
+          "hypothesis": "The movement may reflect inventory correction, stockpiling, or restocking.",
+          "attribution_bucket": "portfolio_effect"
+        },
+        {
+          "hypothesis_id": "HYP_OPERATIONAL",
+          "hypothesis": "The movement may reflect operational disruption, plant maintenance, shutdowns, production ramp-up, or capacity changes.",
+          "attribution_bucket": "operational_effect"
+        },
+        {
+          "hypothesis_id": "HYP_POLICY",
+          "hypothesis": "The movement may reflect policy, regulatory, trade, tax, or incentive changes.",
+          "attribution_bucket": "policy_effect"
+        },
+        {
+          "hypothesis_id": "HYP_UNKNOWN",
+          "hypothesis": "The movement is statistically significant but currently lacks sufficient explanatory evidence.",
+          "attribution_bucket": "unknown_effect"
+        }
+      ],
+      "driver_candidates": [
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "applies_when": "Electronics output changes due to semiconductor demand, chip shortages, data-center demand, consumer electronics demand, or inventory cycle."
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "applies_when": "Output rises due to stronger global or regional end-demand."
+        },
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "applies_when": "Output rises or falls due to inventory correction, stockpiling, or restocking."
+        },
+        {
+          "driver_id": "MKT_003",
+          "driver_name": "Export Demand Weakness",
+          "applies_when": "Output falls due to weak external demand or export-market slowdown."
+        },
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "applies_when": "Output rises due to new capacity, plant ramp-up, or production expansion."
+        },
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "applies_when": "Output falls due to maintenance, shutdowns, supply constraints, plant disruptions, or COVID restrictions."
+        },
+        {
+          "driver_id": "MKT_006",
+          "driver_name": "Policy / Regulatory Impact",
+          "applies_when": "Output changes due to regulation, tax, trade restrictions, incentives, or government policy."
+        }
+      ],
+      "investigation_status": {
+        "evidence_collected": false,
+        "attribution_scored": false,
+        "outcome_ready": false
+      },
+      "package_file": "data/historical-replay/m355381/investigation-packages/sg-m355381-1-1-3-2020-jun-investigation-package-v0.1.json"
+    }
+  ]
+}

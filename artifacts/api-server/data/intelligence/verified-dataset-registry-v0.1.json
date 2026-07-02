@@ -1,0 +1,735 @@
+{
+  "registry_version": "verified-dataset-registry-v0.1",
+  "generated_at": "2026-06-14T09:39:30.619Z",
+  "purpose": "Registry of datasets required, loaded, verified, and available for intelligence articles and graph generation.",
+  "dataset_count": 14,
+  "datasets": [
+    {
+      "dataset_id": "SG_CHEMICALS_OUTPUT_INDEX",
+      "name": "Singapore chemicals and chemical products output",
+      "country": "Singapore",
+      "metric_type": "manufacturing_output_value",
+      "frequency": "annual",
+      "preferred_sources": [
+        "SingStat Table Builder"
+      ],
+      "verification_status": "verified",
+      "coverage_start": "2016",
+      "coverage_end": "2025",
+      "max_history_years_requested": 10,
+      "max_forecast_years_requested": 1,
+      "values_count": 10,
+      "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+      "local_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/raw-downloads/SG_CHEMICALS_OUTPUT_INDEX.csv",
+      "notes": "Loaded from SingStat Table Builder API table M354851. Series: Chemicals & Chemical Products.",
+      "used_by_candidates": [
+        "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles"
+      ],
+      "created_at": "2026-06-14T08:22:53.731Z",
+      "updated_at": "2026-06-14T09:39:15.341Z",
+      "raw_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/raw-downloads/SG_CHEMICALS_OUTPUT_INDEX.singstat.json",
+      "unit": "Million Dollars",
+      "values": [
+        {
+          "period": "2016",
+          "value": 39109.6
+        },
+        {
+          "period": "2017",
+          "value": 45481.7
+        },
+        {
+          "period": "2018",
+          "value": 51141.8
+        },
+        {
+          "period": "2019",
+          "value": 44938.3
+        },
+        {
+          "period": "2020",
+          "value": 38353.2
+        },
+        {
+          "period": "2021",
+          "value": 56048
+        },
+        {
+          "period": "2022",
+          "value": 60538.7
+        },
+        {
+          "period": "2023",
+          "value": 47775.1
+        },
+        {
+          "period": "2024",
+          "value": 49406.1
+        },
+        {
+          "period": "2025",
+          "value": 46718.4
+        }
+      ],
+      "source_metadata": {
+        "table_id": "M354851",
+        "table_title": "Manufacturing Output In Manufacturing By Industry, Annual",
+        "row_text": "Chemicals & Chemical Products",
+        "datasource": "ECONOMIC DEVELOPMENT BOARD",
+        "data_last_updated": "11/05/2026",
+        "date_generated": "14/06/2026",
+        "footnote": "From 2002, figures include establishments with less than 10 workers.  Prior to 2002, figures refer to establishments engaging 10 or more workers.  Data include all manufacturing establishments.  The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2025.  Valuation of output has been changed to basic price.  Historical data on manufacturing output has been revised accordingly from 1980.  Year 2025 data are preliminary estimates."
+      },
+      "reviewed_at": "2026-06-14T09:39:15.341Z"
+    },
+    {
+      "dataset_id": "SG_ELECTRONICS_OUTPUT_INDEX",
+      "name": "Singapore electronics output index",
+      "country": "Singapore",
+      "metric_type": "output_index",
+      "frequency": "monthly_or_quarterly",
+      "preferred_sources": [
+        "EDB",
+        "SingStat"
+      ],
+      "verification_status": "requested_not_loaded",
+      "coverage_start": null,
+      "coverage_end": null,
+      "max_history_years_requested": 10,
+      "max_forecast_years_requested": 1,
+      "values_count": 0,
+      "source_url": null,
+      "local_file": null,
+      "notes": "Dataset requested by surgical intake. Values not loaded yet.",
+      "used_by_candidates": [
+        "ART-how-semiconductor-cycles-shape-singapore-s-manufacturing-advantage"
+      ],
+      "created_at": "2026-06-14T08:22:53.731Z",
+      "updated_at": "2026-06-14T08:22:53.731Z"
+    },
+    {
+      "dataset_id": "SG_HOW_CHEMICALS_AND_PETROCHEMICALS_REFLECT_SINGAPORE_S_INDUSTRIAL_CYCLE_PRIMARY_SERIES",
+      "name": "Primary time series for How Chemicals and Petrochemicals Reflect Singapore's Industrial Cycle",
+      "country": "Singapore",
+      "metric_type": "unknown",
+      "frequency": "monthly_or_quarterly",
+      "preferred_sources": [
+        "EDB",
+        "SingStat"
+      ],
+      "verification_status": "requested_not_loaded",
+      "coverage_start": null,
+      "coverage_end": null,
+      "max_history_years_requested": 10,
+      "max_forecast_years_requested": 1,
+      "values_count": 0,
+      "source_url": null,
+      "local_file": null,
+      "notes": "Dataset requested by surgical intake. Values not loaded yet.",
+      "used_by_candidates": [
+        "ART-how-chemicals-and-petrochemicals-reflect-singapore-s-industrial-cycle"
+      ],
+      "created_at": "2026-06-14T08:22:53.731Z",
+      "updated_at": "2026-06-14T08:22:53.731Z"
+    },
+    {
+      "dataset_id": "SG_HOW_GLOBAL_DEMAND_SHOCKS_MOVE_THROUGH_SINGAPORE_S_INDUSTRIAL_BASE_PRIMARY_SERIES",
+      "name": "Primary time series for How Global Demand Shocks Move Through Singapore's Industrial Base",
+      "country": "Singapore",
+      "metric_type": "unknown",
+      "frequency": "monthly_or_quarterly",
+      "preferred_sources": [
+        "EDB",
+        "SingStat"
+      ],
+      "verification_status": "requested_not_loaded",
+      "coverage_start": null,
+      "coverage_end": null,
+      "max_history_years_requested": 10,
+      "max_forecast_years_requested": 1,
+      "values_count": 0,
+      "source_url": null,
+      "local_file": null,
+      "notes": "Dataset requested by surgical intake. Values not loaded yet.",
+      "used_by_candidates": [
+        "ART-how-global-demand-shocks-move-through-singapore-s-industrial-base"
+      ],
+      "created_at": "2026-06-14T08:22:53.731Z",
+      "updated_at": "2026-06-14T08:22:53.731Z"
+    },
+    {
+      "dataset_id": "SG_PETROLEUM_OUTPUT_INDEX",
+      "name": "Singapore refined petroleum products output",
+      "country": "Singapore",
+      "metric_type": "manufacturing_output_value",
+      "frequency": "annual",
+      "preferred_sources": [
+        "SingStat Table Builder"
+      ],
+      "verification_status": "verified",
+      "coverage_start": "2016",
+      "coverage_end": "2025",
+      "max_history_years_requested": null,
+      "max_forecast_years_requested": null,
+      "values_count": 10,
+      "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+      "local_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/raw-downloads/SG_PETROLEUM_OUTPUT_INDEX.csv",
+      "notes": "Loaded from SingStat Table Builder API table M354851. Series: Refined Petroleum Products.",
+      "used_by_candidates": [
+        "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles"
+      ],
+      "created_at": "2026-06-14T08:22:53.731Z",
+      "updated_at": "2026-06-14T09:39:10.914Z",
+      "unit": "Million Dollars",
+      "values": [
+        {
+          "period": "2016",
+          "value": 26793.8
+        },
+        {
+          "period": "2017",
+          "value": 35725.1
+        },
+        {
+          "period": "2018",
+          "value": 43705.1
+        },
+        {
+          "period": "2019",
+          "value": 38202.9
+        },
+        {
+          "period": "2020",
+          "value": 21753
+        },
+        {
+          "period": "2021",
+          "value": 34873.8
+        },
+        {
+          "period": "2022",
+          "value": 52611.9
+        },
+        {
+          "period": "2023",
+          "value": 42690.9
+        },
+        {
+          "period": "2024",
+          "value": 42144.2
+        },
+        {
+          "period": "2025",
+          "value": 38344
+        }
+      ],
+      "reviewed_at": "2026-06-14T09:39:10.914Z",
+      "raw_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/raw-downloads/SG_PETROLEUM_OUTPUT_INDEX.singstat.json",
+      "source_metadata": {
+        "table_id": "M354851",
+        "table_title": "Manufacturing Output In Manufacturing By Industry, Annual",
+        "row_text": "Refined Petroleum Products",
+        "datasource": "ECONOMIC DEVELOPMENT BOARD",
+        "data_last_updated": "11/05/2026",
+        "date_generated": "14/06/2026",
+        "footnote": "From 2002, figures include establishments with less than 10 workers.  Prior to 2002, figures refer to establishments engaging 10 or more workers.  Data include all manufacturing establishments.  The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2025.  Valuation of output has been changed to basic price.  Historical data on manufacturing output has been revised accordingly from 1980.  Year 2025 data are preliminary estimates."
+      }
+    },
+    {
+      "dataset_id": "SG_PRECISION_ENGINEERING_OUTPUT_INDEX",
+      "name": "Singapore machinery and equipment output",
+      "country": "Singapore",
+      "metric_type": "manufacturing_output_value",
+      "frequency": "annual",
+      "preferred_sources": [
+        "SingStat Table Builder"
+      ],
+      "verification_status": "verified",
+      "coverage_start": "2016",
+      "coverage_end": "2025",
+      "max_history_years_requested": 10,
+      "max_forecast_years_requested": 1,
+      "values_count": 10,
+      "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+      "local_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/raw-downloads/SG_PRECISION_ENGINEERING_OUTPUT_INDEX.csv",
+      "notes": "Loaded from SingStat Table Builder API table M354851. Series: Machinery & Equipment.",
+      "used_by_candidates": [
+        "ART-what-precision-engineering-reveals-about-singapore-s-capital-equipment-cycle"
+      ],
+      "created_at": "2026-06-14T08:22:53.731Z",
+      "updated_at": "2026-06-14T09:39:26.918Z",
+      "raw_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/raw-downloads/SG_PRECISION_ENGINEERING_OUTPUT_INDEX.singstat.json",
+      "unit": "Million Dollars",
+      "values": [
+        {
+          "period": "2016",
+          "value": 22454.4
+        },
+        {
+          "period": "2017",
+          "value": 26117.5
+        },
+        {
+          "period": "2018",
+          "value": 30780.7
+        },
+        {
+          "period": "2019",
+          "value": 27281.8
+        },
+        {
+          "period": "2020",
+          "value": 26858.4
+        },
+        {
+          "period": "2021",
+          "value": 34906.5
+        },
+        {
+          "period": "2022",
+          "value": 40995.6
+        },
+        {
+          "period": "2023",
+          "value": 39495.4
+        },
+        {
+          "period": "2024",
+          "value": 42285.2
+        },
+        {
+          "period": "2025",
+          "value": 48081
+        }
+      ],
+      "source_metadata": {
+        "table_id": "M354851",
+        "table_title": "Manufacturing Output In Manufacturing By Industry, Annual",
+        "row_text": "Machinery & Equipment",
+        "datasource": "ECONOMIC DEVELOPMENT BOARD",
+        "data_last_updated": "11/05/2026",
+        "date_generated": "14/06/2026",
+        "footnote": "From 2002, figures include establishments with less than 10 workers.  Prior to 2002, figures refer to establishments engaging 10 or more workers.  Data include all manufacturing establishments.  The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2025.  Valuation of output has been changed to basic price.  Historical data on manufacturing output has been revised accordingly from 1980.  Year 2025 data are preliminary estimates."
+      },
+      "reviewed_at": "2026-06-14T09:39:26.917Z"
+    },
+    {
+      "dataset_id": "SG_SEMICONDUCTOR_OUTPUT_INDEX",
+      "name": "Singapore computer, electronic and optical products output",
+      "country": "Singapore",
+      "metric_type": "manufacturing_output_value",
+      "frequency": "annual",
+      "preferred_sources": [
+        "SingStat Table Builder"
+      ],
+      "verification_status": "verified",
+      "coverage_start": "2016",
+      "coverage_end": "2025",
+      "max_history_years_requested": 10,
+      "max_forecast_years_requested": 1,
+      "values_count": 10,
+      "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+      "local_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/raw-downloads/SG_SEMICONDUCTOR_OUTPUT_INDEX.csv",
+      "notes": "Loaded from SingStat Table Builder API table M354851. Series: Computer, Electronic & Optical Products.",
+      "used_by_candidates": [
+        "ART-how-semiconductor-cycles-shape-singapore-s-manufacturing-advantage"
+      ],
+      "created_at": "2026-06-14T08:22:53.731Z",
+      "updated_at": "2026-06-14T09:39:23.066Z",
+      "raw_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/raw-downloads/SG_SEMICONDUCTOR_OUTPUT_INDEX.singstat.json",
+      "unit": "Million Dollars",
+      "values": [
+        {
+          "period": "2016",
+          "value": 96336.5
+        },
+        {
+          "period": "2017",
+          "value": 123729.5
+        },
+        {
+          "period": "2018",
+          "value": 139570.9
+        },
+        {
+          "period": "2019",
+          "value": 136272.3
+        },
+        {
+          "period": "2020",
+          "value": 139041.1
+        },
+        {
+          "period": "2021",
+          "value": 171833.8
+        },
+        {
+          "period": "2022",
+          "value": 198169.6
+        },
+        {
+          "period": "2023",
+          "value": 174171.2
+        },
+        {
+          "period": "2024",
+          "value": 186993.6
+        },
+        {
+          "period": "2025",
+          "value": 220845.7
+        }
+      ],
+      "source_metadata": {
+        "table_id": "M354851",
+        "table_title": "Manufacturing Output In Manufacturing By Industry, Annual",
+        "row_text": "Computer, Electronic & Optical Products",
+        "datasource": "ECONOMIC DEVELOPMENT BOARD",
+        "data_last_updated": "11/05/2026",
+        "date_generated": "14/06/2026",
+        "footnote": "From 2002, figures include establishments with less than 10 workers.  Prior to 2002, figures refer to establishments engaging 10 or more workers.  Data include all manufacturing establishments.  The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2025.  Valuation of output has been changed to basic price.  Historical data on manufacturing output has been revised accordingly from 1980.  Year 2025 data are preliminary estimates."
+      },
+      "reviewed_at": "2026-06-14T09:39:23.065Z"
+    },
+    {
+      "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+      "name": "Singapore total manufacturing output",
+      "country": "Singapore",
+      "metric_type": "manufacturing_output_value",
+      "frequency": "annual",
+      "preferred_sources": [
+        "SingStat Table Builder"
+      ],
+      "verification_status": "verified",
+      "coverage_start": "2016",
+      "coverage_end": "2025",
+      "max_history_years_requested": 10,
+      "max_forecast_years_requested": 1,
+      "values_count": 10,
+      "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+      "local_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/raw-downloads/SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.csv",
+      "notes": "Loaded from SingStat Table Builder API table M354851. Series: Total Manufacturing.",
+      "used_by_candidates": [
+        "ART-what-precision-engineering-reveals-about-singapore-s-capital-equipment-cycle",
+        "ART-what-transport-engineering-reveals-about-singapore-s-aviation-and-marine-recovery",
+        "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+        "ART-how-chemicals-and-petrochemicals-reflect-singapore-s-industrial-cycle",
+        "ART-understanding-biomedical-pharmaceutical-production-cycle-in-singapore-s-manufacturing-data",
+        "ART-how-global-demand-shocks-move-through-singapore-s-industrial-base",
+        "ART-how-semiconductor-cycles-shape-singapore-s-manufacturing-advantage",
+        "ART-understanding-inventory-cycle-restocking-in-singapore-s-manufacturing-data",
+        "ART-understanding-operational-disruption-in-singapore-s-manufacturing-data",
+        "ART-understanding-capacity-expansion-in-singapore-s-manufacturing-data"
+      ],
+      "created_at": "2026-06-14T08:22:53.731Z",
+      "updated_at": "2026-06-14T09:39:06.990Z",
+      "raw_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/raw-downloads/SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.singstat.json",
+      "unit": "Million Dollars",
+      "values": [
+        {
+          "period": "2016",
+          "value": 258788.4
+        },
+        {
+          "period": "2017",
+          "value": 305118
+        },
+        {
+          "period": "2018",
+          "value": 343841.5
+        },
+        {
+          "period": "2019",
+          "value": 324431.9
+        },
+        {
+          "period": "2020",
+          "value": 300128.3
+        },
+        {
+          "period": "2021",
+          "value": 379845.2
+        },
+        {
+          "period": "2022",
+          "value": 444025.5
+        },
+        {
+          "period": "2023",
+          "value": 392206.2
+        },
+        {
+          "period": "2024",
+          "value": 413042.6
+        },
+        {
+          "period": "2025",
+          "value": 459504.1
+        }
+      ],
+      "source_metadata": {
+        "table_id": "M354851",
+        "table_title": "Manufacturing Output In Manufacturing By Industry, Annual",
+        "row_text": "Total Manufacturing",
+        "datasource": "ECONOMIC DEVELOPMENT BOARD",
+        "data_last_updated": "11/05/2026",
+        "date_generated": "14/06/2026",
+        "footnote": "From 2002, figures include establishments with less than 10 workers.  Prior to 2002, figures refer to establishments engaging 10 or more workers.  Data include all manufacturing establishments.  The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2025.  Valuation of output has been changed to basic price.  Historical data on manufacturing output has been revised accordingly from 1980.  Year 2025 data are preliminary estimates."
+      },
+      "reviewed_at": "2026-06-14T09:39:06.989Z"
+    },
+    {
+      "dataset_id": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX",
+      "name": "Singapore other transport equipment output",
+      "country": "Singapore",
+      "metric_type": "manufacturing_output_value",
+      "frequency": "annual",
+      "preferred_sources": [
+        "SingStat Table Builder"
+      ],
+      "verification_status": "verified",
+      "coverage_start": "2016",
+      "coverage_end": "2025",
+      "max_history_years_requested": 10,
+      "max_forecast_years_requested": 1,
+      "values_count": 10,
+      "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+      "local_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/raw-downloads/SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.csv",
+      "notes": "Loaded from SingStat Table Builder API table M354851. Series: Other Transport Equipment.",
+      "used_by_candidates": [
+        "ART-what-transport-engineering-reveals-about-singapore-s-aviation-and-marine-recovery",
+        "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles"
+      ],
+      "created_at": "2026-06-14T08:22:53.731Z",
+      "updated_at": "2026-06-14T09:39:30.619Z",
+      "raw_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/raw-downloads/SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.singstat.json",
+      "unit": "Million Dollars",
+      "values": [
+        {
+          "period": "2016",
+          "value": 15741.5
+        },
+        {
+          "period": "2017",
+          "value": 15360.4
+        },
+        {
+          "period": "2018",
+          "value": 14532.4
+        },
+        {
+          "period": "2019",
+          "value": 16690.5
+        },
+        {
+          "period": "2020",
+          "value": 13592.3
+        },
+        {
+          "period": "2021",
+          "value": 14812.2
+        },
+        {
+          "period": "2022",
+          "value": 18147.8
+        },
+        {
+          "period": "2023",
+          "value": 21571
+        },
+        {
+          "period": "2024",
+          "value": 25563.6
+        },
+        {
+          "period": "2025",
+          "value": 33614.4
+        }
+      ],
+      "source_metadata": {
+        "table_id": "M354851",
+        "table_title": "Manufacturing Output In Manufacturing By Industry, Annual",
+        "row_text": "Other Transport Equipment",
+        "datasource": "ECONOMIC DEVELOPMENT BOARD",
+        "data_last_updated": "11/05/2026",
+        "date_generated": "14/06/2026",
+        "footnote": "From 2002, figures include establishments with less than 10 workers.  Prior to 2002, figures refer to establishments engaging 10 or more workers.  Data include all manufacturing establishments.  The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2025.  Valuation of output has been changed to basic price.  Historical data on manufacturing output has been revised accordingly from 1980.  Year 2025 data are preliminary estimates."
+      },
+      "reviewed_at": "2026-06-14T09:39:30.619Z"
+    },
+    {
+      "dataset_id": "SG_UNDERSTANDING_BIOMEDICAL_PHARMACEUTICAL_PRODUCTION_CYCLE_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES",
+      "name": "Primary time series for Understanding Biomedical / Pharmaceutical Production Cycle in Singapore's Manufacturing Data",
+      "country": "Singapore",
+      "metric_type": "unknown",
+      "frequency": "monthly_or_quarterly",
+      "preferred_sources": [
+        "EDB",
+        "SingStat"
+      ],
+      "verification_status": "requested_not_loaded",
+      "coverage_start": null,
+      "coverage_end": null,
+      "max_history_years_requested": 10,
+      "max_forecast_years_requested": 1,
+      "values_count": 0,
+      "source_url": null,
+      "local_file": null,
+      "notes": "Dataset requested by surgical intake. Values not loaded yet.",
+      "used_by_candidates": [
+        "ART-understanding-biomedical-pharmaceutical-production-cycle-in-singapore-s-manufacturing-data"
+      ],
+      "created_at": "2026-06-14T08:22:53.731Z",
+      "updated_at": "2026-06-14T08:22:53.731Z"
+    },
+    {
+      "dataset_id": "SG_UNDERSTANDING_CAPACITY_EXPANSION_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES",
+      "name": "Primary time series for Understanding Capacity Expansion in Singapore's Manufacturing Data",
+      "country": "Singapore",
+      "metric_type": "unknown",
+      "frequency": "monthly_or_quarterly",
+      "preferred_sources": [
+        "EDB",
+        "SingStat"
+      ],
+      "verification_status": "requested_not_loaded",
+      "coverage_start": null,
+      "coverage_end": null,
+      "max_history_years_requested": 10,
+      "max_forecast_years_requested": 1,
+      "values_count": 0,
+      "source_url": null,
+      "local_file": null,
+      "notes": "Dataset requested by surgical intake. Values not loaded yet.",
+      "used_by_candidates": [
+        "ART-understanding-capacity-expansion-in-singapore-s-manufacturing-data"
+      ],
+      "created_at": "2026-06-14T08:22:53.731Z",
+      "updated_at": "2026-06-14T08:22:53.731Z"
+    },
+    {
+      "dataset_id": "SG_UNDERSTANDING_INVENTORY_CYCLE_RESTOCKING_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES",
+      "name": "Primary time series for Understanding Inventory Cycle / Restocking in Singapore's Manufacturing Data",
+      "country": "Singapore",
+      "metric_type": "unknown",
+      "frequency": "monthly_or_quarterly",
+      "preferred_sources": [
+        "EDB",
+        "SingStat"
+      ],
+      "verification_status": "requested_not_loaded",
+      "coverage_start": null,
+      "coverage_end": null,
+      "max_history_years_requested": 10,
+      "max_forecast_years_requested": 1,
+      "values_count": 0,
+      "source_url": null,
+      "local_file": null,
+      "notes": "Dataset requested by surgical intake. Values not loaded yet.",
+      "used_by_candidates": [
+        "ART-understanding-inventory-cycle-restocking-in-singapore-s-manufacturing-data"
+      ],
+      "created_at": "2026-06-14T08:22:53.731Z",
+      "updated_at": "2026-06-14T08:22:53.731Z"
+    },
+    {
+      "dataset_id": "SG_UNDERSTANDING_OPERATIONAL_DISRUPTION_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES",
+      "name": "Primary time series for Understanding Operational Disruption in Singapore's Manufacturing Data",
+      "country": "Singapore",
+      "metric_type": "unknown",
+      "frequency": "monthly_or_quarterly",
+      "preferred_sources": [
+        "EDB",
+        "SingStat"
+      ],
+      "verification_status": "requested_not_loaded",
+      "coverage_start": null,
+      "coverage_end": null,
+      "max_history_years_requested": 10,
+      "max_forecast_years_requested": 1,
+      "values_count": 0,
+      "source_url": null,
+      "local_file": null,
+      "notes": "Dataset requested by surgical intake. Values not loaded yet.",
+      "used_by_candidates": [
+        "ART-understanding-operational-disruption-in-singapore-s-manufacturing-data"
+      ],
+      "created_at": "2026-06-14T08:22:53.731Z",
+      "updated_at": "2026-06-14T08:22:53.731Z"
+    },
+    {
+      "dataset_id": "SG_BIOMEDICAL_OUTPUT_INDEX",
+      "name": "Singapore pharmaceutical and biological products output",
+      "country": "Singapore",
+      "metric_type": "manufacturing_output_value",
+      "frequency": "annual",
+      "preferred_sources": [
+        "SingStat Table Builder"
+      ],
+      "verification_status": "verified",
+      "coverage_start": "2016",
+      "coverage_end": "2025",
+      "values_count": 10,
+      "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+      "local_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/raw-downloads/SG_BIOMEDICAL_OUTPUT_INDEX.csv",
+      "raw_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/intelligence/raw-downloads/SG_BIOMEDICAL_OUTPUT_INDEX.singstat.json",
+      "unit": "Million Dollars",
+      "notes": "Loaded from SingStat Table Builder API table M354851. Series: Pharmaceutical & Biological Products.",
+      "values": [
+        {
+          "period": "2016",
+          "value": 16839.9
+        },
+        {
+          "period": "2017",
+          "value": 15739.4
+        },
+        {
+          "period": "2018",
+          "value": 19341.6
+        },
+        {
+          "period": "2019",
+          "value": 14398.7
+        },
+        {
+          "period": "2020",
+          "value": 15691.9
+        },
+        {
+          "period": "2021",
+          "value": 16830.7
+        },
+        {
+          "period": "2022",
+          "value": 18004.1
+        },
+        {
+          "period": "2023",
+          "value": 13915.3
+        },
+        {
+          "period": "2024",
+          "value": 9721.1
+        },
+        {
+          "period": "2025",
+          "value": 14655
+        }
+      ],
+      "source_metadata": {
+        "table_id": "M354851",
+        "table_title": "Manufacturing Output In Manufacturing By Industry, Annual",
+        "row_text": "Pharmaceutical & Biological Products",
+        "datasource": "ECONOMIC DEVELOPMENT BOARD",
+        "data_last_updated": "11/05/2026",
+        "date_generated": "14/06/2026",
+        "footnote": "From 2002, figures include establishments with less than 10 workers.  Prior to 2002, figures refer to establishments engaging 10 or more workers.  Data include all manufacturing establishments.  The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2025.  Valuation of output has been changed to basic price.  Historical data on manufacturing output has been revised accordingly from 1980.  Year 2025 data are preliminary estimates."
+      },
+      "used_by_candidates": [],
+      "created_at": "2026-06-14T09:39:17.757Z",
+      "updated_at": "2026-06-14T09:39:19.240Z",
+      "reviewed_at": "2026-06-14T09:39:19.239Z"
+    }
+  ]
+}

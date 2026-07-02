@@ -1,0 +1,17 @@
+{
+  "id": "cms_draft_1781410764264",
+  "source": "znbw_intelligence_engine",
+  "candidate_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+  "status": "draft",
+  "title": "SMURF Test Draft",
+  "slug": "smurf-test-draft",
+  "markdown": "# Test\n\nSMURF identified a pattern.",
+  "created_at": "2026-06-14T04:19:24.264Z",
+  "updated_at": "2026-06-14T04:19:24.264Z",
+  "governance": {
+    "publication_ready": false,
+    "requires_editorial_review": true,
+    "requires_source_review": true,
+    "generated_from_candidate": true
+  }
+}

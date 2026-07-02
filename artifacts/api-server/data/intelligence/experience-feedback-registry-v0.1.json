@@ -1,0 +1,522 @@
+{
+  "experience_feedback_registry_version": "experience-feedback-registry-v0.1",
+  "generated_at": "2026-06-06T07:24:38.106Z",
+  "source_prediction_accuracy_registry": "data/intelligence/prediction-accuracy-registry-v0.1.json",
+  "policy": {
+    "principle": "Experience feedback records learning signals from prediction performance without mutating experience memory.",
+    "prediction_accuracy_is_source_of_truth": true,
+    "feedback_does_not_update_experience": true,
+    "human_review_required_before_experience_update": true,
+    "production_mutation_allowed": false
+  },
+  "summary": {
+    "drivers_processed": 13,
+    "feedback_records_generated": 13,
+    "feedback_counts": {
+      "insufficient_validated_predictions": 13
+    },
+    "learning_allowed_records": 0
+  },
+  "feedback_records": [
+    {
+      "experience_feedback_version": "experience-feedback-v0.1",
+      "feedback_id": "FDB-MKT_001",
+      "driver_id": "MKT_001",
+      "driver_label": "MKT_001 Global Demand Surge",
+      "feedback_type": "insufficient_validated_predictions",
+      "feedback_status": "candidate",
+      "feedback_summary": "No scored predictions are available yet. Experience update is not allowed.",
+      "prediction_performance": {
+        "total_predictions": 3,
+        "pending_predictions": 3,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_001-industrial-production",
+          "PRED-EWS-MKT_001-business-sentiment",
+          "PRED-EWS-MKT_001-sector-demand"
+        ]
+      },
+      "recommended_action": "continue_monitoring",
+      "experience_update_gate": {
+        "learning_allowed": false,
+        "reason": "Experience cannot be updated because no scored predictions exist.",
+        "minimum_scored_predictions_recommended": 3,
+        "current_scored_predictions": 0
+      },
+      "governance": {
+        "feedback_is_not_memory_mutation": true,
+        "human_review_required_before_experience_update": true,
+        "auto_update_experience_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "experience_feedback_version": "experience-feedback-v0.1",
+      "feedback_id": "FDB-MKT_002",
+      "driver_id": "MKT_002",
+      "driver_label": "MKT_002 Inventory Cycle / Restocking",
+      "feedback_type": "insufficient_validated_predictions",
+      "feedback_status": "candidate",
+      "feedback_summary": "No scored predictions are available yet. Experience update is not allowed.",
+      "prediction_performance": {
+        "total_predictions": 3,
+        "pending_predictions": 3,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_002-industrial-production",
+          "PRED-EWS-MKT_002-business-sentiment",
+          "PRED-EWS-MKT_002-sector-demand"
+        ]
+      },
+      "recommended_action": "continue_monitoring",
+      "experience_update_gate": {
+        "learning_allowed": false,
+        "reason": "Experience cannot be updated because no scored predictions exist.",
+        "minimum_scored_predictions_recommended": 3,
+        "current_scored_predictions": 0
+      },
+      "governance": {
+        "feedback_is_not_memory_mutation": true,
+        "human_review_required_before_experience_update": true,
+        "auto_update_experience_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "experience_feedback_version": "experience-feedback-v0.1",
+      "feedback_id": "FDB-MKT_003",
+      "driver_id": "MKT_003",
+      "driver_label": "MKT_003 Export Demand Weakness",
+      "feedback_type": "insufficient_validated_predictions",
+      "feedback_status": "candidate",
+      "feedback_summary": "No scored predictions are available yet. Experience update is not allowed.",
+      "prediction_performance": {
+        "total_predictions": 3,
+        "pending_predictions": 3,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_003-industrial-production",
+          "PRED-EWS-MKT_003-business-sentiment",
+          "PRED-EWS-MKT_003-sector-demand"
+        ]
+      },
+      "recommended_action": "continue_monitoring",
+      "experience_update_gate": {
+        "learning_allowed": false,
+        "reason": "Experience cannot be updated because no scored predictions exist.",
+        "minimum_scored_predictions_recommended": 3,
+        "current_scored_predictions": 0
+      },
+      "governance": {
+        "feedback_is_not_memory_mutation": true,
+        "human_review_required_before_experience_update": true,
+        "auto_update_experience_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "experience_feedback_version": "experience-feedback-v0.1",
+      "feedback_id": "FDB-MKT_004",
+      "driver_id": "MKT_004",
+      "driver_label": "MKT_004 Capacity Expansion",
+      "feedback_type": "insufficient_validated_predictions",
+      "feedback_status": "candidate",
+      "feedback_summary": "No scored predictions are available yet. Experience update is not allowed.",
+      "prediction_performance": {
+        "total_predictions": 3,
+        "pending_predictions": 3,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_004-industrial-production",
+          "PRED-EWS-MKT_004-business-sentiment",
+          "PRED-EWS-MKT_004-sector-demand"
+        ]
+      },
+      "recommended_action": "continue_monitoring",
+      "experience_update_gate": {
+        "learning_allowed": false,
+        "reason": "Experience cannot be updated because no scored predictions exist.",
+        "minimum_scored_predictions_recommended": 3,
+        "current_scored_predictions": 0
+      },
+      "governance": {
+        "feedback_is_not_memory_mutation": true,
+        "human_review_required_before_experience_update": true,
+        "auto_update_experience_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "experience_feedback_version": "experience-feedback-v0.1",
+      "feedback_id": "FDB-MKT_005",
+      "driver_id": "MKT_005",
+      "driver_label": "MKT_005 Operational Disruption",
+      "feedback_type": "insufficient_validated_predictions",
+      "feedback_status": "candidate",
+      "feedback_summary": "No scored predictions are available yet. Experience update is not allowed.",
+      "prediction_performance": {
+        "total_predictions": 3,
+        "pending_predictions": 3,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_005-industrial-production",
+          "PRED-EWS-MKT_005-business-sentiment",
+          "PRED-EWS-MKT_005-sector-demand"
+        ]
+      },
+      "recommended_action": "continue_monitoring",
+      "experience_update_gate": {
+        "learning_allowed": false,
+        "reason": "Experience cannot be updated because no scored predictions exist.",
+        "minimum_scored_predictions_recommended": 3,
+        "current_scored_predictions": 0
+      },
+      "governance": {
+        "feedback_is_not_memory_mutation": true,
+        "human_review_required_before_experience_update": true,
+        "auto_update_experience_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "experience_feedback_version": "experience-feedback-v0.1",
+      "feedback_id": "FDB-MKT_006",
+      "driver_id": "MKT_006",
+      "driver_label": "MKT_006 Policy / Regulatory Impact",
+      "feedback_type": "insufficient_validated_predictions",
+      "feedback_status": "candidate",
+      "feedback_summary": "No scored predictions are available yet. Experience update is not allowed.",
+      "prediction_performance": {
+        "total_predictions": 3,
+        "pending_predictions": 3,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_006-industrial-production",
+          "PRED-EWS-MKT_006-business-sentiment",
+          "PRED-EWS-MKT_006-sector-demand"
+        ]
+      },
+      "recommended_action": "continue_monitoring",
+      "experience_update_gate": {
+        "learning_allowed": false,
+        "reason": "Experience cannot be updated because no scored predictions exist.",
+        "minimum_scored_predictions_recommended": 3,
+        "current_scored_predictions": 0
+      },
+      "governance": {
+        "feedback_is_not_memory_mutation": true,
+        "human_review_required_before_experience_update": true,
+        "auto_update_experience_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "experience_feedback_version": "experience-feedback-v0.1",
+      "feedback_id": "FDB-MKT_007",
+      "driver_id": "MKT_007",
+      "driver_label": "MKT_007 Energy Demand / Refining Cycle",
+      "feedback_type": "insufficient_validated_predictions",
+      "feedback_status": "candidate",
+      "feedback_summary": "No scored predictions are available yet. Experience update is not allowed.",
+      "prediction_performance": {
+        "total_predictions": 3,
+        "pending_predictions": 3,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_007-industrial-production",
+          "PRED-EWS-MKT_007-business-sentiment",
+          "PRED-EWS-MKT_007-sector-demand"
+        ]
+      },
+      "recommended_action": "continue_monitoring",
+      "experience_update_gate": {
+        "learning_allowed": false,
+        "reason": "Experience cannot be updated because no scored predictions exist.",
+        "minimum_scored_predictions_recommended": 3,
+        "current_scored_predictions": 0
+      },
+      "governance": {
+        "feedback_is_not_memory_mutation": true,
+        "human_review_required_before_experience_update": true,
+        "auto_update_experience_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "experience_feedback_version": "experience-feedback-v0.1",
+      "feedback_id": "FDB-MKT_008",
+      "driver_id": "MKT_008",
+      "driver_label": "MKT_008 Semiconductor / Electronics Cycle",
+      "feedback_type": "insufficient_validated_predictions",
+      "feedback_status": "candidate",
+      "feedback_summary": "No scored predictions are available yet. Experience update is not allowed.",
+      "prediction_performance": {
+        "total_predictions": 4,
+        "pending_predictions": 4,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_008-global-semiconductor-sales",
+          "PRED-EWS-MKT_008-chip-demand",
+          "PRED-EWS-MKT_008-electronics-exports",
+          "PRED-EWS-MKT_008-wafer-fab-utilization"
+        ]
+      },
+      "recommended_action": "continue_monitoring",
+      "experience_update_gate": {
+        "learning_allowed": false,
+        "reason": "Experience cannot be updated because no scored predictions exist.",
+        "minimum_scored_predictions_recommended": 3,
+        "current_scored_predictions": 0
+      },
+      "governance": {
+        "feedback_is_not_memory_mutation": true,
+        "human_review_required_before_experience_update": true,
+        "auto_update_experience_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "experience_feedback_version": "experience-feedback-v0.1",
+      "feedback_id": "FDB-MKT_009",
+      "driver_id": "MKT_009",
+      "driver_label": "MKT_009 Biomedical / Pharmaceutical Production Cycle",
+      "feedback_type": "insufficient_validated_predictions",
+      "feedback_status": "candidate",
+      "feedback_summary": "No scored predictions are available yet. Experience update is not allowed.",
+      "prediction_performance": {
+        "total_predictions": 4,
+        "pending_predictions": 4,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_009-pharmaceutical-production-schedules",
+          "PRED-EWS-MKT_009-biologics-demand",
+          "PRED-EWS-MKT_009-vaccine-manufacturing",
+          "PRED-EWS-MKT_009-healthcare-demand"
+        ]
+      },
+      "recommended_action": "continue_monitoring",
+      "experience_update_gate": {
+        "learning_allowed": false,
+        "reason": "Experience cannot be updated because no scored predictions exist.",
+        "minimum_scored_predictions_recommended": 3,
+        "current_scored_predictions": 0
+      },
+      "governance": {
+        "feedback_is_not_memory_mutation": true,
+        "human_review_required_before_experience_update": true,
+        "auto_update_experience_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "experience_feedback_version": "experience-feedback-v0.1",
+      "feedback_id": "FDB-MKT_010",
+      "driver_id": "MKT_010",
+      "driver_label": "MKT_010 Demand Shock / External Downturn",
+      "feedback_type": "insufficient_validated_predictions",
+      "feedback_status": "candidate",
+      "feedback_summary": "No scored predictions are available yet. Experience update is not allowed.",
+      "prediction_performance": {
+        "total_predictions": 4,
+        "pending_predictions": 4,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_010-global-pmi",
+          "PRED-EWS-MKT_010-export-orders",
+          "PRED-EWS-MKT_010-trade-volumes",
+          "PRED-EWS-MKT_010-manufacturing-sentiment"
+        ]
+      },
+      "recommended_action": "continue_monitoring",
+      "experience_update_gate": {
+        "learning_allowed": false,
+        "reason": "Experience cannot be updated because no scored predictions exist.",
+        "minimum_scored_predictions_recommended": 3,
+        "current_scored_predictions": 0
+      },
+      "governance": {
+        "feedback_is_not_memory_mutation": true,
+        "human_review_required_before_experience_update": true,
+        "auto_update_experience_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "experience_feedback_version": "experience-feedback-v0.1",
+      "feedback_id": "FDB-MKT_011",
+      "driver_id": "MKT_011",
+      "driver_label": "MKT_011 Chemicals / Petrochemicals Cycle",
+      "feedback_type": "insufficient_validated_predictions",
+      "feedback_status": "candidate",
+      "feedback_summary": "No scored predictions are available yet. Experience update is not allowed.",
+      "prediction_performance": {
+        "total_predictions": 4,
+        "pending_predictions": 4,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_011-chemical-demand",
+          "PRED-EWS-MKT_011-feedstock-prices",
+          "PRED-EWS-MKT_011-petrochemical-margins",
+          "PRED-EWS-MKT_011-plant-utilization"
+        ]
+      },
+      "recommended_action": "continue_monitoring",
+      "experience_update_gate": {
+        "learning_allowed": false,
+        "reason": "Experience cannot be updated because no scored predictions exist.",
+        "minimum_scored_predictions_recommended": 3,
+        "current_scored_predictions": 0
+      },
+      "governance": {
+        "feedback_is_not_memory_mutation": true,
+        "human_review_required_before_experience_update": true,
+        "auto_update_experience_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "experience_feedback_version": "experience-feedback-v0.1",
+      "feedback_id": "FDB-MKT_012",
+      "driver_id": "MKT_012",
+      "driver_label": "MKT_012 Precision Engineering / Capital Equipment Cycle",
+      "feedback_type": "insufficient_validated_predictions",
+      "feedback_status": "candidate",
+      "feedback_summary": "No scored predictions are available yet. Experience update is not allowed.",
+      "prediction_performance": {
+        "total_predictions": 4,
+        "pending_predictions": 4,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_012-capital-expenditure",
+          "PRED-EWS-MKT_012-machinery-orders",
+          "PRED-EWS-MKT_012-automation-investment",
+          "PRED-EWS-MKT_012-equipment-demand"
+        ]
+      },
+      "recommended_action": "continue_monitoring",
+      "experience_update_gate": {
+        "learning_allowed": false,
+        "reason": "Experience cannot be updated because no scored predictions exist.",
+        "minimum_scored_predictions_recommended": 3,
+        "current_scored_predictions": 0
+      },
+      "governance": {
+        "feedback_is_not_memory_mutation": true,
+        "human_review_required_before_experience_update": true,
+        "auto_update_experience_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "experience_feedback_version": "experience-feedback-v0.1",
+      "feedback_id": "FDB-MKT_013",
+      "driver_id": "MKT_013",
+      "driver_label": "MKT_013 Transport Engineering / Aerospace Marine Cycle",
+      "feedback_type": "insufficient_validated_predictions",
+      "feedback_status": "candidate",
+      "feedback_summary": "No scored predictions are available yet. Experience update is not allowed.",
+      "prediction_performance": {
+        "total_predictions": 4,
+        "pending_predictions": 4,
+        "observed_predictions": 0,
+        "expired_predictions": 0,
+        "scored_predictions": 0,
+        "correct_predictions": 0,
+        "incorrect_predictions": 0,
+        "accuracy_rate": null,
+        "average_accuracy_score": null,
+        "prediction_ids": [
+          "PRED-EWS-MKT_013-iata-traffic",
+          "PRED-EWS-MKT_013-aircraft-utilization",
+          "PRED-EWS-MKT_013-mro-demand",
+          "PRED-EWS-MKT_013-fleet-expansion"
+        ]
+      },
+      "recommended_action": "continue_monitoring",
+      "experience_update_gate": {
+        "learning_allowed": false,
+        "reason": "Experience cannot be updated because no scored predictions exist.",
+        "minimum_scored_predictions_recommended": 3,
+        "current_scored_predictions": 0
+      },
+      "governance": {
+        "feedback_is_not_memory_mutation": true,
+        "human_review_required_before_experience_update": true,
+        "auto_update_experience_allowed": false,
+        "production_mutation_allowed": false
+      }
+    }
+  ]
+}

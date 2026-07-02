@@ -1,0 +1,134 @@
+{
+  "historical_evidence_scorecard_version": "historical-evidence-scorecard-v0.1",
+  "generated_at": "2026-06-06T09:38:10.082Z",
+  "source_taxonomy": "data/intelligence-driver-library/driver-evidence-taxonomy-v0.1.json",
+  "source_evidence": "data/historical-replay/m355381/evidence-pilots/SG-BIOMEDICAL-2022-evidence-v0.1.json",
+  "case_id": "SG-BIOMEDICAL-2022",
+  "period": "2022",
+  "series_name": "Biomedical Manufacturing",
+  "governance": {
+    "sandbox_only": true,
+    "recommendation_only": true,
+    "auto_close_case": false,
+    "requires_human_review": true,
+    "production_mutation_allowed": false
+  },
+  "evidence_metadata": {
+    "evidence_origin": "synthetic",
+    "template_generated": true,
+    "attribution_discovery_ready": true,
+    "requires_human_review": true
+  },
+  "evidence_items": [
+    "Singapore biomedical manufacturing output in 2022 reflected pharmaceutical batch production and drug production cycles.",
+    "Biologics production and plant schedule effects shaped biomedical manufacturing movements.",
+    "Healthcare demand and medical technology demand supported selected production areas.",
+    "Vaccine production patterns affected biomedical output during the year."
+  ],
+  "evidence_matches": [
+    {
+      "evidence_text": "Singapore biomedical manufacturing output in 2022 reflected pharmaceutical batch production and drug production cycles.",
+      "matches": [
+        {
+          "driver_id": "MKT_009",
+          "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+          "attribution_bucket": "operational_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "pharmaceutical batch",
+            "batch production",
+            "drug production"
+          ],
+          "match_score": 18
+        }
+      ]
+    },
+    {
+      "evidence_text": "Biologics production and plant schedule effects shaped biomedical manufacturing movements.",
+      "matches": [
+        {
+          "driver_id": "MKT_009",
+          "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+          "attribution_bucket": "operational_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "biologics production",
+            "plant schedule"
+          ],
+          "match_score": 12
+        }
+      ]
+    },
+    {
+      "evidence_text": "Healthcare demand and medical technology demand supported selected production areas.",
+      "matches": [
+        {
+          "driver_id": "MKT_009",
+          "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+          "attribution_bucket": "operational_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "medical technology demand",
+            "healthcare demand"
+          ],
+          "match_score": 12
+        }
+      ]
+    },
+    {
+      "evidence_text": "Vaccine production patterns affected biomedical output during the year.",
+      "matches": [
+        {
+          "driver_id": "MKT_009",
+          "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+          "attribution_bucket": "operational_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "vaccine production"
+          ],
+          "match_score": 6
+        }
+      ]
+    }
+  ],
+  "ranked_drivers": [
+    {
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "attribution_bucket": "operational_effect",
+      "total_score": 48,
+      "evidence_count": 4,
+      "matched_phrases": [
+        "pharmaceutical batch",
+        "batch production",
+        "drug production",
+        "biologics production",
+        "plant schedule",
+        "medical technology demand",
+        "healthcare demand",
+        "vaccine production"
+      ],
+      "supporting_evidence": [
+        "Singapore biomedical manufacturing output in 2022 reflected pharmaceutical batch production and drug production cycles.",
+        "Biologics production and plant schedule effects shaped biomedical manufacturing movements.",
+        "Healthcare demand and medical technology demand supported selected production areas.",
+        "Vaccine production patterns affected biomedical output during the year."
+      ]
+    }
+  ],
+  "bucket_scores": [
+    {
+      "attribution_bucket": "operational_effect",
+      "total_score": 48
+    }
+  ],
+  "recommended_outcome": {
+    "primary_driver": "MKT_009",
+    "primary_driver_name": "Biomedical / Pharmaceutical Production Cycle",
+    "attribution_bucket": "operational_effect",
+    "confidence": "high",
+    "total_score": 48,
+    "second_score": 0,
+    "score_gap": 48
+  }
+}

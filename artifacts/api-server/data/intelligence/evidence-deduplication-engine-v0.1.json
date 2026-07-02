@@ -1,0 +1,1854 @@
+{
+  "registry_version": "evidence-deduplication-engine-v0.1",
+  "created_at": "2026-06-08T08:40:23.494Z",
+  "doctrine": {
+    "evidence_grouping_reduces_repetition_not_detail": true,
+    "grouped_signals_are_not_new_evidence": true,
+    "evidence_remains_primary": true
+  },
+  "inputs": {
+    "assessed_evidence_items": 552,
+    "useful_or_strong_evidence_items": 424
+  },
+  "summary": {
+    "grouped_signals_created": 28,
+    "very_strong_signals": 1,
+    "strong_signals": 14,
+    "useful_signals": 12,
+    "weak_signals": 1
+  },
+  "deduped_signals": [
+    {
+      "signal_id": "SIG_0011",
+      "metric_name": "NODX_CHANGE_YOY",
+      "evidence_items": 32,
+      "strongest_evidence_id": "SG_SINGSTAT_singapores-external-trade-apr-2026_001_NODX_CHANGE_YOY_2026-04",
+      "periods": [
+        "2026-04",
+        "2026-03",
+        "2026-02",
+        "2026-01",
+        "2025-12",
+        "2025-11",
+        "2025-10",
+        "2025-09",
+        "2025-08",
+        "2025-07",
+        "2025-06",
+        "2025-05",
+        "2025-04",
+        "2025-03",
+        "2025-02",
+        "2025-01"
+      ],
+      "direction_summary": {
+        "dominant_direction": "positive",
+        "positive_items": 24,
+        "negative_items": 8,
+        "mixed_or_neutral_items": 0,
+        "direction_agreement": 0.75
+      },
+      "scores": {
+        "max_evidence_score": 0.801,
+        "average_evidence_score": 0.769,
+        "signal_strength_score": 0.804
+      },
+      "signal_band": "very_strong_signal",
+      "interpretation": "NODX_CHANGE_YOY appears across 32 useful/strong evidence items. Use as grouped signal rather than repeating individual observations.",
+      "representative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-apr-2026_001_NODX_CHANGE_YOY_2026-04",
+          "period": "2026-04",
+          "value": 24.5,
+          "direction": "positive",
+          "evidence_score": 0.801,
+          "status": "strong_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-nov2025_002_NODX_CHANGE_YOY_2025-11",
+          "period": "2025-11",
+          "value": 21.7,
+          "direction": "positive",
+          "evidence_score": 0.801,
+          "status": "strong_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-oct2025_001_NODX_CHANGE_YOY_2025-10",
+          "period": "2025-10",
+          "value": 22.2,
+          "direction": "positive",
+          "evidence_score": 0.801,
+          "status": "strong_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-apr-2026_002_NODX_CHANGE_YOY_2026-04",
+          "period": "2026-04",
+          "value": 15.3,
+          "direction": "positive",
+          "evidence_score": 0.786,
+          "status": "strong_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-mar-2026_001_NODX_CHANGE_YOY_2026-03",
+          "period": "2026-03",
+          "value": 15.3,
+          "direction": "positive",
+          "evidence_score": 0.786,
+          "status": "strong_evidence"
+        }
+      ]
+    },
+    {
+      "signal_id": "SIG_0008",
+      "metric_name": "CPI_GROWTH_YOY",
+      "evidence_items": 30,
+      "strongest_evidence_id": "SG_SINGSTAT_singapore-consumer-price-index-dec2024_003_CPI_GROWTH_YOY_2024-12",
+      "periods": [
+        "2026-04",
+        "2026-02",
+        "2026-01",
+        "2025-12",
+        "2025-11",
+        "2025-10",
+        "2025-09",
+        "2025-08",
+        "2025-07",
+        "2025-06",
+        "2025-05",
+        "2025-04",
+        "2025-03",
+        "2025-02",
+        "2025-01",
+        "2024-12",
+        "2024-11",
+        "2024-10",
+        "2024-09",
+        "2024-08"
+      ],
+      "direction_summary": {
+        "dominant_direction": "positive",
+        "positive_items": 30,
+        "negative_items": 0,
+        "mixed_or_neutral_items": 0,
+        "direction_agreement": 1
+      },
+      "scores": {
+        "max_evidence_score": 0.714,
+        "average_evidence_score": 0.707,
+        "signal_strength_score": 0.769
+      },
+      "signal_band": "strong_signal",
+      "interpretation": "CPI_GROWTH_YOY appears across 30 useful/strong evidence items. Use as grouped signal rather than repeating individual observations.",
+      "representative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_singapore-consumer-price-index-dec2024_003_CPI_GROWTH_YOY_2024-12",
+          "period": "2024-12",
+          "value": 2.4,
+          "direction": "positive",
+          "evidence_score": 0.714,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapore-consumer-price-index-sep2024_002_CPI_GROWTH_YOY_2024-09",
+          "period": "2024-09",
+          "value": 2,
+          "direction": "positive",
+          "evidence_score": 0.714,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapore-consumer-price-index-aug2024_002_CPI_GROWTH_YOY_2024-08",
+          "period": "2024-08",
+          "value": 2.2,
+          "direction": "positive",
+          "evidence_score": 0.714,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapore-consumer-price-index-jul2024_002_CPI_GROWTH_YOY_2024-07",
+          "period": "2024-07",
+          "value": 2.4,
+          "direction": "positive",
+          "evidence_score": 0.714,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapore-consumer-price-index-jun2024_002_CPI_GROWTH_YOY_2024-06",
+          "period": "2024-06",
+          "value": 2.4,
+          "direction": "positive",
+          "evidence_score": 0.714,
+          "status": "useful_evidence"
+        }
+      ]
+    },
+    {
+      "signal_id": "SIG_0006",
+      "metric_name": "GDP_GROWTH_YOY",
+      "evidence_items": 72,
+      "strongest_evidence_id": "SG_SINGSTAT_singapore-consumer-price-index-mar2026_003_GDP_GROWTH_YOY_2026-Q1",
+      "periods": [
+        "2026-Q1",
+        "2025-Q4",
+        "2025-Q3",
+        "2025-Q2",
+        "2025-Q1",
+        "2024-Q4",
+        "2024-Q3",
+        "2024-Q2",
+        "2024-Q1",
+        "2023-Q4"
+      ],
+      "direction_summary": {
+        "dominant_direction": "positive",
+        "positive_items": 45,
+        "negative_items": 8,
+        "mixed_or_neutral_items": 19,
+        "direction_agreement": 0.625
+      },
+      "scores": {
+        "max_evidence_score": 0.789,
+        "average_evidence_score": 0.714,
+        "signal_strength_score": 0.767
+      },
+      "signal_band": "strong_signal",
+      "interpretation": "GDP_GROWTH_YOY appears across 72 useful/strong evidence items. Use as grouped signal rather than repeating individual observations.",
+      "representative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_singapore-consumer-price-index-mar2026_003_GDP_GROWTH_YOY_2026-Q1",
+          "period": "2026-Q1",
+          "value": 88.9,
+          "direction": "positive",
+          "evidence_score": 0.789,
+          "status": "strong_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_performance-of-singapore-economy-1q2026_001_GDP_GROWTH_YOY_2026-Q1",
+          "period": "2026-Q1",
+          "value": 6,
+          "direction": "positive",
+          "evidence_score": 0.752,
+          "status": "strong_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_advance-gdp-estimate-1q2026_002_GDP_GROWTH_YOY_2026-Q1",
+          "period": "2026-Q1",
+          "value": 5.7,
+          "direction": "positive",
+          "evidence_score": 0.752,
+          "status": "strong_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_performance-of-singapore-economy-4q2025_001_GDP_GROWTH_YOY_2025-Q4",
+          "period": "2025-Q4",
+          "value": 6.9,
+          "direction": "positive",
+          "evidence_score": 0.752,
+          "status": "strong_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_performance-of-singapore-economy-4q2024_001_GDP_GROWTH_YOY_2024-Q4",
+          "period": "2024-Q4",
+          "value": 5,
+          "direction": "positive",
+          "evidence_score": 0.737,
+          "status": "useful_evidence"
+        }
+      ]
+    },
+    {
+      "signal_id": "SIG_0007",
+      "metric_name": "CPI_GROWTH_MOM",
+      "evidence_items": 26,
+      "strongest_evidence_id": "SG_SINGSTAT_singapore-consumer-price-index-apr2026_001_CPI_GROWTH_MOM_2026-04",
+      "periods": [
+        "2026-04",
+        "2026-02",
+        "2026-01",
+        "2025-12",
+        "2025-11",
+        "2025-09",
+        "2025-08",
+        "2025-07",
+        "2025-06",
+        "2025-05",
+        "2025-04",
+        "2025-03",
+        "2025-02",
+        "2025-01",
+        "2024-12",
+        "2024-10",
+        "2024-09",
+        "2024-08",
+        "2024-07",
+        "2024-06"
+      ],
+      "direction_summary": {
+        "dominant_direction": "positive",
+        "positive_items": 26,
+        "negative_items": 0,
+        "mixed_or_neutral_items": 0,
+        "direction_agreement": 1
+      },
+      "scores": {
+        "max_evidence_score": 0.707,
+        "average_evidence_score": 0.699,
+        "signal_strength_score": 0.763
+      },
+      "signal_band": "strong_signal",
+      "interpretation": "CPI_GROWTH_MOM appears across 26 useful/strong evidence items. Use as grouped signal rather than repeating individual observations.",
+      "representative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_singapore-consumer-price-index-apr2026_001_CPI_GROWTH_MOM_2026-04",
+          "period": "2026-04",
+          "value": 0.3,
+          "direction": "positive",
+          "evidence_score": 0.707,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapore-consumer-price-index-feb2026_001_CPI_GROWTH_MOM_2026-02",
+          "period": "2026-02",
+          "value": 0.6,
+          "direction": "positive",
+          "evidence_score": 0.707,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapore-consumer-price-index-jan2026_001_CPI_GROWTH_MOM_2026-01",
+          "period": "2026-01",
+          "value": 0.5,
+          "direction": "positive",
+          "evidence_score": 0.707,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapore-consumer-price-index-dec2025_001_CPI_GROWTH_MOM_2025-12",
+          "period": "2025-12",
+          "value": 0.3,
+          "direction": "positive",
+          "evidence_score": 0.707,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapore-consumer-price-index-nov2025_001_CPI_GROWTH_MOM_2025-11",
+          "period": "2025-11",
+          "value": 0.2,
+          "direction": "positive",
+          "evidence_score": 0.707,
+          "status": "useful_evidence"
+        }
+      ]
+    },
+    {
+      "signal_id": "SIG_0002",
+      "metric_name": "HOUSEHOLD_NET_WORTH_CHANGE_YOY",
+      "evidence_items": 10,
+      "strongest_evidence_id": "SG_SINGSTAT_household-sector-balance-sheet-1q2026_001_HOUSEHOLD_NET_WORTH_CHANGE_YOY_2026-Q1",
+      "periods": [
+        "2026-Q1",
+        "2025-Q4",
+        "2025-Q3",
+        "2025-Q2",
+        "2025-Q1",
+        "2024-Q4",
+        "2024-Q3",
+        "2024-Q2",
+        "2024-Q1",
+        "2023-Q4"
+      ],
+      "direction_summary": {
+        "dominant_direction": "positive",
+        "positive_items": 10,
+        "negative_items": 0,
+        "mixed_or_neutral_items": 0,
+        "direction_agreement": 1
+      },
+      "scores": {
+        "max_evidence_score": 0.698,
+        "average_evidence_score": 0.688,
+        "signal_strength_score": 0.755
+      },
+      "signal_band": "strong_signal",
+      "interpretation": "HOUSEHOLD_NET_WORTH_CHANGE_YOY appears across 10 useful/strong evidence items. Use as grouped signal rather than repeating individual observations.",
+      "representative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_household-sector-balance-sheet-1q2026_001_HOUSEHOLD_NET_WORTH_CHANGE_YOY_2026-Q1",
+          "period": "2026-Q1",
+          "value": 6.7,
+          "direction": "positive",
+          "evidence_score": 0.698,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_household-sector-balance-sheet-4q2025_001_HOUSEHOLD_NET_WORTH_CHANGE_YOY_2025-Q4",
+          "period": "2025-Q4",
+          "value": 7.3,
+          "direction": "positive",
+          "evidence_score": 0.698,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_household-sector-balance-sheet-3q2025_001_HOUSEHOLD_NET_WORTH_CHANGE_YOY_2025-Q3",
+          "period": "2025-Q3",
+          "value": 8.9,
+          "direction": "positive",
+          "evidence_score": 0.698,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_household-sector-balance-sheet-2q2025_001_HOUSEHOLD_NET_WORTH_CHANGE_YOY_2025-Q2",
+          "period": "2025-Q2",
+          "value": 8,
+          "direction": "positive",
+          "evidence_score": 0.698,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_household-sector-balance-sheet-1q2025_001_HOUSEHOLD_NET_WORTH_CHANGE_YOY_2025-Q1",
+          "period": "2025-Q1",
+          "value": 8.1,
+          "direction": "positive",
+          "evidence_score": 0.698,
+          "status": "useful_evidence"
+        }
+      ]
+    },
+    {
+      "signal_id": "SIG_0003",
+      "metric_name": "MANUFACTURING_OUTPUT_CHANGE_MOM",
+      "evidence_items": 27,
+      "strongest_evidence_id": "SG_SINGSTAT_singapores-external-trade-dec2024_002_MANUFACTURING_OUTPUT_CHANGE_MOM_2024-12",
+      "periods": [
+        "2026-04",
+        "2024-12",
+        "2024-11",
+        "2024-10",
+        "2024-09",
+        "2024-08",
+        "2024-07",
+        "2024-06",
+        "2024-05",
+        "2024-04",
+        "2024-03",
+        "2024-02",
+        "2024-01",
+        "2023-12"
+      ],
+      "direction_summary": {
+        "dominant_direction": "negative",
+        "positive_items": 13,
+        "negative_items": 14,
+        "mixed_or_neutral_items": 0,
+        "direction_agreement": 0.519
+      },
+      "scores": {
+        "max_evidence_score": 0.771,
+        "average_evidence_score": 0.73,
+        "signal_strength_score": 0.754
+      },
+      "signal_band": "strong_signal",
+      "interpretation": "MANUFACTURING_OUTPUT_CHANGE_MOM appears across 27 useful/strong evidence items. Use as grouped signal rather than repeating individual observations.",
+      "representative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-dec2024_002_MANUFACTURING_OUTPUT_CHANGE_MOM_2024-12",
+          "period": "2024-12",
+          "value": 14.7,
+          "direction": "positive",
+          "evidence_score": 0.771,
+          "status": "strong_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-nov2024_001_MANUFACTURING_OUTPUT_CHANGE_MOM_2024-11",
+          "period": "2024-11",
+          "value": 14.7,
+          "direction": "positive",
+          "evidence_score": 0.771,
+          "status": "strong_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-aug2024_002_MANUFACTURING_OUTPUT_CHANGE_MOM_2024-08",
+          "period": "2024-08",
+          "value": 12.2,
+          "direction": "negative",
+          "evidence_score": 0.771,
+          "status": "strong_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-jul2024_001_MANUFACTURING_OUTPUT_CHANGE_MOM_2024-07",
+          "period": "2024-07",
+          "value": 12.2,
+          "direction": "positive",
+          "evidence_score": 0.771,
+          "status": "strong_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_monthly-manufacturing-performance-apr2026_001_MANUFACTURING_OUTPUT_CHANGE_MOM_2026-04",
+          "period": "2026-04",
+          "value": 5.8,
+          "direction": "positive",
+          "evidence_score": 0.752,
+          "status": "strong_evidence"
+        }
+      ]
+    },
+    {
+      "signal_id": "SIG_0005",
+      "metric_name": "PERSONAL_SAVING_RATE",
+      "evidence_items": 13,
+      "strongest_evidence_id": "SG_SINGSTAT_personal-disposable-income-and-saving-1q2026_003_PERSONAL_SAVING_RATE_2026-Q1",
+      "periods": [
+        "2026-Q1",
+        "2025-Q4",
+        "2025-Q3",
+        "2025-Q2",
+        "2025-Q1",
+        "2024-Q4",
+        "2024-Q3",
+        "2024-Q2",
+        "2024-Q1",
+        "2023-Q4"
+      ],
+      "direction_summary": {
+        "dominant_direction": "positive",
+        "positive_items": 9,
+        "negative_items": 4,
+        "mixed_or_neutral_items": 0,
+        "direction_agreement": 0.692
+      },
+      "scores": {
+        "max_evidence_score": 0.727,
+        "average_evidence_score": 0.718,
+        "signal_strength_score": 0.748
+      },
+      "signal_band": "strong_signal",
+      "interpretation": "PERSONAL_SAVING_RATE appears across 13 useful/strong evidence items. Use as grouped signal rather than repeating individual observations.",
+      "representative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_personal-disposable-income-and-saving-1q2026_003_PERSONAL_SAVING_RATE_2026-Q1",
+          "period": "2026-Q1",
+          "value": 39.2,
+          "direction": "positive",
+          "evidence_score": 0.727,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_personal-disposable-income-and-saving-4q2025_003_PERSONAL_SAVING_RATE_2025-Q4",
+          "period": "2025-Q4",
+          "value": 36.4,
+          "direction": "positive",
+          "evidence_score": 0.727,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_personal-disposable-income-and-saving-3q2025_003_PERSONAL_SAVING_RATE_2025-Q3",
+          "period": "2025-Q3",
+          "value": 33.5,
+          "direction": "positive",
+          "evidence_score": 0.727,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_personal-disposable-income-and-saving-2q2025_003_PERSONAL_SAVING_RATE_2025-Q2",
+          "period": "2025-Q2",
+          "value": 27.5,
+          "direction": "negative",
+          "evidence_score": 0.727,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_personal-disposable-income-and-saving-1q2025_003_PERSONAL_SAVING_RATE_2025-Q1",
+          "period": "2025-Q1",
+          "value": 36.7,
+          "direction": "negative",
+          "evidence_score": 0.727,
+          "status": "useful_evidence"
+        }
+      ]
+    },
+    {
+      "signal_id": "SIG_0001",
+      "metric_name": "BUSINESS_RECEIPTS_CHANGE_YOY",
+      "evidence_items": 12,
+      "strongest_evidence_id": "SG_SINGSTAT_singapore-services-sector-2022_001_BUSINESS_RECEIPTS_CHANGE_YOY_2024-02-28",
+      "periods": [
+        "2026-Q1",
+        "2025-Q3",
+        "2025-Q2",
+        "2025-07-31",
+        "2025-Q1",
+        "2024-Q4",
+        "2024-Q3",
+        "2024-Q2",
+        "2024-08-02",
+        "2024-Q1",
+        "2024-02-28",
+        "2023-Q4"
+      ],
+      "direction_summary": {
+        "dominant_direction": "positive",
+        "positive_items": 9,
+        "negative_items": 0,
+        "mixed_or_neutral_items": 3,
+        "direction_agreement": 0.75
+      },
+      "scores": {
+        "max_evidence_score": 0.725,
+        "average_evidence_score": 0.703,
+        "signal_strength_score": 0.747
+      },
+      "signal_band": "strong_signal",
+      "interpretation": "BUSINESS_RECEIPTS_CHANGE_YOY appears across 12 useful/strong evidence items. Use as grouped signal rather than repeating individual observations.",
+      "representative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_singapore-services-sector-2022_001_BUSINESS_RECEIPTS_CHANGE_YOY_2024-02-28",
+          "period": "2024-02-28",
+          "value": 20.9,
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.725,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_business-receipts-index-for-services-industries-3q2024_001_BUSINESS_RECEIPTS_CHANGE_YOY_2024-Q3",
+          "period": "2024-Q3",
+          "value": 12.7,
+          "direction": "positive",
+          "evidence_score": 0.722,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_business-receipts-index-for-services-industries-1q2024_001_BUSINESS_RECEIPTS_CHANGE_YOY_2024-Q1",
+          "period": "2024-Q1",
+          "value": 10.5,
+          "direction": "positive",
+          "evidence_score": 0.722,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_business-receipts-index-for-services-industries-3q2025_001_BUSINESS_RECEIPTS_CHANGE_YOY_2025-Q3",
+          "period": "2025-Q3",
+          "value": 5.3,
+          "direction": "positive",
+          "evidence_score": 0.714,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_business-receipts-index-for-services-industries-2q2025_001_BUSINESS_RECEIPTS_CHANGE_YOY_2025-Q2",
+          "period": "2025-Q2",
+          "value": 6.6,
+          "direction": "positive",
+          "evidence_score": 0.714,
+          "status": "useful_evidence"
+        }
+      ]
+    },
+    {
+      "signal_id": "SIG_0020",
+      "metric_name": "INTERNATIONAL_INVESTMENT_POSITION_CHANGE_QOQ",
+      "evidence_items": 9,
+      "strongest_evidence_id": "SG_SINGSTAT_international-investment-position-4q2025_001_INTERNATIONAL_INVESTMENT_POSITION_CHANGE_QOQ_2025-Q4",
+      "periods": [
+        "2025-Q4",
+        "2025-Q3",
+        "2025-Q2",
+        "2025-Q1",
+        "2024-Q4",
+        "2024-Q3",
+        "2024-Q2",
+        "2024-Q1",
+        "2023-Q4"
+      ],
+      "direction_summary": {
+        "dominant_direction": "positive",
+        "positive_items": 6,
+        "negative_items": 3,
+        "mixed_or_neutral_items": 0,
+        "direction_agreement": 0.667
+      },
+      "scores": {
+        "max_evidence_score": 0.737,
+        "average_evidence_score": 0.714,
+        "signal_strength_score": 0.738
+      },
+      "signal_band": "strong_signal",
+      "interpretation": "INTERNATIONAL_INVESTMENT_POSITION_CHANGE_QOQ appears across 9 useful/strong evidence items. Use as grouped signal rather than repeating individual observations.",
+      "representative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_international-investment-position-4q2025_001_INTERNATIONAL_INVESTMENT_POSITION_CHANGE_QOQ_2025-Q4",
+          "period": "2025-Q4",
+          "value": 2.6,
+          "direction": "positive",
+          "evidence_score": 0.737,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_international-investment-position-3q2025_001_INTERNATIONAL_INVESTMENT_POSITION_CHANGE_QOQ_2025-Q3",
+          "period": "2025-Q3",
+          "value": 2,
+          "direction": "positive",
+          "evidence_score": 0.737,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_international-investment-position-4q2024_001_INTERNATIONAL_INVESTMENT_POSITION_CHANGE_QOQ_2024-Q4",
+          "period": "2024-Q4",
+          "value": 2.5,
+          "direction": "positive",
+          "evidence_score": 0.722,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_international-investment-position-2q2025_001_INTERNATIONAL_INVESTMENT_POSITION_CHANGE_QOQ_2025-Q2",
+          "period": "2025-Q2",
+          "value": 1.6,
+          "direction": "negative",
+          "evidence_score": 0.715,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_international-investment-position-1q2025_001_INTERNATIONAL_INVESTMENT_POSITION_CHANGE_QOQ_2025-Q1",
+          "period": "2025-Q1",
+          "value": 1.2,
+          "direction": "positive",
+          "evidence_score": 0.715,
+          "status": "useful_evidence"
+        }
+      ]
+    },
+    {
+      "signal_id": "SIG_0014",
+      "metric_name": "BUSINESS_OUTLOOK_UPBEAT_SHARE",
+      "evidence_items": 21,
+      "strongest_evidence_id": "SG_SINGSTAT_advance-estimates-of-singapores-direct-investment-abroad-2024_001_BUSINESS_OUTLOOK_UPBEAT_SHARE_2025-10",
+      "periods": [
+        "2026-09",
+        "2026-06",
+        "2025-10",
+        "2025-12",
+        "2025-09",
+        "2025-06",
+        "2024-10",
+        "2024-12",
+        "2024-09",
+        "2024-06"
+      ],
+      "direction_summary": {
+        "dominant_direction": "mixed_or_neutral",
+        "positive_items": 0,
+        "negative_items": 0,
+        "mixed_or_neutral_items": 21,
+        "direction_agreement": 1
+      },
+      "scores": {
+        "max_evidence_score": 0.677,
+        "average_evidence_score": 0.658,
+        "signal_strength_score": 0.735
+      },
+      "signal_band": "strong_signal",
+      "interpretation": "BUSINESS_OUTLOOK_UPBEAT_SHARE appears across 21 useful/strong evidence items. Use as grouped signal rather than repeating individual observations.",
+      "representative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_advance-estimates-of-singapores-direct-investment-abroad-2024_001_BUSINESS_OUTLOOK_UPBEAT_SHARE_2025-10",
+          "period": "2025-10",
+          "value": 21,
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.677,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_business-expectations-of-services-sector-4q2025_001_BUSINESS_OUTLOOK_UPBEAT_SHARE_2025-10",
+          "period": "2025-10",
+          "value": 21,
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.677,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_business-expectations-of-manufacturing-sector-2q2026_002_BUSINESS_OUTLOOK_UPBEAT_SHARE_2026-09",
+          "period": "2026-09",
+          "value": 13,
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.662,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_business-expectations-of-services-sector-2q2026_002_BUSINESS_OUTLOOK_UPBEAT_SHARE_2026-09",
+          "period": "2026-09",
+          "value": 13,
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.662,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_labour-market-advance-release-1q2026_002_BUSINESS_OUTLOOK_UPBEAT_SHARE_2026-09",
+          "period": "2026-09",
+          "value": 13,
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.662,
+          "status": "useful_evidence"
+        }
+      ]
+    },
+    {
+      "signal_id": "SIG_0015",
+      "metric_name": "BUSINESS_OUTLOOK_PESSIMISTIC_SHARE",
+      "evidence_items": 21,
+      "strongest_evidence_id": "SG_SINGSTAT_business-expectations-of-services-sector-2q2025_002_BUSINESS_OUTLOOK_PESSIMISTIC_SHARE_2025-09",
+      "periods": [
+        "2026-09",
+        "2026-06",
+        "2025-10",
+        "2025-12",
+        "2025-09",
+        "2025-06",
+        "2024-10",
+        "2024-12",
+        "2024-09",
+        "2024-06"
+      ],
+      "direction_summary": {
+        "dominant_direction": "mixed_or_neutral",
+        "positive_items": 0,
+        "negative_items": 0,
+        "mixed_or_neutral_items": 21,
+        "direction_agreement": 1
+      },
+      "scores": {
+        "max_evidence_score": 0.677,
+        "average_evidence_score": 0.651,
+        "signal_strength_score": 0.733
+      },
+      "signal_band": "strong_signal",
+      "interpretation": "BUSINESS_OUTLOOK_PESSIMISTIC_SHARE appears across 21 useful/strong evidence items. Use as grouped signal rather than repeating individual observations.",
+      "representative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_business-expectations-of-services-sector-2q2025_002_BUSINESS_OUTLOOK_PESSIMISTIC_SHARE_2025-09",
+          "period": "2025-09",
+          "value": 25,
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.677,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_monthly-retail-sales-index-and-food-beverage-services-index-mar2025_002_BUSINESS_OUTLOOK_PESSIMISTIC_SHARE_2025-09",
+          "period": "2025-09",
+          "value": 25,
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.677,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_business-expectations-of-manufacturing-sector-2q2026_003_BUSINESS_OUTLOOK_PESSIMISTIC_SHARE_2026-09",
+          "period": "2026-09",
+          "value": 17,
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.662,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_business-expectations-of-services-sector-2q2026_003_BUSINESS_OUTLOOK_PESSIMISTIC_SHARE_2026-09",
+          "period": "2026-09",
+          "value": 17,
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.662,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_labour-market-advance-release-1q2026_003_BUSINESS_OUTLOOK_PESSIMISTIC_SHARE_2026-09",
+          "period": "2026-09",
+          "value": 17,
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.662,
+          "status": "useful_evidence"
+        }
+      ]
+    },
+    {
+      "signal_id": "SIG_0018",
+      "metric_name": "UNCLASSIFIED_PERCENTAGE",
+      "evidence_items": 15,
+      "strongest_evidence_id": "SG_SINGSTAT_singapores-international-trade-in-services-2024_001_UNCLASSIFIED_PERCENTAGE_2026-02-26",
+      "periods": [
+        "2026-04-27",
+        "2026-02-26",
+        "2025-12-19",
+        "2025-11-27",
+        "2025-07-07",
+        "2025-02-21",
+        "2024-11-28"
+      ],
+      "direction_summary": {
+        "dominant_direction": "mixed_or_neutral",
+        "positive_items": 4,
+        "negative_items": 0,
+        "mixed_or_neutral_items": 11,
+        "direction_agreement": 0.733
+      },
+      "scores": {
+        "max_evidence_score": 0.701,
+        "average_evidence_score": 0.667,
+        "signal_strength_score": 0.722
+      },
+      "signal_band": "strong_signal",
+      "interpretation": "UNCLASSIFIED_PERCENTAGE appears across 15 useful/strong evidence items. Use as grouped signal rather than repeating individual observations.",
+      "representative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-international-trade-in-services-2024_001_UNCLASSIFIED_PERCENTAGE_2026-02-26",
+          "period": "2026-02-26",
+          "value": 52.6,
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.701,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-international-trade-in-services-2024_002_UNCLASSIFIED_PERCENTAGE_2026-02-26",
+          "period": "2026-02-26",
+          "value": 57.4,
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.701,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-international-trade-in-services-2023_001_UNCLASSIFIED_PERCENTAGE_2025-02-21",
+          "period": "2025-02-21",
+          "value": 53.7,
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.701,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-international-trade-in-services-2023_002_UNCLASSIFIED_PERCENTAGE_2025-02-21",
+          "period": "2025-02-21",
+          "value": 57.4,
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.701,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-balance-of-payments-services-trade-by-modes-of-supply-2023_001_UNCLASSIFIED_PERCENTAGE_2025-11-27",
+          "period": "2025-11-27",
+          "value": 82.6,
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.689,
+          "status": "useful_evidence"
+        }
+      ]
+    },
+    {
+      "signal_id": "SIG_0013",
+      "metric_name": "BUSINESS_OUTLOOK_NET_BALANCE",
+      "evidence_items": 21,
+      "strongest_evidence_id": "SG_SINGSTAT_advance-estimates-of-singapores-direct-investment-abroad-2024_003_BUSINESS_OUTLOOK_NET_BALANCE_2025-10",
+      "periods": [
+        "2026-09",
+        "2026-06",
+        "2025-10",
+        "2025-12",
+        "2025-09",
+        "2025-06",
+        "2024-10",
+        "2024-12",
+        "2024-09",
+        "2024-06"
+      ],
+      "direction_summary": {
+        "dominant_direction": "mixed_or_neutral",
+        "positive_items": 0,
+        "negative_items": 0,
+        "mixed_or_neutral_items": 21,
+        "direction_agreement": 1
+      },
+      "scores": {
+        "max_evidence_score": 0.662,
+        "average_evidence_score": 0.635,
+        "signal_strength_score": 0.72
+      },
+      "signal_band": "strong_signal",
+      "interpretation": "BUSINESS_OUTLOOK_NET_BALANCE appears across 21 useful/strong evidence items. Use as grouped signal rather than repeating individual observations.",
+      "representative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_advance-estimates-of-singapores-direct-investment-abroad-2024_003_BUSINESS_OUTLOOK_NET_BALANCE_2025-10",
+          "period": "2025-10",
+          "value": 10,
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.662,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_business-expectations-of-services-sector-4q2025_003_BUSINESS_OUTLOOK_NET_BALANCE_2025-10",
+          "period": "2025-10",
+          "value": 10,
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.662,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_business-expectations-of-services-sector-2q2025_003_BUSINESS_OUTLOOK_NET_BALANCE_2025-09",
+          "period": "2025-09",
+          "value": 17,
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.662,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_monthly-retail-sales-index-and-food-beverage-services-index-mar2025_003_BUSINESS_OUTLOOK_NET_BALANCE_2025-09",
+          "period": "2025-09",
+          "value": 17,
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.662,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_business-expectations-of-services-sector-4q2024_003_BUSINESS_OUTLOOK_NET_BALANCE_2024-10",
+          "period": "2024-10",
+          "value": 13,
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.647,
+          "status": "useful_evidence"
+        }
+      ]
+    },
+    {
+      "signal_id": "SIG_0004",
+      "metric_name": "PERSONAL_DISPOSABLE_INCOME_CHANGE_YOY",
+      "evidence_items": 20,
+      "strongest_evidence_id": "SG_SINGSTAT_personal-disposable-income-and-saving-1q2026_004_PERSONAL_DISPOSABLE_INCOME_CHANGE_YOY_2026-Q1",
+      "periods": [
+        "2026-Q1",
+        "2025-Q4",
+        "2025-Q3",
+        "2025-Q2",
+        "2025-Q1",
+        "2024-Q4",
+        "2024-Q3",
+        "2024-Q2",
+        "2024-Q1",
+        "2023-Q4"
+      ],
+      "direction_summary": {
+        "dominant_direction": "positive",
+        "positive_items": 20,
+        "negative_items": 0,
+        "mixed_or_neutral_items": 0,
+        "direction_agreement": 1
+      },
+      "scores": {
+        "max_evidence_score": 0.665,
+        "average_evidence_score": 0.628,
+        "signal_strength_score": 0.719
+      },
+      "signal_band": "strong_signal",
+      "interpretation": "PERSONAL_DISPOSABLE_INCOME_CHANGE_YOY appears across 20 useful/strong evidence items. Use as grouped signal rather than repeating individual observations.",
+      "representative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_personal-disposable-income-and-saving-1q2026_004_PERSONAL_DISPOSABLE_INCOME_CHANGE_YOY_2026-Q1",
+          "period": "2026-Q1",
+          "value": 36.4,
+          "direction": "positive",
+          "evidence_score": 0.665,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_personal-disposable-income-and-saving-4q2025_004_PERSONAL_DISPOSABLE_INCOME_CHANGE_YOY_2025-Q4",
+          "period": "2025-Q4",
+          "value": 34.5,
+          "direction": "positive",
+          "evidence_score": 0.665,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_personal-disposable-income-and-saving-3q2025_004_PERSONAL_DISPOSABLE_INCOME_CHANGE_YOY_2025-Q3",
+          "period": "2025-Q3",
+          "value": 30.6,
+          "direction": "positive",
+          "evidence_score": 0.665,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_personal-disposable-income-and-saving-2q2025_004_PERSONAL_DISPOSABLE_INCOME_CHANGE_YOY_2025-Q2",
+          "period": "2025-Q2",
+          "value": 36.2,
+          "direction": "positive",
+          "evidence_score": 0.665,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_personal-disposable-income-and-saving-2q2024_004_PERSONAL_DISPOSABLE_INCOME_CHANGE_YOY_2024-Q2",
+          "period": "2024-Q2",
+          "value": 36.2,
+          "direction": "positive",
+          "evidence_score": 0.65,
+          "status": "useful_evidence"
+        }
+      ]
+    },
+    {
+      "signal_id": "SIG_0021",
+      "metric_name": "DIRECT_INVESTMENT_ABROAD_CHANGE_YOY",
+      "evidence_items": 4,
+      "strongest_evidence_id": "SG_SINGSTAT_singapores-direct-investment-abroad-2024_002_DIRECT_INVESTMENT_ABROAD_CHANGE_YOY_2026-03-03",
+      "periods": [
+        "2026-03-03",
+        "2025-03-04"
+      ],
+      "direction_summary": {
+        "dominant_direction": "positive",
+        "positive_items": 2,
+        "negative_items": 0,
+        "mixed_or_neutral_items": 2,
+        "direction_agreement": 0.5
+      },
+      "scores": {
+        "max_evidence_score": 0.797,
+        "average_evidence_score": 0.773,
+        "signal_strength_score": 0.719
+      },
+      "signal_band": "strong_signal",
+      "interpretation": "DIRECT_INVESTMENT_ABROAD_CHANGE_YOY appears across 4 useful/strong evidence items. Use as grouped signal rather than repeating individual observations.",
+      "representative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-direct-investment-abroad-2024_002_DIRECT_INVESTMENT_ABROAD_CHANGE_YOY_2026-03-03",
+          "period": "2026-03-03",
+          "value": 75.3,
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.797,
+          "status": "strong_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-direct-investment-abroad-2023_002_DIRECT_INVESTMENT_ABROAD_CHANGE_YOY_2025-03-04",
+          "period": "2025-03-04",
+          "value": 76.4,
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.797,
+          "status": "strong_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-direct-investment-abroad-2024_001_DIRECT_INVESTMENT_ABROAD_CHANGE_YOY_2026-03-03",
+          "period": "2026-03-03",
+          "value": 7.6,
+          "direction": "positive",
+          "evidence_score": 0.759,
+          "status": "strong_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-direct-investment-abroad-2023_001_DIRECT_INVESTMENT_ABROAD_CHANGE_YOY_2025-03-04",
+          "period": "2025-03-04",
+          "value": 3.6,
+          "direction": "positive",
+          "evidence_score": 0.737,
+          "status": "useful_evidence"
+        }
+      ]
+    },
+    {
+      "signal_id": "SIG_0012",
+      "metric_name": "RETAIL_SALES_CHANGE_YOY",
+      "evidence_items": 36,
+      "strongest_evidence_id": "SG_SINGSTAT_financial-structure-of-singapore-corporate-sector-2023_002_RETAIL_SALES_CHANGE_YOY_2025-03-28",
+      "periods": [
+        "2026-03",
+        "2026-02",
+        "2026-01",
+        "2025-12",
+        "2025-11",
+        "2025-10",
+        "2025-08",
+        "2025-07",
+        "2025-06",
+        "2025-02",
+        "2025-03-28",
+        "2025-01",
+        "2024-11",
+        "2024-10",
+        "2024-08",
+        "2024-05",
+        "2024-03",
+        "2024-02",
+        "2024-04-04",
+        "2024-01"
+      ],
+      "direction_summary": {
+        "dominant_direction": "positive",
+        "positive_items": 28,
+        "negative_items": 5,
+        "mixed_or_neutral_items": 3,
+        "direction_agreement": 0.778
+      },
+      "scores": {
+        "max_evidence_score": 0.677,
+        "average_evidence_score": 0.621,
+        "signal_strength_score": 0.7
+      },
+      "signal_band": "useful_signal",
+      "interpretation": "RETAIL_SALES_CHANGE_YOY appears across 36 useful/strong evidence items. Use as grouped signal rather than repeating individual observations.",
+      "representative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_financial-structure-of-singapore-corporate-sector-2023_002_RETAIL_SALES_CHANGE_YOY_2025-03-28",
+          "period": "2025-03-28",
+          "value": 81.3,
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.677,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_monthly-retail-sales-index-and-food-beverage-services-index-jan2025_003_RETAIL_SALES_CHANGE_YOY_2025-01",
+          "period": "2025-01",
+          "value": 10.4,
+          "direction": "positive",
+          "evidence_score": 0.662,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_financial-structure-of-singapores-corporate-sector-2022_002_RETAIL_SALES_CHANGE_YOY_2024-04-04",
+          "period": "2024-04-04",
+          "value": 79.9,
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.662,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_monthly-retail-sales-index-and-food-beverage-services-index-feb2026_002_RETAIL_SALES_CHANGE_YOY_2026-02",
+          "period": "2026-02",
+          "value": 11.2,
+          "direction": "positive",
+          "evidence_score": 0.65,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_monthly-retail-sales-index-and-food-beverage-services-index-feb2024_003_RETAIL_SALES_CHANGE_YOY_2024-02",
+          "period": "2024-02",
+          "value": 14.7,
+          "direction": "positive",
+          "evidence_score": 0.647,
+          "status": "useful_evidence"
+        }
+      ]
+    },
+    {
+      "signal_id": "SIG_0023",
+      "metric_name": "CPI_FULL_YEAR_YOY",
+      "evidence_items": 1,
+      "strongest_evidence_id": "SG_SINGSTAT_singapore-consumer-price-index-dec2025_003_CPI_FULL_YEAR_YOY_2025-12",
+      "periods": [
+        "2025-12"
+      ],
+      "direction_summary": {
+        "dominant_direction": "positive",
+        "positive_items": 1,
+        "negative_items": 0,
+        "mixed_or_neutral_items": 0,
+        "direction_agreement": 1
+      },
+      "scores": {
+        "max_evidence_score": 0.73,
+        "average_evidence_score": 0.73,
+        "signal_strength_score": 0.694
+      },
+      "signal_band": "useful_signal",
+      "interpretation": "CPI_FULL_YEAR_YOY appears as a single useful/strong evidence item.",
+      "representative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_singapore-consumer-price-index-dec2025_003_CPI_FULL_YEAR_YOY_2025-12",
+          "period": "2025-12",
+          "value": 0.9,
+          "direction": "positive",
+          "evidence_score": 0.73,
+          "status": "useful_evidence"
+        }
+      ]
+    },
+    {
+      "signal_id": "SIG_0019",
+      "metric_name": "PRIVATE_RESIDENTIAL_PRICE_INDEX_CHANGE_QOQ",
+      "evidence_items": 8,
+      "strongest_evidence_id": "SG_SINGSTAT_4th-quarter-2025-public-housing-data-and-upcoming-flat-supply_001_PRIVATE_RESIDENTIAL_PRICE_INDEX_CHANGE_QOQ_2025-Q4",
+      "periods": [
+        "2026-Q1",
+        "2025-Q4",
+        "2025-Q2",
+        "2025-Q1",
+        "2024-Q4",
+        "2024-Q3",
+        "2024-Q1"
+      ],
+      "direction_summary": {
+        "dominant_direction": "positive",
+        "positive_items": 7,
+        "negative_items": 1,
+        "mixed_or_neutral_items": 0,
+        "direction_agreement": 0.875
+      },
+      "scores": {
+        "max_evidence_score": 0.665,
+        "average_evidence_score": 0.625,
+        "signal_strength_score": 0.686
+      },
+      "signal_band": "useful_signal",
+      "interpretation": "PRIVATE_RESIDENTIAL_PRICE_INDEX_CHANGE_QOQ appears across 8 useful/strong evidence items. Use as grouped signal rather than repeating individual observations.",
+      "representative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_4th-quarter-2025-public-housing-data-and-upcoming-flat-supply_001_PRIVATE_RESIDENTIAL_PRICE_INDEX_CHANGE_QOQ_2025-Q4",
+          "period": "2025-Q4",
+          "value": 27.2,
+          "direction": "negative",
+          "evidence_score": 0.665,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_upcoming-flat-supply-and-4th-quarter-2024-public-housing-data_002_PRIVATE_RESIDENTIAL_PRICE_INDEX_CHANGE_QOQ_2024-Q4",
+          "period": "2024-Q4",
+          "value": 21.1,
+          "direction": "positive",
+          "evidence_score": 0.65,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_upcoming-flat-supply-and-3rd-quarter-2024-public-housing-data_002_PRIVATE_RESIDENTIAL_PRICE_INDEX_CHANGE_QOQ_2024-Q3",
+          "period": "2024-Q3",
+          "value": 10.7,
+          "direction": "positive",
+          "evidence_score": 0.635,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_2nd-quarter-2025-public-housing-data-and-upcoming-flat-supply_002_PRIVATE_RESIDENTIAL_PRICE_INDEX_CHANGE_QOQ_2025-Q2",
+          "period": "2025-Q2",
+          "value": 7.8,
+          "direction": "positive",
+          "evidence_score": 0.627,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_upcoming-flat-supply-and-1st-quarter-2024-public-housing-data_002_PRIVATE_RESIDENTIAL_PRICE_INDEX_CHANGE_QOQ_2024-Q1",
+          "period": "2024-Q1",
+          "value": 8,
+          "direction": "positive",
+          "evidence_score": 0.612,
+          "status": "useful_evidence"
+        }
+      ]
+    },
+    {
+      "signal_id": "SIG_0009",
+      "metric_name": "DOMESTIC_WHOLESALE_SALES_CHANGE_YOY",
+      "evidence_items": 12,
+      "strongest_evidence_id": "SG_SINGSTAT_wholesale-trade-index-2q2025_001_DOMESTIC_WHOLESALE_SALES_CHANGE_YOY_2025-Q2",
+      "periods": [
+        "2026-Q1",
+        "2025-Q3",
+        "2025-Q2",
+        "2025-Q1",
+        "2024-Q3",
+        "2024-Q2",
+        "2024-Q1",
+        "2023-Q4"
+      ],
+      "direction_summary": {
+        "dominant_direction": "positive",
+        "positive_items": 7,
+        "negative_items": 4,
+        "mixed_or_neutral_items": 1,
+        "direction_agreement": 0.583
+      },
+      "scores": {
+        "max_evidence_score": 0.65,
+        "average_evidence_score": 0.627,
+        "signal_strength_score": 0.67
+      },
+      "signal_band": "useful_signal",
+      "interpretation": "DOMESTIC_WHOLESALE_SALES_CHANGE_YOY appears across 12 useful/strong evidence items. Use as grouped signal rather than repeating individual observations.",
+      "representative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_wholesale-trade-index-2q2025_001_DOMESTIC_WHOLESALE_SALES_CHANGE_YOY_2025-Q2",
+          "period": "2025-Q2",
+          "value": 10.9,
+          "direction": "negative",
+          "evidence_score": 0.65,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_wholesale-trade-index-2q2024_001_DOMESTIC_WHOLESALE_SALES_CHANGE_YOY_2024-Q2",
+          "period": "2024-Q2",
+          "value": 11.3,
+          "direction": "positive",
+          "evidence_score": 0.635,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_wholesale-trade-index-2q2024_002_DOMESTIC_WHOLESALE_SALES_CHANGE_YOY_2024-Q2",
+          "period": "2024-Q2",
+          "value": 15.4,
+          "direction": "positive",
+          "evidence_score": 0.635,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_wholesale-trade-index-1q2024_002_DOMESTIC_WHOLESALE_SALES_CHANGE_YOY_2024-Q1",
+          "period": "2024-Q1",
+          "value": 13.5,
+          "direction": "positive",
+          "evidence_score": 0.635,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_wholesale-trade-series-1q2026_001_DOMESTIC_WHOLESALE_SALES_CHANGE_YOY_2026-Q1",
+          "period": "2026-Q1",
+          "value": 6.9,
+          "direction": "positive",
+          "evidence_score": 0.627,
+          "status": "useful_evidence"
+        }
+      ]
+    },
+    {
+      "signal_id": "SIG_0010",
+      "metric_name": "FOREIGN_WHOLESALE_SALES_CHANGE_YOY",
+      "evidence_items": 8,
+      "strongest_evidence_id": "SG_SINGSTAT_wholesale-trade-series-1q2026_004_FOREIGN_WHOLESALE_SALES_CHANGE_YOY_2026-Q1",
+      "periods": [
+        "2026-Q1",
+        "2025-Q3",
+        "2025-Q2",
+        "2025-Q1",
+        "2024-Q2"
+      ],
+      "direction_summary": {
+        "dominant_direction": "positive",
+        "positive_items": 6,
+        "negative_items": 2,
+        "mixed_or_neutral_items": 0,
+        "direction_agreement": 0.75
+      },
+      "scores": {
+        "max_evidence_score": 0.65,
+        "average_evidence_score": 0.622,
+        "signal_strength_score": 0.665
+      },
+      "signal_band": "useful_signal",
+      "interpretation": "FOREIGN_WHOLESALE_SALES_CHANGE_YOY appears across 8 useful/strong evidence items. Use as grouped signal rather than repeating individual observations.",
+      "representative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_wholesale-trade-series-1q2026_004_FOREIGN_WHOLESALE_SALES_CHANGE_YOY_2026-Q1",
+          "period": "2026-Q1",
+          "value": 14.6,
+          "direction": "positive",
+          "evidence_score": 0.65,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_wholesale-trade-index-3q2025_003_FOREIGN_WHOLESALE_SALES_CHANGE_YOY_2025-Q3",
+          "period": "2025-Q3",
+          "value": 5.1,
+          "direction": "negative",
+          "evidence_score": 0.627,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_wholesale-trade-index-2q2025_003_FOREIGN_WHOLESALE_SALES_CHANGE_YOY_2025-Q2",
+          "period": "2025-Q2",
+          "value": 7.1,
+          "direction": "negative",
+          "evidence_score": 0.627,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_wholesale-trade-index-1q2025_004_FOREIGN_WHOLESALE_SALES_CHANGE_YOY_2025-Q1",
+          "period": "2025-Q1",
+          "value": 7.7,
+          "direction": "positive",
+          "evidence_score": 0.627,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_wholesale-trade-index-2q2024_003_FOREIGN_WHOLESALE_SALES_CHANGE_YOY_2024-Q2",
+          "period": "2024-Q2",
+          "value": 8.6,
+          "direction": "positive",
+          "evidence_score": 0.624,
+          "status": "useful_evidence"
+        }
+      ]
+    },
+    {
+      "signal_id": "SIG_0024",
+      "metric_name": "INDUSTRIAL_OCCUPANCY_RATE",
+      "evidence_items": 9,
+      "strongest_evidence_id": "SG_SINGSTAT_jtc-quarterly-market-report-for-4q2025_003_INDUSTRIAL_OCCUPANCY_RATE_2025-Q4",
+      "periods": [
+        "2025-Q4",
+        "2025-Q3",
+        "2025-Q2",
+        "2025-Q1",
+        "2024-Q4",
+        "2024-Q3",
+        "2024-Q2",
+        "2024-Q1",
+        "2023-Q4"
+      ],
+      "direction_summary": {
+        "dominant_direction": "positive",
+        "positive_items": 3,
+        "negative_items": 3,
+        "mixed_or_neutral_items": 3,
+        "direction_agreement": 0.333
+      },
+      "scores": {
+        "max_evidence_score": 0.672,
+        "average_evidence_score": 0.662,
+        "signal_strength_score": 0.657
+      },
+      "signal_band": "useful_signal",
+      "interpretation": "INDUSTRIAL_OCCUPANCY_RATE appears across 9 useful/strong evidence items. Use as grouped signal rather than repeating individual observations.",
+      "representative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_jtc-quarterly-market-report-for-4q2025_003_INDUSTRIAL_OCCUPANCY_RATE_2025-Q4",
+          "period": "2025-Q4",
+          "value": 88.7,
+          "direction": "negative",
+          "evidence_score": 0.672,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_jtc-quarterly-market-report-for-3q2025_003_INDUSTRIAL_OCCUPANCY_RATE_2025-Q3",
+          "period": "2025-Q3",
+          "value": 89.1,
+          "direction": "positive",
+          "evidence_score": 0.672,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_jtc-quarterly-market-report-for-2q2025_003_INDUSTRIAL_OCCUPANCY_RATE_2025-Q2",
+          "period": "2025-Q2",
+          "value": 88.8,
+          "direction": "negative",
+          "evidence_score": 0.672,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_jtc-quarterly-market-report-for-1q2025_003_INDUSTRIAL_OCCUPANCY_RATE_2025-Q1",
+          "period": "2025-Q1",
+          "value": 89,
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.672,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_jtc-quarterly-market-report-for-4q2024_003_INDUSTRIAL_OCCUPANCY_RATE_2024-Q4",
+          "period": "2024-Q4",
+          "value": 89,
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.658,
+          "status": "useful_evidence"
+        }
+      ]
+    },
+    {
+      "signal_id": "SIG_0027",
+      "metric_name": "HOUSEHOLD_INCOME_CHANGE_PA",
+      "evidence_items": 2,
+      "strongest_evidence_id": "SG_SINGSTAT_report-on-the-household-expenditure-survey-2023_001_HOUSEHOLD_INCOME_CHANGE_PA_2024-11-28",
+      "periods": [
+        "2024-11-28"
+      ],
+      "direction_summary": {
+        "dominant_direction": "positive",
+        "positive_items": 2,
+        "negative_items": 0,
+        "mixed_or_neutral_items": 0,
+        "direction_agreement": 1
+      },
+      "scores": {
+        "max_evidence_score": 0.667,
+        "average_evidence_score": 0.667,
+        "signal_strength_score": 0.654
+      },
+      "signal_band": "useful_signal",
+      "interpretation": "HOUSEHOLD_INCOME_CHANGE_PA appears across 2 useful/strong evidence items. Use as grouped signal rather than repeating individual observations.",
+      "representative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_report-on-the-household-expenditure-survey-2023_001_HOUSEHOLD_INCOME_CHANGE_PA_2024-11-28",
+          "period": "2024-11-28",
+          "value": 4.1,
+          "direction": "positive",
+          "evidence_score": 0.667,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_report-on-the-household-expenditure-survey-2023_002_HOUSEHOLD_INCOME_CHANGE_PA_2024-11-28",
+          "period": "2024-11-28",
+          "value": 2.8,
+          "direction": "positive",
+          "evidence_score": 0.667,
+          "status": "useful_evidence"
+        }
+      ]
+    },
+    {
+      "signal_id": "SIG_0016",
+      "metric_name": "FDI_FLOW_CHANGE",
+      "evidence_items": 3,
+      "strongest_evidence_id": "SG_SINGSTAT_foreign-direct-investment-in-singapore-flows-2025_001_FDI_FLOW_CHANGE_2026-04-28",
+      "periods": [
+        "2026-04-28",
+        "2026-02-26",
+        "2025-02-26"
+      ],
+      "direction_summary": {
+        "dominant_direction": "positive",
+        "positive_items": 3,
+        "negative_items": 0,
+        "mixed_or_neutral_items": 0,
+        "direction_agreement": 1
+      },
+      "scores": {
+        "max_evidence_score": 0.654,
+        "average_evidence_score": 0.654,
+        "signal_strength_score": 0.653
+      },
+      "signal_band": "useful_signal",
+      "interpretation": "FDI_FLOW_CHANGE appears across 3 useful/strong evidence items. Use as grouped signal rather than repeating individual observations.",
+      "representative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_foreign-direct-investment-in-singapore-flows-2025_001_FDI_FLOW_CHANGE_2026-04-28",
+          "period": "2026-04-28",
+          "value": 8.4,
+          "direction": "positive",
+          "evidence_score": 0.654,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_foreign-direct-investment-in-singapore-2024_001_FDI_FLOW_CHANGE_2026-02-26",
+          "period": "2026-02-26",
+          "value": 9.5,
+          "direction": "positive",
+          "evidence_score": 0.654,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_foreign-direct-investment-in-singapore-2023_001_FDI_FLOW_CHANGE_2025-02-26",
+          "period": "2025-02-26",
+          "value": 9,
+          "direction": "positive",
+          "evidence_score": 0.654,
+          "status": "useful_evidence"
+        }
+      ]
+    },
+    {
+      "signal_id": "SIG_0028",
+      "metric_name": "UTILITIES_OPERATING_EXPENDITURE_CHANGE_YOY",
+      "evidence_items": 1,
+      "strongest_evidence_id": "SG_SINGSTAT_singapores-utilities-sector-2022_002_UTILITIES_OPERATING_EXPENDITURE_CHANGE_YOY_2024-03-27",
+      "periods": [
+        "2024-03-27"
+      ],
+      "direction_summary": {
+        "dominant_direction": "positive",
+        "positive_items": 1,
+        "negative_items": 0,
+        "mixed_or_neutral_items": 0,
+        "direction_agreement": 1
+      },
+      "scores": {
+        "max_evidence_score": 0.673,
+        "average_evidence_score": 0.673,
+        "signal_strength_score": 0.648
+      },
+      "signal_band": "useful_signal",
+      "interpretation": "UTILITIES_OPERATING_EXPENDITURE_CHANGE_YOY appears as a single useful/strong evidence item.",
+      "representative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-utilities-sector-2022_002_UTILITIES_OPERATING_EXPENDITURE_CHANGE_YOY_2024-03-27",
+          "period": "2024-03-27",
+          "value": 30,
+          "direction": "positive",
+          "evidence_score": 0.673,
+          "status": "useful_evidence"
+        }
+      ]
+    },
+    {
+      "signal_id": "SIG_0025",
+      "metric_name": "FOREIGN_AFFILIATE_VALUE_ADDED_CHANGE_YOY",
+      "evidence_items": 6,
+      "strongest_evidence_id": "SG_SINGSTAT_statistics-of-foreign-affiliates-in-singapore-2023_001_FOREIGN_AFFILIATE_VALUE_ADDED_CHANGE_YOY_2025-06-30",
+      "periods": [
+        "2025-06-30",
+        "2024-06-27"
+      ],
+      "direction_summary": {
+        "dominant_direction": "positive",
+        "positive_items": 3,
+        "negative_items": 3,
+        "mixed_or_neutral_items": 0,
+        "direction_agreement": 0.5
+      },
+      "scores": {
+        "max_evidence_score": 0.67,
+        "average_evidence_score": 0.66,
+        "signal_strength_score": 0.642
+      },
+      "signal_band": "useful_signal",
+      "interpretation": "FOREIGN_AFFILIATE_VALUE_ADDED_CHANGE_YOY appears across 6 useful/strong evidence items. Use as grouped signal rather than repeating individual observations.",
+      "representative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_statistics-of-foreign-affiliates-in-singapore-2023_001_FOREIGN_AFFILIATE_VALUE_ADDED_CHANGE_YOY_2025-06-30",
+          "period": "2025-06-30",
+          "value": 19.8,
+          "direction": "negative",
+          "evidence_score": 0.67,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_statistics-of-foreign-affiliates-in-singapore-2022_001_FOREIGN_AFFILIATE_VALUE_ADDED_CHANGE_YOY_2024-06-27",
+          "period": "2024-06-27",
+          "value": 29.6,
+          "direction": "positive",
+          "evidence_score": 0.67,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_statistics-of-foreign-affiliates-in-singapore-2022_003_FOREIGN_AFFILIATE_VALUE_ADDED_CHANGE_YOY_2024-06-27",
+          "period": "2024-06-27",
+          "value": 21,
+          "direction": "positive",
+          "evidence_score": 0.67,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_statistics-of-foreign-affiliates-in-singapore-2022_002_FOREIGN_AFFILIATE_VALUE_ADDED_CHANGE_YOY_2024-06-27",
+          "period": "2024-06-27",
+          "value": 16,
+          "direction": "positive",
+          "evidence_score": 0.655,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_statistics-of-foreign-affiliates-in-singapore-2023_002_FOREIGN_AFFILIATE_VALUE_ADDED_CHANGE_YOY_2025-06-30",
+          "period": "2025-06-30",
+          "value": 7.7,
+          "direction": "negative",
+          "evidence_score": 0.647,
+          "status": "useful_evidence"
+        }
+      ]
+    },
+    {
+      "signal_id": "SIG_0017",
+      "metric_name": "CORPORATE_SECTOR_TOTAL_ASSETS_CHANGE_YOY",
+      "evidence_items": 2,
+      "strongest_evidence_id": "SG_SINGSTAT_financial-structure-of-singapore-corporate-sector-2024_001_CORPORATE_SECTOR_TOTAL_ASSETS_CHANGE_YOY_2026-04-27",
+      "periods": [
+        "2026-04-27",
+        "2024-04-04"
+      ],
+      "direction_summary": {
+        "dominant_direction": "positive",
+        "positive_items": 2,
+        "negative_items": 0,
+        "mixed_or_neutral_items": 0,
+        "direction_agreement": 1
+      },
+      "scores": {
+        "max_evidence_score": 0.642,
+        "average_evidence_score": 0.623,
+        "signal_strength_score": 0.627
+      },
+      "signal_band": "useful_signal",
+      "interpretation": "CORPORATE_SECTOR_TOTAL_ASSETS_CHANGE_YOY appears across 2 useful/strong evidence items. Use as grouped signal rather than repeating individual observations.",
+      "representative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_financial-structure-of-singapore-corporate-sector-2024_001_CORPORATE_SECTOR_TOTAL_ASSETS_CHANGE_YOY_2026-04-27",
+          "period": "2026-04-27",
+          "value": 6.8,
+          "direction": "positive",
+          "evidence_score": 0.642,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_financial-structure-of-singapores-corporate-sector-2022_001_CORPORATE_SECTOR_TOTAL_ASSETS_CHANGE_YOY_2024-04-04",
+          "period": "2024-04-04",
+          "value": 2.9,
+          "direction": "positive",
+          "evidence_score": 0.605,
+          "status": "useful_evidence"
+        }
+      ]
+    },
+    {
+      "signal_id": "SIG_0022",
+      "metric_name": "HDB_RENTED_FLATS_CHANGE_QOQ",
+      "evidence_items": 1,
+      "strongest_evidence_id": "SG_SINGSTAT_4th-quarter-2025-public-housing-data-and-upcoming-flat-supply_002_HDB_RENTED_FLATS_CHANGE_QOQ_2025-Q4",
+      "periods": [
+        "2025-Q4"
+      ],
+      "direction_summary": {
+        "dominant_direction": "negative",
+        "positive_items": 0,
+        "negative_items": 1,
+        "mixed_or_neutral_items": 0,
+        "direction_agreement": 1
+      },
+      "scores": {
+        "max_evidence_score": 0.635,
+        "average_evidence_score": 0.635,
+        "signal_strength_score": 0.618
+      },
+      "signal_band": "useful_signal",
+      "interpretation": "HDB_RENTED_FLATS_CHANGE_QOQ appears as a single useful/strong evidence item.",
+      "representative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_4th-quarter-2025-public-housing-data-and-upcoming-flat-supply_002_HDB_RENTED_FLATS_CHANGE_QOQ_2025-Q4",
+          "period": "2025-Q4",
+          "value": 5.6,
+          "direction": "negative",
+          "evidence_score": 0.635,
+          "status": "useful_evidence"
+        }
+      ]
+    },
+    {
+      "signal_id": "SIG_0026",
+      "metric_name": "UTILITIES_OPERATING_REVENUE_CHANGE_YOY",
+      "evidence_items": 2,
+      "strongest_evidence_id": "SG_SINGSTAT_singapores-utilities-sector-2022_001_UTILITIES_OPERATING_REVENUE_CHANGE_YOY_2024-03-27",
+      "periods": [
+        "2025-03-26",
+        "2024-03-27"
+      ],
+      "direction_summary": {
+        "dominant_direction": "positive",
+        "positive_items": 1,
+        "negative_items": 0,
+        "mixed_or_neutral_items": 1,
+        "direction_agreement": 0.5
+      },
+      "scores": {
+        "max_evidence_score": 0.665,
+        "average_evidence_score": 0.643,
+        "signal_strength_score": 0.594
+      },
+      "signal_band": "weak_signal",
+      "interpretation": "UTILITIES_OPERATING_REVENUE_CHANGE_YOY appears across 2 useful/strong evidence items. Use as grouped signal rather than repeating individual observations.",
+      "representative_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-utilities-sector-2022_001_UTILITIES_OPERATING_REVENUE_CHANGE_YOY_2024-03-27",
+          "period": "2024-03-27",
+          "value": 33,
+          "direction": "mixed_or_neutral",
+          "evidence_score": 0.665,
+          "status": "useful_evidence"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapore-utilities-sector-2023_001_UTILITIES_OPERATING_REVENUE_CHANGE_YOY_2025-03-26",
+          "period": "2025-03-26",
+          "value": 4.7,
+          "direction": "positive",
+          "evidence_score": 0.62,
+          "status": "useful_evidence"
+        }
+      ]
+    }
+  ]
+}

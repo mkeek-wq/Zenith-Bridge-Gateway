@@ -1,0 +1,196 @@
+{
+  "registry_version": "experience-pattern-engine-v0.1",
+  "created_at": "2026-06-08T11:10:15.481Z",
+  "doctrine": {
+    "recurring_patterns_are_not_principles": true,
+    "repeated_experience_informs_attention_not_truth": true,
+    "evidence_remains_primary": true,
+    "human_review_required_for_validation": true
+  },
+  "inputs": {
+    "registry_items": 10
+  },
+  "summary": {
+    "patterns_created": 6,
+    "strong_patterns": 0,
+    "moderate_patterns": 1,
+    "weak_patterns": 0,
+    "insufficient_patterns": 5
+  },
+  "experience_patterns": [
+    {
+      "pattern_id": "EXP_PATTERN_0006",
+      "pattern_key": "contradiction_pattern",
+      "mechanism_id": null,
+      "mechanism_name": null,
+      "experience_types": [
+        "contradiction_pattern"
+      ],
+      "registry_items": 5,
+      "total_observations": 5,
+      "repeated_items": 0,
+      "average_confidence_score": 0.709,
+      "pattern_strength_score": 0.609,
+      "pattern_band": "moderate_recurring_pattern",
+      "supporting_signals": [
+        "BUSINESS_RECEIPTS_CHANGE_YOY",
+        "HOUSEHOLD_NET_WORTH_CHANGE_YOY",
+        "PERSONAL_DISPOSABLE_INCOME_CHANGE_YOY",
+        "RETAIL_SALES_CHANGE_YOY",
+        "PRIVATE_RESIDENTIAL_PRICE_INDEX_CHANGE_QOQ",
+        "HDB_RENTED_FLATS_CHANGE_QOQ",
+        "MANUFACTURING_OUTPUT_CHANGE_MOM",
+        "GDP_GROWTH_YOY",
+        "NODX_CHANGE_YOY",
+        "FDI_FLOW_CHANGE",
+        "INTERNATIONAL_INVESTMENT_POSITION_CHANGE_QOQ",
+        "DIRECT_INVESTMENT_ABROAD_CHANGE_YOY"
+      ],
+      "interpretation": "Experience pattern is recurring enough to support monitoring and future review.",
+      "governance": {
+        "pattern_is_not_principle": true,
+        "recurring_experience_is_not_validation": true,
+        "human_review_required_for_mechanism_changes": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "pattern_id": "EXP_PATTERN_0004",
+      "pattern_key": "Household Balance Sheet Transmission",
+      "mechanism_id": null,
+      "mechanism_name": "Household Balance Sheet Transmission",
+      "experience_types": [
+        "candidate_discovery_pattern"
+      ],
+      "registry_items": 1,
+      "total_observations": 1,
+      "repeated_items": 0,
+      "average_confidence_score": 0.708,
+      "pattern_strength_score": 0.348,
+      "pattern_band": "insufficient_pattern",
+      "supporting_signals": [
+        "HOUSEHOLD_NET_WORTH_CHANGE_YOY"
+      ],
+      "interpretation": "Experience pattern remains early-stage or weak.",
+      "governance": {
+        "pattern_is_not_principle": true,
+        "recurring_experience_is_not_validation": true,
+        "human_review_required_for_mechanism_changes": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "pattern_id": "EXP_PATTERN_0005",
+      "pattern_key": "Services Receipts Momentum",
+      "mechanism_id": null,
+      "mechanism_name": "Services Receipts Momentum",
+      "experience_types": [
+        "candidate_discovery_pattern"
+      ],
+      "registry_items": 1,
+      "total_observations": 1,
+      "repeated_items": 0,
+      "average_confidence_score": 0.705,
+      "pattern_strength_score": 0.347,
+      "pattern_band": "insufficient_pattern",
+      "supporting_signals": [
+        "BUSINESS_RECEIPTS_CHANGE_YOY",
+        "BUSINESS_OUTLOOK_UPBEAT_SHARE"
+      ],
+      "interpretation": "Experience pattern remains early-stage or weak.",
+      "governance": {
+        "pattern_is_not_principle": true,
+        "recurring_experience_is_not_validation": true,
+        "human_review_required_for_mechanism_changes": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "pattern_id": "EXP_PATTERN_0001",
+      "pattern_key": "MKT_006",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "experience_types": [
+        "mechanism_attribution_pattern"
+      ],
+      "registry_items": 1,
+      "total_observations": 1,
+      "repeated_items": 0,
+      "average_confidence_score": 0.48,
+      "pattern_strength_score": 0.257,
+      "pattern_band": "insufficient_pattern",
+      "supporting_signals": [
+        "CPI_GROWTH_YOY",
+        "GDP_GROWTH_YOY",
+        "CPI_GROWTH_MOM",
+        "PERSONAL_SAVING_RATE",
+        "INTERNATIONAL_INVESTMENT_POSITION_CHANGE_QOQ"
+      ],
+      "interpretation": "Experience pattern remains early-stage or weak.",
+      "governance": {
+        "pattern_is_not_principle": true,
+        "recurring_experience_is_not_validation": true,
+        "human_review_required_for_mechanism_changes": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "pattern_id": "EXP_PATTERN_0002",
+      "pattern_key": "MKT_010",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "experience_types": [
+        "mechanism_attribution_pattern"
+      ],
+      "registry_items": 1,
+      "total_observations": 1,
+      "repeated_items": 0,
+      "average_confidence_score": 0.455,
+      "pattern_strength_score": 0.247,
+      "pattern_band": "insufficient_pattern",
+      "supporting_signals": [
+        "NODX_CHANGE_YOY",
+        "GDP_GROWTH_YOY",
+        "MANUFACTURING_OUTPUT_CHANGE_MOM",
+        "BUSINESS_RECEIPTS_CHANGE_YOY",
+        "BUSINESS_OUTLOOK_UPBEAT_SHARE"
+      ],
+      "interpretation": "Experience pattern remains early-stage or weak.",
+      "governance": {
+        "pattern_is_not_principle": true,
+        "recurring_experience_is_not_validation": true,
+        "human_review_required_for_mechanism_changes": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "pattern_id": "EXP_PATTERN_0003",
+      "pattern_key": "MKT_002",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "experience_types": [
+        "mechanism_attribution_pattern"
+      ],
+      "registry_items": 1,
+      "total_observations": 1,
+      "repeated_items": 0,
+      "average_confidence_score": 0.336,
+      "pattern_strength_score": 0.199,
+      "pattern_band": "insufficient_pattern",
+      "supporting_signals": [
+        "MANUFACTURING_OUTPUT_CHANGE_MOM",
+        "NODX_CHANGE_YOY",
+        "CPI_GROWTH_YOY",
+        "GDP_GROWTH_YOY",
+        "CPI_GROWTH_MOM"
+      ],
+      "interpretation": "Experience pattern remains early-stage or weak.",
+      "governance": {
+        "pattern_is_not_principle": true,
+        "recurring_experience_is_not_validation": true,
+        "human_review_required_for_mechanism_changes": true,
+        "evidence_remains_primary": true
+      }
+    }
+  ]
+}

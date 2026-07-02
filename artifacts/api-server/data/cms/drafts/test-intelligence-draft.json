@@ -1,0 +1,17 @@
+{
+  "id": "cms_draft_1781409907786",
+  "source": "znbw_intelligence_engine",
+  "candidate_id": "CAND_0001",
+  "status": "draft",
+  "title": "Test Intelligence Draft",
+  "slug": "test-intelligence-draft",
+  "markdown": "# Test Intelligence Draft\n\nThis is a test draft body from the Intelligence Center promotion bridge. It is not for publication.",
+  "created_at": "2026-06-14T04:05:07.786Z",
+  "updated_at": "2026-06-14T04:05:07.786Z",
+  "governance": {
+    "publication_ready": false,
+    "requires_editorial_review": true,
+    "requires_source_review": true,
+    "generated_from_candidate": true
+  }
+}

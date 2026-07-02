@@ -1,0 +1,250 @@
+{
+  "evidence_driver_match_test_version": "evidence-driver-match-test-v0.1",
+  "generated_at": "2026-06-03T12:07:00.884Z",
+  "source_taxonomy": "data/intelligence-driver-library/driver-evidence-taxonomy-v0.1.json",
+  "test_evidence_count": 8,
+  "results": [
+    {
+      "evidence_text": "Global chip shortage increased demand for foundry capacity.",
+      "matches": [
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 7,
+          "matched_phrases": [
+            "chip shortage",
+            "global chip shortage"
+          ],
+          "match_score": 14
+        }
+      ],
+      "top_match": {
+        "driver_id": "MKT_008",
+        "driver_name": "Semiconductor / Electronics Cycle",
+        "attribution_bucket": "market_effect",
+        "default_score": 7,
+        "matched_phrases": [
+          "chip shortage",
+          "global chip shortage"
+        ],
+        "match_score": 14
+      }
+    },
+    {
+      "evidence_text": "COVID lockdowns and travel restrictions caused a sharp demand fall.",
+      "matches": [
+        {
+          "driver_id": "MKT_005",
+          "driver_name": "Operational Disruption",
+          "attribution_bucket": "operational_effect",
+          "default_score": 7,
+          "matched_phrases": [
+            "lockdown"
+          ],
+          "match_score": 7
+        },
+        {
+          "driver_id": "MKT_010",
+          "driver_name": "Demand Shock / External Downturn",
+          "attribution_bucket": "market_effect",
+          "default_score": 7,
+          "matched_phrases": [
+            "sharp demand fall"
+          ],
+          "match_score": 7
+        }
+      ],
+      "top_match": {
+        "driver_id": "MKT_005",
+        "driver_name": "Operational Disruption",
+        "attribution_bucket": "operational_effect",
+        "default_score": 7,
+        "matched_phrases": [
+          "lockdown"
+        ],
+        "match_score": 7
+      }
+    },
+    {
+      "evidence_text": "Refinery maintenance reduced petroleum production during the period.",
+      "matches": [
+        {
+          "driver_id": "MKT_007",
+          "driver_name": "Energy Demand / Refining Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "refinery maintenance"
+          ],
+          "match_score": 6
+        }
+      ],
+      "top_match": {
+        "driver_id": "MKT_007",
+        "driver_name": "Energy Demand / Refining Cycle",
+        "attribution_bucket": "market_effect",
+        "default_score": 6,
+        "matched_phrases": [
+          "refinery maintenance"
+        ],
+        "match_score": 6
+      }
+    },
+    {
+      "evidence_text": "Government tax incentives supported new plant investment.",
+      "matches": [
+        {
+          "driver_id": "MKT_006",
+          "driver_name": "Policy / Regulatory Impact",
+          "attribution_bucket": "policy_effect",
+          "default_score": 7,
+          "matched_phrases": [
+            "tax incentive"
+          ],
+          "match_score": 7
+        },
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "attribution_bucket": "operational_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "new plant"
+          ],
+          "match_score": 6
+        }
+      ],
+      "top_match": {
+        "driver_id": "MKT_006",
+        "driver_name": "Policy / Regulatory Impact",
+        "attribution_bucket": "policy_effect",
+        "default_score": 7,
+        "matched_phrases": [
+          "tax incentive"
+        ],
+        "match_score": 7
+      }
+    },
+    {
+      "evidence_text": "Inventory restocking lifted electronics output after earlier drawdown.",
+      "matches": [
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "attribution_bucket": "portfolio_effect",
+          "default_score": 5,
+          "matched_phrases": [
+            "inventory restocking",
+            "restocking"
+          ],
+          "match_score": 10
+        }
+      ],
+      "top_match": {
+        "driver_id": "MKT_002",
+        "driver_name": "Inventory Cycle / Restocking",
+        "attribution_bucket": "portfolio_effect",
+        "default_score": 5,
+        "matched_phrases": [
+          "inventory restocking",
+          "restocking"
+        ],
+        "match_score": 10
+      }
+    },
+    {
+      "evidence_text": "Data center demand and consumer electronics demand supported semiconductor output.",
+      "matches": [
+        {
+          "driver_id": "MKT_008",
+          "driver_name": "Semiconductor / Electronics Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 7,
+          "matched_phrases": [
+            "electronics demand",
+            "consumer electronics"
+          ],
+          "match_score": 14
+        },
+        {
+          "driver_id": "MKT_001",
+          "driver_name": "Global Demand Surge",
+          "attribution_bucket": "market_effect",
+          "default_score": 5,
+          "matched_phrases": [
+            "data center demand"
+          ],
+          "match_score": 5
+        }
+      ],
+      "top_match": {
+        "driver_id": "MKT_008",
+        "driver_name": "Semiconductor / Electronics Cycle",
+        "attribution_bucket": "market_effect",
+        "default_score": 7,
+        "matched_phrases": [
+          "electronics demand",
+          "consumer electronics"
+        ],
+        "match_score": 14
+      }
+    },
+    {
+      "evidence_text": "Export decline reflected weak external demand and trade slowdown.",
+      "matches": [
+        {
+          "driver_id": "MKT_003",
+          "driver_name": "Export Demand Weakness",
+          "attribution_bucket": "market_effect",
+          "default_score": 5,
+          "matched_phrases": [
+            "weak external demand",
+            "export decline",
+            "trade slowdown"
+          ],
+          "match_score": 15
+        }
+      ],
+      "top_match": {
+        "driver_id": "MKT_003",
+        "driver_name": "Export Demand Weakness",
+        "attribution_bucket": "market_effect",
+        "default_score": 5,
+        "matched_phrases": [
+          "weak external demand",
+          "export decline",
+          "trade slowdown"
+        ],
+        "match_score": 15
+      }
+    },
+    {
+      "evidence_text": "Production ramp-up at a new facility increased capacity.",
+      "matches": [
+        {
+          "driver_id": "MKT_004",
+          "driver_name": "Capacity Expansion",
+          "attribution_bucket": "operational_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "production ramp-up",
+            "new facility"
+          ],
+          "match_score": 12
+        }
+      ],
+      "top_match": {
+        "driver_id": "MKT_004",
+        "driver_name": "Capacity Expansion",
+        "attribution_bucket": "operational_effect",
+        "default_score": 6,
+        "matched_phrases": [
+          "production ramp-up",
+          "new facility"
+        ],
+        "match_score": 12
+      }
+    }
+  ]
+}

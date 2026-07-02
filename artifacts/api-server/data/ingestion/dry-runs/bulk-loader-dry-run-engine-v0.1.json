@@ -1,0 +1,56 @@
+{
+  "registry_version": "bulk-loader-dry-run-engine-v0.1",
+  "created_at": "2026-06-09T07:18:52.359Z",
+  "doctrine": {
+    "dry_run_only": true,
+    "production_evidence_mutation_allowed": false,
+    "intelligence_mutation_allowed": false,
+    "human_review_required_before_ingestion": true
+  },
+  "inputs": {
+    "pending_directory": "data/ingestion/pending",
+    "files_detected": 1
+  },
+  "summary": {
+    "records_detected": 1,
+    "accepted_records": 1,
+    "rejected_records": 0,
+    "files_with_rejections": 0,
+    "dry_run_status": "dry_run_passed"
+  },
+  "file_reports": [
+    {
+      "file": "data/ingestion/pending/test-bulk-ingestion-v0.1.json",
+      "extension": ".json",
+      "size_bytes": 255,
+      "records_detected": 1,
+      "accepted_records": 1,
+      "rejected_records": 0,
+      "status": "file_passed_dry_run"
+    }
+  ],
+  "accepted_records": [
+    {
+      "candidate_record_id": "CAND_000001",
+      "source_file": "data/ingestion/pending/test-bulk-ingestion-v0.1.json",
+      "source_record_index": 0,
+      "metric_name": "TEST_SERVICES_ACTIVITY_INDEX",
+      "period": "2026-Q2",
+      "value": 7.2,
+      "source_title": "Controlled Test Source",
+      "evidence_window": "Test new candidate: services activity increased 7.2% year-on-year in 2026-Q2.",
+      "raw_record": {
+        "metric_name": "TEST_SERVICES_ACTIVITY_INDEX",
+        "period": "2026-Q2",
+        "value": 7.2,
+        "source_title": "Controlled Test Source",
+        "evidence_window": "Test new candidate: services activity increased 7.2% year-on-year in 2026-Q2."
+      },
+      "validation": {
+        "valid": true,
+        "issues": []
+      }
+    }
+  ],
+  "rejected_records": []
+}

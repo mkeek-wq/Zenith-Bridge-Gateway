@@ -1,0 +1,68 @@
+{
+  "registry_version": "verified-metrics-registry-v0.1",
+  "generated_at": "2026-06-11T01:36:44.411Z",
+  "input_queue": "data-request-queue-v0.1",
+  "seed_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+  "summary": {
+    "total_metrics": 3,
+    "verified": 0,
+    "pending": 3,
+    "graph_ready": 0
+  },
+  "metrics": [
+    {
+      "metric_id": "VMR_001",
+      "request_id": "DRQ_REQ_001",
+      "seed_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+      "country": "Singapore",
+      "metric_name": "Evidence claim",
+      "claim_supported": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles can be supported by Singapore-specific evidence.",
+      "preferred_source": "Singapore Department of Statistics",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "source_url": null,
+      "verified": false,
+      "verification_status": "pending_source_collection",
+      "article_ready": false,
+      "graph_ready": false,
+      "notes": "Placeholder metric record. Populate after source validation."
+    },
+    {
+      "metric_id": "VMR_002",
+      "request_id": "DRQ_REQ_002",
+      "seed_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+      "country": "Singapore",
+      "metric_name": "Evidence claim",
+      "claim_supported": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles may require sector or agency evidence.",
+      "preferred_source": "Relevant Singapore official agency",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "source_url": null,
+      "verified": false,
+      "verification_status": "pending_source_collection",
+      "article_ready": false,
+      "graph_ready": false,
+      "notes": "Placeholder metric record. Populate after source validation."
+    },
+    {
+      "metric_id": "VMR_003",
+      "request_id": "DRQ_REQ_003",
+      "seed_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+      "country": "Singapore",
+      "metric_name": "Evidence claim",
+      "claim_supported": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles may benefit from light macro comparison.",
+      "preferred_source": "World Bank / IEA / WTO / IMF where relevant",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "source_url": null,
+      "verified": false,
+      "verification_status": "pending_source_collection",
+      "article_ready": false,
+      "graph_ready": false,
+      "notes": "Placeholder metric record. Populate after source validation."
+    }
+  ]
+}

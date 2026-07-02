@@ -1,0 +1,35 @@
+{
+  "engine_version": "counter-evidence-engine-v0.2",
+  "generated_at": "2026-06-10T09:30:49.150Z",
+  "source_review_engine": "data/intelligence/mechanism-validation-review-engine-v0.1.json",
+  "mechanisms_reviewed": 1,
+  "blocking_counter_evidence_found": 0,
+  "counter_reviews": [
+    {
+      "mechanism_id": "MKT_010",
+      "counter_evidence_review_status": "counter_evidence_framework_created",
+      "counter_evidence_candidates": [
+        {
+          "counter_evidence_id": "CE-MKT_010-001",
+          "description": "Look for trade downturn cases where external demand shock was not the primary driver.",
+          "status": "not_yet_observed",
+          "review_need": "future_replay_required"
+        },
+        {
+          "counter_evidence_id": "CE-MKT_010-002",
+          "description": "Look for cases where NODX weakened despite stable or improving global trade conditions.",
+          "status": "not_yet_observed",
+          "review_need": "macro_cross_check_required"
+        },
+        {
+          "counter_evidence_id": "CE-MKT_010-003",
+          "description": "Look for domestic-policy or sector-specific explanations that outperform external demand shock.",
+          "status": "not_yet_observed",
+          "review_need": "alternative_mechanism_review_required"
+        }
+      ],
+      "blocking_counter_evidence_found": false,
+      "governance_note": "Absence of observed counter-evidence is not proof of validity. It only means no blocking counter-evidence has been registered yet."
+    }
+  ]
+}

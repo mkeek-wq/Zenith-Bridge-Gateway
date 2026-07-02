@@ -1,0 +1,282 @@
+{
+  "dashboard_version": "coverage-hardening-dashboard-v0.2",
+  "generated_at": "2026-06-06T15:06:51.203Z",
+  "source_coverage_dashboard": "data/intelligence/coverage-hardening-dashboard-v0.1.json",
+  "source_diversity_registry": "data/intelligence/experience-diversity-registry-v0.1.json",
+  "policy": {
+    "principle": "Coverage hardening dashboard v0.2 combines coverage and diversity diagnostics to gate principle extraction. It is diagnostic only and does not mutate production memory.",
+    "production_mutation_allowed": false,
+    "human_review_required_before_principle_extraction": true
+  },
+  "scoring_notes": {
+    "principle_readiness_score": "coverage_score * 0.55 + diversity_score * 0.45",
+    "purpose": "Prevents principle extraction from high-coverage but low-diversity experience clusters."
+  },
+  "summary": {
+    "drivers_assessed": 13,
+    "principle_candidate": 3,
+    "watchlist_candidate": 2,
+    "coverage_strong_diversity_limited": 7,
+    "coverage_limited_diversity_acceptable": 0,
+    "not_ready": 1,
+    "missing_diversity": 1,
+    "drivers_with_warnings": 4
+  },
+  "drivers": [
+    {
+      "driver_id": "MKT_001",
+      "coverage_score": 0,
+      "coverage_status": "thin_or_missing",
+      "diversity_score": 0,
+      "diversity_status": "missing",
+      "principle_readiness_score": 0,
+      "principle_readiness_status": "not_ready",
+      "case_count": 0,
+      "periods": 0,
+      "warnings": [],
+      "hardening_recommendation": "Not ready for principle extraction. Continue hardening.",
+      "diagnostic": {
+        "coverage_present": true,
+        "diversity_present": false,
+        "parked_or_no_primary_experience": true
+      }
+    },
+    {
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness",
+      "coverage_score": 0.715,
+      "coverage_status": "moderately_covered",
+      "diversity_score": 0.513,
+      "diversity_status": "limited",
+      "principle_readiness_score": 0.624,
+      "principle_readiness_status": "coverage_strong_diversity_limited",
+      "case_count": 5,
+      "periods": 3,
+      "warnings": [
+        "HIGH_REPLAY_FAMILY_CONCENTRATION",
+        "SECTOR_CONCENTRATION"
+      ],
+      "hardening_recommendation": "Do not extract broad principles yet. Add more diverse cases across replay families, sectors, or periods.",
+      "diagnostic": {
+        "coverage_present": true,
+        "diversity_present": true,
+        "parked_or_no_primary_experience": false
+      }
+    },
+    {
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "coverage_score": 0.726,
+      "coverage_status": "moderately_covered",
+      "diversity_score": 0.545,
+      "diversity_status": "limited",
+      "principle_readiness_score": 0.645,
+      "principle_readiness_status": "coverage_strong_diversity_limited",
+      "case_count": 6,
+      "periods": 2,
+      "warnings": [
+        "HIGH_REPLAY_FAMILY_CONCENTRATION"
+      ],
+      "hardening_recommendation": "Do not extract broad principles yet. Add more diverse cases across replay families, sectors, or periods.",
+      "diagnostic": {
+        "coverage_present": true,
+        "diversity_present": true,
+        "parked_or_no_primary_experience": false
+      }
+    },
+    {
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "coverage_score": 0.803,
+      "coverage_status": "well_covered",
+      "diversity_score": 0.508,
+      "diversity_status": "limited",
+      "principle_readiness_score": 0.67,
+      "principle_readiness_status": "coverage_strong_diversity_limited",
+      "case_count": 6,
+      "periods": 2,
+      "warnings": [
+        "HIGH_REPLAY_FAMILY_CONCENTRATION"
+      ],
+      "hardening_recommendation": "Do not extract broad principles yet. Add more diverse cases across replay families, sectors, or periods.",
+      "diagnostic": {
+        "coverage_present": true,
+        "diversity_present": true,
+        "parked_or_no_primary_experience": false
+      }
+    },
+    {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "coverage_score": 0.764,
+      "coverage_status": "well_covered",
+      "diversity_score": 0.649,
+      "diversity_status": "developing",
+      "principle_readiness_score": 0.712,
+      "principle_readiness_status": "watchlist_candidate",
+      "case_count": 7,
+      "periods": 1,
+      "warnings": [
+        "TEMPORAL_CONCENTRATION"
+      ],
+      "hardening_recommendation": "Promising but should remain under review before principle extraction.",
+      "diagnostic": {
+        "coverage_present": true,
+        "diversity_present": true,
+        "parked_or_no_primary_experience": false
+      }
+    },
+    {
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "coverage_score": 0.894,
+      "coverage_status": "well_covered",
+      "diversity_score": 0.494,
+      "diversity_status": "limited",
+      "principle_readiness_score": 0.714,
+      "principle_readiness_status": "coverage_strong_diversity_limited",
+      "case_count": 9,
+      "periods": 2,
+      "warnings": [],
+      "hardening_recommendation": "Do not extract broad principles yet. Add more diverse cases across replay families, sectors, or periods.",
+      "diagnostic": {
+        "coverage_present": true,
+        "diversity_present": true,
+        "parked_or_no_primary_experience": false
+      }
+    },
+    {
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "coverage_score": 0.853,
+      "coverage_status": "well_covered",
+      "diversity_score": 0.576,
+      "diversity_status": "limited",
+      "principle_readiness_score": 0.728,
+      "principle_readiness_status": "coverage_strong_diversity_limited",
+      "case_count": 8,
+      "periods": 2,
+      "warnings": [],
+      "hardening_recommendation": "Do not extract broad principles yet. Add more diverse cases across replay families, sectors, or periods.",
+      "diagnostic": {
+        "coverage_present": true,
+        "diversity_present": true,
+        "parked_or_no_primary_experience": false
+      }
+    },
+    {
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "coverage_score": 0.848,
+      "coverage_status": "well_covered",
+      "diversity_score": 0.583,
+      "diversity_status": "limited",
+      "principle_readiness_score": 0.729,
+      "principle_readiness_status": "coverage_strong_diversity_limited",
+      "case_count": 8,
+      "periods": 2,
+      "warnings": [],
+      "hardening_recommendation": "Do not extract broad principles yet. Add more diverse cases across replay families, sectors, or periods.",
+      "diagnostic": {
+        "coverage_present": true,
+        "diversity_present": true,
+        "parked_or_no_primary_experience": false
+      }
+    },
+    {
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "coverage_score": 0.936,
+      "coverage_status": "well_covered",
+      "diversity_score": 0.494,
+      "diversity_status": "limited",
+      "principle_readiness_score": 0.737,
+      "principle_readiness_status": "coverage_strong_diversity_limited",
+      "case_count": 9,
+      "periods": 2,
+      "warnings": [],
+      "hardening_recommendation": "Do not extract broad principles yet. Add more diverse cases across replay families, sectors, or periods.",
+      "diagnostic": {
+        "coverage_present": true,
+        "diversity_present": true,
+        "parked_or_no_primary_experience": false
+      }
+    },
+    {
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "coverage_score": 0.827,
+      "coverage_status": "well_covered",
+      "diversity_score": 0.72,
+      "diversity_status": "developing",
+      "principle_readiness_score": 0.779,
+      "principle_readiness_status": "watchlist_candidate",
+      "case_count": 8,
+      "periods": 2,
+      "warnings": [],
+      "hardening_recommendation": "Promising but should remain under review before principle extraction.",
+      "diagnostic": {
+        "coverage_present": true,
+        "diversity_present": true,
+        "parked_or_no_primary_experience": false
+      }
+    },
+    {
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "coverage_score": 0.755,
+      "coverage_status": "well_covered",
+      "diversity_score": 0.884,
+      "diversity_status": "strong",
+      "principle_readiness_score": 0.813,
+      "principle_readiness_status": "principle_candidate",
+      "case_count": 6,
+      "periods": 2,
+      "warnings": [],
+      "hardening_recommendation": "Eligible for cautious principle extraction after human review.",
+      "diagnostic": {
+        "coverage_present": true,
+        "diversity_present": true,
+        "parked_or_no_primary_experience": false
+      }
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "coverage_score": 0.793,
+      "coverage_status": "well_covered",
+      "diversity_score": 0.875,
+      "diversity_status": "strong",
+      "principle_readiness_score": 0.83,
+      "principle_readiness_status": "principle_candidate",
+      "case_count": 8,
+      "periods": 3,
+      "warnings": [],
+      "hardening_recommendation": "Eligible for cautious principle extraction after human review.",
+      "diagnostic": {
+        "coverage_present": true,
+        "diversity_present": true,
+        "parked_or_no_primary_experience": false
+      }
+    },
+    {
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "coverage_score": 0.795,
+      "coverage_status": "well_covered",
+      "diversity_score": 0.944,
+      "diversity_status": "strong",
+      "principle_readiness_score": 0.862,
+      "principle_readiness_status": "principle_candidate",
+      "case_count": 8,
+      "periods": 3,
+      "warnings": [],
+      "hardening_recommendation": "Eligible for cautious principle extraction after human review.",
+      "diagnostic": {
+        "coverage_present": true,
+        "diversity_present": true,
+        "parked_or_no_primary_experience": false
+      }
+    }
+  ]
+}

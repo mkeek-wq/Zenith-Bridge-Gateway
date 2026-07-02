@@ -1,0 +1,27 @@
+{
+  "gate_version": "mechanism-lifecycle-promotion-gate-v0.2",
+  "generated_at": "2026-06-10T09:30:50.599Z",
+  "sources": {
+    "review_engine": "data/intelligence/mechanism-validation-review-engine-v0.1.json",
+    "counter_evidence_engine": "data/intelligence/counter-evidence-engine-v0.2.json"
+  },
+  "mechanisms_reviewed": 1,
+  "promoted_to_under_validation_review": 1,
+  "remaining_candidate_not_validated": 0,
+  "lifecycle_decisions": [
+    {
+      "mechanism_id": "MKT_010",
+      "prior_lifecycle_status": "candidate_not_validated",
+      "lifecycle_decision": "PROMOTE_TO_UNDER_VALIDATION_REVIEW",
+      "new_lifecycle_status": "under_validation_review",
+      "evidence_basis": {
+        "experience_count": 3,
+        "positive_alignment_ratio": 1,
+        "learning_confidence_score": 0.77,
+        "blocking_counter_evidence_found": false
+      },
+      "next_required_action": "perform_formal_validation_review",
+      "governance_note": "Lifecycle promotion to under_validation_review is not validation. Formal validation remains a separate gate."
+    }
+  ]
+}

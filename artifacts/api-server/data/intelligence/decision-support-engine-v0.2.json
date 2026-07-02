@@ -1,0 +1,386 @@
+{
+  "registry_version": "decision-support-engine-v0.2",
+  "created_at": "2026-06-08T06:33:41.465Z",
+  "architecture": {
+    "junior_smurf": "Evidence",
+    "medior_smurf": "Evidence assessment and mechanism linking",
+    "senior_smurf": "Historical comparison and mechanism scoring",
+    "papa_smurf": "Decision support"
+  },
+  "doctrine": {
+    "evidence_remains_primary": true,
+    "historical_similarity_may_influence_confidence": true,
+    "historical_similarity_must_never_override_evidence": true,
+    "mechanism_links_are_supportive_not_conclusive": true,
+    "past_results_do_not_guarantee_future_outcomes": true,
+    "decision_support_is_not_prediction": true
+  },
+  "inputs": {
+    "assessed_evidence_items": 552,
+    "scored_mechanisms": 3,
+    "mechanism_summaries": 3,
+    "strong_evidence_items": 36,
+    "useful_evidence_items": 388
+  },
+  "decision_support_brief": {
+    "brief_id": "PAPA_SMURF_DECISION_SUPPORT_V0_2",
+    "status": "prototype_assessment",
+    "decision_confidence_score": 0.635,
+    "decision_confidence_band": "moderate",
+    "main_assessment": "Evidence base contains strong signals and mechanism-linked evidence. Because mechanisms remain candidate_not_validated, decision support should escalate monitoring but avoid firm conclusions.",
+    "attention_areas": [
+      "External trade and export demand",
+      "Investment flows",
+      "Broad macro momentum"
+    ],
+    "recommended_posture": "focused_monitoring",
+    "papa_smurf_rules": {
+      "no_crystal_ball_predictions": true,
+      "no_guaranteed_outcomes": true,
+      "no_override_of_current_evidence_by_history": true,
+      "express_uncertainty_explicitly": true,
+      "recommend_monitoring_before_action": true
+    }
+  },
+  "mechanism_narratives": [
+    {
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "lifecycle_status": "candidate_not_validated",
+      "mechanism_confidence_score": 0.368,
+      "mechanism_confidence_band": "low",
+      "linked_evidence_items": 185,
+      "strong_links": 1,
+      "useful_links": 153,
+      "average_link_strength": 0.57,
+      "interpretation": "Evidence links exist, but lifecycle status controls permitted use. Candidate mechanisms may support monitoring but not final conclusions.",
+      "top_linked_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-direct-investment-abroad-2024_001_DIRECT_INVESTMENT_ABROAD_CHANGE_YOY_2026-03-03",
+          "metric_name": "DIRECT_INVESTMENT_ABROAD_CHANGE_YOY",
+          "period": "2026-03-03",
+          "evidence_score": 0.759,
+          "link_strength": 0.756,
+          "link_band": "strong_link"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-direct-investment-abroad-2023_001_DIRECT_INVESTMENT_ABROAD_CHANGE_YOY_2025-03-04",
+          "metric_name": "DIRECT_INVESTMENT_ABROAD_CHANGE_YOY",
+          "period": "2025-03-04",
+          "evidence_score": 0.737,
+          "link_strength": 0.741,
+          "link_band": "useful_link"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-direct-investment-abroad-2024_002_DIRECT_INVESTMENT_ABROAD_CHANGE_YOY_2026-03-03",
+          "metric_name": "DIRECT_INVESTMENT_ABROAD_CHANGE_YOY",
+          "period": "2026-03-03",
+          "evidence_score": 0.797,
+          "link_strength": 0.708,
+          "link_band": "useful_link"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-direct-investment-abroad-2023_002_DIRECT_INVESTMENT_ABROAD_CHANGE_YOY_2025-03-04",
+          "metric_name": "DIRECT_INVESTMENT_ABROAD_CHANGE_YOY",
+          "period": "2025-03-04",
+          "evidence_score": 0.797,
+          "link_strength": 0.708,
+          "link_band": "useful_link"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapore-consumer-price-index-mar2026_003_GDP_GROWTH_YOY_2026-Q1",
+          "metric_name": "GDP_GROWTH_YOY",
+          "period": "2026-Q1",
+          "evidence_score": 0.789,
+          "link_strength": 0.702,
+          "link_band": "useful_link"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_foreign-direct-investment-in-singapore-2024_001_FDI_FLOW_CHANGE_2026-02-26",
+          "metric_name": "FDI_FLOW_CHANGE",
+          "period": "2026-02-26",
+          "evidence_score": 0.654,
+          "link_strength": 0.608,
+          "link_band": "useful_link"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_foreign-direct-investment-in-singapore-2023_001_FDI_FLOW_CHANGE_2025-02-26",
+          "metric_name": "FDI_FLOW_CHANGE",
+          "period": "2025-02-26",
+          "evidence_score": 0.654,
+          "link_strength": 0.608,
+          "link_band": "useful_link"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_performance-of-singapore-economy-1q2026_001_GDP_GROWTH_YOY_2026-Q1",
+          "metric_name": "GDP_GROWTH_YOY",
+          "period": "2026-Q1",
+          "evidence_score": 0.752,
+          "link_strength": 0.601,
+          "link_band": "useful_link"
+        }
+      ]
+    },
+    {
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "lifecycle_status": "candidate_not_validated",
+      "mechanism_confidence_score": 0.367,
+      "mechanism_confidence_band": "low",
+      "linked_evidence_items": 88,
+      "strong_links": 28,
+      "useful_links": 51,
+      "average_link_strength": 0.677,
+      "interpretation": "Evidence links exist, but lifecycle status controls permitted use. Candidate mechanisms may support monitoring but not final conclusions.",
+      "top_linked_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-international-trade-in-services-2024_001_UNCLASSIFIED_PERCENTAGE_2026-02-26",
+          "metric_name": "UNCLASSIFIED_PERCENTAGE",
+          "period": "2026-02-26",
+          "evidence_score": 0.701,
+          "link_strength": 0.791,
+          "link_band": "strong_link"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-international-trade-in-services-2024_002_UNCLASSIFIED_PERCENTAGE_2026-02-26",
+          "metric_name": "UNCLASSIFIED_PERCENTAGE",
+          "period": "2026-02-26",
+          "evidence_score": 0.701,
+          "link_strength": 0.791,
+          "link_band": "strong_link"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-international-trade-in-services-2023_001_UNCLASSIFIED_PERCENTAGE_2025-02-21",
+          "metric_name": "UNCLASSIFIED_PERCENTAGE",
+          "period": "2025-02-21",
+          "evidence_score": 0.701,
+          "link_strength": 0.791,
+          "link_band": "strong_link"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-international-trade-in-services-2023_002_UNCLASSIFIED_PERCENTAGE_2025-02-21",
+          "metric_name": "UNCLASSIFIED_PERCENTAGE",
+          "period": "2025-02-21",
+          "evidence_score": 0.701,
+          "link_strength": 0.791,
+          "link_band": "strong_link"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-apr-2026_001_NODX_CHANGE_YOY_2026-04",
+          "metric_name": "NODX_CHANGE_YOY",
+          "period": "2026-04",
+          "evidence_score": 0.801,
+          "link_strength": 0.786,
+          "link_band": "strong_link"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-nov2025_002_NODX_CHANGE_YOY_2025-11",
+          "metric_name": "NODX_CHANGE_YOY",
+          "period": "2025-11",
+          "evidence_score": 0.801,
+          "link_strength": 0.786,
+          "link_band": "strong_link"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-oct2025_001_NODX_CHANGE_YOY_2025-10",
+          "metric_name": "NODX_CHANGE_YOY",
+          "period": "2025-10",
+          "evidence_score": 0.801,
+          "link_strength": 0.786,
+          "link_band": "strong_link"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-apr-2026_002_NODX_CHANGE_YOY_2026-04",
+          "metric_name": "NODX_CHANGE_YOY",
+          "period": "2026-04",
+          "evidence_score": 0.786,
+          "link_strength": 0.775,
+          "link_band": "strong_link"
+        }
+      ]
+    },
+    {
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "lifecycle_status": "candidate_not_validated",
+      "mechanism_confidence_score": 0.36,
+      "mechanism_confidence_band": "low",
+      "linked_evidence_items": 27,
+      "strong_links": 5,
+      "useful_links": 22,
+      "average_link_strength": 0.736,
+      "interpretation": "Evidence links exist, but lifecycle status controls permitted use. Candidate mechanisms may support monitoring but not final conclusions.",
+      "top_linked_evidence": [
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-dec2024_002_MANUFACTURING_OUTPUT_CHANGE_MOM_2024-12",
+          "metric_name": "MANUFACTURING_OUTPUT_CHANGE_MOM",
+          "period": "2024-12",
+          "evidence_score": 0.771,
+          "link_strength": 0.765,
+          "link_band": "strong_link"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-nov2024_001_MANUFACTURING_OUTPUT_CHANGE_MOM_2024-11",
+          "metric_name": "MANUFACTURING_OUTPUT_CHANGE_MOM",
+          "period": "2024-11",
+          "evidence_score": 0.771,
+          "link_strength": 0.765,
+          "link_band": "strong_link"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-aug2024_002_MANUFACTURING_OUTPUT_CHANGE_MOM_2024-08",
+          "metric_name": "MANUFACTURING_OUTPUT_CHANGE_MOM",
+          "period": "2024-08",
+          "evidence_score": 0.771,
+          "link_strength": 0.765,
+          "link_band": "strong_link"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-jul2024_001_MANUFACTURING_OUTPUT_CHANGE_MOM_2024-07",
+          "metric_name": "MANUFACTURING_OUTPUT_CHANGE_MOM",
+          "period": "2024-07",
+          "evidence_score": 0.771,
+          "link_strength": 0.765,
+          "link_band": "strong_link"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_monthly-manufacturing-performance-apr2026_001_MANUFACTURING_OUTPUT_CHANGE_MOM_2026-04",
+          "metric_name": "MANUFACTURING_OUTPUT_CHANGE_MOM",
+          "period": "2026-04",
+          "evidence_score": 0.752,
+          "link_strength": 0.751,
+          "link_band": "strong_link"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-nov2024_002_MANUFACTURING_OUTPUT_CHANGE_MOM_2024-11",
+          "metric_name": "MANUFACTURING_OUTPUT_CHANGE_MOM",
+          "period": "2024-11",
+          "evidence_score": 0.749,
+          "link_strength": 0.749,
+          "link_band": "useful_link"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-oct2024_001_MANUFACTURING_OUTPUT_CHANGE_MOM_2024-10",
+          "metric_name": "MANUFACTURING_OUTPUT_CHANGE_MOM",
+          "period": "2024-10",
+          "evidence_score": 0.749,
+          "link_strength": 0.749,
+          "link_band": "useful_link"
+        },
+        {
+          "evidence_id": "SG_SINGSTAT_singapores-external-trade-may2024_002_MANUFACTURING_OUTPUT_CHANGE_MOM_2024-05",
+          "metric_name": "MANUFACTURING_OUTPUT_CHANGE_MOM",
+          "period": "2024-05",
+          "evidence_score": 0.749,
+          "link_strength": 0.749,
+          "link_band": "useful_link"
+        }
+      ]
+    }
+  ],
+  "top_evidence": [
+    {
+      "evidence_id": "SG_SINGSTAT_singapores-external-trade-apr-2026_001_NODX_CHANGE_YOY_2026-04",
+      "metric_name": "NODX_CHANGE_YOY",
+      "period": "2026-04",
+      "score": 0.801,
+      "status": "strong_evidence",
+      "direction": "positive"
+    },
+    {
+      "evidence_id": "SG_SINGSTAT_singapores-external-trade-nov2025_002_NODX_CHANGE_YOY_2025-11",
+      "metric_name": "NODX_CHANGE_YOY",
+      "period": "2025-11",
+      "score": 0.801,
+      "status": "strong_evidence",
+      "direction": "positive"
+    },
+    {
+      "evidence_id": "SG_SINGSTAT_singapores-external-trade-oct2025_001_NODX_CHANGE_YOY_2025-10",
+      "metric_name": "NODX_CHANGE_YOY",
+      "period": "2025-10",
+      "score": 0.801,
+      "status": "strong_evidence",
+      "direction": "positive"
+    },
+    {
+      "evidence_id": "SG_SINGSTAT_singapores-direct-investment-abroad-2024_002_DIRECT_INVESTMENT_ABROAD_CHANGE_YOY_2026-03-03",
+      "metric_name": "DIRECT_INVESTMENT_ABROAD_CHANGE_YOY",
+      "period": "2026-03-03",
+      "score": 0.797,
+      "status": "strong_evidence",
+      "direction": "mixed_or_neutral"
+    },
+    {
+      "evidence_id": "SG_SINGSTAT_singapores-direct-investment-abroad-2023_002_DIRECT_INVESTMENT_ABROAD_CHANGE_YOY_2025-03-04",
+      "metric_name": "DIRECT_INVESTMENT_ABROAD_CHANGE_YOY",
+      "period": "2025-03-04",
+      "score": 0.797,
+      "status": "strong_evidence",
+      "direction": "mixed_or_neutral"
+    },
+    {
+      "evidence_id": "SG_SINGSTAT_singapore-consumer-price-index-mar2026_003_GDP_GROWTH_YOY_2026-Q1",
+      "metric_name": "GDP_GROWTH_YOY",
+      "period": "2026-Q1",
+      "score": 0.789,
+      "status": "strong_evidence",
+      "direction": "positive"
+    },
+    {
+      "evidence_id": "SG_SINGSTAT_singapores-external-trade-apr-2026_002_NODX_CHANGE_YOY_2026-04",
+      "metric_name": "NODX_CHANGE_YOY",
+      "period": "2026-04",
+      "score": 0.786,
+      "status": "strong_evidence",
+      "direction": "positive"
+    },
+    {
+      "evidence_id": "SG_SINGSTAT_singapores-external-trade-mar-2026_001_NODX_CHANGE_YOY_2026-03",
+      "metric_name": "NODX_CHANGE_YOY",
+      "period": "2026-03",
+      "score": 0.786,
+      "status": "strong_evidence",
+      "direction": "positive"
+    },
+    {
+      "evidence_id": "SG_SINGSTAT_singapores-external-trade-dec2025_002_NODX_CHANGE_YOY_2025-12",
+      "metric_name": "NODX_CHANGE_YOY",
+      "period": "2025-12",
+      "score": 0.786,
+      "status": "strong_evidence",
+      "direction": "positive"
+    },
+    {
+      "evidence_id": "SG_SINGSTAT_singapores-external-trade-nov2025_001_NODX_CHANGE_YOY_2025-11",
+      "metric_name": "NODX_CHANGE_YOY",
+      "period": "2025-11",
+      "score": 0.786,
+      "status": "strong_evidence",
+      "direction": "positive"
+    }
+  ],
+  "top_mechanisms": [
+    {
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "confidence_score": 0.368,
+      "confidence_band": "low",
+      "lifecycle_status": "candidate_not_validated"
+    },
+    {
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "confidence_score": 0.367,
+      "confidence_band": "low",
+      "lifecycle_status": "candidate_not_validated"
+    },
+    {
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "confidence_score": 0.36,
+      "confidence_band": "low",
+      "lifecycle_status": "candidate_not_validated"
+    }
+  ]
+}

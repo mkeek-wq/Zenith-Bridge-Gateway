@@ -1,0 +1,78 @@
+{
+  "registry_version": "manual-verified-metrics-registry-v0.1",
+  "generated_at": "2026-06-11T01:50:46.544Z",
+  "input_version": "manual-verified-metrics-v0.1",
+  "total_metrics": 3,
+  "verified": 1,
+  "pending": 2,
+  "graph_ready": 1,
+  "metrics": [
+    {
+      "metric_id": "MTR_SG_PETROLEUM_OUTPUT_INDEX",
+      "metric_name": "Singapore petroleum-related manufacturing output trend",
+      "source_name": "Singapore Department of Statistics",
+      "source_url": "https://tablebuilder.singstat.gov.sg",
+      "unit": "% YoY",
+      "period": "2026-Q1",
+      "value": 7.2,
+      "status": "verified_manual_entry",
+      "used_for": [
+        "article_claim_support",
+        "possible_line_chart"
+      ],
+      "verification": {
+        "has_value": true,
+        "has_source": true,
+        "has_period": true,
+        "has_unit": true,
+        "verified": true,
+        "graph_ready": true,
+        "verification_status": "verified"
+      }
+    },
+    {
+      "metric_id": "MTR_REGIONAL_FUEL_DEMAND",
+      "metric_name": "Regional or global fuel demand indicator",
+      "source_name": "IEA or official aviation/energy source",
+      "source_url": "TO_BE_ADDED",
+      "unit": "TO_BE_ADDED",
+      "period": "TO_BE_ADDED",
+      "value": null,
+      "status": "pending_manual_value",
+      "used_for": [
+        "macro_context"
+      ],
+      "verification": {
+        "has_value": false,
+        "has_source": false,
+        "has_period": false,
+        "has_unit": false,
+        "verified": false,
+        "graph_ready": false,
+        "verification_status": "pending"
+      }
+    },
+    {
+      "metric_id": "MTR_SG_BUNKERING_OR_LOGISTICS",
+      "metric_name": "Singapore shipping, bunkering, or logistics activity indicator",
+      "source_name": "Maritime and Port Authority of Singapore",
+      "source_url": "TO_BE_ADDED",
+      "unit": "TO_BE_ADDED",
+      "period": "TO_BE_ADDED",
+      "value": null,
+      "status": "pending_manual_value",
+      "used_for": [
+        "business_implication_support"
+      ],
+      "verification": {
+        "has_value": false,
+        "has_source": false,
+        "has_period": false,
+        "has_unit": false,
+        "verified": false,
+        "graph_ready": false,
+        "verification_status": "pending"
+      }
+    }
+  ]
+}

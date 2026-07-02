@@ -1,0 +1,62 @@
+{
+  "scorecard_version": "historical-evidence-scorecard-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-CAPACITY-EXPANSION-2010",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_evidence_package": "data/historical-replay/m355381/evidence-pilots/SG-CAPACITY-EXPANSION-2010-evidence-v0.1.json",
+  "case_summary": {
+    "period": "2010",
+    "series_no": "CAPACITY-EXPANSION-2010",
+    "series_name": "Capacity Expansion",
+    "priority": "critical",
+    "direction": "positive",
+    "latest_value": null,
+    "month_on_month_change_pct": null,
+    "year_on_year_change_pct": null
+  },
+  "driver_scores": [
+    {
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "score": 44,
+      "rank": 1
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "score": 14,
+      "rank": 2
+    },
+    {
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "score": 10,
+      "rank": 3
+    }
+  ],
+  "final_attribution": {
+    "primary_driver": {
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "score": 44
+    },
+    "secondary_driver": {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "score": 14
+    },
+    "tertiary_driver": {
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "score": 10
+    },
+    "confidence": "high",
+    "summary": "SG-CAPACITY-EXPANSION-2010 is classified as a capacity-expansion replay case with MKT_004 as the primary driver."
+  },
+  "scorecard_status": {
+    "attribution_scored": true,
+    "outcome_ready": true,
+    "human_review_required": true
+  }
+}

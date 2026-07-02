@@ -1,0 +1,75 @@
+{
+  "case_version": "case-file-v0.1",
+  "case_id": "SG-M355381-1_2_4-2026-apr",
+  "country": "Singapore",
+  "institution": "Economic Development Board",
+  "source_system": "SingStat TableBuilder",
+  "table_id": "M355381",
+  "period": "2026 Apr",
+  "series_no": "1.2.4",
+  "series_name": "Other Chemical Products",
+  "case_status": "investigating",
+  "priority": "critical",
+  "confidence": "unknown",
+  "conclusion_status": "no_conclusion_yet",
+  "opened_at": "2026-06-02T14:38:49.900Z",
+  "last_updated_at": "2026-06-02T15:01:21.973Z",
+  "observation": {
+    "latest_value": 110.958,
+    "month_on_month_change_pct": 34.33497179108453,
+    "year_on_year_change_pct": 8.75996118446202
+  },
+  "evidence_status": {
+    "internal_evidence_count": 0,
+    "relevant_evidence_count": 0,
+    "evidence_quality": "poor",
+    "external_search_required": true,
+    "relevant_evidence": []
+  },
+  "attribution": {
+    "market_effect": {
+      "score": 0,
+      "evidence": [],
+      "note": "External or global market movement, demand cycle, regional industry trend."
+    },
+    "portfolio_effect": {
+      "score": 0,
+      "evidence": [],
+      "note": "Composition effect within Singapore manufacturing or sub-sector mix."
+    },
+    "operational_effect": {
+      "score": 0,
+      "evidence": [],
+      "note": "Maintenance, shutdown, disruption, capacity change, plant-level event."
+    },
+    "policy_effect": {
+      "score": 0,
+      "evidence": [],
+      "note": "Regulatory, tax, incentive, trade restriction, or government policy driver."
+    },
+    "unknown_effect": {
+      "score": 10,
+      "evidence": [],
+      "note": "Default bucket. Movement is confirmed but not yet explained by evidence."
+    }
+  },
+  "workflow": {
+    "next_action": "collect_external_evidence",
+    "publication_status": "not_published",
+    "state_last_evaluated_at": "2026-06-02T15:01:21.973Z"
+  },
+  "analyst_note": "Persistent case file created from attribution investigation. Case remains open until evidence supports attribution or formal closure.",
+  "outcome": {
+    "primary_driver": null,
+    "primary_driver_name": null,
+    "confidence": null,
+    "closed_at": null
+  },
+  "confidence_reason": {
+    "rule_applied": "UNKNOWN_V1",
+    "relevant_evidence_count": 0,
+    "evidence_quality": "poor",
+    "unknown_effect": 10,
+    "conclusion_status": "no_conclusion_yet"
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "historical_evidence_scorecard_version": "historical-evidence-scorecard-v0.1",
+  "generated_at": "2026-06-04T10:30:56.196Z",
+  "source_taxonomy": "data/intelligence-driver-library/driver-evidence-taxonomy-v0.1.json",
+  "source_evidence": "data/historical-replay/m355381/evidence-pilots/SG-TRANSPORT-ENGINEERING-2018-evidence-v0.1.json",
+  "case_id": "SG-TRANSPORT-ENGINEERING-2018",
+  "period": "2018",
+  "series_name": "Transport Engineering",
+  "governance": {
+    "sandbox_only": true,
+    "recommendation_only": true,
+    "auto_close_case": false,
+    "requires_human_review": true,
+    "production_mutation_allowed": false
+  },
+  "evidence_metadata": {
+    "evidence_origin": "synthetic",
+    "template_generated": true,
+    "attribution_discovery_ready": true,
+    "requires_human_review": true
+  },
+  "evidence_items": [
+    "Singapore Transport Engineering output in 2018 was shaped by transport engineering, aerospace demand, and aviation recovery conditions.",
+    "Aircraft maintenance, aircraft repair, MRO demand, and fleet maintenance affected aerospace-related activity.",
+    "Marine engineering, ship repair, and offshore engineering influenced transport engineering output.",
+    "Travel recovery and regional industrial activity shaped the sector's production cycle."
+  ],
+  "evidence_matches": [
+    {
+      "evidence_text": "Singapore Transport Engineering output in 2018 was shaped by transport engineering, aerospace demand, and aviation recovery conditions.",
+      "matches": [
+        {
+          "driver_id": "MKT_013",
+          "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "transport engineering",
+            "aerospace demand",
+            "aviation recovery"
+          ],
+          "match_score": 18
+        },
+        {
+          "driver_id": "MKT_012",
+          "driver_name": "Precision Engineering / Capital Equipment Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "engineering output"
+          ],
+          "match_score": 6
+        }
+      ]
+    },
+    {
+      "evidence_text": "Aircraft maintenance, aircraft repair, MRO demand, and fleet maintenance affected aerospace-related activity.",
+      "matches": [
+        {
+          "driver_id": "MKT_013",
+          "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "aircraft maintenance",
+            "aircraft repair",
+            "mro demand",
+            "fleet maintenance"
+          ],
+          "match_score": 24
+        }
+      ]
+    },
+    {
+      "evidence_text": "Marine engineering, ship repair, and offshore engineering influenced transport engineering output.",
+      "matches": [
+        {
+          "driver_id": "MKT_013",
+          "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "transport engineering",
+            "marine engineering",
+            "ship repair",
+            "offshore engineering"
+          ],
+          "match_score": 24
+        },
+        {
+          "driver_id": "MKT_012",
+          "driver_name": "Precision Engineering / Capital Equipment Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "engineering output"
+          ],
+          "match_score": 6
+        }
+      ]
+    },
+    {
+      "evidence_text": "Travel recovery and regional industrial activity shaped the sector's production cycle.",
+      "matches": [
+        {
+          "driver_id": "MKT_013",
+          "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "travel recovery"
+          ],
+          "match_score": 6
+        }
+      ]
+    }
+  ],
+  "ranked_drivers": [
+    {
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "attribution_bucket": "market_effect",
+      "total_score": 72,
+      "evidence_count": 4,
+      "matched_phrases": [
+        "transport engineering",
+        "aerospace demand",
+        "aviation recovery",
+        "aircraft maintenance",
+        "aircraft repair",
+        "mro demand",
+        "fleet maintenance",
+        "transport engineering",
+        "marine engineering",
+        "ship repair",
+        "offshore engineering",
+        "travel recovery"
+      ],
+      "supporting_evidence": [
+        "Singapore Transport Engineering output in 2018 was shaped by transport engineering, aerospace demand, and aviation recovery conditions.",
+        "Aircraft maintenance, aircraft repair, MRO demand, and fleet maintenance affected aerospace-related activity.",
+        "Marine engineering, ship repair, and offshore engineering influenced transport engineering output.",
+        "Travel recovery and regional industrial activity shaped the sector's production cycle."
+      ]
+    },
+    {
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "attribution_bucket": "market_effect",
+      "total_score": 12,
+      "evidence_count": 2,
+      "matched_phrases": [
+        "engineering output",
+        "engineering output"
+      ],
+      "supporting_evidence": [
+        "Singapore Transport Engineering output in 2018 was shaped by transport engineering, aerospace demand, and aviation recovery conditions.",
+        "Marine engineering, ship repair, and offshore engineering influenced transport engineering output."
+      ]
+    }
+  ],
+  "bucket_scores": [
+    {
+      "attribution_bucket": "market_effect",
+      "total_score": 84
+    }
+  ],
+  "recommended_outcome": {
+    "primary_driver": "MKT_013",
+    "primary_driver_name": "Transport Engineering / Aerospace Marine Cycle",
+    "attribution_bucket": "market_effect",
+    "confidence": "high",
+    "total_score": 72,
+    "second_score": 12,
+    "score_gap": 60
+  }
+}

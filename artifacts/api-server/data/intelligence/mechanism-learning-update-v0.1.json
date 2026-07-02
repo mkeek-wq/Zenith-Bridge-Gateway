@@ -1,0 +1,23 @@
+{
+  "update_version": "mechanism-learning-update-v0.1",
+  "generated_at": "2026-06-10T04:02:13.595Z",
+  "source_gate": "data/intelligence/experience-registry-promotion-gate-v0.1.json",
+  "promoted_experience_items": 1,
+  "mechanisms_updated": 1,
+  "updates": [
+    {
+      "mechanism_id": "MKT_010",
+      "replay_experience_count": 1,
+      "strong_alignment_count": 1,
+      "moderate_alignment_count": 0,
+      "learning_adjustment": 0.03,
+      "updated_status": "early_experience_signal_only",
+      "governance_note": "Learning update adjusts experience reputation only. It does not validate the mechanism."
+    }
+  ],
+  "doctrine": {
+    "learning_update_is_not_validation": true,
+    "minimum_replay_experience_for_validation_review": 3,
+    "mechanism_validation_requires_separate_gate": true
+  }
+}

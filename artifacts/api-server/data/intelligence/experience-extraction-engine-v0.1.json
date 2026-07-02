@@ -1,0 +1,254 @@
+{
+  "registry_version": "experience-extraction-engine-v0.1",
+  "created_at": "2026-06-08T10:55:37.499Z",
+  "doctrine": {
+    "experience_patterns_are_not_principles": true,
+    "experience_is_challengeable": true,
+    "validated_mechanisms_require_human_review": true,
+    "evidence_remains_primary": true
+  },
+  "inputs": {
+    "attribution_items": 3,
+    "prediction_items": 8,
+    "discovery_items": 3,
+    "contradictions": 5
+  },
+  "summary": {
+    "experience_items_created": 10,
+    "mechanism_attribution_patterns": 3,
+    "candidate_discovery_patterns": 2,
+    "contradiction_patterns": 5
+  },
+  "experience_items": [
+    {
+      "experience_id": "EXP_0001",
+      "experience_type": "mechanism_attribution_pattern",
+      "mechanism_id": "MKT_006",
+      "mechanism_name": "Policy / Regulatory Impact",
+      "confidence_score": 0.48,
+      "confidence_band": "low_attribution",
+      "observation": "Policy / Regulatory Impact shows limited provisional attribution in the current case.",
+      "supporting_signals": [
+        "CPI_GROWTH_YOY",
+        "GDP_GROWTH_YOY",
+        "CPI_GROWTH_MOM",
+        "PERSONAL_SAVING_RATE",
+        "INTERNATIONAL_INVESTMENT_POSITION_CHANGE_QOQ"
+      ],
+      "learning_status": "provisional_experience",
+      "governance": {
+        "experience_is_not_principle": true,
+        "experience_is_challengeable": true,
+        "requires_future_validation": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "experience_id": "EXP_0002",
+      "experience_type": "mechanism_attribution_pattern",
+      "mechanism_id": "MKT_010",
+      "mechanism_name": "Demand Shock / External Downturn",
+      "confidence_score": 0.455,
+      "confidence_band": "low_attribution",
+      "observation": "Demand Shock / External Downturn shows limited provisional attribution in the current case.",
+      "supporting_signals": [
+        "NODX_CHANGE_YOY",
+        "GDP_GROWTH_YOY",
+        "MANUFACTURING_OUTPUT_CHANGE_MOM",
+        "BUSINESS_RECEIPTS_CHANGE_YOY",
+        "BUSINESS_OUTLOOK_UPBEAT_SHARE"
+      ],
+      "learning_status": "provisional_experience",
+      "governance": {
+        "experience_is_not_principle": true,
+        "experience_is_challengeable": true,
+        "requires_future_validation": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "experience_id": "EXP_0003",
+      "experience_type": "mechanism_attribution_pattern",
+      "mechanism_id": "MKT_002",
+      "mechanism_name": "Inventory Cycle / Restocking",
+      "confidence_score": 0.336,
+      "confidence_band": "very_low_attribution",
+      "observation": "Inventory Cycle / Restocking shows limited provisional attribution in the current case.",
+      "supporting_signals": [
+        "MANUFACTURING_OUTPUT_CHANGE_MOM",
+        "NODX_CHANGE_YOY",
+        "CPI_GROWTH_YOY",
+        "GDP_GROWTH_YOY",
+        "CPI_GROWTH_MOM"
+      ],
+      "learning_status": "provisional_experience",
+      "governance": {
+        "experience_is_not_principle": true,
+        "experience_is_challengeable": true,
+        "requires_future_validation": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "experience_id": "EXP_0004",
+      "experience_type": "candidate_discovery_pattern",
+      "mechanism_id": null,
+      "mechanism_name": "Household Balance Sheet Transmission",
+      "confidence_score": 0.708,
+      "confidence_band": "moderate",
+      "observation": "Household Balance Sheet Transmission emerged as a candidate discovery with 23 matched evidence items.",
+      "supporting_signals": [
+        "HOUSEHOLD_NET_WORTH_CHANGE_YOY",
+        "HOUSEHOLD_NET_WORTH_CHANGE_YOY",
+        "HOUSEHOLD_NET_WORTH_CHANGE_YOY",
+        "HOUSEHOLD_NET_WORTH_CHANGE_YOY",
+        "HOUSEHOLD_NET_WORTH_CHANGE_YOY"
+      ],
+      "learning_status": "candidate_discovery_experience",
+      "governance": {
+        "experience_is_not_principle": true,
+        "discovery_is_not_validation": true,
+        "human_review_required_to_seed_mechanism": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "experience_id": "EXP_0005",
+      "experience_type": "candidate_discovery_pattern",
+      "mechanism_id": null,
+      "mechanism_name": "Services Receipts Momentum",
+      "confidence_score": 0.705,
+      "confidence_band": "moderate",
+      "observation": "Services Receipts Momentum emerged as a candidate discovery with 78 matched evidence items.",
+      "supporting_signals": [
+        "BUSINESS_RECEIPTS_CHANGE_YOY",
+        "BUSINESS_RECEIPTS_CHANGE_YOY",
+        "BUSINESS_RECEIPTS_CHANGE_YOY",
+        "BUSINESS_OUTLOOK_UPBEAT_SHARE",
+        "BUSINESS_OUTLOOK_UPBEAT_SHARE"
+      ],
+      "learning_status": "candidate_discovery_experience",
+      "governance": {
+        "experience_is_not_principle": true,
+        "discovery_is_not_validation": true,
+        "human_review_required_to_seed_mechanism": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "experience_id": "EXP_0006",
+      "experience_type": "contradiction_pattern",
+      "mechanism_id": null,
+      "mechanism_name": null,
+      "confidence_score": 0.646,
+      "confidence_band": "moderate_contradiction",
+      "observation": "other contains contradictory evidence and should reduce certainty in related assessments.",
+      "supporting_signals": [
+        "BUSINESS_RECEIPTS_CHANGE_YOY",
+        "HOUSEHOLD_NET_WORTH_CHANGE_YOY",
+        "PERSONAL_DISPOSABLE_INCOME_CHANGE_YOY",
+        "RETAIL_SALES_CHANGE_YOY",
+        "PRIVATE_RESIDENTIAL_PRICE_INDEX_CHANGE_QOQ",
+        "HDB_RENTED_FLATS_CHANGE_QOQ"
+      ],
+      "learning_status": "contradiction_experience",
+      "governance": {
+        "experience_is_not_principle": true,
+        "contradiction_reduces_certainty": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "experience_id": "EXP_0007",
+      "experience_type": "contradiction_pattern",
+      "mechanism_id": null,
+      "mechanism_name": null,
+      "confidence_score": 0.723,
+      "confidence_band": "moderate_contradiction",
+      "observation": "manufacturing contains contradictory evidence and should reduce certainty in related assessments.",
+      "supporting_signals": [
+        "MANUFACTURING_OUTPUT_CHANGE_MOM",
+        "MANUFACTURING_OUTPUT_CHANGE_MOM",
+        "MANUFACTURING_OUTPUT_CHANGE_MOM",
+        "MANUFACTURING_OUTPUT_CHANGE_MOM",
+        "MANUFACTURING_OUTPUT_CHANGE_MOM",
+        "MANUFACTURING_OUTPUT_CHANGE_MOM"
+      ],
+      "learning_status": "contradiction_experience",
+      "governance": {
+        "experience_is_not_principle": true,
+        "contradiction_reduces_certainty": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "experience_id": "EXP_0008",
+      "experience_type": "contradiction_pattern",
+      "mechanism_id": null,
+      "mechanism_name": null,
+      "confidence_score": 0.712,
+      "confidence_band": "moderate_contradiction",
+      "observation": "macro_growth contains contradictory evidence and should reduce certainty in related assessments.",
+      "supporting_signals": [
+        "GDP_GROWTH_YOY",
+        "GDP_GROWTH_YOY",
+        "GDP_GROWTH_YOY",
+        "GDP_GROWTH_YOY",
+        "GDP_GROWTH_YOY",
+        "GDP_GROWTH_YOY"
+      ],
+      "learning_status": "contradiction_experience",
+      "governance": {
+        "experience_is_not_principle": true,
+        "contradiction_reduces_certainty": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "experience_id": "EXP_0009",
+      "experience_type": "contradiction_pattern",
+      "mechanism_id": null,
+      "mechanism_name": null,
+      "confidence_score": 0.761,
+      "confidence_band": "strong_contradiction",
+      "observation": "external_trade contains contradictory evidence and should reduce certainty in related assessments.",
+      "supporting_signals": [
+        "NODX_CHANGE_YOY",
+        "NODX_CHANGE_YOY",
+        "NODX_CHANGE_YOY",
+        "NODX_CHANGE_YOY",
+        "NODX_CHANGE_YOY",
+        "NODX_CHANGE_YOY"
+      ],
+      "learning_status": "contradiction_experience",
+      "governance": {
+        "experience_is_not_principle": true,
+        "contradiction_reduces_certainty": true,
+        "evidence_remains_primary": true
+      }
+    },
+    {
+      "experience_id": "EXP_0010",
+      "experience_type": "contradiction_pattern",
+      "mechanism_id": null,
+      "mechanism_name": null,
+      "confidence_score": 0.705,
+      "confidence_band": "moderate_contradiction",
+      "observation": "investment contains contradictory evidence and should reduce certainty in related assessments.",
+      "supporting_signals": [
+        "FDI_FLOW_CHANGE",
+        "INTERNATIONAL_INVESTMENT_POSITION_CHANGE_QOQ",
+        "DIRECT_INVESTMENT_ABROAD_CHANGE_YOY",
+        "INTERNATIONAL_INVESTMENT_POSITION_CHANGE_QOQ",
+        "INTERNATIONAL_INVESTMENT_POSITION_CHANGE_QOQ",
+        "INTERNATIONAL_INVESTMENT_POSITION_CHANGE_QOQ"
+      ],
+      "learning_status": "contradiction_experience",
+      "governance": {
+        "experience_is_not_principle": true,
+        "contradiction_reduces_certainty": true,
+        "evidence_remains_primary": true
+      }
+    }
+  ]
+}

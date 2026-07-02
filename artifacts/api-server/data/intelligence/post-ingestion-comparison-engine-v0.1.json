@@ -1,0 +1,44 @@
+{
+  "registry_version": "post-ingestion-comparison-engine-v0.1",
+  "created_at": "2026-06-08T13:20:50.681Z",
+  "doctrine": {
+    "comparison_measures_change_not_quality": true,
+    "bulk_ingestion_requires_human_review": true,
+    "no_automatic_acceptance": true,
+    "evidence_remains_primary": true
+  },
+  "pre_ingestion_snapshot": {
+    "snapshot_version": "pre-ingestion-snapshot-v0.1",
+    "captured_at": "2026-06-08T13:20:32.891Z",
+    "evidence_items": 552,
+    "grouped_signals": 28,
+    "very_strong_signals": 1,
+    "strong_signals": 14,
+    "case_confidence_score": 0.481,
+    "recommended_posture": "focused_monitoring",
+    "experience_confidence_items": 6,
+    "moderate_experience_confidence": 0,
+    "low_experience_confidence": 1
+  },
+  "current_state": {
+    "captured_at": "2026-06-08T13:20:50.681Z",
+    "evidence_items": 552,
+    "grouped_signals": 28,
+    "very_strong_signals": 1,
+    "strong_signals": 14,
+    "case_confidence_score": 0.481,
+    "recommended_posture": "focused_monitoring",
+    "experience_confidence_items": 6,
+    "moderate_experience_confidence": 0,
+    "low_experience_confidence": 1
+  },
+  "comparison": {
+    "pre_snapshot_found": true,
+    "evidence_items_delta": 0,
+    "grouped_signals_delta": 0,
+    "case_confidence_delta": 0,
+    "posture_changed": false,
+    "experience_confidence_items_delta": 0
+  },
+  "recommendation": "Review deltas before accepting ingestion results."
+}

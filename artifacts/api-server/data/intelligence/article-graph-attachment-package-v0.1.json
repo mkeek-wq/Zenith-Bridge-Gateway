@@ -1,0 +1,178 @@
+{
+  "package_version": "article-graph-attachment-package-v0.1",
+  "generated_at": "2026-06-18T04:53:42.469Z",
+  "source_files": {
+    "article_package": "data/intelligence/openai-generated-article-package-v0.4.json",
+    "graph_specification_package": "data/intelligence/graph-specification-package-v0.1.json",
+    "rendered_graph_manifest": "/var/www/zenith-admin/intelligence-data/assets/generated-graphs/rendered-graph-assets-v0.1.json"
+  },
+  "package_count": 4,
+  "packages": [
+    {
+      "candidate_id": "ART-what-precision-engineering-reveals-about-singapore-s-capital-equipment-cycle",
+      "title": "What Precision Engineering Reveals About Singapore's Capital Equipment Cycle",
+      "generated_article_id": "AI_ARTICLE_ART-what-precision-engineering-reveals-about-singapore-s-capital-equipment-cycle",
+      "graph_attachment_count": 3,
+      "all_graphs_rendered": true,
+      "graph_attachments": [
+        {
+          "graph_spec_id": "GSPEC_ART_WHAT_PRECISION_ENGINEERING_REVEALS_ABOUT_SINGAPORE_S_CAPITAL_EQUIPMENT_CYCLE_1",
+          "placeholder": "Singapore machinery and equipment output trend, 2016–2025",
+          "recommended_chart_type": "single_series_line_chart",
+          "purpose": "Show the historical trend of the primary sector series.",
+          "public_path": "/admin/intelligence-data/assets/generated-graphs/gspec-art-what-precision-engineering-reveals-about-singapore-s-capital-equipment-cycle-1.svg",
+          "output_path": "/var/www/zenith-admin/intelligence-data/assets/generated-graphs/gspec-art-what-precision-engineering-reveals-about-singapore-s-capital-equipment-cycle-1.svg",
+          "rendered": true,
+          "source_data_verified": true,
+          "human_review_required": true
+        },
+        {
+          "graph_spec_id": "GSPEC_ART_WHAT_PRECISION_ENGINEERING_REVEALS_ABOUT_SINGAPORE_S_CAPITAL_EQUIPMENT_CYCLE_2",
+          "placeholder": "Indexed comparison of machinery and equipment output versus total manufacturing output, 2016–2025",
+          "recommended_chart_type": "indexed_multi_series_line_chart",
+          "purpose": "Compare the primary sector against a benchmark series over time.",
+          "public_path": "/admin/intelligence-data/assets/generated-graphs/gspec-art-what-precision-engineering-reveals-about-singapore-s-capital-equipment-cycle-2.svg",
+          "output_path": "/var/www/zenith-admin/intelligence-data/assets/generated-graphs/gspec-art-what-precision-engineering-reveals-about-singapore-s-capital-equipment-cycle-2.svg",
+          "rendered": true,
+          "source_data_verified": true,
+          "human_review_required": true
+        },
+        {
+          "graph_spec_id": "GSPEC_ART_WHAT_PRECISION_ENGINEERING_REVEALS_ABOUT_SINGAPORE_S_CAPITAL_EQUIPMENT_CYCLE_3",
+          "placeholder": "Latest year-on-year growth comparison — machinery and equipment versus total manufacturing",
+          "recommended_chart_type": "indexed_multi_series_line_chart",
+          "purpose": "Compare the primary sector against a benchmark series over time.",
+          "public_path": "/admin/intelligence-data/assets/generated-graphs/gspec-art-what-precision-engineering-reveals-about-singapore-s-capital-equipment-cycle-3.svg",
+          "output_path": "/var/www/zenith-admin/intelligence-data/assets/generated-graphs/gspec-art-what-precision-engineering-reveals-about-singapore-s-capital-equipment-cycle-3.svg",
+          "rendered": true,
+          "source_data_verified": true,
+          "human_review_required": true
+        }
+      ],
+      "governance": {
+        "human_review_required": true,
+        "graph_review_required": true,
+        "article_graph_linkage_complete": true
+      }
+    },
+    {
+      "candidate_id": "ART-what-transport-engineering-reveals-about-singapore-s-aviation-and-marine-recovery",
+      "title": "What Transport Engineering Reveals About Singapore's Aviation and Marine Recovery",
+      "generated_article_id": "AI_ARTICLE_ART-what-transport-engineering-reveals-about-singapore-s-aviation-and-marine-recovery",
+      "graph_attachment_count": 2,
+      "all_graphs_rendered": true,
+      "graph_attachments": [
+        {
+          "graph_spec_id": "GSPEC_ART_WHAT_TRANSPORT_ENGINEERING_REVEALS_ABOUT_SINGAPORE_S_AVIATION_AND_MARINE_REC_1",
+          "placeholder": "Singapore other transport equipment output trend, 2016–2025",
+          "recommended_chart_type": "single_series_line_chart",
+          "purpose": "Show the historical trend of the primary sector series.",
+          "public_path": "/admin/intelligence-data/assets/generated-graphs/gspec-art-what-transport-engineering-reveals-about-singapore-s-aviation-and-marine-rec-1.svg",
+          "output_path": "/var/www/zenith-admin/intelligence-data/assets/generated-graphs/gspec-art-what-transport-engineering-reveals-about-singapore-s-aviation-and-marine-rec-1.svg",
+          "rendered": true,
+          "source_data_verified": true,
+          "human_review_required": true
+        },
+        {
+          "graph_spec_id": "GSPEC_ART_WHAT_TRANSPORT_ENGINEERING_REVEALS_ABOUT_SINGAPORE_S_AVIATION_AND_MARINE_REC_2",
+          "placeholder": "Indexed 10-year output trend for other transport equipment and total manufacturing, 2016–2025",
+          "recommended_chart_type": "indexed_multi_series_line_chart",
+          "purpose": "Compare the primary sector against a benchmark series over time.",
+          "public_path": "/admin/intelligence-data/assets/generated-graphs/gspec-art-what-transport-engineering-reveals-about-singapore-s-aviation-and-marine-rec-2.svg",
+          "output_path": "/var/www/zenith-admin/intelligence-data/assets/generated-graphs/gspec-art-what-transport-engineering-reveals-about-singapore-s-aviation-and-marine-rec-2.svg",
+          "rendered": true,
+          "source_data_verified": true,
+          "human_review_required": true
+        }
+      ],
+      "governance": {
+        "human_review_required": true,
+        "graph_review_required": true,
+        "article_graph_linkage_complete": true
+      }
+    },
+    {
+      "candidate_id": "ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+      "title": "What Petroleum Output Reveals About Singapore's Exposure to Global Energy Cycles",
+      "generated_article_id": "AI_ARTICLE_ART-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cycles",
+      "graph_attachment_count": 2,
+      "all_graphs_rendered": true,
+      "graph_attachments": [
+        {
+          "graph_spec_id": "GSPEC_ART_WHAT_PETROLEUM_OUTPUT_REVEALS_ABOUT_SINGAPORE_S_EXPOSURE_TO_GLOBAL_ENERGY_CY_1",
+          "placeholder": "Singapore refined petroleum products output, 2016-2025",
+          "recommended_chart_type": "single_series_line_chart",
+          "purpose": "Show the historical trend of the primary sector series.",
+          "public_path": "/admin/intelligence-data/assets/generated-graphs/gspec-art-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cy-1.svg",
+          "output_path": "/var/www/zenith-admin/intelligence-data/assets/generated-graphs/gspec-art-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cy-1.svg",
+          "rendered": true,
+          "source_data_verified": true,
+          "human_review_required": true
+        },
+        {
+          "graph_spec_id": "GSPEC_ART_WHAT_PETROLEUM_OUTPUT_REVEALS_ABOUT_SINGAPORE_S_EXPOSURE_TO_GLOBAL_ENERGY_CY_2",
+          "placeholder": "Indexed trend comparison of refined petroleum products output versus total manufacturing, 2016-2025",
+          "recommended_chart_type": "indexed_multi_series_line_chart",
+          "purpose": "Compare the primary sector against a benchmark series over time.",
+          "public_path": "/admin/intelligence-data/assets/generated-graphs/gspec-art-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cy-2.svg",
+          "output_path": "/var/www/zenith-admin/intelligence-data/assets/generated-graphs/gspec-art-what-petroleum-output-reveals-about-singapore-s-exposure-to-global-energy-cy-2.svg",
+          "rendered": true,
+          "source_data_verified": true,
+          "human_review_required": true
+        }
+      ],
+      "governance": {
+        "human_review_required": true,
+        "graph_review_required": true,
+        "article_graph_linkage_complete": true
+      }
+    },
+    {
+      "candidate_id": "ART-how-semiconductor-cycles-shape-singapore-s-manufacturing-advantage",
+      "title": "How Semiconductor Cycles Shape Singapore's Manufacturing Advantage",
+      "generated_article_id": "AI_ARTICLE_ART-how-semiconductor-cycles-shape-singapore-s-manufacturing-advantage",
+      "graph_attachment_count": 3,
+      "all_graphs_rendered": true,
+      "graph_attachments": [
+        {
+          "graph_spec_id": "GSPEC_ART_HOW_SEMICONDUCTOR_CYCLES_SHAPE_SINGAPORE_S_MANUFACTURING_ADVANTAGE_1",
+          "placeholder": "Singapore computer, electronic and optical products output, 2016–2025",
+          "recommended_chart_type": "single_series_line_chart",
+          "purpose": "Show the historical trend of the primary sector series.",
+          "public_path": "/admin/intelligence-data/assets/generated-graphs/gspec-art-how-semiconductor-cycles-shape-singapore-s-manufacturing-advantage-1.svg",
+          "output_path": "/var/www/zenith-admin/intelligence-data/assets/generated-graphs/gspec-art-how-semiconductor-cycles-shape-singapore-s-manufacturing-advantage-1.svg",
+          "rendered": true,
+          "source_data_verified": true,
+          "human_review_required": true
+        },
+        {
+          "graph_spec_id": "GSPEC_ART_HOW_SEMICONDUCTOR_CYCLES_SHAPE_SINGAPORE_S_MANUFACTURING_ADVANTAGE_2",
+          "placeholder": "Indexed 10-year trend comparing computer, electronic and optical products with total manufacturing",
+          "recommended_chart_type": "indexed_multi_series_line_chart",
+          "purpose": "Compare the primary sector against a benchmark series over time.",
+          "public_path": "/admin/intelligence-data/assets/generated-graphs/gspec-art-how-semiconductor-cycles-shape-singapore-s-manufacturing-advantage-2.svg",
+          "output_path": "/var/www/zenith-admin/intelligence-data/assets/generated-graphs/gspec-art-how-semiconductor-cycles-shape-singapore-s-manufacturing-advantage-2.svg",
+          "rendered": true,
+          "source_data_verified": true,
+          "human_review_required": true
+        },
+        {
+          "graph_spec_id": "GSPEC_ART_HOW_SEMICONDUCTOR_CYCLES_SHAPE_SINGAPORE_S_MANUFACTURING_ADVANTAGE_3",
+          "placeholder": "Latest year-on-year growth for computer, electronic and optical products versus total manufacturing",
+          "recommended_chart_type": "indexed_multi_series_line_chart",
+          "purpose": "Compare the primary sector against a benchmark series over time.",
+          "public_path": "/admin/intelligence-data/assets/generated-graphs/gspec-art-how-semiconductor-cycles-shape-singapore-s-manufacturing-advantage-3.svg",
+          "output_path": "/var/www/zenith-admin/intelligence-data/assets/generated-graphs/gspec-art-how-semiconductor-cycles-shape-singapore-s-manufacturing-advantage-3.svg",
+          "rendered": true,
+          "source_data_verified": true,
+          "human_review_required": true
+        }
+      ],
+      "governance": {
+        "human_review_required": true,
+        "graph_review_required": true,
+        "article_graph_linkage_complete": true
+      }
+    }
+  ]
+}

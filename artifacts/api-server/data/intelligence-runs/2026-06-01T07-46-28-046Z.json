@@ -1,0 +1,61 @@
+{
+  "cycle_version": "smurf-intelligence-cycle-v0.2",
+  "cycle_id": "2026-06-01T07-46-28-046Z",
+  "cycle_status": "completed",
+  "cycle_started_at": "2026-06-01T07:46:28.046Z",
+  "cycle_completed_at": "2026-06-01T07:46:37.659Z",
+  "steps_planned": 7,
+  "steps_completed": 7,
+  "steps_failed": 0,
+  "steps": [
+    {
+      "name": "Build case files",
+      "command": "pnpm tsx src/scripts/build-case-files.ts",
+      "started_at": "2026-06-01T07:46:28.055Z",
+      "completed_at": "2026-06-01T07:46:29.431Z",
+      "status": "completed"
+    },
+    {
+      "name": "Update case confidence",
+      "command": "pnpm tsx src/scripts/update-case-confidence.ts",
+      "started_at": "2026-06-01T07:46:29.433Z",
+      "completed_at": "2026-06-01T07:46:30.867Z",
+      "status": "completed"
+    },
+    {
+      "name": "Update case state",
+      "command": "pnpm tsx src/scripts/update-case-state.ts",
+      "started_at": "2026-06-01T07:46:30.868Z",
+      "completed_at": "2026-06-01T07:46:32.220Z",
+      "status": "completed"
+    },
+    {
+      "name": "Build investigation queue",
+      "command": "pnpm tsx src/scripts/build-investigation-queue.ts",
+      "started_at": "2026-06-01T07:46:32.221Z",
+      "completed_at": "2026-06-01T07:46:33.526Z",
+      "status": "completed"
+    },
+    {
+      "name": "Update case history",
+      "command": "pnpm tsx src/scripts/update-case-history.ts",
+      "started_at": "2026-06-01T07:46:33.528Z",
+      "completed_at": "2026-06-01T07:46:34.802Z",
+      "status": "completed"
+    },
+    {
+      "name": "Build investigation hypotheses",
+      "command": "pnpm tsx src/scripts/build-investigation-hypotheses.ts",
+      "started_at": "2026-06-01T07:46:34.804Z",
+      "completed_at": "2026-06-01T07:46:36.215Z",
+      "status": "completed"
+    },
+    {
+      "name": "Build evidence search packages",
+      "command": "pnpm tsx src/scripts/build-evidence-search-packages-v2.ts",
+      "started_at": "2026-06-01T07:46:36.218Z",
+      "completed_at": "2026-06-01T07:46:37.657Z",
+      "status": "completed"
+    }
+  ]
+}

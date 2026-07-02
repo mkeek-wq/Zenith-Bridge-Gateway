@@ -1,0 +1,150 @@
+{
+  "historical_evidence_scorecard_version": "historical-evidence-scorecard-v0.1",
+  "generated_at": "2026-06-04T10:30:56.193Z",
+  "source_taxonomy": "data/intelligence-driver-library/driver-evidence-taxonomy-v0.1.json",
+  "source_evidence": "data/historical-replay/m355381/evidence-pilots/SG-PRECISION-ENGINEERING-2023-evidence-v0.1.json",
+  "case_id": "SG-PRECISION-ENGINEERING-2023",
+  "period": "2023",
+  "series_name": "Precision Engineering",
+  "governance": {
+    "sandbox_only": true,
+    "recommendation_only": true,
+    "auto_close_case": false,
+    "requires_human_review": true,
+    "production_mutation_allowed": false
+  },
+  "evidence_metadata": {
+    "evidence_origin": "synthetic",
+    "template_generated": true,
+    "attribution_discovery_ready": true,
+    "requires_human_review": true
+  },
+  "evidence_items": [
+    "Singapore Precision Engineering output in 2023 was influenced by inventory restocking, customer inventory, and channel inventory conditions.",
+    "Stockpiling and inventory correction affected production timing and order patterns.",
+    "Inventory drawdown and changing customer orders shaped manufacturing activity.",
+    "The sector reflected a portfolio effect rather than a pure demand signal."
+  ],
+  "evidence_matches": [
+    {
+      "evidence_text": "Singapore Precision Engineering output in 2023 was influenced by inventory restocking, customer inventory, and channel inventory conditions.",
+      "matches": [
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "attribution_bucket": "portfolio_effect",
+          "default_score": 5,
+          "matched_phrases": [
+            "inventory restocking",
+            "restocking",
+            "channel inventory",
+            "customer inventory"
+          ],
+          "match_score": 20
+        },
+        {
+          "driver_id": "MKT_012",
+          "driver_name": "Precision Engineering / Capital Equipment Cycle",
+          "attribution_bucket": "market_effect",
+          "default_score": 6,
+          "matched_phrases": [
+            "precision engineering",
+            "engineering output"
+          ],
+          "match_score": 12
+        }
+      ]
+    },
+    {
+      "evidence_text": "Stockpiling and inventory correction affected production timing and order patterns.",
+      "matches": [
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "attribution_bucket": "portfolio_effect",
+          "default_score": 5,
+          "matched_phrases": [
+            "stockpiling",
+            "inventory correction"
+          ],
+          "match_score": 10
+        }
+      ]
+    },
+    {
+      "evidence_text": "Inventory drawdown and changing customer orders shaped manufacturing activity.",
+      "matches": [
+        {
+          "driver_id": "MKT_002",
+          "driver_name": "Inventory Cycle / Restocking",
+          "attribution_bucket": "portfolio_effect",
+          "default_score": 5,
+          "matched_phrases": [
+            "inventory drawdown"
+          ],
+          "match_score": 5
+        }
+      ]
+    },
+    {
+      "evidence_text": "The sector reflected a portfolio effect rather than a pure demand signal.",
+      "matches": []
+    }
+  ],
+  "ranked_drivers": [
+    {
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "attribution_bucket": "portfolio_effect",
+      "total_score": 35,
+      "evidence_count": 3,
+      "matched_phrases": [
+        "inventory restocking",
+        "restocking",
+        "channel inventory",
+        "customer inventory",
+        "stockpiling",
+        "inventory correction",
+        "inventory drawdown"
+      ],
+      "supporting_evidence": [
+        "Singapore Precision Engineering output in 2023 was influenced by inventory restocking, customer inventory, and channel inventory conditions.",
+        "Stockpiling and inventory correction affected production timing and order patterns.",
+        "Inventory drawdown and changing customer orders shaped manufacturing activity."
+      ]
+    },
+    {
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "attribution_bucket": "market_effect",
+      "total_score": 12,
+      "evidence_count": 1,
+      "matched_phrases": [
+        "precision engineering",
+        "engineering output"
+      ],
+      "supporting_evidence": [
+        "Singapore Precision Engineering output in 2023 was influenced by inventory restocking, customer inventory, and channel inventory conditions."
+      ]
+    }
+  ],
+  "bucket_scores": [
+    {
+      "attribution_bucket": "portfolio_effect",
+      "total_score": 35
+    },
+    {
+      "attribution_bucket": "market_effect",
+      "total_score": 12
+    }
+  ],
+  "recommended_outcome": {
+    "primary_driver": "MKT_002",
+    "primary_driver_name": "Inventory Cycle / Restocking",
+    "attribution_bucket": "portfolio_effect",
+    "confidence": "high",
+    "total_score": 35,
+    "second_score": 12,
+    "score_gap": 23
+  }
+}

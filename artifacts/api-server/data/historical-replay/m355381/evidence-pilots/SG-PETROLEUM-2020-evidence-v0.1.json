@@ -1,0 +1,12 @@
+{
+  "historical_evidence_pilot_version": "historical-evidence-pilot-v0.1",
+  "case_id": "SG-PETROLEUM-2020",
+  "period": "2020",
+  "series_name": "Petroleum",
+  "evidence_items": [
+    "COVID lockdowns and travel restrictions caused a sharp demand fall.",
+    "Jet fuel demand collapsed as international travel stopped.",
+    "Refinery maintenance reduced petroleum production during the period.",
+    "Energy demand weakened significantly during the pandemic."
+  ]
+}

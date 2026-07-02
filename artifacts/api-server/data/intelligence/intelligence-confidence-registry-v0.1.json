@@ -1,0 +1,485 @@
+{
+  "intelligence_confidence_registry_version": "intelligence-confidence-registry-v0.1",
+  "generated_at": "2026-06-06T07:31:16.549Z",
+  "sources": {
+    "experience_registry": "data/intelligence/experience-registry-v0.2.json",
+    "principle_candidate_registry": "data/intelligence/principle-candidate-registry-v0.1.json",
+    "prediction_accuracy_registry": "data/intelligence/prediction-accuracy-registry-v0.1.json",
+    "experience_feedback_registry": "data/intelligence/experience-feedback-registry-v0.1.json"
+  },
+  "policy": {
+    "principle": "Intelligence confidence is a meta-assessment of how much trust should be placed in driver-level intelligence based on experience, principle candidates, and prediction validation.",
+    "confidence_is_not_truth": true,
+    "confidence_does_not_update_memory": true,
+    "missing_validation_prevents_final_confidence": true,
+    "production_mutation_allowed": false
+  },
+  "summary": {
+    "drivers_assessed": 13,
+    "confidence_status_counts": {
+      "insufficient": 3,
+      "moderate": 6,
+      "high": 4
+    },
+    "drivers_with_experience": 10,
+    "drivers_with_principles": 10,
+    "drivers_with_scored_predictions": 0
+  },
+  "confidence_records": [
+    {
+      "intelligence_confidence_version": "intelligence-confidence-v0.1",
+      "confidence_id": "CONF-MKT_001",
+      "driver_id": "MKT_001",
+      "driver_label": "MKT_001 Global Demand Surge",
+      "confidence_status": "insufficient",
+      "overall_confidence_score": null,
+      "components": {
+        "experience_confidence": null,
+        "principle_confidence": null,
+        "prediction_validation_confidence": null
+      },
+      "component_status": {
+        "experience_status": "insufficient",
+        "principle_status": "insufficient",
+        "prediction_validation_status": "insufficient"
+      },
+      "evidence_coverage": {
+        "has_experience_record": false,
+        "has_principle_candidate": false,
+        "has_prediction_accuracy_record": true,
+        "has_feedback_record": true,
+        "scored_predictions": 0,
+        "pending_predictions": 3,
+        "total_predictions": 3
+      },
+      "confidence_reason": "historical experience missing; principle candidate missing; prediction validation evidence not yet available; feedback status: insufficient_validated_predictions",
+      "governance": {
+        "confidence_is_meta_assessment_not_truth": true,
+        "missing_validation_limits_confidence": true,
+        "human_review_required_before_business_use": true,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "intelligence_confidence_version": "intelligence-confidence-v0.1",
+      "confidence_id": "CONF-MKT_002",
+      "driver_id": "MKT_002",
+      "driver_label": "MKT_002 Inventory Cycle / Restocking",
+      "confidence_status": "moderate",
+      "overall_confidence_score": 0.695,
+      "components": {
+        "experience_confidence": 0.747,
+        "principle_confidence": 0.6,
+        "prediction_validation_confidence": null
+      },
+      "component_status": {
+        "experience_status": "moderate",
+        "principle_status": "moderate",
+        "prediction_validation_status": "insufficient"
+      },
+      "evidence_coverage": {
+        "has_experience_record": true,
+        "has_principle_candidate": true,
+        "has_prediction_accuracy_record": true,
+        "has_feedback_record": true,
+        "scored_predictions": 0,
+        "pending_predictions": 3,
+        "total_predictions": 3
+      },
+      "confidence_reason": "historical experience available; principle candidate available; prediction validation evidence not yet available; feedback status: insufficient_validated_predictions",
+      "governance": {
+        "confidence_is_meta_assessment_not_truth": true,
+        "missing_validation_limits_confidence": true,
+        "human_review_required_before_business_use": true,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "intelligence_confidence_version": "intelligence-confidence-v0.1",
+      "confidence_id": "CONF-MKT_003",
+      "driver_id": "MKT_003",
+      "driver_label": "MKT_003 Export Demand Weakness",
+      "confidence_status": "insufficient",
+      "overall_confidence_score": null,
+      "components": {
+        "experience_confidence": null,
+        "principle_confidence": null,
+        "prediction_validation_confidence": null
+      },
+      "component_status": {
+        "experience_status": "insufficient",
+        "principle_status": "insufficient",
+        "prediction_validation_status": "insufficient"
+      },
+      "evidence_coverage": {
+        "has_experience_record": false,
+        "has_principle_candidate": false,
+        "has_prediction_accuracy_record": true,
+        "has_feedback_record": true,
+        "scored_predictions": 0,
+        "pending_predictions": 3,
+        "total_predictions": 3
+      },
+      "confidence_reason": "historical experience missing; principle candidate missing; prediction validation evidence not yet available; feedback status: insufficient_validated_predictions",
+      "governance": {
+        "confidence_is_meta_assessment_not_truth": true,
+        "missing_validation_limits_confidence": true,
+        "human_review_required_before_business_use": true,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "intelligence_confidence_version": "intelligence-confidence-v0.1",
+      "confidence_id": "CONF-MKT_004",
+      "driver_id": "MKT_004",
+      "driver_label": "MKT_004 Capacity Expansion",
+      "confidence_status": "moderate",
+      "overall_confidence_score": 0.666,
+      "components": {
+        "experience_confidence": 0.702,
+        "principle_confidence": 0.6,
+        "prediction_validation_confidence": null
+      },
+      "component_status": {
+        "experience_status": "moderate",
+        "principle_status": "moderate",
+        "prediction_validation_status": "insufficient"
+      },
+      "evidence_coverage": {
+        "has_experience_record": true,
+        "has_principle_candidate": true,
+        "has_prediction_accuracy_record": true,
+        "has_feedback_record": true,
+        "scored_predictions": 0,
+        "pending_predictions": 3,
+        "total_predictions": 3
+      },
+      "confidence_reason": "historical experience available; principle candidate available; prediction validation evidence not yet available; feedback status: insufficient_validated_predictions",
+      "governance": {
+        "confidence_is_meta_assessment_not_truth": true,
+        "missing_validation_limits_confidence": true,
+        "human_review_required_before_business_use": true,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "intelligence_confidence_version": "intelligence-confidence-v0.1",
+      "confidence_id": "CONF-MKT_005",
+      "driver_id": "MKT_005",
+      "driver_label": "MKT_005 Operational Disruption",
+      "confidence_status": "moderate",
+      "overall_confidence_score": 0.692,
+      "components": {
+        "experience_confidence": 0.743,
+        "principle_confidence": 0.6,
+        "prediction_validation_confidence": null
+      },
+      "component_status": {
+        "experience_status": "moderate",
+        "principle_status": "moderate",
+        "prediction_validation_status": "insufficient"
+      },
+      "evidence_coverage": {
+        "has_experience_record": true,
+        "has_principle_candidate": true,
+        "has_prediction_accuracy_record": true,
+        "has_feedback_record": true,
+        "scored_predictions": 0,
+        "pending_predictions": 3,
+        "total_predictions": 3
+      },
+      "confidence_reason": "historical experience available; principle candidate available; prediction validation evidence not yet available; feedback status: insufficient_validated_predictions",
+      "governance": {
+        "confidence_is_meta_assessment_not_truth": true,
+        "missing_validation_limits_confidence": true,
+        "human_review_required_before_business_use": true,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "intelligence_confidence_version": "intelligence-confidence-v0.1",
+      "confidence_id": "CONF-MKT_006",
+      "driver_id": "MKT_006",
+      "driver_label": "MKT_006 Policy / Regulatory Impact",
+      "confidence_status": "insufficient",
+      "overall_confidence_score": null,
+      "components": {
+        "experience_confidence": null,
+        "principle_confidence": null,
+        "prediction_validation_confidence": null
+      },
+      "component_status": {
+        "experience_status": "insufficient",
+        "principle_status": "insufficient",
+        "prediction_validation_status": "insufficient"
+      },
+      "evidence_coverage": {
+        "has_experience_record": false,
+        "has_principle_candidate": false,
+        "has_prediction_accuracy_record": true,
+        "has_feedback_record": true,
+        "scored_predictions": 0,
+        "pending_predictions": 3,
+        "total_predictions": 3
+      },
+      "confidence_reason": "historical experience missing; principle candidate missing; prediction validation evidence not yet available; feedback status: insufficient_validated_predictions",
+      "governance": {
+        "confidence_is_meta_assessment_not_truth": true,
+        "missing_validation_limits_confidence": true,
+        "human_review_required_before_business_use": true,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "intelligence_confidence_version": "intelligence-confidence-v0.1",
+      "confidence_id": "CONF-MKT_007",
+      "driver_id": "MKT_007",
+      "driver_label": "MKT_007 Energy Demand / Refining Cycle",
+      "confidence_status": "moderate",
+      "overall_confidence_score": 0.667,
+      "components": {
+        "experience_confidence": 0.704,
+        "principle_confidence": 0.6,
+        "prediction_validation_confidence": null
+      },
+      "component_status": {
+        "experience_status": "moderate",
+        "principle_status": "moderate",
+        "prediction_validation_status": "insufficient"
+      },
+      "evidence_coverage": {
+        "has_experience_record": true,
+        "has_principle_candidate": true,
+        "has_prediction_accuracy_record": true,
+        "has_feedback_record": true,
+        "scored_predictions": 0,
+        "pending_predictions": 3,
+        "total_predictions": 3
+      },
+      "confidence_reason": "historical experience available; principle candidate available; prediction validation evidence not yet available; feedback status: insufficient_validated_predictions",
+      "governance": {
+        "confidence_is_meta_assessment_not_truth": true,
+        "missing_validation_limits_confidence": true,
+        "human_review_required_before_business_use": true,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "intelligence_confidence_version": "intelligence-confidence-v0.1",
+      "confidence_id": "CONF-MKT_008",
+      "driver_id": "MKT_008",
+      "driver_label": "MKT_008 Semiconductor / Electronics Cycle",
+      "confidence_status": "high",
+      "overall_confidence_score": 0.8,
+      "components": {
+        "experience_confidence": 0.8,
+        "principle_confidence": 0.8,
+        "prediction_validation_confidence": null
+      },
+      "component_status": {
+        "experience_status": "high",
+        "principle_status": "high",
+        "prediction_validation_status": "insufficient"
+      },
+      "evidence_coverage": {
+        "has_experience_record": true,
+        "has_principle_candidate": true,
+        "has_prediction_accuracy_record": true,
+        "has_feedback_record": true,
+        "scored_predictions": 0,
+        "pending_predictions": 4,
+        "total_predictions": 4
+      },
+      "confidence_reason": "historical experience available; principle candidate available; prediction validation evidence not yet available; feedback status: insufficient_validated_predictions",
+      "governance": {
+        "confidence_is_meta_assessment_not_truth": true,
+        "missing_validation_limits_confidence": true,
+        "human_review_required_before_business_use": true,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "intelligence_confidence_version": "intelligence-confidence-v0.1",
+      "confidence_id": "CONF-MKT_009",
+      "driver_id": "MKT_009",
+      "driver_label": "MKT_009 Biomedical / Pharmaceutical Production Cycle",
+      "confidence_status": "moderate",
+      "overall_confidence_score": 0.799,
+      "components": {
+        "experience_confidence": 0.799,
+        "principle_confidence": 0.8,
+        "prediction_validation_confidence": null
+      },
+      "component_status": {
+        "experience_status": "moderate",
+        "principle_status": "high",
+        "prediction_validation_status": "insufficient"
+      },
+      "evidence_coverage": {
+        "has_experience_record": true,
+        "has_principle_candidate": true,
+        "has_prediction_accuracy_record": true,
+        "has_feedback_record": true,
+        "scored_predictions": 0,
+        "pending_predictions": 4,
+        "total_predictions": 4
+      },
+      "confidence_reason": "historical experience available; principle candidate available; prediction validation evidence not yet available; feedback status: insufficient_validated_predictions",
+      "governance": {
+        "confidence_is_meta_assessment_not_truth": true,
+        "missing_validation_limits_confidence": true,
+        "human_review_required_before_business_use": true,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "intelligence_confidence_version": "intelligence-confidence-v0.1",
+      "confidence_id": "CONF-MKT_010",
+      "driver_id": "MKT_010",
+      "driver_label": "MKT_010 Demand Shock / External Downturn",
+      "confidence_status": "moderate",
+      "overall_confidence_score": 0.683,
+      "components": {
+        "experience_confidence": 0.729,
+        "principle_confidence": 0.6,
+        "prediction_validation_confidence": null
+      },
+      "component_status": {
+        "experience_status": "moderate",
+        "principle_status": "moderate",
+        "prediction_validation_status": "insufficient"
+      },
+      "evidence_coverage": {
+        "has_experience_record": true,
+        "has_principle_candidate": true,
+        "has_prediction_accuracy_record": true,
+        "has_feedback_record": true,
+        "scored_predictions": 0,
+        "pending_predictions": 4,
+        "total_predictions": 4
+      },
+      "confidence_reason": "historical experience available; principle candidate available; prediction validation evidence not yet available; feedback status: insufficient_validated_predictions",
+      "governance": {
+        "confidence_is_meta_assessment_not_truth": true,
+        "missing_validation_limits_confidence": true,
+        "human_review_required_before_business_use": true,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "intelligence_confidence_version": "intelligence-confidence-v0.1",
+      "confidence_id": "CONF-MKT_011",
+      "driver_id": "MKT_011",
+      "driver_label": "MKT_011 Chemicals / Petrochemicals Cycle",
+      "confidence_status": "high",
+      "overall_confidence_score": 0.837,
+      "components": {
+        "experience_confidence": 0.858,
+        "principle_confidence": 0.8,
+        "prediction_validation_confidence": null
+      },
+      "component_status": {
+        "experience_status": "high",
+        "principle_status": "high",
+        "prediction_validation_status": "insufficient"
+      },
+      "evidence_coverage": {
+        "has_experience_record": true,
+        "has_principle_candidate": true,
+        "has_prediction_accuracy_record": true,
+        "has_feedback_record": true,
+        "scored_predictions": 0,
+        "pending_predictions": 4,
+        "total_predictions": 4
+      },
+      "confidence_reason": "historical experience available; principle candidate available; prediction validation evidence not yet available; feedback status: insufficient_validated_predictions",
+      "governance": {
+        "confidence_is_meta_assessment_not_truth": true,
+        "missing_validation_limits_confidence": true,
+        "human_review_required_before_business_use": true,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "intelligence_confidence_version": "intelligence-confidence-v0.1",
+      "confidence_id": "CONF-MKT_012",
+      "driver_id": "MKT_012",
+      "driver_label": "MKT_012 Precision Engineering / Capital Equipment Cycle",
+      "confidence_status": "high",
+      "overall_confidence_score": 0.847,
+      "components": {
+        "experience_confidence": 0.873,
+        "principle_confidence": 0.8,
+        "prediction_validation_confidence": null
+      },
+      "component_status": {
+        "experience_status": "high",
+        "principle_status": "high",
+        "prediction_validation_status": "insufficient"
+      },
+      "evidence_coverage": {
+        "has_experience_record": true,
+        "has_principle_candidate": true,
+        "has_prediction_accuracy_record": true,
+        "has_feedback_record": true,
+        "scored_predictions": 0,
+        "pending_predictions": 4,
+        "total_predictions": 4
+      },
+      "confidence_reason": "historical experience available; principle candidate available; prediction validation evidence not yet available; feedback status: insufficient_validated_predictions",
+      "governance": {
+        "confidence_is_meta_assessment_not_truth": true,
+        "missing_validation_limits_confidence": true,
+        "human_review_required_before_business_use": true,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "intelligence_confidence_version": "intelligence-confidence-v0.1",
+      "confidence_id": "CONF-MKT_013",
+      "driver_id": "MKT_013",
+      "driver_label": "MKT_013 Transport Engineering / Aerospace Marine Cycle",
+      "confidence_status": "high",
+      "overall_confidence_score": 0.868,
+      "components": {
+        "experience_confidence": 0.905,
+        "principle_confidence": 0.8,
+        "prediction_validation_confidence": null
+      },
+      "component_status": {
+        "experience_status": "high",
+        "principle_status": "high",
+        "prediction_validation_status": "insufficient"
+      },
+      "evidence_coverage": {
+        "has_experience_record": true,
+        "has_principle_candidate": true,
+        "has_prediction_accuracy_record": true,
+        "has_feedback_record": true,
+        "scored_predictions": 0,
+        "pending_predictions": 4,
+        "total_predictions": 4
+      },
+      "confidence_reason": "historical experience available; principle candidate available; prediction validation evidence not yet available; feedback status: insufficient_validated_predictions",
+      "governance": {
+        "confidence_is_meta_assessment_not_truth": true,
+        "missing_validation_limits_confidence": true,
+        "human_review_required_before_business_use": true,
+        "auto_publish_allowed": false,
+        "production_mutation_allowed": false
+      }
+    }
+  ]
+}

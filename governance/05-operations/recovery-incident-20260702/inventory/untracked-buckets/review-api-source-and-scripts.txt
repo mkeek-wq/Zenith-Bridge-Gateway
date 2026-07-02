@@ -1,0 +1,16 @@
+?? artifacts/api-server/docs/
+?? artifacts/api-server/src/config/
+?? artifacts/api-server/src/lib/articleMapper.ts
+?? artifacts/api-server/src/lib/articleMetadataClassifier.ts
+?? artifacts/api-server/src/lib/articleVersioning.ts
+?? artifacts/api-server/src/lib/articles.service.ts
+?? artifacts/api-server/src/lib/audit.ts
+?? artifacts/api-server/src/lib/jwt.ts
+?? artifacts/api-server/src/lib/parseId.ts
+?? artifacts/api-server/src/middleware/
+?? artifacts/api-server/src/routes/
+?? artifacts/api-server/src/services/
+?? artifacts/api-server/src/types/
+?? scripts/health-check.sh
+?? scripts/validate-openapi.mjs
+?? scripts/watchdog/

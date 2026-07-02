@@ -1,0 +1,87 @@
+{
+  "investigation_package_version": "historical-investigation-package-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-EXPORT-WEAKNESS-2008",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_candidate_file": "replay-coverage-gap-remediation",
+  "case_summary": {
+    "period": "2008",
+    "series_no": "EXPORT-WEAKNESS-2008",
+    "series_name": "Export Demand Weakness",
+    "priority": "critical",
+    "direction": "negative",
+    "latest_value": null,
+    "month_on_month_change_pct": null,
+    "year_on_year_change_pct": null
+  },
+  "search_queries": {
+    "official_queries": [
+      "Singapore exports 2008 decline",
+      "Singapore trade slowdown 2008",
+      "Singapore non oil domestic exports 2008",
+      "Singapore export demand weakness 2008"
+    ],
+    "industry_queries": [
+      "Singapore manufacturing exports 2008",
+      "Singapore export orders decline 2008",
+      "Singapore electronics exports 2008 downturn"
+    ],
+    "context_queries": [
+      "global financial crisis exports 2008",
+      "global trade slowdown 2008",
+      "external demand weakness 2008"
+    ]
+  },
+  "hypotheses": [
+    {
+      "hypothesis_id": "HYP_EXPORT_WEAKNESS",
+      "hypothesis": "The movement may primarily reflect weaker external export demand and reduced international trade activity.",
+      "attribution_bucket": "market_effect"
+    },
+    {
+      "hypothesis_id": "HYP_GLOBAL_DEMAND_SHOCK",
+      "hypothesis": "The export weakness may have been driven by broader global financial crisis conditions.",
+      "attribution_bucket": "market_effect"
+    },
+    {
+      "hypothesis_id": "HYP_ELECTRONICS_TRANSMISSION",
+      "hypothesis": "Electronics and trade-linked sectors may have amplified the export weakness.",
+      "attribution_bucket": "sector_cycle"
+    },
+    {
+      "hypothesis_id": "HYP_UNKNOWN",
+      "hypothesis": "Evidence remains insufficient to determine the dominant mechanism.",
+      "attribution_bucket": "unknown_effect"
+    }
+  ],
+  "driver_candidates": [
+    {
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness",
+      "applies_when": "Exports, trade volumes, foreign orders, or international demand decline."
+    },
+    {
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "applies_when": "Broader recessionary or demand-shock conditions affect economic activity."
+    },
+    {
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "applies_when": "Electronics, semiconductor, or technology-cycle weakness affects output or exports."
+    }
+  ],
+  "expected_mechanisms": [
+    "external demand weakened",
+    "exports and orders declined",
+    "trade activity slowed",
+    "global financial crisis conditions reduced demand",
+    "export weakness transmitted into manufacturing output"
+  ],
+  "investigation_status": {
+    "evidence_collected": false,
+    "attribution_scored": false,
+    "outcome_ready": false
+  }
+}

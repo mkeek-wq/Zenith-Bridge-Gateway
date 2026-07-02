@@ -1,0 +1,105 @@
+{
+  "fingerprint_version": "case-fingerprint-v0.1",
+  "generated_at": "2026-06-02T15:01:26.467Z",
+  "fingerprints": [
+    {
+      "case_id": "SG-M355381-1_1-2026-apr",
+      "sector": "electronics",
+      "priority": "medium",
+      "confidence": "unknown",
+      "evidence_quality": "poor",
+      "yoy_band": "25_TO_50",
+      "mom_band": "10_TO_20"
+    },
+    {
+      "case_id": "SG-M355381-1_1_1-2026-apr",
+      "sector": "electronics",
+      "priority": "medium",
+      "confidence": "unknown",
+      "evidence_quality": "poor",
+      "yoy_band": "25_TO_50",
+      "mom_band": "10_TO_20"
+    },
+    {
+      "case_id": "SG-M355381-1_1_3-2026-apr",
+      "sector": "electronics",
+      "priority": "critical",
+      "confidence": "unknown",
+      "evidence_quality": "poor",
+      "yoy_band": "GT_100",
+      "mom_band": "10_TO_20"
+    },
+    {
+      "case_id": "SG-M355381-1_2_1-2026-apr",
+      "sector": "chemicals",
+      "priority": "medium",
+      "confidence": "unknown",
+      "evidence_quality": "poor",
+      "yoy_band": "25_TO_50",
+      "mom_band": "10_TO_20"
+    },
+    {
+      "case_id": "SG-M355381-1_2_2-2026-apr",
+      "sector": "chemicals",
+      "priority": "medium",
+      "confidence": "unknown",
+      "evidence_quality": "poor",
+      "yoy_band": "25_TO_50",
+      "mom_band": "5_TO_10"
+    },
+    {
+      "case_id": "SG-M355381-1_2_4-2026-apr",
+      "sector": "chemicals",
+      "priority": "critical",
+      "confidence": "unknown",
+      "evidence_quality": "poor",
+      "yoy_band": "LT_25",
+      "mom_band": "GT_20"
+    },
+    {
+      "case_id": "SG-M355381-1_3-2026-apr",
+      "sector": "biomedical",
+      "priority": "medium",
+      "confidence": "low",
+      "evidence_quality": "limited",
+      "yoy_band": "LT_25",
+      "mom_band": "10_TO_20"
+    },
+    {
+      "case_id": "SG-M355381-1_3_1-2026-apr",
+      "sector": "biomedical",
+      "priority": "critical",
+      "confidence": "unknown",
+      "evidence_quality": "poor",
+      "yoy_band": "25_TO_50",
+      "mom_band": "GT_20"
+    },
+    {
+      "case_id": "SG-M355381-1_3_2-2026-apr",
+      "sector": "biomedical",
+      "priority": "medium",
+      "confidence": "unknown",
+      "evidence_quality": "poor",
+      "yoy_band": "LT_25",
+      "mom_band": "10_TO_20"
+    },
+    {
+      "case_id": "SG-M355381-1_5_2-2026-apr",
+      "sector": "transport",
+      "priority": "medium",
+      "confidence": "unknown",
+      "evidence_quality": "poor",
+      "yoy_band": "LT_25",
+      "mom_band": "10_TO_20"
+    },
+    {
+      "case_id": "SG-M355381-1_5_3-2026-apr",
+      "sector": "transport",
+      "priority": "critical",
+      "confidence": "unknown",
+      "evidence_quality": "poor",
+      "yoy_band": "LT_25",
+      "mom_band": "GT_20"
+    }
+  ]
+}

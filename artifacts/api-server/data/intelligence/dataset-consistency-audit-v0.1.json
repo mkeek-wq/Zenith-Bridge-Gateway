@@ -1,0 +1,467 @@
+{
+  "audit_version": "dataset-consistency-audit-v0.1",
+  "generated_at": "2026-06-25T02:28:19.177Z",
+  "purpose": "Checks consistency between verified dataset registry and parsed dataset files. This audit is read-only and does not mutate datasets.",
+  "source_registry": "data/intelligence/verified-dataset-registry-v0.1.json",
+  "parsed_dataset_directory": "data/intelligence/parsed-datasets",
+  "registry_dataset_count": 14,
+  "parsed_dataset_count": 7,
+  "issue_count": 7,
+  "warning_count": 7,
+  "audits": [
+    {
+      "dataset_id": "SG_CHEMICALS_OUTPUT_INDEX",
+      "registry": {
+        "name": "Singapore chemicals and chemical products output",
+        "verification_status": "verified",
+        "values_count": 10,
+        "coverage_start": "2016",
+        "coverage_end": "2025",
+        "frequency": "annual",
+        "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+        "preferred_sources": [
+          "SingStat Table Builder"
+        ],
+        "unit": "Million Dollars",
+        "updated_at": "2026-06-14T09:39:15.341Z"
+      },
+      "parsed": {
+        "parsed_file": "data/intelligence/parsed-datasets/SG_CHEMICALS_OUTPUT_INDEX.json",
+        "verification_status": "loaded_pending_review",
+        "values_count": 10,
+        "coverage_start": "2016",
+        "coverage_end": "2025",
+        "frequency": "annual",
+        "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+        "preferred_sources": [
+          "SingStat Table Builder"
+        ],
+        "unit": "Million Dollars",
+        "updated_at": "2026-06-14T09:39:13.718Z"
+      },
+      "issue_count": 1,
+      "warning_count": 0,
+      "issues": [
+        "verification_status_mismatch"
+      ],
+      "warnings": [],
+      "audit_status": "issue"
+    },
+    {
+      "dataset_id": "SG_ELECTRONICS_OUTPUT_INDEX",
+      "registry": {
+        "name": "Singapore electronics output index",
+        "verification_status": "requested_not_loaded",
+        "values_count": 0,
+        "coverage_start": null,
+        "coverage_end": null,
+        "frequency": "monthly_or_quarterly",
+        "source_url": null,
+        "preferred_sources": [
+          "EDB",
+          "SingStat"
+        ],
+        "unit": null,
+        "updated_at": "2026-06-14T08:22:53.731Z"
+      },
+      "parsed": null,
+      "issue_count": 0,
+      "warning_count": 1,
+      "issues": [],
+      "warnings": [
+        "requested_dataset_not_loaded_yet"
+      ],
+      "audit_status": "warning"
+    },
+    {
+      "dataset_id": "SG_HOW_CHEMICALS_AND_PETROCHEMICALS_REFLECT_SINGAPORE_S_INDUSTRIAL_CYCLE_PRIMARY_SERIES",
+      "registry": {
+        "name": "Primary time series for How Chemicals and Petrochemicals Reflect Singapore's Industrial Cycle",
+        "verification_status": "requested_not_loaded",
+        "values_count": 0,
+        "coverage_start": null,
+        "coverage_end": null,
+        "frequency": "monthly_or_quarterly",
+        "source_url": null,
+        "preferred_sources": [
+          "EDB",
+          "SingStat"
+        ],
+        "unit": null,
+        "updated_at": "2026-06-14T08:22:53.731Z"
+      },
+      "parsed": null,
+      "issue_count": 0,
+      "warning_count": 1,
+      "issues": [],
+      "warnings": [
+        "requested_dataset_not_loaded_yet"
+      ],
+      "audit_status": "warning"
+    },
+    {
+      "dataset_id": "SG_HOW_GLOBAL_DEMAND_SHOCKS_MOVE_THROUGH_SINGAPORE_S_INDUSTRIAL_BASE_PRIMARY_SERIES",
+      "registry": {
+        "name": "Primary time series for How Global Demand Shocks Move Through Singapore's Industrial Base",
+        "verification_status": "requested_not_loaded",
+        "values_count": 0,
+        "coverage_start": null,
+        "coverage_end": null,
+        "frequency": "monthly_or_quarterly",
+        "source_url": null,
+        "preferred_sources": [
+          "EDB",
+          "SingStat"
+        ],
+        "unit": null,
+        "updated_at": "2026-06-14T08:22:53.731Z"
+      },
+      "parsed": null,
+      "issue_count": 0,
+      "warning_count": 1,
+      "issues": [],
+      "warnings": [
+        "requested_dataset_not_loaded_yet"
+      ],
+      "audit_status": "warning"
+    },
+    {
+      "dataset_id": "SG_PETROLEUM_OUTPUT_INDEX",
+      "registry": {
+        "name": "Singapore refined petroleum products output",
+        "verification_status": "verified",
+        "values_count": 10,
+        "coverage_start": "2016",
+        "coverage_end": "2025",
+        "frequency": "annual",
+        "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+        "preferred_sources": [
+          "SingStat Table Builder"
+        ],
+        "unit": "Million Dollars",
+        "updated_at": "2026-06-14T09:39:10.914Z"
+      },
+      "parsed": {
+        "parsed_file": "data/intelligence/parsed-datasets/SG_PETROLEUM_OUTPUT_INDEX.json",
+        "verification_status": "loaded_pending_review",
+        "values_count": 10,
+        "coverage_start": "2016",
+        "coverage_end": "2025",
+        "frequency": "annual",
+        "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+        "preferred_sources": [
+          "SingStat Table Builder"
+        ],
+        "unit": "Million Dollars",
+        "updated_at": "2026-06-14T09:39:09.248Z"
+      },
+      "issue_count": 1,
+      "warning_count": 0,
+      "issues": [
+        "verification_status_mismatch"
+      ],
+      "warnings": [],
+      "audit_status": "issue"
+    },
+    {
+      "dataset_id": "SG_PRECISION_ENGINEERING_OUTPUT_INDEX",
+      "registry": {
+        "name": "Singapore machinery and equipment output",
+        "verification_status": "verified",
+        "values_count": 10,
+        "coverage_start": "2016",
+        "coverage_end": "2025",
+        "frequency": "annual",
+        "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+        "preferred_sources": [
+          "SingStat Table Builder"
+        ],
+        "unit": "Million Dollars",
+        "updated_at": "2026-06-14T09:39:26.918Z"
+      },
+      "parsed": {
+        "parsed_file": "data/intelligence/parsed-datasets/SG_PRECISION_ENGINEERING_OUTPUT_INDEX.json",
+        "verification_status": "loaded_pending_review",
+        "values_count": 10,
+        "coverage_start": "2016",
+        "coverage_end": "2025",
+        "frequency": "annual",
+        "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+        "preferred_sources": [
+          "SingStat Table Builder"
+        ],
+        "unit": "Million Dollars",
+        "updated_at": "2026-06-14T09:39:25.443Z"
+      },
+      "issue_count": 1,
+      "warning_count": 0,
+      "issues": [
+        "verification_status_mismatch"
+      ],
+      "warnings": [],
+      "audit_status": "issue"
+    },
+    {
+      "dataset_id": "SG_SEMICONDUCTOR_OUTPUT_INDEX",
+      "registry": {
+        "name": "Singapore computer, electronic and optical products output",
+        "verification_status": "verified",
+        "values_count": 10,
+        "coverage_start": "2016",
+        "coverage_end": "2025",
+        "frequency": "annual",
+        "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+        "preferred_sources": [
+          "SingStat Table Builder"
+        ],
+        "unit": "Million Dollars",
+        "updated_at": "2026-06-14T09:39:23.066Z"
+      },
+      "parsed": {
+        "parsed_file": "data/intelligence/parsed-datasets/SG_SEMICONDUCTOR_OUTPUT_INDEX.json",
+        "verification_status": "loaded_pending_review",
+        "values_count": 10,
+        "coverage_start": "2016",
+        "coverage_end": "2025",
+        "frequency": "annual",
+        "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+        "preferred_sources": [
+          "SingStat Table Builder"
+        ],
+        "unit": "Million Dollars",
+        "updated_at": "2026-06-14T09:39:21.603Z"
+      },
+      "issue_count": 1,
+      "warning_count": 0,
+      "issues": [
+        "verification_status_mismatch"
+      ],
+      "warnings": [],
+      "audit_status": "issue"
+    },
+    {
+      "dataset_id": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX",
+      "registry": {
+        "name": "Singapore total manufacturing output",
+        "verification_status": "verified",
+        "values_count": 10,
+        "coverage_start": "2016",
+        "coverage_end": "2025",
+        "frequency": "annual",
+        "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+        "preferred_sources": [
+          "SingStat Table Builder"
+        ],
+        "unit": "Million Dollars",
+        "updated_at": "2026-06-14T09:39:06.990Z"
+      },
+      "parsed": {
+        "parsed_file": "data/intelligence/parsed-datasets/SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.json",
+        "verification_status": "loaded_pending_review",
+        "values_count": 10,
+        "coverage_start": "2016",
+        "coverage_end": "2025",
+        "frequency": "annual",
+        "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+        "preferred_sources": [
+          "SingStat Table Builder"
+        ],
+        "unit": "Million Dollars",
+        "updated_at": "2026-06-14T09:39:05.370Z"
+      },
+      "issue_count": 1,
+      "warning_count": 0,
+      "issues": [
+        "verification_status_mismatch"
+      ],
+      "warnings": [],
+      "audit_status": "issue"
+    },
+    {
+      "dataset_id": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX",
+      "registry": {
+        "name": "Singapore other transport equipment output",
+        "verification_status": "verified",
+        "values_count": 10,
+        "coverage_start": "2016",
+        "coverage_end": "2025",
+        "frequency": "annual",
+        "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+        "preferred_sources": [
+          "SingStat Table Builder"
+        ],
+        "unit": "Million Dollars",
+        "updated_at": "2026-06-14T09:39:30.619Z"
+      },
+      "parsed": {
+        "parsed_file": "data/intelligence/parsed-datasets/SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.json",
+        "verification_status": "loaded_pending_review",
+        "values_count": 10,
+        "coverage_start": "2016",
+        "coverage_end": "2025",
+        "frequency": "annual",
+        "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+        "preferred_sources": [
+          "SingStat Table Builder"
+        ],
+        "unit": "Million Dollars",
+        "updated_at": "2026-06-14T09:39:29.140Z"
+      },
+      "issue_count": 1,
+      "warning_count": 0,
+      "issues": [
+        "verification_status_mismatch"
+      ],
+      "warnings": [],
+      "audit_status": "issue"
+    },
+    {
+      "dataset_id": "SG_UNDERSTANDING_BIOMEDICAL_PHARMACEUTICAL_PRODUCTION_CYCLE_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES",
+      "registry": {
+        "name": "Primary time series for Understanding Biomedical / Pharmaceutical Production Cycle in Singapore's Manufacturing Data",
+        "verification_status": "requested_not_loaded",
+        "values_count": 0,
+        "coverage_start": null,
+        "coverage_end": null,
+        "frequency": "monthly_or_quarterly",
+        "source_url": null,
+        "preferred_sources": [
+          "EDB",
+          "SingStat"
+        ],
+        "unit": null,
+        "updated_at": "2026-06-14T08:22:53.731Z"
+      },
+      "parsed": null,
+      "issue_count": 0,
+      "warning_count": 1,
+      "issues": [],
+      "warnings": [
+        "requested_dataset_not_loaded_yet"
+      ],
+      "audit_status": "warning"
+    },
+    {
+      "dataset_id": "SG_UNDERSTANDING_CAPACITY_EXPANSION_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES",
+      "registry": {
+        "name": "Primary time series for Understanding Capacity Expansion in Singapore's Manufacturing Data",
+        "verification_status": "requested_not_loaded",
+        "values_count": 0,
+        "coverage_start": null,
+        "coverage_end": null,
+        "frequency": "monthly_or_quarterly",
+        "source_url": null,
+        "preferred_sources": [
+          "EDB",
+          "SingStat"
+        ],
+        "unit": null,
+        "updated_at": "2026-06-14T08:22:53.731Z"
+      },
+      "parsed": null,
+      "issue_count": 0,
+      "warning_count": 1,
+      "issues": [],
+      "warnings": [
+        "requested_dataset_not_loaded_yet"
+      ],
+      "audit_status": "warning"
+    },
+    {
+      "dataset_id": "SG_UNDERSTANDING_INVENTORY_CYCLE_RESTOCKING_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES",
+      "registry": {
+        "name": "Primary time series for Understanding Inventory Cycle / Restocking in Singapore's Manufacturing Data",
+        "verification_status": "requested_not_loaded",
+        "values_count": 0,
+        "coverage_start": null,
+        "coverage_end": null,
+        "frequency": "monthly_or_quarterly",
+        "source_url": null,
+        "preferred_sources": [
+          "EDB",
+          "SingStat"
+        ],
+        "unit": null,
+        "updated_at": "2026-06-14T08:22:53.731Z"
+      },
+      "parsed": null,
+      "issue_count": 0,
+      "warning_count": 1,
+      "issues": [],
+      "warnings": [
+        "requested_dataset_not_loaded_yet"
+      ],
+      "audit_status": "warning"
+    },
+    {
+      "dataset_id": "SG_UNDERSTANDING_OPERATIONAL_DISRUPTION_IN_SINGAPORE_S_MANUFACTURING_DATA_PRIMARY_SERIES",
+      "registry": {
+        "name": "Primary time series for Understanding Operational Disruption in Singapore's Manufacturing Data",
+        "verification_status": "requested_not_loaded",
+        "values_count": 0,
+        "coverage_start": null,
+        "coverage_end": null,
+        "frequency": "monthly_or_quarterly",
+        "source_url": null,
+        "preferred_sources": [
+          "EDB",
+          "SingStat"
+        ],
+        "unit": null,
+        "updated_at": "2026-06-14T08:22:53.731Z"
+      },
+      "parsed": null,
+      "issue_count": 0,
+      "warning_count": 1,
+      "issues": [],
+      "warnings": [
+        "requested_dataset_not_loaded_yet"
+      ],
+      "audit_status": "warning"
+    },
+    {
+      "dataset_id": "SG_BIOMEDICAL_OUTPUT_INDEX",
+      "registry": {
+        "name": "Singapore pharmaceutical and biological products output",
+        "verification_status": "verified",
+        "values_count": 10,
+        "coverage_start": "2016",
+        "coverage_end": "2025",
+        "frequency": "annual",
+        "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+        "preferred_sources": [
+          "SingStat Table Builder"
+        ],
+        "unit": "Million Dollars",
+        "updated_at": "2026-06-14T09:39:19.240Z"
+      },
+      "parsed": {
+        "parsed_file": "data/intelligence/parsed-datasets/SG_BIOMEDICAL_OUTPUT_INDEX.json",
+        "verification_status": "loaded_pending_review",
+        "values_count": 10,
+        "coverage_start": "2016",
+        "coverage_end": "2025",
+        "frequency": "annual",
+        "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354851",
+        "preferred_sources": [
+          "SingStat Table Builder"
+        ],
+        "unit": "Million Dollars",
+        "updated_at": "2026-06-14T09:39:17.757Z"
+      },
+      "issue_count": 1,
+      "warning_count": 0,
+      "issues": [
+        "verification_status_mismatch"
+      ],
+      "warnings": [],
+      "audit_status": "issue"
+    }
+  ],
+  "parsed_only": [],
+  "governance": {
+    "mutation_allowed": false,
+    "human_review_required": true,
+    "recommended_next_step": "Resolve registry/parsed dataset drift before new ingestion."
+  }
+}

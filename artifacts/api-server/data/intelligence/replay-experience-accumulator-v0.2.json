@@ -1,0 +1,91 @@
+{
+  "accumulator_version": "replay-experience-accumulator-v0.2",
+  "generated_at": "2026-06-10T09:22:26.797Z",
+  "sources": {
+    "single_gate": "data/intelligence/experience-registry-promotion-gate-v0.1.json",
+    "batch_promotion": "data/intelligence/wave-1-batch-experience-promotion-v0.1.json"
+  },
+  "promoted_experience_items": 4,
+  "mechanisms_tracked": 4,
+  "mechanisms": [
+    {
+      "mechanism_id": "MKT_010",
+      "experience_count": 3,
+      "strong_alignment": 2,
+      "moderate_alignment": 1,
+      "weak_alignment": 0,
+      "contradictory": 0,
+      "cases": [
+        {
+          "case_id": "SG-NODX-2023",
+          "alignment_score": 0.78,
+          "alignment_band": "strong_alignment"
+        },
+        {
+          "case_id": "SG-GOODS-EXPORTS-2020",
+          "alignment_score": 0.74,
+          "alignment_band": "moderate_alignment"
+        },
+        {
+          "case_id": "SG-FINANCE-2020",
+          "alignment_score": 0.76,
+          "alignment_band": "strong_alignment"
+        }
+      ],
+      "strong_alignment_ratio": 0.667,
+      "positive_alignment_ratio": 1
+    },
+    {
+      "mechanism_id": "MKT_005",
+      "experience_count": 1,
+      "strong_alignment": 1,
+      "moderate_alignment": 0,
+      "weak_alignment": 0,
+      "contradictory": 0,
+      "cases": [
+        {
+          "case_id": "SG-LABOUR-MARKET-2020",
+          "alignment_score": 0.79,
+          "alignment_band": "strong_alignment"
+        }
+      ],
+      "strong_alignment_ratio": 1,
+      "positive_alignment_ratio": 1
+    },
+    {
+      "mechanism_id": "MKT_006",
+      "experience_count": 1,
+      "strong_alignment": 1,
+      "moderate_alignment": 0,
+      "weak_alignment": 0,
+      "contradictory": 0,
+      "cases": [
+        {
+          "case_id": "SG-LABOUR-MARKET-2020",
+          "alignment_score": 0.79,
+          "alignment_band": "strong_alignment"
+        }
+      ],
+      "strong_alignment_ratio": 1,
+      "positive_alignment_ratio": 1
+    },
+    {
+      "mechanism_id": "MKT_007",
+      "experience_count": 1,
+      "strong_alignment": 1,
+      "moderate_alignment": 0,
+      "weak_alignment": 0,
+      "contradictory": 0,
+      "cases": [
+        {
+          "case_id": "SG-FINANCE-2020",
+          "alignment_score": 0.76,
+          "alignment_band": "strong_alignment"
+        }
+      ],
+      "strong_alignment_ratio": 1,
+      "positive_alignment_ratio": 1
+    }
+  ],
+  "governance_note": "Accumulator v0.2 combines single-case and batch replay experiences. It does not validate mechanisms."
+}

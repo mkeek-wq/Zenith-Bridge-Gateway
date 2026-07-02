@@ -1,0 +1,1642 @@
+{
+  "signal_watchlist_registry_version": "signal-watchlist-registry-v0.1",
+  "generated_at": "2026-06-06T06:00:59.831Z",
+  "source_driver_observatory": "data/intelligence/driver-observatory-v0.1.json",
+  "policy": {
+    "principle": "Creates monitorable signal watchlist items from the driver observatory. No live monitoring or alerting is performed.",
+    "auto_monitoring_allowed": false,
+    "auto_alert_allowed": false,
+    "human_review_required": true,
+    "production_mutation_allowed": false
+  },
+  "summary": {
+    "drivers_processed": 13,
+    "watchlist_items": 45,
+    "weekly_items": 8,
+    "biweekly_items": 16,
+    "monthly_items": 6,
+    "quarterly_items": 15
+  },
+  "watchlist_items": [
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_008-global-semiconductor-sales",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "indicator": "global semiconductor sales",
+      "signal_type": "quantitative_indicator",
+      "monitoring_cadence": "biweekly",
+      "monitoring_priority": "top_review",
+      "signal_strength": "medium_high",
+      "evidence_sources": [
+        "SingStat",
+        "EDB Singapore",
+        "SEMI",
+        "WSTS",
+        "SIA",
+        "TSMC investor relations",
+        "UMC investor relations",
+        "GlobalFoundries investor relations",
+        "ASEAN electronics trade publications"
+      ],
+      "related_search_phrases": [
+        "semiconductor demand",
+        "chip shortage",
+        "global chip shortage",
+        "electronics demand",
+        "wafer demand",
+        "foundry demand",
+        "inventory correction",
+        "semiconductor equipment orders"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_008-chip-demand",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "indicator": "chip demand",
+      "signal_type": "quantitative_indicator",
+      "monitoring_cadence": "biweekly",
+      "monitoring_priority": "top_review",
+      "signal_strength": "medium_high",
+      "evidence_sources": [
+        "SingStat",
+        "EDB Singapore",
+        "SEMI",
+        "WSTS",
+        "SIA",
+        "TSMC investor relations",
+        "UMC investor relations",
+        "GlobalFoundries investor relations",
+        "ASEAN electronics trade publications"
+      ],
+      "related_search_phrases": [
+        "semiconductor demand",
+        "chip shortage",
+        "global chip shortage",
+        "electronics demand",
+        "wafer demand",
+        "foundry demand",
+        "inventory correction",
+        "semiconductor equipment orders"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_008-electronics-exports",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "indicator": "electronics exports",
+      "signal_type": "quantitative_indicator",
+      "monitoring_cadence": "biweekly",
+      "monitoring_priority": "top_review",
+      "signal_strength": "medium_high",
+      "evidence_sources": [
+        "SingStat",
+        "EDB Singapore",
+        "SEMI",
+        "WSTS",
+        "SIA",
+        "TSMC investor relations",
+        "UMC investor relations",
+        "GlobalFoundries investor relations",
+        "ASEAN electronics trade publications"
+      ],
+      "related_search_phrases": [
+        "semiconductor demand",
+        "chip shortage",
+        "global chip shortage",
+        "electronics demand",
+        "wafer demand",
+        "foundry demand",
+        "inventory correction",
+        "semiconductor equipment orders"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_008-wafer-fab-utilization",
+      "driver_id": "MKT_008",
+      "driver_name": "Semiconductor / Electronics Cycle",
+      "indicator": "wafer fab utilization",
+      "signal_type": "quantitative_indicator",
+      "monitoring_cadence": "biweekly",
+      "monitoring_priority": "top_review",
+      "signal_strength": "medium_high",
+      "evidence_sources": [
+        "SingStat",
+        "EDB Singapore",
+        "SEMI",
+        "WSTS",
+        "SIA",
+        "TSMC investor relations",
+        "UMC investor relations",
+        "GlobalFoundries investor relations",
+        "ASEAN electronics trade publications"
+      ],
+      "related_search_phrases": [
+        "semiconductor demand",
+        "chip shortage",
+        "global chip shortage",
+        "electronics demand",
+        "wafer demand",
+        "foundry demand",
+        "inventory correction",
+        "semiconductor equipment orders"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_010-global-pmi",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "indicator": "global PMI",
+      "signal_type": "qualitative_indicator",
+      "monitoring_cadence": "biweekly",
+      "monitoring_priority": "top_review",
+      "signal_strength": "medium_high",
+      "evidence_sources": [
+        "MTI Singapore",
+        "SingStat",
+        "IMF",
+        "World Bank",
+        "WTO",
+        "S&P Global PMI",
+        "Reuters",
+        "Bloomberg"
+      ],
+      "related_search_phrases": [
+        "global recession",
+        "external downturn",
+        "demand shock",
+        "pandemic disruption",
+        "collapse in demand",
+        "sharp demand fall",
+        "trade contraction"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_010-export-orders",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "indicator": "export orders",
+      "signal_type": "quantitative_indicator",
+      "monitoring_cadence": "biweekly",
+      "monitoring_priority": "top_review",
+      "signal_strength": "medium_high",
+      "evidence_sources": [
+        "MTI Singapore",
+        "SingStat",
+        "IMF",
+        "World Bank",
+        "WTO",
+        "S&P Global PMI",
+        "Reuters",
+        "Bloomberg"
+      ],
+      "related_search_phrases": [
+        "global recession",
+        "external downturn",
+        "demand shock",
+        "pandemic disruption",
+        "collapse in demand",
+        "sharp demand fall",
+        "trade contraction"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_010-trade-volumes",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "indicator": "trade volumes",
+      "signal_type": "qualitative_indicator",
+      "monitoring_cadence": "biweekly",
+      "monitoring_priority": "top_review",
+      "signal_strength": "medium_high",
+      "evidence_sources": [
+        "MTI Singapore",
+        "SingStat",
+        "IMF",
+        "World Bank",
+        "WTO",
+        "S&P Global PMI",
+        "Reuters",
+        "Bloomberg"
+      ],
+      "related_search_phrases": [
+        "global recession",
+        "external downturn",
+        "demand shock",
+        "pandemic disruption",
+        "collapse in demand",
+        "sharp demand fall",
+        "trade contraction"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_010-manufacturing-sentiment",
+      "driver_id": "MKT_010",
+      "driver_name": "Demand Shock / External Downturn",
+      "indicator": "manufacturing sentiment",
+      "signal_type": "qualitative_indicator",
+      "monitoring_cadence": "biweekly",
+      "monitoring_priority": "top_review",
+      "signal_strength": "medium_high",
+      "evidence_sources": [
+        "MTI Singapore",
+        "SingStat",
+        "IMF",
+        "World Bank",
+        "WTO",
+        "S&P Global PMI",
+        "Reuters",
+        "Bloomberg"
+      ],
+      "related_search_phrases": [
+        "global recession",
+        "external downturn",
+        "demand shock",
+        "pandemic disruption",
+        "collapse in demand",
+        "sharp demand fall",
+        "trade contraction"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_011-chemical-demand",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "indicator": "chemical demand",
+      "signal_type": "quantitative_indicator",
+      "monitoring_cadence": "biweekly",
+      "monitoring_priority": "top_review",
+      "signal_strength": "medium_high",
+      "evidence_sources": [
+        "SingStat",
+        "ICIS",
+        "Argus Media",
+        "S&P Global Commodity Insights",
+        "Shell",
+        "ExxonMobil",
+        "BASF",
+        "chemical industry publications"
+      ],
+      "related_search_phrases": [
+        "chemical demand",
+        "petrochemical demand",
+        "specialty chemicals",
+        "basic chemicals",
+        "feedstock prices",
+        "naphtha prices",
+        "petrochemical plant utilisation"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_011-feedstock-prices",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "indicator": "feedstock prices",
+      "signal_type": "qualitative_indicator",
+      "monitoring_cadence": "biweekly",
+      "monitoring_priority": "top_review",
+      "signal_strength": "medium_high",
+      "evidence_sources": [
+        "SingStat",
+        "ICIS",
+        "Argus Media",
+        "S&P Global Commodity Insights",
+        "Shell",
+        "ExxonMobil",
+        "BASF",
+        "chemical industry publications"
+      ],
+      "related_search_phrases": [
+        "chemical demand",
+        "petrochemical demand",
+        "specialty chemicals",
+        "basic chemicals",
+        "feedstock prices",
+        "naphtha prices",
+        "petrochemical plant utilisation"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_011-petrochemical-margins",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "indicator": "petrochemical margins",
+      "signal_type": "qualitative_indicator",
+      "monitoring_cadence": "biweekly",
+      "monitoring_priority": "top_review",
+      "signal_strength": "medium_high",
+      "evidence_sources": [
+        "SingStat",
+        "ICIS",
+        "Argus Media",
+        "S&P Global Commodity Insights",
+        "Shell",
+        "ExxonMobil",
+        "BASF",
+        "chemical industry publications"
+      ],
+      "related_search_phrases": [
+        "chemical demand",
+        "petrochemical demand",
+        "specialty chemicals",
+        "basic chemicals",
+        "feedstock prices",
+        "naphtha prices",
+        "petrochemical plant utilisation"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_011-plant-utilization",
+      "driver_id": "MKT_011",
+      "driver_name": "Chemicals / Petrochemicals Cycle",
+      "indicator": "plant utilization",
+      "signal_type": "quantitative_indicator",
+      "monitoring_cadence": "biweekly",
+      "monitoring_priority": "top_review",
+      "signal_strength": "medium_high",
+      "evidence_sources": [
+        "SingStat",
+        "ICIS",
+        "Argus Media",
+        "S&P Global Commodity Insights",
+        "Shell",
+        "ExxonMobil",
+        "BASF",
+        "chemical industry publications"
+      ],
+      "related_search_phrases": [
+        "chemical demand",
+        "petrochemical demand",
+        "specialty chemicals",
+        "basic chemicals",
+        "feedstock prices",
+        "naphtha prices",
+        "petrochemical plant utilisation"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_009-pharmaceutical-production-schedules",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "indicator": "pharmaceutical production schedules",
+      "signal_type": "event_indicator",
+      "monitoring_cadence": "biweekly",
+      "monitoring_priority": "top_review",
+      "signal_strength": "medium_high",
+      "evidence_sources": [
+        "EDB Singapore",
+        "SingStat",
+        "pharmaceutical company reports",
+        "biologics company announcements",
+        "Fierce Pharma",
+        "BioPharma Dive",
+        "healthcare industry publications"
+      ],
+      "related_search_phrases": [
+        "pharmaceutical batch",
+        "batch production",
+        "biologics production",
+        "vaccine production",
+        "drug production",
+        "plant schedule",
+        "medical technology demand"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_009-biologics-demand",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "indicator": "biologics demand",
+      "signal_type": "quantitative_indicator",
+      "monitoring_cadence": "biweekly",
+      "monitoring_priority": "top_review",
+      "signal_strength": "medium_high",
+      "evidence_sources": [
+        "EDB Singapore",
+        "SingStat",
+        "pharmaceutical company reports",
+        "biologics company announcements",
+        "Fierce Pharma",
+        "BioPharma Dive",
+        "healthcare industry publications"
+      ],
+      "related_search_phrases": [
+        "pharmaceutical batch",
+        "batch production",
+        "biologics production",
+        "vaccine production",
+        "drug production",
+        "plant schedule",
+        "medical technology demand"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_009-vaccine-manufacturing",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "indicator": "vaccine manufacturing",
+      "signal_type": "qualitative_indicator",
+      "monitoring_cadence": "biweekly",
+      "monitoring_priority": "top_review",
+      "signal_strength": "medium_high",
+      "evidence_sources": [
+        "EDB Singapore",
+        "SingStat",
+        "pharmaceutical company reports",
+        "biologics company announcements",
+        "Fierce Pharma",
+        "BioPharma Dive",
+        "healthcare industry publications"
+      ],
+      "related_search_phrases": [
+        "pharmaceutical batch",
+        "batch production",
+        "biologics production",
+        "vaccine production",
+        "drug production",
+        "plant schedule",
+        "medical technology demand"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_009-healthcare-demand",
+      "driver_id": "MKT_009",
+      "driver_name": "Biomedical / Pharmaceutical Production Cycle",
+      "indicator": "healthcare demand",
+      "signal_type": "quantitative_indicator",
+      "monitoring_cadence": "biweekly",
+      "monitoring_priority": "top_review",
+      "signal_strength": "medium_high",
+      "evidence_sources": [
+        "EDB Singapore",
+        "SingStat",
+        "pharmaceutical company reports",
+        "biologics company announcements",
+        "Fierce Pharma",
+        "BioPharma Dive",
+        "healthcare industry publications"
+      ],
+      "related_search_phrases": [
+        "pharmaceutical batch",
+        "batch production",
+        "biologics production",
+        "vaccine production",
+        "drug production",
+        "plant schedule",
+        "medical technology demand"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_013-iata-traffic",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "indicator": "IATA traffic",
+      "signal_type": "quantitative_indicator",
+      "monitoring_cadence": "weekly",
+      "monitoring_priority": "top_review",
+      "signal_strength": "high",
+      "evidence_sources": [
+        "SingStat",
+        "EDB Singapore",
+        "IATA",
+        "ICAO",
+        "aircraft MRO publications",
+        "marine engineering publications",
+        "ship repair industry publications",
+        "offshore engineering reports"
+      ],
+      "related_search_phrases": [
+        "transport engineering",
+        "aerospace demand",
+        "aircraft maintenance",
+        "MRO demand",
+        "fleet maintenance",
+        "ship repair",
+        "marine engineering",
+        "offshore engineering"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_013-aircraft-utilization",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "indicator": "aircraft utilization",
+      "signal_type": "quantitative_indicator",
+      "monitoring_cadence": "weekly",
+      "monitoring_priority": "top_review",
+      "signal_strength": "high",
+      "evidence_sources": [
+        "SingStat",
+        "EDB Singapore",
+        "IATA",
+        "ICAO",
+        "aircraft MRO publications",
+        "marine engineering publications",
+        "ship repair industry publications",
+        "offshore engineering reports"
+      ],
+      "related_search_phrases": [
+        "transport engineering",
+        "aerospace demand",
+        "aircraft maintenance",
+        "MRO demand",
+        "fleet maintenance",
+        "ship repair",
+        "marine engineering",
+        "offshore engineering"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_013-mro-demand",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "indicator": "MRO demand",
+      "signal_type": "quantitative_indicator",
+      "monitoring_cadence": "weekly",
+      "monitoring_priority": "top_review",
+      "signal_strength": "high",
+      "evidence_sources": [
+        "SingStat",
+        "EDB Singapore",
+        "IATA",
+        "ICAO",
+        "aircraft MRO publications",
+        "marine engineering publications",
+        "ship repair industry publications",
+        "offshore engineering reports"
+      ],
+      "related_search_phrases": [
+        "transport engineering",
+        "aerospace demand",
+        "aircraft maintenance",
+        "MRO demand",
+        "fleet maintenance",
+        "ship repair",
+        "marine engineering",
+        "offshore engineering"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_013-fleet-expansion",
+      "driver_id": "MKT_013",
+      "driver_name": "Transport Engineering / Aerospace Marine Cycle",
+      "indicator": "fleet expansion",
+      "signal_type": "event_indicator",
+      "monitoring_cadence": "weekly",
+      "monitoring_priority": "top_review",
+      "signal_strength": "high",
+      "evidence_sources": [
+        "SingStat",
+        "EDB Singapore",
+        "IATA",
+        "ICAO",
+        "aircraft MRO publications",
+        "marine engineering publications",
+        "ship repair industry publications",
+        "offshore engineering reports"
+      ],
+      "related_search_phrases": [
+        "transport engineering",
+        "aerospace demand",
+        "aircraft maintenance",
+        "MRO demand",
+        "fleet maintenance",
+        "ship repair",
+        "marine engineering",
+        "offshore engineering"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_012-capital-expenditure",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "indicator": "capital expenditure",
+      "signal_type": "qualitative_indicator",
+      "monitoring_cadence": "weekly",
+      "monitoring_priority": "top_review",
+      "signal_strength": "high",
+      "evidence_sources": [
+        "EDB Singapore",
+        "SingStat",
+        "SEMI equipment reports",
+        "company earnings releases",
+        "machinery industry publications",
+        "automation industry publications"
+      ],
+      "related_search_phrases": [
+        "precision engineering",
+        "machinery demand",
+        "capital equipment demand",
+        "automation equipment",
+        "semiconductor equipment",
+        "equipment orders",
+        "capex cycle"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_012-machinery-orders",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "indicator": "machinery orders",
+      "signal_type": "quantitative_indicator",
+      "monitoring_cadence": "weekly",
+      "monitoring_priority": "top_review",
+      "signal_strength": "high",
+      "evidence_sources": [
+        "EDB Singapore",
+        "SingStat",
+        "SEMI equipment reports",
+        "company earnings releases",
+        "machinery industry publications",
+        "automation industry publications"
+      ],
+      "related_search_phrases": [
+        "precision engineering",
+        "machinery demand",
+        "capital equipment demand",
+        "automation equipment",
+        "semiconductor equipment",
+        "equipment orders",
+        "capex cycle"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_012-automation-investment",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "indicator": "automation investment",
+      "signal_type": "qualitative_indicator",
+      "monitoring_cadence": "weekly",
+      "monitoring_priority": "top_review",
+      "signal_strength": "high",
+      "evidence_sources": [
+        "EDB Singapore",
+        "SingStat",
+        "SEMI equipment reports",
+        "company earnings releases",
+        "machinery industry publications",
+        "automation industry publications"
+      ],
+      "related_search_phrases": [
+        "precision engineering",
+        "machinery demand",
+        "capital equipment demand",
+        "automation equipment",
+        "semiconductor equipment",
+        "equipment orders",
+        "capex cycle"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_012-equipment-demand",
+      "driver_id": "MKT_012",
+      "driver_name": "Precision Engineering / Capital Equipment Cycle",
+      "indicator": "equipment demand",
+      "signal_type": "quantitative_indicator",
+      "monitoring_cadence": "weekly",
+      "monitoring_priority": "top_review",
+      "signal_strength": "high",
+      "evidence_sources": [
+        "EDB Singapore",
+        "SingStat",
+        "SEMI equipment reports",
+        "company earnings releases",
+        "machinery industry publications",
+        "automation industry publications"
+      ],
+      "related_search_phrases": [
+        "precision engineering",
+        "machinery demand",
+        "capital equipment demand",
+        "automation equipment",
+        "semiconductor equipment",
+        "equipment orders",
+        "capex cycle"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_007-industrial-production",
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "indicator": "industrial production",
+      "signal_type": "qualitative_indicator",
+      "monitoring_cadence": "monthly",
+      "monitoring_priority": "high_review",
+      "signal_strength": "medium",
+      "evidence_sources": [
+        "IEA",
+        "EIA",
+        "OPEC",
+        "S&P Global Commodity Insights",
+        "Argus Media",
+        "ICIS",
+        "Shell",
+        "ExxonMobil",
+        "refinery maintenance reports"
+      ],
+      "related_search_phrases": [
+        "oil demand",
+        "fuel demand",
+        "jet fuel demand",
+        "refining margin",
+        "refinery maintenance",
+        "travel recovery",
+        "crude oil demand"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_007-business-sentiment",
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "indicator": "business sentiment",
+      "signal_type": "qualitative_indicator",
+      "monitoring_cadence": "monthly",
+      "monitoring_priority": "high_review",
+      "signal_strength": "medium",
+      "evidence_sources": [
+        "IEA",
+        "EIA",
+        "OPEC",
+        "S&P Global Commodity Insights",
+        "Argus Media",
+        "ICIS",
+        "Shell",
+        "ExxonMobil",
+        "refinery maintenance reports"
+      ],
+      "related_search_phrases": [
+        "oil demand",
+        "fuel demand",
+        "jet fuel demand",
+        "refining margin",
+        "refinery maintenance",
+        "travel recovery",
+        "crude oil demand"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_007-sector-demand",
+      "driver_id": "MKT_007",
+      "driver_name": "Energy Demand / Refining Cycle",
+      "indicator": "sector demand",
+      "signal_type": "quantitative_indicator",
+      "monitoring_cadence": "monthly",
+      "monitoring_priority": "high_review",
+      "signal_strength": "medium",
+      "evidence_sources": [
+        "IEA",
+        "EIA",
+        "OPEC",
+        "S&P Global Commodity Insights",
+        "Argus Media",
+        "ICIS",
+        "Shell",
+        "ExxonMobil",
+        "refinery maintenance reports"
+      ],
+      "related_search_phrases": [
+        "oil demand",
+        "fuel demand",
+        "jet fuel demand",
+        "refining margin",
+        "refinery maintenance",
+        "travel recovery",
+        "crude oil demand"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_002-industrial-production",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "indicator": "industrial production",
+      "signal_type": "qualitative_indicator",
+      "monitoring_cadence": "monthly",
+      "monitoring_priority": "high_review",
+      "signal_strength": "medium",
+      "evidence_sources": [
+        "SingStat",
+        "SEMI",
+        "company earnings releases",
+        "Purchasing Managers Index reports",
+        "electronics industry publications",
+        "S&P Global PMI"
+      ],
+      "related_search_phrases": [
+        "inventory restocking",
+        "inventory correction",
+        "channel inventory",
+        "customer inventory",
+        "destocking",
+        "restocking cycle"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_002-business-sentiment",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "indicator": "business sentiment",
+      "signal_type": "qualitative_indicator",
+      "monitoring_cadence": "monthly",
+      "monitoring_priority": "high_review",
+      "signal_strength": "medium",
+      "evidence_sources": [
+        "SingStat",
+        "SEMI",
+        "company earnings releases",
+        "Purchasing Managers Index reports",
+        "electronics industry publications",
+        "S&P Global PMI"
+      ],
+      "related_search_phrases": [
+        "inventory restocking",
+        "inventory correction",
+        "channel inventory",
+        "customer inventory",
+        "destocking",
+        "restocking cycle"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_002-sector-demand",
+      "driver_id": "MKT_002",
+      "driver_name": "Inventory Cycle / Restocking",
+      "indicator": "sector demand",
+      "signal_type": "quantitative_indicator",
+      "monitoring_cadence": "monthly",
+      "monitoring_priority": "high_review",
+      "signal_strength": "medium",
+      "evidence_sources": [
+        "SingStat",
+        "SEMI",
+        "company earnings releases",
+        "Purchasing Managers Index reports",
+        "electronics industry publications",
+        "S&P Global PMI"
+      ],
+      "related_search_phrases": [
+        "inventory restocking",
+        "inventory correction",
+        "channel inventory",
+        "customer inventory",
+        "destocking",
+        "restocking cycle"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_004-industrial-production",
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "indicator": "industrial production",
+      "signal_type": "qualitative_indicator",
+      "monitoring_cadence": "quarterly",
+      "monitoring_priority": "high_review",
+      "signal_strength": "early_signal",
+      "evidence_sources": [
+        "EDB Singapore",
+        "company press releases",
+        "company annual reports",
+        "factory opening announcements",
+        "industrial park announcements",
+        "sector trade publications"
+      ],
+      "related_search_phrases": [
+        "capacity expansion",
+        "new plant",
+        "production ramp-up",
+        "new facility",
+        "factory opening",
+        "manufacturing investment"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_004-business-sentiment",
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "indicator": "business sentiment",
+      "signal_type": "qualitative_indicator",
+      "monitoring_cadence": "quarterly",
+      "monitoring_priority": "high_review",
+      "signal_strength": "early_signal",
+      "evidence_sources": [
+        "EDB Singapore",
+        "company press releases",
+        "company annual reports",
+        "factory opening announcements",
+        "industrial park announcements",
+        "sector trade publications"
+      ],
+      "related_search_phrases": [
+        "capacity expansion",
+        "new plant",
+        "production ramp-up",
+        "new facility",
+        "factory opening",
+        "manufacturing investment"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_004-sector-demand",
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "indicator": "sector demand",
+      "signal_type": "quantitative_indicator",
+      "monitoring_cadence": "quarterly",
+      "monitoring_priority": "high_review",
+      "signal_strength": "early_signal",
+      "evidence_sources": [
+        "EDB Singapore",
+        "company press releases",
+        "company annual reports",
+        "factory opening announcements",
+        "industrial park announcements",
+        "sector trade publications"
+      ],
+      "related_search_phrases": [
+        "capacity expansion",
+        "new plant",
+        "production ramp-up",
+        "new facility",
+        "factory opening",
+        "manufacturing investment"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_001-industrial-production",
+      "driver_id": "MKT_001",
+      "driver_name": "Global Demand Surge",
+      "indicator": "industrial production",
+      "signal_type": "qualitative_indicator",
+      "monitoring_cadence": "quarterly",
+      "monitoring_priority": "medium_review",
+      "signal_strength": "unknown",
+      "evidence_sources": [
+        "SingStat",
+        "MTI Singapore",
+        "EDB Singapore",
+        "WTO",
+        "IMF",
+        "company earnings releases",
+        "sector trade publications"
+      ],
+      "related_search_phrases": [
+        "strong global demand",
+        "export demand recovery",
+        "order growth",
+        "regional manufacturing demand",
+        "consumer demand recovery"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_001-business-sentiment",
+      "driver_id": "MKT_001",
+      "driver_name": "Global Demand Surge",
+      "indicator": "business sentiment",
+      "signal_type": "qualitative_indicator",
+      "monitoring_cadence": "quarterly",
+      "monitoring_priority": "medium_review",
+      "signal_strength": "unknown",
+      "evidence_sources": [
+        "SingStat",
+        "MTI Singapore",
+        "EDB Singapore",
+        "WTO",
+        "IMF",
+        "company earnings releases",
+        "sector trade publications"
+      ],
+      "related_search_phrases": [
+        "strong global demand",
+        "export demand recovery",
+        "order growth",
+        "regional manufacturing demand",
+        "consumer demand recovery"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_001-sector-demand",
+      "driver_id": "MKT_001",
+      "driver_name": "Global Demand Surge",
+      "indicator": "sector demand",
+      "signal_type": "quantitative_indicator",
+      "monitoring_cadence": "quarterly",
+      "monitoring_priority": "medium_review",
+      "signal_strength": "unknown",
+      "evidence_sources": [
+        "SingStat",
+        "MTI Singapore",
+        "EDB Singapore",
+        "WTO",
+        "IMF",
+        "company earnings releases",
+        "sector trade publications"
+      ],
+      "related_search_phrases": [
+        "strong global demand",
+        "export demand recovery",
+        "order growth",
+        "regional manufacturing demand",
+        "consumer demand recovery"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_003-industrial-production",
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness",
+      "indicator": "industrial production",
+      "signal_type": "qualitative_indicator",
+      "monitoring_cadence": "quarterly",
+      "monitoring_priority": "medium_review",
+      "signal_strength": "unknown",
+      "evidence_sources": [
+        "SingStat",
+        "MTI Singapore",
+        "WTO",
+        "IMF",
+        "World Bank",
+        "S&P Global PMI",
+        "trade publications"
+      ],
+      "related_search_phrases": [
+        "weak external demand",
+        "export decline",
+        "lower exports",
+        "trade slowdown",
+        "order slowdown",
+        "soft global demand"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_003-business-sentiment",
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness",
+      "indicator": "business sentiment",
+      "signal_type": "qualitative_indicator",
+      "monitoring_cadence": "quarterly",
+      "monitoring_priority": "medium_review",
+      "signal_strength": "unknown",
+      "evidence_sources": [
+        "SingStat",
+        "MTI Singapore",
+        "WTO",
+        "IMF",
+        "World Bank",
+        "S&P Global PMI",
+        "trade publications"
+      ],
+      "related_search_phrases": [
+        "weak external demand",
+        "export decline",
+        "lower exports",
+        "trade slowdown",
+        "order slowdown",
+        "soft global demand"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_003-sector-demand",
+      "driver_id": "MKT_003",
+      "driver_name": "Export Demand Weakness",
+      "indicator": "sector demand",
+      "signal_type": "quantitative_indicator",
+      "monitoring_cadence": "quarterly",
+      "monitoring_priority": "medium_review",
+      "signal_strength": "unknown",
+      "evidence_sources": [
+        "SingStat",
+        "MTI Singapore",
+        "WTO",
+        "IMF",
+        "World Bank",
+        "S&P Global PMI",
+        "trade publications"
+      ],
+      "related_search_phrases": [
+        "weak external demand",
+        "export decline",
+        "lower exports",
+        "trade slowdown",
+        "order slowdown",
+        "soft global demand"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_006-industrial-production",
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "indicator": "industrial production",
+      "signal_type": "qualitative_indicator",
+      "monitoring_cadence": "quarterly",
+      "monitoring_priority": "medium_review",
+      "signal_strength": "unknown",
+      "evidence_sources": [
+        "MTI Singapore",
+        "EDB Singapore",
+        "MAS",
+        "IRAS",
+        "Enterprise Singapore",
+        "government gazettes",
+        "regulatory agencies"
+      ],
+      "related_search_phrases": [
+        "policy change",
+        "regulatory change",
+        "tax incentive",
+        "government incentive",
+        "export restriction",
+        "trade restriction"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_006-business-sentiment",
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "indicator": "business sentiment",
+      "signal_type": "qualitative_indicator",
+      "monitoring_cadence": "quarterly",
+      "monitoring_priority": "medium_review",
+      "signal_strength": "unknown",
+      "evidence_sources": [
+        "MTI Singapore",
+        "EDB Singapore",
+        "MAS",
+        "IRAS",
+        "Enterprise Singapore",
+        "government gazettes",
+        "regulatory agencies"
+      ],
+      "related_search_phrases": [
+        "policy change",
+        "regulatory change",
+        "tax incentive",
+        "government incentive",
+        "export restriction",
+        "trade restriction"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_006-sector-demand",
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "indicator": "sector demand",
+      "signal_type": "quantitative_indicator",
+      "monitoring_cadence": "quarterly",
+      "monitoring_priority": "medium_review",
+      "signal_strength": "unknown",
+      "evidence_sources": [
+        "MTI Singapore",
+        "EDB Singapore",
+        "MAS",
+        "IRAS",
+        "Enterprise Singapore",
+        "government gazettes",
+        "regulatory agencies"
+      ],
+      "related_search_phrases": [
+        "policy change",
+        "regulatory change",
+        "tax incentive",
+        "government incentive",
+        "export restriction",
+        "trade restriction"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_005-industrial-production",
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "indicator": "industrial production",
+      "signal_type": "qualitative_indicator",
+      "monitoring_cadence": "quarterly",
+      "monitoring_priority": "medium_review",
+      "signal_strength": "early_signal",
+      "evidence_sources": [
+        "company announcements",
+        "maintenance notices",
+        "plant shutdown notices",
+        "Reuters",
+        "industry trade publications",
+        "regulatory filings"
+      ],
+      "related_search_phrases": [
+        "maintenance shutdown",
+        "plant shutdown",
+        "production disruption",
+        "supply disruption",
+        "factory closure",
+        "scheduled maintenance"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_005-business-sentiment",
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "indicator": "business sentiment",
+      "signal_type": "qualitative_indicator",
+      "monitoring_cadence": "quarterly",
+      "monitoring_priority": "medium_review",
+      "signal_strength": "early_signal",
+      "evidence_sources": [
+        "company announcements",
+        "maintenance notices",
+        "plant shutdown notices",
+        "Reuters",
+        "industry trade publications",
+        "regulatory filings"
+      ],
+      "related_search_phrases": [
+        "maintenance shutdown",
+        "plant shutdown",
+        "production disruption",
+        "supply disruption",
+        "factory closure",
+        "scheduled maintenance"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    },
+    {
+      "watchlist_item_version": "signal-watchlist-item-v0.1",
+      "watchlist_id": "WATCH-MKT_005-sector-demand",
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "indicator": "sector demand",
+      "signal_type": "quantitative_indicator",
+      "monitoring_cadence": "quarterly",
+      "monitoring_priority": "medium_review",
+      "signal_strength": "early_signal",
+      "evidence_sources": [
+        "company announcements",
+        "maintenance notices",
+        "plant shutdown notices",
+        "Reuters",
+        "industry trade publications",
+        "regulatory filings"
+      ],
+      "related_search_phrases": [
+        "maintenance shutdown",
+        "plant shutdown",
+        "production disruption",
+        "supply disruption",
+        "factory closure",
+        "scheduled maintenance"
+      ],
+      "status": "watchlisted",
+      "governance": {
+        "auto_monitoring_allowed": false,
+        "auto_alert_allowed": false,
+        "human_review_required": true,
+        "production_mutation_allowed": false
+      }
+    }
+  ]
+}

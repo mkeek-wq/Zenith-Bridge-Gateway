@@ -1,0 +1,89 @@
+{
+  "evidence_package_version": "historical-evidence-package-v0.1",
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "case_id": "SG-PRODUCTIVITY-SOLUTIONS-GRANT",
+  "sandbox_only": true,
+  "production_mutation_allowed": false,
+  "source_investigation_package": "data/historical-replay/m355381/investigation-packages/sg-productivity-solutions-grant-investigation-package-v0.1.json",
+  "case_summary": {
+    "period": "2020",
+    "series_no": "POLICY-ENTERPRISESG-PSG",
+    "series_name": "Productivity Solutions Grant",
+    "priority": "critical",
+    "direction": "positive",
+    "latest_value": null,
+    "month_on_month_change_pct": null,
+    "year_on_year_change_pct": null
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "SG_PRODUCTIVITY_SOLUTIONS_GRANT_EVIDENCE_001",
+      "source_type": "policy_event",
+      "source_name": "SG-PRODUCTIVITY-SOLUTIONS-GRANT",
+      "evidence_summary": "The Productivity Solutions Grant is a government support scheme encouraging firms to adopt productivity and digital solutions.",
+      "supports_drivers": [
+        "MKT_006"
+      ],
+      "evidence_strength": "high"
+    },
+    {
+      "evidence_id": "SG_PRODUCTIVITY_SOLUTIONS_GRANT_EVIDENCE_002",
+      "source_type": "mechanism_context",
+      "source_name": "SG-PRODUCTIVITY-SOLUTIONS-GRANT",
+      "evidence_summary": "Policy support reduced adoption barriers for business capability upgrading.",
+      "supports_drivers": [
+        "MKT_006",
+        "MKT_004"
+      ],
+      "evidence_strength": "high"
+    },
+    {
+      "evidence_id": "SG_PRODUCTIVITY_SOLUTIONS_GRANT_EVIDENCE_003",
+      "source_type": "mechanism_context",
+      "source_name": "SG-PRODUCTIVITY-SOLUTIONS-GRANT",
+      "evidence_summary": "The grant may support capacity and productivity expansion through technology adoption.",
+      "supports_drivers": [
+        "MKT_006",
+        "MKT_004"
+      ],
+      "evidence_strength": "medium"
+    },
+    {
+      "evidence_id": "SG_PRODUCTIVITY_SOLUTIONS_GRANT_EVIDENCE_004",
+      "source_type": "mechanism_context",
+      "source_name": "SG-PRODUCTIVITY-SOLUTIONS-GRANT",
+      "evidence_summary": "Operational improvements and process changes are secondary transmission channels.",
+      "supports_drivers": [
+        "MKT_006",
+        "MKT_004"
+      ],
+      "evidence_strength": "medium"
+    }
+  ],
+  "driver_evidence_summary": [
+    {
+      "driver_id": "MKT_006",
+      "driver_name": "Policy / Regulatory Impact",
+      "evidence_count": 4,
+      "evidence_strength": "high"
+    },
+    {
+      "driver_id": "MKT_004",
+      "driver_name": "Capacity Expansion",
+      "evidence_count": 2,
+      "evidence_strength": "medium"
+    },
+    {
+      "driver_id": "MKT_005",
+      "driver_name": "Operational Disruption",
+      "evidence_count": 1,
+      "evidence_strength": "medium"
+    }
+  ],
+  "evidence_assessment": {
+    "evidence_collected": true,
+    "attribution_ready": true,
+    "outcome_ready": false,
+    "confidence": "high"
+  }
+}

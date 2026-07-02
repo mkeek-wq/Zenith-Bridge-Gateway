@@ -1,0 +1,24 @@
+{
+  "historical_evidence_pilot_version": "historical-evidence-pilot-v0.1",
+  "case_id": "SG-MANUFACTURING-2009",
+  "period": "2009",
+  "series_name": "Total Manufacturing",
+  "source_context": "Bulk sandbox historical replay evidence pilot v0.2. Synthetic seed evidence for attribution-learning pipeline testing; not production evidence.",
+  "governance": {
+    "sandbox_only": true,
+    "bulk_seed": true,
+    "synthetic_seed_evidence": true,
+    "manual_review_required": true,
+    "production_mutation_allowed": false
+  },
+  "replay_metadata": {
+    "theme": "demand_shock",
+    "direction": "contraction"
+  },
+  "evidence_items": [
+    "Singapore Total Manufacturing output in 2009 was affected by a demand shock, external downturn, and weak global demand conditions.",
+    "Export decline, lower exports, order slowdown, and trade slowdown weighed on production activity.",
+    "A sharp demand fall and global recession conditions transmitted into Singapore's industrial base.",
+    "Manufacturing output reflected weaker external demand and disruption to regional activity."
+  ]
+}

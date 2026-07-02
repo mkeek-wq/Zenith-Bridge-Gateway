@@ -1,0 +1,117 @@
+{
+  "registry_version": "sector-indicator-candidate-registry-v0.1",
+  "generated_at": "2026-06-10T02:33:02.792Z",
+  "candidates_reviewed": 12,
+  "approved_for_dry_run": 6,
+  "needs_source_review": 6,
+  "candidates": [
+    {
+      "indicator_id": "SG_MANUFACTURING_OUTPUT",
+      "indicator_name": "Singapore Manufacturing Output",
+      "domain": "manufacturing",
+      "source_authority": "SingStat / EDB",
+      "candidate_status": "approved_for_dry_run",
+      "lineage_status": "source_identified",
+      "ingestion_status": "candidate_not_ingested"
+    },
+    {
+      "indicator_id": "SG_ELECTRONICS_EXPORTS",
+      "indicator_name": "Singapore Electronics Exports",
+      "domain": "manufacturing",
+      "source_authority": "Enterprise Singapore / SingStat",
+      "candidate_status": "approved_for_dry_run",
+      "lineage_status": "source_identified",
+      "ingestion_status": "candidate_not_ingested"
+    },
+    {
+      "indicator_id": "GLOBAL_INVENTORY_CYCLE",
+      "indicator_name": "Global Inventory Cycle Indicator",
+      "domain": "manufacturing",
+      "source_authority": "to_be_confirmed",
+      "candidate_status": "needs_source_review",
+      "lineage_status": "source_identified",
+      "ingestion_status": "candidate_not_ingested"
+    },
+    {
+      "indicator_id": "BRENT_CRUDE",
+      "indicator_name": "Brent Crude Oil Price",
+      "domain": "petroleum",
+      "source_authority": "EIA / FRED / World Bank",
+      "candidate_status": "approved_for_dry_run",
+      "lineage_status": "source_identified",
+      "ingestion_status": "candidate_not_ingested"
+    },
+    {
+      "indicator_id": "REFINING_MARGINS",
+      "indicator_name": "Refining Margins",
+      "domain": "petroleum",
+      "source_authority": "to_be_confirmed",
+      "candidate_status": "needs_source_review",
+      "lineage_status": "source_identified",
+      "ingestion_status": "candidate_not_ingested"
+    },
+    {
+      "indicator_id": "PETROCHEMICAL_SPREADS",
+      "indicator_name": "Petrochemical Spreads",
+      "domain": "petroleum",
+      "source_authority": "to_be_confirmed",
+      "candidate_status": "needs_source_review",
+      "lineage_status": "source_identified",
+      "ingestion_status": "candidate_not_ingested"
+    },
+    {
+      "indicator_id": "GLOBAL_SEMICONDUCTOR_SALES",
+      "indicator_name": "Global Semiconductor Sales",
+      "domain": "semiconductors",
+      "source_authority": "SIA / WSTS",
+      "candidate_status": "approved_for_dry_run",
+      "lineage_status": "source_identified",
+      "ingestion_status": "candidate_not_ingested"
+    },
+    {
+      "indicator_id": "WAFER_FAB_UTILIZATION",
+      "indicator_name": "Wafer Fab Utilization",
+      "domain": "semiconductors",
+      "source_authority": "to_be_confirmed",
+      "candidate_status": "needs_source_review",
+      "lineage_status": "source_identified",
+      "ingestion_status": "candidate_not_ingested"
+    },
+    {
+      "indicator_id": "CHIP_DEMAND",
+      "indicator_name": "Chip Demand Indicator",
+      "domain": "semiconductors",
+      "source_authority": "to_be_confirmed",
+      "candidate_status": "needs_source_review",
+      "lineage_status": "source_identified",
+      "ingestion_status": "candidate_not_ingested"
+    },
+    {
+      "indicator_id": "SG_PHARMACEUTICAL_OUTPUT",
+      "indicator_name": "Singapore Pharmaceutical Output",
+      "domain": "biomedical",
+      "source_authority": "SingStat / EDB",
+      "candidate_status": "approved_for_dry_run",
+      "lineage_status": "source_identified",
+      "ingestion_status": "candidate_not_ingested"
+    },
+    {
+      "indicator_id": "SG_BIOMEDICAL_EXPORTS",
+      "indicator_name": "Singapore Biomedical Exports",
+      "domain": "biomedical",
+      "source_authority": "Enterprise Singapore / SingStat",
+      "candidate_status": "approved_for_dry_run",
+      "lineage_status": "source_identified",
+      "ingestion_status": "candidate_not_ingested"
+    },
+    {
+      "indicator_id": "HEALTHCARE_DEMAND",
+      "indicator_name": "Healthcare Demand Indicator",
+      "domain": "biomedical",
+      "source_authority": "to_be_confirmed",
+      "candidate_status": "needs_source_review",
+      "lineage_status": "source_identified",
+      "ingestion_status": "candidate_not_ingested"
+    }
+  ]
+}
