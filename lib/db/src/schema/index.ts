@@ -1,3 +1,3 @@
-export * from "./articles";
-export * from "./admin_users";
-export * from "./contact_submissions";
+export * from "./articles.js";
+export * from "./admin_users.js";
+export * from "./contact_submissions.js";

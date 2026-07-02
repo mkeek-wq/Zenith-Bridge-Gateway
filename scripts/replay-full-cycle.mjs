@@ -6,7 +6,7 @@ console.log("=================================");
 console.log("Replay Full Cycle v0.1");
 console.log("=================================");
 console.log("");
-console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-40");
+console.log("Mode: SAFE PARTIAL EXECUTION - STEPS 1-41");
 console.log("");
 
 const commands = [
@@ -210,6 +210,11 @@ const commands = [
     command:
       "cd artifacts/api-server && pnpm replay:macro-source-attachments",
   },
+  {
+    step: "Step 41 - Dataset evidence bridge",
+    command:
+      "cd artifacts/api-server && pnpm tsx src/scripts/build-replay-dataset-evidence-bridge-v0.1.ts",
+  }
 ];
 
 for (const item of commands) {

@@ -1,6 +1,6 @@
 {
   "version": "replay-macro-source-attachment-drafts-v0.1",
-  "generated_at": "2026-07-01T08:11:38.309Z",
+  "generated_at": "2026-07-01T08:58:30.586Z",
   "doctrine": "Macro source attachment drafts help humans attach sources to macro anchors. Dataset candidates are reference-only and do not promote, validate, or write production evidence.",
   "safety_mode": "REFERENCE_ONLY",
   "production_write_allowed": false,

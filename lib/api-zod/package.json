@@ -4,7 +4,11 @@
   "private": true,
   "type": "module",
   "exports": {
-    ".": "./src/index.ts"
+    ".": "./dist/index.js",
+    "./generated/api": "./dist/generated/api.js",
+    "./generated/types": "./dist/generated/types/index.js",
+    "./dist/generated/api.js": "./dist/generated/api.js",
+    "./dist/generated/types/index.js": "./dist/generated/types/index.js"
   },
   "dependencies": {
     "zod": "catalog:"
