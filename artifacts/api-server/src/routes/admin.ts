@@ -1,15 +1,10 @@
 import { z } from "zod";
-import {
-  Router,
-  type IRouter,
-  type Request,
-  type Response,
-  type NextFunction,
-} from "express";
+import { Router, type IRouter, type Request, type Response, type NextFunction } from "express";
 import { eq, desc } from "drizzle-orm";
 import { db, articlesTable, adminUsersTable } from "@workspace/db";
 import bcrypt from "bcryptjs";
-import { logger } from "../lib/logger.js";
+import { logger } from "../lib/logger";
+
 
 const AdminLoginBody = z.object({
   username: z.string(),
@@ -37,6 +32,7 @@ const DeleteArticleParams = z.object({
   id: z.string(),
 });
 
+
 declare module "express-session" {
   interface SessionData {
     adminUsername?: string;
@@ -44,13 +40,6 @@ declare module "express-session" {
 }
 
 const router: IRouter = Router();
-
-function getAuthUsername(req: Request): string | null {
-  const authHeader = req.headers.authorization || "";
-  const tokenUser = authHeader === "Bearer session-authenticated" ? "admin" : null;
-
-  return req.session.adminUsername ?? tokenUser;
-}
 
 function toApiArticle(row: typeof articlesTable.$inferSelect) {
   return {
@@ -81,25 +70,17 @@ function slugify(title: string): string {
 }
 
 function requireAdmin(req: Request, res: Response, next: NextFunction): void {
-  const username = getAuthUsername(req);
-
-  if (!username) {
+  if (!req.session.adminUsername) {
     res.status(401).json({ error: "unauthorized", message: "Not authenticated" });
     return;
   }
-
-  req.session.adminUsername = username;
   next();
 }
 
-async function handleLogin(req: Request, res: Response): Promise<void> {
+router.post("/admin/login", async (req, res): Promise<void> => {
   const parsed = AdminLoginBody.safeParse(req.body);
-
   if (!parsed.success) {
-    res.status(400).json({
-      error: "validation_error",
-      message: parsed.error.message,
-    });
+    res.status(400).json({ error: "validation_error", message: parsed.error.message });
     return;
   }
 
@@ -111,34 +92,19 @@ async function handleLogin(req: Request, res: Response): Promise<void> {
     .where(eq(adminUsersTable.username, username));
 
   if (!user) {
-    res.status(401).json({
-      error: "invalid_credentials",
-      message: "Invalid username or password",
-    });
+    res.status(401).json({ error: "invalid_credentials", message: "Invalid username or password" });
     return;
   }
 
   const valid = await bcrypt.compare(password, user.passwordHash);
-
   if (!valid) {
-    res.status(401).json({
-      error: "invalid_credentials",
-      message: "Invalid username or password",
-    });
+    res.status(401).json({ error: "invalid_credentials", message: "Invalid username or password" });
     return;
   }
 
   req.session.adminUsername = user.username;
-
-  res.json({
-    authenticated: true,
-    username: user.username,
-    token: "session-authenticated",
-  });
-}
-
-router.post("/admin/login", handleLogin);
-router.post("/auth/login", handleLogin);
+  res.json({ authenticated: true, username: user.username });
+});
 
 router.post("/admin/logout", async (req, res): Promise<void> => {
   req.session.destroy((err) => {
@@ -146,50 +112,15 @@ router.post("/admin/logout", async (req, res): Promise<void> => {
       logger.error({ err }, "Error destroying session");
     }
   });
-
   res.json({ success: true });
 });
 
 router.get("/admin/me", async (req, res): Promise<void> => {
-  const username = getAuthUsername(req);
-
-  if (!username) {
-    res.status(401).json({
-      error: "unauthorized",
-      message: "Not authenticated",
-    });
+  if (!req.session.adminUsername) {
+    res.status(401).json({ error: "unauthorized", message: "Not authenticated" });
     return;
   }
-
-  req.session.adminUsername = username;
-  res.json({ authenticated: true, username });
-});
-
-router.get("/auth/me", async (req, res): Promise<void> => {
-  const username = getAuthUsername(req);
-
-  if (!username) {
-    res.status(401).json({
-      error: "unauthorized",
-      message: "Not authenticated",
-    });
-    return;
-  }
-
-  req.session.adminUsername = username;
-  res.json({ authenticated: true, username });
-});
-
-router.get("/admin/session", async (req, res): Promise<void> => {
-  const username = getAuthUsername(req);
-
-  if (!username) {
-    res.status(401).json({ authenticated: false });
-    return;
-  }
-
-  req.session.adminUsername = username;
-  res.json({ authenticated: true, username });
+  res.json({ authenticated: true, username: req.session.adminUsername });
 });
 
 router.get("/admin/articles", requireAdmin, async (_req, res): Promise<void> => {
@@ -203,29 +134,17 @@ router.get("/admin/articles", requireAdmin, async (_req, res): Promise<void> => 
 
 router.post("/admin/articles", requireAdmin, async (req, res): Promise<void> => {
   const parsed = CreateArticleBody.safeParse(req.body);
-
   if (!parsed.success) {
-    res.status(400).json({
-      error: "validation_error",
-      message: parsed.error.message,
-    });
+    res.status(400).json({ error: "validation_error", message: parsed.error.message });
     return;
   }
 
-  const {
-    title,
-    excerpt,
-    content,
-    category,
-    author,
-    published = false,
-    featured = false,
-    coverImage,
-  } = parsed.data;
+  const { title, excerpt, content, category, author, published = false, featured = false, coverImage } = parsed.data;
 
   const baseSlug = slugify(title);
   const timestamp = Date.now();
   const slug = `${baseSlug}-${timestamp}`;
+
   const publishedAt = published ? new Date() : null;
 
   const [article] = await db
@@ -249,22 +168,14 @@ router.post("/admin/articles", requireAdmin, async (req, res): Promise<void> => 
 
 router.put("/admin/articles/:id", requireAdmin, async (req, res): Promise<void> => {
   const params = UpdateArticleParams.safeParse(req.params);
-
   if (!params.success) {
-    res.status(400).json({
-      error: "validation_error",
-      message: params.error.message,
-    });
+    res.status(400).json({ error: "validation_error", message: params.error.message });
     return;
   }
 
   const parsed = UpdateArticleBody.safeParse(req.body);
-
   if (!parsed.success) {
-    res.status(400).json({
-      error: "validation_error",
-      message: parsed.error.message,
-    });
+    res.status(400).json({ error: "validation_error", message: parsed.error.message });
     return;
   }
 
@@ -274,16 +185,11 @@ router.put("/admin/articles/:id", requireAdmin, async (req, res): Promise<void> 
     .where(eq(articlesTable.id, Number(params.data.id)));
 
   if (!existingArticle[0]) {
-    res.status(404).json({
-      error: "not_found",
-      message: "Article not found",
-    });
+    res.status(404).json({ error: "not_found", message: "Article not found" });
     return;
   }
 
-  const updateData: Partial<typeof articlesTable.$inferInsert> = {
-    ...parsed.data,
-  };
+  const updateData: Partial<typeof articlesTable.$inferInsert> = { ...parsed.data };
 
   if (parsed.data.published === true && !existingArticle[0].publishedAt) {
     updateData.publishedAt = new Date();
@@ -300,35 +206,24 @@ router.put("/admin/articles/:id", requireAdmin, async (req, res): Promise<void> 
   res.json(toApiArticle(updated));
 });
 
-router.delete(
-  "/admin/articles/:id",
-  requireAdmin,
-  async (req, res): Promise<void> => {
-    const params = DeleteArticleParams.safeParse(req.params);
+router.delete("/admin/articles/:id", requireAdmin, async (req, res): Promise<void> => {
+  const params = DeleteArticleParams.safeParse(req.params);
+  if (!params.success) {
+    res.status(400).json({ error: "validation_error", message: params.error.message });
+    return;
+  }
 
-    if (!params.success) {
-      res.status(400).json({
-        error: "validation_error",
-        message: params.error.message,
-      });
-      return;
-    }
+  const [deleted] = await db
+    .delete(articlesTable)
+    .where(eq(articlesTable.id, Number(params.data.id)))
+    .returning();
 
-    const [deleted] = await db
-      .delete(articlesTable)
-      .where(eq(articlesTable.id, Number(params.data.id)))
-      .returning();
+  if (!deleted) {
+    res.status(404).json({ error: "not_found", message: "Article not found" });
+    return;
+  }
 
-    if (!deleted) {
-      res.status(404).json({
-        error: "not_found",
-        message: "Article not found",
-      });
-      return;
-    }
-
-    res.json({ success: true, article: toApiArticle(deleted) });
-  },
-);
+  res.json({ success: true, message: "Article deleted" });
+});
 
 export default router;
