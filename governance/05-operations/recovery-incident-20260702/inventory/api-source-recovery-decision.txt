@@ -1,0 +1,14 @@
+Decision: Recover current api-server source additions.
+
+Reason:
+These source files are required by the current Express /api/v1 architecture and supporting admin intelligence routes.
+The API validates and runs with these files present.
+
+Validation:
+pnpm run validate:api => PASS
+Runtime smoke:
+HEAD /health => HTTP 200
+HEAD /api/v1/health => HTTP 200
+
+Decision:
+Commit current api-server source additions separately from frontend, generated, and configuration artifacts.
