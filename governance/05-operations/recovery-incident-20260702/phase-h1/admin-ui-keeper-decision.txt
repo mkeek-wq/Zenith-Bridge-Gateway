@@ -1,0 +1,23 @@
+Decision: Keep artifacts/admin-ui as the evolved Admin UI / Intelligence Center bridge layer.
+
+Keeper components:
+- CmsPackageIntake
+- IntelligenceCenter
+- IntelligencePreview
+- IntelligenceCandidates
+- IntelligenceDatasets
+- ArticleWorkbench
+- Editor
+- Login
+- AdminLayout
+
+Reason:
+These were built during the BI engine / CMS / article pipeline sessions.
+They represent the bridge between intelligence generation, CMS package intake, article workflow, and admin operations.
+
+Sanitization required before commit:
+- exclude node_modules
+- exclude dist
+- exclude .env and .env.production
+- exclude *.bak*
+- exclude *.save
