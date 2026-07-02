@@ -1,0 +1,1384 @@
+{
+  "version": "replay-macro-source-attachment-drafts-v0.1",
+  "generated_at": "2026-07-01T08:11:38.309Z",
+  "doctrine": "Macro source attachment drafts help humans attach sources to macro anchors. Dataset candidates are reference-only and do not promote, validate, or write production evidence.",
+  "safety_mode": "REFERENCE_ONLY",
+  "production_write_allowed": false,
+  "source_files": {
+    "macro_source_checklist": "data/replay/replay-macro-source-checklist-v0.1.json",
+    "verified_dataset_registry": "data/intelligence/verified-dataset-registry-v0.1.json"
+  },
+  "dataset_registry_available": true,
+  "dataset_count": 3,
+  "draft_count": 14,
+  "dataset_candidate_total": 22,
+  "drafts": [
+    {
+      "macro_event_id": "MACRO_SEMICONDUCTOR_DOWNTURN_2001",
+      "label": "Semiconductor Downturn 2001",
+      "event_type": "electronics_cycle",
+      "priority": "high",
+      "source_attachment_status": "draft_needs_manual_sources",
+      "production_write_allowed": false,
+      "papa_review_required": true,
+      "source_entries": [],
+      "dataset_source_candidates": [
+        {
+          "dataset_id": "sg_total_manufacturing_output_annual",
+          "name": "Singapore Total Manufacturing Output Annual",
+          "country": "Singapore",
+          "metric_type": "manufacturing_output",
+          "frequency": "annual",
+          "verification_status": "loaded_pending_review",
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "values_count": 10,
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354891",
+          "unit": "Million Dollars",
+          "evidence_role": "candidate_dataset_reference",
+          "source_status": "requires_papa_review",
+          "production_write_allowed": false
+        },
+        {
+          "dataset_id": "sg_industrial_production_index_monthly",
+          "name": "Singapore Industrial Production Index Monthly",
+          "country": "Singapore",
+          "metric_type": "industrial_production_index",
+          "frequency": "monthly",
+          "verification_status": "loaded_pending_review",
+          "coverage_start": "2025 Aug",
+          "coverage_end": "2026 May",
+          "values_count": 10,
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M355351",
+          "unit": "Index",
+          "evidence_role": "candidate_dataset_reference",
+          "source_status": "requires_papa_review",
+          "production_write_allowed": false
+        }
+      ],
+      "required_minimum": {
+        "source_count_required": 2,
+        "authoritative_macro_source_required": true,
+        "sector_source_required": true,
+        "papa_review_required": true
+      },
+      "checklist_items": [
+        {
+          "item": "Confirm event date range",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Attach authoritative macro source",
+          "status": "open",
+          "required": true,
+          "source_hints": [
+            "World Semiconductor Trade Statistics",
+            "SEMI",
+            "SIA",
+            "Singapore EDB",
+            "Enterprise Singapore",
+            "IMF WEO",
+            "World Bank"
+          ]
+        },
+        {
+          "item": "Attach sector-specific source",
+          "status": "open",
+          "required": true,
+          "source_hints": [
+            "World Semiconductor Trade Statistics",
+            "SEMI",
+            "SIA",
+            "Singapore EDB",
+            "Enterprise Singapore",
+            "IMF WEO",
+            "World Bank"
+          ]
+        },
+        {
+          "item": "Confirm transmission mechanisms",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Document affected sectors",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Write short benchmark note",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Papa review before promotion to sourced anchor registry",
+          "status": "open",
+          "required": true
+        }
+      ],
+      "draft_note": "Attach source entries manually. Dataset candidates are reference-only and cannot promote anchors without Papa review.",
+      "dataset_candidate_count": 2
+    },
+    {
+      "macro_event_id": "MACRO_ELECTRONICS_EXPORT_SHOCK_2008",
+      "label": "Electronics Export Shock during Global Financial Crisis",
+      "event_type": "electronics_cycle",
+      "priority": "high",
+      "source_attachment_status": "draft_needs_manual_sources",
+      "production_write_allowed": false,
+      "papa_review_required": true,
+      "source_entries": [],
+      "dataset_source_candidates": [
+        {
+          "dataset_id": "sg_total_manufacturing_output_annual",
+          "name": "Singapore Total Manufacturing Output Annual",
+          "country": "Singapore",
+          "metric_type": "manufacturing_output",
+          "frequency": "annual",
+          "verification_status": "loaded_pending_review",
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "values_count": 10,
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354891",
+          "unit": "Million Dollars",
+          "evidence_role": "candidate_dataset_reference",
+          "source_status": "requires_papa_review",
+          "production_write_allowed": false
+        },
+        {
+          "dataset_id": "sg_industrial_production_index_monthly",
+          "name": "Singapore Industrial Production Index Monthly",
+          "country": "Singapore",
+          "metric_type": "industrial_production_index",
+          "frequency": "monthly",
+          "verification_status": "loaded_pending_review",
+          "coverage_start": "2025 Aug",
+          "coverage_end": "2026 May",
+          "values_count": 10,
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M355351",
+          "unit": "Index",
+          "evidence_role": "candidate_dataset_reference",
+          "source_status": "requires_papa_review",
+          "production_write_allowed": false
+        }
+      ],
+      "required_minimum": {
+        "source_count_required": 2,
+        "authoritative_macro_source_required": true,
+        "sector_source_required": true,
+        "papa_review_required": true
+      },
+      "checklist_items": [
+        {
+          "item": "Confirm event date range",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Attach authoritative macro source",
+          "status": "open",
+          "required": true,
+          "source_hints": [
+            "World Semiconductor Trade Statistics",
+            "SEMI",
+            "SIA",
+            "Singapore EDB",
+            "Enterprise Singapore",
+            "IMF WEO",
+            "World Bank"
+          ]
+        },
+        {
+          "item": "Attach sector-specific source",
+          "status": "open",
+          "required": true,
+          "source_hints": [
+            "World Semiconductor Trade Statistics",
+            "SEMI",
+            "SIA",
+            "Singapore EDB",
+            "Enterprise Singapore",
+            "IMF WEO",
+            "World Bank"
+          ]
+        },
+        {
+          "item": "Confirm transmission mechanisms",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Document affected sectors",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Write short benchmark note",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Papa review before promotion to sourced anchor registry",
+          "status": "open",
+          "required": true
+        }
+      ],
+      "draft_note": "Attach source entries manually. Dataset candidates are reference-only and cannot promote anchors without Papa review.",
+      "dataset_candidate_count": 2
+    },
+    {
+      "macro_event_id": "MACRO_SEMICONDUCTOR_DOWNTURN_2018_2019",
+      "label": "Semiconductor Downturn 2018-2019",
+      "event_type": "electronics_cycle",
+      "priority": "high",
+      "source_attachment_status": "draft_needs_manual_sources",
+      "production_write_allowed": false,
+      "papa_review_required": true,
+      "source_entries": [],
+      "dataset_source_candidates": [
+        {
+          "dataset_id": "sg_total_manufacturing_output_annual",
+          "name": "Singapore Total Manufacturing Output Annual",
+          "country": "Singapore",
+          "metric_type": "manufacturing_output",
+          "frequency": "annual",
+          "verification_status": "loaded_pending_review",
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "values_count": 10,
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354891",
+          "unit": "Million Dollars",
+          "evidence_role": "candidate_dataset_reference",
+          "source_status": "requires_papa_review",
+          "production_write_allowed": false
+        },
+        {
+          "dataset_id": "sg_industrial_production_index_monthly",
+          "name": "Singapore Industrial Production Index Monthly",
+          "country": "Singapore",
+          "metric_type": "industrial_production_index",
+          "frequency": "monthly",
+          "verification_status": "loaded_pending_review",
+          "coverage_start": "2025 Aug",
+          "coverage_end": "2026 May",
+          "values_count": 10,
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M355351",
+          "unit": "Index",
+          "evidence_role": "candidate_dataset_reference",
+          "source_status": "requires_papa_review",
+          "production_write_allowed": false
+        }
+      ],
+      "required_minimum": {
+        "source_count_required": 2,
+        "authoritative_macro_source_required": true,
+        "sector_source_required": true,
+        "papa_review_required": true
+      },
+      "checklist_items": [
+        {
+          "item": "Confirm event date range",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Attach authoritative macro source",
+          "status": "open",
+          "required": true,
+          "source_hints": [
+            "World Semiconductor Trade Statistics",
+            "SEMI",
+            "SIA",
+            "Singapore EDB",
+            "Enterprise Singapore",
+            "IMF WEO",
+            "World Bank"
+          ]
+        },
+        {
+          "item": "Attach sector-specific source",
+          "status": "open",
+          "required": true,
+          "source_hints": [
+            "World Semiconductor Trade Statistics",
+            "SEMI",
+            "SIA",
+            "Singapore EDB",
+            "Enterprise Singapore",
+            "IMF WEO",
+            "World Bank"
+          ]
+        },
+        {
+          "item": "Confirm transmission mechanisms",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Document affected sectors",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Write short benchmark note",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Papa review before promotion to sourced anchor registry",
+          "status": "open",
+          "required": true
+        }
+      ],
+      "draft_note": "Attach source entries manually. Dataset candidates are reference-only and cannot promote anchors without Papa review.",
+      "dataset_candidate_count": 2
+    },
+    {
+      "macro_event_id": "MACRO_CHIP_SHORTAGE_2020_2022",
+      "label": "Global Chip Shortage",
+      "event_type": "electronics_cycle",
+      "priority": "high",
+      "source_attachment_status": "draft_needs_manual_sources",
+      "production_write_allowed": false,
+      "papa_review_required": true,
+      "source_entries": [],
+      "dataset_source_candidates": [
+        {
+          "dataset_id": "sg_total_manufacturing_output_annual",
+          "name": "Singapore Total Manufacturing Output Annual",
+          "country": "Singapore",
+          "metric_type": "manufacturing_output",
+          "frequency": "annual",
+          "verification_status": "loaded_pending_review",
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "values_count": 10,
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354891",
+          "unit": "Million Dollars",
+          "evidence_role": "candidate_dataset_reference",
+          "source_status": "requires_papa_review",
+          "production_write_allowed": false
+        },
+        {
+          "dataset_id": "sg_industrial_production_index_monthly",
+          "name": "Singapore Industrial Production Index Monthly",
+          "country": "Singapore",
+          "metric_type": "industrial_production_index",
+          "frequency": "monthly",
+          "verification_status": "loaded_pending_review",
+          "coverage_start": "2025 Aug",
+          "coverage_end": "2026 May",
+          "values_count": 10,
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M355351",
+          "unit": "Index",
+          "evidence_role": "candidate_dataset_reference",
+          "source_status": "requires_papa_review",
+          "production_write_allowed": false
+        }
+      ],
+      "required_minimum": {
+        "source_count_required": 2,
+        "authoritative_macro_source_required": true,
+        "sector_source_required": true,
+        "papa_review_required": true
+      },
+      "checklist_items": [
+        {
+          "item": "Confirm event date range",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Attach authoritative macro source",
+          "status": "open",
+          "required": true,
+          "source_hints": [
+            "World Semiconductor Trade Statistics",
+            "SEMI",
+            "SIA",
+            "Singapore EDB",
+            "Enterprise Singapore",
+            "IMF WEO",
+            "World Bank"
+          ]
+        },
+        {
+          "item": "Attach sector-specific source",
+          "status": "open",
+          "required": true,
+          "source_hints": [
+            "World Semiconductor Trade Statistics",
+            "SEMI",
+            "SIA",
+            "Singapore EDB",
+            "Enterprise Singapore",
+            "IMF WEO",
+            "World Bank"
+          ]
+        },
+        {
+          "item": "Confirm transmission mechanisms",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Document affected sectors",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Write short benchmark note",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Papa review before promotion to sourced anchor registry",
+          "status": "open",
+          "required": true
+        }
+      ],
+      "draft_note": "Attach source entries manually. Dataset candidates are reference-only and cannot promote anchors without Papa review.",
+      "dataset_candidate_count": 2
+    },
+    {
+      "macro_event_id": "MACRO_ELECTRONICS_INVENTORY_CORRECTION_2022_2023",
+      "label": "Electronics Inventory Correction 2022-2023",
+      "event_type": "electronics_cycle",
+      "priority": "high",
+      "source_attachment_status": "draft_needs_manual_sources",
+      "production_write_allowed": false,
+      "papa_review_required": true,
+      "source_entries": [],
+      "dataset_source_candidates": [
+        {
+          "dataset_id": "sg_total_manufacturing_output_annual",
+          "name": "Singapore Total Manufacturing Output Annual",
+          "country": "Singapore",
+          "metric_type": "manufacturing_output",
+          "frequency": "annual",
+          "verification_status": "loaded_pending_review",
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "values_count": 10,
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354891",
+          "unit": "Million Dollars",
+          "evidence_role": "candidate_dataset_reference",
+          "source_status": "requires_papa_review",
+          "production_write_allowed": false
+        },
+        {
+          "dataset_id": "sg_industrial_production_index_monthly",
+          "name": "Singapore Industrial Production Index Monthly",
+          "country": "Singapore",
+          "metric_type": "industrial_production_index",
+          "frequency": "monthly",
+          "verification_status": "loaded_pending_review",
+          "coverage_start": "2025 Aug",
+          "coverage_end": "2026 May",
+          "values_count": 10,
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M355351",
+          "unit": "Index",
+          "evidence_role": "candidate_dataset_reference",
+          "source_status": "requires_papa_review",
+          "production_write_allowed": false
+        }
+      ],
+      "required_minimum": {
+        "source_count_required": 2,
+        "authoritative_macro_source_required": true,
+        "sector_source_required": true,
+        "papa_review_required": true
+      },
+      "checklist_items": [
+        {
+          "item": "Confirm event date range",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Attach authoritative macro source",
+          "status": "open",
+          "required": true,
+          "source_hints": [
+            "World Semiconductor Trade Statistics",
+            "SEMI",
+            "SIA",
+            "Singapore EDB",
+            "Enterprise Singapore",
+            "IMF WEO",
+            "World Bank"
+          ]
+        },
+        {
+          "item": "Attach sector-specific source",
+          "status": "open",
+          "required": true,
+          "source_hints": [
+            "World Semiconductor Trade Statistics",
+            "SEMI",
+            "SIA",
+            "Singapore EDB",
+            "Enterprise Singapore",
+            "IMF WEO",
+            "World Bank"
+          ]
+        },
+        {
+          "item": "Confirm transmission mechanisms",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Document affected sectors",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Write short benchmark note",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Papa review before promotion to sourced anchor registry",
+          "status": "open",
+          "required": true
+        }
+      ],
+      "draft_note": "Attach source entries manually. Dataset candidates are reference-only and cannot promote anchors without Papa review.",
+      "dataset_candidate_count": 2
+    },
+    {
+      "macro_event_id": "MACRO_TAPER_TANTRUM_2013",
+      "label": "Taper Tantrum",
+      "event_type": "financial_conditions_shock",
+      "priority": "high",
+      "source_attachment_status": "draft_needs_manual_sources",
+      "production_write_allowed": false,
+      "papa_review_required": true,
+      "source_entries": [],
+      "dataset_source_candidates": [],
+      "required_minimum": {
+        "source_count_required": 2,
+        "authoritative_macro_source_required": true,
+        "sector_source_required": true,
+        "papa_review_required": true
+      },
+      "checklist_items": [
+        {
+          "item": "Confirm event date range",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Attach authoritative macro source",
+          "status": "open",
+          "required": true,
+          "source_hints": [
+            "IMF WEO",
+            "BIS",
+            "Federal Reserve / FRED",
+            "NBER",
+            "World Bank Global Economic Prospects"
+          ]
+        },
+        {
+          "item": "Attach sector-specific source",
+          "status": "open",
+          "required": true,
+          "source_hints": [
+            "IMF WEO",
+            "BIS",
+            "Federal Reserve / FRED",
+            "NBER",
+            "World Bank Global Economic Prospects"
+          ]
+        },
+        {
+          "item": "Confirm transmission mechanisms",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Document affected sectors",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Write short benchmark note",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Papa review before promotion to sourced anchor registry",
+          "status": "open",
+          "required": true
+        }
+      ],
+      "draft_note": "Attach source entries manually. Dataset candidates are reference-only and cannot promote anchors without Papa review.",
+      "dataset_candidate_count": 0
+    },
+    {
+      "macro_event_id": "MACRO_US_RATE_HIKING_CYCLE_2022_2023",
+      "label": "US Rate Hiking Cycle 2022-2023",
+      "event_type": "financial_conditions_shock",
+      "priority": "high",
+      "source_attachment_status": "draft_needs_manual_sources",
+      "production_write_allowed": false,
+      "papa_review_required": true,
+      "source_entries": [],
+      "dataset_source_candidates": [],
+      "required_minimum": {
+        "source_count_required": 2,
+        "authoritative_macro_source_required": true,
+        "sector_source_required": true,
+        "papa_review_required": true
+      },
+      "checklist_items": [
+        {
+          "item": "Confirm event date range",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Attach authoritative macro source",
+          "status": "open",
+          "required": true,
+          "source_hints": [
+            "IMF WEO",
+            "BIS",
+            "Federal Reserve / FRED",
+            "NBER",
+            "World Bank Global Economic Prospects"
+          ]
+        },
+        {
+          "item": "Attach sector-specific source",
+          "status": "open",
+          "required": true,
+          "source_hints": [
+            "IMF WEO",
+            "BIS",
+            "Federal Reserve / FRED",
+            "NBER",
+            "World Bank Global Economic Prospects"
+          ]
+        },
+        {
+          "item": "Confirm transmission mechanisms",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Document affected sectors",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Write short benchmark note",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Papa review before promotion to sourced anchor registry",
+          "status": "open",
+          "required": true
+        }
+      ],
+      "draft_note": "Attach source entries manually. Dataset candidates are reference-only and cannot promote anchors without Papa review.",
+      "dataset_candidate_count": 0
+    },
+    {
+      "macro_event_id": "MACRO_JAPAN_EARTHQUAKE_SUPPLY_2011",
+      "label": "Japan Earthquake Supply Chain Shock",
+      "event_type": "supply_chain_disruption",
+      "priority": "high",
+      "source_attachment_status": "draft_needs_manual_sources",
+      "production_write_allowed": false,
+      "papa_review_required": true,
+      "source_entries": [],
+      "dataset_source_candidates": [
+        {
+          "dataset_id": "sg_total_manufacturing_output_annual",
+          "name": "Singapore Total Manufacturing Output Annual",
+          "country": "Singapore",
+          "metric_type": "manufacturing_output",
+          "frequency": "annual",
+          "verification_status": "loaded_pending_review",
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "values_count": 10,
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354891",
+          "unit": "Million Dollars",
+          "evidence_role": "candidate_dataset_reference",
+          "source_status": "requires_papa_review",
+          "production_write_allowed": false
+        },
+        {
+          "dataset_id": "sg_industrial_production_index_monthly",
+          "name": "Singapore Industrial Production Index Monthly",
+          "country": "Singapore",
+          "metric_type": "industrial_production_index",
+          "frequency": "monthly",
+          "verification_status": "loaded_pending_review",
+          "coverage_start": "2025 Aug",
+          "coverage_end": "2026 May",
+          "values_count": 10,
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M355351",
+          "unit": "Index",
+          "evidence_role": "candidate_dataset_reference",
+          "source_status": "requires_papa_review",
+          "production_write_allowed": false
+        }
+      ],
+      "required_minimum": {
+        "source_count_required": 2,
+        "authoritative_macro_source_required": true,
+        "sector_source_required": true,
+        "papa_review_required": true
+      },
+      "checklist_items": [
+        {
+          "item": "Confirm event date range",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Attach authoritative macro source",
+          "status": "open",
+          "required": true,
+          "source_hints": [
+            "WTO",
+            "UNCTAD",
+            "OECD",
+            "World Bank",
+            "Singapore MTI"
+          ]
+        },
+        {
+          "item": "Attach sector-specific source",
+          "status": "open",
+          "required": true,
+          "source_hints": [
+            "WTO",
+            "UNCTAD",
+            "OECD",
+            "World Bank",
+            "Singapore MTI"
+          ]
+        },
+        {
+          "item": "Confirm transmission mechanisms",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Document affected sectors",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Write short benchmark note",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Papa review before promotion to sourced anchor registry",
+          "status": "open",
+          "required": true
+        }
+      ],
+      "draft_note": "Attach source entries manually. Dataset candidates are reference-only and cannot promote anchors without Papa review.",
+      "dataset_candidate_count": 2
+    },
+    {
+      "macro_event_id": "MACRO_THAI_FLOODS_2011",
+      "label": "Thai Floods Supply Chain Shock",
+      "event_type": "supply_chain_disruption",
+      "priority": "high",
+      "source_attachment_status": "draft_needs_manual_sources",
+      "production_write_allowed": false,
+      "papa_review_required": true,
+      "source_entries": [],
+      "dataset_source_candidates": [
+        {
+          "dataset_id": "sg_total_manufacturing_output_annual",
+          "name": "Singapore Total Manufacturing Output Annual",
+          "country": "Singapore",
+          "metric_type": "manufacturing_output",
+          "frequency": "annual",
+          "verification_status": "loaded_pending_review",
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "values_count": 10,
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354891",
+          "unit": "Million Dollars",
+          "evidence_role": "candidate_dataset_reference",
+          "source_status": "requires_papa_review",
+          "production_write_allowed": false
+        },
+        {
+          "dataset_id": "sg_industrial_production_index_monthly",
+          "name": "Singapore Industrial Production Index Monthly",
+          "country": "Singapore",
+          "metric_type": "industrial_production_index",
+          "frequency": "monthly",
+          "verification_status": "loaded_pending_review",
+          "coverage_start": "2025 Aug",
+          "coverage_end": "2026 May",
+          "values_count": 10,
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M355351",
+          "unit": "Index",
+          "evidence_role": "candidate_dataset_reference",
+          "source_status": "requires_papa_review",
+          "production_write_allowed": false
+        }
+      ],
+      "required_minimum": {
+        "source_count_required": 2,
+        "authoritative_macro_source_required": true,
+        "sector_source_required": true,
+        "papa_review_required": true
+      },
+      "checklist_items": [
+        {
+          "item": "Confirm event date range",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Attach authoritative macro source",
+          "status": "open",
+          "required": true,
+          "source_hints": [
+            "WTO",
+            "UNCTAD",
+            "OECD",
+            "World Bank",
+            "Singapore MTI"
+          ]
+        },
+        {
+          "item": "Attach sector-specific source",
+          "status": "open",
+          "required": true,
+          "source_hints": [
+            "WTO",
+            "UNCTAD",
+            "OECD",
+            "World Bank",
+            "Singapore MTI"
+          ]
+        },
+        {
+          "item": "Confirm transmission mechanisms",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Document affected sectors",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Write short benchmark note",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Papa review before promotion to sourced anchor registry",
+          "status": "open",
+          "required": true
+        }
+      ],
+      "draft_note": "Attach source entries manually. Dataset candidates are reference-only and cannot promote anchors without Papa review.",
+      "dataset_candidate_count": 2
+    },
+    {
+      "macro_event_id": "MACRO_CONTAINER_FREIGHT_SURGE_2021",
+      "label": "Container Freight Rate Surge",
+      "event_type": "supply_chain_disruption",
+      "priority": "high",
+      "source_attachment_status": "draft_needs_manual_sources",
+      "production_write_allowed": false,
+      "papa_review_required": true,
+      "source_entries": [],
+      "dataset_source_candidates": [
+        {
+          "dataset_id": "sg_total_manufacturing_output_annual",
+          "name": "Singapore Total Manufacturing Output Annual",
+          "country": "Singapore",
+          "metric_type": "manufacturing_output",
+          "frequency": "annual",
+          "verification_status": "loaded_pending_review",
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "values_count": 10,
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354891",
+          "unit": "Million Dollars",
+          "evidence_role": "candidate_dataset_reference",
+          "source_status": "requires_papa_review",
+          "production_write_allowed": false
+        },
+        {
+          "dataset_id": "sg_industrial_production_index_monthly",
+          "name": "Singapore Industrial Production Index Monthly",
+          "country": "Singapore",
+          "metric_type": "industrial_production_index",
+          "frequency": "monthly",
+          "verification_status": "loaded_pending_review",
+          "coverage_start": "2025 Aug",
+          "coverage_end": "2026 May",
+          "values_count": 10,
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M355351",
+          "unit": "Index",
+          "evidence_role": "candidate_dataset_reference",
+          "source_status": "requires_papa_review",
+          "production_write_allowed": false
+        }
+      ],
+      "required_minimum": {
+        "source_count_required": 2,
+        "authoritative_macro_source_required": true,
+        "sector_source_required": true,
+        "papa_review_required": true
+      },
+      "checklist_items": [
+        {
+          "item": "Confirm event date range",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Attach authoritative macro source",
+          "status": "open",
+          "required": true,
+          "source_hints": [
+            "WTO",
+            "UNCTAD",
+            "OECD",
+            "World Bank",
+            "Singapore MTI"
+          ]
+        },
+        {
+          "item": "Attach sector-specific source",
+          "status": "open",
+          "required": true,
+          "source_hints": [
+            "WTO",
+            "UNCTAD",
+            "OECD",
+            "World Bank",
+            "Singapore MTI"
+          ]
+        },
+        {
+          "item": "Confirm transmission mechanisms",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Document affected sectors",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Write short benchmark note",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Papa review before promotion to sourced anchor registry",
+          "status": "open",
+          "required": true
+        }
+      ],
+      "draft_note": "Attach source entries manually. Dataset candidates are reference-only and cannot promote anchors without Papa review.",
+      "dataset_candidate_count": 2
+    },
+    {
+      "macro_event_id": "MACRO_SG_PROPERTY_COOLING_2018",
+      "label": "Singapore Property Cooling Measures 2018",
+      "event_type": "financial_conditions_shock",
+      "priority": "high",
+      "source_attachment_status": "draft_needs_manual_sources",
+      "production_write_allowed": false,
+      "papa_review_required": true,
+      "source_entries": [],
+      "dataset_source_candidates": [],
+      "required_minimum": {
+        "source_count_required": 2,
+        "authoritative_macro_source_required": true,
+        "sector_source_required": true,
+        "papa_review_required": true
+      },
+      "checklist_items": [
+        {
+          "item": "Confirm event date range",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Attach authoritative macro source",
+          "status": "open",
+          "required": true,
+          "source_hints": [
+            "IMF WEO",
+            "BIS",
+            "Federal Reserve / FRED",
+            "NBER",
+            "World Bank Global Economic Prospects"
+          ]
+        },
+        {
+          "item": "Attach sector-specific source",
+          "status": "open",
+          "required": true,
+          "source_hints": [
+            "IMF WEO",
+            "BIS",
+            "Federal Reserve / FRED",
+            "NBER",
+            "World Bank Global Economic Prospects"
+          ]
+        },
+        {
+          "item": "Confirm transmission mechanisms",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Document affected sectors",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Write short benchmark note",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Papa review before promotion to sourced anchor registry",
+          "status": "open",
+          "required": true
+        }
+      ],
+      "draft_note": "Attach source entries manually. Dataset candidates are reference-only and cannot promote anchors without Papa review.",
+      "dataset_candidate_count": 0
+    },
+    {
+      "macro_event_id": "MACRO_SG_LABOUR_SHORTAGE_2021",
+      "label": "Singapore Labour Shortage 2021",
+      "event_type": "supply_chain_disruption",
+      "priority": "high",
+      "source_attachment_status": "draft_needs_manual_sources",
+      "production_write_allowed": false,
+      "papa_review_required": true,
+      "source_entries": [],
+      "dataset_source_candidates": [
+        {
+          "dataset_id": "sg_total_manufacturing_output_annual",
+          "name": "Singapore Total Manufacturing Output Annual",
+          "country": "Singapore",
+          "metric_type": "manufacturing_output",
+          "frequency": "annual",
+          "verification_status": "loaded_pending_review",
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "values_count": 10,
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354891",
+          "unit": "Million Dollars",
+          "evidence_role": "candidate_dataset_reference",
+          "source_status": "requires_papa_review",
+          "production_write_allowed": false
+        },
+        {
+          "dataset_id": "sg_industrial_production_index_monthly",
+          "name": "Singapore Industrial Production Index Monthly",
+          "country": "Singapore",
+          "metric_type": "industrial_production_index",
+          "frequency": "monthly",
+          "verification_status": "loaded_pending_review",
+          "coverage_start": "2025 Aug",
+          "coverage_end": "2026 May",
+          "values_count": 10,
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M355351",
+          "unit": "Index",
+          "evidence_role": "candidate_dataset_reference",
+          "source_status": "requires_papa_review",
+          "production_write_allowed": false
+        }
+      ],
+      "required_minimum": {
+        "source_count_required": 2,
+        "authoritative_macro_source_required": true,
+        "sector_source_required": true,
+        "papa_review_required": true
+      },
+      "checklist_items": [
+        {
+          "item": "Confirm event date range",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Attach authoritative macro source",
+          "status": "open",
+          "required": true,
+          "source_hints": [
+            "WTO",
+            "UNCTAD",
+            "OECD",
+            "World Bank",
+            "Singapore MTI"
+          ]
+        },
+        {
+          "item": "Attach sector-specific source",
+          "status": "open",
+          "required": true,
+          "source_hints": [
+            "WTO",
+            "UNCTAD",
+            "OECD",
+            "World Bank",
+            "Singapore MTI"
+          ]
+        },
+        {
+          "item": "Confirm transmission mechanisms",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Document affected sectors",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Write short benchmark note",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Papa review before promotion to sourced anchor registry",
+          "status": "open",
+          "required": true
+        }
+      ],
+      "draft_note": "Attach source entries manually. Dataset candidates are reference-only and cannot promote anchors without Papa review.",
+      "dataset_candidate_count": 2
+    },
+    {
+      "macro_event_id": "MACRO_RED_SEA_SHIPPING_DISRUPTION_2023_2024",
+      "label": "Red Sea Shipping Disruption",
+      "event_type": "supply_chain_disruption",
+      "priority": "high",
+      "source_attachment_status": "draft_needs_manual_sources",
+      "production_write_allowed": false,
+      "papa_review_required": true,
+      "source_entries": [],
+      "dataset_source_candidates": [
+        {
+          "dataset_id": "sg_total_manufacturing_output_annual",
+          "name": "Singapore Total Manufacturing Output Annual",
+          "country": "Singapore",
+          "metric_type": "manufacturing_output",
+          "frequency": "annual",
+          "verification_status": "loaded_pending_review",
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "values_count": 10,
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354891",
+          "unit": "Million Dollars",
+          "evidence_role": "candidate_dataset_reference",
+          "source_status": "requires_papa_review",
+          "production_write_allowed": false
+        },
+        {
+          "dataset_id": "sg_industrial_production_index_monthly",
+          "name": "Singapore Industrial Production Index Monthly",
+          "country": "Singapore",
+          "metric_type": "industrial_production_index",
+          "frequency": "monthly",
+          "verification_status": "loaded_pending_review",
+          "coverage_start": "2025 Aug",
+          "coverage_end": "2026 May",
+          "values_count": 10,
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M355351",
+          "unit": "Index",
+          "evidence_role": "candidate_dataset_reference",
+          "source_status": "requires_papa_review",
+          "production_write_allowed": false
+        }
+      ],
+      "required_minimum": {
+        "source_count_required": 2,
+        "authoritative_macro_source_required": true,
+        "sector_source_required": true,
+        "papa_review_required": true
+      },
+      "checklist_items": [
+        {
+          "item": "Confirm event date range",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Attach authoritative macro source",
+          "status": "open",
+          "required": true,
+          "source_hints": [
+            "WTO",
+            "UNCTAD",
+            "OECD",
+            "World Bank",
+            "Singapore MTI"
+          ]
+        },
+        {
+          "item": "Attach sector-specific source",
+          "status": "open",
+          "required": true,
+          "source_hints": [
+            "WTO",
+            "UNCTAD",
+            "OECD",
+            "World Bank",
+            "Singapore MTI"
+          ]
+        },
+        {
+          "item": "Confirm transmission mechanisms",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Document affected sectors",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Write short benchmark note",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Papa review before promotion to sourced anchor registry",
+          "status": "open",
+          "required": true
+        }
+      ],
+      "draft_note": "Attach source entries manually. Dataset candidates are reference-only and cannot promote anchors without Papa review.",
+      "dataset_candidate_count": 2
+    },
+    {
+      "macro_event_id": "MACRO_GLOBAL_AI_CAPEX_SURGE_2023_2026",
+      "label": "AI Capex and Semiconductor Demand Surge",
+      "event_type": "electronics_cycle",
+      "priority": "high",
+      "source_attachment_status": "draft_needs_manual_sources",
+      "production_write_allowed": false,
+      "papa_review_required": true,
+      "source_entries": [],
+      "dataset_source_candidates": [
+        {
+          "dataset_id": "sg_total_manufacturing_output_annual",
+          "name": "Singapore Total Manufacturing Output Annual",
+          "country": "Singapore",
+          "metric_type": "manufacturing_output",
+          "frequency": "annual",
+          "verification_status": "loaded_pending_review",
+          "coverage_start": "2016",
+          "coverage_end": "2025",
+          "values_count": 10,
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M354891",
+          "unit": "Million Dollars",
+          "evidence_role": "candidate_dataset_reference",
+          "source_status": "requires_papa_review",
+          "production_write_allowed": false
+        },
+        {
+          "dataset_id": "sg_industrial_production_index_monthly",
+          "name": "Singapore Industrial Production Index Monthly",
+          "country": "Singapore",
+          "metric_type": "industrial_production_index",
+          "frequency": "monthly",
+          "verification_status": "loaded_pending_review",
+          "coverage_start": "2025 Aug",
+          "coverage_end": "2026 May",
+          "values_count": 10,
+          "source_url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M355351",
+          "unit": "Index",
+          "evidence_role": "candidate_dataset_reference",
+          "source_status": "requires_papa_review",
+          "production_write_allowed": false
+        }
+      ],
+      "required_minimum": {
+        "source_count_required": 2,
+        "authoritative_macro_source_required": true,
+        "sector_source_required": true,
+        "papa_review_required": true
+      },
+      "checklist_items": [
+        {
+          "item": "Confirm event date range",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Attach authoritative macro source",
+          "status": "open",
+          "required": true,
+          "source_hints": [
+            "World Semiconductor Trade Statistics",
+            "SEMI",
+            "SIA",
+            "Singapore EDB",
+            "Enterprise Singapore",
+            "IMF WEO",
+            "World Bank"
+          ]
+        },
+        {
+          "item": "Attach sector-specific source",
+          "status": "open",
+          "required": true,
+          "source_hints": [
+            "World Semiconductor Trade Statistics",
+            "SEMI",
+            "SIA",
+            "Singapore EDB",
+            "Enterprise Singapore",
+            "IMF WEO",
+            "World Bank"
+          ]
+        },
+        {
+          "item": "Confirm transmission mechanisms",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Document affected sectors",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Write short benchmark note",
+          "status": "open",
+          "required": true
+        },
+        {
+          "item": "Papa review before promotion to sourced anchor registry",
+          "status": "open",
+          "required": true
+        }
+      ],
+      "draft_note": "Attach source entries manually. Dataset candidates are reference-only and cannot promote anchors without Papa review.",
+      "dataset_candidate_count": 2
+    }
+  ]
+}

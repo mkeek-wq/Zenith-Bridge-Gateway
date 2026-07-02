@@ -1,0 +1,15 @@
+{
+  "registry_version": "replay-fleet-queue-report-v0.1",
+  "created_at": "2026-06-09T10:02:23.639Z",
+  "doctrine": {
+    "queue_report_does_not_execute_replay": true,
+    "fleet_replay_requires_ready_inputs": true,
+    "dry_run_only": true
+  },
+  "summary": {
+    "fleet_items": 8,
+    "ready_for_fleet_replay": 4,
+    "blocked": 4
+  },
+  "markdown": "# Replay Fleet Queue Report v0.1\n\nGenerated: 2026-06-09T10:02:23.639Z\n\n## Summary\n\n- Fleet items: 8\n- Ready for fleet replay: 4\n- Blocked: 4\n\n## Ready Cases\n\n- SG-MANUFACTURING-2020 | manufacturing | expected mechanisms: 2\n- SG-PETROLEUM-2020 | petroleum | expected mechanisms: 1\n- SG-SEMICONDUCTOR-2021 | semiconductors | expected mechanisms: 2\n- SG-BIOMEDICAL-2021 | biomedical | expected mechanisms: 2\n\n## Blocked Cases\n\n- SG-ELECTRONICS-2020 | electronics | status: blocked_missing_input\n- SG-ELECTRONICS-2021 | electronics | status: blocked_missing_input\n- SG-SERVICES-2020 | services | status: blocked_missing_input\n- SG-SERVICES-2021 | services | status: blocked_missing_input\n\n## Recommendation\n\nPartial fleet is ready. Continue with small dry-run batch or add missing inputs first.\n\n## Governance Note\n\nFleet replay remains dry-run only. No production mutation, lifecycle mutation, or mechanism validation is permitted."
+}

@@ -1,0 +1,118 @@
+{
+  "registry_version": "replay-readiness-check-v0.1",
+  "created_at": "2026-06-09T08:58:01.636Z",
+  "doctrine": {
+    "replay_readiness_is_run_specific": true,
+    "replay_starts_as_dry_run_only": true,
+    "production_mutation_forbidden": true,
+    "throttle_before_scale": true,
+    "rollback_before_replay": true
+  },
+  "replay_readiness_status": "ready_for_replay_dry_run",
+  "replay_config": {
+    "config_version": "replay-run-config-v0.1",
+    "created_at": "2026-06-09T08:58:01.632Z",
+    "replay_mode": "dry_run_only",
+    "production_mutation_allowed": false,
+    "max_cases_per_run": 25,
+    "max_records_per_case": 250,
+    "throttle": {
+      "enabled": true,
+      "pause_ms_between_cases": 250,
+      "max_parallel_cases": 1
+    },
+    "allowed_replay_scopes": [
+      "single_case",
+      "small_batch",
+      "historical_window"
+    ],
+    "governance": {
+      "human_review_required_before_large_replay": true,
+      "output_snapshot_required": true,
+      "rollback_required": true
+    }
+  },
+  "system_status": {
+    "platform": "linux",
+    "load_average": [
+      0,
+      0,
+      0
+    ],
+    "memory": {
+      "total_memory_mb": 1863,
+      "free_memory_mb": 948,
+      "free_memory_ratio": 0.509
+    }
+  },
+  "inputs": {
+    "module_registry_modules": 12,
+    "maintenance_safe_for_standard_operations": true,
+    "compatibility_status": "compatible_for_standard_operations",
+    "replay_input_files": 0,
+    "replay_run_manifests": 0,
+    "replay_snapshots": 0
+  },
+  "summary": {
+    "checks_total": 10,
+    "checks_passed": 10,
+    "checks_failed": 0,
+    "max_cases_per_run": 25,
+    "max_records_per_case": 250,
+    "max_parallel_cases": 1
+  },
+  "checks": [
+    {
+      "check_id": "MAINTENANCE_COMPATIBILITY",
+      "passed": true,
+      "detail": "General maintenance compatibility must be clean."
+    },
+    {
+      "check_id": "MODULE_REGISTRY_PRESENT",
+      "passed": true,
+      "detail": "Module registry must exist."
+    },
+    {
+      "check_id": "COMPATIBILITY_CHECK_PRESENT",
+      "passed": true,
+      "detail": "Compatibility check must allow standard operations."
+    },
+    {
+      "check_id": "REPLAY_CONFIG_PRESENT",
+      "passed": true,
+      "detail": "Replay run config must exist."
+    },
+    {
+      "check_id": "REPLAY_DRY_RUN_MODE",
+      "passed": true,
+      "detail": "Replay must begin in dry_run_only mode."
+    },
+    {
+      "check_id": "PRODUCTION_MUTATION_BLOCKED",
+      "passed": true,
+      "detail": "Replay must not mutate production evidence."
+    },
+    {
+      "check_id": "THROTTLE_ENABLED",
+      "passed": true,
+      "detail": "Replay should start throttled and single-threaded."
+    },
+    {
+      "check_id": "RUN_LIMITS_PRESENT",
+      "passed": true,
+      "detail": "Replay must have run-size limits."
+    },
+    {
+      "check_id": "REPLAY_DIRECTORIES_PRESENT",
+      "passed": true,
+      "detail": "Replay directory structure must exist."
+    },
+    {
+      "check_id": "PRE_INGESTION_BASELINE_EXISTS",
+      "passed": true,
+      "detail": "A baseline snapshot should exist before replay runs."
+    }
+  ],
+  "failed_checks": [],
+  "recommendation": "Replay dry-run preparation is allowed. Start with one small replay manifest only."
+}

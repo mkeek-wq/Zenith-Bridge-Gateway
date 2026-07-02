@@ -1,0 +1,37 @@
+{
+  "input_version": "replay-input-v0.1",
+  "case_id": "SG-BIOMEDICAL-2021",
+  "case_label": "Singapore Biomedical Output 2021",
+  "country": "SG",
+  "historical_period_start": "2021-01",
+  "historical_period_end": "2021-12",
+  "records": [
+    {
+      "record_id": "RPLAY_SG_BIO_2021_001",
+      "metric_name": "BIOMEDICAL_OUTPUT_CHANGE_YOY",
+      "period": "2021-Q1",
+      "value": 9.6,
+      "direction": "positive",
+      "source_title": "Replay Pilot Synthetic Historical Input",
+      "evidence_window": "Biomedical output expanded during the post-shock recovery period."
+    },
+    {
+      "record_id": "RPLAY_SG_BIO_2021_002",
+      "metric_name": "POLICY_SUPPORT_SIGNAL",
+      "period": "2021-Q1",
+      "value": 1,
+      "direction": "positive",
+      "source_title": "Replay Pilot Synthetic Historical Input",
+      "evidence_window": "Policy and capacity support signals were present in biomedical manufacturing."
+    },
+    {
+      "record_id": "RPLAY_SG_BIO_2021_003",
+      "metric_name": "EXTERNAL_HEALTHCARE_DEMAND_SIGNAL",
+      "period": "2021-Q2",
+      "value": 1,
+      "direction": "positive",
+      "source_title": "Replay Pilot Synthetic Historical Input",
+      "evidence_window": "External healthcare demand remained supportive."
+    }
+  ]
+}

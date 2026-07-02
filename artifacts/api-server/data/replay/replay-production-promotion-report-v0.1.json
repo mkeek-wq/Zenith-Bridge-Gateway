@@ -1,0 +1,15 @@
+{
+  "report_version": "replay-production-promotion-report-v0.1",
+  "generated_at": "2026-06-29T02:02:30.794Z",
+  "doctrine": "Promotion records governance status only. It does not yet mutate historical case content.",
+  "promotion": {
+    "proposal_id": "REPLAY_PROP_CASE_HIST-SG-MFG-RECOVERY-2021",
+    "target_case_id": "HIST-SG-MFG-RECOVERY-2021",
+    "approval_status": "approved",
+    "audit_status": "passed",
+    "implementation_status": "shadow_validated",
+    "production_status": "promoted",
+    "promoted_by": "Papa",
+    "promoted_at": "2026-06-29T02:02:30.794Z"
+  }
+}

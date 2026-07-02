@@ -1,0 +1,193 @@
+{
+  "queue_version": "replay-expansion-queue-v0.1",
+  "generated_at": "2026-06-10T02:52:01.625Z",
+  "source_fleet": "data/replay/replay-fleet-registry-v0.2.json",
+  "existing_cases": 4,
+  "candidate_cases": 20,
+  "queued_cases": 20,
+  "critical_count": 7,
+  "high_count": 9,
+  "medium_count": 4,
+  "queue": [
+    {
+      "case_id": "SG-SERVICES-RECOVERY-2021",
+      "domain": "services",
+      "period": "2021",
+      "priority": "critical",
+      "rationale": "Adds services-side recovery comparison after manufacturing replay.",
+      "status": "queued_for_replay_design",
+      "required_next_step": "create_replay_case_definition"
+    },
+    {
+      "case_id": "SG-RETAIL-2020",
+      "domain": "retail",
+      "period": "2020",
+      "priority": "high",
+      "rationale": "Adds domestic-demand shock case.",
+      "status": "queued_for_replay_design",
+      "required_next_step": "create_replay_case_definition"
+    },
+    {
+      "case_id": "SG-FOOD-SERVICES-2020",
+      "domain": "food_services",
+      "period": "2020",
+      "priority": "high",
+      "rationale": "Adds lockdown-sensitive service-sector replay.",
+      "status": "queued_for_replay_design",
+      "required_next_step": "create_replay_case_definition"
+    },
+    {
+      "case_id": "SG-TOURISM-2020",
+      "domain": "tourism",
+      "period": "2020",
+      "priority": "critical",
+      "rationale": "Adds extreme external mobility shock case.",
+      "status": "queued_for_replay_design",
+      "required_next_step": "create_replay_case_definition"
+    },
+    {
+      "case_id": "SG-AIR-TRANSPORT-2020",
+      "domain": "air_transport",
+      "period": "2020",
+      "priority": "critical",
+      "rationale": "Adds aviation-linked demand collapse case.",
+      "status": "queued_for_replay_design",
+      "required_next_step": "create_replay_case_definition"
+    },
+    {
+      "case_id": "SG-CONSTRUCTION-2020",
+      "domain": "construction",
+      "period": "2020",
+      "priority": "critical",
+      "rationale": "Adds supply/labour constraint shock case.",
+      "status": "queued_for_replay_design",
+      "required_next_step": "create_replay_case_definition"
+    },
+    {
+      "case_id": "SG-FOREIGN-WORKER-CONSTRAINTS-2021",
+      "domain": "labour_policy",
+      "period": "2021",
+      "priority": "critical",
+      "rationale": "Adds policy/labour constraint mechanism case.",
+      "status": "queued_for_replay_design",
+      "required_next_step": "create_replay_case_definition"
+    },
+    {
+      "case_id": "SG-JOBS-SUPPORT-SCHEME-2020",
+      "domain": "policy",
+      "period": "2020",
+      "priority": "critical",
+      "rationale": "Adds fiscal support/policy intervention replay case.",
+      "status": "queued_for_replay_design",
+      "required_next_step": "create_replay_case_definition"
+    },
+    {
+      "case_id": "SG-CARBON-TAX-2019",
+      "domain": "policy",
+      "period": "2019",
+      "priority": "high",
+      "rationale": "Adds structural policy cost pass-through case.",
+      "status": "queued_for_replay_design",
+      "required_next_step": "create_replay_case_definition"
+    },
+    {
+      "case_id": "SG-ELECTRONICS-EXPORTS-2021",
+      "domain": "electronics",
+      "period": "2021",
+      "priority": "high",
+      "rationale": "Adds electronics export cycle replay.",
+      "status": "queued_for_replay_design",
+      "required_next_step": "create_replay_case_definition"
+    },
+    {
+      "case_id": "SG-SEMICONDUCTOR-SLOWDOWN-2022",
+      "domain": "semiconductors",
+      "period": "2022",
+      "priority": "high",
+      "rationale": "Adds post-recovery semiconductor slowdown comparison.",
+      "status": "queued_for_replay_design",
+      "required_next_step": "create_replay_case_definition"
+    },
+    {
+      "case_id": "SG-INFLATION-2022",
+      "domain": "inflation",
+      "period": "2022",
+      "priority": "high",
+      "rationale": "Adds inflation/rates macro transmission replay.",
+      "status": "queued_for_replay_design",
+      "required_next_step": "create_replay_case_definition"
+    },
+    {
+      "case_id": "SG-MONETARY-TIGHTENING-2022",
+      "domain": "monetary_policy",
+      "period": "2022",
+      "priority": "high",
+      "rationale": "Adds exchange-rate/rates policy response case.",
+      "status": "queued_for_replay_design",
+      "required_next_step": "create_replay_case_definition"
+    },
+    {
+      "case_id": "SG-GOODS-EXPORTS-2020",
+      "domain": "trade",
+      "period": "2020",
+      "priority": "medium",
+      "rationale": "Adds broad goods trade cycle replay.",
+      "status": "queued_for_replay_design",
+      "required_next_step": "create_replay_case_definition"
+    },
+    {
+      "case_id": "SG-NODX-2023",
+      "domain": "trade",
+      "period": "2023",
+      "priority": "high",
+      "rationale": "Adds NODX downturn/rebound comparison.",
+      "status": "queued_for_replay_design",
+      "required_next_step": "create_replay_case_definition"
+    },
+    {
+      "case_id": "SG-FINANCE-2020",
+      "domain": "finance",
+      "period": "2020",
+      "priority": "medium",
+      "rationale": "Adds finance-sector resilience comparison.",
+      "status": "queued_for_replay_design",
+      "required_next_step": "create_replay_case_definition"
+    },
+    {
+      "case_id": "SG-REAL-ESTATE-2020",
+      "domain": "real_estate",
+      "period": "2020",
+      "priority": "medium",
+      "rationale": "Adds property-sector shock/recovery case.",
+      "status": "queued_for_replay_design",
+      "required_next_step": "create_replay_case_definition"
+    },
+    {
+      "case_id": "SG-MARINE-OFFSHORE-2020",
+      "domain": "marine_offshore",
+      "period": "2020",
+      "priority": "medium",
+      "rationale": "Adds oil-linked industrial sector comparison.",
+      "status": "queued_for_replay_design",
+      "required_next_step": "create_replay_case_definition"
+    },
+    {
+      "case_id": "SG-BIOMEDICAL-VOLATILITY-2020",
+      "domain": "biomedical",
+      "period": "2020",
+      "priority": "high",
+      "rationale": "Adds biomedical volatility comparison.",
+      "status": "queued_for_replay_design",
+      "required_next_step": "create_replay_case_definition"
+    },
+    {
+      "case_id": "SG-LABOUR-MARKET-2020",
+      "domain": "employment",
+      "period": "2020",
+      "priority": "critical",
+      "rationale": "Adds labour market outcome replay case.",
+      "status": "queued_for_replay_design",
+      "required_next_step": "create_replay_case_definition"
+    }
+  ]
+}

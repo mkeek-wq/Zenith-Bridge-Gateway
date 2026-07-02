@@ -1,0 +1,12 @@
+{
+  "version": "replay-forecast-envelope-v0.1",
+  "generated_at": "2026-07-01T02:42:08.545Z",
+  "source_dashboard_package": "data/replay/papa-replay-dashboard-package-v0.1.json",
+  "doctrine": {
+    "forecast_envelopes_are_not_predictions": true,
+    "based_on_historical_analogue_ranges": true,
+    "requires_human_interpretation": true
+  },
+  "envelope_count": 0,
+  "envelopes": []
+}

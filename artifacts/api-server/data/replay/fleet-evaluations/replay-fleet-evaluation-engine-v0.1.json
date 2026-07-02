@@ -1,0 +1,107 @@
+{
+  "registry_version": "replay-fleet-evaluation-engine-v0.1",
+  "created_at": "2026-06-09T10:02:27.113Z",
+  "doctrine": {
+    "fleet_evaluation_scores_replay_behavior_not_truth": true,
+    "replay_quality_does_not_validate_mechanisms": true,
+    "dry_run_only": true
+  },
+  "fleet_run_id": "FLEET_RUN_2026-06-09T10-02-25-352Z",
+  "inputs": {
+    "cases_processed": 4,
+    "total_records_replayed": 11
+  },
+  "summary": {
+    "fleet_quality_score": 1,
+    "fleet_mechanism_coverage": 1,
+    "fleet_expected_match_ratio": 1,
+    "unique_mechanisms_detected": 3,
+    "strong_cases": 4,
+    "moderate_cases": 0,
+    "weak_cases": 0,
+    "insufficient_cases": 0,
+    "production_records_written": 0
+  },
+  "case_evaluations": [
+    {
+      "case_id": "SG-MANUFACTURING-2020",
+      "domain": "manufacturing",
+      "records_replayed": 3,
+      "mechanism_coverage": 1,
+      "expected_match_ratio": 1,
+      "detected_mechanisms": [
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY",
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "matched_expected_mechanisms": [
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY",
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "missed_expected_mechanisms": [],
+      "unexpected_mechanisms": [],
+      "case_quality_score": 1,
+      "case_quality_band": "strong_replay_case"
+    },
+    {
+      "case_id": "SG-PETROLEUM-2020",
+      "domain": "petroleum",
+      "records_replayed": 2,
+      "mechanism_coverage": 1,
+      "expected_match_ratio": 1,
+      "detected_mechanisms": [
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY",
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "matched_expected_mechanisms": [
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "missed_expected_mechanisms": [],
+      "unexpected_mechanisms": [
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY"
+      ],
+      "case_quality_score": 1,
+      "case_quality_band": "strong_replay_case"
+    },
+    {
+      "case_id": "SG-SEMICONDUCTOR-2021",
+      "domain": "semiconductors",
+      "records_replayed": 3,
+      "mechanism_coverage": 1,
+      "expected_match_ratio": 1,
+      "detected_mechanisms": [
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY",
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "matched_expected_mechanisms": [
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY",
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "missed_expected_mechanisms": [],
+      "unexpected_mechanisms": [],
+      "case_quality_score": 1,
+      "case_quality_band": "strong_replay_case"
+    },
+    {
+      "case_id": "SG-BIOMEDICAL-2021",
+      "domain": "biomedical",
+      "records_replayed": 3,
+      "mechanism_coverage": 1,
+      "expected_match_ratio": 1,
+      "detected_mechanisms": [
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY",
+        "MKT_006_POLICY_REGULATORY_IMPACT",
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "matched_expected_mechanisms": [
+        "MKT_006_POLICY_REGULATORY_IMPACT",
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "missed_expected_mechanisms": [],
+      "unexpected_mechanisms": [
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY"
+      ],
+      "case_quality_score": 1,
+      "case_quality_band": "strong_replay_case"
+    }
+  ]
+}

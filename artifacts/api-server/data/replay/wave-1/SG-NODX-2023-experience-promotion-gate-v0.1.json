@@ -1,0 +1,14 @@
+{
+  "gate_version": "experience-promotion-gate-v0.1",
+  "generated_at": "2026-06-10T03:58:28.879Z",
+  "case_id": "SG-NODX-2023",
+  "source_comparison": "data/replay/wave-1/SG-NODX-2023-outcome-comparison-v0.1.json",
+  "alignment_score": 0.78,
+  "alignment_band": "strong_alignment",
+  "mechanism_ids": [
+    "MKT_010"
+  ],
+  "gate_decision": "GO_FOR_EXPERIENCE_CANDIDATE_REGISTRATION",
+  "promotion_status": "approved_as_experience_candidate",
+  "governance_note": "This gate approves experience candidate registration only. It does not create a validated experience or validated mechanism."
+}

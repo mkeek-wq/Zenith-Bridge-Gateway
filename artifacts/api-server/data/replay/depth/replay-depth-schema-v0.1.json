@@ -1,0 +1,31 @@
+{
+  "version": "replay-depth-schema-v0.1",
+  "required_depth_fields": [
+    "timeline",
+    "signals",
+    "leading_indicators",
+    "lagging_indicators",
+    "transmission_channels",
+    "sector_impacts",
+    "policy_response",
+    "recovery_pattern",
+    "duration_months",
+    "winners",
+    "losers",
+    "outcome_window"
+  ],
+  "depth_score_weights": {
+    "timeline": 0.10,
+    "signals": 0.10,
+    "leading_indicators": 0.10,
+    "lagging_indicators": 0.05,
+    "transmission_channels": 0.15,
+    "sector_impacts": 0.15,
+    "policy_response": 0.10,
+    "recovery_pattern": 0.10,
+    "duration_months": 0.05,
+    "winners": 0.05,
+    "losers": 0.05,
+    "outcome_window": 0.10
+  }
+}

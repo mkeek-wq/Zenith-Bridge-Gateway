@@ -1,0 +1,88 @@
+{
+  "evidence_file_version": "replay-evidence-file-v0.1",
+  "generated_at": "2026-06-10T03:40:51.155Z",
+  "case_id": "SG-LABOUR-MARKET-2020",
+  "wave_id": "replay-wave-1",
+  "domain": "employment",
+  "period": "2020",
+  "priority": "critical",
+  "evidence_status": "populated_pending_validation",
+  "replay_execution_status": "not_ready_validation_required",
+  "no_future_leakage_guard": {
+    "enabled": true,
+    "rule": "Only use evidence published at or before the replay decision date or replay period cutoff.",
+    "publication_date_required": true,
+    "future_dated_records_block_execution": true
+  },
+  "candidate_mechanisms": [
+    "MKT_005",
+    "MKT_006"
+  ],
+  "required_signals": [
+    {
+      "signal": "unemployment_rate",
+      "source_status": "not_mapped",
+      "evidence_records": []
+    },
+    {
+      "signal": "resident_employment",
+      "source_status": "not_mapped",
+      "evidence_records": []
+    },
+    {
+      "signal": "retrenchments",
+      "source_status": "not_mapped",
+      "evidence_records": []
+    },
+    {
+      "signal": "policy_support",
+      "source_status": "not_mapped",
+      "evidence_records": []
+    }
+  ],
+  "required_manual_fields_before_execution": [
+    "source_name",
+    "source_url_or_reference",
+    "publication_date",
+    "observed_period",
+    "value_or_qualitative_finding",
+    "lineage_note"
+  ],
+  "governance_note": "This file is a replay evidence skeleton only. It is not evidence until populated, sourced, date-checked, and lineage-reviewed.",
+  "replay_decision_date": "2020-12-31",
+  "evidence_records": [
+    {
+      "evidence_id": "SG-LABOUR-MARKET-2020-EV001",
+      "metric": "UNEMPLOYMENT_RATE",
+      "observed_period": "2020",
+      "publication_date": "2020-12-15",
+      "source_name": "Ministry of Manpower Singapore",
+      "source_url_or_reference": "labour_market_report_2020",
+      "value_or_qualitative_finding": "Labour market weakened during the 2020 COVID shock.",
+      "lineage_note": "Official labour market source placeholder; exact URL required before production use.",
+      "future_leakage_check": "pending_validation"
+    },
+    {
+      "evidence_id": "SG-LABOUR-MARKET-2020-EV002",
+      "metric": "RETRENCHMENTS",
+      "observed_period": "2020",
+      "publication_date": "2020-12-15",
+      "source_name": "Ministry of Manpower Singapore",
+      "source_url_or_reference": "retrenchment_statistics_2020",
+      "value_or_qualitative_finding": "Retrenchment pressure increased during the 2020 downturn.",
+      "lineage_note": "Official labour market source placeholder; exact URL required before production use.",
+      "future_leakage_check": "pending_validation"
+    },
+    {
+      "evidence_id": "SG-LABOUR-MARKET-2020-EV003",
+      "metric": "POLICY_SUPPORT",
+      "observed_period": "2020",
+      "publication_date": "2020-12-31",
+      "source_name": "Singapore Government / MOM / MOF",
+      "source_url_or_reference": "jobs_support_and_labour_policy_context",
+      "value_or_qualitative_finding": "Policy support was deployed to cushion employment impact.",
+      "lineage_note": "Policy support source placeholder; exact URL required before production use.",
+      "future_leakage_check": "pending_validation"
+    }
+  ]
+}

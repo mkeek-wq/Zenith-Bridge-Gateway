@@ -1,0 +1,88 @@
+{
+  "registry_version": "replay-calibration-engine-v0.2",
+  "created_at": "2026-06-09T10:02:28.738Z",
+  "doctrine": {
+    "calibration_measures_replay_behavior_not_truth": true,
+    "unexpected_mechanisms_reduce_precision": true,
+    "missed_mechanisms_reduce_recall": true,
+    "calibration_requires_many_cases": true,
+    "dry_run_calibration_does_not_validate_mechanisms": true
+  },
+  "inputs": {
+    "fleet_cases": 4,
+    "mechanisms_detected": 3
+  },
+  "summary": {
+    "mechanisms_calibrated": 3,
+    "average_calibration_score": 0.82,
+    "strong_calibration": 2,
+    "moderate_calibration": 1,
+    "weak_calibration": 0,
+    "insufficient_calibration": 0
+  },
+  "calibration_items": [
+    {
+      "mechanism_id": "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY",
+      "cases_relevant": 4,
+      "expected_hits": 2,
+      "unexpected_hits": 2,
+      "missed_hits": 0,
+      "precision": 0.5,
+      "recall": 1,
+      "unexpected_penalty": 0.5,
+      "missed_penalty": 0,
+      "sample_depth_score": 0.4,
+      "calibration_score": 0.685,
+      "calibration_band": "moderate_calibration",
+      "governance": {
+        "calibration_is_not_validation": true,
+        "unexpected_mechanisms_penalized": true,
+        "missed_mechanisms_penalized": true,
+        "more_cases_required_before_confidence": true,
+        "replay_dry_run_only": true
+      }
+    },
+    {
+      "mechanism_id": "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY",
+      "cases_relevant": 4,
+      "expected_hits": 4,
+      "unexpected_hits": 0,
+      "missed_hits": 0,
+      "precision": 1,
+      "recall": 1,
+      "unexpected_penalty": 0,
+      "missed_penalty": 0,
+      "sample_depth_score": 0.4,
+      "calibration_score": 0.91,
+      "calibration_band": "strong_calibration",
+      "governance": {
+        "calibration_is_not_validation": true,
+        "unexpected_mechanisms_penalized": true,
+        "missed_mechanisms_penalized": true,
+        "more_cases_required_before_confidence": true,
+        "replay_dry_run_only": true
+      }
+    },
+    {
+      "mechanism_id": "MKT_006_POLICY_REGULATORY_IMPACT",
+      "cases_relevant": 1,
+      "expected_hits": 1,
+      "unexpected_hits": 0,
+      "missed_hits": 0,
+      "precision": 1,
+      "recall": 1,
+      "unexpected_penalty": 0,
+      "missed_penalty": 0,
+      "sample_depth_score": 0.1,
+      "calibration_score": 0.865,
+      "calibration_band": "strong_calibration",
+      "governance": {
+        "calibration_is_not_validation": true,
+        "unexpected_mechanisms_penalized": true,
+        "missed_mechanisms_penalized": true,
+        "more_cases_required_before_confidence": true,
+        "replay_dry_run_only": true
+      }
+    }
+  ]
+}

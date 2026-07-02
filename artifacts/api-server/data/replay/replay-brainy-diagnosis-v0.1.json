@@ -1,0 +1,20 @@
+{
+  "version": "replay-brainy-diagnosis-v0.1",
+  "generated_at": "2026-07-01T02:42:12.377Z",
+  "mode": "breadth",
+  "confidence_score": 0.55,
+  "gap_count": 38,
+  "top_gap_mechanisms": [
+    "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY",
+    "CHINA_SLOWDOWN",
+    "CAPITAL_OUTFLOW",
+    "VALUATION_RESET",
+    "SOVEREIGN_RISK",
+    "SUPPLY_SHOCK",
+    "COMMODITY_PRICE_SHOCK",
+    "CAPEX_CYCLE_DOWNTURN",
+    "INVENTORY_STRESS",
+    "SECTOR_SPECIFIC_DEMAND_SURGE"
+  ],
+  "recommendation": "Acquire additional historical cases."
+}

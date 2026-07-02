@@ -1,0 +1,219 @@
+{
+  "history_version": "replay-governance-history-v0.1",
+  "generated_at": "2026-07-01T02:42:21.607Z",
+  "doctrine": "Governance history records proposal, approval, rejection, shadow, audit, and promotion events.",
+  "source_files": {
+    "registry": "data/replay/replay-proposal-registry-v0.1.json",
+    "dashboard": "data/replay/replay-proposal-dashboard-v0.1.json",
+    "shadow": "data/replay/replay-shadow-execution-report-v0.1.json",
+    "audit": "data/replay/replay-audit-report-v0.1.json",
+    "promotion": "data/replay/replay-production-promotion-report-v0.1.json"
+  },
+  "summary": {
+    "proposal_count": 25,
+    "awaiting_papa_approval": 23,
+    "approved": 1,
+    "rejected": 1,
+    "promoted": 1,
+    "shadow_runs": 0,
+    "audits": 0
+  },
+  "event_count": 28,
+  "events": [
+    {
+      "event_type": "proposal_registered",
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-MFG-RECOVERY-2021",
+      "target_case_id": "HIST-SG-MFG-RECOVERY-2021",
+      "timestamp": "2026-06-29T01:39:44.694Z",
+      "status": "approved"
+    },
+    {
+      "event_type": "proposal_registered",
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-NODX-RECOVERY-2021",
+      "target_case_id": "HIST-SG-NODX-RECOVERY-2021",
+      "timestamp": "2026-06-29T01:39:44.694Z",
+      "status": "rejected"
+    },
+    {
+      "event_type": "proposal_registered",
+      "proposal_id": "REPLAY_PROP_CASE_HIST-GLOBAL-COVID-LOGISTICS-2020",
+      "target_case_id": "HIST-GLOBAL-COVID-LOGISTICS-2020",
+      "timestamp": "2026-06-29T01:39:44.694Z",
+      "status": "new"
+    },
+    {
+      "event_type": "proposal_registered",
+      "proposal_id": "REPLAY_PROP_CASE_HIST-CHINA-SLOWDOWN-2015",
+      "target_case_id": "HIST-CHINA-SLOWDOWN-2015",
+      "timestamp": "2026-06-29T01:39:44.694Z",
+      "status": "new"
+    },
+    {
+      "event_type": "proposal_registered",
+      "proposal_id": "REPLAY_PROP_CASE_HIST-GLOBAL-ENERGY-CRISIS-2022",
+      "target_case_id": "HIST-GLOBAL-ENERGY-CRISIS-2022",
+      "timestamp": "2026-06-29T01:39:44.694Z",
+      "status": "new"
+    },
+    {
+      "event_type": "proposal_registered",
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-SARS-2003",
+      "target_case_id": "HIST-SG-SARS-2003",
+      "timestamp": "2026-06-29T01:39:44.694Z",
+      "status": "new"
+    },
+    {
+      "event_type": "proposal_registered",
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-TOURISM-COVID-2020",
+      "target_case_id": "HIST-SG-TOURISM-COVID-2020",
+      "timestamp": "2026-06-29T01:39:44.694Z",
+      "status": "new"
+    },
+    {
+      "event_type": "proposal_registered",
+      "proposal_id": "REPLAY_PROP_CASE_HIST-ASIAN-FINANCIAL-CRISIS-1997",
+      "target_case_id": "HIST-ASIAN-FINANCIAL-CRISIS-1997",
+      "timestamp": "2026-06-29T01:39:44.694Z",
+      "status": "new"
+    },
+    {
+      "event_type": "proposal_registered",
+      "proposal_id": "REPLAY_PROP_CASE_HIST-GFC-2008",
+      "target_case_id": "HIST-GFC-2008",
+      "timestamp": "2026-06-29T01:39:44.694Z",
+      "status": "new"
+    },
+    {
+      "event_type": "proposal_registered",
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-ELECTRONICS-DOWNTURN-2023",
+      "target_case_id": "HIST-SG-ELECTRONICS-DOWNTURN-2023",
+      "timestamp": "2026-06-29T01:39:44.694Z",
+      "status": "new"
+    },
+    {
+      "event_type": "proposal_registered",
+      "proposal_id": "REPLAY_PROP_CASE_HIST-GLOBAL-DOTCOM-2000",
+      "target_case_id": "HIST-GLOBAL-DOTCOM-2000",
+      "timestamp": "2026-06-29T01:39:44.694Z",
+      "status": "new"
+    },
+    {
+      "event_type": "proposal_registered",
+      "proposal_id": "REPLAY_PROP_CASE_HIST-EURO-DEBT-CRISIS-2011",
+      "target_case_id": "HIST-EURO-DEBT-CRISIS-2011",
+      "timestamp": "2026-06-29T01:39:44.694Z",
+      "status": "new"
+    },
+    {
+      "event_type": "proposal_registered",
+      "proposal_id": "REPLAY_PROP_CASE_HIST-GLOBAL-INFLATION-2022",
+      "target_case_id": "HIST-GLOBAL-INFLATION-2022",
+      "timestamp": "2026-06-29T01:39:44.694Z",
+      "status": "new"
+    },
+    {
+      "event_type": "proposal_registered",
+      "proposal_id": "REPLAY_PROP_CASE_HIST-OIL-SHOCK-1973",
+      "target_case_id": "HIST-OIL-SHOCK-1973",
+      "timestamp": "2026-06-29T01:39:44.694Z",
+      "status": "new"
+    },
+    {
+      "event_type": "proposal_registered",
+      "proposal_id": "REPLAY_PROP_CASE_HIST-OIL-PRICE-COLLAPSE-2014",
+      "target_case_id": "HIST-OIL-PRICE-COLLAPSE-2014",
+      "timestamp": "2026-06-29T01:39:44.694Z",
+      "status": "new"
+    },
+    {
+      "event_type": "proposal_registered",
+      "proposal_id": "REPLAY_PROP_CASE_HIST-COVID-SUPPLY-CHAIN-2021",
+      "target_case_id": "HIST-COVID-SUPPLY-CHAIN-2021",
+      "timestamp": "2026-06-29T01:39:44.694Z",
+      "status": "new"
+    },
+    {
+      "event_type": "proposal_registered",
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SUEZ-CANAL-2021",
+      "target_case_id": "HIST-SUEZ-CANAL-2021",
+      "timestamp": "2026-06-29T01:39:44.694Z",
+      "status": "new"
+    },
+    {
+      "event_type": "proposal_registered",
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-BIOMEDICAL-SURGE-2020",
+      "target_case_id": "HIST-SG-BIOMEDICAL-SURGE-2020",
+      "timestamp": "2026-06-29T01:39:44.694Z",
+      "status": "new"
+    },
+    {
+      "event_type": "proposal_registered",
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-SEMICONDUCTOR-UPCYCLE-2021",
+      "target_case_id": "HIST-SG-SEMICONDUCTOR-UPCYCLE-2021",
+      "timestamp": "2026-06-29T01:39:44.694Z",
+      "status": "new"
+    },
+    {
+      "event_type": "proposal_registered",
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-SEMICONDUCTOR-DOWNTURN-2019",
+      "target_case_id": "HIST-SG-SEMICONDUCTOR-DOWNTURN-2019",
+      "timestamp": "2026-06-29T01:39:44.694Z",
+      "status": "new"
+    },
+    {
+      "event_type": "proposal_registered",
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-PORT-CONGESTION-COVID",
+      "target_case_id": "HIST-SG-PORT-CONGESTION-COVID",
+      "timestamp": "2026-06-29T01:39:44.694Z",
+      "status": "new"
+    },
+    {
+      "event_type": "proposal_registered",
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-LABOUR-SHORTAGE-2021",
+      "target_case_id": "HIST-SG-LABOUR-SHORTAGE-2021",
+      "timestamp": "2026-06-29T01:39:44.694Z",
+      "status": "new"
+    },
+    {
+      "event_type": "proposal_registered",
+      "proposal_id": "REPLAY_PROP_CASE_HIST-RUSSIA-SANCTIONS-2022",
+      "target_case_id": "HIST-RUSSIA-SANCTIONS-2022",
+      "timestamp": "2026-06-29T01:39:44.694Z",
+      "status": "new"
+    },
+    {
+      "event_type": "proposal_registered",
+      "proposal_id": "REPLAY_PROP_CASE_HIST-CHINA-REOPENING-2023",
+      "target_case_id": "HIST-CHINA-REOPENING-2023",
+      "timestamp": "2026-06-29T01:39:44.694Z",
+      "status": "new"
+    },
+    {
+      "event_type": "proposal_registered",
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-PROPERTY-COOLING-2018",
+      "target_case_id": "HIST-SG-PROPERTY-COOLING-2018",
+      "timestamp": "2026-06-29T01:39:44.694Z",
+      "status": "new"
+    },
+    {
+      "event_type": "proposal_approved",
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-MFG-RECOVERY-2021",
+      "timestamp": "2026-06-29T01:53:09.707Z",
+      "actor": "Papa"
+    },
+    {
+      "event_type": "proposal_promoted",
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-MFG-RECOVERY-2021",
+      "timestamp": "2026-06-29T02:02:30.794Z",
+      "actor": "Papa",
+      "production_status": "promoted"
+    },
+    {
+      "event_type": "proposal_rejected",
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-NODX-RECOVERY-2021",
+      "timestamp": "2026-06-29T02:07:19.234Z",
+      "actor": "Papa",
+      "reason": "Hold until evidence policy is stricter."
+    }
+  ]
+}

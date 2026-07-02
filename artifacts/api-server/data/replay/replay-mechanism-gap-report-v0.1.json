@@ -1,0 +1,314 @@
+{
+  "version": "replay-mechanism-gap-report-v0.1",
+  "generated_at": "2026-07-01T02:41:54.399Z",
+  "source_coverage_file": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/replay/coverage/replay-mechanism-coverage-v0.1.json",
+  "historical_case_count": 25,
+  "unique_mechanism_count": 38,
+  "gap_count": 38,
+  "gaps": [
+    {
+      "mechanism": "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "priority": "high"
+    },
+    {
+      "mechanism": "CHINA_SLOWDOWN",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "priority": "high"
+    },
+    {
+      "mechanism": "CAPITAL_OUTFLOW",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "priority": "high"
+    },
+    {
+      "mechanism": "VALUATION_RESET",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "priority": "high"
+    },
+    {
+      "mechanism": "SOVEREIGN_RISK",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "priority": "high"
+    },
+    {
+      "mechanism": "SUPPLY_SHOCK",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "priority": "high"
+    },
+    {
+      "mechanism": "COMMODITY_PRICE_SHOCK",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "priority": "high"
+    },
+    {
+      "mechanism": "CAPEX_CYCLE_DOWNTURN",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "priority": "high"
+    },
+    {
+      "mechanism": "INVENTORY_STRESS",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "priority": "high"
+    },
+    {
+      "mechanism": "SECTOR_SPECIFIC_DEMAND_SURGE",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "priority": "high"
+    },
+    {
+      "mechanism": "HEALTHCARE_DEMAND_SHOCK",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "priority": "high"
+    },
+    {
+      "mechanism": "GLOBAL_DEMAND_RECOVERY",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "priority": "high"
+    },
+    {
+      "mechanism": "INVENTORY_REBUILD",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "priority": "high"
+    },
+    {
+      "mechanism": "CAPACITY_EXPANSION",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "priority": "high"
+    },
+    {
+      "mechanism": "ELECTRONICS_CYCLE_DOWNTURN",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "priority": "high"
+    },
+    {
+      "mechanism": "LABOUR_SUPPLY_CONSTRAINT",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "priority": "high"
+    },
+    {
+      "mechanism": "REOPENING_FRICTION",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "priority": "high"
+    },
+    {
+      "mechanism": "COST_PRESSURE",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "priority": "high"
+    },
+    {
+      "mechanism": "SANCTIONS_SHOCK",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "priority": "high"
+    },
+    {
+      "mechanism": "TRADE_DISRUPTION",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "priority": "high"
+    },
+    {
+      "mechanism": "REOPENING_RECOVERY",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "priority": "high"
+    },
+    {
+      "mechanism": "DEMAND_RECOVERY",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "priority": "high"
+    },
+    {
+      "mechanism": "SERVICE_SECTOR_REBOUND",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "priority": "high"
+    },
+    {
+      "mechanism": "POLICY_TIGHTENING",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "priority": "high"
+    },
+    {
+      "mechanism": "CREDIT_CONSTRAINT",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "priority": "high"
+    },
+    {
+      "mechanism": "DEMAND_COOLING",
+      "coverage_band": "very_thin",
+      "current_case_count": 1,
+      "target_case_count": 5,
+      "missing_case_count": 4,
+      "priority": "high"
+    },
+    {
+      "mechanism": "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY",
+      "coverage_band": "thin",
+      "current_case_count": 2,
+      "target_case_count": 5,
+      "missing_case_count": 3,
+      "priority": "medium"
+    },
+    {
+      "mechanism": "DEMAND_SHOCK",
+      "coverage_band": "thin",
+      "current_case_count": 2,
+      "target_case_count": 5,
+      "missing_case_count": 3,
+      "priority": "medium"
+    },
+    {
+      "mechanism": "TRAVEL_DISRUPTION",
+      "coverage_band": "thin",
+      "current_case_count": 2,
+      "target_case_count": 5,
+      "missing_case_count": 3,
+      "priority": "medium"
+    },
+    {
+      "mechanism": "DEMAND_COLLAPSE",
+      "coverage_band": "thin",
+      "current_case_count": 2,
+      "target_case_count": 5,
+      "missing_case_count": 3,
+      "priority": "medium"
+    },
+    {
+      "mechanism": "INVENTORY_CORRECTION",
+      "coverage_band": "thin",
+      "current_case_count": 2,
+      "target_case_count": 5,
+      "missing_case_count": 3,
+      "priority": "medium"
+    },
+    {
+      "mechanism": "LOGISTICS_DELAY",
+      "coverage_band": "thin",
+      "current_case_count": 2,
+      "target_case_count": 5,
+      "missing_case_count": 3,
+      "priority": "medium"
+    },
+    {
+      "mechanism": "GLOBAL_DEMAND_WEAKNESS",
+      "coverage_band": "thin",
+      "current_case_count": 3,
+      "target_case_count": 5,
+      "missing_case_count": 2,
+      "priority": "medium"
+    },
+    {
+      "mechanism": "INFLATION_PRESSURE",
+      "coverage_band": "thin",
+      "current_case_count": 3,
+      "target_case_count": 5,
+      "missing_case_count": 2,
+      "priority": "medium"
+    },
+    {
+      "mechanism": "CREDIT_STRESS",
+      "coverage_band": "thin",
+      "current_case_count": 3,
+      "target_case_count": 5,
+      "missing_case_count": 2,
+      "priority": "medium"
+    },
+    {
+      "mechanism": "SUPPLY_CHAIN_DISRUPTION",
+      "coverage_band": "thin",
+      "current_case_count": 4,
+      "target_case_count": 5,
+      "missing_case_count": 1,
+      "priority": "medium"
+    },
+    {
+      "mechanism": "SHIPPING_CONGESTION",
+      "coverage_band": "thin",
+      "current_case_count": 4,
+      "target_case_count": 5,
+      "missing_case_count": 1,
+      "priority": "medium"
+    },
+    {
+      "mechanism": "ENERGY_PRICE_SHOCK",
+      "coverage_band": "medium",
+      "current_case_count": 5,
+      "target_case_count": 10,
+      "missing_case_count": 5,
+      "priority": "low"
+    }
+  ]
+}

@@ -1,0 +1,665 @@
+{
+  "registry_version": "replay-proposal-registry-v0.1",
+  "created_at": "2026-06-29T01:40:42.010Z",
+  "proposals": [
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-MFG-RECOVERY-2021",
+      "type": "case_enrichment",
+      "priority": "high",
+      "target_case_id": "HIST-SG-MFG-RECOVERY-2021",
+      "title": "Singapore manufacturing recovery 2021",
+      "recommended_action": "Enrich case HIST-SG-MFG-RECOVERY-2021 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes.",
+      "status": "awaiting_papa_approval",
+      "rationale": {
+        "completeness_score": 0.143,
+        "missing_fields": [
+          "sources",
+          "evidence",
+          "outcomes",
+          "timeline",
+          "lessons_learned",
+          "forecast_notes"
+        ]
+      },
+      "registry_status": "approved",
+      "created_at": "2026-06-29T01:39:44.694Z",
+      "approval_status": "approved",
+      "implementation_status": "shadow_validated",
+      "audit_status": "passed",
+      "production_status": "promoted",
+      "approved_by": "Papa",
+      "approved_at": "2026-06-29T01:53:09.707Z",
+      "promoted_at": "2026-06-29T02:02:30.794Z",
+      "promoted_by": "Papa"
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-NODX-RECOVERY-2021",
+      "type": "case_enrichment",
+      "priority": "high",
+      "target_case_id": "HIST-SG-NODX-RECOVERY-2021",
+      "title": "Singapore NODX recovery 2021",
+      "recommended_action": "Enrich case HIST-SG-NODX-RECOVERY-2021 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes.",
+      "status": "awaiting_papa_approval",
+      "rationale": {
+        "completeness_score": 0.143,
+        "missing_fields": [
+          "sources",
+          "evidence",
+          "outcomes",
+          "timeline",
+          "lessons_learned",
+          "forecast_notes"
+        ]
+      },
+      "registry_status": "rejected",
+      "created_at": "2026-06-29T01:39:44.694Z",
+      "approval_status": "rejected",
+      "implementation_status": "rejected",
+      "audit_status": "not_required",
+      "production_status": "not_promoted",
+      "rejected_by": "Papa",
+      "rejected_at": "2026-06-29T02:07:19.234Z",
+      "rejection_reason": "Hold until evidence policy is stricter."
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-GLOBAL-COVID-LOGISTICS-2020",
+      "type": "case_enrichment",
+      "priority": "high",
+      "target_case_id": "HIST-GLOBAL-COVID-LOGISTICS-2020",
+      "title": "COVID logistics shock 2020",
+      "recommended_action": "Enrich case HIST-GLOBAL-COVID-LOGISTICS-2020 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes.",
+      "status": "awaiting_papa_approval",
+      "rationale": {
+        "completeness_score": 0.143,
+        "missing_fields": [
+          "sources",
+          "evidence",
+          "outcomes",
+          "timeline",
+          "lessons_learned",
+          "forecast_notes"
+        ]
+      },
+      "registry_status": "new",
+      "created_at": "2026-06-29T01:39:44.694Z",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "audit_status": "not_audited",
+      "production_status": "not_promoted"
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-CHINA-SLOWDOWN-2015",
+      "type": "case_enrichment",
+      "priority": "high",
+      "target_case_id": "HIST-CHINA-SLOWDOWN-2015",
+      "title": "China slowdown 2015",
+      "recommended_action": "Enrich case HIST-CHINA-SLOWDOWN-2015 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes.",
+      "status": "awaiting_papa_approval",
+      "rationale": {
+        "completeness_score": 0.143,
+        "missing_fields": [
+          "sources",
+          "evidence",
+          "outcomes",
+          "timeline",
+          "lessons_learned",
+          "forecast_notes"
+        ]
+      },
+      "registry_status": "new",
+      "created_at": "2026-06-29T01:39:44.694Z",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "audit_status": "not_audited",
+      "production_status": "not_promoted"
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-GLOBAL-ENERGY-CRISIS-2022",
+      "type": "case_enrichment",
+      "priority": "high",
+      "target_case_id": "HIST-GLOBAL-ENERGY-CRISIS-2022",
+      "title": "2022 energy crisis",
+      "recommended_action": "Enrich case HIST-GLOBAL-ENERGY-CRISIS-2022 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes.",
+      "status": "awaiting_papa_approval",
+      "rationale": {
+        "completeness_score": 0.143,
+        "missing_fields": [
+          "sources",
+          "evidence",
+          "outcomes",
+          "timeline",
+          "lessons_learned",
+          "forecast_notes"
+        ]
+      },
+      "registry_status": "new",
+      "created_at": "2026-06-29T01:39:44.694Z",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "audit_status": "not_audited",
+      "production_status": "not_promoted"
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-SARS-2003",
+      "type": "case_enrichment",
+      "priority": "high",
+      "target_case_id": "HIST-SG-SARS-2003",
+      "title": "Singapore SARS shock",
+      "recommended_action": "Enrich case HIST-SG-SARS-2003 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes.",
+      "status": "awaiting_papa_approval",
+      "rationale": {
+        "completeness_score": 0.143,
+        "missing_fields": [
+          "sources",
+          "evidence",
+          "outcomes",
+          "timeline",
+          "lessons_learned",
+          "forecast_notes"
+        ]
+      },
+      "registry_status": "new",
+      "created_at": "2026-06-29T01:39:44.694Z",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "audit_status": "not_audited",
+      "production_status": "not_promoted"
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-TOURISM-COVID-2020",
+      "type": "case_enrichment",
+      "priority": "high",
+      "target_case_id": "HIST-SG-TOURISM-COVID-2020",
+      "title": "Singapore tourism collapse during COVID",
+      "recommended_action": "Enrich case HIST-SG-TOURISM-COVID-2020 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes.",
+      "status": "awaiting_papa_approval",
+      "rationale": {
+        "completeness_score": 0.143,
+        "missing_fields": [
+          "sources",
+          "evidence",
+          "outcomes",
+          "timeline",
+          "lessons_learned",
+          "forecast_notes"
+        ]
+      },
+      "registry_status": "new",
+      "created_at": "2026-06-29T01:39:44.694Z",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "audit_status": "not_audited",
+      "production_status": "not_promoted"
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-ASIAN-FINANCIAL-CRISIS-1997",
+      "type": "case_enrichment",
+      "priority": "high",
+      "target_case_id": "HIST-ASIAN-FINANCIAL-CRISIS-1997",
+      "title": "Asian Financial Crisis",
+      "recommended_action": "Enrich case HIST-ASIAN-FINANCIAL-CRISIS-1997 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes.",
+      "status": "awaiting_papa_approval",
+      "rationale": {
+        "completeness_score": 0.143,
+        "missing_fields": [
+          "sources",
+          "evidence",
+          "outcomes",
+          "timeline",
+          "lessons_learned",
+          "forecast_notes"
+        ]
+      },
+      "registry_status": "new",
+      "created_at": "2026-06-29T01:39:44.694Z",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "audit_status": "not_audited",
+      "production_status": "not_promoted"
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-GFC-2008",
+      "type": "case_enrichment",
+      "priority": "high",
+      "target_case_id": "HIST-GFC-2008",
+      "title": "Global Financial Crisis",
+      "recommended_action": "Enrich case HIST-GFC-2008 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes.",
+      "status": "awaiting_papa_approval",
+      "rationale": {
+        "completeness_score": 0.143,
+        "missing_fields": [
+          "sources",
+          "evidence",
+          "outcomes",
+          "timeline",
+          "lessons_learned",
+          "forecast_notes"
+        ]
+      },
+      "registry_status": "new",
+      "created_at": "2026-06-29T01:39:44.694Z",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "audit_status": "not_audited",
+      "production_status": "not_promoted"
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-ELECTRONICS-DOWNTURN-2023",
+      "type": "case_enrichment",
+      "priority": "high",
+      "target_case_id": "HIST-SG-ELECTRONICS-DOWNTURN-2023",
+      "title": "Singapore electronics export downturn",
+      "recommended_action": "Enrich case HIST-SG-ELECTRONICS-DOWNTURN-2023 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes.",
+      "status": "awaiting_papa_approval",
+      "rationale": {
+        "completeness_score": 0.143,
+        "missing_fields": [
+          "sources",
+          "evidence",
+          "outcomes",
+          "timeline",
+          "lessons_learned",
+          "forecast_notes"
+        ]
+      },
+      "registry_status": "new",
+      "created_at": "2026-06-29T01:39:44.694Z",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "audit_status": "not_audited",
+      "production_status": "not_promoted"
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-GLOBAL-DOTCOM-2000",
+      "type": "case_enrichment",
+      "priority": "high",
+      "target_case_id": "HIST-GLOBAL-DOTCOM-2000",
+      "title": "Dotcom crash",
+      "recommended_action": "Enrich case HIST-GLOBAL-DOTCOM-2000 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes.",
+      "status": "awaiting_papa_approval",
+      "rationale": {
+        "completeness_score": 0.143,
+        "missing_fields": [
+          "sources",
+          "evidence",
+          "outcomes",
+          "timeline",
+          "lessons_learned",
+          "forecast_notes"
+        ]
+      },
+      "registry_status": "new",
+      "created_at": "2026-06-29T01:39:44.694Z",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "audit_status": "not_audited",
+      "production_status": "not_promoted"
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-EURO-DEBT-CRISIS-2011",
+      "type": "case_enrichment",
+      "priority": "high",
+      "target_case_id": "HIST-EURO-DEBT-CRISIS-2011",
+      "title": "Euro debt crisis",
+      "recommended_action": "Enrich case HIST-EURO-DEBT-CRISIS-2011 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes.",
+      "status": "awaiting_papa_approval",
+      "rationale": {
+        "completeness_score": 0.143,
+        "missing_fields": [
+          "sources",
+          "evidence",
+          "outcomes",
+          "timeline",
+          "lessons_learned",
+          "forecast_notes"
+        ]
+      },
+      "registry_status": "new",
+      "created_at": "2026-06-29T01:39:44.694Z",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "audit_status": "not_audited",
+      "production_status": "not_promoted"
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-GLOBAL-INFLATION-2022",
+      "type": "case_enrichment",
+      "priority": "high",
+      "target_case_id": "HIST-GLOBAL-INFLATION-2022",
+      "title": "Global inflation shock 2022",
+      "recommended_action": "Enrich case HIST-GLOBAL-INFLATION-2022 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes.",
+      "status": "awaiting_papa_approval",
+      "rationale": {
+        "completeness_score": 0.143,
+        "missing_fields": [
+          "sources",
+          "evidence",
+          "outcomes",
+          "timeline",
+          "lessons_learned",
+          "forecast_notes"
+        ]
+      },
+      "registry_status": "new",
+      "created_at": "2026-06-29T01:39:44.694Z",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "audit_status": "not_audited",
+      "production_status": "not_promoted"
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-OIL-SHOCK-1973",
+      "type": "case_enrichment",
+      "priority": "high",
+      "target_case_id": "HIST-OIL-SHOCK-1973",
+      "title": "1973 oil shock",
+      "recommended_action": "Enrich case HIST-OIL-SHOCK-1973 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes.",
+      "status": "awaiting_papa_approval",
+      "rationale": {
+        "completeness_score": 0.143,
+        "missing_fields": [
+          "sources",
+          "evidence",
+          "outcomes",
+          "timeline",
+          "lessons_learned",
+          "forecast_notes"
+        ]
+      },
+      "registry_status": "new",
+      "created_at": "2026-06-29T01:39:44.694Z",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "audit_status": "not_audited",
+      "production_status": "not_promoted"
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-OIL-PRICE-COLLAPSE-2014",
+      "type": "case_enrichment",
+      "priority": "high",
+      "target_case_id": "HIST-OIL-PRICE-COLLAPSE-2014",
+      "title": "Oil price collapse 2014",
+      "recommended_action": "Enrich case HIST-OIL-PRICE-COLLAPSE-2014 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes.",
+      "status": "awaiting_papa_approval",
+      "rationale": {
+        "completeness_score": 0.143,
+        "missing_fields": [
+          "sources",
+          "evidence",
+          "outcomes",
+          "timeline",
+          "lessons_learned",
+          "forecast_notes"
+        ]
+      },
+      "registry_status": "new",
+      "created_at": "2026-06-29T01:39:44.694Z",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "audit_status": "not_audited",
+      "production_status": "not_promoted"
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-COVID-SUPPLY-CHAIN-2021",
+      "type": "case_enrichment",
+      "priority": "high",
+      "target_case_id": "HIST-COVID-SUPPLY-CHAIN-2021",
+      "title": "COVID supply chain disruption",
+      "recommended_action": "Enrich case HIST-COVID-SUPPLY-CHAIN-2021 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes.",
+      "status": "awaiting_papa_approval",
+      "rationale": {
+        "completeness_score": 0.143,
+        "missing_fields": [
+          "sources",
+          "evidence",
+          "outcomes",
+          "timeline",
+          "lessons_learned",
+          "forecast_notes"
+        ]
+      },
+      "registry_status": "new",
+      "created_at": "2026-06-29T01:39:44.694Z",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "audit_status": "not_audited",
+      "production_status": "not_promoted"
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SUEZ-CANAL-2021",
+      "type": "case_enrichment",
+      "priority": "high",
+      "target_case_id": "HIST-SUEZ-CANAL-2021",
+      "title": "Suez Canal blockage",
+      "recommended_action": "Enrich case HIST-SUEZ-CANAL-2021 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes.",
+      "status": "awaiting_papa_approval",
+      "rationale": {
+        "completeness_score": 0.143,
+        "missing_fields": [
+          "sources",
+          "evidence",
+          "outcomes",
+          "timeline",
+          "lessons_learned",
+          "forecast_notes"
+        ]
+      },
+      "registry_status": "new",
+      "created_at": "2026-06-29T01:39:44.694Z",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "audit_status": "not_audited",
+      "production_status": "not_promoted"
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-BIOMEDICAL-SURGE-2020",
+      "type": "case_enrichment",
+      "priority": "high",
+      "target_case_id": "HIST-SG-BIOMEDICAL-SURGE-2020",
+      "title": "Singapore biomedical manufacturing surge",
+      "recommended_action": "Enrich case HIST-SG-BIOMEDICAL-SURGE-2020 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes.",
+      "status": "awaiting_papa_approval",
+      "rationale": {
+        "completeness_score": 0.143,
+        "missing_fields": [
+          "sources",
+          "evidence",
+          "outcomes",
+          "timeline",
+          "lessons_learned",
+          "forecast_notes"
+        ]
+      },
+      "registry_status": "new",
+      "created_at": "2026-06-29T01:39:44.694Z",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "audit_status": "not_audited",
+      "production_status": "not_promoted"
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-SEMICONDUCTOR-UPCYCLE-2021",
+      "type": "case_enrichment",
+      "priority": "high",
+      "target_case_id": "HIST-SG-SEMICONDUCTOR-UPCYCLE-2021",
+      "title": "Singapore semiconductor upcycle",
+      "recommended_action": "Enrich case HIST-SG-SEMICONDUCTOR-UPCYCLE-2021 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes.",
+      "status": "awaiting_papa_approval",
+      "rationale": {
+        "completeness_score": 0.143,
+        "missing_fields": [
+          "sources",
+          "evidence",
+          "outcomes",
+          "timeline",
+          "lessons_learned",
+          "forecast_notes"
+        ]
+      },
+      "registry_status": "new",
+      "created_at": "2026-06-29T01:39:44.694Z",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "audit_status": "not_audited",
+      "production_status": "not_promoted"
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-SEMICONDUCTOR-DOWNTURN-2019",
+      "type": "case_enrichment",
+      "priority": "high",
+      "target_case_id": "HIST-SG-SEMICONDUCTOR-DOWNTURN-2019",
+      "title": "Singapore semiconductor downturn 2019",
+      "recommended_action": "Enrich case HIST-SG-SEMICONDUCTOR-DOWNTURN-2019 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes.",
+      "status": "awaiting_papa_approval",
+      "rationale": {
+        "completeness_score": 0.143,
+        "missing_fields": [
+          "sources",
+          "evidence",
+          "outcomes",
+          "timeline",
+          "lessons_learned",
+          "forecast_notes"
+        ]
+      },
+      "registry_status": "new",
+      "created_at": "2026-06-29T01:39:44.694Z",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "audit_status": "not_audited",
+      "production_status": "not_promoted"
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-PORT-CONGESTION-COVID",
+      "type": "case_enrichment",
+      "priority": "high",
+      "target_case_id": "HIST-SG-PORT-CONGESTION-COVID",
+      "title": "Singapore port congestion during COVID",
+      "recommended_action": "Enrich case HIST-SG-PORT-CONGESTION-COVID by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes.",
+      "status": "awaiting_papa_approval",
+      "rationale": {
+        "completeness_score": 0.143,
+        "missing_fields": [
+          "sources",
+          "evidence",
+          "outcomes",
+          "timeline",
+          "lessons_learned",
+          "forecast_notes"
+        ]
+      },
+      "registry_status": "new",
+      "created_at": "2026-06-29T01:39:44.694Z",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "audit_status": "not_audited",
+      "production_status": "not_promoted"
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-LABOUR-SHORTAGE-2021",
+      "type": "case_enrichment",
+      "priority": "high",
+      "target_case_id": "HIST-SG-LABOUR-SHORTAGE-2021",
+      "title": "Singapore labour shortage during reopening",
+      "recommended_action": "Enrich case HIST-SG-LABOUR-SHORTAGE-2021 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes.",
+      "status": "awaiting_papa_approval",
+      "rationale": {
+        "completeness_score": 0.143,
+        "missing_fields": [
+          "sources",
+          "evidence",
+          "outcomes",
+          "timeline",
+          "lessons_learned",
+          "forecast_notes"
+        ]
+      },
+      "registry_status": "new",
+      "created_at": "2026-06-29T01:39:44.694Z",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "audit_status": "not_audited",
+      "production_status": "not_promoted"
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-RUSSIA-SANCTIONS-2022",
+      "type": "case_enrichment",
+      "priority": "high",
+      "target_case_id": "HIST-RUSSIA-SANCTIONS-2022",
+      "title": "Russia sanctions shock",
+      "recommended_action": "Enrich case HIST-RUSSIA-SANCTIONS-2022 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes.",
+      "status": "awaiting_papa_approval",
+      "rationale": {
+        "completeness_score": 0.143,
+        "missing_fields": [
+          "sources",
+          "evidence",
+          "outcomes",
+          "timeline",
+          "lessons_learned",
+          "forecast_notes"
+        ]
+      },
+      "registry_status": "new",
+      "created_at": "2026-06-29T01:39:44.694Z",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "audit_status": "not_audited",
+      "production_status": "not_promoted"
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-CHINA-REOPENING-2023",
+      "type": "case_enrichment",
+      "priority": "high",
+      "target_case_id": "HIST-CHINA-REOPENING-2023",
+      "title": "China reopening recovery",
+      "recommended_action": "Enrich case HIST-CHINA-REOPENING-2023 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes.",
+      "status": "awaiting_papa_approval",
+      "rationale": {
+        "completeness_score": 0.143,
+        "missing_fields": [
+          "sources",
+          "evidence",
+          "outcomes",
+          "timeline",
+          "lessons_learned",
+          "forecast_notes"
+        ]
+      },
+      "registry_status": "new",
+      "created_at": "2026-06-29T01:39:44.694Z",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "audit_status": "not_audited",
+      "production_status": "not_promoted"
+    },
+    {
+      "proposal_id": "REPLAY_PROP_CASE_HIST-SG-PROPERTY-COOLING-2018",
+      "type": "case_enrichment",
+      "priority": "high",
+      "target_case_id": "HIST-SG-PROPERTY-COOLING-2018",
+      "title": "Singapore property cooling measures",
+      "recommended_action": "Enrich case HIST-SG-PROPERTY-COOLING-2018 by adding: sources, evidence, outcomes, timeline, lessons_learned, forecast_notes.",
+      "status": "awaiting_papa_approval",
+      "rationale": {
+        "completeness_score": 0.143,
+        "missing_fields": [
+          "sources",
+          "evidence",
+          "outcomes",
+          "timeline",
+          "lessons_learned",
+          "forecast_notes"
+        ]
+      },
+      "registry_status": "new",
+      "created_at": "2026-06-29T01:39:44.694Z",
+      "approval_status": "awaiting_papa_approval",
+      "implementation_status": "not_started",
+      "audit_status": "not_audited",
+      "production_status": "not_promoted"
+    }
+  ],
+  "updated_at": "2026-07-01T02:42:15.954Z",
+  "proposal_count": 25
+}

@@ -1,0 +1,180 @@
+{
+  "registry_version": "replay-case-registry-v0.2",
+  "created_at": "2026-06-09T10:02:19.863Z",
+  "doctrine": {
+    "replay_cases_are_registered_before_execution": true,
+    "replay_cases_do_not_mutate_production": true,
+    "expected_mechanisms_are_calibration_targets_not_truth": true
+  },
+  "summary": {
+    "cases_registered": 8,
+    "ready_for_replay": 4,
+    "pending_input": 4
+  },
+  "replay_cases": [
+    {
+      "case_id": "SG-MANUFACTURING-2020",
+      "case_label": "Singapore Manufacturing Recovery 2020-2021",
+      "country": "SG",
+      "period_start": "2020-01",
+      "period_end": "2021-12",
+      "domain": "manufacturing",
+      "status": "ready_for_replay",
+      "expected_mechanisms": [
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY",
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "input_file": "data/replay/input/replay-input-sg-manufacturing-recovery-v0.1.json",
+      "input_exists": true,
+      "replay_case_status": "ready_for_replay",
+      "governance": {
+        "dry_run_only": true,
+        "production_mutation_allowed": false,
+        "calibration_allowed": true
+      }
+    },
+    {
+      "case_id": "SG-PETROLEUM-2020",
+      "case_label": "Singapore Petroleum Shock 2020",
+      "country": "SG",
+      "period_start": "2020-01",
+      "period_end": "2020-12",
+      "domain": "petroleum",
+      "status": "ready_for_replay",
+      "expected_mechanisms": [
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "input_file": "data/replay/input/replay-input-sg-petroleum-2020-v0.1.json",
+      "input_exists": true,
+      "replay_case_status": "ready_for_replay",
+      "governance": {
+        "dry_run_only": true,
+        "production_mutation_allowed": false,
+        "calibration_allowed": true
+      }
+    },
+    {
+      "case_id": "SG-SEMICONDUCTOR-2021",
+      "case_label": "Singapore Semiconductor Recovery 2021",
+      "country": "SG",
+      "period_start": "2021-01",
+      "period_end": "2021-12",
+      "domain": "semiconductors",
+      "status": "ready_for_replay",
+      "expected_mechanisms": [
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY",
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "input_file": "data/replay/input/replay-input-sg-semiconductor-2021-v0.1.json",
+      "input_exists": true,
+      "replay_case_status": "ready_for_replay",
+      "governance": {
+        "dry_run_only": true,
+        "production_mutation_allowed": false,
+        "calibration_allowed": true
+      }
+    },
+    {
+      "case_id": "SG-BIOMEDICAL-2021",
+      "case_label": "Singapore Biomedical Output 2021",
+      "country": "SG",
+      "period_start": "2021-01",
+      "period_end": "2021-12",
+      "domain": "biomedical",
+      "status": "ready_for_replay",
+      "expected_mechanisms": [
+        "MKT_006_POLICY_REGULATORY_IMPACT",
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "input_file": "data/replay/input/replay-input-sg-biomedical-2021-v0.1.json",
+      "input_exists": true,
+      "replay_case_status": "ready_for_replay",
+      "governance": {
+        "dry_run_only": true,
+        "production_mutation_allowed": false,
+        "calibration_allowed": true
+      }
+    },
+    {
+      "case_id": "SG-ELECTRONICS-2020",
+      "case_label": "Singapore Electronics Shock 2020",
+      "country": "SG",
+      "period_start": "2020-01",
+      "period_end": "2020-12",
+      "domain": "electronics",
+      "status": "registered_pending_input",
+      "expected_mechanisms": [
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "input_file": "data/replay/input/replay-input-sg-electronics-2020-v0.1.json",
+      "input_exists": false,
+      "replay_case_status": "registered_pending_input",
+      "governance": {
+        "dry_run_only": true,
+        "production_mutation_allowed": false,
+        "calibration_allowed": true
+      }
+    },
+    {
+      "case_id": "SG-ELECTRONICS-2021",
+      "case_label": "Singapore Electronics Recovery 2021",
+      "country": "SG",
+      "period_start": "2021-01",
+      "period_end": "2021-12",
+      "domain": "electronics",
+      "status": "registered_pending_input",
+      "expected_mechanisms": [
+        "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY",
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "input_file": "data/replay/input/replay-input-sg-electronics-2021-v0.1.json",
+      "input_exists": false,
+      "replay_case_status": "registered_pending_input",
+      "governance": {
+        "dry_run_only": true,
+        "production_mutation_allowed": false,
+        "calibration_allowed": true
+      }
+    },
+    {
+      "case_id": "SG-SERVICES-2020",
+      "case_label": "Singapore Services Shock 2020",
+      "country": "SG",
+      "period_start": "2020-01",
+      "period_end": "2020-12",
+      "domain": "services",
+      "status": "registered_pending_input",
+      "expected_mechanisms": [
+        "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+      ],
+      "input_file": "data/replay/input/replay-input-sg-services-2020-v0.1.json",
+      "input_exists": false,
+      "replay_case_status": "registered_pending_input",
+      "governance": {
+        "dry_run_only": true,
+        "production_mutation_allowed": false,
+        "calibration_allowed": true
+      }
+    },
+    {
+      "case_id": "SG-SERVICES-2021",
+      "case_label": "Singapore Services Partial Recovery 2021",
+      "country": "SG",
+      "period_start": "2021-01",
+      "period_end": "2021-12",
+      "domain": "services",
+      "status": "registered_pending_input",
+      "expected_mechanisms": [
+        "MKT_006_POLICY_REGULATORY_IMPACT"
+      ],
+      "input_file": "data/replay/input/replay-input-sg-services-2021-v0.1.json",
+      "input_exists": false,
+      "replay_case_status": "registered_pending_input",
+      "governance": {
+        "dry_run_only": true,
+        "production_mutation_allowed": false,
+        "calibration_allowed": true
+      }
+    }
+  ]
+}

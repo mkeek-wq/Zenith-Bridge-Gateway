@@ -1,0 +1,487 @@
+{
+  "queue_version": "replay-evidence-mapping-queue-v0.1",
+  "generated_at": "2026-06-10T02:54:33.102Z",
+  "source_definitions": "data/replay/replay-case-definitions-v0.1.json",
+  "cases_assessed": 20,
+  "needs_policy_source_mapping": 4,
+  "needs_sector_source_mapping": 10,
+  "needs_macro_source_mapping": 2,
+  "ready_for_evidence_mapping": 4,
+  "queue": [
+    {
+      "case_id": "SG-SERVICES-RECOVERY-2021",
+      "domain": "services",
+      "period": "2021",
+      "priority": "critical",
+      "candidate_mechanisms": [
+        "MKT_010"
+      ],
+      "expected_signals": [
+        "retail_sales",
+        "services_output",
+        "mobility",
+        "employment"
+      ],
+      "mapping_needs": [
+        "sector_output_mapping",
+        "mobility_or_activity_mapping",
+        "employment_mapping",
+        "policy_restriction_mapping"
+      ],
+      "mapping_status": "needs_sector_source_mapping",
+      "required_next_step": "map_sources_and_publication_dates"
+    },
+    {
+      "case_id": "SG-RETAIL-2020",
+      "domain": "retail",
+      "period": "2020",
+      "priority": "high",
+      "candidate_mechanisms": [
+        "MKT_010"
+      ],
+      "expected_signals": [
+        "retail_sales",
+        "services_output",
+        "mobility",
+        "employment"
+      ],
+      "mapping_needs": [
+        "sector_output_mapping",
+        "mobility_or_activity_mapping",
+        "employment_mapping",
+        "policy_restriction_mapping"
+      ],
+      "mapping_status": "needs_sector_source_mapping",
+      "required_next_step": "map_sources_and_publication_dates"
+    },
+    {
+      "case_id": "SG-FOOD-SERVICES-2020",
+      "domain": "food_services",
+      "period": "2020",
+      "priority": "high",
+      "candidate_mechanisms": [
+        "MKT_010"
+      ],
+      "expected_signals": [
+        "retail_sales",
+        "services_output",
+        "mobility",
+        "employment"
+      ],
+      "mapping_needs": [
+        "sector_output_mapping",
+        "mobility_or_activity_mapping",
+        "employment_mapping",
+        "policy_restriction_mapping"
+      ],
+      "mapping_status": "needs_sector_source_mapping",
+      "required_next_step": "map_sources_and_publication_dates"
+    },
+    {
+      "case_id": "SG-TOURISM-2020",
+      "domain": "tourism",
+      "period": "2020",
+      "priority": "critical",
+      "candidate_mechanisms": [
+        "MKT_010",
+        "MKT_005"
+      ],
+      "expected_signals": [
+        "visitor_arrivals",
+        "mobility",
+        "services_output",
+        "employment"
+      ],
+      "mapping_needs": [
+        "sector_output_mapping",
+        "mobility_or_activity_mapping",
+        "employment_mapping",
+        "policy_restriction_mapping"
+      ],
+      "mapping_status": "needs_sector_source_mapping",
+      "required_next_step": "map_sources_and_publication_dates"
+    },
+    {
+      "case_id": "SG-AIR-TRANSPORT-2020",
+      "domain": "air_transport",
+      "period": "2020",
+      "priority": "critical",
+      "candidate_mechanisms": [
+        "MKT_010",
+        "MKT_005"
+      ],
+      "expected_signals": [
+        "visitor_arrivals",
+        "mobility",
+        "services_output",
+        "employment"
+      ],
+      "mapping_needs": [
+        "sector_output_mapping",
+        "mobility_or_activity_mapping",
+        "employment_mapping",
+        "policy_restriction_mapping"
+      ],
+      "mapping_status": "needs_sector_source_mapping",
+      "required_next_step": "map_sources_and_publication_dates"
+    },
+    {
+      "case_id": "SG-CONSTRUCTION-2020",
+      "domain": "construction",
+      "period": "2020",
+      "priority": "critical",
+      "candidate_mechanisms": [
+        "MKT_005",
+        "MKT_006",
+        "MKT_010"
+      ],
+      "expected_signals": [
+        "construction_output",
+        "foreign_worker_constraints",
+        "employment",
+        "policy_support"
+      ],
+      "mapping_needs": [
+        "sector_output_mapping",
+        "macro_context_mapping",
+        "mechanism_mapping",
+        "outcome_metric_mapping"
+      ],
+      "mapping_status": "needs_sector_source_mapping",
+      "required_next_step": "map_sources_and_publication_dates"
+    },
+    {
+      "case_id": "SG-FOREIGN-WORKER-CONSTRAINTS-2021",
+      "domain": "labour_policy",
+      "period": "2021",
+      "priority": "critical",
+      "candidate_mechanisms": [
+        "MKT_006",
+        "MKT_007"
+      ],
+      "expected_signals": [
+        "construction_output",
+        "foreign_worker_constraints",
+        "employment",
+        "policy_support"
+      ],
+      "mapping_needs": [
+        "policy_source_mapping",
+        "publication_date_mapping",
+        "affected_sector_mapping",
+        "outcome_metric_mapping"
+      ],
+      "mapping_status": "needs_policy_source_mapping",
+      "required_next_step": "map_sources_and_publication_dates"
+    },
+    {
+      "case_id": "SG-JOBS-SUPPORT-SCHEME-2020",
+      "domain": "policy",
+      "period": "2020",
+      "priority": "critical",
+      "candidate_mechanisms": [
+        "MKT_006",
+        "MKT_007"
+      ],
+      "expected_signals": [
+        "policy_announcement",
+        "fiscal_support",
+        "business_cost",
+        "employment"
+      ],
+      "mapping_needs": [
+        "policy_source_mapping",
+        "publication_date_mapping",
+        "affected_sector_mapping",
+        "outcome_metric_mapping"
+      ],
+      "mapping_status": "needs_policy_source_mapping",
+      "required_next_step": "map_sources_and_publication_dates"
+    },
+    {
+      "case_id": "SG-CARBON-TAX-2019",
+      "domain": "policy",
+      "period": "2019",
+      "priority": "high",
+      "candidate_mechanisms": [
+        "MKT_006",
+        "MKT_007"
+      ],
+      "expected_signals": [
+        "policy_announcement",
+        "fiscal_support",
+        "business_cost",
+        "employment"
+      ],
+      "mapping_needs": [
+        "policy_source_mapping",
+        "publication_date_mapping",
+        "affected_sector_mapping",
+        "outcome_metric_mapping"
+      ],
+      "mapping_status": "needs_policy_source_mapping",
+      "required_next_step": "map_sources_and_publication_dates"
+    },
+    {
+      "case_id": "SG-ELECTRONICS-EXPORTS-2021",
+      "domain": "electronics",
+      "period": "2021",
+      "priority": "high",
+      "candidate_mechanisms": [
+        "MKT_002",
+        "MKT_010"
+      ],
+      "expected_signals": [
+        "electronics_exports",
+        "semiconductor_sales",
+        "global_pmi",
+        "nodx"
+      ],
+      "mapping_needs": [
+        "sector_output_mapping",
+        "export_mapping",
+        "global_demand_mapping",
+        "production_cycle_mapping"
+      ],
+      "mapping_status": "needs_sector_source_mapping",
+      "required_next_step": "map_sources_and_publication_dates"
+    },
+    {
+      "case_id": "SG-SEMICONDUCTOR-SLOWDOWN-2022",
+      "domain": "semiconductors",
+      "period": "2022",
+      "priority": "high",
+      "candidate_mechanisms": [
+        "MKT_002",
+        "MKT_010"
+      ],
+      "expected_signals": [
+        "electronics_exports",
+        "semiconductor_sales",
+        "global_pmi",
+        "nodx"
+      ],
+      "mapping_needs": [
+        "sector_output_mapping",
+        "export_mapping",
+        "global_demand_mapping",
+        "production_cycle_mapping"
+      ],
+      "mapping_status": "needs_sector_source_mapping",
+      "required_next_step": "map_sources_and_publication_dates"
+    },
+    {
+      "case_id": "SG-INFLATION-2022",
+      "domain": "inflation",
+      "period": "2022",
+      "priority": "high",
+      "candidate_mechanisms": [
+        "MKT_007",
+        "MKT_010"
+      ],
+      "expected_signals": [
+        "cpi",
+        "core_inflation",
+        "exchange_rate",
+        "interest_rates"
+      ],
+      "mapping_needs": [
+        "price_index_mapping",
+        "policy_rate_or_fx_mapping",
+        "global_price_pressure_mapping",
+        "domestic_demand_mapping"
+      ],
+      "mapping_status": "needs_macro_source_mapping",
+      "required_next_step": "map_sources_and_publication_dates"
+    },
+    {
+      "case_id": "SG-MONETARY-TIGHTENING-2022",
+      "domain": "monetary_policy",
+      "period": "2022",
+      "priority": "high",
+      "candidate_mechanisms": [
+        "MKT_006",
+        "MKT_007"
+      ],
+      "expected_signals": [
+        "policy_announcement",
+        "fiscal_support",
+        "business_cost",
+        "employment"
+      ],
+      "mapping_needs": [
+        "policy_source_mapping",
+        "publication_date_mapping",
+        "affected_sector_mapping",
+        "outcome_metric_mapping"
+      ],
+      "mapping_status": "needs_policy_source_mapping",
+      "required_next_step": "map_sources_and_publication_dates"
+    },
+    {
+      "case_id": "SG-GOODS-EXPORTS-2020",
+      "domain": "trade",
+      "period": "2020",
+      "priority": "medium",
+      "candidate_mechanisms": [
+        "MKT_010"
+      ],
+      "expected_signals": [
+        "nodx",
+        "goods_exports",
+        "global_trade_volume",
+        "global_pmi"
+      ],
+      "mapping_needs": [
+        "nodx_mapping",
+        "goods_export_mapping",
+        "global_trade_mapping",
+        "sector_export_mapping"
+      ],
+      "mapping_status": "ready_for_evidence_mapping",
+      "required_next_step": "map_sources_and_publication_dates"
+    },
+    {
+      "case_id": "SG-NODX-2023",
+      "domain": "trade",
+      "period": "2023",
+      "priority": "high",
+      "candidate_mechanisms": [
+        "MKT_010"
+      ],
+      "expected_signals": [
+        "nodx",
+        "goods_exports",
+        "global_trade_volume",
+        "global_pmi"
+      ],
+      "mapping_needs": [
+        "nodx_mapping",
+        "goods_export_mapping",
+        "global_trade_mapping",
+        "sector_export_mapping"
+      ],
+      "mapping_status": "ready_for_evidence_mapping",
+      "required_next_step": "map_sources_and_publication_dates"
+    },
+    {
+      "case_id": "SG-FINANCE-2020",
+      "domain": "finance",
+      "period": "2020",
+      "priority": "medium",
+      "candidate_mechanisms": [
+        "MKT_007",
+        "MKT_010"
+      ],
+      "expected_signals": [
+        "credit_conditions",
+        "interest_rates",
+        "market_volatility",
+        "business_activity"
+      ],
+      "mapping_needs": [
+        "credit_condition_mapping",
+        "market_volatility_mapping",
+        "interest_rate_mapping",
+        "business_activity_mapping"
+      ],
+      "mapping_status": "ready_for_evidence_mapping",
+      "required_next_step": "map_sources_and_publication_dates"
+    },
+    {
+      "case_id": "SG-REAL-ESTATE-2020",
+      "domain": "real_estate",
+      "period": "2020",
+      "priority": "medium",
+      "candidate_mechanisms": [
+        "MKT_007",
+        "MKT_010"
+      ],
+      "expected_signals": [
+        "property_transactions",
+        "interest_rates",
+        "construction_output",
+        "employment"
+      ],
+      "mapping_needs": [
+        "property_transaction_mapping",
+        "price_index_mapping",
+        "interest_rate_mapping",
+        "construction_linkage_mapping"
+      ],
+      "mapping_status": "needs_macro_source_mapping",
+      "required_next_step": "map_sources_and_publication_dates"
+    },
+    {
+      "case_id": "SG-MARINE-OFFSHORE-2020",
+      "domain": "marine_offshore",
+      "period": "2020",
+      "priority": "medium",
+      "candidate_mechanisms": [
+        "MKT_010"
+      ],
+      "expected_signals": [
+        "global_pmi",
+        "nodx",
+        "sector_output",
+        "employment"
+      ],
+      "mapping_needs": [
+        "sector_output_mapping",
+        "export_mapping",
+        "global_demand_mapping",
+        "production_cycle_mapping"
+      ],
+      "mapping_status": "needs_sector_source_mapping",
+      "required_next_step": "map_sources_and_publication_dates"
+    },
+    {
+      "case_id": "SG-BIOMEDICAL-VOLATILITY-2020",
+      "domain": "biomedical",
+      "period": "2020",
+      "priority": "high",
+      "candidate_mechanisms": [
+        "MKT_010",
+        "MKT_006"
+      ],
+      "expected_signals": [
+        "pharmaceutical_output",
+        "biomedical_exports",
+        "global_demand",
+        "production_volatility"
+      ],
+      "mapping_needs": [
+        "sector_output_mapping",
+        "export_mapping",
+        "global_demand_mapping",
+        "production_cycle_mapping"
+      ],
+      "mapping_status": "needs_sector_source_mapping",
+      "required_next_step": "map_sources_and_publication_dates"
+    },
+    {
+      "case_id": "SG-LABOUR-MARKET-2020",
+      "domain": "employment",
+      "period": "2020",
+      "priority": "critical",
+      "candidate_mechanisms": [
+        "MKT_005",
+        "MKT_006"
+      ],
+      "expected_signals": [
+        "unemployment_rate",
+        "resident_employment",
+        "retrenchments",
+        "policy_support"
+      ],
+      "mapping_needs": [
+        "unemployment_mapping",
+        "resident_employment_mapping",
+        "retrenchment_mapping",
+        "wage_or_hours_mapping"
+      ],
+      "mapping_status": "ready_for_evidence_mapping",
+      "required_next_step": "map_sources_and_publication_dates"
+    }
+  ]
+}
