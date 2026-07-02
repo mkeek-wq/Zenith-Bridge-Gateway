@@ -1,0 +1,14 @@
+Decision: Restore validate:api and correct root dev package filters.
+
+Finding:
+Push hook expected pnpm run validate:api, but the script was missing.
+Root dev scripts pointed to old package names.
+
+Fix:
+dev:api now uses zenith-api-server.
+dev:web now uses znbw-website.
+validate:api now runs build:api-stack.
+build:api-stack builds api-zod, db, then api-server.
+
+Result:
+pnpm run validate:api => PASS

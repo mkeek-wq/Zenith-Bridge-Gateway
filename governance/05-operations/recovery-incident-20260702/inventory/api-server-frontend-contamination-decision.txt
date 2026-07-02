@@ -1,0 +1,18 @@
+Decision: Reject frontend TSX files inside api-server/src.
+
+Finding:
+api-server/src contained React/frontend files:
+- App.tsx
+- main.tsx
+- components/Editor.tsx
+- pages/ArticlesDashboard.tsx
+- pages/admin/...
+
+Reason:
+The api-server build and runtime use Express/Node via src/index.ts and src/app.ts.
+Frontend TSX files are not part of the API server runtime.
+Their presence suggests accidental frontend contamination during recovery or prior copy operations.
+
+Decision:
+Do not restore or commit these files under api-server.
+Frontend code belongs under website/admin-ui locations, not api-server/src.

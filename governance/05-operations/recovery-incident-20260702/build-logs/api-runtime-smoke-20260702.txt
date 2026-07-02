@@ -1,0 +1,18 @@
+API runtime smoke test on PORT=18080 NODE_ENV=test.
+
+Commands:
+PORT=18080 NODE_ENV=test pnpm --filter zenith-api-server start &
+curl -I http://localhost:18080/health
+curl -I http://localhost:18080/api/v1/health
+pkill -f "node dist/index.js"
+
+Results:
+GET/HEAD /health => HTTP 200
+GET/HEAD /api/v1/health => HTTP 200
+
+Note:
+pnpm reported command failed with SIGTERM after pkill.
+This is expected because the test server was intentionally stopped.
+
+Decision:
+Current API architecture builds and runs.

@@ -1,0 +1,10 @@
+Decision: Reject restored legacy src/routes/*.ts files.
+
+Reason:
+The current API architecture mounts src/routes/v1/index.js from app.ts.
+The v1 route tree uses current DB exports such as articles, getDb, eq, desc.
+The restored legacy routes expect obsolete exports such as articlesTable and old extensionless imports.
+
+Decision:
+Do not recover old src/routes/*.ts as active runtime files.
+Use src/routes/v1/* as the current route architecture.

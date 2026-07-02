@@ -1,0 +1,11 @@
+Decision: Keep deleted website UI component files deleted.
+
+Reason:
+The website production build passes without the deleted layout/UI component files.
+These files appear to be unused legacy/shadcn-style components or replaced by the current website structure.
+
+Build result:
+pnpm --filter znbw-website build => PASS
+
+Decision:
+Do not restore these deleted UI files unless a future runtime/browser test proves they are needed.

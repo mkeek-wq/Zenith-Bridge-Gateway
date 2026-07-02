@@ -1,0 +1,31 @@
+
+> zenith-api-server@1.0.0 build /opt/Zenith-Bridge-Gateway/artifacts/api-server
+> pnpm run clean && pnpm run build:ts
+
+
+> zenith-api-server@1.0.0 clean /opt/Zenith-Bridge-Gateway/artifacts/api-server
+> rm -rf dist
+
+
+> zenith-api-server@1.0.0 build:ts /opt/Zenith-Bridge-Gateway/artifacts/api-server
+> tsc -p tsconfig.json
+
+src/routes/admin.ts(4,14): error TS2305: Module '"@workspace/db"' has no exported member 'articlesTable'.
+src/routes/admin.ts(6,24): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../lib/logger.js'?
+src/routes/admin.ts(36,16): error TS2664: Invalid module name in augmentation, module 'express-session' cannot be found.
+src/routes/admin.ts(73,12): error TS2339: Property 'session' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+src/routes/admin.ts(105,7): error TS2339: Property 'session' does not exist on type 'Request<{}, any, any, ParsedQs, Record<string, any>>'.
+src/routes/admin.ts(110,7): error TS2339: Property 'session' does not exist on type 'Request<{}, any, any, ParsedQs, Record<string, any>>'.
+src/routes/admin.ts(110,24): error TS7006: Parameter 'err' implicitly has an 'any' type.
+src/routes/admin.ts(119,12): error TS2339: Property 'session' does not exist on type 'Request<{}, any, any, ParsedQs, Record<string, any>>'.
+src/routes/admin.ts(123,49): error TS2339: Property 'session' does not exist on type 'Request<{}, any, any, ParsedQs, Record<string, any>>'.
+src/routes/articles.ts(5,10): error TS2305: Module '"@workspace/db/schema"' has no exported member 'articlesTable'.
+src/routes/articles.ts(7,7): error TS2742: The inferred type of 'router' cannot be named without a reference to '.pnpm/@types+express-serve-static-core@5.1.1/node_modules/@types/express-serve-static-core'. This is likely not portable. A type annotation is necessary.
+src/routes/index.ts(2,26): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './health.js'?
+src/routes/index.ts(3,28): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './articles.js'?
+src/routes/index.ts(4,25): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './admin.js'?
+src/routes/index.ts(5,27): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './contact.js'?
+ ELIFECYCLE  Command failed with exit code 1.
+/opt/Zenith-Bridge-Gateway/artifacts/api-server:
+ ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL  zenith-api-server@1.0.0 build: `pnpm run clean && pnpm run build:ts`
+Exit status 1

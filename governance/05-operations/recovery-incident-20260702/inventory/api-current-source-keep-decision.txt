@@ -1,0 +1,30 @@
+Decision: Keep current api-server source architecture.
+
+Current active files include:
+- src/app.ts
+- src/index.ts
+- src/config/storage.ts
+- src/lib/articleMapper.ts
+- src/lib/articleMetadataClassifier.ts
+- src/lib/articleVersioning.ts
+- src/lib/articles.service.ts
+- src/lib/audit.ts
+- src/lib/jwt.ts
+- src/lib/parseId.ts
+- src/middleware/*
+- src/routes/admin-intelligence-preview.ts
+- src/routes/admin-intelligence-promote.ts
+- src/routes/v1/*
+- src/services/auth.service.ts
+- src/types/*
+
+Reason:
+The API build passes after removing frontend contamination and temporary backup files.
+The app bootstrap mounts /api/v1 via src/routes/v1/index.ts.
+The v1 routes depend on these current lib/middleware/service/type files.
+
+Validation:
+pnpm run validate:api => PASS
+
+Decision:
+Treat this as the current active API architecture.

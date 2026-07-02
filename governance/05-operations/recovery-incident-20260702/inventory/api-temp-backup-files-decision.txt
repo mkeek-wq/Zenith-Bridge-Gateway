@@ -1,0 +1,13 @@
+Decision: Reject temporary backup/save files in api-server source tree.
+
+Files:
+- src/routes/admin-intelligence-promote.ts.bak-safe-draft-sanitize
+- src/routes/v1/articles.memory.backup.ts
+- src/routes/v1/health.ts.save
+
+Reason:
+These are backup/save artifacts, not runtime source files.
+They are not part of TypeScript build output or Express route registration.
+
+Decision:
+Do not commit these files.

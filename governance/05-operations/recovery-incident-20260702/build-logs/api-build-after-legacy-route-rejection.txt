@@ -1,0 +1,12 @@
+
+> zenith-api-server@1.0.0 build /opt/Zenith-Bridge-Gateway/artifacts/api-server
+> pnpm run clean && pnpm run build:ts
+
+
+> zenith-api-server@1.0.0 clean /opt/Zenith-Bridge-Gateway/artifacts/api-server
+> rm -rf dist
+
+
+> zenith-api-server@1.0.0 build:ts /opt/Zenith-Bridge-Gateway/artifacts/api-server
+> tsc -p tsconfig.json
+

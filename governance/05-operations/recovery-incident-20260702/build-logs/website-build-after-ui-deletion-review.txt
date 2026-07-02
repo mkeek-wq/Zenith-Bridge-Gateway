@@ -1,0 +1,19 @@
+
+> znbw-website@0.1.0 build /opt/Zenith-Bridge-Gateway/artifacts/znbw-website
+> vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 2400 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                             1.02 kB │ gzip:   0.57 kB
+dist/assets/hero-bg-clean-B33JNKkg.png  1,255.18 kB
+dist/assets/index-CerD3Rkh.css             25.10 kB │ gzip:   5.68 kB
+dist/assets/index-B-ykt1Eg.js             761.87 kB │ gzip: 242.03 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 13.64s

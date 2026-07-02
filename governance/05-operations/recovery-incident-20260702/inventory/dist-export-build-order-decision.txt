@@ -1,0 +1,20 @@
+Decision: Accept dist-export package architecture with mandatory build order.
+
+Finding:
+@workspace/api-zod and @workspace/db export ./dist/* only.
+Therefore API runtime and build depend on these packages being built first.
+
+Verified build order:
+1. pnpm --filter @workspace/api-zod build
+2. pnpm --filter @workspace/db build
+3. pnpm --filter zenith-api-server build
+4. pnpm --filter znbw-website build
+
+Result:
+All builds passed.
+
+Risk:
+If dist folders are missing or stale, API can fail with ERR_MODULE_NOT_FOUND or ERR_PACKAGE_PATH_NOT_EXPORTED.
+
+Required future fix:
+Add a root build script for api stack and correct stale package filter names.
