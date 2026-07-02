@@ -18,6 +18,7 @@ import IntelligenceGraphPackages from "./pages/IntelligenceGraphPackages";
 import ArticleWorkbench from "./pages/ArticleWorkbench";
 import PublicationQueue from "./pages/PublicationQueue";
 import CmsPackageIntake from "./pages/CmsPackageIntake";
+import HygieneCenter from "./pages/HygieneCenter";
 
 export default function App({ auth }: any) {
   const status =
@@ -228,6 +229,20 @@ export default function App({ auth }: any) {
             />
           }
         />
+
+        <Route
+          path="/hygiene-center"
+          element={
+            status === "authenticated"
+              ? (
+                <AdminLayout>
+                  <HygieneCenter />
+                </AdminLayout>
+              )
+              : <Navigate to="/login" replace />
+          }
+        />
+
       </Routes>
     </BrowserRouter>
   );

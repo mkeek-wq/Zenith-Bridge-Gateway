@@ -6,6 +6,7 @@ import articlesRouter from "./articles.js";
 import adminRouter from "./admin.js";
 import contactRouter from "./contact.js";
 import healthRouter from "./health.js";
+import maintenanceRouter from "./maintenance.js";
 
 const router: ExpressRouter = Router();
 
@@ -13,6 +14,7 @@ const router: ExpressRouter = Router();
  * Core system routes
  */
 router.use("/health", healthRouter);
+router.use("/", maintenanceRouter);
 router.use("/auth", authRouter);
 
 /**

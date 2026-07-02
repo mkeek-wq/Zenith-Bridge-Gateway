@@ -44,6 +44,7 @@ const navGroups: { title: string; items: NavItem[] }[] = [
   {
     title: "Platform",
     items: [
+      { label: "Hygiene Center", to: "/hygiene-center" },
       {
         label: "Google Analytics",
         href: "https://analytics.google.com/",
@@ -140,6 +141,16 @@ export default function AdminLayout({ children }: any) {
       )}
 
       <main className="cms-main">
+
+        <Link className="hygiene-beacon" to="/hygiene-center">
+          <span>🟢 Platform</span>
+          <span>🟢 API</span>
+          <span>🟢 Website</span>
+          <span>🟠 Intelligence</span>
+          <span>🟢 Pipelines</span>
+          <span>🟢 Backups</span>
+        </Link>
+
         <div className="cms-nav-toggle-row">
   <button
     className="cms-nav-toggle"
