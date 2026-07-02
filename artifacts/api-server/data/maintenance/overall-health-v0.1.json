@@ -1,0 +1,29 @@
+{
+  "report_version": "hygiene-smurf-overall-health-v0.1",
+  "generated_at": "2026-07-02T09:15:16+00:00",
+  "overall_status": "amber",
+  "branch": "recovery/june25-known-good",
+  "checks": {
+    "git": {
+      "dirty_count": 89
+    },
+    "resources": {
+      "disk_used_percent": 19,
+      "memory_available_mb": 1066
+    },
+    "endpoints": {
+      "website": 200,
+      "admin_login": 200,
+      "api_health": 200,
+      "featured_articles": 200
+    },
+    "intelligence_packages": {
+      "article_preview_exists": true,
+      "graph_attachment_exists": true
+    }
+  },
+  "warnings": [
+    "git_dirty_count_89"
+  ],
+  "criticals": []
+}
