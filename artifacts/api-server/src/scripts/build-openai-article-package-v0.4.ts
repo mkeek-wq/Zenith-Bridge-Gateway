@@ -35,7 +35,7 @@ const consistencyByCandidate = new Map(
   ])
 );
 
-function buildMandatoryFindings(intelligence: any, pkg: any) {
+function buildMandatoryFindings(intelligence: any, pkg: any, articleLabel: string) {
   const findings: any[] = [];
 
   const rp = intelligence?.relative_performance;
@@ -45,7 +45,7 @@ function buildMandatoryFindings(intelligence: any, pkg: any) {
       finding_id: "MF001",
       priority: "critical",
       type: "relative_performance",
-      statement: `Precision Engineering grew ${rp.sector_growth_10y_percent}% over 10 years versus ${rp.manufacturing_growth_10y_percent}% for total manufacturing, an outperformance of ${rp.outperformance_pp} percentage points.`,
+      statement: `${articleLabel} grew ${rp.sector_growth_10y_percent}% over 10 years versus ${rp.manufacturing_growth_10y_percent}% for total manufacturing, an outperformance of ${rp.outperformance_pp} percentage points.`,
       required_terms: [
         String(rp.sector_growth_10y_percent),
         String(rp.manufacturing_growth_10y_percent),
@@ -61,7 +61,7 @@ function buildMandatoryFindings(intelligence: any, pkg: any) {
       finding_id: "MF002",
       priority: "critical",
       type: "sector_ranking",
-      statement: `Precision Engineering ranked #${ranking.rank_10y_growth} out of ${ranking.sector_count} major manufacturing sectors by 10-year growth. The article must explicitly state rank #${ranking.rank_10y_growth} out of ${ranking.sector_count}.`,
+      statement: `${articleLabel} ranked #${ranking.rank_10y_growth} out of ${ranking.sector_count} major manufacturing sectors by 10-year growth. The article must explicitly state rank #${ranking.rank_10y_growth} out of ${ranking.sector_count}.`,
       required_terms: [
         `#${ranking.rank_10y_growth}`,
         `out of ${ranking.sector_count}`,
@@ -76,7 +76,7 @@ function buildMandatoryFindings(intelligence: any, pkg: any) {
       finding_id: "MF003",
       priority: "important",
       type: "manufacturing_share",
-      statement: `Precision Engineering's manufacturing share increased from ${share.share_start_percent}% in ${share.start_period} to ${share.share_end_percent}% in ${share.end_period}, a gain of ${share.change_pp} percentage points.`,
+      statement: `${articleLabel}'s manufacturing share increased from ${share.share_start_percent}% in ${share.start_period} to ${share.share_end_percent}% in ${share.end_period}, a gain of ${share.change_pp} percentage points.`,
       required_terms: [
         String(share.share_start_percent),
         String(share.share_end_percent),
@@ -92,7 +92,7 @@ function buildMandatoryFindings(intelligence: any, pkg: any) {
       finding_id: "MF004",
       priority: "important",
       type: "latest_momentum",
-      statement: `In ${momentum.latest_period}, Precision Engineering output reached ${momentum.latest_value}, with latest year-on-year growth of ${momentum.latest_yoy_percent}%.`,
+      statement: `In ${momentum.latest_period}, ${articleLabel} output reached ${momentum.latest_value}, with latest year-on-year growth of ${momentum.latest_yoy_percent}%.`,
       required_terms: [
         String(momentum.latest_period),
         String(momentum.latest_value),
@@ -108,7 +108,7 @@ function buildMandatoryFindings(intelligence: any, pkg: any) {
       finding_id: "MF005",
       priority: "critical",
       type: "proxy_disclosure",
-      statement: `${proxy.direct_series_used} is used as a proxy for capital-equipment-linked precision engineering activity because deeper precision-engineering subsegments are not exposed in the current table.`,
+      statement: `${proxy.direct_series_used} is used as a proxy for capital-equipment-linked activity because deeper subsegments are not exposed in the current table.`,
       required_terms: [String(proxy.direct_series_used), "proxy"],
     });
   }
@@ -183,7 +183,16 @@ const packages = ready.map((pkg: any) => {
   const consistency = consistencyByCandidate.get(pkg.candidate_id) as any;
 
   const intelligence = intelligencePackage?.intelligence ?? null;
-  const mandatoryFindings = buildMandatoryFindings(intelligence, pkg);
+  const candidateId = String(pkg.candidate_id ?? "").toLowerCase();
+
+  const articleLabel =
+    candidateId.includes("transport-engineering") ? "Transport Engineering" :
+    candidateId.includes("petroleum-output") ? "Petroleum Output" :
+    candidateId.includes("semiconductor") ? "Semiconductors" :
+    candidateId.includes("precision-engineering") ? "Precision Engineering" :
+    pkg.candidate_title ?? pkg.candidate?.title ?? "This sector";
+
+  const mandatoryFindings = buildMandatoryFindings(intelligence, pkg, articleLabel);
 
   return {
     candidate_id: pkg.candidate_id,

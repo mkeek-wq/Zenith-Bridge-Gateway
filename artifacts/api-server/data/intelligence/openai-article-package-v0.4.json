@@ -1,6 +1,6 @@
 {
   "package_version": "openai-article-package-v0.4",
-  "generated_at": "2026-06-18T04:23:43.989Z",
+  "generated_at": "2026-07-03T02:27:59.293Z",
   "source_files": {
     "workbench_package": "data/intelligence/article-workbench-package-v0.2.json",
     "article_intelligence_package": "data/intelligence/article-intelligence-package-v0.1.json",
@@ -140,7 +140,7 @@
           "finding_id": "MF005",
           "priority": "critical",
           "type": "proxy_disclosure",
-          "statement": "Machinery & Equipment is used as a proxy for capital-equipment-linked precision engineering activity because deeper precision-engineering subsegments are not exposed in the current table.",
+          "statement": "Machinery & Equipment is used as a proxy for capital-equipment-linked activity because deeper subsegments are not exposed in the current table.",
           "required_terms": [
             "Machinery & Equipment",
             "proxy"
@@ -448,7 +448,7 @@
           "finding_id": "MF001",
           "priority": "critical",
           "type": "relative_performance",
-          "statement": "Precision Engineering grew 113.54% over 10 years versus 77.56% for total manufacturing, an outperformance of 35.98 percentage points.",
+          "statement": "Transport Engineering grew 113.54% over 10 years versus 77.56% for total manufacturing, an outperformance of 35.98 percentage points.",
           "required_terms": [
             "113.54",
             "77.56",
@@ -459,7 +459,7 @@
           "finding_id": "MF002",
           "priority": "critical",
           "type": "sector_ranking",
-          "statement": "Precision Engineering ranked #3 out of 6 major manufacturing sectors by 10-year growth. The article must explicitly state rank #3 out of 6.",
+          "statement": "Transport Engineering ranked #3 out of 6 major manufacturing sectors by 10-year growth. The article must explicitly state rank #3 out of 6.",
           "required_terms": [
             "#3",
             "out of 6"
@@ -469,7 +469,7 @@
           "finding_id": "MF003",
           "priority": "important",
           "type": "manufacturing_share",
-          "statement": "Precision Engineering's manufacturing share increased from 6.08% in 2016 to 7.32% in 2025, a gain of 1.23 percentage points.",
+          "statement": "Transport Engineering's manufacturing share increased from 6.08% in 2016 to 7.32% in 2025, a gain of 1.23 percentage points.",
           "required_terms": [
             "6.08",
             "7.32",
@@ -480,7 +480,7 @@
           "finding_id": "MF004",
           "priority": "important",
           "type": "latest_momentum",
-          "statement": "In 2025, Precision Engineering output reached 33614.4, with latest year-on-year growth of 31.49%.",
+          "statement": "In 2025, Transport Engineering output reached 33614.4, with latest year-on-year growth of 31.49%.",
           "required_terms": [
             "2025",
             "33614.4",
@@ -787,7 +787,7 @@
           "finding_id": "MF001",
           "priority": "critical",
           "type": "relative_performance",
-          "statement": "Precision Engineering grew 43.11% over 10 years versus 77.56% for total manufacturing, an outperformance of -34.45 percentage points.",
+          "statement": "Petroleum Output grew 43.11% over 10 years versus 77.56% for total manufacturing, an outperformance of -34.45 percentage points.",
           "required_terms": [
             "43.11",
             "77.56",
@@ -798,7 +798,7 @@
           "finding_id": "MF002",
           "priority": "critical",
           "type": "sector_ranking",
-          "statement": "Precision Engineering ranked #4 out of 6 major manufacturing sectors by 10-year growth. The article must explicitly state rank #4 out of 6.",
+          "statement": "Petroleum Output ranked #4 out of 6 major manufacturing sectors by 10-year growth. The article must explicitly state rank #4 out of 6.",
           "required_terms": [
             "#4",
             "out of 6"
@@ -808,7 +808,7 @@
           "finding_id": "MF003",
           "priority": "important",
           "type": "manufacturing_share",
-          "statement": "Precision Engineering's manufacturing share increased from 10.35% in 2016 to 8.34% in 2025, a gain of -2.01 percentage points.",
+          "statement": "Petroleum Output's manufacturing share increased from 10.35% in 2016 to 8.34% in 2025, a gain of -2.01 percentage points.",
           "required_terms": [
             "10.35",
             "8.34",
@@ -819,7 +819,7 @@
           "finding_id": "MF004",
           "priority": "important",
           "type": "latest_momentum",
-          "statement": "In 2025, Precision Engineering output reached 38344, with latest year-on-year growth of -9.02%.",
+          "statement": "In 2025, Petroleum Output output reached 38344, with latest year-on-year growth of -9.02%.",
           "required_terms": [
             "2025",
             "38344",
@@ -1313,7 +1313,7 @@
           "finding_id": "MF001",
           "priority": "critical",
           "type": "relative_performance",
-          "statement": "Precision Engineering grew 129.24% over 10 years versus 77.56% for total manufacturing, an outperformance of 51.68 percentage points.",
+          "statement": "Semiconductors grew 129.24% over 10 years versus 77.56% for total manufacturing, an outperformance of 51.68 percentage points.",
           "required_terms": [
             "129.24",
             "77.56",
@@ -1324,7 +1324,7 @@
           "finding_id": "MF002",
           "priority": "critical",
           "type": "sector_ranking",
-          "statement": "Precision Engineering ranked #1 out of 6 major manufacturing sectors by 10-year growth. The article must explicitly state rank #1 out of 6.",
+          "statement": "Semiconductors ranked #1 out of 6 major manufacturing sectors by 10-year growth. The article must explicitly state rank #1 out of 6.",
           "required_terms": [
             "#1",
             "out of 6"
@@ -1334,7 +1334,7 @@
           "finding_id": "MF003",
           "priority": "important",
           "type": "manufacturing_share",
-          "statement": "Precision Engineering's manufacturing share increased from 37.23% in 2016 to 48.06% in 2025, a gain of 10.84 percentage points.",
+          "statement": "Semiconductors's manufacturing share increased from 37.23% in 2016 to 48.06% in 2025, a gain of 10.84 percentage points.",
           "required_terms": [
             "37.23",
             "48.06",
@@ -1345,7 +1345,7 @@
           "finding_id": "MF004",
           "priority": "important",
           "type": "latest_momentum",
-          "statement": "In 2025, Precision Engineering output reached 220845.7, with latest year-on-year growth of 18.1%.",
+          "statement": "In 2025, Semiconductors output reached 220845.7, with latest year-on-year growth of 18.1%.",
           "required_terms": [
             "2025",
             "220845.7",
