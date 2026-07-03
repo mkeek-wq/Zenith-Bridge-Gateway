@@ -273,3 +273,22 @@ When closing debt:
 2. Record action taken.
 3. Move item to Closed Items.
 4. Update relevant governance documents.
+
+### TD-XXX – Currency and Unit Presentation Engine
+
+Priority:
+Medium
+
+Description:
+Implement automatic value scaling and international currency presentation.
+
+Requirements:
+
+- K/M/B/T scaling
+- USD primary presentation
+- Local currency secondary presentation
+- Consistent graph and article formatting
+- Tooltip preservation of original source values
+
+Business Value:
+Reduces cognitive load and improves international readability.

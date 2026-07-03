@@ -185,3 +185,50 @@ Advanced evidence, lineage, replay, confidence and scenario details belong in an
 ZNBW should grow as layered architecture, not uncontrolled cross-connections.
 
 Layers may connect, but only through defined interfaces, packages, APIs, or governed workflows.
+
+---
+
+# Principle 16 — Minimise Cognitive Load
+
+Public outputs should minimise the amount of mental calculation or interpretation required from readers.
+
+ZNBW should translate data into decisions, not ask users to translate numbers into meaning.
+
+This includes:
+
+- highest meaningful units
+- intuitive labels
+- clear narratives
+- direct comparisons
+- avoiding unnecessary calculations by the reader
+
+---
+
+# Principle 17 — International-First Data Presentation
+
+Public articles and dashboards should be understandable for both international and local audiences.
+
+Presentation rules:
+
+- Use the highest meaningful unit (K, M, B, T).
+- Use USD as the primary display currency.
+- Display the source country's local currency as secondary.
+- Preserve original values in tooltips, transparency layers, and exports.
+- Graphs, tables, and article narratives should use consistent units and currencies.
+
+Examples:
+
+Singapore:
+US$163.5B (S$220.8B)
+
+Indonesia:
+US$87.1B (Rp1.42T)
+
+Malaysia:
+US$45.3B (RM192.6B)
+
+Incorrect examples:
+
+220.8k million dollars
+
+Output reached 220.8k.
