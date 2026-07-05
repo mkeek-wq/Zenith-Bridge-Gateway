@@ -1,6 +1,6 @@
 {
   "version": "replay-forecast-envelope-v0.1",
-  "generated_at": "2026-07-05T09:00:37.739Z",
+  "generated_at": "2026-07-05T09:06:46.699Z",
   "source_dashboard_package": "data/replay/papa-replay-dashboard-package-v0.1.json",
   "doctrine": {
     "forecast_envelopes_are_not_predictions": true,
