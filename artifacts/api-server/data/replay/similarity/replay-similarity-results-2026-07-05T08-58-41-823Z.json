@@ -1,0 +1,164 @@
+{
+  "version": "replay-similarity-results-v0.2",
+  "generated_at": "2026-07-05T08:58:41.797Z",
+  "replay_output_source": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/replay/output/replay-executor-dry-run-v0.1.json",
+  "historical_case_registry": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/replay/cases/replay-historical-case-registry-v0.1.json",
+  "mechanism_taxonomy": "/opt/Zenith-Bridge-Gateway/artifacts/api-server/data/replay/taxonomy/replay-mechanism-taxonomy-v0.1.json",
+  "replay_record_count": 3,
+  "historical_case_count": 25,
+  "results": [
+    {
+      "replay_record_id": "REPLAY_REC_00001",
+      "source_record_id": "RPLAY_SG_MFG_2020_001",
+      "metric_name": "MANUFACTURING_OUTPUT_CHANGE_YOY",
+      "period": "2020-Q2",
+      "top_matches": [
+        {
+          "case_id": "HIST-SG-MFG-RECOVERY-2021",
+          "title": "Singapore manufacturing recovery 2021",
+          "similarity_score": 0.75,
+          "mechanism_similarity": 1,
+          "matched_mechanisms": [
+            "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY"
+          ]
+        },
+        {
+          "case_id": "HIST-SG-ELECTRONICS-DOWNTURN-2023",
+          "title": "Singapore electronics export downturn",
+          "similarity_score": 0.35,
+          "mechanism_similarity": 0.7,
+          "matched_mechanisms": [
+            "INVENTORY_CORRECTION"
+          ]
+        },
+        {
+          "case_id": "HIST-SG-SEMICONDUCTOR-DOWNTURN-2019",
+          "title": "Singapore semiconductor downturn 2019",
+          "similarity_score": 0.35,
+          "mechanism_similarity": 0.7,
+          "matched_mechanisms": [
+            "INVENTORY_CORRECTION"
+          ]
+        },
+        {
+          "case_id": "HIST-CHINA-SLOWDOWN-2015",
+          "title": "China slowdown 2015",
+          "similarity_score": 0.26,
+          "mechanism_similarity": 0,
+          "matched_mechanisms": []
+        },
+        {
+          "case_id": "HIST-SG-BIOMEDICAL-SURGE-2020",
+          "title": "Singapore biomedical manufacturing surge",
+          "similarity_score": 0.075,
+          "mechanism_similarity": 0,
+          "matched_mechanisms": []
+        }
+      ]
+    },
+    {
+      "replay_record_id": "REPLAY_REC_00002",
+      "source_record_id": "RPLAY_SG_MFG_2021_001",
+      "metric_name": "MANUFACTURING_OUTPUT_CHANGE_YOY",
+      "period": "2021-Q1",
+      "top_matches": [
+        {
+          "case_id": "HIST-SG-MFG-RECOVERY-2021",
+          "title": "Singapore manufacturing recovery 2021",
+          "similarity_score": 0.8,
+          "mechanism_similarity": 1,
+          "matched_mechanisms": [
+            "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY"
+          ]
+        },
+        {
+          "case_id": "HIST-SG-ELECTRONICS-DOWNTURN-2023",
+          "title": "Singapore electronics export downturn",
+          "similarity_score": 0.35,
+          "mechanism_similarity": 0.7,
+          "matched_mechanisms": [
+            "INVENTORY_CORRECTION"
+          ]
+        },
+        {
+          "case_id": "HIST-SG-SEMICONDUCTOR-DOWNTURN-2019",
+          "title": "Singapore semiconductor downturn 2019",
+          "similarity_score": 0.35,
+          "mechanism_similarity": 0.7,
+          "matched_mechanisms": [
+            "INVENTORY_CORRECTION"
+          ]
+        },
+        {
+          "case_id": "HIST-CHINA-SLOWDOWN-2015",
+          "title": "China slowdown 2015",
+          "similarity_score": 0.26,
+          "mechanism_similarity": 0,
+          "matched_mechanisms": []
+        },
+        {
+          "case_id": "HIST-SG-BIOMEDICAL-SURGE-2020",
+          "title": "Singapore biomedical manufacturing surge",
+          "similarity_score": 0.075,
+          "mechanism_similarity": 0,
+          "matched_mechanisms": []
+        }
+      ]
+    },
+    {
+      "replay_record_id": "REPLAY_REC_00003",
+      "source_record_id": "RPLAY_SG_NODX_2021_001",
+      "metric_name": "NODX_CHANGE_YOY",
+      "period": "2021-Q1",
+      "top_matches": [
+        {
+          "case_id": "HIST-SG-NODX-RECOVERY-2021",
+          "title": "Singapore NODX recovery 2021",
+          "similarity_score": 0.7,
+          "mechanism_similarity": 1,
+          "matched_mechanisms": [
+            "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+          ]
+        },
+        {
+          "case_id": "HIST-SG-MFG-RECOVERY-2021",
+          "title": "Singapore manufacturing recovery 2021",
+          "similarity_score": 0.6,
+          "mechanism_similarity": 1,
+          "matched_mechanisms": [
+            "MKT_002_INVENTORY_CYCLE_OR_PRODUCTION_RECOVERY",
+            "MKT_010_DEMAND_SHOCK_OR_EXTERNAL_RECOVERY"
+          ]
+        },
+        {
+          "case_id": "HIST-CHINA-SLOWDOWN-2015",
+          "title": "China slowdown 2015",
+          "similarity_score": 0.35,
+          "mechanism_similarity": 0.7,
+          "matched_mechanisms": [
+            "GLOBAL_DEMAND_WEAKNESS",
+            "CHINA_SLOWDOWN"
+          ]
+        },
+        {
+          "case_id": "HIST-SG-SARS-2003",
+          "title": "Singapore SARS shock",
+          "similarity_score": 0.35,
+          "mechanism_similarity": 0.7,
+          "matched_mechanisms": [
+            "DEMAND_SHOCK"
+          ]
+        },
+        {
+          "case_id": "HIST-SG-TOURISM-COVID-2020",
+          "title": "Singapore tourism collapse during COVID",
+          "similarity_score": 0.35,
+          "mechanism_similarity": 0.7,
+          "matched_mechanisms": [
+            "DEMAND_SHOCK"
+          ]
+        }
+      ]
+    }
+  ]
+}
