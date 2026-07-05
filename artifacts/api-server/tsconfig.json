@@ -1,17 +1,41 @@
 {
-  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
     "outDir": "dist",
     "rootDir": "src",
-    "types": ["node"]
-  },
-  "include": ["src"],
-  "references": [
-    {
-      "path": "../../lib/db"
-    },
-    {
-      "path": "../../lib/api-zod"
+
+    "strict": true,
+    "skipLibCheck": true,
+
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+
+    "verbatimModuleSyntax": false,
+
+    "declaration": true,
+    "sourceMap": true,
+
+    "types": ["node", "express"],
+
+    "baseUrl": ".",
+    "paths": {
+      "@workspace/api-zod": ["../../lib/api-zod/src"]
     }
+  },
+
+  "include": ["src/**/*.ts"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src/scripts/**/*",
+    "src_backup_DISABLED/**/*",
+    "src/**/*.tsx",
+    "src/pages/**",
+    "**/*.backup.ts",
+    "**/*.memory.*"
   ]
 }

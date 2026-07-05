@@ -1,25 +1,84 @@
-import app from "./app";
-import { logger } from "./lib/logger";
+import "dotenv/config";
 
-const rawPort = process.env["PORT"];
+import app from "./app.js";
+import { logger } from "./lib/logger.js";
 
-if (!rawPort) {
-  throw new Error(
-    "PORT environment variable is required but was not provided.",
-  );
-}
+/**
+ * =========================
+ * ENV VALIDATION (FAIL FAST)
+ * =========================
+ */
 
-const port = Number(rawPort);
+import "dotenv/config";
 
-if (Number.isNaN(port) || port <= 0) {
-  throw new Error(`Invalid PORT value: "${rawPort}"`);
-}
+const requiredEnv = ["PORT", "DATABASE_URL", "JWT_SECRET", "ADMIN_PASSWORD"] as const;
 
-app.listen(port, (err) => {
-  if (err) {
-    logger.error({ err }, "Error listening on port");
-    process.exit(1);
+for (const key of requiredEnv) {
+  if (!process.env[key]) {
+    throw new Error(`Missing required env var: ${key}`);
   }
+}
 
-  logger.info({ port }, "Server listening");
+/**
+ * =========================
+ * PORT PARSING
+ * =========================
+ */
+const port = Number(process.env.PORT);
+
+if (!Number.isFinite(port) || port <= 0 || port > 65535) {
+  throw new Error(`Invalid PORT: ${process.env.PORT}`);
+}
+
+/**
+ * =========================
+ * START SERVER
+ * =========================
+ */
+const server = app.listen(port, () => {
+  logger.info(
+    {
+      port,
+      env: process.env.NODE_ENV ?? "development",
+      pid: process.pid,
+    },
+    "Server started"
+  );
+});
+
+/**
+ * =========================
+ * GRACEFUL SHUTDOWN (IMPORTANT)
+ * =========================
+ */
+const shutdown = (signal: string) => {
+  logger.warn({ signal }, "Shutting down server");
+
+  server.close(() => {
+    logger.info("HTTP server closed");
+    process.exit(0);
+  });
+
+  // force exit after 10s
+  setTimeout(() => {
+    logger.error("Forced shutdown");
+    process.exit(1);
+  }, 10_000).unref();
+};
+
+process.on("SIGINT", shutdown);
+process.on("SIGTERM", shutdown);
+
+/**
+ * =========================
+ * SAFETY NET
+ * =========================
+ */
+process.on("unhandledRejection", (err) => {
+  logger.error({ err }, "Unhandled promise rejection");
+});
+
+process.on("uncaughtException", (err) => {
+  logger.error({ err }, "Uncaught exception");
+  process.exit(1);
 });
