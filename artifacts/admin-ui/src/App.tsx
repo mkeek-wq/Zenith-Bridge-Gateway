@@ -20,6 +20,7 @@ import PublicationQueue from "./pages/PublicationQueue";
 import CmsPackageIntake from "./pages/CmsPackageIntake";
 import HygieneCenter from "./pages/HygieneCenter";
 import IntelligenceWarehouse from "./pages/IntelligenceWarehouse";
+import DependencyExplorer from "./pages/DependencyExplorer";
 
 export default function App({ auth }: any) {
   const status =
@@ -180,6 +181,19 @@ export default function App({ auth }: any) {
              )
              : <Navigate to="/login" replace />
          }
+        />
+
+        <Route
+          path="/dependency-explorer"
+          element={
+            status === "authenticated"
+              ? (
+                <AdminLayout>
+                  <DependencyExplorer />
+                </AdminLayout>
+              )
+              : <Navigate to="/login" replace />
+          }
         />
         
         <Route

@@ -25,6 +25,7 @@ const navGroups: { title: string; items: NavItem[] }[] = [
       { label: "CMS Package Intake", to: "/cms-package-intake" },
       { label: "Intelligence Center", to: "/intelligence" },
       { label: "Intelligence Warehouse", to: "/intelligence-warehouse" },
+      { label: "Dependency Explorer", to: "/dependency-explorer" },
       { label: "Intelligence Assets", to: "/intelligence-assets" },
       { label: "Datasets", to: "/intelligence-datasets" },
       { label: "Graph Packages", to: "/intelligence-graph-packages" },
