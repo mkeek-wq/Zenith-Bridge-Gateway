@@ -1,0 +1,88 @@
+ M artifacts/api-server/build.mjs
+ M artifacts/api-server/data/intelligence/article-graph-attachment-package-v0.1.json
+ M artifacts/api-server/data/intelligence/article-preview-package-v0.1.json
+ M artifacts/api-server/data/intelligence/mandatory-findings-audit-v0.1.json
+ M artifacts/api-server/data/intelligence/openai-article-audit-v0.2.json
+ D artifacts/api-server/data/intelligence/openai-article-package-v0.3.json
+ D artifacts/api-server/data/intelligence/openai-generated-article-package-v0.3.json
+ M artifacts/api-server/data/intelligence/openai-generated-article-package-v0.4.json
+ M artifacts/mockup-sandbox/package.json
+ M governance/08-technical-debt/CODE_RED_ROOT_CAUSE_20260702.md
+ M lib/api-client-react/package.json
+ M lib/api-client-react/src/generated/api.schemas.ts
+ M lib/api-client-react/src/generated/api.ts
+ M lib/api-spec/openapi.yaml
+ M lib/api-spec/orval.config.ts
+ M lib/api-spec/package.json
+ M lib/api-zod/package.json
+ M lib/api-zod/src/generated/api.ts
+ M lib/api-zod/src/generated/types/adminLoginBody.ts
+ M lib/api-zod/src/generated/types/adminSession.ts
+ M lib/api-zod/src/generated/types/article.ts
+ M lib/api-zod/src/generated/types/articleListResponse.ts
+ M lib/api-zod/src/generated/types/contactFormBody.ts
+ M lib/api-zod/src/generated/types/createArticleBody.ts
+ M lib/api-zod/src/generated/types/errorResponse.ts
+ M lib/api-zod/src/generated/types/healthStatus.ts
+ M lib/api-zod/src/generated/types/index.ts
+ M lib/api-zod/src/generated/types/listArticlesParams.ts
+ M lib/api-zod/src/generated/types/successResponse.ts
+ M lib/api-zod/src/generated/types/updateArticleBody.ts
+ M lib/api-zod/src/index.ts
+ M lib/api-zod/tsconfig.json
+ M lib/db/package.json
+ M lib/db/src/index.ts
+ M lib/db/src/schema/articles.ts
+ M lib/db/src/schema/index.ts
+ M lib/db/tsconfig.json
+ M pnpm-lock.yaml
+ M scripts/package.json
+?? artifacts/api-server/.eslintrc.cjs
+?? artifacts/api-server/artifacts/
+?? artifacts/api-server/config/
+?? artifacts/api-server/data/intelligence/archive/
+?? artifacts/api-server/docs/
+?? artifacts/api-server/ecosystem.config.cjs
+?? artifacts/api-server/ecosystem.config.js
+?? artifacts/api-server/ecosystem.config.mjs
+?? artifacts/api-server/eslint.config.cjs
+?? artifacts/api-server/exports/
+?? artifacts/api-server/inputs/
+?? artifacts/api-server/tsconfig.tsx.json
+?? artifacts/api-server/uploads/
+?? artifacts/cms-admin/
+?? artifacts/cms/
+?? artifacts/znbw-website/package-lock.json
+?? ecosystem.config.cjs
+?? governance/05-operations/recovery-incident-20260702/phase-h2/PHASE_H3_INTELLIGENCE_ORCHESTRATION_HANDOVER_20260705.md
+?? governance/05-operations/recovery-incident-20260702/phase-h2/PHASE_H4_INTELLIGENCE_WAREHOUSE_HANDOVER_20260706.md
+?? governance/05-operations/recovery-incident-20260702/phase-h2/dirty-state-preservation/
+?? governance/05-operations/recovery-incident-20260702/phase-h2/intelligence-package-inventory.txt
+?? governance/05-operations/recovery-incident-20260702/phase-h2/package-version-counts.txt
+?? governance/05-operations/recovery-incident-20260702/phase-h2/pnpm-workspace-unsafe-diff-20260705.patch
+?? lib/api-spec/orval
+?? lib/api-zod/src/generated/api.d.ts
+?? lib/api-zod/src/generated/types/adminLoginBody.d.ts
+?? lib/api-zod/src/generated/types/adminSession.d.ts
+?? lib/api-zod/src/generated/types/article.d.ts
+?? lib/api-zod/src/generated/types/articleListResponse.d.ts
+?? lib/api-zod/src/generated/types/contactFormBody.d.ts
+?? lib/api-zod/src/generated/types/createArticleBody.d.ts
+?? lib/api-zod/src/generated/types/createArticleBodyContent.ts
+?? lib/api-zod/src/generated/types/errorResponse.d.ts
+?? lib/api-zod/src/generated/types/healthStatus.d.ts
+?? lib/api-zod/src/generated/types/index.d.ts
+?? lib/api-zod/src/generated/types/listArticlesParams.d.ts
+?? lib/api-zod/src/generated/types/successResponse.d.ts
+?? lib/api-zod/src/generated/types/updateArticleBody.d.ts
+?? lib/api-zod/src/generated/types/updateArticleBodyContent.ts
+?? lib/api-zod/src/index.d.ts
+?? lib/api-zod/src/index.js
+?? lib/articles.service.ts
+?? lib/db/drizzle/
+?? lib/db/src/auth/
+?? lib/db/src/db.ts
+?? lib/db/src/seed.ts
+?? scripts/health-check.sh
+?? scripts/validate-openapi.mjs
+?? scripts/watchdog/health-check.sh
