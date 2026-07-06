@@ -1,0 +1,3057 @@
+{
+  "version": "intelligence-warehouse-registry-v0.1",
+  "generated_at": "2026-07-06T07:05:33.772Z",
+  "doctrine": "Read-only discovery registry for surfacing existing intelligence assets before H5.1 implementation.",
+  "scope": {
+    "api_root": "/opt/Zenith-Bridge-Gateway/artifacts/api-server",
+    "repo_root": "/opt/Zenith-Bridge-Gateway",
+    "scripts_dir": "artifacts/api-server/src/scripts",
+    "intelligence_data_dir": "artifacts/api-server/data/intelligence"
+  },
+  "summary": {
+    "engine_count": 392,
+    "intelligence_file_count": 172,
+    "engine_capability_counts": {
+      "replay": 90,
+      "other": 115,
+      "governance": 11,
+      "evidence": 35,
+      "article_publication": 52,
+      "dataset": 15,
+      "decision": 3,
+      "learning_memory": 16,
+      "graph": 14,
+      "historian": 9,
+      "macro": 15,
+      "mechanism": 13,
+      "forecast": 4
+    },
+    "package_capability_counts": {
+      "other": 65,
+      "article_publication": 21,
+      "evidence": 11,
+      "governance": 8,
+      "dataset": 10,
+      "decision": 3,
+      "learning_memory": 14,
+      "graph": 2,
+      "historian": 2,
+      "replay": 6,
+      "macro": 12,
+      "mechanism": 14,
+      "forecast": 4
+    }
+  },
+  "capabilities": [
+    "replay",
+    "forecast",
+    "decision",
+    "historian",
+    "macro",
+    "evidence",
+    "mechanism",
+    "dataset",
+    "article_publication",
+    "graph",
+    "governance",
+    "learning_memory",
+    "other"
+  ],
+  "engines": [
+    {
+      "name": "approve-replay-proposal-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/approve-replay-proposal-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "archive-documents.ts",
+      "path": "artifacts/api-server/src/scripts/archive-documents.ts",
+      "capability": "other"
+    },
+    {
+      "name": "audit-closure-readiness.ts",
+      "path": "artifacts/api-server/src/scripts/audit-closure-readiness.ts",
+      "capability": "governance"
+    },
+    {
+      "name": "audit-evidence-quality-v2.ts",
+      "path": "artifacts/api-server/src/scripts/audit-evidence-quality-v2.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "audit-evidence-quality.ts",
+      "path": "artifacts/api-server/src/scripts/audit-evidence-quality.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "audit-mandatory-findings-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/audit-mandatory-findings-v0.1.ts",
+      "capability": "governance"
+    },
+    {
+      "name": "audit-openai-generated-article-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/audit-openai-generated-article-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "audit-openai-generated-article-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/audit-openai-generated-article-v0.2.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "audit-outcome-justification.ts",
+      "path": "artifacts/api-server/src/scripts/audit-outcome-justification.ts",
+      "capability": "governance"
+    },
+    {
+      "name": "backfill-article-metadata.ts",
+      "path": "artifacts/api-server/src/scripts/backfill-article-metadata.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-approved-principles-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-approved-principles-registry-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-article-brief-package-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-article-brief-package-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-article-brief-package-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/build-article-brief-package-v0.2.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-article-brief-package-v0.3.ts",
+      "path": "artifacts/api-server/src/scripts/build-article-brief-package-v0.3.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-article-data-readiness-gate-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-article-data-readiness-gate-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-article-draft-generator-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/build-article-draft-generator-v0.2.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-article-draft-generator-v0.3.ts",
+      "path": "artifacts/api-server/src/scripts/build-article-draft-generator-v0.3.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-article-draft-generator-v0.4.ts",
+      "path": "artifacts/api-server/src/scripts/build-article-draft-generator-v0.4.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-article-draft-generator-v0.5.ts",
+      "path": "artifacts/api-server/src/scripts/build-article-draft-generator-v0.5.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-article-draft-generator-v0.6.ts",
+      "path": "artifacts/api-server/src/scripts/build-article-draft-generator-v0.6.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-article-editor-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-article-editor-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-article-evidence-package-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-article-evidence-package-v0.1.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "build-article-evidence-package-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/build-article-evidence-package-v0.2.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "build-article-evidence-strength-review-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-article-evidence-strength-review-v0.1.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "build-article-graph-attachment-package-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-article-graph-attachment-package-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-article-graph-dataset-package-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-article-graph-dataset-package-v0.1.ts",
+      "capability": "dataset"
+    },
+    {
+      "name": "build-article-insight-package-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-article-insight-package-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-article-insight-package-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/build-article-insight-package-v0.2.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-article-intelligence-package-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-article-intelligence-package-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-article-opportunity-queue-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-article-opportunity-queue-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-article-preview-html-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-article-preview-html-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-article-preview-package-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-article-preview-package-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-article-quant-dataset-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-article-quant-dataset-registry-v0.1.ts",
+      "capability": "dataset"
+    },
+    {
+      "name": "build-article-quant-readiness-report-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-article-quant-readiness-report-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-article-thesis-package-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-article-thesis-package-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-article-workbench-package-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-article-workbench-package-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-article-workbench-package-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/build-article-workbench-package-v0.2.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-attribution-case-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-attribution-case-registry-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-attribution-evidence-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-attribution-evidence-registry-v0.1.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "build-attribution-investigations-v2.ts",
+      "path": "artifacts/api-server/src/scripts/build-attribution-investigations-v2.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-attribution-investigations.ts",
+      "path": "artifacts/api-server/src/scripts/build-attribution-investigations.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-attribution-recommendations.ts",
+      "path": "artifacts/api-server/src/scripts/build-attribution-recommendations.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-attribution-scorecard.ts",
+      "path": "artifacts/api-server/src/scripts/build-attribution-scorecard.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-brief-quality-review-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-brief-quality-review-engine-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-bulk-evidence-pilots-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-bulk-evidence-pilots-v0.1.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "build-bulk-evidence-pilots-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/build-bulk-evidence-pilots-v0.2.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "build-bulk-ingestion-readiness-check-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-bulk-ingestion-readiness-check-v0.1.ts",
+      "capability": "governance"
+    },
+    {
+      "name": "build-bulk-loader-dry-run-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-bulk-loader-dry-run-engine-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-candidate-article-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-candidate-article-registry-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-canonical-documents.ts",
+      "path": "artifacts/api-server/src/scripts/build-canonical-documents.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-case-construction-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-case-construction-engine-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-case-evolution-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-case-evolution-engine-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-case-files.ts",
+      "path": "artifacts/api-server/src/scripts/build-case-files.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-case-fingerprints.ts",
+      "path": "artifacts/api-server/src/scripts/build-case-fingerprints.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-case-outcomes.ts",
+      "path": "artifacts/api-server/src/scripts/build-case-outcomes.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-case-similarity.ts",
+      "path": "artifacts/api-server/src/scripts/build-case-similarity.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-case-timeline-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-case-timeline-engine-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-cms-asset-picker-feed-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-cms-asset-picker-feed-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-cms-draft-package-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-cms-draft-package-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-cms-export-package-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-cms-export-package-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-cms-finalization-package-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-cms-finalization-package-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-cms-intelligence-asset-export-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-cms-intelligence-asset-export-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-cms-publication-package-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-cms-publication-package-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-compatibility-check-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-compatibility-check-engine-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-concept-visual-package-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-concept-visual-package-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-concept-visual-package-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/build-concept-visual-package-v0.2.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-confidence-framework-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-confidence-framework-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-controlled-bulk-ingestion-batch-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-controlled-bulk-ingestion-batch-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-controlled-ingestion-executor-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-controlled-ingestion-executor-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-controlled-staging-executor-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-controlled-staging-executor-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-counter-evidence-engine-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/build-counter-evidence-engine-v0.2.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "build-counter-evidence-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-counter-evidence-registry-v0.1.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "build-cover-image-brief-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-cover-image-brief-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-coverage-hardening-dashboard-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-coverage-hardening-dashboard-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-coverage-hardening-dashboard-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/build-coverage-hardening-dashboard-v0.2.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-data-request-queue-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-data-request-queue-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-dataset-audit-report-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-dataset-audit-report-v0.1.ts",
+      "capability": "dataset"
+    },
+    {
+      "name": "build-dataset-consistency-audit-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-dataset-consistency-audit-v0.1.ts",
+      "capability": "dataset"
+    },
+    {
+      "name": "build-dataset-coverage-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-dataset-coverage-engine-v0.1.ts",
+      "capability": "dataset"
+    },
+    {
+      "name": "build-decision-support-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-decision-support-engine-v0.1.ts",
+      "capability": "decision"
+    },
+    {
+      "name": "build-decision-support-engine-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/build-decision-support-engine-v0.2.ts",
+      "capability": "decision"
+    },
+    {
+      "name": "build-document-registry.ts",
+      "path": "artifacts/api-server/src/scripts/build-document-registry.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-driver-diversity-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-driver-diversity-engine-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-driver-diversity-report-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-driver-diversity-report-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-driver-evidence-taxonomy.ts",
+      "path": "artifacts/api-server/src/scripts/build-driver-evidence-taxonomy.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "build-driver-observatory-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-driver-observatory-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-dry-run-duplicate-review-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-dry-run-duplicate-review-engine-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-dry-run-promotion-report-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-dry-run-promotion-report-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-early-warning-signal-skeleton-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-early-warning-signal-skeleton-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-editorial-memory-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-editorial-memory-engine-v0.1.ts",
+      "capability": "learning_memory"
+    },
+    {
+      "name": "build-evidence-assessment-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-evidence-assessment-engine-v0.1.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "build-evidence-assessment-engine-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/build-evidence-assessment-engine-v0.2.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "build-evidence-contradiction-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-evidence-contradiction-engine-v0.1.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "build-evidence-deduplication-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-evidence-deduplication-engine-v0.1.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "build-evidence-discovery-queue-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-evidence-discovery-queue-v0.1.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "build-evidence-driver-matches.ts",
+      "path": "artifacts/api-server/src/scripts/build-evidence-driver-matches.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "build-evidence-lineage-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-evidence-lineage-engine-v0.1.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "build-evidence-packages.ts",
+      "path": "artifacts/api-server/src/scripts/build-evidence-packages.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "build-evidence-relevance.ts",
+      "path": "artifacts/api-server/src/scripts/build-evidence-relevance.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "build-evidence-search-packages-v2.ts",
+      "path": "artifacts/api-server/src/scripts/build-evidence-search-packages-v2.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "build-evidence-search-packages.ts",
+      "path": "artifacts/api-server/src/scripts/build-evidence-search-packages.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "build-experience-candidate-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-experience-candidate-registry-v0.1.ts",
+      "capability": "learning_memory"
+    },
+    {
+      "name": "build-experience-confidence-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-experience-confidence-engine-v0.1.ts",
+      "capability": "learning_memory"
+    },
+    {
+      "name": "build-experience-diversity-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-experience-diversity-registry-v0.1.ts",
+      "capability": "learning_memory"
+    },
+    {
+      "name": "build-experience-extraction-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-experience-extraction-engine-v0.1.ts",
+      "capability": "learning_memory"
+    },
+    {
+      "name": "build-experience-feedback-registry.ts",
+      "path": "artifacts/api-server/src/scripts/build-experience-feedback-registry.ts",
+      "capability": "learning_memory"
+    },
+    {
+      "name": "build-experience-metrics.ts",
+      "path": "artifacts/api-server/src/scripts/build-experience-metrics.ts",
+      "capability": "learning_memory"
+    },
+    {
+      "name": "build-experience-pattern-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-experience-pattern-engine-v0.1.ts",
+      "capability": "learning_memory"
+    },
+    {
+      "name": "build-experience-promotion-gate-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-experience-promotion-gate-v0.1.ts",
+      "capability": "governance"
+    },
+    {
+      "name": "build-experience-registry-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-experience-registry-engine-v0.1.ts",
+      "capability": "learning_memory"
+    },
+    {
+      "name": "build-experience-registry-promotion-gate-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-experience-registry-promotion-gate-v0.1.ts",
+      "capability": "governance"
+    },
+    {
+      "name": "build-experience-registry-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/build-experience-registry-v0.2.ts",
+      "capability": "learning_memory"
+    },
+    {
+      "name": "build-experience-registry.ts",
+      "path": "artifacts/api-server/src/scripts/build-experience-registry.ts",
+      "capability": "learning_memory"
+    },
+    {
+      "name": "build-falsification-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-falsification-registry-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-graph-data-package-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-graph-data-package-v0.1.ts",
+      "capability": "graph"
+    },
+    {
+      "name": "build-graph-data-workbench-package-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-graph-data-workbench-package-v0.1.ts",
+      "capability": "graph"
+    },
+    {
+      "name": "build-graph-opportunity-generator-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-graph-opportunity-generator-v0.1.ts",
+      "capability": "graph"
+    },
+    {
+      "name": "build-graph-opportunity-generator-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/build-graph-opportunity-generator-v0.2.ts",
+      "capability": "graph"
+    },
+    {
+      "name": "build-graph-specification-package-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-graph-specification-package-v0.1.ts",
+      "capability": "graph"
+    },
+    {
+      "name": "build-historical-cases-from-m355381.ts",
+      "path": "artifacts/api-server/src/scripts/build-historical-cases-from-m355381.ts",
+      "capability": "historian"
+    },
+    {
+      "name": "build-historical-evidence-acquisition.ts",
+      "path": "artifacts/api-server/src/scripts/build-historical-evidence-acquisition.ts",
+      "capability": "historian"
+    },
+    {
+      "name": "build-historical-evidence-scorecard-petroleum.ts",
+      "path": "artifacts/api-server/src/scripts/build-historical-evidence-scorecard-petroleum.ts",
+      "capability": "historian"
+    },
+    {
+      "name": "build-historical-evidence-scorecard.ts",
+      "path": "artifacts/api-server/src/scripts/build-historical-evidence-scorecard.ts",
+      "capability": "historian"
+    },
+    {
+      "name": "build-historical-evidence-scorecards-batch.ts",
+      "path": "artifacts/api-server/src/scripts/build-historical-evidence-scorecards-batch.ts",
+      "capability": "historian"
+    },
+    {
+      "name": "build-historical-investigation-packages.ts",
+      "path": "artifacts/api-server/src/scripts/build-historical-investigation-packages.ts",
+      "capability": "historian"
+    },
+    {
+      "name": "build-historical-outcomes-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/build-historical-outcomes-v0.2.ts",
+      "capability": "historian"
+    },
+    {
+      "name": "build-historical-outcomes.ts",
+      "path": "artifacts/api-server/src/scripts/build-historical-outcomes.ts",
+      "capability": "historian"
+    },
+    {
+      "name": "build-historical-replay-attribution-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-historical-replay-attribution-engine-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-hypothesis-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-hypothesis-registry-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-hypothesis-testing-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-hypothesis-testing-registry-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-ingestion-duplicate-detection-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-ingestion-duplicate-detection-engine-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-ingestion-report-generator-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-ingestion-report-generator-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-insight-generator-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-insight-generator-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-institutional-graph-bridge-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-institutional-graph-bridge-v0.1.ts",
+      "capability": "graph"
+    },
+    {
+      "name": "build-institutional-graph-package-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-institutional-graph-package-v0.1.ts",
+      "capability": "graph"
+    },
+    {
+      "name": "build-institutional-graph-render-spec-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-institutional-graph-render-spec-v0.1.ts",
+      "capability": "graph"
+    },
+    {
+      "name": "build-institutional-graph-renderer-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-institutional-graph-renderer-v0.1.ts",
+      "capability": "graph"
+    },
+    {
+      "name": "build-intelligence-asset-manifest-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-intelligence-asset-manifest-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-intelligence-asset-registry-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/build-intelligence-asset-registry-v0.2.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-intelligence-brief-generator-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-intelligence-brief-generator-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-intelligence-brief-generator-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/build-intelligence-brief-generator-v0.2.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-intelligence-center-assets-html-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-intelligence-center-assets-html-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-intelligence-center-index-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-intelligence-center-index-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-intelligence-confidence-registry.ts",
+      "path": "artifacts/api-server/src/scripts/build-intelligence-confidence-registry.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-intelligence-delta-brief-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-intelligence-delta-brief-engine-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-intelligence-warehouse-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-intelligence-warehouse-registry-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-internal-evidence-collection.ts",
+      "path": "artifacts/api-server/src/scripts/build-internal-evidence-collection.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "build-interpretation-workbench-package-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-interpretation-workbench-package-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-investigation-candidates.ts",
+      "path": "artifacts/api-server/src/scripts/build-investigation-candidates.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-investigation-hypotheses.ts",
+      "path": "artifacts/api-server/src/scripts/build-investigation-hypotheses.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-investigation-pack-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-investigation-pack-registry-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-investigation-queue.ts",
+      "path": "artifacts/api-server/src/scripts/build-investigation-queue.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-learning-confidence-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-learning-confidence-engine-v0.1.ts",
+      "capability": "learning_memory"
+    },
+    {
+      "name": "build-linkedin-post-package-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-linkedin-post-package-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-macro-attribution-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-macro-attribution-engine-v0.1.ts",
+      "capability": "macro"
+    },
+    {
+      "name": "build-macro-attribution-engine-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/build-macro-attribution-engine-v0.2.ts",
+      "capability": "macro"
+    },
+    {
+      "name": "build-macro-attribution-report-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-macro-attribution-report-v0.1.ts",
+      "capability": "macro"
+    },
+    {
+      "name": "build-macro-attribution-report-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/build-macro-attribution-report-v0.2.ts",
+      "capability": "macro"
+    },
+    {
+      "name": "build-macro-coverage-assessment-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-macro-coverage-assessment-v0.1.ts",
+      "capability": "macro"
+    },
+    {
+      "name": "build-macro-domain-relevance-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-macro-domain-relevance-engine-v0.1.ts",
+      "capability": "macro"
+    },
+    {
+      "name": "build-macro-driver-concentration-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-macro-driver-concentration-engine-v0.1.ts",
+      "capability": "macro"
+    },
+    {
+      "name": "build-macro-driver-concentration-report-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-macro-driver-concentration-report-v0.1.ts",
+      "capability": "macro"
+    },
+    {
+      "name": "build-macro-hardening-intake-template-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-macro-hardening-intake-template-v0.1.ts",
+      "capability": "macro"
+    },
+    {
+      "name": "build-macro-registry-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-macro-registry-engine-v0.1.ts",
+      "capability": "macro"
+    },
+    {
+      "name": "build-macro-specificity-hardening-queue-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-macro-specificity-hardening-queue-v0.1.ts",
+      "capability": "macro"
+    },
+    {
+      "name": "build-macro-specificity-hardening-report-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-macro-specificity-hardening-report-v0.1.ts",
+      "capability": "macro"
+    },
+    {
+      "name": "build-macro-transmission-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-macro-transmission-engine-v0.1.ts",
+      "capability": "macro"
+    },
+    {
+      "name": "build-maintenance-report-generator-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-maintenance-report-generator-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-manual-verified-metrics-loader-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-manual-verified-metrics-loader-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-mechanism-confidence-engine-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/build-mechanism-confidence-engine-v0.2.ts",
+      "capability": "mechanism"
+    },
+    {
+      "name": "build-mechanism-discovery-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-mechanism-discovery-engine-v0.1.ts",
+      "capability": "mechanism"
+    },
+    {
+      "name": "build-mechanism-evidence-linker-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-mechanism-evidence-linker-v0.1.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "build-mechanism-learning-update-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-mechanism-learning-update-v0.1.ts",
+      "capability": "mechanism"
+    },
+    {
+      "name": "build-mechanism-lifecycle-promotion-gate-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/build-mechanism-lifecycle-promotion-gate-v0.2.ts",
+      "capability": "mechanism"
+    },
+    {
+      "name": "build-mechanism-lifecycle-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-mechanism-lifecycle-registry-v0.1.ts",
+      "capability": "mechanism"
+    },
+    {
+      "name": "build-mechanism-promotion-candidate-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-mechanism-promotion-candidate-engine-v0.1.ts",
+      "capability": "mechanism"
+    },
+    {
+      "name": "build-mechanism-reputation-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-mechanism-reputation-engine-v0.1.ts",
+      "capability": "mechanism"
+    },
+    {
+      "name": "build-mechanism-scoring-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-mechanism-scoring-engine-v0.1.ts",
+      "capability": "mechanism"
+    },
+    {
+      "name": "build-mechanism-trend-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-mechanism-trend-engine-v0.1.ts",
+      "capability": "mechanism"
+    },
+    {
+      "name": "build-mechanism-validation-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-mechanism-validation-registry-v0.1.ts",
+      "capability": "mechanism"
+    },
+    {
+      "name": "build-mechanism-validation-review-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-mechanism-validation-review-engine-v0.1.ts",
+      "capability": "mechanism"
+    },
+    {
+      "name": "build-mechanism-validation-review-queue-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-mechanism-validation-review-queue-v0.1.ts",
+      "capability": "mechanism"
+    },
+    {
+      "name": "build-memory-grading-registry.ts",
+      "path": "artifacts/api-server/src/scripts/build-memory-grading-registry.ts",
+      "capability": "learning_memory"
+    },
+    {
+      "name": "build-missing-sector-data-request-package-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-missing-sector-data-request-package-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-module-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-module-registry-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-monitoring-trigger-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-monitoring-trigger-engine-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-observation-memory-registry.ts",
+      "path": "artifacts/api-server/src/scripts/build-observation-memory-registry.ts",
+      "capability": "learning_memory"
+    },
+    {
+      "name": "build-official-release-candidate-extractor-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-official-release-candidate-extractor-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-official-source-fetch-target-package-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-official-source-fetch-target-package-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-official-statistics-table-extractor-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-official-statistics-table-extractor-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-openai-article-package-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-openai-article-package-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-openai-article-package-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/build-openai-article-package-v0.2.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-openai-article-package-v0.3.ts",
+      "path": "artifacts/api-server/src/scripts/build-openai-article-package-v0.3.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-openai-article-package-v0.4.ts",
+      "path": "artifacts/api-server/src/scripts/build-openai-article-package-v0.4.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-outcome-attribution-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-outcome-attribution-engine-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-outcome-comparison-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-outcome-comparison-engine-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-outcome-recommendations.ts",
+      "path": "artifacts/api-server/src/scripts/build-outcome-recommendations.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-outcome-recommendations.v0.1.backup.ts",
+      "path": "artifacts/api-server/src/scripts/build-outcome-recommendations.v0.1.backup.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-papa-replay-dashboard-package-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-papa-replay-dashboard-package-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-post-ingestion-comparison-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-post-ingestion-comparison-engine-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-prediction-accuracy-registry.ts",
+      "path": "artifacts/api-server/src/scripts/build-prediction-accuracy-registry.ts",
+      "capability": "forecast"
+    },
+    {
+      "name": "build-prediction-candidate-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-prediction-candidate-registry-v0.1.ts",
+      "capability": "forecast"
+    },
+    {
+      "name": "build-prediction-validation-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-prediction-validation-engine-v0.1.ts",
+      "capability": "forecast"
+    },
+    {
+      "name": "build-prediction-validation-registry.ts",
+      "path": "artifacts/api-server/src/scripts/build-prediction-validation-registry.ts",
+      "capability": "forecast"
+    },
+    {
+      "name": "build-principle-candidate-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-principle-candidate-registry-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-principle-candidate-registry.ts",
+      "path": "artifacts/api-server/src/scripts/build-principle-candidate-registry.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-principle-review-briefs-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-principle-review-briefs-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-principle-review-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-principle-review-registry-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-prioritized-evidence-discovery-queue-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-prioritized-evidence-discovery-queue-v0.1.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "build-production-promotion-gate-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-production-promotion-gate-v0.1.ts",
+      "capability": "governance"
+    },
+    {
+      "name": "build-publication-date-estimates.ts",
+      "path": "artifacts/api-server/src/scripts/build-publication-date-estimates.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-publication-package-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-publication-package-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-publication-readiness-gate-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-publication-readiness-gate-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-publication-readiness-summary-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-publication-readiness-summary-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-publication-source-authority-review-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-publication-source-authority-review-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-publication-transparency-panel-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-publication-transparency-panel-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-quant-gap-analysis-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-quant-gap-analysis-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-readiness-consistency-audit-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-readiness-consistency-audit-v0.1.ts",
+      "capability": "governance"
+    },
+    {
+      "name": "build-replay-analogue-summary-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-analogue-summary-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-audit-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-audit-engine-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-audit-summary-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-audit-summary-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-brainy-diagnosis-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-brainy-diagnosis-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-calibration-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-calibration-engine-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-calibration-engine-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-calibration-engine-v0.2.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-case-acquisition-queue-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-case-acquisition-queue-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-case-audit-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-case-audit-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-case-definitions-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-case-definitions-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-case-depth-audit-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-case-depth-audit-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-case-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-case-registry-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-case-registry-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-case-registry-v0.2.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-case-scoreboard-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-case-scoreboard-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-client-impact-assessment-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-client-impact-assessment-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-confidence-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-confidence-engine-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-confidence-history-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-confidence-history-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-coverage-assessment-registry.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-coverage-assessment-registry.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-dataset-evidence-bridge-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-dataset-evidence-bridge-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-decision-support-layer-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-decision-support-layer-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-depth-enrichment-queue-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-depth-enrichment-queue-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-evaluation-report-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-evaluation-report-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-evidence-files-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-evidence-files-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-evidence-mapping-queue-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-evidence-mapping-queue-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-evidence-population-plan-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-evidence-population-plan-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-evidence-populator-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-evidence-populator-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-evidence-validation-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-evidence-validation-engine-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-executor-dry-run-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-executor-dry-run-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-expansion-queue-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-expansion-queue-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-experience-accumulator-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-experience-accumulator-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-explanation-summary-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-explanation-summary-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-fleet-dry-run-executor-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-fleet-dry-run-executor-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-fleet-evaluation-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-fleet-evaluation-engine-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-fleet-learning-report-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-fleet-learning-report-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-fleet-manifest-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-fleet-manifest-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-fleet-queue-report-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-fleet-queue-report-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-fleet-registry-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-fleet-registry-v0.2.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-forecast-envelope-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-forecast-envelope-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-forecast-range-smurf-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-forecast-range-smurf-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-governance-history-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-governance-history-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-historian-snapshot-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-historian-snapshot-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-improvement-history-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-improvement-history-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-improvement-report-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-improvement-report-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-landscape-cartographer-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-landscape-cartographer-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-macro-acquisition-queue-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-macro-acquisition-queue-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-macro-anchor-expansion-queue-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-macro-anchor-expansion-queue-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-macro-event-coverage-map-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-macro-event-coverage-map-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-macro-event-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-macro-event-registry-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-macro-source-attachment-builder-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-macro-source-attachment-builder-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-macro-source-checklist-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-macro-source-checklist-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-macro-sourced-batch-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-macro-sourced-batch-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-mechanism-coverage-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-mechanism-coverage-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-mechanism-evidence-matrix-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-mechanism-evidence-matrix-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-mechanism-gap-report-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-mechanism-gap-report-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-mechanism-taxonomy-coverage-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-mechanism-taxonomy-coverage-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-predictions-similarity.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-predictions-similarity.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-predictions-similarity.v0.2.backup.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-predictions-similarity.v0.2.backup.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-predictions.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-predictions.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-proposal-dashboard-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-proposal-dashboard-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-publication-date-gate-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-publication-date-gate-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-quality-summary-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-quality-summary-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-readiness-check-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-readiness-check-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-sandbox-plan.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-sandbox-plan.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-sandbox-plan.v0.1.backup.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-sandbox-plan.v0.1.backup.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-scenario-library-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-scenario-library-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-self-improvement-orchestrator-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-self-improvement-orchestrator-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-shadow-execution-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-shadow-execution-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-support-engine-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-support-engine-v0.2.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-wave-1-pack-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-wave-1-pack-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-replay-wave-1-readiness-gate-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-replay-wave-1-readiness-gate-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-sandbox-ground-truth.ts",
+      "path": "artifacts/api-server/src/scripts/build-sandbox-ground-truth.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-secondary-driver-opportunity-registry.ts",
+      "path": "artifacts/api-server/src/scripts/build-secondary-driver-opportunity-registry.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-sector-indicator-candidate-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-sector-indicator-candidate-registry-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-sector-indicator-promotion-executor-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-sector-indicator-promotion-executor-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-sector-macro-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-sector-macro-registry-v0.1.ts",
+      "capability": "macro"
+    },
+    {
+      "name": "build-sector-manual-promotion-decision-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-sector-manual-promotion-decision-v0.1.ts",
+      "capability": "decision"
+    },
+    {
+      "name": "build-sector-metric-integrity-guard-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-sector-metric-integrity-guard-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-sector-performance-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-sector-performance-registry-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-sector-promotion-audit-report-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-sector-promotion-audit-report-v0.1.ts",
+      "capability": "governance"
+    },
+    {
+      "name": "build-sector-promotion-gate-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-sector-promotion-gate-v0.1.ts",
+      "capability": "governance"
+    },
+    {
+      "name": "build-signal-watchlist-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-signal-watchlist-registry-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-similarity-confidence-adjustment-layer-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-similarity-confidence-adjustment-layer-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-single-case-replay-runner-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-single-case-replay-runner-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-singstat-manufacturing-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-singstat-manufacturing-registry-v0.1.ts",
+      "capability": "dataset"
+    },
+    {
+      "name": "build-smurf-article-seed-from-opportunity-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-smurf-article-seed-from-opportunity-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-smurf-article-seed-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-smurf-article-seed-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "build-smurf-bi-candidate-manifest-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-smurf-bi-candidate-manifest-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-smurf-bi-index-html-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-smurf-bi-index-html-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-smurf-intelligence-snapshot-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-smurf-intelligence-snapshot-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-tablebuilder-fetch-target-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-tablebuilder-fetch-target-registry-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-tablebuilder-retrieval-workbench-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-tablebuilder-retrieval-workbench-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-tablebuilder-sector-performance-loader-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-tablebuilder-sector-performance-loader-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-temporal-index.ts",
+      "path": "artifacts/api-server/src/scripts/build-temporal-index.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-temporal-index.v0.1.backup.ts",
+      "path": "artifacts/api-server/src/scripts/build-temporal-index.v0.1.backup.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-validated-mechanism-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-validated-mechanism-registry-v0.1.ts",
+      "capability": "mechanism"
+    },
+    {
+      "name": "build-validation-readiness-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-validation-readiness-engine-v0.1.ts",
+      "capability": "governance"
+    },
+    {
+      "name": "build-verified-dataset-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-verified-dataset-registry-v0.1.ts",
+      "capability": "dataset"
+    },
+    {
+      "name": "build-verified-graph-readiness-review-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-verified-graph-readiness-review-v0.1.ts",
+      "capability": "graph"
+    },
+    {
+      "name": "build-verified-metrics-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-verified-metrics-registry-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-wave-1-batch-evidence-populator-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-wave-1-batch-evidence-populator-v0.1.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "build-wave-1-batch-evidence-validation-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-wave-1-batch-evidence-validation-v0.1.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "build-wave-1-batch-experience-promotion-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-wave-1-batch-experience-promotion-v0.1.ts",
+      "capability": "learning_memory"
+    },
+    {
+      "name": "build-wave-1-batch-outcome-comparison-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-wave-1-batch-outcome-comparison-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "build-wave-1-batch-replay-runner-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-wave-1-batch-replay-runner-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "build-wave-1-learning-refresh-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-wave-1-learning-refresh-v0.1.ts",
+      "capability": "learning_memory"
+    },
+    {
+      "name": "case-completeness-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/case-completeness-engine-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "classify-archived-documents.ts",
+      "path": "artifacts/api-server/src/scripts/classify-archived-documents.ts",
+      "capability": "other"
+    },
+    {
+      "name": "close-case-with-outcome.ts",
+      "path": "artifacts/api-server/src/scripts/close-case-with-outcome.ts",
+      "capability": "other"
+    },
+    {
+      "name": "close-case-with-outcome.v0.1.backup.ts",
+      "path": "artifacts/api-server/src/scripts/close-case-with-outcome.v0.1.backup.ts",
+      "capability": "other"
+    },
+    {
+      "name": "create-ingestion-batch-manifest-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/create-ingestion-batch-manifest-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "create-replay-run-manifest-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/create-replay-run-manifest-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "discover-new-metrics.ts",
+      "path": "artifacts/api-server/src/scripts/discover-new-metrics.ts",
+      "capability": "other"
+    },
+    {
+      "name": "discover-singstat-table-rows-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/discover-singstat-table-rows-v0.1.ts",
+      "capability": "dataset"
+    },
+    {
+      "name": "download-source-dataset-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/download-source-dataset-v0.1.ts",
+      "capability": "dataset"
+    },
+    {
+      "name": "enrich-hypotheses-with-similarity.ts",
+      "path": "artifacts/api-server/src/scripts/enrich-hypotheses-with-similarity.ts",
+      "capability": "other"
+    },
+    {
+      "name": "extract-document-candidates.ts",
+      "path": "artifacts/api-server/src/scripts/extract-document-candidates.ts",
+      "capability": "other"
+    },
+    {
+      "name": "extract-evidence-from-summary-v2.ts",
+      "path": "artifacts/api-server/src/scripts/extract-evidence-from-summary-v2.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "extract-evidence-from-summary-v3.ts",
+      "path": "artifacts/api-server/src/scripts/extract-evidence-from-summary-v3.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "extract-evidence-from-summary-v4.ts",
+      "path": "artifacts/api-server/src/scripts/extract-evidence-from-summary-v4.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "extract-evidence-from-summary-v5-before-business-outlook-routing.ts",
+      "path": "artifacts/api-server/src/scripts/extract-evidence-from-summary-v5-before-business-outlook-routing.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "extract-evidence-from-summary-v5-business-outlook-routing.ts",
+      "path": "artifacts/api-server/src/scripts/extract-evidence-from-summary-v5-business-outlook-routing.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "extract-evidence-from-summary-v5-pilot-approved.ts",
+      "path": "artifacts/api-server/src/scripts/extract-evidence-from-summary-v5-pilot-approved.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "extract-evidence-from-summary-v5.ts",
+      "path": "artifacts/api-server/src/scripts/extract-evidence-from-summary-v5.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "extract-evidence-from-summary.ts",
+      "path": "artifacts/api-server/src/scripts/extract-evidence-from-summary.ts",
+      "capability": "evidence"
+    },
+    {
+      "name": "generate-article-draft-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/generate-article-draft-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "generate-openai-article-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/generate-openai-article-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "generate-openai-article-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/generate-openai-article-v0.2.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "generate-openai-article-v0.3.ts",
+      "path": "artifacts/api-server/src/scripts/generate-openai-article-v0.3.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "generate-openai-article-v0.4.ts",
+      "path": "artifacts/api-server/src/scripts/generate-openai-article-v0.4.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "generate-replay-inputs-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/generate-replay-inputs-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "generate-replay-inputs-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/generate-replay-inputs-v0.2.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "load-csv-dataset-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/load-csv-dataset-v0.1.ts",
+      "capability": "dataset"
+    },
+    {
+      "name": "load-manual-dataset-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/load-manual-dataset-v0.1.ts",
+      "capability": "dataset"
+    },
+    {
+      "name": "load-metric-registry.ts",
+      "path": "artifacts/api-server/src/scripts/load-metric-registry.ts",
+      "capability": "other"
+    },
+    {
+      "name": "load-singstat-table-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/load-singstat-table-v0.1.ts",
+      "capability": "dataset"
+    },
+    {
+      "name": "load-singstat-table-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/load-singstat-table-v0.2.ts",
+      "capability": "dataset"
+    },
+    {
+      "name": "match-metric-from-registry.ts",
+      "path": "artifacts/api-server/src/scripts/match-metric-from-registry.ts",
+      "capability": "other"
+    },
+    {
+      "name": "merge-replay-historical-cases-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/merge-replay-historical-cases-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "promote-replay-proposal-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/promote-replay-proposal-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "publish-article-workbench-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/publish-article-workbench-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "publish-cms-draft-package-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/publish-cms-draft-package-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "publish-cms-publication-package-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/publish-cms-publication-package-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "publish-data-coverage-admin-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/publish-data-coverage-admin-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "publish-graph-specification-package-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/publish-graph-specification-package-v0.1.ts",
+      "capability": "graph"
+    },
+    {
+      "name": "register-macro-hardening-modules-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/register-macro-hardening-modules-v0.1.ts",
+      "capability": "macro"
+    },
+    {
+      "name": "reject-replay-proposal-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/reject-replay-proposal-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "render-graph-specification-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/render-graph-specification-v0.1.ts",
+      "capability": "graph"
+    },
+    {
+      "name": "render-graph-specification-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/render-graph-specification-v0.2.ts",
+      "capability": "graph"
+    },
+    {
+      "name": "render-graph-specification-v0.3.ts",
+      "path": "artifacts/api-server/src/scripts/render-graph-specification-v0.3.ts",
+      "capability": "graph"
+    },
+    {
+      "name": "reopen-case.ts",
+      "path": "artifacts/api-server/src/scripts/reopen-case.ts",
+      "capability": "other"
+    },
+    {
+      "name": "replay-improvement-proposal-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/replay-improvement-proposal-engine-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "replay-proposal-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/replay-proposal-registry-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "run-monitoring-check.ts",
+      "path": "artifacts/api-server/src/scripts/run-monitoring-check.ts",
+      "capability": "other"
+    },
+    {
+      "name": "run-replay-benchmark-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/run-replay-benchmark-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "run-replay-cycle.ts",
+      "path": "artifacts/api-server/src/scripts/run-replay-cycle.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "run-replay-similarity-engine-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/run-replay-similarity-engine-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "run-replay-similarity-engine-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/run-replay-similarity-engine-v0.2.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "run-smurf-article-generator-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/run-smurf-article-generator-v0.1.ts",
+      "capability": "article_publication"
+    },
+    {
+      "name": "run-smurf-intelligence-cycle.ts",
+      "path": "artifacts/api-server/src/scripts/run-smurf-intelligence-cycle.ts",
+      "capability": "other"
+    },
+    {
+      "name": "score-replay-plan.ts",
+      "path": "artifacts/api-server/src/scripts/score-replay-plan.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "score-replay-predictions.ts",
+      "path": "artifacts/api-server/src/scripts/score-replay-predictions.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "search-singstat-tables-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/search-singstat-tables-v0.1.ts",
+      "capability": "dataset"
+    },
+    {
+      "name": "seed-admin.ts",
+      "path": "artifacts/api-server/src/scripts/seed-admin.ts",
+      "capability": "other"
+    },
+    {
+      "name": "seed-capacity-cluster-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/seed-capacity-cluster-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "seed-inventory-cluster-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/seed-inventory-cluster-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "seed-operational-disruption-cluster-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/seed-operational-disruption-cluster-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "seed-policy-cluster-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/seed-policy-cluster-v0.1.ts",
+      "capability": "other"
+    },
+    {
+      "name": "seed-replay-cluster-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/seed-replay-cluster-v0.1.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "seed-replay-cluster-v0.2.ts",
+      "path": "artifacts/api-server/src/scripts/seed-replay-cluster-v0.2.ts",
+      "capability": "replay"
+    },
+    {
+      "name": "test-metric-matching.ts",
+      "path": "artifacts/api-server/src/scripts/test-metric-matching.ts",
+      "capability": "other"
+    },
+    {
+      "name": "update-case-confidence.ts",
+      "path": "artifacts/api-server/src/scripts/update-case-confidence.ts",
+      "capability": "other"
+    },
+    {
+      "name": "update-case-history.ts",
+      "path": "artifacts/api-server/src/scripts/update-case-history.ts",
+      "capability": "historian"
+    },
+    {
+      "name": "update-case-state.ts",
+      "path": "artifacts/api-server/src/scripts/update-case-state.ts",
+      "capability": "other"
+    },
+    {
+      "name": "validate-metric-registry.ts",
+      "path": "artifacts/api-server/src/scripts/validate-metric-registry.ts",
+      "capability": "other"
+    },
+    {
+      "name": "verify-dataset-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/verify-dataset-v0.1.ts",
+      "capability": "dataset"
+    }
+  ],
+  "packages": [
+    {
+      "name": "approved-principles-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/approved-principles-registry-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "openai-article-package-v0.3.json",
+      "path": "artifacts/api-server/data/intelligence/archive/openai-article-package-v0.3.json",
+      "capability": "article_publication",
+      "extension": "json"
+    },
+    {
+      "name": "openai-generated-article-package-v0.3.json",
+      "path": "artifacts/api-server/data/intelligence/archive/openai-generated-article-package-v0.3.json",
+      "capability": "article_publication",
+      "extension": "json"
+    },
+    {
+      "name": "article-data-readiness-gate-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/article-data-readiness-gate-v0.1.json",
+      "capability": "article_publication",
+      "extension": "json"
+    },
+    {
+      "name": "article-draft-package-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/article-draft-package-v0.1.json",
+      "capability": "article_publication",
+      "extension": "json"
+    },
+    {
+      "name": "article-graph-attachment-package-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/article-graph-attachment-package-v0.1.json",
+      "capability": "article_publication",
+      "extension": "json"
+    },
+    {
+      "name": "article-intelligence-package-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/article-intelligence-package-v0.1.json",
+      "capability": "article_publication",
+      "extension": "json"
+    },
+    {
+      "name": "article-opportunity-queue-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/article-opportunity-queue-v0.1.json",
+      "capability": "article_publication",
+      "extension": "json"
+    },
+    {
+      "name": "article-preview-package-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/article-preview-package-v0.1.json",
+      "capability": "article_publication",
+      "extension": "json"
+    },
+    {
+      "name": "article-workbench-package-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/article-workbench-package-v0.1.json",
+      "capability": "article_publication",
+      "extension": "json"
+    },
+    {
+      "name": "article-workbench-package-v0.2.json",
+      "path": "artifacts/api-server/data/intelligence/article-workbench-package-v0.2.json",
+      "capability": "article_publication",
+      "extension": "json"
+    },
+    {
+      "name": "attribution-case-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/attribution-case-registry-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "attribution-evidence-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/attribution-evidence-registry-v0.1.json",
+      "capability": "evidence",
+      "extension": "json"
+    },
+    {
+      "name": "brief-quality-review-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/brief-quality-review-engine-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "bulk-ingestion-readiness-check-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/bulk-ingestion-readiness-check-v0.1.json",
+      "capability": "governance",
+      "extension": "json"
+    },
+    {
+      "name": "candidate-queue-v0.2.json",
+      "path": "artifacts/api-server/data/intelligence/candidate-queue-v0.2.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "case-construction-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/case-construction-engine-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "case-evolution-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/case-evolution-engine-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "case-fingerprints-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/case-fingerprints-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "case-similarity-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/case-similarity-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "CASE_SNAPSHOT_2026-06-08T08-34-16-202Z.json",
+      "path": "artifacts/api-server/data/intelligence/case-snapshots/CASE_SNAPSHOT_2026-06-08T08-34-16-202Z.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "case-timeline-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/case-timeline-engine-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "closure-readiness-audit-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/closure-readiness-audit-v0.1.json",
+      "capability": "governance",
+      "extension": "json"
+    },
+    {
+      "name": "cms-draft-package-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/cms-draft-package-v0.1.json",
+      "capability": "article_publication",
+      "extension": "json"
+    },
+    {
+      "name": "cms-publication-package-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/cms-publication-package-v0.1.json",
+      "capability": "article_publication",
+      "extension": "json"
+    },
+    {
+      "name": "confidence-framework-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/confidence-framework-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "controlled-bulk-ingestion-batch-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/controlled-bulk-ingestion-batch-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "controlled-staging-executor-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/controlled-staging-executor-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "counter-evidence-engine-v0.2.json",
+      "path": "artifacts/api-server/data/intelligence/counter-evidence-engine-v0.2.json",
+      "capability": "evidence",
+      "extension": "json"
+    },
+    {
+      "name": "counter-evidence-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/counter-evidence-registry-v0.1.json",
+      "capability": "evidence",
+      "extension": "json"
+    },
+    {
+      "name": "coverage-hardening-dashboard-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/coverage-hardening-dashboard-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "coverage-hardening-dashboard-v0.2.json",
+      "path": "artifacts/api-server/data/intelligence/coverage-hardening-dashboard-v0.2.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "data-request-queue-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/data-request-queue-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "dataset-consistency-audit-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/dataset-consistency-audit-v0.1.json",
+      "capability": "dataset",
+      "extension": "json"
+    },
+    {
+      "name": "dataset-coverage-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/dataset-coverage-engine-v0.1.json",
+      "capability": "dataset",
+      "extension": "json"
+    },
+    {
+      "name": "decision-support-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/decision-support-engine-v0.1.json",
+      "capability": "decision",
+      "extension": "json"
+    },
+    {
+      "name": "decision-support-engine-v0.2.json",
+      "path": "artifacts/api-server/data/intelligence/decision-support-engine-v0.2.json",
+      "capability": "decision",
+      "extension": "json"
+    },
+    {
+      "name": "driver-diversity-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/driver-diversity-engine-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "driver-observatory-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/driver-observatory-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "dry-run-duplicate-review-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/dry-run-duplicate-review-engine-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "early-warning-signal-skeleton-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/early-warning-signal-skeleton-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "evidence-assessment-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/evidence-assessment-engine-v0.1.json",
+      "capability": "evidence",
+      "extension": "json"
+    },
+    {
+      "name": "evidence-assessment-engine-v0.2.json",
+      "path": "artifacts/api-server/data/intelligence/evidence-assessment-engine-v0.2.json",
+      "capability": "evidence",
+      "extension": "json"
+    },
+    {
+      "name": "evidence-contradiction-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/evidence-contradiction-engine-v0.1.json",
+      "capability": "evidence",
+      "extension": "json"
+    },
+    {
+      "name": "evidence-deduplication-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/evidence-deduplication-engine-v0.1.json",
+      "capability": "evidence",
+      "extension": "json"
+    },
+    {
+      "name": "evidence-discovery-queue-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/evidence-discovery-queue-v0.1.json",
+      "capability": "evidence",
+      "extension": "json"
+    },
+    {
+      "name": "evidence-lineage-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/evidence-lineage-engine-v0.1.json",
+      "capability": "evidence",
+      "extension": "json"
+    },
+    {
+      "name": "experience-candidate-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/experience-candidate-registry-v0.1.json",
+      "capability": "learning_memory",
+      "extension": "json"
+    },
+    {
+      "name": "experience-confidence-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/experience-confidence-engine-v0.1.json",
+      "capability": "learning_memory",
+      "extension": "json"
+    },
+    {
+      "name": "experience-diversity-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/experience-diversity-registry-v0.1.json",
+      "capability": "learning_memory",
+      "extension": "json"
+    },
+    {
+      "name": "experience-extraction-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/experience-extraction-engine-v0.1.json",
+      "capability": "learning_memory",
+      "extension": "json"
+    },
+    {
+      "name": "experience-feedback-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/experience-feedback-registry-v0.1.json",
+      "capability": "learning_memory",
+      "extension": "json"
+    },
+    {
+      "name": "experience-pattern-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/experience-pattern-engine-v0.1.json",
+      "capability": "learning_memory",
+      "extension": "json"
+    },
+    {
+      "name": "experience-registry-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/experience-registry-engine-v0.1.json",
+      "capability": "learning_memory",
+      "extension": "json"
+    },
+    {
+      "name": "experience-registry-promotion-gate-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/experience-registry-promotion-gate-v0.1.json",
+      "capability": "governance",
+      "extension": "json"
+    },
+    {
+      "name": "experience-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/experience-registry-v0.1.json",
+      "capability": "learning_memory",
+      "extension": "json"
+    },
+    {
+      "name": "experience-registry-v0.2.json",
+      "path": "artifacts/api-server/data/intelligence/experience-registry-v0.2.json",
+      "capability": "learning_memory",
+      "extension": "json"
+    },
+    {
+      "name": "falsification-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/falsification-registry-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "graph-data-package-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/graph-data-package-v0.1.json",
+      "capability": "graph",
+      "extension": "json"
+    },
+    {
+      "name": "graph-specification-package-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/graph-specification-package-v0.1.json",
+      "capability": "graph",
+      "extension": "json"
+    },
+    {
+      "name": "historical-outcomes-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/historical-outcomes-v0.1.json",
+      "capability": "historian",
+      "extension": "json"
+    },
+    {
+      "name": "historical-outcomes-v0.2.json",
+      "path": "artifacts/api-server/data/intelligence/historical-outcomes-v0.2.json",
+      "capability": "historian",
+      "extension": "json"
+    },
+    {
+      "name": "historical-replay-attribution-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/historical-replay-attribution-engine-v0.1.json",
+      "capability": "replay",
+      "extension": "json"
+    },
+    {
+      "name": "hypothesis-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/hypothesis-registry-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "hypothesis-testing-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/hypothesis-testing-registry-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "insight-generator-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/insight-generator-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "intelligence-brief-generator-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/intelligence-brief-generator-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "intelligence-brief-generator-v0.2.json",
+      "path": "artifacts/api-server/data/intelligence/intelligence-brief-generator-v0.2.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "intelligence-confidence-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/intelligence-confidence-registry-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "intelligence-delta-brief-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/intelligence-delta-brief-engine-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "investigation-pack-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/investigation-pack-registry-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "learning-confidence-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/learning-confidence-engine-v0.1.json",
+      "capability": "learning_memory",
+      "extension": "json"
+    },
+    {
+      "name": "learning-confidence-engine-v0.2.json",
+      "path": "artifacts/api-server/data/intelligence/learning-confidence-engine-v0.2.json",
+      "capability": "learning_memory",
+      "extension": "json"
+    },
+    {
+      "name": "macro-attribution-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/macro-attribution-engine-v0.1.json",
+      "capability": "macro",
+      "extension": "json"
+    },
+    {
+      "name": "macro-attribution-engine-v0.2.json",
+      "path": "artifacts/api-server/data/intelligence/macro-attribution-engine-v0.2.json",
+      "capability": "macro",
+      "extension": "json"
+    },
+    {
+      "name": "macro-attribution-report-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/macro-attribution-report-v0.1.json",
+      "capability": "macro",
+      "extension": "json"
+    },
+    {
+      "name": "macro-attribution-report-v0.2.json",
+      "path": "artifacts/api-server/data/intelligence/macro-attribution-report-v0.2.json",
+      "capability": "macro",
+      "extension": "json"
+    },
+    {
+      "name": "macro-coverage-assessment-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/macro-coverage-assessment-v0.1.json",
+      "capability": "macro",
+      "extension": "json"
+    },
+    {
+      "name": "macro-domain-relevance-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/macro-domain-relevance-engine-v0.1.json",
+      "capability": "macro",
+      "extension": "json"
+    },
+    {
+      "name": "macro-driver-concentration-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/macro-driver-concentration-engine-v0.1.json",
+      "capability": "macro",
+      "extension": "json"
+    },
+    {
+      "name": "macro-hardening-intake-template-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/macro-hardening-intake-template-v0.1.json",
+      "capability": "macro",
+      "extension": "json"
+    },
+    {
+      "name": "macro-registry-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/macro-registry-engine-v0.1.json",
+      "capability": "macro",
+      "extension": "json"
+    },
+    {
+      "name": "macro-specificity-hardening-queue-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/macro-specificity-hardening-queue-v0.1.json",
+      "capability": "macro",
+      "extension": "json"
+    },
+    {
+      "name": "macro-transmission-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/macro-transmission-engine-v0.1.json",
+      "capability": "macro",
+      "extension": "json"
+    },
+    {
+      "name": "mandatory-findings-audit-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/mandatory-findings-audit-v0.1.json",
+      "capability": "governance",
+      "extension": "json"
+    },
+    {
+      "name": "SG_PETROLEUM_OUTPUT_INDEX.json",
+      "path": "artifacts/api-server/data/intelligence/manual-datasets/SG_PETROLEUM_OUTPUT_INDEX.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "mechanism-confidence-engine-v0.2.json",
+      "path": "artifacts/api-server/data/intelligence/mechanism-confidence-engine-v0.2.json",
+      "capability": "mechanism",
+      "extension": "json"
+    },
+    {
+      "name": "mechanism-discovery-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/mechanism-discovery-engine-v0.1.json",
+      "capability": "mechanism",
+      "extension": "json"
+    },
+    {
+      "name": "mechanism-evidence-linker-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/mechanism-evidence-linker-v0.1.json",
+      "capability": "evidence",
+      "extension": "json"
+    },
+    {
+      "name": "mechanism-learning-update-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/mechanism-learning-update-v0.1.json",
+      "capability": "mechanism",
+      "extension": "json"
+    },
+    {
+      "name": "mechanism-lifecycle-promotion-gate-v0.2.json",
+      "path": "artifacts/api-server/data/intelligence/mechanism-lifecycle-promotion-gate-v0.2.json",
+      "capability": "mechanism",
+      "extension": "json"
+    },
+    {
+      "name": "mechanism-lifecycle-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/mechanism-lifecycle-registry-v0.1.json",
+      "capability": "mechanism",
+      "extension": "json"
+    },
+    {
+      "name": "mechanism-promotion-candidate-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/mechanism-promotion-candidate-engine-v0.1.json",
+      "capability": "mechanism",
+      "extension": "json"
+    },
+    {
+      "name": "mechanism-reputation-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/mechanism-reputation-engine-v0.1.json",
+      "capability": "mechanism",
+      "extension": "json"
+    },
+    {
+      "name": "mechanism-scoring-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/mechanism-scoring-engine-v0.1.json",
+      "capability": "mechanism",
+      "extension": "json"
+    },
+    {
+      "name": "mechanism-trend-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/mechanism-trend-engine-v0.1.json",
+      "capability": "mechanism",
+      "extension": "json"
+    },
+    {
+      "name": "mechanism-validation-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/mechanism-validation-registry-v0.1.json",
+      "capability": "mechanism",
+      "extension": "json"
+    },
+    {
+      "name": "mechanism-validation-review-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/mechanism-validation-review-engine-v0.1.json",
+      "capability": "mechanism",
+      "extension": "json"
+    },
+    {
+      "name": "mechanism-validation-review-queue-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/mechanism-validation-review-queue-v0.1.json",
+      "capability": "mechanism",
+      "extension": "json"
+    },
+    {
+      "name": "mechanism-validation-review-queue-v0.2.json",
+      "path": "artifacts/api-server/data/intelligence/mechanism-validation-review-queue-v0.2.json",
+      "capability": "mechanism",
+      "extension": "json"
+    },
+    {
+      "name": "memory-grading-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/memory-grading-registry-v0.1.json",
+      "capability": "learning_memory",
+      "extension": "json"
+    },
+    {
+      "name": "monitoring-trigger-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/monitoring-trigger-engine-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "observation-memory-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/observation-memory-registry-v0.1.json",
+      "capability": "learning_memory",
+      "extension": "json"
+    },
+    {
+      "name": "openai-article-audit-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/openai-article-audit-v0.1.json",
+      "capability": "article_publication",
+      "extension": "json"
+    },
+    {
+      "name": "openai-article-audit-v0.2.json",
+      "path": "artifacts/api-server/data/intelligence/openai-article-audit-v0.2.json",
+      "capability": "article_publication",
+      "extension": "json"
+    },
+    {
+      "name": "openai-article-package-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/openai-article-package-v0.1.json",
+      "capability": "article_publication",
+      "extension": "json"
+    },
+    {
+      "name": "openai-article-package-v0.2.json",
+      "path": "artifacts/api-server/data/intelligence/openai-article-package-v0.2.json",
+      "capability": "article_publication",
+      "extension": "json"
+    },
+    {
+      "name": "openai-article-package-v0.4.json",
+      "path": "artifacts/api-server/data/intelligence/openai-article-package-v0.4.json",
+      "capability": "article_publication",
+      "extension": "json"
+    },
+    {
+      "name": "openai-generated-article-package-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/openai-generated-article-package-v0.1.json",
+      "capability": "article_publication",
+      "extension": "json"
+    },
+    {
+      "name": "openai-generated-article-package-v0.2.json",
+      "path": "artifacts/api-server/data/intelligence/openai-generated-article-package-v0.2.json",
+      "capability": "article_publication",
+      "extension": "json"
+    },
+    {
+      "name": "openai-generated-article-package-v0.4.json",
+      "path": "artifacts/api-server/data/intelligence/openai-generated-article-package-v0.4.json",
+      "capability": "article_publication",
+      "extension": "json"
+    },
+    {
+      "name": "outcome-attribution-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/outcome-attribution-engine-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "outcome-justification-audit-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/outcome-justification-audit-v0.1.json",
+      "capability": "governance",
+      "extension": "json"
+    },
+    {
+      "name": "outcome-recommendations-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/outcome-recommendations-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "SG_BIOMEDICAL_OUTPUT_INDEX.json",
+      "path": "artifacts/api-server/data/intelligence/parsed-datasets/SG_BIOMEDICAL_OUTPUT_INDEX.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "SG_CHEMICALS_OUTPUT_INDEX.json",
+      "path": "artifacts/api-server/data/intelligence/parsed-datasets/SG_CHEMICALS_OUTPUT_INDEX.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "SG_PETROLEUM_OUTPUT_INDEX.json",
+      "path": "artifacts/api-server/data/intelligence/parsed-datasets/SG_PETROLEUM_OUTPUT_INDEX.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "SG_PRECISION_ENGINEERING_OUTPUT_INDEX.json",
+      "path": "artifacts/api-server/data/intelligence/parsed-datasets/SG_PRECISION_ENGINEERING_OUTPUT_INDEX.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "SG_SEMICONDUCTOR_OUTPUT_INDEX.json",
+      "path": "artifacts/api-server/data/intelligence/parsed-datasets/SG_SEMICONDUCTOR_OUTPUT_INDEX.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.json",
+      "path": "artifacts/api-server/data/intelligence/parsed-datasets/SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.json",
+      "path": "artifacts/api-server/data/intelligence/parsed-datasets/SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "post-ingestion-comparison-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/post-ingestion-comparison-engine-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "prediction-accuracy-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/prediction-accuracy-registry-v0.1.json",
+      "capability": "forecast",
+      "extension": "json"
+    },
+    {
+      "name": "prediction-candidate-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/prediction-candidate-registry-v0.1.json",
+      "capability": "forecast",
+      "extension": "json"
+    },
+    {
+      "name": "prediction-validation-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/prediction-validation-engine-v0.1.json",
+      "capability": "forecast",
+      "extension": "json"
+    },
+    {
+      "name": "prediction-validation-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/prediction-validation-registry-v0.1.json",
+      "capability": "forecast",
+      "extension": "json"
+    },
+    {
+      "name": "principle-candidate-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/principle-candidate-registry-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "principle-review-briefs-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/principle-review-briefs-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "principle-review-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/principle-review-registry-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "prioritized-evidence-discovery-queue-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/prioritized-evidence-discovery-queue-v0.1.json",
+      "capability": "evidence",
+      "extension": "json"
+    },
+    {
+      "name": "znbw-editorial-protocol-v1.backup.json",
+      "path": "artifacts/api-server/data/intelligence/protocols/znbw-editorial-protocol-v1.backup.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "znbw-editorial-protocol-v1.json",
+      "path": "artifacts/api-server/data/intelligence/protocols/znbw-editorial-protocol-v1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "publication-readiness-summary-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/publication-readiness-summary-v0.1.json",
+      "capability": "article_publication",
+      "extension": "json"
+    },
+    {
+      "name": "SG_BIOMEDICAL_OUTPUT_INDEX.csv",
+      "path": "artifacts/api-server/data/intelligence/raw-downloads/SG_BIOMEDICAL_OUTPUT_INDEX.csv",
+      "capability": "other",
+      "extension": "csv"
+    },
+    {
+      "name": "SG_BIOMEDICAL_OUTPUT_INDEX.singstat.json",
+      "path": "artifacts/api-server/data/intelligence/raw-downloads/SG_BIOMEDICAL_OUTPUT_INDEX.singstat.json",
+      "capability": "dataset",
+      "extension": "json"
+    },
+    {
+      "name": "SG_CHEMICALS_OUTPUT_INDEX.csv",
+      "path": "artifacts/api-server/data/intelligence/raw-downloads/SG_CHEMICALS_OUTPUT_INDEX.csv",
+      "capability": "other",
+      "extension": "csv"
+    },
+    {
+      "name": "SG_CHEMICALS_OUTPUT_INDEX.singstat.json",
+      "path": "artifacts/api-server/data/intelligence/raw-downloads/SG_CHEMICALS_OUTPUT_INDEX.singstat.json",
+      "capability": "dataset",
+      "extension": "json"
+    },
+    {
+      "name": "SG_PETROLEUM_OUTPUT_INDEX.csv",
+      "path": "artifacts/api-server/data/intelligence/raw-downloads/SG_PETROLEUM_OUTPUT_INDEX.csv",
+      "capability": "other",
+      "extension": "csv"
+    },
+    {
+      "name": "SG_PETROLEUM_OUTPUT_INDEX.singstat.json",
+      "path": "artifacts/api-server/data/intelligence/raw-downloads/SG_PETROLEUM_OUTPUT_INDEX.singstat.json",
+      "capability": "dataset",
+      "extension": "json"
+    },
+    {
+      "name": "SG_PRECISION_ENGINEERING_OUTPUT_INDEX.csv",
+      "path": "artifacts/api-server/data/intelligence/raw-downloads/SG_PRECISION_ENGINEERING_OUTPUT_INDEX.csv",
+      "capability": "other",
+      "extension": "csv"
+    },
+    {
+      "name": "SG_PRECISION_ENGINEERING_OUTPUT_INDEX.singstat.json",
+      "path": "artifacts/api-server/data/intelligence/raw-downloads/SG_PRECISION_ENGINEERING_OUTPUT_INDEX.singstat.json",
+      "capability": "dataset",
+      "extension": "json"
+    },
+    {
+      "name": "SG_SEMICONDUCTOR_OUTPUT_INDEX.csv",
+      "path": "artifacts/api-server/data/intelligence/raw-downloads/SG_SEMICONDUCTOR_OUTPUT_INDEX.csv",
+      "capability": "other",
+      "extension": "csv"
+    },
+    {
+      "name": "SG_SEMICONDUCTOR_OUTPUT_INDEX.singstat.json",
+      "path": "artifacts/api-server/data/intelligence/raw-downloads/SG_SEMICONDUCTOR_OUTPUT_INDEX.singstat.json",
+      "capability": "dataset",
+      "extension": "json"
+    },
+    {
+      "name": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.csv",
+      "path": "artifacts/api-server/data/intelligence/raw-downloads/SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.csv",
+      "capability": "other",
+      "extension": "csv"
+    },
+    {
+      "name": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.singstat.json",
+      "path": "artifacts/api-server/data/intelligence/raw-downloads/SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.singstat.json",
+      "capability": "dataset",
+      "extension": "json"
+    },
+    {
+      "name": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.csv",
+      "path": "artifacts/api-server/data/intelligence/raw-downloads/SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.csv",
+      "capability": "other",
+      "extension": "csv"
+    },
+    {
+      "name": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.singstat.json",
+      "path": "artifacts/api-server/data/intelligence/raw-downloads/SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.singstat.json",
+      "capability": "dataset",
+      "extension": "json"
+    },
+    {
+      "name": "readiness-consistency-audit-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/readiness-consistency-audit-v0.1.json",
+      "capability": "governance",
+      "extension": "json"
+    },
+    {
+      "name": "replay-coverage-assessment-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/replay-coverage-assessment-registry-v0.1.json",
+      "capability": "replay",
+      "extension": "json"
+    },
+    {
+      "name": "replay-experience-accumulator-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/replay-experience-accumulator-v0.1.json",
+      "capability": "replay",
+      "extension": "json"
+    },
+    {
+      "name": "replay-experience-accumulator-v0.2.json",
+      "path": "artifacts/api-server/data/intelligence/replay-experience-accumulator-v0.2.json",
+      "capability": "replay",
+      "extension": "json"
+    },
+    {
+      "name": "replay-mechanism-evidence-matrix-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/replay-mechanism-evidence-matrix-v0.1.json",
+      "capability": "replay",
+      "extension": "json"
+    },
+    {
+      "name": "replay-support-engine-v0.2.json",
+      "path": "artifacts/api-server/data/intelligence/replay-support-engine-v0.2.json",
+      "capability": "replay",
+      "extension": "json"
+    },
+    {
+      "name": "secondary-driver-opportunity-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/secondary-driver-opportunity-registry-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "sector-indicator-candidate-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/sector-indicator-candidate-registry-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "sector-indicator-promotion-executor-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/sector-indicator-promotion-executor-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "sector-macro-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/sector-macro-registry-v0.1.json",
+      "capability": "macro",
+      "extension": "json"
+    },
+    {
+      "name": "sector-manual-promotion-decision-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/sector-manual-promotion-decision-v0.1.json",
+      "capability": "decision",
+      "extension": "json"
+    },
+    {
+      "name": "sector-promotion-gate-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/sector-promotion-gate-v0.1.json",
+      "capability": "governance",
+      "extension": "json"
+    },
+    {
+      "name": "signal-watchlist-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/signal-watchlist-registry-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "similarity-confidence-adjustment-layer-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/similarity-confidence-adjustment-layer-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "SG_BIOMEDICAL_OUTPUT_INDEX.json",
+      "path": "artifacts/api-server/data/intelligence/source-download-config/SG_BIOMEDICAL_OUTPUT_INDEX.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "SG_CHEMICALS_OUTPUT_INDEX.json",
+      "path": "artifacts/api-server/data/intelligence/source-download-config/SG_CHEMICALS_OUTPUT_INDEX.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "SG_PETROLEUM_OUTPUT_INDEX.json",
+      "path": "artifacts/api-server/data/intelligence/source-download-config/SG_PETROLEUM_OUTPUT_INDEX.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "SG_PRECISION_ENGINEERING_OUTPUT_INDEX.json",
+      "path": "artifacts/api-server/data/intelligence/source-download-config/SG_PRECISION_ENGINEERING_OUTPUT_INDEX.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "SG_SEMICONDUCTOR_OUTPUT_INDEX.json",
+      "path": "artifacts/api-server/data/intelligence/source-download-config/SG_SEMICONDUCTOR_OUTPUT_INDEX.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.json",
+      "path": "artifacts/api-server/data/intelligence/source-download-config/SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.json",
+      "path": "artifacts/api-server/data/intelligence/source-download-config/SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "validated-mechanism-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/validated-mechanism-registry-v0.1.json",
+      "capability": "mechanism",
+      "extension": "json"
+    },
+    {
+      "name": "validation-readiness-engine-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/validation-readiness-engine-v0.1.json",
+      "capability": "governance",
+      "extension": "json"
+    },
+    {
+      "name": "verified-dataset-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/verified-dataset-registry-v0.1.json",
+      "capability": "dataset",
+      "extension": "json"
+    },
+    {
+      "name": "wave-1-batch-experience-promotion-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/wave-1-batch-experience-promotion-v0.1.json",
+      "capability": "learning_memory",
+      "extension": "json"
+    }
+  ],
+  "recommended_use": "The Intelligence Warehouse UI should consume this registry instead of hardcoded counts."
+}
