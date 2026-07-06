@@ -163,11 +163,21 @@ const output = {
   packages,
 };
 
+const outputFileName = "dependency-registry-v0.1.json";
+const runtimeOutputDir = "/var/www/zenith-admin/intelligence-data";
+const runtimeOutputPath = path.join(runtimeOutputDir, outputFileName);
+
 fs.mkdirSync(path.dirname(OUTPUT_PATH), { recursive: true });
 fs.writeFileSync(OUTPUT_PATH, JSON.stringify(output, null, 2));
+
+if (fs.existsSync("/var/www/zenith-admin")) {
+  fs.mkdirSync(runtimeOutputDir, { recursive: true });
+  fs.copyFileSync(OUTPUT_PATH, runtimeOutputPath);
+}
 
 console.log({
   registry_version: output.registry_version,
   output: "data/intelligence/dependency-registry-v0.1.json",
+  runtime_output: fs.existsSync(runtimeOutputPath) ? runtimeOutputPath : null,
   summary: output.summary,
 });

@@ -1,6 +1,6 @@
 {
   "registry_version": "dependency-registry-v0.1",
-  "generated_at": "2026-07-06T10:01:30.370Z",
+  "generated_at": "2026-07-06T10:46:20.875Z",
   "doctrine": {
     "dependencies_are_inferred_from_filesystem_references": true,
     "registry_is_discovery_not_truth": true,
@@ -19,7 +19,7 @@
     "packages_with_producers": 38,
     "packages_with_consumers": 138,
     "orphan_outputs": 5,
-    "referenced_missing_packages": 4
+    "referenced_missing_packages": 3
   },
   "ecosystems": {
     "article_publication": 54,
@@ -6415,7 +6415,7 @@
       ],
       "producer_count": 0,
       "consumer_count": 1,
-      "status": "referenced_missing"
+      "status": "exists"
     },
     {
       "package_path": "data/intelligence/driver-diversity-engine-v0.1.json",

@@ -1,6 +1,6 @@
 {
   "version": "intelligence-warehouse-registry-v0.1",
-  "generated_at": "2026-07-06T07:05:33.772Z",
+  "generated_at": "2026-07-06T10:46:19.502Z",
   "doctrine": "Read-only discovery registry for surfacing existing intelligence assets before H5.1 implementation.",
   "scope": {
     "api_root": "/opt/Zenith-Bridge-Gateway/artifacts/api-server",
@@ -9,11 +9,11 @@
     "intelligence_data_dir": "artifacts/api-server/data/intelligence"
   },
   "summary": {
-    "engine_count": 392,
-    "intelligence_file_count": 172,
+    "engine_count": 393,
+    "intelligence_file_count": 176,
     "engine_capability_counts": {
       "replay": 90,
-      "other": 115,
+      "other": 116,
       "governance": 11,
       "evidence": 35,
       "article_publication": 52,
@@ -27,8 +27,8 @@
       "forecast": 4
     },
     "package_capability_counts": {
-      "other": 65,
-      "article_publication": 21,
+      "other": 67,
+      "article_publication": 23,
       "evidence": 11,
       "governance": 8,
       "dataset": 10,
@@ -462,6 +462,11 @@
       "name": "build-decision-support-engine-v0.2.ts",
       "path": "artifacts/api-server/src/scripts/build-decision-support-engine-v0.2.ts",
       "capability": "decision"
+    },
+    {
+      "name": "build-dependency-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-dependency-registry-v0.1.ts",
+      "capability": "other"
     },
     {
       "name": "build-document-registry.ts",
@@ -2243,6 +2248,12 @@
       "extension": "json"
     },
     {
+      "name": "dependency-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/dependency-registry-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
       "name": "driver-diversity-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/driver-diversity-engine-v0.1.json",
       "capability": "other",
@@ -2437,6 +2448,12 @@
     {
       "name": "intelligence-delta-brief-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/intelligence-delta-brief-engine-v0.1.json",
+      "capability": "other",
+      "extension": "json"
+    },
+    {
+      "name": "intelligence-warehouse-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/intelligence-warehouse-registry-v0.1.json",
       "capability": "other",
       "extension": "json"
     },
@@ -2663,6 +2680,12 @@
       "extension": "json"
     },
     {
+      "name": "openai-article-package-v0.3.json",
+      "path": "artifacts/api-server/data/intelligence/openai-article-package-v0.3.json",
+      "capability": "article_publication",
+      "extension": "json"
+    },
+    {
       "name": "openai-article-package-v0.4.json",
       "path": "artifacts/api-server/data/intelligence/openai-article-package-v0.4.json",
       "capability": "article_publication",
@@ -2677,6 +2700,12 @@
     {
       "name": "openai-generated-article-package-v0.2.json",
       "path": "artifacts/api-server/data/intelligence/openai-generated-article-package-v0.2.json",
+      "capability": "article_publication",
+      "extension": "json"
+    },
+    {
+      "name": "openai-generated-article-package-v0.3.json",
+      "path": "artifacts/api-server/data/intelligence/openai-generated-article-package-v0.3.json",
       "capability": "article_publication",
       "extension": "json"
     },

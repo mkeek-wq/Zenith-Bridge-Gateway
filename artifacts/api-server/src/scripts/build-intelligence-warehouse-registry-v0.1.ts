@@ -118,15 +118,26 @@ const registry = {
     "The Intelligence Warehouse UI should consume this registry instead of hardcoded counts.",
 };
 
+const outputFileName = "intelligence-warehouse-registry-v0.1.json";
+
 const outputPath = path.join(
   intelligenceDataDir,
-  "intelligence-warehouse-registry-v0.1.json"
+  outputFileName
 );
+
+const runtimeOutputDir = "/var/www/zenith-admin/intelligence-data";
+const runtimeOutputPath = path.join(runtimeOutputDir, outputFileName);
 
 fs.writeFileSync(outputPath, JSON.stringify(registry, null, 2));
 
+if (fs.existsSync("/var/www/zenith-admin")) {
+  fs.mkdirSync(runtimeOutputDir, { recursive: true });
+  fs.copyFileSync(outputPath, runtimeOutputPath);
+}
+
 console.log({
   output: outputPath,
+  runtime_output: fs.existsSync(runtimeOutputPath) ? runtimeOutputPath : null,
   engine_count: registry.summary.engine_count,
   intelligence_file_count: registry.summary.intelligence_file_count,
   engine_capability_counts: registry.summary.engine_capability_counts,
