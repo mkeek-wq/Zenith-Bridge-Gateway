@@ -19,6 +19,7 @@ import ArticleWorkbench from "./pages/ArticleWorkbench";
 import PublicationQueue from "./pages/PublicationQueue";
 import CmsPackageIntake from "./pages/CmsPackageIntake";
 import HygieneCenter from "./pages/HygieneCenter";
+import IntelligenceWarehouse from "./pages/IntelligenceWarehouse";
 
 export default function App({ auth }: any) {
   const status =
@@ -167,7 +168,20 @@ export default function App({ auth }: any) {
               : <Navigate to="/login" replace />
           }
         />
-
+        
+        <Route
+         path="/intelligence-warehouse"
+         element={
+           status === "authenticated"
+             ? (
+               <AdminLayout>
+                 <IntelligenceWarehouse />
+               </AdminLayout>
+             )
+             : <Navigate to="/login" replace />
+         }
+        />
+        
         <Route
           path="/intelligence-graph-packages"
           element={
