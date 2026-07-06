@@ -113,6 +113,20 @@ export default function DependencyExplorer() {
       .slice(0, 50);
   }, [registry]);
 
+  const dormantScripts = useMemo(() => {
+    if (!registry) return [];
+
+    return registry.scripts
+      .filter(
+        (script) =>
+          script.read_count === 0 &&
+          script.write_count === 0 &&
+          script.fan_in === 0 &&
+          script.fan_out === 0
+      )
+      .slice(0, 50);
+  }, [registry]);
+
   const topFanIn = useMemo(() => {
     if (!registry) return [];
 
@@ -134,7 +148,7 @@ export default function DependencyExplorer() {
   return (
     <div className="cms-page">
       <section className="cms-card">
-        <p className="cms-kicker">Phase H5.2 · Dependency Visibility</p>
+        <p className="cms-kicker">Phase H5.2.3 · Dependency Health</p>
         <h1>🕸️ Dependency Explorer</h1>
         <p>
           Repository-wide visibility layer for inferred script and package dependencies.
@@ -211,6 +225,33 @@ export default function DependencyExplorer() {
             </p>
           </section>
 
+          <section
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+              gap: 16,
+              marginTop: 16,
+            }}
+          >
+            <section className="cms-card">
+              <p className="cms-kicker">Dormant Scripts</p>
+              <h2>{dormantScripts.length}</h2>
+              <p>Scripts with no reads, writes, fan-in or fan-out.</p>
+            </section>
+
+            <section className="cms-card">
+              <p className="cms-kicker">Orphan Outputs</p>
+              <h2>{orphanPackages.length}</h2>
+              <p>Produced packages that are currently not consumed.</p>
+            </section>
+
+            <section className="cms-card">
+              <p className="cms-kicker">Missing Dependencies</p>
+              <h2>{missingPackages.length}</h2>
+              <p>Referenced packages that cannot be resolved.</p>
+            </section>
+          </section>
+
           <section className="cms-card" style={{ marginTop: 16 }}>
             <p className="cms-kicker">Ecosystem Filter</p>
             <h2>Script Explorer</h2>
@@ -271,7 +312,7 @@ export default function DependencyExplorer() {
             </div>
           </section>
 
-          <section style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16, marginTop: 16 }}>
+          <section style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: 16, marginTop: 16 }}>
             <section className="cms-card">
               <p className="cms-kicker">Top Fan-In</p>
               <h2>Most Depended-Upon Scripts</h2>
@@ -306,6 +347,32 @@ export default function DependencyExplorer() {
           </section>
 
           <section className="cms-card" style={{ marginTop: 16 }}>
+            <p className="cms-kicker">Dormant Scripts</p>
+            <h2>Potential Dead or Future Systems</h2>
+
+            <p className="cms-muted">
+              Scripts without inferred dependencies or package interactions.
+            </p>
+
+            <div style={{ display: "grid", gap: 8 }}>
+              {dormantScripts.map((script) => (
+                <div
+                  key={script.script_path}
+                  style={{
+                    borderBottom: "1px solid var(--border)",
+                    paddingBottom: 8,
+                  }}
+                >
+                  <strong>{script.script_name}</strong>
+                  <p className="cms-muted" style={{ margin: 0 }}>
+                    {formatLabel(script.ecosystem)}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          <section className="cms-card" style={{ marginTop: 16 }}>
             <p className="cms-kicker">Packages</p>
             <h2>Package Dependency Registry</h2>
             <p className="cms-muted">
@@ -333,7 +400,7 @@ export default function DependencyExplorer() {
             </div>
           </section>
 
-          <section style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16, marginTop: 16 }}>
+          <section style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: 16, marginTop: 16 }}>
             <section className="cms-card">
               <p className="cms-kicker">Orphan Outputs</p>
               <h2>Produced but Not Consumed</h2>
