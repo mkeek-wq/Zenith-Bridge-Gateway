@@ -1,0 +1,19 @@
+artifacts/api-server/src/scripts/build-official-source-fetch-target-package-v0.1.ts:    "pnpm tsx src/scripts/build-institutional-graph-bridge-v0.1.ts"
+artifacts/api-server/src/scripts/build-official-source-fetch-target-package-v0.1.ts:    "pnpm tsx src/scripts/build-sector-performance-registry-v0.1.ts",
+artifacts/api-server/src/scripts/build-replay-predictions-similarity.ts:      "pnpm tsx src/scripts/build-replay-predictions-similarity.ts <replay_plan_path>",
+artifacts/api-server/src/scripts/build-replay-predictions-similarity.ts:      "pnpm tsx src/scripts/build-replay-predictions-similarity.ts data/replay-sandbox/replay-plan-2026-06-03T09-00-00.000Z.json",
+artifacts/api-server/src/scripts/build-replay-predictions-similarity.v0.2.backup.ts:      "pnpm tsx src/scripts/build-replay-predictions-similarity.ts <replay_plan_path>",
+artifacts/api-server/src/scripts/build-replay-predictions-similarity.v0.2.backup.ts:      "pnpm tsx src/scripts/build-replay-predictions-similarity.ts data/replay-sandbox/replay-plan-2026-06-03T09-00-00.000Z.json",
+artifacts/api-server/src/scripts/build-replay-predictions.ts:      "pnpm tsx src/scripts/build-replay-predictions.ts <replay_plan_path>",
+artifacts/api-server/src/scripts/build-replay-predictions.ts:      "pnpm tsx src/scripts/build-replay-predictions.ts data/replay-sandbox/replay-plan-2026-06-03T09-00-00.000Z.json",
+artifacts/api-server/src/scripts/build-replay-sandbox-plan.ts:      "pnpm tsx src/scripts/build-replay-sandbox-plan.ts 2026-05-27T00:00:00.000Z",
+artifacts/api-server/src/scripts/build-replay-sandbox-plan.ts:      "pnpm tsx src/scripts/build-replay-sandbox-plan.ts <replay_date>",
+artifacts/api-server/src/scripts/build-replay-sandbox-plan.v0.1.backup.ts:      "pnpm tsx src/scripts/build-replay-sandbox-plan.ts 2026-06-02",
+artifacts/api-server/src/scripts/build-replay-sandbox-plan.v0.1.backup.ts:      "pnpm tsx src/scripts/build-replay-sandbox-plan.ts <replay_date>",
+artifacts/api-server/src/scripts/build-singstat-manufacturing-registry-v0.1.ts:  execSync(`pnpm tsx src/scripts/load-singstat-table-v0.1.ts ${item.dataset_id}`, {
+artifacts/api-server/src/scripts/build-singstat-manufacturing-registry-v0.1.ts:  execSync(`pnpm tsx src/scripts/verify-dataset-v0.1.ts ${item.dataset_id} verified`, {
+artifacts/api-server/src/scripts/build-singstat-manufacturing-registry-v0.1.ts:execSync("pnpm tsx src/scripts/build-dataset-coverage-engine-v0.1.ts", {
+artifacts/api-server/src/scripts/build-singstat-manufacturing-registry-v0.1.ts:execSync("pnpm tsx src/scripts/publish-data-coverage-admin-v0.1.ts", {
+scripts/node_modules/vite/package.json:    "build": "premove dist && pnpm build-bundle && pnpm build-types",
+scripts/node_modules/vite/package.json:    "build-types": "pnpm build-types-roll && pnpm build-types-check",
+scripts/node_modules/vite/package.json:    "dev": "premove dist && pnpm build-bundle -w",

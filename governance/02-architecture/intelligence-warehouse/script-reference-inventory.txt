@@ -1,0 +1,66 @@
+artifacts/api-server/src/scripts/build-official-source-fetch-target-package-v0.1.ts:58:    "pnpm tsx src/scripts/build-sector-performance-registry-v0.1.ts",
+artifacts/api-server/src/scripts/build-official-source-fetch-target-package-v0.1.ts:59:    "pnpm tsx src/scripts/build-institutional-graph-bridge-v0.1.ts"
+artifacts/api-server/src/scripts/build-replay-predictions-similarity.ts:22:      "pnpm tsx src/scripts/build-replay-predictions-similarity.ts <replay_plan_path>",
+artifacts/api-server/src/scripts/build-replay-predictions-similarity.ts:25:      "pnpm tsx src/scripts/build-replay-predictions-similarity.ts data/replay-sandbox/replay-plan-2026-06-03T09-00-00.000Z.json",
+artifacts/api-server/src/scripts/build-replay-predictions-similarity.v0.2.backup.ts:19:      "pnpm tsx src/scripts/build-replay-predictions-similarity.ts <replay_plan_path>",
+artifacts/api-server/src/scripts/build-replay-predictions-similarity.v0.2.backup.ts:22:      "pnpm tsx src/scripts/build-replay-predictions-similarity.ts data/replay-sandbox/replay-plan-2026-06-03T09-00-00.000Z.json",
+artifacts/api-server/src/scripts/build-replay-predictions.ts:12:      "pnpm tsx src/scripts/build-replay-predictions.ts <replay_plan_path>",
+artifacts/api-server/src/scripts/build-replay-predictions.ts:15:      "pnpm tsx src/scripts/build-replay-predictions.ts data/replay-sandbox/replay-plan-2026-06-03T09-00-00.000Z.json",
+artifacts/api-server/src/scripts/build-replay-sandbox-plan.ts:16:      "pnpm tsx src/scripts/build-replay-sandbox-plan.ts <replay_date>",
+artifacts/api-server/src/scripts/build-replay-sandbox-plan.ts:19:      "pnpm tsx src/scripts/build-replay-sandbox-plan.ts 2026-05-27T00:00:00.000Z",
+artifacts/api-server/src/scripts/build-replay-sandbox-plan.v0.1.backup.ts:15:      "pnpm tsx src/scripts/build-replay-sandbox-plan.ts <replay_date>",
+artifacts/api-server/src/scripts/build-replay-sandbox-plan.v0.1.backup.ts:18:      "pnpm tsx src/scripts/build-replay-sandbox-plan.ts 2026-06-02",
+artifacts/api-server/src/scripts/build-singstat-manufacturing-registry-v0.1.ts:70:  execSync(`pnpm tsx src/scripts/load-singstat-table-v0.1.ts ${item.dataset_id}`, {
+artifacts/api-server/src/scripts/build-singstat-manufacturing-registry-v0.1.ts:74:  execSync(`pnpm tsx src/scripts/verify-dataset-v0.1.ts ${item.dataset_id} verified`, {
+artifacts/api-server/src/scripts/build-singstat-manufacturing-registry-v0.1.ts:79:execSync("pnpm tsx src/scripts/build-dataset-coverage-engine-v0.1.ts", {
+artifacts/api-server/src/scripts/build-singstat-manufacturing-registry-v0.1.ts:83:execSync("pnpm tsx src/scripts/publish-data-coverage-admin-v0.1.ts", {
+artifacts/api-server/src/scripts/close-case-with-outcome.ts:23:      "pnpm tsx src/scripts/close-case-with-outcome.ts <case_id> <primary_driver> <primary_driver_name> <confidence> [note]",
+artifacts/api-server/src/scripts/close-case-with-outcome.ts:26:      "pnpm tsx src/scripts/close-case-with-outcome.ts SG-M355381-1_1_3-2026-apr MKT_001 \"Global Demand Surge\" high \"Reclosed after manual review\"",
+artifacts/api-server/src/scripts/close-case-with-outcome.v0.1.backup.ts:19:      "pnpm tsx src/scripts/close-case-with-outcome.ts <case_id> <primary_driver> <primary_driver_name> <confidence>",
+artifacts/api-server/src/scripts/close-case-with-outcome.v0.1.backup.ts:22:      "pnpm tsx src/scripts/close-case-with-outcome.ts SG-M355381-1_1_3-2026-apr MKT_001 \"Global Demand Surge\" high",
+artifacts/api-server/src/scripts/discover-singstat-table-rows-v0.1.ts:4:  console.error("Usage: pnpm tsx src/scripts/discover-singstat-table-rows-v0.1.ts <TABLE_ID>");
+artifacts/api-server/src/scripts/download-source-dataset-v0.1.ts:9:  console.error("Usage: pnpm tsx src/scripts/download-source-dataset-v0.1.ts <DATASET_ID>");
+artifacts/api-server/src/scripts/load-csv-dataset-v0.1.ts:8:  console.error("Usage: pnpm tsx src/scripts/load-csv-dataset-v0.1.ts <DATASET_ID>");
+artifacts/api-server/src/scripts/load-manual-dataset-v0.1.ts:9:  console.error("Usage: pnpm tsx src/scripts/load-manual-dataset-v0.1.ts <DATASET_ID>");
+artifacts/api-server/src/scripts/load-singstat-table-v0.1.ts.bak-fetch-fix:9:  console.error("Usage: pnpm tsx src/scripts/load-singstat-table-v0.1.ts <DATASET_ID>");
+artifacts/api-server/src/scripts/load-singstat-table-v0.1.ts:8:  console.error("Usage: pnpm tsx src/scripts/load-singstat-table-v0.1.ts <DATASET_ID>");
+artifacts/api-server/src/scripts/load-singstat-table-v0.2.ts:9:  console.error("Usage: pnpm tsx src/scripts/load-singstat-table-v0.2.ts <DATASET_ID>");
+artifacts/api-server/src/scripts/register-macro-hardening-modules-v0.1.ts:14:    path: "src/scripts/build-macro-driver-concentration-engine-v0.1.ts",
+artifacts/api-server/src/scripts/register-macro-hardening-modules-v0.1.ts:24:    path: "src/scripts/build-macro-driver-concentration-report-v0.1.ts",
+artifacts/api-server/src/scripts/register-macro-hardening-modules-v0.1.ts:34:    path: "src/scripts/build-driver-diversity-engine-v0.1.ts",
+artifacts/api-server/src/scripts/register-macro-hardening-modules-v0.1.ts:44:    path: "src/scripts/build-driver-diversity-report-v0.1.ts",
+artifacts/api-server/src/scripts/register-macro-hardening-modules-v0.1.ts:54:    path: "src/scripts/build-macro-specificity-hardening-queue-v0.1.ts",
+artifacts/api-server/src/scripts/register-macro-hardening-modules-v0.1.ts:64:    path: "src/scripts/build-macro-specificity-hardening-report-v0.1.ts",
+artifacts/api-server/src/scripts/reopen-case.ts:15:      "pnpm tsx src/scripts/reopen-case.ts <case_id> <reopen_reason> [note]",
+artifacts/api-server/src/scripts/reopen-case.ts:20:      "pnpm tsx src/scripts/reopen-case.ts SG-M355381-1_1_3-2026-apr new_evidence \"New source contradicts original attribution\"",
+artifacts/api-server/src/scripts/run-replay-benchmark-v0.1.ts:32:  console.error("Usage: pnpm tsx src/scripts/run-replay-benchmark-v0.1.ts <replay-output-json>");
+artifacts/api-server/src/scripts/run-replay-cycle.ts:11:  console.error("pnpm tsx src/scripts/run-replay-cycle.ts 2026-06-03T09:00:00.000Z");
+artifacts/api-server/src/scripts/run-replay-cycle.ts:43:  "src/scripts/build-replay-sandbox-plan.ts",
+artifacts/api-server/src/scripts/run-replay-cycle.ts:48:  "src/scripts/score-replay-plan.ts",
+artifacts/api-server/src/scripts/run-replay-cycle.ts:53:  "src/scripts/build-replay-predictions-similarity.ts",
+artifacts/api-server/src/scripts/run-replay-cycle.ts:58:  "src/scripts/build-sandbox-ground-truth.ts",
+artifacts/api-server/src/scripts/run-replay-cycle.ts:62:  "src/scripts/score-replay-predictions.ts",
+artifacts/api-server/src/scripts/run-replay-cycle.ts:67:  "src/scripts/build-experience-metrics.ts",
+artifacts/api-server/src/scripts/run-replay-cycle.ts:71:  "src/scripts/build-experience-registry.ts",
+artifacts/api-server/src/scripts/run-replay-cycle.ts:8:  console.error("pnpm tsx src/scripts/run-replay-cycle.ts <replay_date>");
+artifacts/api-server/src/scripts/run-replay-similarity-engine-v0.1.ts:29:  console.error("Usage: pnpm tsx src/scripts/run-replay-similarity-engine-v0.1.ts <replay-output-json>");
+artifacts/api-server/src/scripts/run-replay-similarity-engine-v0.2.ts:29:  console.error("Usage: pnpm tsx src/scripts/run-replay-similarity-engine-v0.1.ts <replay-output-json>");
+artifacts/api-server/src/scripts/run-smurf-article-generator-v0.1.ts:29:  execSync(`pnpm tsx src/scripts/${step}`, { stdio: "inherit" });
+artifacts/api-server/src/scripts/run-smurf-intelligence-cycle.ts:26:    args: ["tsx", "src/scripts/build-case-files.ts"],
+artifacts/api-server/src/scripts/run-smurf-intelligence-cycle.ts:31:    args: ["tsx", "src/scripts/update-case-confidence.ts"],
+artifacts/api-server/src/scripts/run-smurf-intelligence-cycle.ts:36:    args: ["tsx", "src/scripts/update-case-state.ts"],
+artifacts/api-server/src/scripts/run-smurf-intelligence-cycle.ts:41:    args: ["tsx", "src/scripts/build-investigation-queue.ts"],
+artifacts/api-server/src/scripts/run-smurf-intelligence-cycle.ts:46:    args: ["tsx", "src/scripts/update-case-history.ts"],
+artifacts/api-server/src/scripts/run-smurf-intelligence-cycle.ts:51:    args: ["tsx", "src/scripts/build-case-fingerprints.ts"],
+artifacts/api-server/src/scripts/run-smurf-intelligence-cycle.ts:56:    args: ["tsx", "src/scripts/build-case-similarity.ts"],
+artifacts/api-server/src/scripts/run-smurf-intelligence-cycle.ts:61:    args: ["tsx", "src/scripts/build-investigation-hypotheses.ts"],
+artifacts/api-server/src/scripts/run-smurf-intelligence-cycle.ts:66:    args: ["tsx", "src/scripts/enrich-hypotheses-with-similarity.ts"],
+artifacts/api-server/src/scripts/run-smurf-intelligence-cycle.ts:71:    args: ["tsx", "src/scripts/build-evidence-search-packages-v2.ts"],
+artifacts/api-server/src/scripts/run-smurf-intelligence-cycle.ts:76:    args: ["tsx", "src/scripts/build-case-outcomes.ts"],
+artifacts/api-server/src/scripts/run-smurf-intelligence-cycle.ts:81:    args: ["tsx", "src/scripts/build-historical-outcomes.ts"],
+artifacts/api-server/src/scripts/run-smurf-intelligence-cycle.ts:86:    args: ["tsx", "src/scripts/build-outcome-recommendations.ts"],
+artifacts/api-server/src/scripts/score-replay-plan.ts:13:      "pnpm tsx src/scripts/score-replay-plan.ts <replay_plan_path>",
+artifacts/api-server/src/scripts/score-replay-plan.ts:16:      "pnpm tsx src/scripts/score-replay-plan.ts data/replay-sandbox/replay-plan-2026-06-03T09-00-00.000Z.json",
+artifacts/api-server/src/scripts/score-replay-predictions.ts:19:      "pnpm tsx src/scripts/score-replay-predictions.ts <prediction_file>",
+artifacts/api-server/src/scripts/score-replay-predictions.ts:22:      "pnpm tsx src/scripts/score-replay-predictions.ts data/replay-sandbox/predictions/replay-predictions-similarity-2026-06-03T09-00-00.000Z.json",
+artifacts/api-server/src/scripts/verify-dataset-v0.1.ts:17:  console.error("Usage: pnpm tsx src/scripts/verify-dataset-v0.1.ts <DATASET_ID> [verified|loaded_pending_review|rejected]");
