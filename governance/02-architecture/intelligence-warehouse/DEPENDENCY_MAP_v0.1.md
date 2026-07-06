@@ -117,6 +117,111 @@ The missing capability is orchestration and product surfacing.
 
 ---
 
+# 4. Validated Producer / Consumer Chains
+
+**Validated:** 06 Jul 2026
+
+The following producer/consumer relationships were confirmed through source inspection.
+
+---
+
+## Macro Attribution Chain
+
+```text
+build-macro-attribution-engine-v0.2.ts
+↓
+data/intelligence/macro-attribution-engine-v0.2.json
+↓
+build-driver-diversity-engine-v0.1.ts
+build-macro-driver-concentration-engine-v0.1.ts
+build-macro-attribution-report-v0.2.ts
+```
+
+Interpretation:
+
+```text
+Macro attribution is an integrated upstream intelligence layer.
+It is consumed by diversity, concentration, and reporting engines.
+```
+
+---
+
+## Replay Support Chain
+
+```text
+build-replay-support-engine-v0.2.ts
+↓
+data/intelligence/replay-support-engine-v0.2.json
+↓
+build-case-construction-engine-v0.1.ts
+build-outcome-attribution-engine-v0.1.ts
+build-mechanism-promotion-candidate-engine-v0.1.ts
+```
+
+Interpretation:
+
+```text
+Replay support is not dormant.
+It feeds case construction, outcome attribution, and mechanism promotion.
+```
+
+---
+
+## Decision Support Chain
+
+```text
+build-decision-support-engine-v0.2.ts
+↓
+data/intelligence/decision-support-engine-v0.2.json
+↓
+build-case-construction-engine-v0.1.ts
+```
+
+Interpretation:
+
+```text
+Decision support contributes to case construction.
+It is integrated but not clearly surfaced as a product layer.
+```
+
+---
+
+## Replay Forecast Chain
+
+```text
+build-replay-forecast-envelope-v0.1.ts
+↓
+data/replay/replay-forecast-envelope-v0.1.json
+↓
+build-replay-confidence-engine-v0.1.ts
+build-replay-historian-snapshot-v0.1.ts
+```
+
+Interpretation:
+
+```text
+Replay forecast already feeds confidence and historian layers.
+This confirms the presence of a forecast subsystem.
+```
+
+---
+
+# 5. Dependency Validation Conclusion
+
+```text
+The intelligence warehouse contains real producer/consumer chains.
+
+The main issue is not engine absence.
+
+The main issue is:
+
+- no central orchestration layer
+- limited UI surfacing
+- no client-facing product surface yet
+```
+
+---
+
 # Next Discovery Tasks
 
 1. Build complete engine registry.
