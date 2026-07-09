@@ -232,3 +232,103 @@ Incorrect examples:
 220.8k million dollars
 
 Output reached 220.8k.
+
+---
+
+# Principle 18 — Discovery Before Integration
+
+Before integrating, replacing or rebuilding a subsystem, first discover and understand its existing capabilities, dependencies, governance and operational role.
+
+Engineering should follow this lifecycle:
+
+Discovery
+
+↓
+
+Architecture
+
+↓
+
+Integration
+
+↓
+
+Observation
+
+↓
+
+Improvement
+
+↓
+
+Productization
+
+Understanding existing capability always takes precedence over rebuilding.
+
+---
+
+# Principle 19 — Organization Before Automation
+
+Autonomous behavior should emerge from well-defined organizational responsibilities rather than isolated scripts.
+
+Every major capability should have:
+
+- defined ownership
+- defined responsibilities
+- governed communication
+- observable behavior
+- documented lifecycle
+
+Automation should strengthen the organization rather than replace it.
+
+---
+
+# Principle 20 — Local and Global Optimization
+
+Operational subsystems should optimize their own domains.
+
+System-wide optimization should occur independently from local optimization.
+
+Operational intelligence should be summarized and surfaced so that cross-system reasoning can identify opportunities that individual subsystems cannot observe themselves.
+
+Local optimization should never unintentionally reduce overall system effectiveness.
+
+---
+
+# Principle 21 — Productize Before Rebuild
+
+When mature capabilities already exist, engineering effort should first focus on surfacing, orchestrating and productizing those capabilities before creating replacement implementations.
+
+Existing intelligence should be connected before new intelligence is built.
+
+Orchestration is preferred over duplication.
+
+---
+
+# Principle 22 — Explainability Before Autonomy
+
+Increasing automation must never reduce explainability.
+
+Every autonomous recommendation should remain traceable through:
+
+- evidence
+- confidence
+- lineage
+- governance
+- operational history
+
+Explainability is a prerequisite for autonomous capability.
+
+---
+
+# Principle 23 — Organizational Learning
+
+Operational experience should continuously improve the platform.
+
+Subsystems should report observations, operational health, friction and improvement opportunities into governed learning mechanisms.
+
+Historical experience should strengthen future reasoning rather than remain isolated within individual components.
+
+The organization should learn collectively rather than locally.
+
+
