@@ -1,31 +1,234 @@
 # SMURF_ENGINE_v1
 
-Status: Draft
-Version: 1.0
+**Status:** Active
+**Version:** 1.1
+**Last Updated:** 2026-07-09
+**Phase:** H6 Governance Synchronization
 
-Purpose:
-Document the architecture, capabilities and governance of the Smurf Intelligence Engine.
+---
+
+# Purpose
+
+The Smurf Engine is the organizational intelligence layer of ZNBW.
+
+It defines how specialized intelligence functions collaborate to transform information into governed, explainable decisions and products.
+
+The Smurf Engine is not a single application or script.
+
+It is an organizational architecture consisting of independent functional components operating under shared governance.
+
+Detailed implementations of individual Smurfs are documented separately.
+
+---
+
+# Related Governance
+
+This document should be read together with:
+
+- KNOWLEDGE_INFLUENCE_DOCTRINE_v0.1.md
+- SMURF_PERMISSION_MATRIX_v0.1.md
+- ARCHITECTURE_PRINCIPLES_v1.md
+
+These documents define:
+
+- governance
+- permissions
+- architectural rules
+
+This document defines the organizational model.
 
 ---
 
 # Mission
 
-Transform raw information into governed intelligence.
+The Smurf Engine exists to:
+
+- transform raw information into governed intelligence
+- preserve evidence and lineage
+- support explainable decision making
+- coordinate specialized intelligence functions
+- enable continuous organizational learning
 
 ---
 
-# Core Capabilities
+# Organizational Structure
 
-1. Case Management
-2. Evidence Discovery
-3. Evidence Assessment
-4. Mechanism Discovery
-5. Mechanism Validation
-6. Historical Memory
-7. Experience Registry
-8. Replay
-9. Macro Attribution
-10. Decision Support
+The Smurf Engine is organized into five functional families.
+
+## 1. Governance
+
+Responsible for:
+
+- governance
+- approvals
+- constitutional oversight
+
+Primary role:
+
+Papa Smurf
+
+---
+
+## 2. Knowledge
+
+Responsible for:
+
+- reasoning
+- knowledge fusion
+- proposal generation
+- architectural thinking
+
+Primary role:
+
+Brainy Smurf
+
+---
+
+## 3. Operational
+
+Responsible for:
+
+- executing approved workflows
+- producing intelligence packages
+- maintaining operational health
+- optimizing domain performance
+
+Examples include:
+
+- Intelligence
+- Editorial
+- Platform Steward
+- Replay
+- Forecast
+- Evidence
+- Macro
+
+---
+
+## 4. Validation
+
+Responsible for:
+
+- simulation
+- replay validation
+- regression testing
+- production readiness
+
+Primary role:
+
+Shadow Smurfs
+
+---
+
+## 5. External Intelligence
+
+Responsible for:
+
+- external information acquisition
+- validation
+- provenance
+- controlled ingestion
+
+Primary role:
+
+Hungry Smurf
+
+---
+
+# Organizational Principles
+
+The Smurf Engine follows several fundamental principles.
+
+## Separation of Responsibilities
+
+Every Smurf has a clearly defined responsibility.
+
+Responsibilities should not overlap unless explicitly governed.
+
+---
+
+## Separation of Influence
+
+Knowledge may influence proposals.
+
+Knowledge may not directly influence production.
+
+---
+
+## Explainability
+
+Every significant decision should be explainable through:
+
+- evidence
+- lineage
+- confidence
+- governance
+
+---
+
+## Local Optimization
+
+Operational Smurfs optimize their own domains.
+
+---
+
+## Global Optimization
+
+Brainy evaluates interactions between domains and proposes system-wide improvements.
+
+---
+
+## Human Governance
+
+Material architectural and operational decisions require Papa approval before production.
+
+---
+
+# Intelligence Lifecycle
+
+The Smurf Engine operates as a governed intelligence cycle.
+
+```text
+Observe
+      ↓
+Validate
+      ↓
+Structure
+      ↓
+Reason
+      ↓
+Propose
+      ↓
+Approve
+      ↓
+Validate
+      ↓
+Execute
+      ↓
+Learn
+```
+
+Every completed cycle strengthens the Experience Registry and improves future organizational intelligence.
+
+---
+
+# Current Capabilities
+
+Current operational capabilities include:
+
+- Case Management
+- Evidence Discovery
+- Evidence Assessment
+- Mechanism Discovery
+- Historical Memory
+- Experience Registry
+- Replay
+- Macro Attribution
+- Forecasting
+- Decision Support
+- Article Generation
+- Graph Packages
+- CMS Packages
 
 ---
 
@@ -33,52 +236,66 @@ Transform raw information into governed intelligence.
 
 Operational:
 
-* Cases
-* Evidence
-* Experience Registry
-* Mechanism Layer
-* Article Generation
-* Workbench Integration
+- Intelligence Center
+- Article Workbench
+- Graph Packages
+- Evidence Framework
+- Experience Registry
+- Intelligence Warehouse
+- Dependency Registry
+- Platform Hygiene
 
-Emerging:
+Currently expanding:
 
-* Replay
-* Decision Support
-* Early Warning
-
----
-
-# Major Registries
-
-* Case Registry
-* Evidence Registry
-* Experience Registry
-* Confidence Registry
-* Mechanism Registry
-* Document Registry
+- Replay Integration
+- Operational Dashboards
+- Platform Steward
+- Village Runtime
+- Macro Intelligence
 
 ---
 
-# Major Outputs
+# Relationship to Other Documents
 
-* Intelligence Packages
-* Workbench Packages
-* Article Packages
-* Graph Packages
-* CMS Packages
+This document defines the organizational architecture.
+
+Detailed behavior is documented elsewhere.
+
+Examples:
+
+- Brainy Architecture
+- Hungry Architecture
+- Replay Architecture
+- Platform Steward Architecture
+- Village Intelligence Runtime
+
+The Smurf Engine provides the organizational framework within which these subsystems operate.
 
 ---
 
-# Future Roadmap
+# H6 Direction
 
-Phase 1:
-Intelligence Center
+H6 changes the engineering focus.
 
-Phase 2:
-Replay Engine
+Previous phases emphasized discovery.
 
-Phase 3:
-Decision Support
+H6 emphasizes:
 
-Phase 4:
-Client Intelligence Portal
+- integration
+- orchestration
+- observability
+- productization
+
+The Smurf Engine becomes the organizational backbone connecting these capabilities into a coherent intelligence platform.
+
+---
+
+# Summary
+
+The Smurf Engine is the organizational intelligence architecture of ZNBW.
+
+It coordinates specialized intelligence functions while maintaining clear governance, explainability and separation of responsibilities.
+
+Its purpose is not autonomous decision making.
+
+Its purpose is governed organizational intelligence.
