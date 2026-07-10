@@ -226,8 +226,215 @@ Each subsystem should integrate into the Village Runtime rather than operating i
 
 ---
 
+# Governed Improvement Lifecycle
+
+The Village continuously improves itself through a governed improvement lifecycle.
+
+No single Smurf may independently design, approve, implement and deploy organizational changes.
+
+Responsibilities remain deliberately separated.
+
+```text
+                 Brainy Smurf
+        (Architect / Composer)
+
+             Improvement Proposal
+                     │
+                     ▼
+               Papa Smurf
+        Approve Proposal For Testing
+                     │
+                     ▼
+             Shadow Smurfs
+        Independent Validation
+                     │
+                     ▼
+               Test Report
+                     │
+                     ▼
+               Papa Smurf
+     Compare Proposal Against Results
+                     │
+              GO / NO-GO Decision
+                     │
+                     ▼
+              Coding Smurf(s)
+             Approved Implementation
+                     │
+                     ▼
+          Operational Smurfs
+              Production Runtime
+                     │
+                     ▼
+         Operational Dashboards
+                     │
+                     ▼
+          Experience Registry
+                     │
+                     └────────────► Brainy
+```
+
+The governed improvement lifecycle separates architectural reasoning from validation, implementation and governance.
+
+Each participant has an independent responsibility.
+
+## Brainy Smurf
+
+Brainy continuously evaluates the organization using operational summaries, historical experience and intelligence supplied by the Village.
+
+Brainy proposes improvements but has no authority to approve or implement them.
+
+## Papa Smurf
+
+Papa is the governance authority.
+
+Papa evaluates proposals before testing.
+
+After Shadow validation, Papa compares Brainy's expected outcomes with the measured results before deciding whether implementation is justified.
+
+Papa alone authorizes organizational change.
+
+## Shadow Smurfs
+
+Shadow Smurfs independently validate approved proposals.
+
+Their responsibility is to measure reality rather than judge ideas.
+
+Shadow produces evidence through:
+
+- simulation
+- replay
+- regression testing
+- performance testing
+- operational validation
+- safety checks
+
+Shadow does not approve production changes.
+
+## Coding Smurf
+
+Coding Smurf implements only approved designs.
+
+Implementation follows governance approval and successful validation.
+
+Coding Smurf is responsible for engineering quality, not architectural authority.
+
+## Operational Smurfs
+
+Operational Smurfs execute approved capabilities in production.
+
+They continuously report operational intelligence through their dashboards.
+
+These observations become organizational learning through the Experience Registry and provide new input for Brainy's future proposals.
+
+---
+
+# Organizational Evolution
+
+The Village Intelligence Organization is designed to evolve organically.
+
+Departments, teams and Smurfs are not defined by organizational charts alone.
+
+They emerge through stable collaboration and dependency patterns.
+
+## Evolution Model
+
+The Village grows through the following hierarchy:
+
+```text
+Village
+    │
+    ▼
+Departments
+    │
+    ▼
+Teams
+    │
+    ▼
+Smurfs
+    │
+    ▼
+Processes
+    │
+    ▼
+Scripts / Services / Jobs
+```
+
+The organizational structure should remain flexible.
+
+Small capabilities may consist of a single Smurf.
+
+As responsibilities expand, tightly collaborating Smurfs naturally form teams.
+
+Multiple cooperating teams may eventually become departments.
+
+The architecture should reflect the way the system actually evolves rather than forcing predefined organizational structures.
+
+## Dependency-Driven Teams
+
+Engineering teams should emerge from stable dependency clusters.
+
+Typical indicators include:
+
+- shared registries
+- shared packages
+- shared runtime schedules
+- shared operational dashboards
+- frequent communication
+- shared data ownership
+- recurring joint improvements
+- common lifecycle
+
+Stable dependency patterns are stronger indicators of a team than arbitrary organizational design.
+
+## Organic Growth
+
+The Village should evolve through observation.
+
+Questions to ask include:
+
+- Which Smurfs consistently collaborate?
+- Which capabilities evolve together?
+- Which changes frequently affect the same components?
+- Which operational dashboards naturally belong together?
+
+The answers reveal natural organizational boundaries.
+
+## Brainy's Organizational Role
+
+Brainy continuously observes organizational dependency patterns.
+
+Brainy may recommend:
+
+- creation of a new team
+- merging of related teams
+- separation of overloaded responsibilities
+- additional runtime capacity
+- workload redistribution
+- improved communication paths
+
+These recommendations remain advisory.
+
+Brainy proposes organizational improvements.
+
+Papa Smurf evaluates whether the proposed organizational evolution aligns with governance, operational priorities and long-term architecture.
+
+## Guiding Principle
+
+The Village should not be organized according to an imagined future structure.
+
+It should organize itself according to demonstrated collaboration, operational dependencies and accumulated experience.
+
+Organization should emerge from reality rather than assumption.
+
+Stable dependencies reveal organizational boundaries.
+
+---
+
 # Summary
 
 The Village Intelligence Runtime defines how the ZNBW intelligence organization behaves during normal operation.
 
 It establishes a governed operational heartbeat where specialized Smurfs collaborate, organizational intelligence continuously improves, and architectural evolution occurs through observation, governance and learning.
+
+No Smurf is trusted as an oracle.
