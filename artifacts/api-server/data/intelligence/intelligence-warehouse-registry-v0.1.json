@@ -1,19 +1,23 @@
 {
   "version": "intelligence-warehouse-registry-v0.1",
-  "generated_at": "2026-07-06T10:46:19.502Z",
+  "generated_at": "2026-07-10T02:50:06.765Z",
   "doctrine": "Read-only discovery registry for surfacing existing intelligence assets before H5.1 implementation.",
   "scope": {
     "api_root": "/opt/Zenith-Bridge-Gateway/artifacts/api-server",
     "repo_root": "/opt/Zenith-Bridge-Gateway",
     "scripts_dir": "artifacts/api-server/src/scripts",
-    "intelligence_data_dir": "artifacts/api-server/data/intelligence"
+    "intelligence_data_dir": "artifacts/api-server/data/intelligence",
+    "replay_data_dir": "artifacts/api-server/data/replay",
+    "replay_scan_mode": "root_level_only"
   },
   "summary": {
-    "engine_count": 393,
-    "intelligence_file_count": 176,
+    "engine_count": 394,
+    "intelligence_file_count": 177,
+    "replay_file_count": 34,
+    "package_count": 211,
     "engine_capability_counts": {
       "replay": 90,
-      "other": 116,
+      "other": 117,
       "governance": 11,
       "evidence": 35,
       "article_publication": 52,
@@ -27,7 +31,7 @@
       "forecast": 4
     },
     "package_capability_counts": {
-      "other": 67,
+      "other": 69,
       "article_publication": 23,
       "evidence": 11,
       "governance": 8,
@@ -36,7 +40,7 @@
       "learning_memory": 14,
       "graph": 2,
       "historian": 2,
-      "replay": 6,
+      "replay": 39,
       "macro": 12,
       "mechanism": 14,
       "forecast": 4
@@ -512,6 +516,11 @@
       "name": "build-editorial-memory-engine-v0.1.ts",
       "path": "artifacts/api-server/src/scripts/build-editorial-memory-engine-v0.1.ts",
       "capability": "learning_memory"
+    },
+    {
+      "name": "build-engine-intelligence-registry-v0.1.ts",
+      "path": "artifacts/api-server/src/scripts/build-engine-intelligence-registry-v0.1.ts",
+      "capability": "other"
     },
     {
       "name": "build-evidence-assessment-engine-v0.1.ts",
@@ -2029,1057 +2038,1689 @@
       "name": "approved-principles-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/approved-principles-registry-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "openai-article-package-v0.3.json",
       "path": "artifacts/api-server/data/intelligence/archive/openai-article-package-v0.3.json",
       "capability": "article_publication",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "openai-generated-article-package-v0.3.json",
       "path": "artifacts/api-server/data/intelligence/archive/openai-generated-article-package-v0.3.json",
       "capability": "article_publication",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "article-data-readiness-gate-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/article-data-readiness-gate-v0.1.json",
       "capability": "article_publication",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "article-draft-package-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/article-draft-package-v0.1.json",
       "capability": "article_publication",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "article-graph-attachment-package-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/article-graph-attachment-package-v0.1.json",
       "capability": "article_publication",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "article-intelligence-package-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/article-intelligence-package-v0.1.json",
       "capability": "article_publication",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "article-opportunity-queue-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/article-opportunity-queue-v0.1.json",
       "capability": "article_publication",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "article-preview-package-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/article-preview-package-v0.1.json",
       "capability": "article_publication",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "article-workbench-package-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/article-workbench-package-v0.1.json",
       "capability": "article_publication",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "article-workbench-package-v0.2.json",
       "path": "artifacts/api-server/data/intelligence/article-workbench-package-v0.2.json",
       "capability": "article_publication",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "attribution-case-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/attribution-case-registry-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "attribution-evidence-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/attribution-evidence-registry-v0.1.json",
       "capability": "evidence",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "brief-quality-review-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/brief-quality-review-engine-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "bulk-ingestion-readiness-check-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/bulk-ingestion-readiness-check-v0.1.json",
       "capability": "governance",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "candidate-queue-v0.2.json",
       "path": "artifacts/api-server/data/intelligence/candidate-queue-v0.2.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "case-construction-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/case-construction-engine-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "case-evolution-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/case-evolution-engine-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "case-fingerprints-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/case-fingerprints-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "case-similarity-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/case-similarity-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "CASE_SNAPSHOT_2026-06-08T08-34-16-202Z.json",
       "path": "artifacts/api-server/data/intelligence/case-snapshots/CASE_SNAPSHOT_2026-06-08T08-34-16-202Z.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "case-timeline-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/case-timeline-engine-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "closure-readiness-audit-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/closure-readiness-audit-v0.1.json",
       "capability": "governance",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "cms-draft-package-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/cms-draft-package-v0.1.json",
       "capability": "article_publication",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "cms-publication-package-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/cms-publication-package-v0.1.json",
       "capability": "article_publication",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "confidence-framework-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/confidence-framework-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "controlled-bulk-ingestion-batch-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/controlled-bulk-ingestion-batch-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "controlled-staging-executor-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/controlled-staging-executor-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "counter-evidence-engine-v0.2.json",
       "path": "artifacts/api-server/data/intelligence/counter-evidence-engine-v0.2.json",
       "capability": "evidence",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "counter-evidence-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/counter-evidence-registry-v0.1.json",
       "capability": "evidence",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "coverage-hardening-dashboard-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/coverage-hardening-dashboard-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "coverage-hardening-dashboard-v0.2.json",
       "path": "artifacts/api-server/data/intelligence/coverage-hardening-dashboard-v0.2.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "data-request-queue-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/data-request-queue-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "dataset-consistency-audit-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/dataset-consistency-audit-v0.1.json",
       "capability": "dataset",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "dataset-coverage-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/dataset-coverage-engine-v0.1.json",
       "capability": "dataset",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "decision-support-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/decision-support-engine-v0.1.json",
       "capability": "decision",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "decision-support-engine-v0.2.json",
       "path": "artifacts/api-server/data/intelligence/decision-support-engine-v0.2.json",
       "capability": "decision",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "dependency-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/dependency-registry-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "driver-diversity-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/driver-diversity-engine-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "driver-observatory-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/driver-observatory-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "dry-run-duplicate-review-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/dry-run-duplicate-review-engine-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "early-warning-signal-skeleton-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/early-warning-signal-skeleton-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
+    },
+    {
+      "name": "engine-intelligence-registry-v0.1.json",
+      "path": "artifacts/api-server/data/intelligence/engine-intelligence-registry-v0.1.json",
+      "capability": "other",
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "evidence-assessment-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/evidence-assessment-engine-v0.1.json",
       "capability": "evidence",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "evidence-assessment-engine-v0.2.json",
       "path": "artifacts/api-server/data/intelligence/evidence-assessment-engine-v0.2.json",
       "capability": "evidence",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "evidence-contradiction-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/evidence-contradiction-engine-v0.1.json",
       "capability": "evidence",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "evidence-deduplication-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/evidence-deduplication-engine-v0.1.json",
       "capability": "evidence",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "evidence-discovery-queue-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/evidence-discovery-queue-v0.1.json",
       "capability": "evidence",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "evidence-lineage-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/evidence-lineage-engine-v0.1.json",
       "capability": "evidence",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "experience-candidate-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/experience-candidate-registry-v0.1.json",
       "capability": "learning_memory",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "experience-confidence-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/experience-confidence-engine-v0.1.json",
       "capability": "learning_memory",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "experience-diversity-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/experience-diversity-registry-v0.1.json",
       "capability": "learning_memory",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "experience-extraction-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/experience-extraction-engine-v0.1.json",
       "capability": "learning_memory",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "experience-feedback-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/experience-feedback-registry-v0.1.json",
       "capability": "learning_memory",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "experience-pattern-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/experience-pattern-engine-v0.1.json",
       "capability": "learning_memory",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "experience-registry-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/experience-registry-engine-v0.1.json",
       "capability": "learning_memory",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "experience-registry-promotion-gate-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/experience-registry-promotion-gate-v0.1.json",
       "capability": "governance",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "experience-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/experience-registry-v0.1.json",
       "capability": "learning_memory",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "experience-registry-v0.2.json",
       "path": "artifacts/api-server/data/intelligence/experience-registry-v0.2.json",
       "capability": "learning_memory",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "falsification-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/falsification-registry-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "graph-data-package-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/graph-data-package-v0.1.json",
       "capability": "graph",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "graph-specification-package-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/graph-specification-package-v0.1.json",
       "capability": "graph",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "historical-outcomes-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/historical-outcomes-v0.1.json",
       "capability": "historian",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "historical-outcomes-v0.2.json",
       "path": "artifacts/api-server/data/intelligence/historical-outcomes-v0.2.json",
       "capability": "historian",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "historical-replay-attribution-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/historical-replay-attribution-engine-v0.1.json",
       "capability": "replay",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "hypothesis-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/hypothesis-registry-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "hypothesis-testing-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/hypothesis-testing-registry-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "insight-generator-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/insight-generator-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "intelligence-brief-generator-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/intelligence-brief-generator-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "intelligence-brief-generator-v0.2.json",
       "path": "artifacts/api-server/data/intelligence/intelligence-brief-generator-v0.2.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "intelligence-confidence-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/intelligence-confidence-registry-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "intelligence-delta-brief-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/intelligence-delta-brief-engine-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "intelligence-warehouse-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/intelligence-warehouse-registry-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "investigation-pack-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/investigation-pack-registry-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "learning-confidence-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/learning-confidence-engine-v0.1.json",
       "capability": "learning_memory",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "learning-confidence-engine-v0.2.json",
       "path": "artifacts/api-server/data/intelligence/learning-confidence-engine-v0.2.json",
       "capability": "learning_memory",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "macro-attribution-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/macro-attribution-engine-v0.1.json",
       "capability": "macro",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "macro-attribution-engine-v0.2.json",
       "path": "artifacts/api-server/data/intelligence/macro-attribution-engine-v0.2.json",
       "capability": "macro",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "macro-attribution-report-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/macro-attribution-report-v0.1.json",
       "capability": "macro",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "macro-attribution-report-v0.2.json",
       "path": "artifacts/api-server/data/intelligence/macro-attribution-report-v0.2.json",
       "capability": "macro",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "macro-coverage-assessment-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/macro-coverage-assessment-v0.1.json",
       "capability": "macro",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "macro-domain-relevance-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/macro-domain-relevance-engine-v0.1.json",
       "capability": "macro",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "macro-driver-concentration-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/macro-driver-concentration-engine-v0.1.json",
       "capability": "macro",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "macro-hardening-intake-template-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/macro-hardening-intake-template-v0.1.json",
       "capability": "macro",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "macro-registry-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/macro-registry-engine-v0.1.json",
       "capability": "macro",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "macro-specificity-hardening-queue-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/macro-specificity-hardening-queue-v0.1.json",
       "capability": "macro",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "macro-transmission-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/macro-transmission-engine-v0.1.json",
       "capability": "macro",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "mandatory-findings-audit-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/mandatory-findings-audit-v0.1.json",
       "capability": "governance",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_PETROLEUM_OUTPUT_INDEX.json",
       "path": "artifacts/api-server/data/intelligence/manual-datasets/SG_PETROLEUM_OUTPUT_INDEX.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "mechanism-confidence-engine-v0.2.json",
       "path": "artifacts/api-server/data/intelligence/mechanism-confidence-engine-v0.2.json",
       "capability": "mechanism",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "mechanism-discovery-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/mechanism-discovery-engine-v0.1.json",
       "capability": "mechanism",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "mechanism-evidence-linker-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/mechanism-evidence-linker-v0.1.json",
       "capability": "evidence",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "mechanism-learning-update-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/mechanism-learning-update-v0.1.json",
       "capability": "mechanism",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "mechanism-lifecycle-promotion-gate-v0.2.json",
       "path": "artifacts/api-server/data/intelligence/mechanism-lifecycle-promotion-gate-v0.2.json",
       "capability": "mechanism",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "mechanism-lifecycle-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/mechanism-lifecycle-registry-v0.1.json",
       "capability": "mechanism",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "mechanism-promotion-candidate-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/mechanism-promotion-candidate-engine-v0.1.json",
       "capability": "mechanism",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "mechanism-reputation-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/mechanism-reputation-engine-v0.1.json",
       "capability": "mechanism",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "mechanism-scoring-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/mechanism-scoring-engine-v0.1.json",
       "capability": "mechanism",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "mechanism-trend-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/mechanism-trend-engine-v0.1.json",
       "capability": "mechanism",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "mechanism-validation-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/mechanism-validation-registry-v0.1.json",
       "capability": "mechanism",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "mechanism-validation-review-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/mechanism-validation-review-engine-v0.1.json",
       "capability": "mechanism",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "mechanism-validation-review-queue-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/mechanism-validation-review-queue-v0.1.json",
       "capability": "mechanism",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "mechanism-validation-review-queue-v0.2.json",
       "path": "artifacts/api-server/data/intelligence/mechanism-validation-review-queue-v0.2.json",
       "capability": "mechanism",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "memory-grading-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/memory-grading-registry-v0.1.json",
       "capability": "learning_memory",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "monitoring-trigger-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/monitoring-trigger-engine-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "observation-memory-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/observation-memory-registry-v0.1.json",
       "capability": "learning_memory",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "openai-article-audit-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/openai-article-audit-v0.1.json",
       "capability": "article_publication",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "openai-article-audit-v0.2.json",
       "path": "artifacts/api-server/data/intelligence/openai-article-audit-v0.2.json",
       "capability": "article_publication",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "openai-article-package-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/openai-article-package-v0.1.json",
       "capability": "article_publication",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "openai-article-package-v0.2.json",
       "path": "artifacts/api-server/data/intelligence/openai-article-package-v0.2.json",
       "capability": "article_publication",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "openai-article-package-v0.3.json",
       "path": "artifacts/api-server/data/intelligence/openai-article-package-v0.3.json",
       "capability": "article_publication",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "openai-article-package-v0.4.json",
       "path": "artifacts/api-server/data/intelligence/openai-article-package-v0.4.json",
       "capability": "article_publication",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "openai-generated-article-package-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/openai-generated-article-package-v0.1.json",
       "capability": "article_publication",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "openai-generated-article-package-v0.2.json",
       "path": "artifacts/api-server/data/intelligence/openai-generated-article-package-v0.2.json",
       "capability": "article_publication",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "openai-generated-article-package-v0.3.json",
       "path": "artifacts/api-server/data/intelligence/openai-generated-article-package-v0.3.json",
       "capability": "article_publication",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "openai-generated-article-package-v0.4.json",
       "path": "artifacts/api-server/data/intelligence/openai-generated-article-package-v0.4.json",
       "capability": "article_publication",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "outcome-attribution-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/outcome-attribution-engine-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "outcome-justification-audit-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/outcome-justification-audit-v0.1.json",
       "capability": "governance",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "outcome-recommendations-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/outcome-recommendations-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_BIOMEDICAL_OUTPUT_INDEX.json",
       "path": "artifacts/api-server/data/intelligence/parsed-datasets/SG_BIOMEDICAL_OUTPUT_INDEX.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_CHEMICALS_OUTPUT_INDEX.json",
       "path": "artifacts/api-server/data/intelligence/parsed-datasets/SG_CHEMICALS_OUTPUT_INDEX.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_PETROLEUM_OUTPUT_INDEX.json",
       "path": "artifacts/api-server/data/intelligence/parsed-datasets/SG_PETROLEUM_OUTPUT_INDEX.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_PRECISION_ENGINEERING_OUTPUT_INDEX.json",
       "path": "artifacts/api-server/data/intelligence/parsed-datasets/SG_PRECISION_ENGINEERING_OUTPUT_INDEX.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_SEMICONDUCTOR_OUTPUT_INDEX.json",
       "path": "artifacts/api-server/data/intelligence/parsed-datasets/SG_SEMICONDUCTOR_OUTPUT_INDEX.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.json",
       "path": "artifacts/api-server/data/intelligence/parsed-datasets/SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.json",
       "path": "artifacts/api-server/data/intelligence/parsed-datasets/SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "post-ingestion-comparison-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/post-ingestion-comparison-engine-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "prediction-accuracy-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/prediction-accuracy-registry-v0.1.json",
       "capability": "forecast",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "prediction-candidate-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/prediction-candidate-registry-v0.1.json",
       "capability": "forecast",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "prediction-validation-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/prediction-validation-engine-v0.1.json",
       "capability": "forecast",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "prediction-validation-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/prediction-validation-registry-v0.1.json",
       "capability": "forecast",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "principle-candidate-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/principle-candidate-registry-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "principle-review-briefs-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/principle-review-briefs-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "principle-review-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/principle-review-registry-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "prioritized-evidence-discovery-queue-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/prioritized-evidence-discovery-queue-v0.1.json",
       "capability": "evidence",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "znbw-editorial-protocol-v1.backup.json",
       "path": "artifacts/api-server/data/intelligence/protocols/znbw-editorial-protocol-v1.backup.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "znbw-editorial-protocol-v1.json",
       "path": "artifacts/api-server/data/intelligence/protocols/znbw-editorial-protocol-v1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "publication-readiness-summary-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/publication-readiness-summary-v0.1.json",
       "capability": "article_publication",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_BIOMEDICAL_OUTPUT_INDEX.csv",
       "path": "artifacts/api-server/data/intelligence/raw-downloads/SG_BIOMEDICAL_OUTPUT_INDEX.csv",
       "capability": "other",
-      "extension": "csv"
+      "extension": "csv",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_BIOMEDICAL_OUTPUT_INDEX.singstat.json",
       "path": "artifacts/api-server/data/intelligence/raw-downloads/SG_BIOMEDICAL_OUTPUT_INDEX.singstat.json",
       "capability": "dataset",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_CHEMICALS_OUTPUT_INDEX.csv",
       "path": "artifacts/api-server/data/intelligence/raw-downloads/SG_CHEMICALS_OUTPUT_INDEX.csv",
       "capability": "other",
-      "extension": "csv"
+      "extension": "csv",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_CHEMICALS_OUTPUT_INDEX.singstat.json",
       "path": "artifacts/api-server/data/intelligence/raw-downloads/SG_CHEMICALS_OUTPUT_INDEX.singstat.json",
       "capability": "dataset",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_PETROLEUM_OUTPUT_INDEX.csv",
       "path": "artifacts/api-server/data/intelligence/raw-downloads/SG_PETROLEUM_OUTPUT_INDEX.csv",
       "capability": "other",
-      "extension": "csv"
+      "extension": "csv",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_PETROLEUM_OUTPUT_INDEX.singstat.json",
       "path": "artifacts/api-server/data/intelligence/raw-downloads/SG_PETROLEUM_OUTPUT_INDEX.singstat.json",
       "capability": "dataset",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_PRECISION_ENGINEERING_OUTPUT_INDEX.csv",
       "path": "artifacts/api-server/data/intelligence/raw-downloads/SG_PRECISION_ENGINEERING_OUTPUT_INDEX.csv",
       "capability": "other",
-      "extension": "csv"
+      "extension": "csv",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_PRECISION_ENGINEERING_OUTPUT_INDEX.singstat.json",
       "path": "artifacts/api-server/data/intelligence/raw-downloads/SG_PRECISION_ENGINEERING_OUTPUT_INDEX.singstat.json",
       "capability": "dataset",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_SEMICONDUCTOR_OUTPUT_INDEX.csv",
       "path": "artifacts/api-server/data/intelligence/raw-downloads/SG_SEMICONDUCTOR_OUTPUT_INDEX.csv",
       "capability": "other",
-      "extension": "csv"
+      "extension": "csv",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_SEMICONDUCTOR_OUTPUT_INDEX.singstat.json",
       "path": "artifacts/api-server/data/intelligence/raw-downloads/SG_SEMICONDUCTOR_OUTPUT_INDEX.singstat.json",
       "capability": "dataset",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.csv",
       "path": "artifacts/api-server/data/intelligence/raw-downloads/SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.csv",
       "capability": "other",
-      "extension": "csv"
+      "extension": "csv",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.singstat.json",
       "path": "artifacts/api-server/data/intelligence/raw-downloads/SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.singstat.json",
       "capability": "dataset",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.csv",
       "path": "artifacts/api-server/data/intelligence/raw-downloads/SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.csv",
       "capability": "other",
-      "extension": "csv"
+      "extension": "csv",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.singstat.json",
       "path": "artifacts/api-server/data/intelligence/raw-downloads/SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.singstat.json",
       "capability": "dataset",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "readiness-consistency-audit-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/readiness-consistency-audit-v0.1.json",
       "capability": "governance",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "replay-coverage-assessment-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/replay-coverage-assessment-registry-v0.1.json",
       "capability": "replay",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "replay-experience-accumulator-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/replay-experience-accumulator-v0.1.json",
       "capability": "replay",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "replay-experience-accumulator-v0.2.json",
       "path": "artifacts/api-server/data/intelligence/replay-experience-accumulator-v0.2.json",
       "capability": "replay",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "replay-mechanism-evidence-matrix-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/replay-mechanism-evidence-matrix-v0.1.json",
       "capability": "replay",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "replay-support-engine-v0.2.json",
       "path": "artifacts/api-server/data/intelligence/replay-support-engine-v0.2.json",
       "capability": "replay",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "secondary-driver-opportunity-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/secondary-driver-opportunity-registry-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "sector-indicator-candidate-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/sector-indicator-candidate-registry-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "sector-indicator-promotion-executor-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/sector-indicator-promotion-executor-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "sector-macro-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/sector-macro-registry-v0.1.json",
       "capability": "macro",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "sector-manual-promotion-decision-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/sector-manual-promotion-decision-v0.1.json",
       "capability": "decision",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "sector-promotion-gate-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/sector-promotion-gate-v0.1.json",
       "capability": "governance",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "signal-watchlist-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/signal-watchlist-registry-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "similarity-confidence-adjustment-layer-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/similarity-confidence-adjustment-layer-v0.1.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_BIOMEDICAL_OUTPUT_INDEX.json",
       "path": "artifacts/api-server/data/intelligence/source-download-config/SG_BIOMEDICAL_OUTPUT_INDEX.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_CHEMICALS_OUTPUT_INDEX.json",
       "path": "artifacts/api-server/data/intelligence/source-download-config/SG_CHEMICALS_OUTPUT_INDEX.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_PETROLEUM_OUTPUT_INDEX.json",
       "path": "artifacts/api-server/data/intelligence/source-download-config/SG_PETROLEUM_OUTPUT_INDEX.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_PRECISION_ENGINEERING_OUTPUT_INDEX.json",
       "path": "artifacts/api-server/data/intelligence/source-download-config/SG_PRECISION_ENGINEERING_OUTPUT_INDEX.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_SEMICONDUCTOR_OUTPUT_INDEX.json",
       "path": "artifacts/api-server/data/intelligence/source-download-config/SG_SEMICONDUCTOR_OUTPUT_INDEX.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.json",
       "path": "artifacts/api-server/data/intelligence/source-download-config/SG_TOTAL_MANUFACTURING_OUTPUT_INDEX.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.json",
       "path": "artifacts/api-server/data/intelligence/source-download-config/SG_TRANSPORT_ENGINEERING_OUTPUT_INDEX.json",
       "capability": "other",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "validated-mechanism-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/validated-mechanism-registry-v0.1.json",
       "capability": "mechanism",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "validation-readiness-engine-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/validation-readiness-engine-v0.1.json",
       "capability": "governance",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "verified-dataset-registry-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/verified-dataset-registry-v0.1.json",
       "capability": "dataset",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
     },
     {
       "name": "wave-1-batch-experience-promotion-v0.1.json",
       "path": "artifacts/api-server/data/intelligence/wave-1-batch-experience-promotion-v0.1.json",
       "capability": "learning_memory",
-      "extension": "json"
+      "extension": "json",
+      "package_domain": "intelligence",
+      "source_directory": "data/intelligence"
+    },
+    {
+      "name": "case-completeness-report-v0.1.json",
+      "path": "artifacts/api-server/data/replay/case-completeness-report-v0.1.json",
+      "capability": "other",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "papa-replay-dashboard-package-v0.1.json",
+      "path": "artifacts/api-server/data/replay/papa-replay-dashboard-package-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-analogue-summary-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-analogue-summary-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-audit-report-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-audit-report-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-brainy-diagnosis-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-brainy-diagnosis-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-calibration-engine-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-calibration-engine-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-calibration-engine-v0.2.json",
+      "path": "artifacts/api-server/data/replay/replay-calibration-engine-v0.2.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-case-acquisition-queue-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-case-acquisition-queue-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-case-definitions-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-case-definitions-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-case-registry-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-case-registry-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-case-registry-v0.2.json",
+      "path": "artifacts/api-server/data/replay/replay-case-registry-v0.2.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-case-scoreboard-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-case-scoreboard-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-confidence-engine-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-confidence-engine-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-confidence-history-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-confidence-history-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-evidence-mapping-queue-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-evidence-mapping-queue-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-expansion-queue-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-expansion-queue-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-explanation-summary-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-explanation-summary-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-fleet-registry-v0.2.json",
+      "path": "artifacts/api-server/data/replay/replay-fleet-registry-v0.2.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-forecast-envelope-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-forecast-envelope-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-governance-history-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-governance-history-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-historian-snapshot-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-historian-snapshot-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-improvement-proposals-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-improvement-proposals-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-improvement-report-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-improvement-report-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-macro-source-attachment-drafts-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-macro-source-attachment-drafts-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-mechanism-gap-report-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-mechanism-gap-report-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-production-promotion-report-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-production-promotion-report-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-proposal-dashboard-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-proposal-dashboard-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-proposal-registry-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-proposal-registry-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-quality-summary-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-quality-summary-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-readiness-check-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-readiness-check-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-run-config-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-run-config-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-shadow-execution-report-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-shadow-execution-report-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-wave-1-pack-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-wave-1-pack-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
+    },
+    {
+      "name": "replay-wave-1-readiness-gate-v0.1.json",
+      "path": "artifacts/api-server/data/replay/replay-wave-1-readiness-gate-v0.1.json",
+      "capability": "replay",
+      "extension": "json",
+      "package_domain": "replay",
+      "source_directory": "data/replay"
     }
   ],
   "recommended_use": "The Intelligence Warehouse UI should consume this registry instead of hardcoded counts."

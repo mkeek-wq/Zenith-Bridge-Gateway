@@ -20,6 +20,15 @@ function listFilesRecursive(dir: string): string[] {
   });
 }
 
+function listFilesShallow(dir: string): string[] {
+  if (!fs.existsSync(dir)) return [];
+
+  return fs
+    .readdirSync(dir, { withFileTypes: true })
+    .filter((entry) => entry.isFile())
+    .map((entry) => path.join(dir, entry.name));
+}
+
 function toRepoRelative(filePath: string): string {
   return path.relative(repoRoot, filePath).replaceAll("\\", "/");
 }
@@ -52,12 +61,17 @@ function summarizeByCapability(items: { capability: string }[]) {
 
 const scriptsDir = path.join(apiRoot, "src/scripts");
 const intelligenceDataDir = path.join(apiRoot, "data/intelligence");
+const replayDataDir = path.join(apiRoot, "data/replay");
 
 const scriptFiles = listFilesRecursive(scriptsDir)
   .filter((file) => file.endsWith(".ts"))
   .sort();
 
 const intelligenceFiles = listFilesRecursive(intelligenceDataDir)
+  .filter((file) => file.endsWith(".json") || file.endsWith(".csv"))
+  .sort();
+
+const replayFiles = listFilesShallow(replayDataDir)
   .filter((file) => file.endsWith(".json") || file.endsWith(".csv"))
   .sort();
 
@@ -70,15 +84,32 @@ const engines = scriptFiles.map((file) => {
   };
 });
 
-const packages = intelligenceFiles.map((file) => {
-  const name = path.basename(file);
-  return {
-    name,
-    path: toRepoRelative(file),
-    capability: classifyCapability(name),
-    extension: path.extname(file).replace(".", ""),
-  };
-});
+const packages = [
+  ...intelligenceFiles.map((file) => {
+    const name = path.basename(file);
+
+    return {
+      name,
+      path: toRepoRelative(file),
+      capability: classifyCapability(name),
+      extension: path.extname(file).replace(".", ""),
+      package_domain: "intelligence",
+      source_directory: "data/intelligence",
+    };
+  }),
+  ...replayFiles.map((file) => {
+    const name = path.basename(file);
+
+    return {
+      name,
+      path: toRepoRelative(file),
+      capability: classifyCapability(name),
+      extension: path.extname(file).replace(".", ""),
+      package_domain: "replay",
+      source_directory: "data/replay",
+    };
+  }),
+].sort((a, b) => a.path.localeCompare(b.path));
 
 const registry = {
   version: "intelligence-warehouse-registry-v0.1",
@@ -90,10 +121,14 @@ const registry = {
     repo_root: repoRoot,
     scripts_dir: "artifacts/api-server/src/scripts",
     intelligence_data_dir: "artifacts/api-server/data/intelligence",
+    replay_data_dir: "artifacts/api-server/data/replay",
+    replay_scan_mode: "root_level_only",
   },
   summary: {
     engine_count: engines.length,
-    intelligence_file_count: packages.length,
+    intelligence_file_count: intelligenceFiles.length,
+    replay_file_count: replayFiles.length,
+    package_count: packages.length,
     engine_capability_counts: summarizeByCapability(engines),
     package_capability_counts: summarizeByCapability(packages),
   },
