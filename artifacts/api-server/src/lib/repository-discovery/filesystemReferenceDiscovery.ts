@@ -1,7 +1,9 @@
 export type FilesystemReference = {
   target: string;
   evidence: string;
-  parser: "literal-data-intelligence-v0.1";
+  parser:
+    | "literal-data-intelligence-v0.1"
+    | "literal-data-path-v0.2";
   confidence: "high";
 };
 
@@ -13,7 +15,7 @@ export function discoverFilesystemReferences(
   source: string
 ): FilesystemReference[] {
   const matches =
-    source.match(/data\/intelligence\/[^"'`\s,)]+/g) ?? [];
+    source.match(/data\/(?:intelligence|replay)\/[^"'`\s,)]+/g) ?? [];
 
   const targets = unique(
     matches.map((match) => match.replace(/[;,.]+$/, ""))
@@ -22,7 +24,9 @@ export function discoverFilesystemReferences(
   return targets.map((target) => ({
     target,
     evidence: target,
-    parser: "literal-data-intelligence-v0.1",
+    parser: target.startsWith("data/replay/")
+      ? "literal-data-path-v0.2"
+      : "literal-data-intelligence-v0.1",
     confidence: "high",
   }));
 }

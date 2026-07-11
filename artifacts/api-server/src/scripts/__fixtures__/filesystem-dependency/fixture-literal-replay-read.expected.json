@@ -1,0 +1,13 @@
+{
+  "fixture": "fixture-literal-replay-read.ts",
+  "reads": [
+    {
+      "target": "data/replay/replay-quality-summary-v0.1.json",
+      "confidence": "high",
+      "parser": "literal-data-path-v0.2"
+    }
+  ],
+  "writes": [],
+  "ignored_paths": [],
+  "unresolved_paths": []
+}
