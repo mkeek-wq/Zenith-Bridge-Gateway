@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { discoverFilesystemReferences } from "../lib/repository-discovery/index.js";
 
 const ROOT = process.cwd();
 const SCRIPT_DIR = path.join(ROOT, "src/scripts");
@@ -21,11 +22,6 @@ function walk(dir: string): string[] {
 
 function unique(values: string[]) {
   return [...new Set(values)].sort();
-}
-
-function extractIntelligencePaths(source: string): string[] {
-  const matches = source.match(/data\/intelligence\/[^"'`\s,)]+/g) ?? [];
-  return unique(matches.map((m) => m.replace(/[;,.]+$/, "")));
 }
 
 function classifyEcosystem(scriptName: string): string {
@@ -51,7 +47,10 @@ const scripts = scriptFiles.map((filePath) => {
   const scriptName = path.basename(filePath);
   const source = fs.readFileSync(filePath, "utf8");
 
-  const intelligencePaths = extractIntelligencePaths(source);
+  const filesystemReferences = discoverFilesystemReferences(source);
+  const intelligencePaths = filesystemReferences.map(
+    (reference) => reference.target
+  );
 
   const writes = unique(
     intelligencePaths.filter((p) => {
