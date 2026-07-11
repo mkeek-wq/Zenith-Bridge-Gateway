@@ -1,0 +1,13 @@
+{
+  "fixture": "fixture-path-join-replay-write.ts",
+  "reads": [],
+  "writes": [
+    {
+      "target": "data/replay/replay-quality-summary-v0.1.json",
+      "confidence": "high",
+      "parser": "path-join-data-path-v0.1"
+    }
+  ],
+  "ignored_paths": [],
+  "unresolved_paths": []
+}

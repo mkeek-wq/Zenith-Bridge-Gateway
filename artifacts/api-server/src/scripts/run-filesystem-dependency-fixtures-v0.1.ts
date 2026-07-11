@@ -68,6 +68,7 @@ function classifyReferences(
     };
 
     if (
+      reference.operation === "write" ||
       writePattern.test(source) ||
       outputConstantPattern.test(source)
     ) {
