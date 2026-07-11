@@ -14,7 +14,10 @@ function walk(dir: string): string[] {
 
   return fs.readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
     const fullPath = path.join(dir, entry.name);
-    if (entry.isDirectory()) return walk(fullPath);
+    if (entry.isDirectory()) {
+    if (entry.name === "__fixtures__") return [];
+     return walk(fullPath);
+   }
     if (entry.isFile() && /\.(ts|js|mjs)$/.test(entry.name)) return [fullPath];
     return [];
   });
@@ -48,23 +51,18 @@ const scripts = scriptFiles.map((filePath) => {
   const source = fs.readFileSync(filePath, "utf8");
 
   const filesystemReferences = discoverFilesystemReferences(source);
-  const intelligencePaths = filesystemReferences.map(
-    (reference) => reference.target
-  );
 
   const writes = unique(
-    intelligencePaths.filter((p) => {
-      const escaped = p.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-      const writePattern = new RegExp(`writeFileSync\\([^\\n]*${escaped}`);
-      const outputConstPattern = new RegExp(
-        `(OUTPUT|OUTPUT_PATH|OUTPUT_FILE|outPath|outputPath)[^\\n]*${escaped}`
-      );
-
-      return writePattern.test(source) || outputConstPattern.test(source);
-    })
+    filesystemReferences
+      .filter((reference) => reference.operation === "write")
+      .map((reference) => reference.target)
   );
 
-  const reads = unique(intelligencePaths.filter((p) => !writes.includes(p)));
+  const reads = unique(
+    filesystemReferences
+      .filter((reference) => reference.operation !== "write")
+      .map((reference) => reference.target)
+  );
 
   return {
     script_name: scriptName,

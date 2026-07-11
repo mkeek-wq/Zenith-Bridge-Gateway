@@ -1,6 +1,6 @@
 {
   "registry_version": "dependency-registry-v0.1",
-  "generated_at": "2026-07-06T10:46:20.875Z",
+  "generated_at": "2026-07-11T07:45:41.291Z",
   "doctrine": {
     "dependencies_are_inferred_from_filesystem_references": true,
     "registry_is_discovery_not_truth": true,
@@ -9,28 +9,28 @@
   },
   "inputs": {
     "script_directory": "src/scripts",
-    "scripts_scanned": 393
+    "scripts_scanned": 395
   },
   "summary": {
-    "scripts_scanned": 393,
-    "scripts_with_reads": 158,
-    "scripts_with_writes": 39,
-    "packages_referenced": 143,
-    "packages_with_producers": 38,
-    "packages_with_consumers": 138,
-    "orphan_outputs": 5,
-    "referenced_missing_packages": 3
+    "scripts_scanned": 395,
+    "scripts_with_reads": 248,
+    "scripts_with_writes": 88,
+    "packages_referenced": 252,
+    "packages_with_producers": 85,
+    "packages_with_consumers": 246,
+    "orphan_outputs": 6,
+    "referenced_missing_packages": 27
   },
   "ecosystems": {
     "article_publication": 54,
     "dataset": 13,
     "decision": 3,
     "evidence": 39,
-    "general": 110,
+    "general": 111,
     "graph": 14,
     "macro": 23,
     "mechanism": 13,
-    "registry": 34,
+    "registry": 35,
     "replay": 90
   },
   "scripts": [
@@ -38,14 +38,29 @@
       "script_name": "approve-replay-proposal-v0.1.ts",
       "script_path": "src/scripts/approve-replay-proposal-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
-      "downstream_scripts": [],
-      "fan_in": 0,
-      "fan_out": 0
+      "reads": [
+        "data/replay/replay-proposal-registry-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-proposal-registry-v0.1.json"
+      ],
+      "read_count": 1,
+      "write_count": 1,
+      "upstream_scripts": [
+        "promote-replay-proposal-v0.1.ts",
+        "reject-replay-proposal-v0.1.ts",
+        "replay-proposal-registry-v0.1.ts"
+      ],
+      "downstream_scripts": [
+        "build-replay-governance-history-v0.1.ts",
+        "build-replay-proposal-dashboard-v0.1.ts",
+        "build-replay-shadow-execution-v0.1.ts",
+        "promote-replay-proposal-v0.1.ts",
+        "reject-replay-proposal-v0.1.ts",
+        "replay-proposal-registry-v0.1.ts"
+      ],
+      "fan_in": 3,
+      "fan_out": 6
     },
     {
       "script_name": "archive-documents.ts",
@@ -244,9 +259,11 @@
       "script_name": "build-article-data-readiness-gate-v0.1.ts",
       "script_path": "src/scripts/build-article-data-readiness-gate-v0.1.ts",
       "ecosystem": "article_publication",
-      "reads": [],
+      "reads": [
+        "data/intelligence/dataset-coverage-engine-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 1,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -383,11 +400,13 @@
       ],
       "read_count": 2,
       "write_count": 1,
-      "upstream_scripts": [],
+      "upstream_scripts": [
+        "build-graph-specification-package-v0.1.ts"
+      ],
       "downstream_scripts": [
         "build-article-preview-package-v0.1.ts"
       ],
-      "fan_in": 0,
+      "fan_in": 1,
       "fan_out": 1
     },
     {
@@ -438,15 +457,21 @@
         "data/intelligence/article-workbench-package-v0.2.json",
         "data/intelligence/graph-data-package-v0.1.json"
       ],
-      "writes": [],
+      "writes": [
+        "data/intelligence/article-intelligence-package-v0.1.json"
+      ],
       "read_count": 3,
-      "write_count": 0,
+      "write_count": 1,
       "upstream_scripts": [
         "build-article-workbench-package-v0.2.ts"
       ],
-      "downstream_scripts": [],
+      "downstream_scripts": [
+        "build-openai-article-package-v0.2.ts",
+        "build-openai-article-package-v0.3.ts",
+        "build-openai-article-package-v0.4.ts"
+      ],
       "fan_in": 1,
-      "fan_out": 0
+      "fan_out": 3
     },
     {
       "script_name": "build-article-opportunity-queue-v0.1.ts",
@@ -465,11 +490,12 @@
       ],
       "downstream_scripts": [
         "build-article-workbench-package-v0.2.ts",
+        "build-data-request-queue-v0.1.ts",
         "build-prioritized-evidence-discovery-queue-v0.1.ts",
         "build-smurf-article-seed-from-opportunity-v0.1.ts"
       ],
       "fan_in": 1,
-      "fan_out": 3
+      "fan_out": 4
     },
     {
       "script_name": "build-article-preview-html-v0.1.ts",
@@ -553,6 +579,7 @@
       "ecosystem": "article_publication",
       "reads": [
         "data/intelligence/article-data-readiness-gate-v0.1.json",
+        "data/intelligence/article-workbench-package-v0.1.json",
         "data/intelligence/dataset-coverage-engine-v0.1.json",
         "data/intelligence/graph-data-package-v0.1.json",
         "data/intelligence/verified-dataset-registry-v0.1.json"
@@ -560,7 +587,7 @@
       "writes": [
         "data/intelligence/article-workbench-package-v0.1.json"
       ],
-      "read_count": 4,
+      "read_count": 5,
       "write_count": 1,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -574,6 +601,7 @@
       "reads": [
         "data/intelligence/article-data-readiness-gate-v0.1.json",
         "data/intelligence/article-opportunity-queue-v0.1.json",
+        "data/intelligence/article-workbench-package-v0.2.json",
         "data/intelligence/dataset-coverage-engine-v0.1.json",
         "data/intelligence/graph-data-package-v0.1.json",
         "data/intelligence/verified-dataset-registry-v0.1.json"
@@ -581,7 +609,7 @@
       "writes": [
         "data/intelligence/article-workbench-package-v0.2.json"
       ],
-      "read_count": 5,
+      "read_count": 6,
       "write_count": 1,
       "upstream_scripts": [
         "build-article-opportunity-queue-v0.1.ts"
@@ -746,9 +774,11 @@
       "writes": [],
       "read_count": 10,
       "write_count": 0,
-      "upstream_scripts": [],
+      "upstream_scripts": [
+        "build-experience-registry-engine-v0.1.ts"
+      ],
       "downstream_scripts": [],
-      "fan_in": 0,
+      "fan_in": 1,
       "fan_out": 0
     },
     {
@@ -930,13 +960,19 @@
         "data/intelligence/cms-draft-package-v0.1.json",
         "data/intelligence/cms-publication-package-v0.1.json"
       ],
-      "writes": [],
+      "writes": [
+        "data/intelligence/cms-draft-package-v0.1.json"
+      ],
       "read_count": 2,
-      "write_count": 0,
-      "upstream_scripts": [],
-      "downstream_scripts": [],
-      "fan_in": 0,
-      "fan_out": 0
+      "write_count": 1,
+      "upstream_scripts": [
+        "build-cms-publication-package-v0.1.ts"
+      ],
+      "downstream_scripts": [
+        "publish-cms-draft-package-v0.1.ts"
+      ],
+      "fan_in": 1,
+      "fan_out": 1
     },
     {
       "script_name": "build-cms-export-package-v0.1.ts",
@@ -986,15 +1022,20 @@
         "data/intelligence/openai-article-audit-v0.1.json",
         "data/intelligence/openai-generated-article-package-v0.1.json"
       ],
-      "writes": [],
+      "writes": [
+        "data/intelligence/cms-publication-package-v0.1.json"
+      ],
       "read_count": 3,
-      "write_count": 0,
+      "write_count": 1,
       "upstream_scripts": [
         "generate-openai-article-v0.1.ts"
       ],
-      "downstream_scripts": [],
+      "downstream_scripts": [
+        "build-cms-draft-package-v0.1.ts",
+        "publish-cms-publication-package-v0.1.ts"
+      ],
       "fan_in": 1,
-      "fan_out": 0
+      "fan_out": 2
     },
     {
       "script_name": "build-compatibility-check-engine-v0.1.ts",
@@ -1201,13 +1242,17 @@
       "script_name": "build-data-request-queue-v0.1.ts",
       "script_path": "src/scripts/build-data-request-queue-v0.1.ts",
       "ecosystem": "general",
-      "reads": [],
+      "reads": [
+        "data/intelligence/article-opportunity-queue-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 1,
       "write_count": 0,
-      "upstream_scripts": [],
+      "upstream_scripts": [
+        "build-article-opportunity-queue-v0.1.ts"
+      ],
       "downstream_scripts": [],
-      "fan_in": 0,
+      "fan_in": 1,
       "fan_out": 0
     },
     {
@@ -1218,13 +1263,17 @@
         "data/intelligence/dataset-audit-report-v0.1.json",
         "data/intelligence/verified-dataset-registry-v0.1.json"
       ],
-      "writes": [],
+      "writes": [
+        "data/intelligence/dataset-audit-report-v0.1.json"
+      ],
       "read_count": 2,
-      "write_count": 0,
+      "write_count": 1,
       "upstream_scripts": [],
-      "downstream_scripts": [],
+      "downstream_scripts": [
+        "build-replay-dataset-evidence-bridge-v0.1.ts"
+      ],
       "fan_in": 0,
-      "fan_out": 0
+      "fan_out": 1
     },
     {
       "script_name": "build-dataset-consistency-audit-v0.1.ts",
@@ -1234,9 +1283,11 @@
         "data/intelligence/parsed-datasets",
         "data/intelligence/verified-dataset-registry-v0.1.json"
       ],
-      "writes": [],
+      "writes": [
+        "data/intelligence/dataset-consistency-audit-v0.1.json"
+      ],
       "read_count": 2,
-      "write_count": 0,
+      "write_count": 1,
       "upstream_scripts": [],
       "downstream_scripts": [],
       "fan_in": 0,
@@ -1246,9 +1297,12 @@
       "script_name": "build-dataset-coverage-engine-v0.1.ts",
       "script_path": "src/scripts/build-dataset-coverage-engine-v0.1.ts",
       "ecosystem": "dataset",
-      "reads": [],
+      "reads": [
+        "data/intelligence/data-request-queue-v0.1.json",
+        "data/intelligence/verified-dataset-registry-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 2,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -1298,13 +1352,17 @@
       "reads": [
         "data/intelligence/dependency-registry-v0.1.json"
       ],
-      "writes": [],
+      "writes": [
+        "data/intelligence/dependency-registry-v0.1.json"
+      ],
       "read_count": 1,
-      "write_count": 0,
+      "write_count": 1,
       "upstream_scripts": [],
-      "downstream_scripts": [],
+      "downstream_scripts": [
+        "build-engine-intelligence-registry-v0.1.ts"
+      ],
       "fan_in": 0,
-      "fan_out": 0
+      "fan_out": 1
     },
     {
       "script_name": "build-document-registry.ts",
@@ -1440,6 +1498,25 @@
       "upstream_scripts": [],
       "downstream_scripts": [],
       "fan_in": 0,
+      "fan_out": 0
+    },
+    {
+      "script_name": "build-engine-intelligence-registry-v0.1.ts",
+      "script_path": "src/scripts/build-engine-intelligence-registry-v0.1.ts",
+      "ecosystem": "registry",
+      "reads": [
+        "data/intelligence/dependency-registry-v0.1.json",
+        "data/intelligence/engine-intelligence-registry-v0.1.json",
+        "data/intelligence/intelligence-warehouse-registry-v0.1.json"
+      ],
+      "writes": [],
+      "read_count": 3,
+      "write_count": 0,
+      "upstream_scripts": [
+        "build-dependency-registry-v0.1.ts"
+      ],
+      "downstream_scripts": [],
+      "fan_in": 1,
       "fan_out": 0
     },
     {
@@ -1607,10 +1684,12 @@
       "script_path": "src/scripts/build-experience-candidate-registry-v0.1.ts",
       "ecosystem": "registry",
       "reads": [
-        "data/intelligence/experience-candidate-registry-v0.1.json"
+        "data/intelligence/experience-candidate-registry-v0.1.json",
+        "data/replay/wave-1/SG-NODX-2023-experience-promotion-gate-v0.1.json",
+        "data/replay/wave-1/SG-NODX-2023-outcome-comparison-v0.1.json"
       ],
       "writes": [],
-      "read_count": 1,
+      "read_count": 3,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -1629,9 +1708,11 @@
       "writes": [],
       "read_count": 3,
       "write_count": 0,
-      "upstream_scripts": [],
+      "upstream_scripts": [
+        "build-experience-registry-engine-v0.1.ts"
+      ],
       "downstream_scripts": [],
-      "fan_in": 0,
+      "fan_in": 1,
       "fan_out": 0
     },
     {
@@ -1721,18 +1802,23 @@
       "writes": [],
       "read_count": 2,
       "write_count": 0,
-      "upstream_scripts": [],
+      "upstream_scripts": [
+        "build-experience-registry-engine-v0.1.ts"
+      ],
       "downstream_scripts": [],
-      "fan_in": 0,
+      "fan_in": 1,
       "fan_out": 0
     },
     {
       "script_name": "build-experience-promotion-gate-v0.1.ts",
       "script_path": "src/scripts/build-experience-promotion-gate-v0.1.ts",
       "ecosystem": "general",
-      "reads": [],
+      "reads": [
+        "data/replay/wave-1/SG-NODX-2023-experience-promotion-gate-v0.1.json",
+        "data/replay/wave-1/SG-NODX-2023-outcome-comparison-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 2,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -1747,13 +1833,20 @@
         "data/intelligence/experience-extraction-engine-v0.1.json",
         "data/intelligence/experience-registry-engine-v0.1.json"
       ],
-      "writes": [],
+      "writes": [
+        "data/intelligence/experience-registry-engine-v0.1.json"
+      ],
       "read_count": 2,
-      "write_count": 0,
+      "write_count": 1,
       "upstream_scripts": [],
-      "downstream_scripts": [],
+      "downstream_scripts": [
+        "build-bulk-ingestion-readiness-check-v0.1.ts",
+        "build-experience-confidence-engine-v0.1.ts",
+        "build-experience-pattern-engine-v0.1.ts",
+        "build-module-registry-v0.1.ts"
+      ],
       "fan_in": 0,
-      "fan_out": 0
+      "fan_out": 4
     },
     {
       "script_name": "build-experience-registry-promotion-gate-v0.1.ts",
@@ -1840,9 +1933,11 @@
       "script_name": "build-graph-data-package-v0.1.ts",
       "script_path": "src/scripts/build-graph-data-package-v0.1.ts",
       "ecosystem": "graph",
-      "reads": [],
+      "reads": [
+        "data/intelligence/verified-dataset-registry-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 1,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -1898,15 +1993,23 @@
         "data/intelligence/openai-generated-article-package-v0.3.json",
         "data/intelligence/openai-generated-article-package-v0.4.json"
       ],
-      "writes": [],
+      "writes": [
+        "data/intelligence/graph-specification-package-v0.1.json"
+      ],
       "read_count": 4,
-      "write_count": 0,
+      "write_count": 1,
       "upstream_scripts": [
         "build-article-workbench-package-v0.2.ts"
       ],
-      "downstream_scripts": [],
+      "downstream_scripts": [
+        "build-article-graph-attachment-package-v0.1.ts",
+        "publish-graph-specification-package-v0.1.ts",
+        "render-graph-specification-v0.1.ts",
+        "render-graph-specification-v0.2.ts",
+        "render-graph-specification-v0.3.ts"
+      ],
       "fan_in": 1,
-      "fan_out": 0
+      "fan_out": 5
     },
     {
       "script_name": "build-historical-cases-from-m355381.ts",
@@ -2464,10 +2567,11 @@
       "reads": [
         "data/intelligence/macro-attribution-engine-v0.1.json",
         "data/intelligence/macro-transmission-engine-v0.1.json",
-        "data/intelligence/mechanism-reputation-engine-v0.1.json"
+        "data/intelligence/mechanism-reputation-engine-v0.1.json",
+        "data/replay/fleet-runs/replay-fleet-dry-run-executor-v0.1.json"
       ],
       "writes": [],
-      "read_count": 3,
+      "read_count": 4,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -2482,10 +2586,11 @@
         "data/intelligence/macro-attribution-engine-v0.2.json",
         "data/intelligence/macro-domain-relevance-engine-v0.1.json",
         "data/intelligence/macro-transmission-engine-v0.1.json",
-        "data/intelligence/mechanism-reputation-engine-v0.1.json"
+        "data/intelligence/mechanism-reputation-engine-v0.1.json",
+        "data/replay/fleet-runs/replay-fleet-dry-run-executor-v0.1.json"
       ],
       "writes": [],
-      "read_count": 4,
+      "read_count": 5,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -2837,10 +2942,12 @@
       "reads": [
         "data/intelligence/experience-confidence-engine-v0.1.json",
         "data/intelligence/mechanism-confidence-engine-v0.2.json",
-        "data/intelligence/mechanism-reputation-engine-v0.1.json"
+        "data/intelligence/mechanism-reputation-engine-v0.1.json",
+        "data/replay/fleet-evaluations/replay-fleet-evaluation-engine-v0.1.json",
+        "data/replay/replay-calibration-engine-v0.1.json"
       ],
       "writes": [],
-      "read_count": 3,
+      "read_count": 5,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -2997,9 +3104,11 @@
       "writes": [],
       "read_count": 9,
       "write_count": 0,
-      "upstream_scripts": [],
+      "upstream_scripts": [
+        "build-experience-registry-engine-v0.1.ts"
+      ],
       "downstream_scripts": [],
-      "fan_in": 0,
+      "fan_in": 1,
       "fan_out": 0
     },
     {
@@ -3111,10 +3220,11 @@
       "read_count": 3,
       "write_count": 0,
       "upstream_scripts": [
+        "build-article-intelligence-package-v0.1.ts",
         "build-article-workbench-package-v0.2.ts"
       ],
       "downstream_scripts": [],
-      "fan_in": 1,
+      "fan_in": 2,
       "fan_out": 0
     },
     {
@@ -3130,10 +3240,11 @@
       "read_count": 3,
       "write_count": 0,
       "upstream_scripts": [
+        "build-article-intelligence-package-v0.1.ts",
         "build-article-workbench-package-v0.2.ts"
       ],
       "downstream_scripts": [],
-      "fan_in": 1,
+      "fan_in": 2,
       "fan_out": 0
     },
     {
@@ -3150,11 +3261,12 @@
       "read_count": 4,
       "write_count": 0,
       "upstream_scripts": [
+        "build-article-intelligence-package-v0.1.ts",
         "build-article-workbench-package-v0.2.ts",
         "build-readiness-consistency-audit-v0.1.ts"
       ],
       "downstream_scripts": [],
-      "fan_in": 2,
+      "fan_in": 3,
       "fan_out": 0
     },
     {
@@ -3180,9 +3292,12 @@
       "script_name": "build-outcome-comparison-engine-v0.1.ts",
       "script_path": "src/scripts/build-outcome-comparison-engine-v0.1.ts",
       "ecosystem": "general",
-      "reads": [],
+      "reads": [
+        "data/replay/wave-1/SG-NODX-2023-outcome-comparison-v0.1.json",
+        "data/replay/wave-1/SG-NODX-2023-single-case-replay-result-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 2,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -3231,14 +3346,28 @@
       "script_name": "build-papa-replay-dashboard-package-v0.1.ts",
       "script_path": "src/scripts/build-papa-replay-dashboard-package-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
-      "downstream_scripts": [],
-      "fan_in": 0,
-      "fan_out": 0
+      "reads": [
+        "data/replay/papa-replay-dashboard-package-v0.1.json",
+        "data/replay/replay-analogue-summary-v0.1.json",
+        "data/replay/replay-explanation-summary-v0.1.json",
+        "data/replay/replay-quality-summary-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/papa-replay-dashboard-package-v0.1.json"
+      ],
+      "read_count": 4,
+      "write_count": 1,
+      "upstream_scripts": [
+        "build-replay-analogue-summary-v0.1.ts",
+        "build-replay-explanation-summary-v0.1.ts",
+        "build-replay-quality-summary-v0.1.ts"
+      ],
+      "downstream_scripts": [
+        "build-replay-confidence-engine-v0.1.ts",
+        "build-replay-forecast-envelope-v0.1.ts"
+      ],
+      "fan_in": 3,
+      "fan_out": 2
     },
     {
       "script_name": "build-post-ingestion-comparison-engine-v0.1.ts",
@@ -3583,61 +3712,103 @@
       "script_name": "build-replay-analogue-summary-v0.1.ts",
       "script_path": "src/scripts/build-replay-analogue-summary-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
+      "reads": [
+        "data/replay/replay-analogue-summary-v0.1.json",
+        "data/replay/similarity"
+      ],
+      "writes": [
+        "data/replay/replay-analogue-summary-v0.1.json"
+      ],
+      "read_count": 2,
+      "write_count": 1,
       "upstream_scripts": [],
-      "downstream_scripts": [],
+      "downstream_scripts": [
+        "build-papa-replay-dashboard-package-v0.1.ts"
+      ],
       "fan_in": 0,
-      "fan_out": 0
+      "fan_out": 1
     },
     {
       "script_name": "build-replay-audit-engine-v0.1.ts",
       "script_path": "src/scripts/build-replay-audit-engine-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
-      "downstream_scripts": [],
-      "fan_in": 0,
-      "fan_out": 0
+      "reads": [
+        "data/replay/replay-audit-report-v0.1.json",
+        "data/replay/replay-shadow-execution-report-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-audit-report-v0.1.json"
+      ],
+      "read_count": 2,
+      "write_count": 1,
+      "upstream_scripts": [
+        "build-replay-shadow-execution-v0.1.ts"
+      ],
+      "downstream_scripts": [
+        "build-replay-governance-history-v0.1.ts",
+        "promote-replay-proposal-v0.1.ts"
+      ],
+      "fan_in": 1,
+      "fan_out": 2
     },
     {
       "script_name": "build-replay-audit-summary-v0.1.ts",
       "script_path": "src/scripts/build-replay-audit-summary-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
+      "reads": [
+        "data/replay/audit/replay-audit-summary-v0.1.json",
+        "data/replay/audit/replay-case-audit-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/audit/replay-audit-summary-v0.1.json"
+      ],
+      "read_count": 2,
+      "write_count": 1,
+      "upstream_scripts": [
+        "build-replay-case-audit-v0.1.ts"
+      ],
       "downstream_scripts": [],
-      "fan_in": 0,
+      "fan_in": 1,
       "fan_out": 0
     },
     {
       "script_name": "build-replay-brainy-diagnosis-v0.1.ts",
       "script_path": "src/scripts/build-replay-brainy-diagnosis-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
-      "downstream_scripts": [],
-      "fan_in": 0,
-      "fan_out": 0
+      "reads": [
+        "data/replay/replay-brainy-diagnosis-v0.1.json",
+        "data/replay/replay-confidence-engine-v0.1.json",
+        "data/replay/replay-mechanism-gap-report-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-brainy-diagnosis-v0.1.json"
+      ],
+      "read_count": 3,
+      "write_count": 1,
+      "upstream_scripts": [
+        "build-replay-confidence-engine-v0.1.ts",
+        "build-replay-mechanism-gap-report-v0.1.ts"
+      ],
+      "downstream_scripts": [
+        "build-replay-decision-support-layer-v0.1.ts",
+        "build-replay-depth-enrichment-queue-v0.1.ts",
+        "build-replay-forecast-range-smurf-v0.1.ts",
+        "build-replay-scenario-library-v0.1.ts",
+        "build-replay-self-improvement-orchestrator-v0.1.ts"
+      ],
+      "fan_in": 2,
+      "fan_out": 5
     },
     {
       "script_name": "build-replay-calibration-engine-v0.1.ts",
       "script_path": "src/scripts/build-replay-calibration-engine-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/replay-calibration-engine-v0.1.json",
+        "data/replay/replay-case-scoreboard-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 2,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -3648,9 +3819,12 @@
       "script_name": "build-replay-calibration-engine-v0.2.ts",
       "script_path": "src/scripts/build-replay-calibration-engine-v0.2.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/fleet-evaluations/replay-fleet-evaluation-engine-v0.1.json",
+        "data/replay/replay-calibration-engine-v0.2.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 2,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -3661,35 +3835,53 @@
       "script_name": "build-replay-case-acquisition-queue-v0.1.ts",
       "script_path": "src/scripts/build-replay-case-acquisition-queue-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
+      "reads": [
+        "data/replay/replay-case-acquisition-queue-v0.1.json",
+        "data/replay/replay-mechanism-gap-report-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-case-acquisition-queue-v0.1.json"
+      ],
+      "read_count": 2,
+      "write_count": 1,
+      "upstream_scripts": [
+        "build-replay-mechanism-gap-report-v0.1.ts"
+      ],
       "downstream_scripts": [],
-      "fan_in": 0,
+      "fan_in": 1,
       "fan_out": 0
     },
     {
       "script_name": "build-replay-case-audit-v0.1.ts",
       "script_path": "src/scripts/build-replay-case-audit-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
+      "reads": [
+        "data/replay/cases/replay-historical-case-registry-v0.1.json",
+        "data/replay/depth/replay-depth-schema-v0.1.json",
+        "data/replay/taxonomy/replay-mechanism-taxonomy-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/audit/replay-case-audit-v0.1.json"
+      ],
+      "read_count": 3,
+      "write_count": 1,
       "upstream_scripts": [],
-      "downstream_scripts": [],
+      "downstream_scripts": [
+        "build-replay-audit-summary-v0.1.ts"
+      ],
       "fan_in": 0,
-      "fan_out": 0
+      "fan_out": 1
     },
     {
       "script_name": "build-replay-case-definitions-v0.1.ts",
       "script_path": "src/scripts/build-replay-case-definitions-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/replay-case-definitions-v0.1.json",
+        "data/replay/replay-expansion-queue-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 2,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -3700,22 +3892,35 @@
       "script_name": "build-replay-case-depth-audit-v0.1.ts",
       "script_path": "src/scripts/build-replay-case-depth-audit-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
+      "reads": [
+        "data/replay/cases/replay-historical-case-registry-v0.1.json",
+        "data/replay/depth/replay-depth-schema-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/depth/replay-case-depth-audit-v0.1.json"
+      ],
+      "read_count": 2,
+      "write_count": 1,
       "upstream_scripts": [],
-      "downstream_scripts": [],
+      "downstream_scripts": [
+        "build-replay-depth-enrichment-queue-v0.1.ts"
+      ],
       "fan_in": 0,
-      "fan_out": 0
+      "fan_out": 1
     },
     {
       "script_name": "build-replay-case-registry-v0.1.ts",
       "script_path": "src/scripts/build-replay-case-registry-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/input/replay-input-sg-biomedical-2021-v0.1.json",
+        "data/replay/input/replay-input-sg-manufacturing-recovery-v0.1.json",
+        "data/replay/input/replay-input-sg-petroleum-2020-v0.1.json",
+        "data/replay/input/replay-input-sg-semiconductor-2021-v0.1.json",
+        "data/replay/replay-case-registry-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 5,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -3726,9 +3931,20 @@
       "script_name": "build-replay-case-registry-v0.2.ts",
       "script_path": "src/scripts/build-replay-case-registry-v0.2.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/input/replay-input-sg-biomedical-2021-v0.1.json",
+        "data/replay/input/replay-input-sg-electronics-2020-v0.1.json",
+        "data/replay/input/replay-input-sg-electronics-2021-v0.1.json",
+        "data/replay/input/replay-input-sg-manufacturing-recovery-v0.1.json",
+        "data/replay/input/replay-input-sg-petroleum-2020-v0.1.json",
+        "data/replay/input/replay-input-sg-semiconductor-2021-v0.1.json",
+        "data/replay/input/replay-input-sg-services-2020-v0.1.json",
+        "data/replay/input/replay-input-sg-services-2021-v0.1.json",
+        "data/replay/replay-case-registry-v0.1.json",
+        "data/replay/replay-case-registry-v0.2.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 10,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -3739,9 +3955,14 @@
       "script_name": "build-replay-case-scoreboard-v0.1.ts",
       "script_path": "src/scripts/build-replay-case-scoreboard-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/evaluations/replay-evaluation-report-v0.1.json",
+        "data/replay/output/replay-executor-dry-run-v0.1.json",
+        "data/replay/replay-case-registry-v0.1.json",
+        "data/replay/replay-case-scoreboard-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 4,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -3752,39 +3973,74 @@
       "script_name": "build-replay-client-impact-assessment-v0.1.ts",
       "script_path": "src/scripts/build-replay-client-impact-assessment-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
-      "downstream_scripts": [],
-      "fan_in": 0,
-      "fan_out": 0
+      "reads": [
+        "data/replay/replay-client-impact-assessment-v0.1.json",
+        "data/replay/replay-decision-support-layer-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-client-impact-assessment-v0.1.json"
+      ],
+      "read_count": 2,
+      "write_count": 1,
+      "upstream_scripts": [
+        "build-replay-decision-support-layer-v0.1.ts"
+      ],
+      "downstream_scripts": [
+        "build-replay-forecast-range-smurf-v0.1.ts"
+      ],
+      "fan_in": 1,
+      "fan_out": 1
     },
     {
       "script_name": "build-replay-confidence-engine-v0.1.ts",
       "script_path": "src/scripts/build-replay-confidence-engine-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
-      "downstream_scripts": [],
-      "fan_in": 0,
-      "fan_out": 0
+      "reads": [
+        "data/replay/papa-replay-dashboard-package-v0.1.json",
+        "data/replay/replay-forecast-envelope-v0.1.json",
+        "data/replay/replay-quality-summary-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-confidence-engine-v0.1.json"
+      ],
+      "read_count": 3,
+      "write_count": 1,
+      "upstream_scripts": [
+        "build-papa-replay-dashboard-package-v0.1.ts",
+        "build-replay-forecast-envelope-v0.1.ts",
+        "build-replay-quality-summary-v0.1.ts"
+      ],
+      "downstream_scripts": [
+        "build-replay-brainy-diagnosis-v0.1.ts",
+        "build-replay-confidence-history-v0.1.ts",
+        "build-replay-decision-support-layer-v0.1.ts",
+        "build-replay-forecast-range-smurf-v0.1.ts",
+        "build-replay-historian-snapshot-v0.1.ts",
+        "build-replay-improvement-history-v0.1.ts",
+        "build-replay-scenario-library-v0.1.ts",
+        "build-replay-self-improvement-orchestrator-v0.1.ts"
+      ],
+      "fan_in": 3,
+      "fan_out": 8
     },
     {
       "script_name": "build-replay-confidence-history-v0.1.ts",
       "script_path": "src/scripts/build-replay-confidence-history-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
+      "reads": [
+        "data/replay/replay-confidence-engine-v0.1.json",
+        "data/replay/replay-confidence-history-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-confidence-history-v0.1.json"
+      ],
+      "read_count": 2,
+      "write_count": 1,
+      "upstream_scripts": [
+        "build-replay-confidence-engine-v0.1.ts"
+      ],
       "downstream_scripts": [],
-      "fan_in": 0,
+      "fan_in": 1,
       "fan_out": 0
     },
     {
@@ -3816,49 +4072,84 @@
       "script_path": "src/scripts/build-replay-dataset-evidence-bridge-v0.1.ts",
       "ecosystem": "replay",
       "reads": [
-        "data/intelligence/dataset-audit-report-v0.1.json"
+        "data/intelligence/dataset-audit-report-v0.1.json",
+        "data/replay/replay-dataset-evidence-bridge-v0.1.json",
+        "data/replay/replay-macro-source-attachment-drafts-v0.1.json"
       ],
-      "writes": [],
-      "read_count": 1,
-      "write_count": 0,
-      "upstream_scripts": [],
+      "writes": [
+        "data/replay/replay-dataset-evidence-bridge-v0.1.json"
+      ],
+      "read_count": 3,
+      "write_count": 1,
+      "upstream_scripts": [
+        "build-dataset-audit-report-v0.1.ts"
+      ],
       "downstream_scripts": [],
-      "fan_in": 0,
+      "fan_in": 1,
       "fan_out": 0
     },
     {
       "script_name": "build-replay-decision-support-layer-v0.1.ts",
       "script_path": "src/scripts/build-replay-decision-support-layer-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
-      "downstream_scripts": [],
-      "fan_in": 0,
-      "fan_out": 0
+      "reads": [
+        "data/replay/replay-brainy-diagnosis-v0.1.json",
+        "data/replay/replay-confidence-engine-v0.1.json",
+        "data/replay/replay-decision-support-layer-v0.1.json",
+        "data/replay/replay-scenario-library-v0.1.json",
+        "data/replay/replay-self-improvement-orchestrator-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-decision-support-layer-v0.1.json"
+      ],
+      "read_count": 5,
+      "write_count": 1,
+      "upstream_scripts": [
+        "build-replay-brainy-diagnosis-v0.1.ts",
+        "build-replay-confidence-engine-v0.1.ts",
+        "build-replay-scenario-library-v0.1.ts",
+        "build-replay-self-improvement-orchestrator-v0.1.ts"
+      ],
+      "downstream_scripts": [
+        "build-replay-client-impact-assessment-v0.1.ts",
+        "build-replay-forecast-range-smurf-v0.1.ts"
+      ],
+      "fan_in": 4,
+      "fan_out": 2
     },
     {
       "script_name": "build-replay-depth-enrichment-queue-v0.1.ts",
       "script_path": "src/scripts/build-replay-depth-enrichment-queue-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
+      "reads": [
+        "data/replay/depth/replay-case-depth-audit-v0.1.json",
+        "data/replay/replay-brainy-diagnosis-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/depth/replay-depth-enrichment-queue-v0.1.json"
+      ],
+      "read_count": 2,
+      "write_count": 1,
+      "upstream_scripts": [
+        "build-replay-brainy-diagnosis-v0.1.ts",
+        "build-replay-case-depth-audit-v0.1.ts"
+      ],
       "downstream_scripts": [],
-      "fan_in": 0,
+      "fan_in": 2,
       "fan_out": 0
     },
     {
       "script_name": "build-replay-evaluation-report-v0.1.ts",
       "script_path": "src/scripts/build-replay-evaluation-report-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/evaluations",
+        "data/replay/evaluations/replay-evaluation-report-v0.1.json",
+        "data/replay/output/replay-executor-dry-run-v0.1.json",
+        "data/replay/replay-readiness-check-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 4,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -3869,9 +4160,14 @@
       "script_name": "build-replay-evidence-files-v0.1.ts",
       "script_path": "src/scripts/build-replay-evidence-files-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/replay-wave-1-pack-v0.1.json",
+        "data/replay/replay-wave-1-readiness-gate-v0.1.json",
+        "data/replay/wave-1/evidence-files",
+        "data/replay/wave-1/replay-evidence-file-index-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 4,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -3882,9 +4178,12 @@
       "script_name": "build-replay-evidence-mapping-queue-v0.1.ts",
       "script_path": "src/scripts/build-replay-evidence-mapping-queue-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/replay-case-definitions-v0.1.json",
+        "data/replay/replay-evidence-mapping-queue-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 2,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -3895,9 +4194,12 @@
       "script_name": "build-replay-evidence-population-plan-v0.1.ts",
       "script_path": "src/scripts/build-replay-evidence-population-plan-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/wave-1/replay-evidence-file-index-v0.1.json",
+        "data/replay/wave-1/replay-evidence-population-plan-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 2,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -3908,9 +4210,11 @@
       "script_name": "build-replay-evidence-populator-v0.1.ts",
       "script_path": "src/scripts/build-replay-evidence-populator-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/wave-1/evidence-files/SG-NODX-2023-replay-evidence-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 1,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -3921,9 +4225,12 @@
       "script_name": "build-replay-evidence-validation-engine-v0.1.ts",
       "script_path": "src/scripts/build-replay-evidence-validation-engine-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/wave-1/SG-NODX-2023-evidence-validation-v0.1.json",
+        "data/replay/wave-1/evidence-files/SG-NODX-2023-replay-evidence-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 2,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -3934,9 +4241,14 @@
       "script_name": "build-replay-executor-dry-run-v0.1.ts",
       "script_path": "src/scripts/build-replay-executor-dry-run-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/output",
+        "data/replay/output/replay-executor-dry-run-v0.1.json",
+        "data/replay/replay-readiness-check-v0.1.json",
+        "data/replay/run-manifests"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 4,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -3947,9 +4259,12 @@
       "script_name": "build-replay-expansion-queue-v0.1.ts",
       "script_path": "src/scripts/build-replay-expansion-queue-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/replay-expansion-queue-v0.1.json",
+        "data/replay/replay-fleet-registry-v0.2.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 2,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -3976,22 +4291,34 @@
       "script_name": "build-replay-explanation-summary-v0.1.ts",
       "script_path": "src/scripts/build-replay-explanation-summary-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
+      "reads": [
+        "data/replay/replay-explanation-summary-v0.1.json",
+        "data/replay/similarity"
+      ],
+      "writes": [
+        "data/replay/replay-explanation-summary-v0.1.json"
+      ],
+      "read_count": 2,
+      "write_count": 1,
       "upstream_scripts": [],
-      "downstream_scripts": [],
+      "downstream_scripts": [
+        "build-papa-replay-dashboard-package-v0.1.ts"
+      ],
       "fan_in": 0,
-      "fan_out": 0
+      "fan_out": 1
     },
     {
       "script_name": "build-replay-fleet-dry-run-executor-v0.1.ts",
       "script_path": "src/scripts/build-replay-fleet-dry-run-executor-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/fleet-runs",
+        "data/replay/fleet-runs/replay-fleet-dry-run-executor-v0.1.json",
+        "data/replay/fleet/replay-fleet-manifest-v0.1.json",
+        "data/replay/replay-readiness-check-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 4,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -4002,9 +4329,13 @@
       "script_name": "build-replay-fleet-evaluation-engine-v0.1.ts",
       "script_path": "src/scripts/build-replay-fleet-evaluation-engine-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/fleet-evaluations",
+        "data/replay/fleet-evaluations/replay-fleet-evaluation-engine-v0.1.json",
+        "data/replay/fleet-runs/replay-fleet-dry-run-executor-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 3,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -4015,9 +4346,13 @@
       "script_name": "build-replay-fleet-learning-report-v0.1.ts",
       "script_path": "src/scripts/build-replay-fleet-learning-report-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/wave-1/SG-NODX-2023-experience-promotion-gate-v0.1.json",
+        "data/replay/wave-1/SG-NODX-2023-outcome-comparison-v0.1.json",
+        "data/replay/wave-1/replay-fleet-learning-report-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 3,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -4028,9 +4363,13 @@
       "script_name": "build-replay-fleet-manifest-v0.1.ts",
       "script_path": "src/scripts/build-replay-fleet-manifest-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/fleet",
+        "data/replay/fleet/replay-fleet-manifest-v0.1.json",
+        "data/replay/replay-case-registry-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 3,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -4041,9 +4380,13 @@
       "script_name": "build-replay-fleet-queue-report-v0.1.ts",
       "script_path": "src/scripts/build-replay-fleet-queue-report-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/fleet",
+        "data/replay/fleet/replay-fleet-manifest-v0.1.json",
+        "data/replay/fleet/replay-fleet-queue-report-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 3,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -4054,164 +4397,8 @@
       "script_name": "build-replay-fleet-registry-v0.2.ts",
       "script_path": "src/scripts/build-replay-fleet-registry-v0.2.ts",
       "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
-      "downstream_scripts": [],
-      "fan_in": 0,
-      "fan_out": 0
-    },
-    {
-      "script_name": "build-replay-forecast-envelope-v0.1.ts",
-      "script_path": "src/scripts/build-replay-forecast-envelope-v0.1.ts",
-      "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
-      "downstream_scripts": [],
-      "fan_in": 0,
-      "fan_out": 0
-    },
-    {
-      "script_name": "build-replay-forecast-range-smurf-v0.1.ts",
-      "script_path": "src/scripts/build-replay-forecast-range-smurf-v0.1.ts",
-      "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
-      "downstream_scripts": [],
-      "fan_in": 0,
-      "fan_out": 0
-    },
-    {
-      "script_name": "build-replay-governance-history-v0.1.ts",
-      "script_path": "src/scripts/build-replay-governance-history-v0.1.ts",
-      "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
-      "downstream_scripts": [],
-      "fan_in": 0,
-      "fan_out": 0
-    },
-    {
-      "script_name": "build-replay-historian-snapshot-v0.1.ts",
-      "script_path": "src/scripts/build-replay-historian-snapshot-v0.1.ts",
-      "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
-      "downstream_scripts": [],
-      "fan_in": 0,
-      "fan_out": 0
-    },
-    {
-      "script_name": "build-replay-improvement-history-v0.1.ts",
-      "script_path": "src/scripts/build-replay-improvement-history-v0.1.ts",
-      "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
-      "downstream_scripts": [],
-      "fan_in": 0,
-      "fan_out": 0
-    },
-    {
-      "script_name": "build-replay-improvement-report-v0.1.ts",
-      "script_path": "src/scripts/build-replay-improvement-report-v0.1.ts",
-      "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
-      "downstream_scripts": [],
-      "fan_in": 0,
-      "fan_out": 0
-    },
-    {
-      "script_name": "build-replay-landscape-cartographer-v0.1.ts",
-      "script_path": "src/scripts/build-replay-landscape-cartographer-v0.1.ts",
-      "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
-      "downstream_scripts": [],
-      "fan_in": 0,
-      "fan_out": 0
-    },
-    {
-      "script_name": "build-replay-macro-acquisition-queue-v0.1.ts",
-      "script_path": "src/scripts/build-replay-macro-acquisition-queue-v0.1.ts",
-      "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
-      "downstream_scripts": [],
-      "fan_in": 0,
-      "fan_out": 0
-    },
-    {
-      "script_name": "build-replay-macro-anchor-expansion-queue-v0.1.ts",
-      "script_path": "src/scripts/build-replay-macro-anchor-expansion-queue-v0.1.ts",
-      "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
-      "downstream_scripts": [],
-      "fan_in": 0,
-      "fan_out": 0
-    },
-    {
-      "script_name": "build-replay-macro-event-coverage-map-v0.1.ts",
-      "script_path": "src/scripts/build-replay-macro-event-coverage-map-v0.1.ts",
-      "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
-      "downstream_scripts": [],
-      "fan_in": 0,
-      "fan_out": 0
-    },
-    {
-      "script_name": "build-replay-macro-event-registry-v0.1.ts",
-      "script_path": "src/scripts/build-replay-macro-event-registry-v0.1.ts",
-      "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
-      "downstream_scripts": [],
-      "fan_in": 0,
-      "fan_out": 0
-    },
-    {
-      "script_name": "build-replay-macro-source-attachment-builder-v0.1.ts",
-      "script_path": "src/scripts/build-replay-macro-source-attachment-builder-v0.1.ts",
-      "ecosystem": "replay",
       "reads": [
-        "data/intelligence/verified-dataset-registry-v0.1.json"
+        "data/replay/replay-fleet-registry-v0.2.json"
       ],
       "writes": [],
       "read_count": 1,
@@ -4222,38 +4409,335 @@
       "fan_out": 0
     },
     {
-      "script_name": "build-replay-macro-source-checklist-v0.1.ts",
-      "script_path": "src/scripts/build-replay-macro-source-checklist-v0.1.ts",
+      "script_name": "build-replay-forecast-envelope-v0.1.ts",
+      "script_path": "src/scripts/build-replay-forecast-envelope-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
+      "reads": [
+        "data/replay/papa-replay-dashboard-package-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-forecast-envelope-v0.1.json"
+      ],
+      "read_count": 1,
+      "write_count": 1,
+      "upstream_scripts": [
+        "build-papa-replay-dashboard-package-v0.1.ts"
+      ],
+      "downstream_scripts": [
+        "build-replay-confidence-engine-v0.1.ts",
+        "build-replay-historian-snapshot-v0.1.ts"
+      ],
+      "fan_in": 1,
+      "fan_out": 2
+    },
+    {
+      "script_name": "build-replay-forecast-range-smurf-v0.1.ts",
+      "script_path": "src/scripts/build-replay-forecast-range-smurf-v0.1.ts",
+      "ecosystem": "replay",
+      "reads": [
+        "data/replay/replay-brainy-diagnosis-v0.1.json",
+        "data/replay/replay-client-impact-assessment-v0.1.json",
+        "data/replay/replay-confidence-engine-v0.1.json",
+        "data/replay/replay-decision-support-layer-v0.1.json",
+        "data/replay/replay-forecast-range-smurf-v0.1.json",
+        "data/replay/replay-scenario-library-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-forecast-range-smurf-v0.1.json"
+      ],
+      "read_count": 6,
+      "write_count": 1,
+      "upstream_scripts": [
+        "build-replay-brainy-diagnosis-v0.1.ts",
+        "build-replay-client-impact-assessment-v0.1.ts",
+        "build-replay-confidence-engine-v0.1.ts",
+        "build-replay-decision-support-layer-v0.1.ts",
+        "build-replay-scenario-library-v0.1.ts"
+      ],
+      "downstream_scripts": [],
+      "fan_in": 5,
+      "fan_out": 0
+    },
+    {
+      "script_name": "build-replay-governance-history-v0.1.ts",
+      "script_path": "src/scripts/build-replay-governance-history-v0.1.ts",
+      "ecosystem": "replay",
+      "reads": [
+        "data/replay/replay-audit-report-v0.1.json",
+        "data/replay/replay-governance-history-v0.1.json",
+        "data/replay/replay-production-promotion-report-v0.1.json",
+        "data/replay/replay-proposal-dashboard-v0.1.json",
+        "data/replay/replay-proposal-registry-v0.1.json",
+        "data/replay/replay-shadow-execution-report-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-governance-history-v0.1.json"
+      ],
+      "read_count": 6,
+      "write_count": 1,
+      "upstream_scripts": [
+        "approve-replay-proposal-v0.1.ts",
+        "build-replay-audit-engine-v0.1.ts",
+        "build-replay-proposal-dashboard-v0.1.ts",
+        "build-replay-shadow-execution-v0.1.ts",
+        "promote-replay-proposal-v0.1.ts",
+        "reject-replay-proposal-v0.1.ts",
+        "replay-proposal-registry-v0.1.ts"
+      ],
+      "downstream_scripts": [
+        "build-replay-self-improvement-orchestrator-v0.1.ts"
+      ],
+      "fan_in": 7,
+      "fan_out": 1
+    },
+    {
+      "script_name": "build-replay-historian-snapshot-v0.1.ts",
+      "script_path": "src/scripts/build-replay-historian-snapshot-v0.1.ts",
+      "ecosystem": "replay",
+      "reads": [
+        "data/replay/replay-confidence-engine-v0.1.json",
+        "data/replay/replay-forecast-envelope-v0.1.json",
+        "data/replay/replay-quality-summary-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-historian-snapshot-v0.1.json"
+      ],
+      "read_count": 3,
+      "write_count": 1,
+      "upstream_scripts": [
+        "build-replay-confidence-engine-v0.1.ts",
+        "build-replay-forecast-envelope-v0.1.ts",
+        "build-replay-quality-summary-v0.1.ts"
+      ],
+      "downstream_scripts": [],
+      "fan_in": 3,
+      "fan_out": 0
+    },
+    {
+      "script_name": "build-replay-improvement-history-v0.1.ts",
+      "script_path": "src/scripts/build-replay-improvement-history-v0.1.ts",
+      "ecosystem": "replay",
+      "reads": [
+        "data/replay/history/replay-improvement-history-v0.1.json",
+        "data/replay/replay-confidence-engine-v0.1.json",
+        "data/replay/replay-quality-summary-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/history/replay-improvement-history-v0.1.json"
+      ],
+      "read_count": 3,
+      "write_count": 1,
+      "upstream_scripts": [
+        "build-replay-confidence-engine-v0.1.ts",
+        "build-replay-quality-summary-v0.1.ts"
+      ],
+      "downstream_scripts": [
+        "build-replay-improvement-report-v0.1.ts"
+      ],
+      "fan_in": 2,
+      "fan_out": 1
+    },
+    {
+      "script_name": "build-replay-improvement-report-v0.1.ts",
+      "script_path": "src/scripts/build-replay-improvement-report-v0.1.ts",
+      "ecosystem": "replay",
+      "reads": [
+        "data/replay/history/replay-improvement-history-v0.1.json",
+        "data/replay/replay-improvement-report-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-improvement-report-v0.1.json"
+      ],
+      "read_count": 2,
+      "write_count": 1,
+      "upstream_scripts": [
+        "build-replay-improvement-history-v0.1.ts"
+      ],
+      "downstream_scripts": [
+        "build-replay-self-improvement-orchestrator-v0.1.ts"
+      ],
+      "fan_in": 1,
+      "fan_out": 1
+    },
+    {
+      "script_name": "build-replay-landscape-cartographer-v0.1.ts",
+      "script_path": "src/scripts/build-replay-landscape-cartographer-v0.1.ts",
+      "ecosystem": "replay",
+      "reads": [
+        "data/replay/replay-landscape-cartographer-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-landscape-cartographer-v0.1.json"
+      ],
+      "read_count": 1,
+      "write_count": 1,
       "upstream_scripts": [],
       "downstream_scripts": [],
       "fan_in": 0,
       "fan_out": 0
+    },
+    {
+      "script_name": "build-replay-macro-acquisition-queue-v0.1.ts",
+      "script_path": "src/scripts/build-replay-macro-acquisition-queue-v0.1.ts",
+      "ecosystem": "replay",
+      "reads": [
+        "data/replay/replay-macro-acquisition-queue-v0.1.json",
+        "data/replay/replay-macro-anchor-expansion-queue-v0.1.json",
+        "data/replay/replay-macro-event-anchor-registry-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-macro-acquisition-queue-v0.1.json"
+      ],
+      "read_count": 3,
+      "write_count": 1,
+      "upstream_scripts": [
+        "build-replay-macro-anchor-expansion-queue-v0.1.ts",
+        "build-replay-macro-event-registry-v0.1.ts"
+      ],
+      "downstream_scripts": [
+        "build-replay-macro-sourced-batch-v0.1.ts"
+      ],
+      "fan_in": 2,
+      "fan_out": 1
+    },
+    {
+      "script_name": "build-replay-macro-anchor-expansion-queue-v0.1.ts",
+      "script_path": "src/scripts/build-replay-macro-anchor-expansion-queue-v0.1.ts",
+      "ecosystem": "replay",
+      "reads": [
+        "data/replay/replay-macro-anchor-expansion-queue-v0.1.json",
+        "data/replay/replay-macro-event-coverage-map-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-macro-anchor-expansion-queue-v0.1.json"
+      ],
+      "read_count": 2,
+      "write_count": 1,
+      "upstream_scripts": [
+        "build-replay-macro-event-coverage-map-v0.1.ts"
+      ],
+      "downstream_scripts": [
+        "build-replay-macro-acquisition-queue-v0.1.ts"
+      ],
+      "fan_in": 1,
+      "fan_out": 1
+    },
+    {
+      "script_name": "build-replay-macro-event-coverage-map-v0.1.ts",
+      "script_path": "src/scripts/build-replay-macro-event-coverage-map-v0.1.ts",
+      "ecosystem": "replay",
+      "reads": [
+        "data/replay/replay-macro-event-anchor-registry-v0.1.json",
+        "data/replay/replay-macro-event-coverage-map-v0.1.json",
+        "data/replay/replay-scenario-library-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-macro-event-coverage-map-v0.1.json"
+      ],
+      "read_count": 3,
+      "write_count": 1,
+      "upstream_scripts": [
+        "build-replay-macro-event-registry-v0.1.ts",
+        "build-replay-scenario-library-v0.1.ts"
+      ],
+      "downstream_scripts": [
+        "build-replay-macro-anchor-expansion-queue-v0.1.ts"
+      ],
+      "fan_in": 2,
+      "fan_out": 1
+    },
+    {
+      "script_name": "build-replay-macro-event-registry-v0.1.ts",
+      "script_path": "src/scripts/build-replay-macro-event-registry-v0.1.ts",
+      "ecosystem": "replay",
+      "reads": [
+        "data/replay/replay-macro-event-anchor-registry-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-macro-event-anchor-registry-v0.1.json"
+      ],
+      "read_count": 1,
+      "write_count": 1,
+      "upstream_scripts": [],
+      "downstream_scripts": [
+        "build-replay-macro-acquisition-queue-v0.1.ts",
+        "build-replay-macro-event-coverage-map-v0.1.ts"
+      ],
+      "fan_in": 0,
+      "fan_out": 2
+    },
+    {
+      "script_name": "build-replay-macro-source-attachment-builder-v0.1.ts",
+      "script_path": "src/scripts/build-replay-macro-source-attachment-builder-v0.1.ts",
+      "ecosystem": "replay",
+      "reads": [
+        "data/intelligence/verified-dataset-registry-v0.1.json",
+        "data/replay/replay-macro-source-checklist-v0.1.json"
+      ],
+      "writes": [],
+      "read_count": 2,
+      "write_count": 0,
+      "upstream_scripts": [
+        "build-replay-macro-source-checklist-v0.1.ts"
+      ],
+      "downstream_scripts": [],
+      "fan_in": 1,
+      "fan_out": 0
+    },
+    {
+      "script_name": "build-replay-macro-source-checklist-v0.1.ts",
+      "script_path": "src/scripts/build-replay-macro-source-checklist-v0.1.ts",
+      "ecosystem": "replay",
+      "reads": [
+        "data/replay/replay-macro-source-checklist-v0.1.json",
+        "data/replay/replay-macro-sourced-batch-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-macro-source-checklist-v0.1.json"
+      ],
+      "read_count": 2,
+      "write_count": 1,
+      "upstream_scripts": [
+        "build-replay-macro-sourced-batch-v0.1.ts"
+      ],
+      "downstream_scripts": [
+        "build-replay-macro-source-attachment-builder-v0.1.ts"
+      ],
+      "fan_in": 1,
+      "fan_out": 1
     },
     {
       "script_name": "build-replay-macro-sourced-batch-v0.1.ts",
       "script_path": "src/scripts/build-replay-macro-sourced-batch-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
-      "downstream_scripts": [],
-      "fan_in": 0,
-      "fan_out": 0
+      "reads": [
+        "data/replay/replay-macro-acquisition-queue-v0.1.json",
+        "data/replay/replay-macro-sourced-batch-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-macro-sourced-batch-v0.1.json"
+      ],
+      "read_count": 2,
+      "write_count": 1,
+      "upstream_scripts": [
+        "build-replay-macro-acquisition-queue-v0.1.ts"
+      ],
+      "downstream_scripts": [
+        "build-replay-macro-source-checklist-v0.1.ts"
+      ],
+      "fan_in": 1,
+      "fan_out": 1
     },
     {
       "script_name": "build-replay-mechanism-coverage-v0.1.ts",
       "script_path": "src/scripts/build-replay-mechanism-coverage-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/cases/replay-historical-case-registry-v0.1.json",
+        "data/replay/coverage"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 2,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -4286,22 +4770,34 @@
       "script_name": "build-replay-mechanism-gap-report-v0.1.ts",
       "script_path": "src/scripts/build-replay-mechanism-gap-report-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
+      "reads": [
+        "data/replay/coverage/replay-mechanism-coverage-v0.1.json",
+        "data/replay/replay-mechanism-gap-report-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-mechanism-gap-report-v0.1.json"
+      ],
+      "read_count": 2,
+      "write_count": 1,
       "upstream_scripts": [],
-      "downstream_scripts": [],
+      "downstream_scripts": [
+        "build-replay-brainy-diagnosis-v0.1.ts",
+        "build-replay-case-acquisition-queue-v0.1.ts"
+      ],
       "fan_in": 0,
-      "fan_out": 0
+      "fan_out": 2
     },
     {
       "script_name": "build-replay-mechanism-taxonomy-coverage-v0.1.ts",
       "script_path": "src/scripts/build-replay-mechanism-taxonomy-coverage-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/cases/replay-historical-case-registry-v0.1.json",
+        "data/replay/coverage",
+        "data/replay/taxonomy/replay-mechanism-taxonomy-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 3,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -4361,22 +4857,37 @@
       "script_name": "build-replay-proposal-dashboard-v0.1.ts",
       "script_path": "src/scripts/build-replay-proposal-dashboard-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
-      "downstream_scripts": [],
-      "fan_in": 0,
-      "fan_out": 0
+      "reads": [
+        "data/replay/replay-proposal-dashboard-v0.1.json",
+        "data/replay/replay-proposal-registry-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-proposal-dashboard-v0.1.json"
+      ],
+      "read_count": 2,
+      "write_count": 1,
+      "upstream_scripts": [
+        "approve-replay-proposal-v0.1.ts",
+        "promote-replay-proposal-v0.1.ts",
+        "reject-replay-proposal-v0.1.ts",
+        "replay-proposal-registry-v0.1.ts"
+      ],
+      "downstream_scripts": [
+        "build-replay-governance-history-v0.1.ts"
+      ],
+      "fan_in": 4,
+      "fan_out": 1
     },
     {
       "script_name": "build-replay-publication-date-gate-v0.1.ts",
       "script_path": "src/scripts/build-replay-publication-date-gate-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/wave-1/replay-evidence-population-plan-v0.1.json",
+        "data/replay/wave-1/replay-publication-date-gate-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 2,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -4387,22 +4898,41 @@
       "script_name": "build-replay-quality-summary-v0.1.ts",
       "script_path": "src/scripts/build-replay-quality-summary-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
+      "reads": [
+        "data/replay/cases/replay-historical-case-registry-v0.1.json",
+        "data/replay/coverage/replay-mechanism-coverage-v0.1.json",
+        "data/replay/replay-quality-summary-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-quality-summary-v0.1.json"
+      ],
+      "read_count": 3,
+      "write_count": 1,
       "upstream_scripts": [],
-      "downstream_scripts": [],
+      "downstream_scripts": [
+        "build-papa-replay-dashboard-package-v0.1.ts",
+        "build-replay-confidence-engine-v0.1.ts",
+        "build-replay-historian-snapshot-v0.1.ts",
+        "build-replay-improvement-history-v0.1.ts"
+      ],
       "fan_in": 0,
-      "fan_out": 0
+      "fan_out": 4
     },
     {
       "script_name": "build-replay-readiness-check-v0.1.ts",
       "script_path": "src/scripts/build-replay-readiness-check-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/input",
+        "data/replay/output",
+        "data/replay/rejected",
+        "data/replay/replay-readiness-check-v0.1.json",
+        "data/replay/replay-run-config-v0.1.json",
+        "data/replay/run-manifests",
+        "data/replay/snapshots"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 7,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -4439,40 +4969,84 @@
       "script_name": "build-replay-scenario-library-v0.1.ts",
       "script_path": "src/scripts/build-replay-scenario-library-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
-      "downstream_scripts": [],
-      "fan_in": 0,
-      "fan_out": 0
+      "reads": [
+        "data/replay/cases/replay-historical-case-registry-v0.1.json",
+        "data/replay/replay-brainy-diagnosis-v0.1.json",
+        "data/replay/replay-confidence-engine-v0.1.json",
+        "data/replay/replay-scenario-library-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-scenario-library-v0.1.json"
+      ],
+      "read_count": 4,
+      "write_count": 1,
+      "upstream_scripts": [
+        "build-replay-brainy-diagnosis-v0.1.ts",
+        "build-replay-confidence-engine-v0.1.ts"
+      ],
+      "downstream_scripts": [
+        "build-replay-decision-support-layer-v0.1.ts",
+        "build-replay-forecast-range-smurf-v0.1.ts",
+        "build-replay-macro-event-coverage-map-v0.1.ts"
+      ],
+      "fan_in": 2,
+      "fan_out": 3
     },
     {
       "script_name": "build-replay-self-improvement-orchestrator-v0.1.ts",
       "script_path": "src/scripts/build-replay-self-improvement-orchestrator-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
-      "downstream_scripts": [],
-      "fan_in": 0,
-      "fan_out": 0
+      "reads": [
+        "data/replay/replay-brainy-diagnosis-v0.1.json",
+        "data/replay/replay-confidence-engine-v0.1.json",
+        "data/replay/replay-governance-history-v0.1.json",
+        "data/replay/replay-improvement-proposals-v0.1.json",
+        "data/replay/replay-improvement-report-v0.1.json",
+        "data/replay/replay-self-improvement-orchestrator-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-self-improvement-orchestrator-v0.1.json"
+      ],
+      "read_count": 6,
+      "write_count": 1,
+      "upstream_scripts": [
+        "build-replay-brainy-diagnosis-v0.1.ts",
+        "build-replay-confidence-engine-v0.1.ts",
+        "build-replay-governance-history-v0.1.ts",
+        "build-replay-improvement-report-v0.1.ts",
+        "replay-improvement-proposal-engine-v0.1.ts"
+      ],
+      "downstream_scripts": [
+        "build-replay-decision-support-layer-v0.1.ts"
+      ],
+      "fan_in": 5,
+      "fan_out": 1
     },
     {
       "script_name": "build-replay-shadow-execution-v0.1.ts",
       "script_path": "src/scripts/build-replay-shadow-execution-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
-      "downstream_scripts": [],
-      "fan_in": 0,
-      "fan_out": 0
+      "reads": [
+        "data/replay/replay-proposal-registry-v0.1.json",
+        "data/replay/replay-shadow-execution-report-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-shadow-execution-report-v0.1.json"
+      ],
+      "read_count": 2,
+      "write_count": 1,
+      "upstream_scripts": [
+        "approve-replay-proposal-v0.1.ts",
+        "promote-replay-proposal-v0.1.ts",
+        "reject-replay-proposal-v0.1.ts",
+        "replay-proposal-registry-v0.1.ts"
+      ],
+      "downstream_scripts": [
+        "build-replay-audit-engine-v0.1.ts",
+        "build-replay-governance-history-v0.1.ts"
+      ],
+      "fan_in": 4,
+      "fan_out": 2
     },
     {
       "script_name": "build-replay-support-engine-v0.2.ts",
@@ -4495,9 +5069,12 @@
       "script_name": "build-replay-wave-1-pack-v0.1.ts",
       "script_path": "src/scripts/build-replay-wave-1-pack-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/replay-evidence-mapping-queue-v0.1.json",
+        "data/replay/replay-wave-1-pack-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 2,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -4508,9 +5085,12 @@
       "script_name": "build-replay-wave-1-readiness-gate-v0.1.ts",
       "script_path": "src/scripts/build-replay-wave-1-readiness-gate-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/replay-wave-1-pack-v0.1.json",
+        "data/replay/replay-wave-1-readiness-gate-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 2,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -4717,9 +5297,13 @@
       "script_name": "build-single-case-replay-runner-v0.1.ts",
       "script_path": "src/scripts/build-single-case-replay-runner-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/wave-1/SG-NODX-2023-evidence-validation-v0.1.json",
+        "data/replay/wave-1/SG-NODX-2023-single-case-replay-result-v0.1.json",
+        "data/replay/wave-1/evidence-files/SG-NODX-2023-replay-evidence-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 3,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -4730,9 +5314,11 @@
       "script_name": "build-singstat-manufacturing-registry-v0.1.ts",
       "script_path": "src/scripts/build-singstat-manufacturing-registry-v0.1.ts",
       "ecosystem": "dataset",
-      "reads": [],
+      "reads": [
+        "data/intelligence/source-download-config"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 1,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -4927,9 +5513,11 @@
       "script_name": "build-verified-dataset-registry-v0.1.ts",
       "script_path": "src/scripts/build-verified-dataset-registry-v0.1.ts",
       "ecosystem": "dataset",
-      "reads": [],
+      "reads": [
+        "data/intelligence/data-request-queue-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 1,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -4966,9 +5554,13 @@
       "script_name": "build-wave-1-batch-evidence-populator-v0.1.ts",
       "script_path": "src/scripts/build-wave-1-batch-evidence-populator-v0.1.ts",
       "ecosystem": "evidence",
-      "reads": [],
+      "reads": [
+        "data/replay/wave-1/evidence-files/SG-FINANCE-2020-replay-evidence-v0.1.json",
+        "data/replay/wave-1/evidence-files/SG-GOODS-EXPORTS-2020-replay-evidence-v0.1.json",
+        "data/replay/wave-1/evidence-files/SG-LABOUR-MARKET-2020-replay-evidence-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 3,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -4979,9 +5571,14 @@
       "script_name": "build-wave-1-batch-evidence-validation-v0.1.ts",
       "script_path": "src/scripts/build-wave-1-batch-evidence-validation-v0.1.ts",
       "ecosystem": "evidence",
-      "reads": [],
+      "reads": [
+        "data/replay/wave-1/evidence-files/SG-FINANCE-2020-replay-evidence-v0.1.json",
+        "data/replay/wave-1/evidence-files/SG-GOODS-EXPORTS-2020-replay-evidence-v0.1.json",
+        "data/replay/wave-1/evidence-files/SG-LABOUR-MARKET-2020-replay-evidence-v0.1.json",
+        "data/replay/wave-1/wave-1-batch-evidence-validation-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 4,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -4993,10 +5590,11 @@
       "script_path": "src/scripts/build-wave-1-batch-experience-promotion-v0.1.ts",
       "ecosystem": "general",
       "reads": [
-        "data/intelligence/wave-1-batch-experience-promotion-v0.1.json"
+        "data/intelligence/wave-1-batch-experience-promotion-v0.1.json",
+        "data/replay/wave-1/wave-1-batch-outcome-comparison-v0.1.json"
       ],
       "writes": [],
-      "read_count": 1,
+      "read_count": 2,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -5007,9 +5605,12 @@
       "script_name": "build-wave-1-batch-outcome-comparison-v0.1.ts",
       "script_path": "src/scripts/build-wave-1-batch-outcome-comparison-v0.1.ts",
       "ecosystem": "general",
-      "reads": [],
+      "reads": [
+        "data/replay/wave-1/wave-1-batch-outcome-comparison-v0.1.json",
+        "data/replay/wave-1/wave-1-batch-replay-results-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 2,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -5020,9 +5621,13 @@
       "script_name": "build-wave-1-batch-replay-runner-v0.1.ts",
       "script_path": "src/scripts/build-wave-1-batch-replay-runner-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/wave-1/evidence-files/${caseId}-replay-evidence-v0.1.json",
+        "data/replay/wave-1/wave-1-batch-evidence-validation-v0.1.json",
+        "data/replay/wave-1/wave-1-batch-replay-results-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 3,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -5052,14 +5657,21 @@
       "script_name": "case-completeness-engine-v0.1.ts",
       "script_path": "src/scripts/case-completeness-engine-v0.1.ts",
       "ecosystem": "general",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
+      "reads": [
+        "data/replay/case-completeness-report-v0.1.json",
+        "data/replay/cases/replay-historical-case-registry-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/case-completeness-report-v0.1.json"
+      ],
+      "read_count": 2,
+      "write_count": 1,
       "upstream_scripts": [],
-      "downstream_scripts": [],
+      "downstream_scripts": [
+        "replay-improvement-proposal-engine-v0.1.ts"
+      ],
       "fan_in": 0,
-      "fan_out": 0
+      "fan_out": 1
     },
     {
       "script_name": "classify-archived-documents.ts",
@@ -5117,10 +5729,19 @@
       "script_name": "create-replay-run-manifest-v0.1.ts",
       "script_path": "src/scripts/create-replay-run-manifest-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
+      "reads": [
+        "data/replay/evaluations",
+        "data/replay/input",
+        "data/replay/input/replay-input-sg-manufacturing-recovery-v0.1.json",
+        "data/replay/output",
+        "data/replay/run-manifests",
+        "data/replay/run-manifests/${replayRunId}.json"
+      ],
+      "writes": [
+        "data/replay/run-manifests/${replayRunId}.json"
+      ],
+      "read_count": 6,
+      "write_count": 1,
       "upstream_scripts": [],
       "downstream_scripts": [],
       "fan_in": 0,
@@ -5157,11 +5778,13 @@
       "script_path": "src/scripts/download-source-dataset-v0.1.ts",
       "ecosystem": "dataset",
       "reads": [
+        "data/intelligence/raw-downloads",
         "data/intelligence/raw-downloads/",
-        "data/intelligence/raw-downloads/${datasetId}.csv"
+        "data/intelligence/raw-downloads/${datasetId}.csv",
+        "data/intelligence/source-download-config/${datasetId}.json"
       ],
       "writes": [],
-      "read_count": 2,
+      "read_count": 4,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -5307,12 +5930,13 @@
       "script_path": "src/scripts/generate-article-draft-v0.1.ts",
       "ecosystem": "article_publication",
       "reads": [
+        "data/intelligence/article-draft-package-v0.1.json",
         "data/intelligence/article-workbench-package-v0.2.json"
       ],
       "writes": [
         "data/intelligence/article-draft-package-v0.1.json"
       ],
-      "read_count": 1,
+      "read_count": 2,
       "write_count": 1,
       "upstream_scripts": [
         "build-article-workbench-package-v0.2.ts"
@@ -5326,12 +5950,13 @@
       "script_path": "src/scripts/generate-openai-article-v0.1.ts",
       "ecosystem": "article_publication",
       "reads": [
-        "data/intelligence/openai-article-package-v0.1.json"
+        "data/intelligence/openai-article-package-v0.1.json",
+        "data/intelligence/openai-generated-article-package-v0.1.json"
       ],
       "writes": [
         "data/intelligence/openai-generated-article-package-v0.1.json"
       ],
-      "read_count": 1,
+      "read_count": 2,
       "write_count": 1,
       "upstream_scripts": [],
       "downstream_scripts": [
@@ -5397,9 +6022,14 @@
       "script_name": "generate-replay-inputs-v0.1.ts",
       "script_path": "src/scripts/generate-replay-inputs-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/input",
+        "data/replay/input/replay-input-sg-biomedical-2021-v0.1.json",
+        "data/replay/input/replay-input-sg-petroleum-2020-v0.1.json",
+        "data/replay/input/replay-input-sg-semiconductor-2021-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 4,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -5410,9 +6040,15 @@
       "script_name": "generate-replay-inputs-v0.2.ts",
       "script_path": "src/scripts/generate-replay-inputs-v0.2.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/input",
+        "data/replay/input/replay-input-sg-electronics-2020-v0.1.json",
+        "data/replay/input/replay-input-sg-electronics-2021-v0.1.json",
+        "data/replay/input/replay-input-sg-services-2020-v0.1.json",
+        "data/replay/input/replay-input-sg-services-2021-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 5,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -5423,9 +6059,14 @@
       "script_name": "load-csv-dataset-v0.1.ts",
       "script_path": "src/scripts/load-csv-dataset-v0.1.ts",
       "ecosystem": "dataset",
-      "reads": [],
+      "reads": [
+        "data/intelligence/parsed-datasets/${datasetId}.json",
+        "data/intelligence/raw-downloads/${datasetId}.csv",
+        "data/intelligence/source-download-config/${datasetId}.json",
+        "data/intelligence/verified-dataset-registry-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 4,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -5436,9 +6077,12 @@
       "script_name": "load-manual-dataset-v0.1.ts",
       "script_path": "src/scripts/load-manual-dataset-v0.1.ts",
       "ecosystem": "dataset",
-      "reads": [],
+      "reads": [
+        "data/intelligence/manual-datasets/${datasetId}.json",
+        "data/intelligence/verified-dataset-registry-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 2,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -5462,9 +6106,14 @@
       "script_name": "load-singstat-table-v0.1.ts",
       "script_path": "src/scripts/load-singstat-table-v0.1.ts",
       "ecosystem": "dataset",
-      "reads": [],
+      "reads": [
+        "data/intelligence/parsed-datasets",
+        "data/intelligence/raw-downloads",
+        "data/intelligence/source-download-config/${datasetId}.json",
+        "data/intelligence/verified-dataset-registry-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 4,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -5475,9 +6124,14 @@
       "script_name": "load-singstat-table-v0.2.ts",
       "script_path": "src/scripts/load-singstat-table-v0.2.ts",
       "ecosystem": "dataset",
-      "reads": [],
+      "reads": [
+        "data/intelligence/parsed-datasets",
+        "data/intelligence/raw-downloads",
+        "data/intelligence/source-download-config/${datasetId}.json",
+        "data/intelligence/verified-dataset-registry-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 4,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -5501,9 +6155,12 @@
       "script_name": "merge-replay-historical-cases-v0.1.ts",
       "script_path": "src/scripts/merge-replay-historical-cases-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/cases/replay-historical-case-registry-v0.1.json",
+        "data/replay/cases/waves"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 2,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -5514,14 +6171,33 @@
       "script_name": "promote-replay-proposal-v0.1.ts",
       "script_path": "src/scripts/promote-replay-proposal-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
-      "downstream_scripts": [],
-      "fan_in": 0,
-      "fan_out": 0
+      "reads": [
+        "data/replay/replay-audit-report-v0.1.json",
+        "data/replay/replay-production-promotion-report-v0.1.json",
+        "data/replay/replay-proposal-registry-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-production-promotion-report-v0.1.json",
+        "data/replay/replay-proposal-registry-v0.1.json"
+      ],
+      "read_count": 3,
+      "write_count": 2,
+      "upstream_scripts": [
+        "approve-replay-proposal-v0.1.ts",
+        "build-replay-audit-engine-v0.1.ts",
+        "reject-replay-proposal-v0.1.ts",
+        "replay-proposal-registry-v0.1.ts"
+      ],
+      "downstream_scripts": [
+        "approve-replay-proposal-v0.1.ts",
+        "build-replay-governance-history-v0.1.ts",
+        "build-replay-proposal-dashboard-v0.1.ts",
+        "build-replay-shadow-execution-v0.1.ts",
+        "reject-replay-proposal-v0.1.ts",
+        "replay-proposal-registry-v0.1.ts"
+      ],
+      "fan_in": 4,
+      "fan_out": 6
     },
     {
       "script_name": "publish-article-workbench-v0.1.ts",
@@ -5550,9 +6226,11 @@
       "writes": [],
       "read_count": 1,
       "write_count": 0,
-      "upstream_scripts": [],
+      "upstream_scripts": [
+        "build-cms-draft-package-v0.1.ts"
+      ],
       "downstream_scripts": [],
-      "fan_in": 0,
+      "fan_in": 1,
       "fan_out": 0
     },
     {
@@ -5565,9 +6243,11 @@
       "writes": [],
       "read_count": 1,
       "write_count": 0,
-      "upstream_scripts": [],
+      "upstream_scripts": [
+        "build-cms-publication-package-v0.1.ts"
+      ],
       "downstream_scripts": [],
-      "fan_in": 0,
+      "fan_in": 1,
       "fan_out": 0
     },
     {
@@ -5593,9 +6273,11 @@
       "writes": [],
       "read_count": 1,
       "write_count": 0,
-      "upstream_scripts": [],
+      "upstream_scripts": [
+        "build-graph-specification-package-v0.1.ts"
+      ],
       "downstream_scripts": [],
-      "fan_in": 0,
+      "fan_in": 1,
       "fan_out": 0
     },
     {
@@ -5619,14 +6301,29 @@
       "script_name": "reject-replay-proposal-v0.1.ts",
       "script_path": "src/scripts/reject-replay-proposal-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
-      "downstream_scripts": [],
-      "fan_in": 0,
-      "fan_out": 0
+      "reads": [
+        "data/replay/replay-proposal-registry-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-proposal-registry-v0.1.json"
+      ],
+      "read_count": 1,
+      "write_count": 1,
+      "upstream_scripts": [
+        "approve-replay-proposal-v0.1.ts",
+        "promote-replay-proposal-v0.1.ts",
+        "replay-proposal-registry-v0.1.ts"
+      ],
+      "downstream_scripts": [
+        "approve-replay-proposal-v0.1.ts",
+        "build-replay-governance-history-v0.1.ts",
+        "build-replay-proposal-dashboard-v0.1.ts",
+        "build-replay-shadow-execution-v0.1.ts",
+        "promote-replay-proposal-v0.1.ts",
+        "replay-proposal-registry-v0.1.ts"
+      ],
+      "fan_in": 3,
+      "fan_out": 6
     },
     {
       "script_name": "render-graph-specification-v0.1.ts",
@@ -5638,9 +6335,11 @@
       "writes": [],
       "read_count": 1,
       "write_count": 0,
-      "upstream_scripts": [],
+      "upstream_scripts": [
+        "build-graph-specification-package-v0.1.ts"
+      ],
       "downstream_scripts": [],
-      "fan_in": 0,
+      "fan_in": 1,
       "fan_out": 0
     },
     {
@@ -5653,9 +6352,11 @@
       "writes": [],
       "read_count": 1,
       "write_count": 0,
-      "upstream_scripts": [],
+      "upstream_scripts": [
+        "build-graph-specification-package-v0.1.ts"
+      ],
       "downstream_scripts": [],
-      "fan_in": 0,
+      "fan_in": 1,
       "fan_out": 0
     },
     {
@@ -5668,9 +6369,11 @@
       "writes": [],
       "read_count": 1,
       "write_count": 0,
-      "upstream_scripts": [],
+      "upstream_scripts": [
+        "build-graph-specification-package-v0.1.ts"
+      ],
       "downstream_scripts": [],
-      "fan_in": 0,
+      "fan_in": 1,
       "fan_out": 0
     },
     {
@@ -5690,19 +6393,59 @@
       "script_name": "replay-improvement-proposal-engine-v0.1.ts",
       "script_path": "src/scripts/replay-improvement-proposal-engine-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
-      "writes": [],
-      "read_count": 0,
-      "write_count": 0,
-      "upstream_scripts": [],
-      "downstream_scripts": [],
-      "fan_in": 0,
-      "fan_out": 0
+      "reads": [
+        "data/replay/case-completeness-report-v0.1.json",
+        "data/replay/replay-improvement-proposals-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-improvement-proposals-v0.1.json"
+      ],
+      "read_count": 2,
+      "write_count": 1,
+      "upstream_scripts": [
+        "case-completeness-engine-v0.1.ts"
+      ],
+      "downstream_scripts": [
+        "build-replay-self-improvement-orchestrator-v0.1.ts",
+        "replay-proposal-registry-v0.1.ts"
+      ],
+      "fan_in": 1,
+      "fan_out": 2
     },
     {
       "script_name": "replay-proposal-registry-v0.1.ts",
       "script_path": "src/scripts/replay-proposal-registry-v0.1.ts",
       "ecosystem": "replay",
+      "reads": [
+        "data/replay/replay-improvement-proposals-v0.1.json",
+        "data/replay/replay-proposal-registry-v0.1.json"
+      ],
+      "writes": [
+        "data/replay/replay-proposal-registry-v0.1.json"
+      ],
+      "read_count": 2,
+      "write_count": 1,
+      "upstream_scripts": [
+        "approve-replay-proposal-v0.1.ts",
+        "promote-replay-proposal-v0.1.ts",
+        "reject-replay-proposal-v0.1.ts",
+        "replay-improvement-proposal-engine-v0.1.ts"
+      ],
+      "downstream_scripts": [
+        "approve-replay-proposal-v0.1.ts",
+        "build-replay-governance-history-v0.1.ts",
+        "build-replay-proposal-dashboard-v0.1.ts",
+        "build-replay-shadow-execution-v0.1.ts",
+        "promote-replay-proposal-v0.1.ts",
+        "reject-replay-proposal-v0.1.ts"
+      ],
+      "fan_in": 4,
+      "fan_out": 6
+    },
+    {
+      "script_name": "run-filesystem-dependency-fixtures-v0.1.ts",
+      "script_path": "src/scripts/run-filesystem-dependency-fixtures-v0.1.ts",
+      "ecosystem": "general",
       "reads": [],
       "writes": [],
       "read_count": 0,
@@ -5757,9 +6500,12 @@
       "script_name": "run-replay-similarity-engine-v0.1.ts",
       "script_path": "src/scripts/run-replay-similarity-engine-v0.1.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/cases/replay-historical-case-registry-v0.1.json",
+        "data/replay/similarity"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 2,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -5770,9 +6516,13 @@
       "script_name": "run-replay-similarity-engine-v0.2.ts",
       "script_path": "src/scripts/run-replay-similarity-engine-v0.2.ts",
       "ecosystem": "replay",
-      "reads": [],
+      "reads": [
+        "data/replay/cases/replay-historical-case-registry-v0.1.json",
+        "data/replay/similarity",
+        "data/replay/taxonomy/replay-mechanism-taxonomy-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 3,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -6006,9 +6756,11 @@
       "script_name": "verify-dataset-v0.1.ts",
       "script_path": "src/scripts/verify-dataset-v0.1.ts",
       "ecosystem": "dataset",
-      "reads": [],
+      "reads": [
+        "data/intelligence/verified-dataset-registry-v0.1.json"
+      ],
       "writes": [],
-      "read_count": 0,
+      "read_count": 1,
       "write_count": 0,
       "upstream_scripts": [],
       "downstream_scripts": [],
@@ -6043,9 +6795,11 @@
       "producers": [
         "generate-article-draft-v0.1.ts"
       ],
-      "consumers": [],
+      "consumers": [
+        "generate-article-draft-v0.1.ts"
+      ],
       "producer_count": 1,
-      "consumer_count": 0,
+      "consumer_count": 1,
       "status": "exists"
     },
     {
@@ -6062,14 +6816,16 @@
     },
     {
       "package_path": "data/intelligence/article-intelligence-package-v0.1.json",
-      "producers": [],
+      "producers": [
+        "build-article-intelligence-package-v0.1.ts"
+      ],
       "consumers": [
         "build-article-intelligence-package-v0.1.ts",
         "build-openai-article-package-v0.2.ts",
         "build-openai-article-package-v0.3.ts",
         "build-openai-article-package-v0.4.ts"
       ],
-      "producer_count": 0,
+      "producer_count": 1,
       "consumer_count": 4,
       "status": "exists"
     },
@@ -6080,11 +6836,12 @@
       ],
       "consumers": [
         "build-article-workbench-package-v0.2.ts",
+        "build-data-request-queue-v0.1.ts",
         "build-prioritized-evidence-discovery-queue-v0.1.ts",
         "build-smurf-article-seed-from-opportunity-v0.1.ts"
       ],
       "producer_count": 1,
-      "consumer_count": 3,
+      "consumer_count": 4,
       "status": "exists"
     },
     {
@@ -6104,9 +6861,11 @@
       "producers": [
         "build-article-workbench-package-v0.1.ts"
       ],
-      "consumers": [],
+      "consumers": [
+        "build-article-workbench-package-v0.1.ts"
+      ],
       "producer_count": 1,
-      "consumer_count": 0,
+      "consumer_count": 1,
       "status": "exists"
     },
     {
@@ -6116,6 +6875,7 @@
       ],
       "consumers": [
         "build-article-intelligence-package-v0.1.ts",
+        "build-article-workbench-package-v0.2.ts",
         "build-graph-specification-package-v0.1.ts",
         "build-openai-article-package-v0.1.ts",
         "build-openai-article-package-v0.2.ts",
@@ -6126,7 +6886,7 @@
         "publish-article-workbench-v0.1.ts"
       ],
       "producer_count": 1,
-      "consumer_count": 9,
+      "consumer_count": 10,
       "status": "exists"
     },
     {
@@ -6258,24 +7018,28 @@
     },
     {
       "package_path": "data/intelligence/cms-draft-package-v0.1.json",
-      "producers": [],
+      "producers": [
+        "build-cms-draft-package-v0.1.ts"
+      ],
       "consumers": [
         "build-cms-draft-package-v0.1.ts",
         "publish-cms-draft-package-v0.1.ts"
       ],
-      "producer_count": 0,
+      "producer_count": 1,
       "consumer_count": 2,
       "status": "exists"
     },
     {
       "package_path": "data/intelligence/cms-publication-package-v0.1.json",
-      "producers": [],
+      "producers": [
+        "build-cms-publication-package-v0.1.ts"
+      ],
       "consumers": [
         "build-cms-draft-package-v0.1.ts",
         "build-cms-publication-package-v0.1.ts",
         "publish-cms-publication-package-v0.1.ts"
       ],
-      "producer_count": 0,
+      "producer_count": 1,
       "consumer_count": 3,
       "status": "exists"
     },
@@ -6365,25 +7129,49 @@
       "status": "exists"
     },
     {
-      "package_path": "data/intelligence/dataset-audit-report-v0.1.json",
+      "package_path": "data/intelligence/data-request-queue-v0.1.json",
       "producers": [],
+      "consumers": [
+        "build-dataset-coverage-engine-v0.1.ts",
+        "build-verified-dataset-registry-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/intelligence/dataset-audit-report-v0.1.json",
+      "producers": [
+        "build-dataset-audit-report-v0.1.ts"
+      ],
       "consumers": [
         "build-dataset-audit-report-v0.1.ts",
         "build-replay-dataset-evidence-bridge-v0.1.ts"
       ],
-      "producer_count": 0,
+      "producer_count": 1,
       "consumer_count": 2,
       "status": "referenced_missing"
+    },
+    {
+      "package_path": "data/intelligence/dataset-consistency-audit-v0.1.json",
+      "producers": [
+        "build-dataset-consistency-audit-v0.1.ts"
+      ],
+      "consumers": [],
+      "producer_count": 1,
+      "consumer_count": 0,
+      "status": "exists"
     },
     {
       "package_path": "data/intelligence/dataset-coverage-engine-v0.1.json",
       "producers": [],
       "consumers": [
+        "build-article-data-readiness-gate-v0.1.ts",
         "build-article-workbench-package-v0.1.ts",
         "build-article-workbench-package-v0.2.ts"
       ],
       "producer_count": 0,
-      "consumer_count": 2,
+      "consumer_count": 3,
       "status": "exists"
     },
     {
@@ -6409,12 +7197,15 @@
     },
     {
       "package_path": "data/intelligence/dependency-registry-v0.1.json",
-      "producers": [],
-      "consumers": [
+      "producers": [
         "build-dependency-registry-v0.1.ts"
       ],
-      "producer_count": 0,
-      "consumer_count": 1,
+      "consumers": [
+        "build-dependency-registry-v0.1.ts",
+        "build-engine-intelligence-registry-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 2,
       "status": "exists"
     },
     {
@@ -6461,6 +7252,16 @@
       ],
       "producer_count": 0,
       "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/intelligence/engine-intelligence-registry-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-engine-intelligence-registry-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 1,
       "status": "exists"
     },
     {
@@ -6634,7 +7435,9 @@
     },
     {
       "package_path": "data/intelligence/experience-registry-engine-v0.1.json",
-      "producers": [],
+      "producers": [
+        "build-experience-registry-engine-v0.1.ts"
+      ],
       "consumers": [
         "build-bulk-ingestion-readiness-check-v0.1.ts",
         "build-experience-confidence-engine-v0.1.ts",
@@ -6642,7 +7445,7 @@
         "build-experience-registry-engine-v0.1.ts",
         "build-module-registry-v0.1.ts"
       ],
-      "producer_count": 0,
+      "producer_count": 1,
       "consumer_count": 5,
       "status": "exists"
     },
@@ -6718,7 +7521,9 @@
     },
     {
       "package_path": "data/intelligence/graph-specification-package-v0.1.json",
-      "producers": [],
+      "producers": [
+        "build-graph-specification-package-v0.1.ts"
+      ],
       "consumers": [
         "build-article-graph-attachment-package-v0.1.ts",
         "build-graph-specification-package-v0.1.ts",
@@ -6727,7 +7532,7 @@
         "render-graph-specification-v0.2.ts",
         "render-graph-specification-v0.3.ts"
       ],
-      "producer_count": 0,
+      "producer_count": 1,
       "consumer_count": 6,
       "status": "exists"
     },
@@ -6854,6 +7659,16 @@
       "producers": [],
       "consumers": [
         "build-intelligence-delta-brief-engine-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 1,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/intelligence/intelligence-warehouse-registry-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-engine-intelligence-registry-v0.1.ts"
       ],
       "producer_count": 0,
       "consumer_count": 1,
@@ -7029,6 +7844,16 @@
       "producer_count": 0,
       "consumer_count": 2,
       "status": "exists"
+    },
+    {
+      "package_path": "data/intelligence/manual-datasets/${datasetId}.json",
+      "producers": [],
+      "consumers": [
+        "load-manual-dataset-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 1,
+      "status": "referenced_missing"
     },
     {
       "package_path": "data/intelligence/mechanism-confidence-engine-v0.2.json",
@@ -7325,10 +8150,11 @@
       ],
       "consumers": [
         "audit-openai-generated-article-v0.1.ts",
-        "build-cms-publication-package-v0.1.ts"
+        "build-cms-publication-package-v0.1.ts",
+        "generate-openai-article-v0.1.ts"
       ],
       "producer_count": 1,
-      "consumer_count": 2,
+      "consumer_count": 3,
       "status": "exists"
     },
     {
@@ -7394,11 +8220,23 @@
       "package_path": "data/intelligence/parsed-datasets",
       "producers": [],
       "consumers": [
-        "build-dataset-consistency-audit-v0.1.ts"
+        "build-dataset-consistency-audit-v0.1.ts",
+        "load-singstat-table-v0.1.ts",
+        "load-singstat-table-v0.2.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 3,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/intelligence/parsed-datasets/${datasetId}.json",
+      "producers": [],
+      "consumers": [
+        "load-csv-dataset-v0.1.ts"
       ],
       "producer_count": 0,
       "consumer_count": 1,
-      "status": "exists"
+      "status": "referenced_missing"
     },
     {
       "package_path": "data/intelligence/post-ingestion-comparison-engine-v0.1.json",
@@ -7530,6 +8368,18 @@
       "status": "exists"
     },
     {
+      "package_path": "data/intelligence/raw-downloads",
+      "producers": [],
+      "consumers": [
+        "download-source-dataset-v0.1.ts",
+        "load-singstat-table-v0.1.ts",
+        "load-singstat-table-v0.2.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 3,
+      "status": "exists"
+    },
+    {
       "package_path": "data/intelligence/raw-downloads/",
       "producers": [],
       "consumers": [
@@ -7543,10 +8393,11 @@
       "package_path": "data/intelligence/raw-downloads/${datasetId}.csv",
       "producers": [],
       "consumers": [
-        "download-source-dataset-v0.1.ts"
+        "download-source-dataset-v0.1.ts",
+        "load-csv-dataset-v0.1.ts"
       ],
       "producer_count": 0,
-      "consumer_count": 1,
+      "consumer_count": 2,
       "status": "referenced_missing"
     },
     {
@@ -7711,6 +8562,29 @@
       "status": "exists"
     },
     {
+      "package_path": "data/intelligence/source-download-config",
+      "producers": [],
+      "consumers": [
+        "build-singstat-manufacturing-registry-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 1,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/intelligence/source-download-config/${datasetId}.json",
+      "producers": [],
+      "consumers": [
+        "download-source-dataset-v0.1.ts",
+        "load-csv-dataset-v0.1.ts",
+        "load-singstat-table-v0.1.ts",
+        "load-singstat-table-v0.2.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 4,
+      "status": "referenced_missing"
+    },
+    {
       "package_path": "data/intelligence/validated-mechanism-registry-v0.1.json",
       "producers": [
         "build-validated-mechanism-registry-v0.1.ts"
@@ -7742,10 +8616,17 @@
         "build-article-workbench-package-v0.2.ts",
         "build-dataset-audit-report-v0.1.ts",
         "build-dataset-consistency-audit-v0.1.ts",
-        "build-replay-macro-source-attachment-builder-v0.1.ts"
+        "build-dataset-coverage-engine-v0.1.ts",
+        "build-graph-data-package-v0.1.ts",
+        "build-replay-macro-source-attachment-builder-v0.1.ts",
+        "load-csv-dataset-v0.1.ts",
+        "load-manual-dataset-v0.1.ts",
+        "load-singstat-table-v0.1.ts",
+        "load-singstat-table-v0.2.ts",
+        "verify-dataset-v0.1.ts"
       ],
       "producer_count": 0,
-      "consumer_count": 5,
+      "consumer_count": 12,
       "status": "exists"
     },
     {
@@ -7754,6 +8635,1218 @@
       "consumers": [
         "build-wave-1-batch-experience-promotion-v0.1.ts",
         "build-wave-1-learning-refresh-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/audit/replay-audit-summary-v0.1.json",
+      "producers": [
+        "build-replay-audit-summary-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-audit-summary-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 1,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/audit/replay-case-audit-v0.1.json",
+      "producers": [
+        "build-replay-case-audit-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-audit-summary-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 1,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/case-completeness-report-v0.1.json",
+      "producers": [
+        "case-completeness-engine-v0.1.ts"
+      ],
+      "consumers": [
+        "case-completeness-engine-v0.1.ts",
+        "replay-improvement-proposal-engine-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/cases/replay-historical-case-registry-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-case-audit-v0.1.ts",
+        "build-replay-case-depth-audit-v0.1.ts",
+        "build-replay-mechanism-coverage-v0.1.ts",
+        "build-replay-mechanism-taxonomy-coverage-v0.1.ts",
+        "build-replay-quality-summary-v0.1.ts",
+        "build-replay-scenario-library-v0.1.ts",
+        "case-completeness-engine-v0.1.ts",
+        "merge-replay-historical-cases-v0.1.ts",
+        "run-replay-similarity-engine-v0.1.ts",
+        "run-replay-similarity-engine-v0.2.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 10,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/cases/waves",
+      "producers": [],
+      "consumers": [
+        "merge-replay-historical-cases-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 1,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/coverage",
+      "producers": [],
+      "consumers": [
+        "build-replay-mechanism-coverage-v0.1.ts",
+        "build-replay-mechanism-taxonomy-coverage-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 2,
+      "status": "referenced_missing"
+    },
+    {
+      "package_path": "data/replay/coverage/replay-mechanism-coverage-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-mechanism-gap-report-v0.1.ts",
+        "build-replay-quality-summary-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 2,
+      "status": "referenced_missing"
+    },
+    {
+      "package_path": "data/replay/depth/replay-case-depth-audit-v0.1.json",
+      "producers": [
+        "build-replay-case-depth-audit-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-depth-enrichment-queue-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 1,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/depth/replay-depth-enrichment-queue-v0.1.json",
+      "producers": [
+        "build-replay-depth-enrichment-queue-v0.1.ts"
+      ],
+      "consumers": [],
+      "producer_count": 1,
+      "consumer_count": 0,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/depth/replay-depth-schema-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-case-audit-v0.1.ts",
+        "build-replay-case-depth-audit-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/evaluations",
+      "producers": [],
+      "consumers": [
+        "build-replay-evaluation-report-v0.1.ts",
+        "create-replay-run-manifest-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/evaluations/replay-evaluation-report-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-case-scoreboard-v0.1.ts",
+        "build-replay-evaluation-report-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/fleet",
+      "producers": [],
+      "consumers": [
+        "build-replay-fleet-manifest-v0.1.ts",
+        "build-replay-fleet-queue-report-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/fleet-evaluations",
+      "producers": [],
+      "consumers": [
+        "build-replay-fleet-evaluation-engine-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 1,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/fleet-evaluations/replay-fleet-evaluation-engine-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-mechanism-reputation-engine-v0.1.ts",
+        "build-replay-calibration-engine-v0.2.ts",
+        "build-replay-fleet-evaluation-engine-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 3,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/fleet-runs",
+      "producers": [],
+      "consumers": [
+        "build-replay-fleet-dry-run-executor-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 1,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/fleet-runs/replay-fleet-dry-run-executor-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-macro-attribution-engine-v0.1.ts",
+        "build-macro-attribution-engine-v0.2.ts",
+        "build-replay-fleet-dry-run-executor-v0.1.ts",
+        "build-replay-fleet-evaluation-engine-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 4,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/fleet/replay-fleet-manifest-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-fleet-dry-run-executor-v0.1.ts",
+        "build-replay-fleet-manifest-v0.1.ts",
+        "build-replay-fleet-queue-report-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 3,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/fleet/replay-fleet-queue-report-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-fleet-queue-report-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 1,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/history/replay-improvement-history-v0.1.json",
+      "producers": [
+        "build-replay-improvement-history-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-improvement-history-v0.1.ts",
+        "build-replay-improvement-report-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/input",
+      "producers": [],
+      "consumers": [
+        "build-replay-readiness-check-v0.1.ts",
+        "create-replay-run-manifest-v0.1.ts",
+        "generate-replay-inputs-v0.1.ts",
+        "generate-replay-inputs-v0.2.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 4,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/input/replay-input-sg-biomedical-2021-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-case-registry-v0.1.ts",
+        "build-replay-case-registry-v0.2.ts",
+        "generate-replay-inputs-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 3,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/input/replay-input-sg-electronics-2020-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-case-registry-v0.2.ts",
+        "generate-replay-inputs-v0.2.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 2,
+      "status": "referenced_missing"
+    },
+    {
+      "package_path": "data/replay/input/replay-input-sg-electronics-2021-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-case-registry-v0.2.ts",
+        "generate-replay-inputs-v0.2.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 2,
+      "status": "referenced_missing"
+    },
+    {
+      "package_path": "data/replay/input/replay-input-sg-manufacturing-recovery-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-case-registry-v0.1.ts",
+        "build-replay-case-registry-v0.2.ts",
+        "create-replay-run-manifest-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 3,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/input/replay-input-sg-petroleum-2020-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-case-registry-v0.1.ts",
+        "build-replay-case-registry-v0.2.ts",
+        "generate-replay-inputs-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 3,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/input/replay-input-sg-semiconductor-2021-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-case-registry-v0.1.ts",
+        "build-replay-case-registry-v0.2.ts",
+        "generate-replay-inputs-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 3,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/input/replay-input-sg-services-2020-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-case-registry-v0.2.ts",
+        "generate-replay-inputs-v0.2.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 2,
+      "status": "referenced_missing"
+    },
+    {
+      "package_path": "data/replay/input/replay-input-sg-services-2021-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-case-registry-v0.2.ts",
+        "generate-replay-inputs-v0.2.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 2,
+      "status": "referenced_missing"
+    },
+    {
+      "package_path": "data/replay/output",
+      "producers": [],
+      "consumers": [
+        "build-replay-executor-dry-run-v0.1.ts",
+        "build-replay-readiness-check-v0.1.ts",
+        "create-replay-run-manifest-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 3,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/output/replay-executor-dry-run-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-case-scoreboard-v0.1.ts",
+        "build-replay-evaluation-report-v0.1.ts",
+        "build-replay-executor-dry-run-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 3,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/papa-replay-dashboard-package-v0.1.json",
+      "producers": [
+        "build-papa-replay-dashboard-package-v0.1.ts"
+      ],
+      "consumers": [
+        "build-papa-replay-dashboard-package-v0.1.ts",
+        "build-replay-confidence-engine-v0.1.ts",
+        "build-replay-forecast-envelope-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 3,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/rejected",
+      "producers": [],
+      "consumers": [
+        "build-replay-readiness-check-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 1,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-analogue-summary-v0.1.json",
+      "producers": [
+        "build-replay-analogue-summary-v0.1.ts"
+      ],
+      "consumers": [
+        "build-papa-replay-dashboard-package-v0.1.ts",
+        "build-replay-analogue-summary-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-audit-report-v0.1.json",
+      "producers": [
+        "build-replay-audit-engine-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-audit-engine-v0.1.ts",
+        "build-replay-governance-history-v0.1.ts",
+        "promote-replay-proposal-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 3,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-brainy-diagnosis-v0.1.json",
+      "producers": [
+        "build-replay-brainy-diagnosis-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-brainy-diagnosis-v0.1.ts",
+        "build-replay-decision-support-layer-v0.1.ts",
+        "build-replay-depth-enrichment-queue-v0.1.ts",
+        "build-replay-forecast-range-smurf-v0.1.ts",
+        "build-replay-scenario-library-v0.1.ts",
+        "build-replay-self-improvement-orchestrator-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 6,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-calibration-engine-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-mechanism-reputation-engine-v0.1.ts",
+        "build-replay-calibration-engine-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-calibration-engine-v0.2.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-calibration-engine-v0.2.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 1,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-case-acquisition-queue-v0.1.json",
+      "producers": [
+        "build-replay-case-acquisition-queue-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-case-acquisition-queue-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 1,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-case-definitions-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-case-definitions-v0.1.ts",
+        "build-replay-evidence-mapping-queue-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-case-registry-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-case-registry-v0.1.ts",
+        "build-replay-case-registry-v0.2.ts",
+        "build-replay-case-scoreboard-v0.1.ts",
+        "build-replay-fleet-manifest-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 4,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-case-registry-v0.2.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-case-registry-v0.2.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 1,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-case-scoreboard-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-calibration-engine-v0.1.ts",
+        "build-replay-case-scoreboard-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-client-impact-assessment-v0.1.json",
+      "producers": [
+        "build-replay-client-impact-assessment-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-client-impact-assessment-v0.1.ts",
+        "build-replay-forecast-range-smurf-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 2,
+      "status": "referenced_missing"
+    },
+    {
+      "package_path": "data/replay/replay-confidence-engine-v0.1.json",
+      "producers": [
+        "build-replay-confidence-engine-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-brainy-diagnosis-v0.1.ts",
+        "build-replay-confidence-history-v0.1.ts",
+        "build-replay-decision-support-layer-v0.1.ts",
+        "build-replay-forecast-range-smurf-v0.1.ts",
+        "build-replay-historian-snapshot-v0.1.ts",
+        "build-replay-improvement-history-v0.1.ts",
+        "build-replay-scenario-library-v0.1.ts",
+        "build-replay-self-improvement-orchestrator-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 8,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-confidence-history-v0.1.json",
+      "producers": [
+        "build-replay-confidence-history-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-confidence-history-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 1,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-dataset-evidence-bridge-v0.1.json",
+      "producers": [
+        "build-replay-dataset-evidence-bridge-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-dataset-evidence-bridge-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 1,
+      "status": "referenced_missing"
+    },
+    {
+      "package_path": "data/replay/replay-decision-support-layer-v0.1.json",
+      "producers": [
+        "build-replay-decision-support-layer-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-client-impact-assessment-v0.1.ts",
+        "build-replay-decision-support-layer-v0.1.ts",
+        "build-replay-forecast-range-smurf-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 3,
+      "status": "referenced_missing"
+    },
+    {
+      "package_path": "data/replay/replay-evidence-mapping-queue-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-evidence-mapping-queue-v0.1.ts",
+        "build-replay-wave-1-pack-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-expansion-queue-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-case-definitions-v0.1.ts",
+        "build-replay-expansion-queue-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-explanation-summary-v0.1.json",
+      "producers": [
+        "build-replay-explanation-summary-v0.1.ts"
+      ],
+      "consumers": [
+        "build-papa-replay-dashboard-package-v0.1.ts",
+        "build-replay-explanation-summary-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-fleet-registry-v0.2.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-expansion-queue-v0.1.ts",
+        "build-replay-fleet-registry-v0.2.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-forecast-envelope-v0.1.json",
+      "producers": [
+        "build-replay-forecast-envelope-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-confidence-engine-v0.1.ts",
+        "build-replay-historian-snapshot-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-forecast-range-smurf-v0.1.json",
+      "producers": [
+        "build-replay-forecast-range-smurf-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-forecast-range-smurf-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 1,
+      "status": "referenced_missing"
+    },
+    {
+      "package_path": "data/replay/replay-governance-history-v0.1.json",
+      "producers": [
+        "build-replay-governance-history-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-governance-history-v0.1.ts",
+        "build-replay-self-improvement-orchestrator-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-historian-snapshot-v0.1.json",
+      "producers": [
+        "build-replay-historian-snapshot-v0.1.ts"
+      ],
+      "consumers": [],
+      "producer_count": 1,
+      "consumer_count": 0,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-improvement-proposals-v0.1.json",
+      "producers": [
+        "replay-improvement-proposal-engine-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-self-improvement-orchestrator-v0.1.ts",
+        "replay-improvement-proposal-engine-v0.1.ts",
+        "replay-proposal-registry-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 3,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-improvement-report-v0.1.json",
+      "producers": [
+        "build-replay-improvement-report-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-improvement-report-v0.1.ts",
+        "build-replay-self-improvement-orchestrator-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-landscape-cartographer-v0.1.json",
+      "producers": [
+        "build-replay-landscape-cartographer-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-landscape-cartographer-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 1,
+      "status": "referenced_missing"
+    },
+    {
+      "package_path": "data/replay/replay-macro-acquisition-queue-v0.1.json",
+      "producers": [
+        "build-replay-macro-acquisition-queue-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-macro-acquisition-queue-v0.1.ts",
+        "build-replay-macro-sourced-batch-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 2,
+      "status": "referenced_missing"
+    },
+    {
+      "package_path": "data/replay/replay-macro-anchor-expansion-queue-v0.1.json",
+      "producers": [
+        "build-replay-macro-anchor-expansion-queue-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-macro-acquisition-queue-v0.1.ts",
+        "build-replay-macro-anchor-expansion-queue-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 2,
+      "status": "referenced_missing"
+    },
+    {
+      "package_path": "data/replay/replay-macro-event-anchor-registry-v0.1.json",
+      "producers": [
+        "build-replay-macro-event-registry-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-macro-acquisition-queue-v0.1.ts",
+        "build-replay-macro-event-coverage-map-v0.1.ts",
+        "build-replay-macro-event-registry-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 3,
+      "status": "referenced_missing"
+    },
+    {
+      "package_path": "data/replay/replay-macro-event-coverage-map-v0.1.json",
+      "producers": [
+        "build-replay-macro-event-coverage-map-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-macro-anchor-expansion-queue-v0.1.ts",
+        "build-replay-macro-event-coverage-map-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 2,
+      "status": "referenced_missing"
+    },
+    {
+      "package_path": "data/replay/replay-macro-source-attachment-drafts-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-dataset-evidence-bridge-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 1,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-macro-source-checklist-v0.1.json",
+      "producers": [
+        "build-replay-macro-source-checklist-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-macro-source-attachment-builder-v0.1.ts",
+        "build-replay-macro-source-checklist-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 2,
+      "status": "referenced_missing"
+    },
+    {
+      "package_path": "data/replay/replay-macro-sourced-batch-v0.1.json",
+      "producers": [
+        "build-replay-macro-sourced-batch-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-macro-source-checklist-v0.1.ts",
+        "build-replay-macro-sourced-batch-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 2,
+      "status": "referenced_missing"
+    },
+    {
+      "package_path": "data/replay/replay-mechanism-gap-report-v0.1.json",
+      "producers": [
+        "build-replay-mechanism-gap-report-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-brainy-diagnosis-v0.1.ts",
+        "build-replay-case-acquisition-queue-v0.1.ts",
+        "build-replay-mechanism-gap-report-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 3,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-production-promotion-report-v0.1.json",
+      "producers": [
+        "promote-replay-proposal-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-governance-history-v0.1.ts",
+        "promote-replay-proposal-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-proposal-dashboard-v0.1.json",
+      "producers": [
+        "build-replay-proposal-dashboard-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-governance-history-v0.1.ts",
+        "build-replay-proposal-dashboard-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-proposal-registry-v0.1.json",
+      "producers": [
+        "approve-replay-proposal-v0.1.ts",
+        "promote-replay-proposal-v0.1.ts",
+        "reject-replay-proposal-v0.1.ts",
+        "replay-proposal-registry-v0.1.ts"
+      ],
+      "consumers": [
+        "approve-replay-proposal-v0.1.ts",
+        "build-replay-governance-history-v0.1.ts",
+        "build-replay-proposal-dashboard-v0.1.ts",
+        "build-replay-shadow-execution-v0.1.ts",
+        "promote-replay-proposal-v0.1.ts",
+        "reject-replay-proposal-v0.1.ts",
+        "replay-proposal-registry-v0.1.ts"
+      ],
+      "producer_count": 4,
+      "consumer_count": 7,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-quality-summary-v0.1.json",
+      "producers": [
+        "build-replay-quality-summary-v0.1.ts"
+      ],
+      "consumers": [
+        "build-papa-replay-dashboard-package-v0.1.ts",
+        "build-replay-confidence-engine-v0.1.ts",
+        "build-replay-historian-snapshot-v0.1.ts",
+        "build-replay-improvement-history-v0.1.ts",
+        "build-replay-quality-summary-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 5,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-readiness-check-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-evaluation-report-v0.1.ts",
+        "build-replay-executor-dry-run-v0.1.ts",
+        "build-replay-fleet-dry-run-executor-v0.1.ts",
+        "build-replay-readiness-check-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 4,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-run-config-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-readiness-check-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 1,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-scenario-library-v0.1.json",
+      "producers": [
+        "build-replay-scenario-library-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-decision-support-layer-v0.1.ts",
+        "build-replay-forecast-range-smurf-v0.1.ts",
+        "build-replay-macro-event-coverage-map-v0.1.ts",
+        "build-replay-scenario-library-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 4,
+      "status": "referenced_missing"
+    },
+    {
+      "package_path": "data/replay/replay-self-improvement-orchestrator-v0.1.json",
+      "producers": [
+        "build-replay-self-improvement-orchestrator-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-decision-support-layer-v0.1.ts",
+        "build-replay-self-improvement-orchestrator-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 2,
+      "status": "referenced_missing"
+    },
+    {
+      "package_path": "data/replay/replay-shadow-execution-report-v0.1.json",
+      "producers": [
+        "build-replay-shadow-execution-v0.1.ts"
+      ],
+      "consumers": [
+        "build-replay-audit-engine-v0.1.ts",
+        "build-replay-governance-history-v0.1.ts",
+        "build-replay-shadow-execution-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 3,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-wave-1-pack-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-evidence-files-v0.1.ts",
+        "build-replay-wave-1-pack-v0.1.ts",
+        "build-replay-wave-1-readiness-gate-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 3,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/replay-wave-1-readiness-gate-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-evidence-files-v0.1.ts",
+        "build-replay-wave-1-readiness-gate-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/run-manifests",
+      "producers": [],
+      "consumers": [
+        "build-replay-executor-dry-run-v0.1.ts",
+        "build-replay-readiness-check-v0.1.ts",
+        "create-replay-run-manifest-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 3,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/run-manifests/${replayRunId}.json",
+      "producers": [
+        "create-replay-run-manifest-v0.1.ts"
+      ],
+      "consumers": [
+        "create-replay-run-manifest-v0.1.ts"
+      ],
+      "producer_count": 1,
+      "consumer_count": 1,
+      "status": "referenced_missing"
+    },
+    {
+      "package_path": "data/replay/similarity",
+      "producers": [],
+      "consumers": [
+        "build-replay-analogue-summary-v0.1.ts",
+        "build-replay-explanation-summary-v0.1.ts",
+        "run-replay-similarity-engine-v0.1.ts",
+        "run-replay-similarity-engine-v0.2.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 4,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/snapshots",
+      "producers": [],
+      "consumers": [
+        "build-replay-readiness-check-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 1,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/taxonomy/replay-mechanism-taxonomy-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-case-audit-v0.1.ts",
+        "build-replay-mechanism-taxonomy-coverage-v0.1.ts",
+        "run-replay-similarity-engine-v0.2.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 3,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/wave-1/SG-NODX-2023-evidence-validation-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-evidence-validation-engine-v0.1.ts",
+        "build-single-case-replay-runner-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/wave-1/SG-NODX-2023-experience-promotion-gate-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-experience-candidate-registry-v0.1.ts",
+        "build-experience-promotion-gate-v0.1.ts",
+        "build-replay-fleet-learning-report-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 3,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/wave-1/SG-NODX-2023-outcome-comparison-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-experience-candidate-registry-v0.1.ts",
+        "build-experience-promotion-gate-v0.1.ts",
+        "build-outcome-comparison-engine-v0.1.ts",
+        "build-replay-fleet-learning-report-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 4,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/wave-1/SG-NODX-2023-single-case-replay-result-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-outcome-comparison-engine-v0.1.ts",
+        "build-single-case-replay-runner-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/wave-1/evidence-files",
+      "producers": [],
+      "consumers": [
+        "build-replay-evidence-files-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 1,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/wave-1/evidence-files/${caseId}-replay-evidence-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-wave-1-batch-replay-runner-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 1,
+      "status": "referenced_missing"
+    },
+    {
+      "package_path": "data/replay/wave-1/evidence-files/SG-FINANCE-2020-replay-evidence-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-wave-1-batch-evidence-populator-v0.1.ts",
+        "build-wave-1-batch-evidence-validation-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/wave-1/evidence-files/SG-GOODS-EXPORTS-2020-replay-evidence-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-wave-1-batch-evidence-populator-v0.1.ts",
+        "build-wave-1-batch-evidence-validation-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/wave-1/evidence-files/SG-LABOUR-MARKET-2020-replay-evidence-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-wave-1-batch-evidence-populator-v0.1.ts",
+        "build-wave-1-batch-evidence-validation-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/wave-1/evidence-files/SG-NODX-2023-replay-evidence-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-evidence-populator-v0.1.ts",
+        "build-replay-evidence-validation-engine-v0.1.ts",
+        "build-single-case-replay-runner-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 3,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/wave-1/replay-evidence-file-index-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-evidence-files-v0.1.ts",
+        "build-replay-evidence-population-plan-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/wave-1/replay-evidence-population-plan-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-evidence-population-plan-v0.1.ts",
+        "build-replay-publication-date-gate-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/wave-1/replay-fleet-learning-report-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-fleet-learning-report-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 1,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/wave-1/replay-publication-date-gate-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-replay-publication-date-gate-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 1,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/wave-1/wave-1-batch-evidence-validation-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-wave-1-batch-evidence-validation-v0.1.ts",
+        "build-wave-1-batch-replay-runner-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/wave-1/wave-1-batch-outcome-comparison-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-wave-1-batch-experience-promotion-v0.1.ts",
+        "build-wave-1-batch-outcome-comparison-v0.1.ts"
+      ],
+      "producer_count": 0,
+      "consumer_count": 2,
+      "status": "exists"
+    },
+    {
+      "package_path": "data/replay/wave-1/wave-1-batch-replay-results-v0.1.json",
+      "producers": [],
+      "consumers": [
+        "build-wave-1-batch-outcome-comparison-v0.1.ts",
+        "build-wave-1-batch-replay-runner-v0.1.ts"
       ],
       "producer_count": 0,
       "consumer_count": 2,
