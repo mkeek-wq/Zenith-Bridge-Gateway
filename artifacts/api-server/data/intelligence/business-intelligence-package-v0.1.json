@@ -1,0 +1,487 @@
+{
+  "version": "business-intelligence-package-v0.1",
+  "generated_at": "2026-07-12T13:26:36.907Z",
+  "purpose": "Canonical composed view of existing governed intelligence packages for downstream products and analysis.",
+  "doctrine": "The Business Intelligence Package composes specialist outputs without replacing their source packages or creating new intelligence.",
+  "governance": {
+    "safety_mode": "COMPOSITION_ONLY",
+    "production_write_allowed": false,
+    "human_review_required": true,
+    "source_packages_remain_canonical": true
+  },
+  "health": {
+    "overall_status": "degraded",
+    "total_package_count": 12,
+    "available_package_count": 12,
+    "missing_required_count": 0,
+    "missing_optional_count": 0,
+    "stale_package_count": 2
+  },
+  "packages": {
+    "verified_datasets": {
+      "key": "verified_datasets",
+      "source_path": "data/intelligence/verified-dataset-registry-v0.1.json",
+      "required": true,
+      "status": "available",
+      "version": "verified-dataset-registry-v0.1",
+      "generated_at": "2026-06-14T09:39:30.619Z",
+      "age_days": 28.16,
+      "freshness": "aging",
+      "summary": {
+        "dataset_count": 14,
+        "verified_count": 7
+      },
+      "source_files": null,
+      "error": null
+    },
+    "dataset_audit": {
+      "key": "dataset_audit",
+      "source_path": "data/intelligence/dataset-audit-report-v0.1.json",
+      "required": true,
+      "status": "available",
+      "version": "dataset-audit-report-v0.1",
+      "generated_at": "2026-07-12T08:34:19.340Z",
+      "age_days": 0.2,
+      "freshness": "current",
+      "summary": {
+        "dataset_count": 14,
+        "pass_count": 4,
+        "questionable_count": 3,
+        "fail_count": 7
+      },
+      "source_files": {
+        "verified_dataset_registry": "data/intelligence/verified-dataset-registry-v0.1.json"
+      },
+      "error": null
+    },
+    "signal_watchlist": {
+      "key": "signal_watchlist",
+      "source_path": "data/intelligence/signal-watchlist-registry-v0.1.json",
+      "required": true,
+      "status": "available",
+      "version": "signal-watchlist-registry-v0.1",
+      "generated_at": "2026-06-06T06:00:59.831Z",
+      "age_days": 36.31,
+      "freshness": "stale",
+      "summary": {
+        "drivers_processed": 13,
+        "watchlist_items": 45,
+        "weekly_items": 8,
+        "biweekly_items": 16,
+        "monthly_items": 6,
+        "quarterly_items": 15
+      },
+      "source_files": null,
+      "error": null
+    },
+    "macro_attribution": {
+      "key": "macro_attribution",
+      "source_path": "data/intelligence/macro-attribution-engine-v0.2.json",
+      "required": true,
+      "status": "available",
+      "version": "macro-attribution-engine-v0.2",
+      "generated_at": "2026-06-09T13:12:37.005Z",
+      "age_days": 33.01,
+      "freshness": "stale",
+      "summary": {
+        "cases_attributed": 4,
+        "strong_macro_explanation": 3,
+        "moderate_macro_explanation": 1,
+        "weak_macro_explanation": 0,
+        "limited_macro_explanation": 0
+      },
+      "source_files": {
+        "replay_cases": 4,
+        "macro_transmission_items": 12,
+        "mechanism_reputation_items": 3,
+        "relevance_domains": 8
+      },
+      "error": null
+    },
+    "article_workbench": {
+      "key": "article_workbench",
+      "source_path": "data/intelligence/article-workbench-package-v0.2.json",
+      "required": false,
+      "status": "available",
+      "version": "article-workbench-package-v0.2",
+      "generated_at": "2026-06-15T06:52:09.723Z",
+      "age_days": 27.27,
+      "freshness": "aging",
+      "summary": {
+        "package_count": 10,
+        "ready_count": 4,
+        "blocked_count": 6
+      },
+      "source_files": {
+        "candidate_queue": "/var/www/zenith-admin/intelligence-data/candidate-queue-v0.2.json",
+        "coverage_engine": "data/intelligence/dataset-coverage-engine-v0.1.json",
+        "readiness_gate": "data/intelligence/article-data-readiness-gate-v0.1.json",
+        "graph_data_package": "data/intelligence/graph-data-package-v0.1.json",
+        "verified_dataset_registry": "data/intelligence/verified-dataset-registry-v0.1.json",
+        "article_opportunity_queue": "data/intelligence/article-opportunity-queue-v0.1.json"
+      },
+      "error": null
+    },
+    "article_intelligence": {
+      "key": "article_intelligence",
+      "source_path": "data/intelligence/article-intelligence-package-v0.1.json",
+      "required": false,
+      "status": "available",
+      "version": "article-intelligence-package-v0.1",
+      "generated_at": "2026-06-17T03:38:55.945Z",
+      "age_days": 25.41,
+      "freshness": "aging",
+      "summary": {
+        "package_count": 10,
+        "sector_count": 6
+      },
+      "source_files": {
+        "workbench_package": "data/intelligence/article-workbench-package-v0.2.json",
+        "graph_data_package": "data/intelligence/graph-data-package-v0.1.json"
+      },
+      "error": null
+    },
+    "replay_analogue": {
+      "key": "replay_analogue",
+      "source_path": "data/replay/replay-analogue-summary-v0.1.json",
+      "required": true,
+      "status": "available",
+      "version": "replay-analogue-summary-v0.1",
+      "generated_at": "2026-07-05T09:06:44.300Z",
+      "age_days": 7.18,
+      "freshness": "aging",
+      "summary": {
+        "historical_case_count": 25,
+        "replay_record_count": 3,
+        "taxonomy_aware": true,
+        "top_analogue_count": 3
+      },
+      "source_files": null,
+      "error": null
+    },
+    "replay_confidence": {
+      "key": "replay_confidence",
+      "source_path": "data/replay/replay-confidence-engine-v0.1.json",
+      "required": true,
+      "status": "available",
+      "version": "replay-confidence-engine-v0.1",
+      "generated_at": "2026-07-01T02:42:09.724Z",
+      "age_days": 11.45,
+      "freshness": "aging",
+      "summary": {
+        "confidence_score": 0.55,
+        "confidence_band": "moderate",
+        "interpretation": "Replay confidence is an internal quality indicator, not a prediction accuracy claim."
+      },
+      "source_files": null,
+      "error": null
+    },
+    "replay_scenarios": {
+      "key": "replay_scenarios",
+      "source_path": "data/replay/replay-scenario-library-v0.1.json",
+      "required": true,
+      "status": "available",
+      "version": "replay-scenario-library-v0.1",
+      "generated_at": "2026-07-12T08:34:20.685Z",
+      "age_days": 0.2,
+      "freshness": "current",
+      "summary": {
+        "scenario_count": 7,
+        "current_replay_state": {
+          "confidence_score": 0.55,
+          "confidence_band": "moderate",
+          "brainy_mode": "breadth",
+          "brainy_recommendation": "Acquire additional historical cases."
+        }
+      },
+      "source_files": {
+        "historical_registry": "data/replay/cases/replay-historical-case-registry-v0.1.json",
+        "confidence_engine": "data/replay/replay-confidence-engine-v0.1.json",
+        "brainy_diagnosis": "data/replay/replay-brainy-diagnosis-v0.1.json"
+      },
+      "error": null
+    },
+    "replay_decision_support": {
+      "key": "replay_decision_support",
+      "source_path": "data/replay/replay-decision-support-layer-v0.1.json",
+      "required": true,
+      "status": "available",
+      "version": "replay-decision-support-layer-v0.1",
+      "generated_at": "2026-07-12T08:34:21.902Z",
+      "age_days": 0.2,
+      "freshness": "current",
+      "summary": {
+        "decision_item_count": 7,
+        "current_replay_state": {
+          "confidence_score": 0.55,
+          "confidence_band": "moderate",
+          "brainy_mode": "breadth",
+          "recommended_improvement_mode": null
+        },
+        "global_caution": "Replay outputs are decision-support inputs only and require Papa/human review before client-facing use."
+      },
+      "source_files": {
+        "scenario_library": "data/replay/replay-scenario-library-v0.1.json",
+        "confidence_engine": "data/replay/replay-confidence-engine-v0.1.json",
+        "brainy_diagnosis": "data/replay/replay-brainy-diagnosis-v0.1.json",
+        "self_improvement_orchestrator": null
+      },
+      "error": null
+    },
+    "replay_client_impact": {
+      "key": "replay_client_impact",
+      "source_path": "data/replay/replay-client-impact-assessment-v0.1.json",
+      "required": true,
+      "status": "available",
+      "version": "replay-client-impact-assessment-v0.1",
+      "generated_at": "2026-07-12T08:34:23.126Z",
+      "age_days": 0.2,
+      "freshness": "current",
+      "summary": {
+        "client_profile_count": 3,
+        "assessment_count": 3,
+        "high_impact_profiles": 3
+      },
+      "source_files": {
+        "decision_support": "data/replay/replay-decision-support-layer-v0.1.json"
+      },
+      "error": null
+    },
+    "replay_dataset_evidence": {
+      "key": "replay_dataset_evidence",
+      "source_path": "data/replay/replay-dataset-evidence-bridge-v0.1.json",
+      "required": true,
+      "status": "available",
+      "version": "replay-dataset-evidence-bridge-v0.1",
+      "generated_at": "2026-07-12T08:34:24.387Z",
+      "age_days": 0.2,
+      "freshness": "current",
+      "summary": {
+        "dataset_count": 14,
+        "dataset_pass_count": 4,
+        "draft_count": 14,
+        "events_with_passed_dataset_candidates": 0,
+        "dataset_evidence_coverage_ratio": 0
+      },
+      "source_files": {
+        "macro_source_attachment_drafts": "data/replay/replay-macro-source-attachment-drafts-v0.1.json",
+        "dataset_audit_report": "data/intelligence/dataset-audit-report-v0.1.json"
+      },
+      "error": null
+    }
+  },
+  "intelligence_sections": {
+    "datasets": {
+      "registry": {
+        "dataset_count": 14,
+        "verified_count": 7
+      },
+      "audit": {
+        "dataset_count": 14,
+        "pass_count": 4,
+        "questionable_count": 3,
+        "fail_count": 7
+      }
+    },
+    "signals": {
+      "watchlist": {
+        "drivers_processed": 13,
+        "watchlist_items": 45,
+        "weekly_items": 8,
+        "biweekly_items": 16,
+        "monthly_items": 6,
+        "quarterly_items": 15
+      }
+    },
+    "macro": {
+      "attribution": {
+        "cases_attributed": 4,
+        "strong_macro_explanation": 3,
+        "moderate_macro_explanation": 1,
+        "weak_macro_explanation": 0,
+        "limited_macro_explanation": 0
+      }
+    },
+    "replay": {
+      "analogue": {
+        "historical_case_count": 25,
+        "replay_record_count": 3,
+        "taxonomy_aware": true,
+        "top_analogue_count": 3
+      },
+      "confidence": {
+        "confidence_score": 0.55,
+        "confidence_band": "moderate",
+        "interpretation": "Replay confidence is an internal quality indicator, not a prediction accuracy claim."
+      },
+      "scenarios": {
+        "scenario_count": 7,
+        "current_replay_state": {
+          "confidence_score": 0.55,
+          "confidence_band": "moderate",
+          "brainy_mode": "breadth",
+          "brainy_recommendation": "Acquire additional historical cases."
+        }
+      },
+      "decision_support": {
+        "decision_item_count": 7,
+        "current_replay_state": {
+          "confidence_score": 0.55,
+          "confidence_band": "moderate",
+          "brainy_mode": "breadth",
+          "recommended_improvement_mode": null
+        },
+        "global_caution": "Replay outputs are decision-support inputs only and require Papa/human review before client-facing use."
+      },
+      "client_impact": {
+        "client_profile_count": 3,
+        "assessment_count": 3,
+        "high_impact_profiles": 3
+      },
+      "dataset_evidence": {
+        "dataset_count": 14,
+        "dataset_pass_count": 4,
+        "draft_count": 14,
+        "events_with_passed_dataset_candidates": 0,
+        "dataset_evidence_coverage_ratio": 0
+      }
+    },
+    "existing_article_pipeline": {
+      "workbench": {
+        "package_count": 10,
+        "ready_count": 4,
+        "blocked_count": 6
+      },
+      "article_intelligence": {
+        "package_count": 10,
+        "sector_count": 6
+      },
+      "status": "legacy_pipeline_preserved_for_reuse"
+    }
+  },
+  "knowledge_gaps": {
+    "missing_required_packages": [],
+    "missing_optional_packages": [],
+    "stale_packages": [
+      {
+        "key": "signal_watchlist",
+        "source_path": "data/intelligence/signal-watchlist-registry-v0.1.json",
+        "generated_at": "2026-06-06T06:00:59.831Z",
+        "age_days": 36.31
+      },
+      {
+        "key": "macro_attribution",
+        "source_path": "data/intelligence/macro-attribution-engine-v0.2.json",
+        "generated_at": "2026-06-09T13:12:37.005Z",
+        "age_days": 33.01
+      }
+    ],
+    "known_intelligence_gaps": [
+      {
+        "gap": "Replay dataset evidence coverage is currently limited.",
+        "source_package": "data/replay/replay-dataset-evidence-bridge-v0.1.json",
+        "current_value": {
+          "dataset_count": 14,
+          "dataset_pass_count": 4,
+          "draft_count": 14,
+          "events_with_passed_dataset_candidates": 0,
+          "dataset_evidence_coverage_ratio": 0
+        }
+      },
+      {
+        "gap": "Current package is broad and is not yet scoped to one business question or client profile.",
+        "status": "planned_for_topic_intelligence_package"
+      }
+    ]
+  },
+  "lineage": {
+    "composer_script": "src/scripts/build-business-intelligence-package-v0.1.ts",
+    "output_path": "data/intelligence/business-intelligence-package-v0.1.json",
+    "direct_source_packages": [
+      {
+        "key": "verified_datasets",
+        "source_path": "data/intelligence/verified-dataset-registry-v0.1.json",
+        "version": "verified-dataset-registry-v0.1",
+        "generated_at": "2026-06-14T09:39:30.619Z",
+        "status": "available"
+      },
+      {
+        "key": "dataset_audit",
+        "source_path": "data/intelligence/dataset-audit-report-v0.1.json",
+        "version": "dataset-audit-report-v0.1",
+        "generated_at": "2026-07-12T08:34:19.340Z",
+        "status": "available"
+      },
+      {
+        "key": "signal_watchlist",
+        "source_path": "data/intelligence/signal-watchlist-registry-v0.1.json",
+        "version": "signal-watchlist-registry-v0.1",
+        "generated_at": "2026-06-06T06:00:59.831Z",
+        "status": "available"
+      },
+      {
+        "key": "macro_attribution",
+        "source_path": "data/intelligence/macro-attribution-engine-v0.2.json",
+        "version": "macro-attribution-engine-v0.2",
+        "generated_at": "2026-06-09T13:12:37.005Z",
+        "status": "available"
+      },
+      {
+        "key": "article_workbench",
+        "source_path": "data/intelligence/article-workbench-package-v0.2.json",
+        "version": "article-workbench-package-v0.2",
+        "generated_at": "2026-06-15T06:52:09.723Z",
+        "status": "available"
+      },
+      {
+        "key": "article_intelligence",
+        "source_path": "data/intelligence/article-intelligence-package-v0.1.json",
+        "version": "article-intelligence-package-v0.1",
+        "generated_at": "2026-06-17T03:38:55.945Z",
+        "status": "available"
+      },
+      {
+        "key": "replay_analogue",
+        "source_path": "data/replay/replay-analogue-summary-v0.1.json",
+        "version": "replay-analogue-summary-v0.1",
+        "generated_at": "2026-07-05T09:06:44.300Z",
+        "status": "available"
+      },
+      {
+        "key": "replay_confidence",
+        "source_path": "data/replay/replay-confidence-engine-v0.1.json",
+        "version": "replay-confidence-engine-v0.1",
+        "generated_at": "2026-07-01T02:42:09.724Z",
+        "status": "available"
+      },
+      {
+        "key": "replay_scenarios",
+        "source_path": "data/replay/replay-scenario-library-v0.1.json",
+        "version": "replay-scenario-library-v0.1",
+        "generated_at": "2026-07-12T08:34:20.685Z",
+        "status": "available"
+      },
+      {
+        "key": "replay_decision_support",
+        "source_path": "data/replay/replay-decision-support-layer-v0.1.json",
+        "version": "replay-decision-support-layer-v0.1",
+        "generated_at": "2026-07-12T08:34:21.902Z",
+        "status": "available"
+      },
+      {
+        "key": "replay_client_impact",
+        "source_path": "data/replay/replay-client-impact-assessment-v0.1.json",
+        "version": "replay-client-impact-assessment-v0.1",
+        "generated_at": "2026-07-12T08:34:23.126Z",
+        "status": "available"
+      },
+      {
+        "key": "replay_dataset_evidence",
+        "source_path": "data/replay/replay-dataset-evidence-bridge-v0.1.json",
+        "version": "replay-dataset-evidence-bridge-v0.1",
+        "generated_at": "2026-07-12T08:34:24.387Z",
+        "status": "available"
+      }
+    ]
+  }
+}
