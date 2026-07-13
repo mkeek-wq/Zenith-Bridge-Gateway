@@ -1,0 +1,220 @@
+{
+  "version": "platform-steward-operational-summary-v0.1",
+  "generated_at": "2026-07-13T01:05:32.777Z",
+  "purpose": "Reference Operational Summary describing Platform Steward runtime, repository and capability health.",
+  "mission": "Observe and summarize the operational condition of the ZNBW Village without replacing ownership of underlying source packages.",
+  "doctrine": {
+    "summary_is_operational_intelligence": true,
+    "source_packages_remain_canonical": true,
+    "composition_does_not_create_new_telemetry": true,
+    "honest_health_reporting_required": true,
+    "production_write_allowed": false,
+    "human_review_required": true
+  },
+  "responsibility": {
+    "owner": "Platform Steward",
+    "domain": "platform_operations",
+    "scope": [
+      "runtime_health",
+      "repository_structure",
+      "capability_inventory"
+    ]
+  },
+  "health": {
+    "overall_status": "amber",
+    "source_count": 3,
+    "available_source_count": 3,
+    "missing_source_count": 0,
+    "invalid_source_count": 0,
+    "stale_source_count": 0,
+    "aging_source_count": 1,
+    "warning_count": 4,
+    "critical_count": 0
+  },
+  "operational_summary": {
+    "runtime_health": {
+      "status": "available",
+      "source_freshness": "aging",
+      "source_age_days": 10.66,
+      "overall_status": "amber",
+      "branch": "recovery/june25-known-good",
+      "git_dirty_count": 89,
+      "disk_used_percent": 19,
+      "memory_available_mb": 1066,
+      "endpoints": {
+        "website": 200,
+        "admin_login": 200,
+        "api_health": 200,
+        "featured_articles": 200
+      },
+      "intelligence_packages": {
+        "article_preview_exists": true,
+        "graph_attachment_exists": true
+      },
+      "warnings": [
+        "git_dirty_count_89"
+      ],
+      "criticals": []
+    },
+    "repository_health": {
+      "status": "available",
+      "source_freshness": "current",
+      "source_age_days": 1.72,
+      "scripts_scanned": 395,
+      "scripts_with_reads": 248,
+      "scripts_with_writes": 88,
+      "packages_referenced": 252,
+      "packages_with_producers": 85,
+      "packages_with_consumers": 246,
+      "orphan_outputs": 6,
+      "referenced_missing_packages": 27,
+      "ecosystems": {
+        "article_publication": 54,
+        "dataset": 13,
+        "decision": 3,
+        "evidence": 39,
+        "general": 111,
+        "graph": 14,
+        "macro": 23,
+        "mechanism": 13,
+        "registry": 35,
+        "replay": 90
+      },
+      "doctrine": {
+        "dependencies_are_inferred_from_filesystem_references": true,
+        "registry_is_discovery_not_truth": true,
+        "manual_module_registry_remains_authoritative_for_curated_modules": true,
+        "dependency_visibility_precedes_orchestration": true
+      }
+    },
+    "capability_health": {
+      "status": "available",
+      "source_freshness": "current",
+      "source_age_days": 2.93,
+      "engine_count": 394,
+      "intelligence_file_count": 177,
+      "replay_file_count": 34,
+      "package_count": 211,
+      "engine_capability_counts": {
+        "replay": 90,
+        "other": 117,
+        "governance": 11,
+        "evidence": 35,
+        "article_publication": 52,
+        "dataset": 15,
+        "decision": 3,
+        "learning_memory": 16,
+        "graph": 14,
+        "historian": 9,
+        "macro": 15,
+        "mechanism": 13,
+        "forecast": 4
+      },
+      "package_capability_counts": {
+        "other": 69,
+        "article_publication": 23,
+        "evidence": 11,
+        "governance": 8,
+        "dataset": 10,
+        "decision": 3,
+        "learning_memory": 14,
+        "graph": 2,
+        "historian": 2,
+        "replay": 39,
+        "macro": 12,
+        "mechanism": 14,
+        "forecast": 4
+      },
+      "capabilities": [
+        "replay",
+        "forecast",
+        "decision",
+        "historian",
+        "macro",
+        "evidence",
+        "mechanism",
+        "dataset",
+        "article_publication",
+        "graph",
+        "governance",
+        "learning_memory",
+        "other"
+      ]
+    }
+  },
+  "warnings": [
+    "aging_source:runtime_health",
+    "repository_dirty_count:89",
+    "orphan_outputs:6",
+    "referenced_missing_packages:27"
+  ],
+  "criticals": [],
+  "recommendations": [
+    "Refresh the Hygiene Smurf overall health report soon.",
+    "Review the dirty repository files and separate intentional work from unrelated or stale changes.",
+    "Review orphan outputs and determine whether they require consumers, documentation or retirement.",
+    "Review referenced missing packages and classify each as expected, obsolete or unresolved."
+  ],
+  "sources": [
+    {
+      "key": "runtime_health",
+      "source_path": "data/maintenance/overall-health-v0.1.json",
+      "required": true,
+      "status": "available",
+      "version": "hygiene-smurf-overall-health-v0.1",
+      "generated_at": "2026-07-02T09:15:16+00:00",
+      "age_days": 10.66,
+      "freshness": "aging",
+      "error": null
+    },
+    {
+      "key": "dependency_registry",
+      "source_path": "data/intelligence/dependency-registry-v0.1.json",
+      "required": true,
+      "status": "available",
+      "version": "dependency-registry-v0.1",
+      "generated_at": "2026-07-11T07:45:41.291Z",
+      "age_days": 1.72,
+      "freshness": "current",
+      "error": null
+    },
+    {
+      "key": "warehouse_registry",
+      "source_path": "data/intelligence/intelligence-warehouse-registry-v0.1.json",
+      "required": true,
+      "status": "available",
+      "version": "intelligence-warehouse-registry-v0.1",
+      "generated_at": "2026-07-10T02:50:06.765Z",
+      "age_days": 2.93,
+      "freshness": "current",
+      "error": null
+    }
+  ],
+  "lineage": {
+    "composer_script": "src/scripts/build-platform-steward-operational-summary-v0.1.ts",
+    "output_path": "data/intelligence/platform-steward-operational-summary-v0.1.json",
+    "direct_source_packages": [
+      {
+        "key": "runtime_health",
+        "source_path": "data/maintenance/overall-health-v0.1.json",
+        "version": "hygiene-smurf-overall-health-v0.1",
+        "generated_at": "2026-07-02T09:15:16+00:00",
+        "status": "available"
+      },
+      {
+        "key": "dependency_registry",
+        "source_path": "data/intelligence/dependency-registry-v0.1.json",
+        "version": "dependency-registry-v0.1",
+        "generated_at": "2026-07-11T07:45:41.291Z",
+        "status": "available"
+      },
+      {
+        "key": "warehouse_registry",
+        "source_path": "data/intelligence/intelligence-warehouse-registry-v0.1.json",
+        "version": "intelligence-warehouse-registry-v0.1",
+        "generated_at": "2026-07-10T02:50:06.765Z",
+        "status": "available"
+      }
+    ]
+  }
+}
